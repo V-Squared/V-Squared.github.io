@@ -1,21 +1,45 @@
 [
-    {
-        "name":"For Maker",
-        "description" : "Standards, Blueprints & Development Kits",
-        "id":"for-makers",
-        "items" : [
-            {
-                "name": "V²Case",
-                "img": "images/389x389.png",
-                "gitLink": "#",
-                "description":"Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories "
-            },
-            {
-                "name": "V²Accessories",
-                "img" : "images/389x389.png",
-                "gitLink": "#",
-                "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories "
-            }
-        ]
-    }
+  {
+    "name": "For Maker",
+    "description": "Standards, Blueprints & Development Kits",
+    "id": "for-makers",
+    "items": [
+      {
+        "name": "V²Case",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      },
+      {
+        "name": "V²Accessories",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      },
+      {
+        "name": "V²PC",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      },
+      {
+        "name": "V²Bare",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      },
+      {
+        "name": "V²Panel",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. Maker Docu: Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      },
+      {
+        "name": "V²Dock",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+      }
+    ]
+  }
 ]
