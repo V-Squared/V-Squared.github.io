@@ -41,5 +41,30 @@
         "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
       }
     ]
+  },
+    {
+    "name": "For DIY",
+    "description": "Standards, Blueprints & Development Kits",
+    "id": "for-makers",
+    "items": [
+      {
+        "name": "V²Configurator",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²Configuration as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback."
+      },
+      {
+        "name": "V² How to DIY Mini PC",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "How-to Articles on custom building your own DIY Mini or All-In-One Computer "
+      },
+      {
+        "name": "V²Base.Compatibility",
+        "img": "images/389x389.png",
+        "gitLink": "#",
+        "description": "V² Compatibility Web App"
+      }
+    ]
   }
 ]
