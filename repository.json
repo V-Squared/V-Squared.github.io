@@ -1,0 +1,21 @@
+[
+    {
+        "name":"For Maker",
+        "description" : "Standards, Blueprints & Development Kits",
+        "id":"for-makers",
+        "items" : [
+            {
+                "name": "V²Case",
+                "img": "images/389x389.png",
+                "gitLink": "#",
+                "description":"Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories "
+            },
+            {
+                "name": "V²Accessories",
+                "img" : "images/389x389.png",
+                "gitLink": "#",
+                "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories "
+            }
+        ]
+    }
+]

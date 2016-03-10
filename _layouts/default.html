@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  {% include head.html %}
+
+  <body ng-controller="mainController">
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="uk-container uk-container-center">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
