@@ -2,7 +2,7 @@
   {
     "name": "For Maker",
     "description": "Standards, Blueprints & Development Kits",
-    "id": "for-makers",
+    "id": "for-maker",
     "items": [
       {
         "name": "V²Case",
@@ -45,7 +45,7 @@
     {
     "name": "For DIY",
     "description": "Standards, Blueprints & Development Kits",
-    "id": "for-makers",
+    "id": "for-diy",
     "items": [
       {
         "name": "V²Configurator",
