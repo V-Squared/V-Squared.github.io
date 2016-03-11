@@ -74,7 +74,7 @@
     "items": [
       {
         "name": "ViCase",
-        "img": " 	389x389_theme=sky.png",
+        "img": "389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use"
       },
@@ -92,7 +92,7 @@
       },
       {
         "name": "ViBare",
-        "img": " 	389x389_theme=sky.png",
+        "img": "389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use"
       },
