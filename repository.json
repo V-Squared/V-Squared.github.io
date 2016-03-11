@@ -32,7 +32,7 @@
         "name": "V²Panel",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. Maker Docu: Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
       },
       {
         "name": "V²Dock",
@@ -51,7 +51,7 @@
         "name": "V²Configurator",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²Configuration as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback."
+        "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²PC as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback."
       },
       {
         "name": "V² How to DIY Mini PC",
@@ -119,7 +119,7 @@
         "name": "Facebook",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as Village ViDock"
+        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall."
       },
       {
         "name": "YouTube",
@@ -156,7 +156,7 @@
         "name": "Milestones",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>."
+        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>."
       }
     ]
   },
