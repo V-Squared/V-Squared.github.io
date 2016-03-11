@@ -109,5 +109,129 @@
         "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use"
       }
     ]
+  },
+  {
+    "name": "Social Media",
+    "description": "The easiest way to get in contact with us",
+    "id": "social",
+    "items": [
+      {
+        "name": "Facebook",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as Village ViDock"
+      },
+      {
+        "name": "YouTube",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012."
+      },
+      {
+        "name": "Twitter",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "We are new on Twitter. But intend to make our presence a great one with your help!"
+      }
+    ]
+  },
+  {
+    "name": "Marketing",
+    "description": "Spreading the Word and Products in through Communnity",
+    "id": "marketing",
+    "items": [
+      {
+        "name": "Community Promotions",
+        "img": "389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns."
+      },
+      {
+        "name": "Shops",
+        "img": "389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Listing of all shops selling V² Products."
+      },
+      {
+        "name": "Milestones",
+        "img": "389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>."
+      }
+    ]
+  },
+  {
+    "name": "Organization",
+    "description": "About the people, process and legal stuff creating the V² Open Standards",
+    "id": "organization",
+    "items": [
+      {
+        "name": "About",
+        "img": "389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard"
+      },
+      {
+        "name": "Contributing",
+        "img": "389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member."
+      },
+      {
+        "name": "Blog",
+        "img": "389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "News, Incubating Articles, Public Brainstorming"
+      }
+    ]
+  },
+  {
+    "name": "Misc",
+    "description": "About the people, process and legal stuff creating the V² Open Standards",
+    "id": "misc",
+    "items": [
+      {
+        "name": "v2-Videogular-SingleStep",
+        "img": "389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards. "
+      },
+      {
+        "name": "v2-Video-Active",
+        "img": "389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Interactive HTML5 Angular Video Player made with Angular."
+      },
+      {
+        "name": "v2-Slide",
+        "img": "389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Powerful Slideshow Plugin made with Angular."
+      },
+      {
+        "name": "V²Art",
+        "img": "389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows."
+      },
+      {
+        "name": "V²Docu",
+        "img": "389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "About writing consistently and efficient. "
+      },
+      {
+        "name": "V²Contribution",
+        "img": "389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Workflow and Tutorials on how to contribute to V²"
+      },
+      {
+        "name": "V²Site",
+        "img": "389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Research and Know How on Workflow and Coding of websites for V². "
+      }
+    ]
   }
 ]
