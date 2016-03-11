@@ -29,6 +29,7 @@ layout: default
         <div ng-repeat="repository in repositorySection.items">
           <h3>[[repository.name]]</h3>
           <a ng-href="[[repository.gitLink]]">GitHub</a>
+          <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
           <br />
           <figure class="uk-overlay uk-overlay-hover">
             <img ng-src="[[repository.img]]">
