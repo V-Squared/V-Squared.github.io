@@ -4,19 +4,15 @@
         font-weight:500;
         color:#888;
     }
-    border-bottom: 1px solid #EFF0F1;
-    padding-bottom:15px;
-    padding-top:30px;
+    border-bottom: 1pt solid #EFF0F1;
+    padding-bottom:15pt;
+    padding-top:30pt;
 }
 
-.portfolio {
-    padding: 60px 0;
-}
-
-@media (min-width:855px) {
+@media (min-width:855pt) {
     .intro {
         .tagline {
-            font-size: 30px;
+            font-size: 23pt;
             text-align:center;
         }
     }
@@ -35,7 +31,7 @@
         margin-left:0;
         li {
             list-style:none;
-            padding-right:15px;
+            padding-right:15pt;
         }
         li:last-child {
             padding-right:0;
@@ -58,7 +54,9 @@
             flex-shrink: 0
         }
         
-        padding-top:20px;
-        padding-bottom:20px;
+        padding-top:20pt;
+        padding-bottom:20pt;
     }
+    
+    padding-top:60pt;
 }

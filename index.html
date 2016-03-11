@@ -22,7 +22,7 @@ layout: default
   </div>
   
   <div class="portfolio">
-    <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="repositorySection.id">
+    <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="[[repositorySection.id]]">
       <h2>[[repositorySection.name]]</h2>
       <p><em>[[repositorySection.description]]</em></p>
       <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
