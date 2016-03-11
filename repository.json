@@ -142,19 +142,19 @@
     "items": [
       {
         "name": "Community Promotions",
-        "img": "389x389_theme=lava.png",
+        "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns."
       },
       {
         "name": "Shops",
-        "img": "389x389_theme=gray.png",
+        "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "Listing of all shops selling V² Products."
       },
       {
         "name": "Milestones",
-        "img": "389x389_theme=vine.png",
+        "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>."
       }
@@ -167,19 +167,19 @@
     "items": [
       {
         "name": "About",
-        "img": "389x389_theme=social.png",
+        "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard"
       },
       {
         "name": "Contributing",
-        "img": "389x389_theme=sky.png",
+        "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member."
       },
       {
         "name": "Blog",
-        "img": "389x389_theme=industrial.png",
+        "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "News, Incubating Articles, Public Brainstorming"
       }
@@ -192,43 +192,43 @@
     "items": [
       {
         "name": "v2-Videogular-SingleStep",
-        "img": "389x389_theme=lava.png",
+        "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards. "
       },
       {
         "name": "v2-Video-Active",
-        "img": "389x389_theme=vine.png",
+        "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "Interactive HTML5 Angular Video Player made with Angular."
       },
       {
         "name": "v2-Slide",
-        "img": "389x389_theme=industrial.png",
+        "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Powerful Slideshow Plugin made with Angular."
       },
       {
         "name": "V²Art",
-        "img": "389x389_theme=social.png",
+        "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows."
       },
       {
         "name": "V²Docu",
-        "img": "389x389_theme=sky.png",
+        "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "About writing consistently and efficient. "
       },
       {
         "name": "V²Contribution",
-        "img": "389x389_theme=lava.png",
+        "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Workflow and Tutorials on how to contribute to V²"
       },
       {
         "name": "V²Site",
-        "img": "389x389_theme=industrial.png",
+        "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Research and Know How on Workflow and Coding of websites for V². "
       }
