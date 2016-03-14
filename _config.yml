@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Community Projects for modular and upgradable Mini and All-In-One PC & Workstation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://v-squared.github.io/" # the base hostname & protocol for your site
 twitter_username: villagevidock
 github_username:  v-squared
 include: ["_pages"]

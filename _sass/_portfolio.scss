@@ -45,13 +45,20 @@
         color:#111 !important;
     }
     
-    .uk-grid div {
+    .uk-grid > div {
         h3 {
             margin-bottom:0;
         }
-    
-        img {
-            flex-shrink: 0
+        
+        .uk-progress-overlay {
+            position:relative;
+            bottom:26pt;
+            display:flex;
+            
+            > div {
+                width:25%;
+                font-size:10pt;
+            }
         }
         
         padding-top:20pt;

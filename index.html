@@ -10,16 +10,18 @@ layout: default
     </h2>
     <div class="portlotifo-nav">
         <ul>
-          <li><a href="#for-maker" data-uk-smooth-scroll>For Maker</a></li>
-          <li><a href="#for-diy" data-uk-smooth-scroll>For DIY</a></li>
-          <li><a href="#products" data-uk-smooth-scroll>Products</a></li>
-          <li><a href="#social" data-uk-smooth-scroll>Social Media</a></li>
-          <li><a href="#marketing" data-uk-smooth-scroll>Marketing</a></li>
-          <li><a href="#organization" data-uk-smooth-scroll>Organization</a></li>
-          <li><a href="#misc" data-uk-smooth-scroll>Misc</a></li>
+          <li><a href="#for-maker"    data-uk-smooth-scroll >For Maker</a></li>
+          <li><a href="#for-diy"      data-uk-smooth-scroll >For DIY</a></li>
+          <li><a href="#products"     data-uk-smooth-scroll >Products</a></li>
+          <li><a href="#social"       data-uk-smooth-scroll >Social Media</a></li>
+          <li><a href="#marketing"    data-uk-smooth-scroll >Marketing</a></li>
+          <li><a href="#organization" data-uk-smooth-scroll >Organization</a></li>
+          <li><a href="#misc"         data-uk-smooth-scroll >Misc</a></li>
         </ul>
     </div>
   </div>
+
+  
   
   <div class="portfolio">
     <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="[[repositorySection.id]]">
@@ -33,8 +35,17 @@ layout: default
           <br />
           <figure class="uk-overlay uk-overlay-hover">
             <img ng-src="[[repository.img]]">
-            <figcaption ng-bind-html="[[repository.description]]" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
+            <figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
           </figure>
+          <div class="uk-progress" ng-if="repository.progress">
+           <div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}">[[repository.progress]]%</div>
+          </div>
+          <div class="uk-progress-overlay">
+            <div>ASDA1</div>
+            <div>ASDA2</div>
+            <div>ASDA3</div>
+            <div>ASDA4</div>
+          </div>
         </div>
       </div>
     </div>

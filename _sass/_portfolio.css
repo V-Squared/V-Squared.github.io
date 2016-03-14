@@ -1,0 +1,42 @@
+.intro {
+  border-bottom: 1pt solid #EFF0F1;
+  padding-bottom: 15pt;
+  padding-top: 30pt; }
+  .intro .tagline {
+    text-align: center;
+    font-weight: 500;
+    color: #888; }
+
+@media (min-width: 855pt) {
+  .intro .tagline {
+    font-size: 23pt;
+    text-align: center; } }
+.portlotifo-nav ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0; }
+  .portlotifo-nav ul li {
+    list-style: none;
+    padding-right: 15pt; }
+  .portlotifo-nav ul li:last-child {
+    padding-right: 0; }
+
+.portfolio-section {
+  padding-top: 60pt; }
+  .portfolio-section em {
+    color: #111 !important; }
+  .portfolio-section .uk-grid div {
+    padding-top: 20pt;
+    padding-bottom: 20pt; }
+    .portfolio-section .uk-grid div h3 {
+      margin-bottom: 0; }
+    .portfolio-section .uk-grid div img {
+      flex-shrink: 0; }
+
+/*# sourceMappingURL=_portfolio.css.map */
