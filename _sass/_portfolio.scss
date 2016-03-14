@@ -50,28 +50,6 @@
             margin-bottom:0;
         }
         
-        .uk-progress-overlay {
-            position:relative;
-            bottom:26pt;
-            display: -webkit-box;
-            display: -moz-box; 
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            text-align:center;
-            height: 14.5pt;
-            
-            > div {
-                width:25%;
-                font-size:10pt;
-                color:#037CB7;
-                border-right: 1pt solid #037CB7;
-            }
-
-            > div:last-child {
-                border-right: 0;
-            }
-        }
         
         padding-top:20pt;
         padding-bottom:20pt;
