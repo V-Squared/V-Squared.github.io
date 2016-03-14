@@ -47,16 +47,19 @@ layout: default
             <div>Make</div>
           </div>-->
 
-          <div class="progess-bar">
+          <div class="progess-bar" ng-if="repository.progress">
             <ol class="progress progress--small">
-              <li class="is-complete" data-step="1">
-                Step 1
+              <li data-step="1" ng-class="repository.progress[0]">
+                Create
               </li>
-              <li class="is-complete" data-step="2">
-                Step 2
+              <li data-step="2" ng-class="repository.progress[1]">
+                Develop
               </li>
-              <li data-step="3" class="is-active progress__last">
-                Step 3
+              <li data-step="3" ng-class="repository.progress[2]">
+                Beta
+              </li>
+              <li data-step="4" ng-class="repository.progress[3]" class="progress__last">
+                Make
               </li>
             </ol>
           </div>
