@@ -37,15 +37,33 @@ layout: default
             <img ng-src="[[repository.img]]">
             <figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
           </figure>
-          <div class="uk-progress" ng-if="repository.progress">
-           <div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}">[[repository.progress]]%</div>
+          <!--<div class="uk-progress" ng-if="repository.progress">
+           <div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}"></div>
           </div>
-          <div class="uk-progress-overlay">
-            <div>ASDA1</div>
-            <div>ASDA2</div>
-            <div>ASDA3</div>
-            <div>ASDA4</div>
+          <div class="uk-progress-overlay" ng-if="repository.progress">
+            <div>Create</div>
+            <div>Develop</div>
+            <div>Beta</div>
+            <div>Make</div>
+          </div>-->
+
+          <div class="progess-bar" ng-if="repository.progress">
+            <ol class="progress progress--small">
+              <li data-step="1" ng-class="repository.progress[0]">
+                Create
+              </li>
+              <li data-step="2" ng-class="repository.progress[1]">
+                Develop
+              </li>
+              <li data-step="3" ng-class="repository.progress[2]">
+                Beta
+              </li>
+              <li data-step="4" ng-class="repository.progress[3]" class="progress__last">
+                Make
+              </li>
+            </ol>
           </div>
+
         </div>
       </div>
     </div>
