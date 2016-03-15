@@ -9,7 +9,7 @@
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "progress": ["is-complete","is-complete","is-complete",""],
         "ribbonName": "Off"
       },
       {
@@ -17,7 +17,7 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "progress": ["is-complete","is-complete","is-complete",""],
         "ribbonName": "Off"
       },
       {
@@ -25,7 +25,7 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","","",""],
+        "progress": ["is-complete","is-complete","",""],
         "ribbonName": "Off"
       },
       {
@@ -33,7 +33,7 @@
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","","",""],
+        "progress": ["is-complete","is-complete","",""],
         "ribbonName": "Off"
       },
       {
@@ -41,7 +41,7 @@
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "progress": ["is-complete","is-complete","",""],
         "ribbonName": "Off"
       },
       {
@@ -94,37 +94,49 @@
         "name": "ViCase",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use"
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "ribbonName": "Off"
       },
       {
         "name": "ViAccessories",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use"
+        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use",
+        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "ribbonName": "Off"
       },
       {
         "name": "ViPC",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use"
+        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": ["is-complete","is-complete","is-complete",""],
+        "ribbonName": "Off"
       },
       {
         "name": "ViBare",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use"
+        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": ["is-complete","is-complete","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "ViPanel",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use"
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": ["is-complete","is-complete","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "ViDock",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use"
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": ["is-complete","is-complete","",""],
+        "ribbonName": "Off"
       }
     ]
   },
