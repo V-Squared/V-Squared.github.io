@@ -111,7 +111,7 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","is-complete",""],
+        "progress": ["is-complete","is-complete","is-complete","is-active"],
         "ribbonName": "Off"
       },
       {
@@ -149,19 +149,25 @@
         "name": "Facebook",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall."
+        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall.",
+        "progress": ["is-complete","is-complete","is-complete","is-complete"],
+        "ribbonName": "Off"
       },
       {
         "name": "YouTube",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012."
+        "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012.",
+        "progress": ["is-complete","is-complete","is-complete","is-complete"],
+        "ribbonName": "Off"
       },
       {
         "name": "Twitter",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "We are new on Twitter. But intend to make our presence a great one with your help!"
+        "description": "We are new on Twitter. But intend to make our presence a great one with your help!",
+        "progress": ["","","",""],
+        "ribbonName": "Off"
       }
     ]
   },
