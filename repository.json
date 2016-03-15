@@ -17,33 +17,40 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "ribbonName": "Next"
+        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "ribbonName": "Off"
       },
       {
         "name": "V²PC",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "ribbonName": "Hot"
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Bare",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "ribbonName": "On"
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Panel",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": ["is-complete","is-complete","is-complete","is-active"],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Dock",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": ["is-complete","is-complete","",""],
+        "ribbonName": "Off"
       }
     ]
   },
