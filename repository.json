@@ -9,25 +9,29 @@
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-active",""]
+        "progress": ["is-complete","is-complete","is-active",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Accessories",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "ribbonName": "Next"
       },
       {
         "name": "V²PC",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "ribbonName": "Hot"
       },
       {
         "name": "V²Bare",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories"
+        "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "ribbonName": "On"
       },
       {
         "name": "V²Panel",

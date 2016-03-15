@@ -60,3 +60,39 @@
     
     padding-top:60pt;
 }
+
+// Ribbon
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  position: absolute;
+  top: -0px;
+  right: -0px;
+}
+
+.ribbon {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #039be5;
+  color: #FFF;
+}
+
+.ribbon:before {
+  left: 0;
+}
+
+.ribbon:after {
+  right: 0;
+}

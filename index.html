@@ -35,6 +35,9 @@ layout: default
           <br />
           <figure class="uk-overlay uk-overlay-hover">
             <img ng-src="[[repository.img]]">
+            <div class="ribbon-wrapper" data-uk-tooltip title="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
+              <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
+            </div>
             <figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
           </figure>
           <!--<div class="uk-progress" ng-if="repository.progress">
