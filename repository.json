@@ -211,19 +211,25 @@
         "name": "About",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard"
+        "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "Contributing",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member."
+        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "Blog",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "News, Incubating Articles, Public Brainstorming"
+        "description": "News, Incubating Articles, Public Brainstorming",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       }
     ]
   },
@@ -236,43 +242,57 @@
         "name": "v2-Videogular-SingleStep",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards. "
+        "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "On"
       },
       {
         "name": "v2-Video-Active",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "Interactive HTML5 Angular Video Player made with Angular."
+        "description": "Interactive HTML5 Angular Video Player made with Angular.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "On"
       },
       {
         "name": "v2-Slide",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Powerful Slideshow Plugin made with Angular."
+        "description": "Powerful Slideshow Plugin made with Angular.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Art",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows."
+        "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Docu",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "About writing consistently and efficient. "
+        "description": "About writing consistently and efficient.",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Contribution",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Workflow and Tutorials on how to contribute to V²"
+        "description": "Workflow and Tutorials on how to contribute to V²",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "V²Site",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Research and Know How on Workflow and Coding of websites for V². "
+        "description": "Research and Know How on Workflow and Coding of websites for V².",
+        "progress": ["is-complete","","",""],
+        "ribbonName": "Off"
       }
     ]
   }
