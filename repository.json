@@ -180,19 +180,25 @@
         "name": "Community Promotions",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns."
+        "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns.",
+        "progress": ["is-complete","is-active","",""],
+        "ribbonName": "Off"
       },
       {
         "name": "Shops",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Listing of all shops selling V² Products."
+        "description": "Listing of all shops selling V² Products.",
+        "progress": ["is-complete","is-active","",""],
+        "ribbonName": "On"
       },
       {
         "name": "Milestones",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>."
+        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>.",
+        "progress": ["is-complete","is-active","",""],
+        "ribbonName": "Off"
       }
     ]
   },
