@@ -1,4 +1,4 @@
-<nav class="uk-navbar v2-navbar" data-uk-sticky="">
+<nav class="uk-navbar v2-navbar uk-navbar-attached" data-uk-sticky="">
 
   <div class="uk-container uk-container-center">
 
@@ -15,17 +15,62 @@
         </svg>
       </a>-->
 
-      <ul class="uk-navbar-nav v2-navbar-nav">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li>
-            <a class="{% if page.url == my_page.url %}uk-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          </li>
-          {% endif %}
-        {% endfor %}
+      <ul class="uk-navbar-nav v2-navbar-nav uk-hidden-small">
+        <li>
+          <a href="#" class="{% if page.url == '/product' %}uk-active{% endif %}">Products</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/maker' %}uk-active{% endif %}">For Maker</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/diy' %}uk-active{% endif %}">For DIY</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/social' %}uk-active{% endif %}">Social Media</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/marketing' %}uk-active{% endif %}">Marketing</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/organization' %}uk-active{% endif %}">Organization</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Misc</a>
+        </li>
       </ul>
+      <div style="padding-top:5px;" class="uk-navbar-flip uk-visible-small">
+        <a href="#moble-site-nav" class="uk-navbar-toggle" data-uk-offcanvas></a>
+      </div>
     <!--</nav>-->
 
   </div>
 
 </nav>
+
+<div id="moble-site-nav" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="">
+        <li class="{% if page.url == '/product' %}uk-active{% endif %}">
+          <a href="#">Trailblazer Products</a>
+        </li>
+        <li class="{% if page.url == '/maker' %}uk-active{% endif %}">
+          <a href="#">For Maker</a>
+        </li>
+        <li class="{% if page.url == '/diy' %}uk-active{% endif %}">
+          <a href="#">For DIY</a>
+        </li>
+        <li class="{% if page.url == '/social' %}uk-active{% endif %}">
+          <a href="#">Social Media</a>
+        </li>
+        <li class="{% if page.url == '/marketing' %}uk-active{% endif %}">
+          <a href="#">Marketing</a>
+        </li>
+        <li class="{% if page.url == '/organization' %}uk-active{% endif %}">
+          <a href="#">Organization</a>
+        </li>
+        <li class="{% if page.url == '/misc' %}uk-active{% endif %}">
+          <a href="#">Misc</a>
+        </li>
+    </ul>
+  </div>
+</div>
