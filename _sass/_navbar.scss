@@ -2,6 +2,9 @@
     min-height: 50px;
     width:1665px !important;
 }
+.v2-navbar.uk-active {
+    z-index: 9999;
+}
 .v2-navbar-nav > li > a {
     height:auto;
     padding:15px;
