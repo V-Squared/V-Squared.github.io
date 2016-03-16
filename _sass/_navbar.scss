@@ -1,46 +1,17 @@
-.nav {
-    padding-top:20px;
-    padding-top:10px;
+.v2-navbar {
+    min-height: 50px;
 }
-.nav-logo {
-    width:80px;
-    margin:0 auto;
+.v2-navbar-nav > li > a {
+    height:auto;
+    padding:15px;
+    line-height:inherit;
 }
-.nav-title {
-    text-align:center;
-    margin:0;
-    color: #2d3c48;
+.v2-navbar-nav > li > a:hover {
+    cursor:pointer;
 }
-.nav-github {
-    text-align:center;
-    a {
-        width:160px;
-    }
+.v2-navbar .uk-active {
+    background-color:#DDDDDD;
 }
-
-@media (min-width:588px) {
-    .nav {
-        display:flex;
-        align-items:center;
-        justify-content: space-between;
-    }
-    .nav-header {
-        display:flex;
-        align-items:center;
-    }
-    .nav-logo {
-        padding-right:10px;
-        margin:0;
-    }
-    .nav-title {
-        text-align:left;
-        font-size: 25px;
-    }
-    .nav-github {
-        width:160px;
-        text-align:right;
-        a {
-            font-size:13px;
-        }
-    }
+.v2-navbar-brand {
+    padding-left:0;
 }

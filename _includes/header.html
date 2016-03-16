@@ -1,21 +1,76 @@
-<header class="site-header">
+<nav class="uk-navbar v2-navbar uk-navbar-attached" data-uk-sticky="">
 
   <div class="uk-container uk-container-center">
-    
-    <nav class="nav uk-flex-middle">
-    
-      <div class="nav-header">
-        <div class="nav-logo">
-          <img src="https://avatars1.githubusercontent.com/u/7278625?v=3&s=200" class="uk-margin uk-margin-remove">
-        </div>
-    
-        <h3 class="nav-title uk-text-middle">{{ site.title }}</h3>
+
+    <a class="uk-navbar-brand v2-navbar-brand" href="{{ site.baseurl }}/">
+      <img src="https://avatars1.githubusercontent.com/u/7278625?v=3&s=200" style="height: 50px" class="uk-margin uk-margin-remove">
+    </a>
+
+    <!--<nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>-->
+
+      <ul class="uk-navbar-nav v2-navbar-nav uk-hidden-small">
+        <li>
+          <a href="#" class="{% if page.url == '/product' %}uk-active{% endif %}">Products</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/maker' %}uk-active{% endif %}">For Maker</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/diy' %}uk-active{% endif %}">For DIY</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/social' %}uk-active{% endif %}">Social Media</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/marketing' %}uk-active{% endif %}">Marketing</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/organization' %}uk-active{% endif %}">Organization</a>
+        </li>
+        <li>
+          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Misc</a>
+        </li>
+      </ul>
+      <div style="padding-top:5px;" class="uk-navbar-flip uk-visible-small">
+        <a href="#moble-site-nav" class="uk-navbar-toggle" data-uk-offcanvas></a>
       </div>
-      
-      <div class="nav-github"><a href="https://www.github.com/V-Squared">github.com/V-Squared</a></div>
-    
-    </nav>
+    <!--</nav>-->
 
   </div>
 
-</header>
+</nav>
+
+<div id="moble-site-nav" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="">
+        <li class="{% if page.url == '/product' %}uk-active{% endif %}">
+          <a href="#">Trailblazer Products</a>
+        </li>
+        <li class="{% if page.url == '/maker' %}uk-active{% endif %}">
+          <a href="#">For Maker</a>
+        </li>
+        <li class="{% if page.url == '/diy' %}uk-active{% endif %}">
+          <a href="#">For DIY</a>
+        </li>
+        <li class="{% if page.url == '/social' %}uk-active{% endif %}">
+          <a href="#">Social Media</a>
+        </li>
+        <li class="{% if page.url == '/marketing' %}uk-active{% endif %}">
+          <a href="#">Marketing</a>
+        </li>
+        <li class="{% if page.url == '/organization' %}uk-active{% endif %}">
+          <a href="#">Organization</a>
+        </li>
+        <li class="{% if page.url == '/misc' %}uk-active{% endif %}">
+          <a href="#">Misc</a>
+        </li>
+    </ul>
+  </div>
+</div>
