@@ -39,7 +39,9 @@
         }
     }
 }
-
+.portfolio-section:nth-child(even) {
+  background:#F5F5F5;
+}
 .portfolio-section {
     
     em {
@@ -59,7 +61,8 @@
         padding-bottom:20pt;
     }
     
-    padding-top:60pt;
+    padding-top:30pt;
+    padding-bottom:30pt;
 }
 
 // Ribbon
