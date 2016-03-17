@@ -1,4 +1,4 @@
-angular.module('myApp')
+angular.module('site')
 .controller('homeController',function($scope,$http) {
     var vm = this;
     

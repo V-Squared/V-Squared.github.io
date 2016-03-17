@@ -11,11 +11,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   
-  <script type="text/javascript" src="js/dependencies/jquery.min.js"></script>
-  <script type="text/javascript" src="js/dependencies/angular.min.js"></script>
+  <script type="text/javascript" src="_javascript/dependencies/jquery.min.js"></script>
+  <script type="text/javascript" src="_javascript/dependencies/angular.min.js"></script>
   
   <script>
-  angular.module('myApp', ['ngSanitize'], function($interpolateProvider) {
+  angular.module('site', ['ngSanitize'], function($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
   })

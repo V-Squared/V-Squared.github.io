@@ -102,3 +102,34 @@
   padding: 30px 0;
   border-bottom: 1px solid #E5E5E5;
 }
+.compliances {
+  padding:5px 0;
+  background-color: #EEEEEE;
+}
+.compliances-row {
+  padding-bottom: 5px;
+  h3 {
+    color:#666;
+    cursor:pointer;
+    text-align:center;
+  }
+
+  #github-compliances h3:hover {
+    color:#6CC644;
+  }
+  #open-source-compliances h3:hover {
+    color:#3DA639;
+  }
+  #open-hardware-compliances h3:hover {
+    color:#0099B0;
+  }
+  #mit-compliances h3:hover {
+    color:#A50020;
+  }
+  #cc-compliances h3:hover {
+    color:#000;
+  }
+  #arduino-compliances h3:hover {
+    color:#00929F;
+  }
+}

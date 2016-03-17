@@ -35,8 +35,38 @@ layout: home
           <h2 class="tagline">Upgradable Mini and All-In-One PC</h2>
         </div>
       </div>
-      <p class="uk-text-justify">This is an Open Source, Non-Profit Organization on GitHub that creates, compiles and catalogs projects, know-how articles, standards, blue prints and applications for the purpose to make Mini and All-In-One Computer modular and ugradable. For the benefit of the individual DIY person as well as the industry as a whole. We have published what we have under CC and MIT License and we are working on closing all holes. Since this is Open Source, you are invited to help. Or simply use what is already available. Pay attention to the progress bars and ribbons.</p>
+      <p class="uk-text-justify"><i>V-Squared</i> is an Open Source, Non-Profit Standard Initiative and Community on <a href="https://github.com/V-Squared">GitHub.com/V-Squared</a> that creates, compiles and catalogs projects, know-how articles, standards, blue prints and applications for the purpose to make Mini and All-In-One Computer modular and ugradable. For the benefit of the individual DIY person as well as the industry as a whole. We have published what we have under CC and MIT License and we are working on closing all holes. Since this is Open Source, you are invited to help. Or simply use what is already available. Pay attention to the progress bars and ribbons.</p>
     </div>
+  </div>
+
+  <div class="compliances">
+
+    <div class="uk-container uk-container-center">
+
+      <div class="uk-grid uk-grid-width-1-6 compliances-row">
+        <div id="github-compliances">
+          <h3 data-uk-tooltip title="We host all projects, web sites and know how on the leading Project Hosting Web Site. Project management is done with its ticketing system "\GitHub Issues"\.">GitHub</h3>
+        </div>
+        <div id="open-source-compliances">
+          <h3 data-uk-tooltip title="V² Initiative is compliant with all Guidelines of the Open Source Initiative. Use V² or contribute to it with confidence.">Open Source Initiative</h3>
+        </div>
+        <div id="open-hardware-compliances">
+          <h3 data-uk-tooltip title="All our open source hardware projects are compliant to the guidelines of the Open Source Hardware Association and thus earned the Open Source Hardware Logo.">Open Hardware</h3>
+        </div>
+        <div id="mit-compliances">
+          <h3 data-uk-tooltip title="MIT License is the most free to copy license in the Open Source Software world. Copy our designs with confidence for any intended use.">MIT</h3>
+        </div>
+        <div id="cc-compliances">
+          <h3 data-uk-tooltip title="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">CC</h3>
+        </div>
+        <div id="arduino-compliances">
+          <h3 data-uk-tooltip title="The leading Open Source Micro Controller Platform. We use it for advanced embedded functions. Easy to develop and document. Low cost in mass production.">Arduino</h3>
+        </div>
+      </div>
+
+      <p class="footnote">Open Source Compliance: Use V² Standards and Copy V² Blueprints with Zero Cost and Zero Worries</p>
+    </div>
+
   </div>
 
   
@@ -60,7 +90,7 @@ layout: home
   <div class="portfolio">
     <div class="uk-container uk-container-center">
       <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="[[repositorySection.id]]">
-        <h2>[[repositorySection.name]]</h2>
+        <h2><a ng-href="[[repositorySection.link]]">[[repositorySection.name]]</a></h2>
         <p><em>[[repositorySection.description]]</em></p>
         <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
           <div ng-repeat="repository in repositorySection.items">
@@ -110,4 +140,4 @@ layout: home
 </div>
 </div>
 
-<script type="text/javascript" src="js/controller/homeController.js"></script>
+<script type="text/javascript" src="_javascript/controller/homeController.js"></script>

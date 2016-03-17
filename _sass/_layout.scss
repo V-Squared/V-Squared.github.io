@@ -268,14 +268,12 @@
     }
   }
 }
-
+.tagline {
+  color: #888;
+}
 .jumbotron {
   background: #F5F5F5;
   padding: 100px 0;
-
-  .tagline {
-    color: #888;
-  }
 
   .jumbotron-title {
 
@@ -289,5 +287,9 @@
       text-align: center;
     }
   }
-
+}
+.footnote {
+  color:#888;
+  font-size:9pt;
+  margin:0;
 }
