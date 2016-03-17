@@ -1,5 +1,90 @@
 [
   {
+    "name": "Trailblazer Products",
+    "description": "V² Standards turned into real Products",
+    "id": "products",
+    "items": [
+      {
+        "name": "ViCase",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViAccessories",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViPC",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViBare",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViPanel",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViDock",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
     "name": "For Maker",
     "description": "Standards, Blueprints, Development Kits, Developer Stories, User Stories",
     "id": "for-maker",
@@ -9,7 +94,12 @@
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-complete",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -17,7 +107,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","is-complete",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -25,7 +120,12 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -33,7 +133,12 @@
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -41,7 +146,12 @@
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -49,7 +159,12 @@
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
-        "progress": ["is-complete","is-complete","",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       }
     ]
@@ -64,7 +179,12 @@
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²PC as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback.",
-        "progress": ["is-complete","is-complete","is-complete",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
         "ribbonName": "On"
       },
       {
@@ -72,7 +192,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "How-to Articles on custom building your own DIY Mini or All-In-One Computer",
-        "progress": ["is-complete","is-complete","",""],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -80,63 +205,13 @@
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "V² Compatibility Web App",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "On"
-      }
-    ]
-  },
-  {
-    "name": "Trailblazer Products",
-    "description": "V² Standards turned into real Products",
-    "id": "products",
-    "items": [
-      {
-        "name": "ViCase",
-        "img": "images/389x389_theme=sky.png",
-        "gitLink": "#",
-        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViAccessories",
-        "img": "images/389x389_theme=gray.png",
-        "gitLink": "#",
-        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViPC",
-        "img": "images/389x389_theme=industrial.png",
-        "gitLink": "#",
-        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","is-complete","is-active"],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViBare",
-        "img": "images/389x389_theme=sky.png",
-        "gitLink": "#",
-        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","",""],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViPanel",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","",""],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViDock",
-        "img": "images/389x389_theme=social.png",
-        "gitLink": "#",
-        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": ["is-complete","is-complete","",""],
-        "ribbonName": "Off"
       }
     ]
   },
@@ -150,7 +225,12 @@
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall.",
-        "progress": ["is-complete","is-complete","is-complete","is-complete"],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
         "ribbonName": "Off"
       },
       {
@@ -158,7 +238,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012.",
-        "progress": ["is-complete","is-complete","is-complete","is-complete"],
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
         "ribbonName": "Off"
       },
       {
@@ -166,7 +251,12 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "We are new on Twitter. But intend to make our presence a great one with your help!",
-        "progress": ["","","",""],
+        "progress": [
+          "",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       }
     ]
@@ -181,7 +271,12 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns.",
-        "progress": ["is-complete","is-active","",""],
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -189,7 +284,12 @@
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "Listing of all shops selling V² Products.",
-        "progress": ["is-complete","is-active","",""],
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
         "ribbonName": "On"
       },
       {
@@ -197,7 +297,12 @@
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>.",
-        "progress": ["is-complete","is-active","",""],
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       }
     ]
@@ -212,7 +317,12 @@
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -220,7 +330,12 @@
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -228,7 +343,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "News, Incubating Articles, Public Brainstorming",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       }
     ]
@@ -243,7 +363,12 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "On"
       },
       {
@@ -251,7 +376,12 @@
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "Interactive HTML5 Angular Video Player made with Angular.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "On"
       },
       {
@@ -259,7 +389,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Powerful Slideshow Plugin made with Angular.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -267,7 +402,12 @@
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
         "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -275,7 +415,12 @@
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
         "description": "About writing consistently and efficient.",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -283,7 +428,12 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Workflow and Tutorials on how to contribute to V²",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       },
       {
@@ -291,7 +441,12 @@
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
         "description": "Research and Know How on Workflow and Coding of websites for V².",
-        "progress": ["is-complete","","",""],
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
         "ribbonName": "Off"
       }
     ]
