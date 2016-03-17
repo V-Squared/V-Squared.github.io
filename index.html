@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home" ng-controller="homeController as vm">
 
-  <div class="intro">
+  <!--<div class="intro">
     <h2 class="tagline">
       Initiative for Modular and Upgradable Mini and All-In-One PC
     </h2>
@@ -22,27 +22,59 @@ layout: default
           <li><a href="#misc"         data-uk-smooth-scroll >Misc</a></li>
         </ul>
     </div>
+  </div>-->
+
+  <div class="jumbotron">
+    <div class="uk-container uk-container-center">
+      <div class="jumbotron-title">
+        <div class="title-logo">
+          <img src="/images/logo-v-squared.png">
+        </div>
+        <div class="title-text">
+          <h1>Modular PC Open Source</h1>
+          <h2 class="tagline">Upgradable Mini and All-In-One PC</h2>
+        </div>
+      </div>
+      <p class="uk-text-justify">This is an Open Source, Non-Profit Organization on GitHub that creates, compiles and catalogs projects, know-how articles, standards, blue prints and applications for the purpose to make Mini and All-In-One Computer modular and ugradable. For the benefit of the individual DIY person as well as the industry as a whole. We have published what we have under CC and MIT License and we are working on closing all holes. Since this is Open Source, you are invited to help. Or simply use what is already available. Pay attention to the progress bars and ribbons.</p>
+    </div>
   </div>
 
   
+  <div class="table-of-content">
+    <div class="uk-container uk-container-center">
+      <div class="portlotifo-nav">
+          <ul>
+            <li><a href="#products"     data-uk-smooth-scroll >Trailblazer Products</a></li>
+            <li><a href="#for-maker"    data-uk-smooth-scroll >For Maker</a></li>
+            <li><a href="#for-diy"      data-uk-smooth-scroll >For DIY</a></li>
+            <li><a href="#social"       data-uk-smooth-scroll >Social Media</a></li>
+            <li><a href="#marketing"    data-uk-smooth-scroll >Marketing</a></li>
+            <li><a href="#organization" data-uk-smooth-scroll >Organization</a></li>
+            <li><a href="#misc"         data-uk-smooth-scroll >Misc</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
   
   <div class="portfolio">
-    <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="[[repositorySection.id]]">
-      <h2>[[repositorySection.name]]</h2>
-      <p><em>[[repositorySection.description]]</em></p>
-      <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
-        <div ng-repeat="repository in repositorySection.items">
-          <h3>[[repository.name]]</h3>
-          <a ng-href="[[repository.gitLink]]">GitHub</a>
-          <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
-          <br />
-          <figure class="uk-overlay uk-overlay-hover">
-            <img ng-src="[[repository.img]]">
-            <div class="ribbon-wrapper" data-uk-tooltip title="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
-              <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
-            </div>
-            <figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
-          </figure>
+    <div class="uk-container uk-container-center">
+      <div class="portfolio-section" ng-repeat="repositorySection in vm.repositories" id="[[repositorySection.id]]">
+        <h2>[[repositorySection.name]]</h2>
+        <p><em>[[repositorySection.description]]</em></p>
+        <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
+          <div ng-repeat="repository in repositorySection.items">
+            <h3>[[repository.name]]</h3>
+            <a ng-href="[[repository.gitLink]]">GitHub</a>
+            <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
+            <br />
+            <figure class="uk-overlay uk-overlay-hover">
+              <img ng-src="[[repository.img]]">
+              <div class="ribbon-wrapper" data-uk-tooltip title="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
+                <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
+              </div>
+              <figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
+            </figure>
           <!--<div class="uk-progress" ng-if="repository.progress">
            <div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}"></div>
           </div>
@@ -75,6 +107,7 @@ layout: default
     </div>
   </div>
 
+</div>
 </div>
 
 <script type="text/javascript" src="js/controller/homeController.js"></script>

@@ -96,3 +96,12 @@
 .ribbon:after {
   right: 0;
 }
+
+.table-of-content {
+  padding: 30px 0;
+  border-bottom: 1px solid #E5E5E5;
+
+  > .uk-container {
+    height:24px;
+  }
+}

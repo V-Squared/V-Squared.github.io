@@ -168,7 +168,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-bottom: $spacing-unit;
 }
 
 .page-heading {
@@ -239,4 +239,55 @@
             font-size: 18px;
         }
     }
+}
+
+
+ @media(min-width:578px) {
+
+  .jumbotron{
+
+    .jumbotron-title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      margin-bottom: 15px;
+
+      .title-logo {
+        padding-right:15px;
+        margin-right:0 !important;
+        margin-left:0 !important;
+      }
+
+      .title-text > * {
+        text-align: left !important;
+        margin:0;
+      }
+    }
+  }
+}
+
+.jumbotron {
+  background: #F5F5F5;
+  padding: 100px 0;
+
+  .tagline {
+    color: #888;
+  }
+
+  .jumbotron-title {
+
+    .title-logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+    }
+
+    .title-text > * {
+      text-align: center;
+    }
+  }
+
 }
