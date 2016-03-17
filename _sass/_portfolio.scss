@@ -29,6 +29,7 @@
         justify-content: center;
         text-align:center;
         margin-left:0;
+        margin-bottom: 0;
         li {
             list-style:none;
             padding-right:15pt;
@@ -100,8 +101,4 @@
 .table-of-content {
   padding: 30px 0;
   border-bottom: 1px solid #E5E5E5;
-
-  > .uk-container {
-    height:24px;
-  }
 }
