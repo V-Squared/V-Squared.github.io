@@ -284,7 +284,7 @@
         "name": "Shops",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Listing of all shops selling V² Products.",
+        "description": "Listing of all shops selling V² Products and Instructions on how your can build your own V² Community online shop.",
         "progress": [
           "is-complete",
           "is-active",
