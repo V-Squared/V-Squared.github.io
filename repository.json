@@ -1,7 +1,7 @@
 [
   {
     "name": "Trailblazer Products",
-    "description": "V² Standards turned into real Products",
+    "description": "Showcase with real products what you can build with V² Standards and Blueprints.",
     "id": "products",
     "items": [
       {
@@ -86,7 +86,7 @@
   },
   {
     "name": "For Maker",
-    "description": "Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+    "description": "Standards, Blueprints, Development Kits, Compliance Tests",
     "id": "for-maker",
     "items": [
       {
@@ -171,7 +171,7 @@
   },
   {
     "name": "For DIY",
-    "description": "PC Know How & Tools",
+    "description": "PC Know How & Tools make building a Custom PC easier.",
     "id": "for-diy",
     "items": [
       {
@@ -217,7 +217,7 @@
   },
   {
     "name": "Social Media",
-    "description": "The easiest way to get in contact with us",
+    "description": "Talk to us and spread the word",
     "id": "social",
     "items": [
       {
@@ -263,7 +263,7 @@
   },
   {
     "name": "Marketing",
-    "description": "Community Efforts to Spread the Word of V² Standards & Products",
+    "description": "Spreading the Word and Products through Community",
     "id": "marketing",
     "items": [
       {
@@ -355,7 +355,7 @@
   },
   {
     "name": "Misc",
-    "description": "All sorts of Projects that did not fit in a above",
+    "description": "More useful things ...",
     "id": "misc",
     "items": [
       {
