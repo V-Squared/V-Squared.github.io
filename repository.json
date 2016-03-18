@@ -176,8 +176,9 @@
     "items": [
       {
         "name": "V²Configurator",
-        "img": "images/389x389_theme=sky.png",
+        "img": "https://raw.githubusercontent.com/V-Squared/v2-Art/master/v2-Home/v2-Configurator-Folio.png",
         "gitLink": "#",
+        "borderColor": "#ccc",
         "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²PC as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback.",
         "progress": [
           "is-complete",

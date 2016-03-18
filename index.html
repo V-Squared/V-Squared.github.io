@@ -98,7 +98,7 @@ layout: home
             <a ng-href="[[repository.gitLink]]">GitHub</a>
             <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
             <br />
-            <figure class="uk-overlay uk-overlay-hover">
+            <figure ng-style="repository.borderColor ? {border: '0.7pt solid ' + repository.borderColor} : {}" class="uk-overlay uk-overlay-hover">
               <img ng-src="[[repository.img]]">
               <div class="ribbon-wrapper" data-uk-tooltip title="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
                 <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
