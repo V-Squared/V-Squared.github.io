@@ -268,10 +268,10 @@
     "id": "marketing",
     "items": [
       {
-        "name": "Promotions",
+        "name": "Promotions & Spread the Word",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Pre-Orders with Discounts and  Marketing Bonus, Campaigns.",
+        "description": "Help to make the V² Modular PC a success and spread the word! Benefit from your help with Early Bird discounts, Stretch Goal Bonus and Referral Bonus.",
         "progress": [
           "is-complete",
           "is-active",
