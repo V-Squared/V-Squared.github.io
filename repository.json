@@ -266,6 +266,7 @@
     "name": "Marketing",
     "description": "Spreading the Word and Products through Community",
     "id": "marketing",
+    "link": "/v2-Marketing",
     "items": [
       {
         "name": "Promotions & Spread the Word",
