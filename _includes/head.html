@@ -16,7 +16,7 @@
   <script type="text/javascript" src="_javascript/dependencies/angular.min.js"></script>
   
   <script>
-  angular.module('site', ['ngSanitize'], function($interpolateProvider) {
+  angular.module('site', ['ngSanitize','offContentSidebar'], function($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
   })

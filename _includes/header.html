@@ -71,6 +71,8 @@
         <li class="{% if page.url == '/misc' %}uk-active{% endif %}">
           <a href="#">Misc</a>
         </li>
+        <li class="uk-nav-header">Page Navigation</li>
+        <li ng-repeat="sections in vm.repositories"><a ng-href="#[[sections.id]]">[[sections.name]]</a></li>
     </ul>
   </div>
 </div>

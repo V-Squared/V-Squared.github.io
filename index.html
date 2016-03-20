@@ -2,7 +2,13 @@
 layout: home
 ---
 
-<div class="home" ng-controller="homeController as vm">
+<div class="home">
+
+  <div class="portfolio-sidenav" off-content-sidebar="580" ng-style="{'display':isDisplay}" ng-class="displayed">
+    <ul class="uk-nav">
+      <li ng-repeat="sections in vm.repositories"><a ng-href="#[[sections.id]]">[[sections.name]]</a></li>
+    </ul>
+  </div>
 
   <div class="jumbotron">
     <div class="uk-container uk-container-center">

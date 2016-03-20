@@ -26,3 +26,14 @@ body {
 .uk-offcanvas.uk-active .uk-offcanvas-bar  {
 	padding-top:51px;
 }
+.portfolio-sidenav {
+    display:none;
+    position:fixed;
+    top:50pt;
+    right:10pt;
+    opacity:0;
+    transition: opacity 0.5s ease-in-out;
+}
+.portfolio-sidenav.isDisplayed {
+    opacity: 1;
+}
