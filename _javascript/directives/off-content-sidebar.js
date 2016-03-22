@@ -5,7 +5,6 @@ angular.module('offContentSidebar',[])
         restrict: 'A',
         link: function(scope,element,attrs) {
             var offsetTop = parseInt(attrs.offContentSidebar);
-            
             var windowEl = angular.element($window);
             
             scope.isDisplay = 'none';
