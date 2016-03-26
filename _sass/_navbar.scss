@@ -37,3 +37,14 @@ body {
 .portfolio-sidenav.isDisplayed {
     opacity: 1;
 }
+@media (max-width:1480px) {
+    .portfolio-sidenav {
+        display:none !important;
+    }
+    .v2-navbar {
+        position:static;
+    }
+    body {
+	    padding-top:0;
+    }
+}
