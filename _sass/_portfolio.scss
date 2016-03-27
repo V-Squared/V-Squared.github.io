@@ -51,11 +51,15 @@
     
     .uk-grid > div {
         h3 {
-            margin-bottom:0;
+          margin-bottom:0;
         }
         
         .progess-bar {
-            margin-top: 20pt;
+          margin-top: 20pt;
+        }
+        
+        figure {
+          border-radius: 20pt;
         }
         
         padding-top:20pt;
