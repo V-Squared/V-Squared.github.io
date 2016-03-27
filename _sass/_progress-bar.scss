@@ -27,7 +27,7 @@ $mute: #DFE3E4;
       text-align: center; //IE8 doesn't inherit this style
       margin-bottom: 0.25em;
       line-height: 3em;
-      border-radius: 100%;
+      border-radius: 0.4em;
       position: relative;
       z-index: 1000;
     }
@@ -37,7 +37,7 @@ $mute: #DFE3E4;
       display: block;
       background: $mute;
       width: 100%;
-      height: 0.5em;
+      height: 3pt;
       top: 1.25em;
       left: 50%;
       margin-left: 1.5em\9;
