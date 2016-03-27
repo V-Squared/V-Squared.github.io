@@ -35,7 +35,7 @@ body {
     transition: opacity 0.5s ease-in-out;
     
     ul {
-     border-left: 1px solid #7e7e7e;
+     border-left: 1px solid #039be5;
         li {
           position: relative;
           line-height:10.5pt;
@@ -53,15 +53,26 @@ body {
             top: -1px;
             width: 15px;
             height: 15px;
-            background-color: #7e7e7e;
+            background-color: #039be5;
             border-radius: 50%;
             -webkit-border-radius: 50%;
+           }
+           
+           &.active {
+               
+               &:before {
+                   background-color:#FF8000;
+               }
+               
+               a {
+                   color:#FF8000;
+               }
            }
            
            a {
                padding:0;
                padding-left:12pt;
-               color:inherit;
+               color:#039be5;
            }
         }
     }
