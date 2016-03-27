@@ -31,8 +31,6 @@ body {
     position:fixed;
     top:50pt;
     right:10pt;
-    opacity:0;
-    transition: opacity 0.5s ease-in-out;
     
     ul {
      border-left: 1px solid #039be5;
@@ -76,9 +74,6 @@ body {
            }
         }
     }
-}
-.portfolio-sidenav.isDisplayed {
-    opacity: 1;
 }
 @media (max-width:1480px) {
     .portfolio-sidenav {
