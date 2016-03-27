@@ -26,6 +26,7 @@
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
         justify-content: center;
         text-align:center;
         margin-left:0;
@@ -103,10 +104,15 @@
 }
 
 .table-of-content {
-  padding: 16.5px 0;
+  padding: 13px 0;
   border-bottom: 1px solid #E5E5E5;
   background:#FFF;
   z-index:9999 !important;
+}
+@media (max-width: 713px) {
+  .table-of-content {
+    padding: 1px 0;
+  }
 }
 .compliances {
   padding:5px 0;
