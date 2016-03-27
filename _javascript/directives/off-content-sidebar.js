@@ -26,5 +26,5 @@ angular.module('offContentSidebar',[])
                }
             });
         }
-    }
+    };
 });
