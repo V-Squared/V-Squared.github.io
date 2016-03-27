@@ -33,6 +33,38 @@ body {
     right:10pt;
     opacity:0;
     transition: opacity 0.5s ease-in-out;
+    
+    ul {
+     border-left: 1px solid #7e7e7e;
+        li {
+          position: relative;
+          line-height:10.5pt;
+          margin-top:15pt;
+          
+          &:first-child {
+            margin-top:0;
+          }
+          
+          &:before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            left: -8px;
+            top: -1px;
+            width: 15px;
+            height: 15px;
+            background-color: #7e7e7e;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+           }
+           
+           a {
+               padding:0;
+               padding-left:12pt;
+               color:inherit;
+           }
+        }
+    }
 }
 .portfolio-sidenav.isDisplayed {
     opacity: 1;

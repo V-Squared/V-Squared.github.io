@@ -4,9 +4,9 @@ layout: home
 
 <div class="home">
 
-  <div class="portfolio-sidenav" off-content-sidebar="580" ng-style="{'display':isDisplay}" ng-class="displayed">
+  <div class="portfolio-sidenav" off-content-sidebar="550" ng-style="{'display':isDisplay}" ng-class="displayed">
     <ul class="uk-nav">
-      <li ng-repeat="sections in vm.repositories"><a ng-href="#[[sections.id]]">[[sections.name]]</a></li>
+      <li ng-repeat="sections in vm.repositories"><a du-smooth-scroll du-scrollspy ng-href="#[[sections.id]]">[[sections.name]]</a></li>
     </ul>
   </div>
 
