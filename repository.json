@@ -1,6 +1,7 @@
 [
   {
     "name": "The Missing Standard",
+    "shortName": "Standard",
     "description": "All missing standards to find parts, build, upgrade and repair a modular Mini / All-In-One PC.",
     "id": "missing-standard",
     "items": [
@@ -47,6 +48,7 @@
   },
   {
     "name": "Trailblazer Products & Logo",
+    "shortName": "Products",
     "description": "Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow.",
     "id": "products",
     "items": [
@@ -132,6 +134,7 @@
   },
   {
     "name": "For Makers",
+    "shortName": "Makers",
     "description": "Everything you need to develop your new products faster at lower cost",
     "id": "for-maker",
     "items": [
@@ -217,6 +220,7 @@
   },
   {
     "name": "For DIY",
+    "shortName": "DIY",
     "description": "PC Know How & Tools",
     "id": "for-diy",
     "items": [
@@ -264,6 +268,7 @@
   },
   {
     "name": "For Retail",
+    "shortName": "Retail",
     "description": "Lower your cost and increase computer sales",
     "id": "for-retail",
     "items": [
@@ -310,6 +315,7 @@
   },
   {
     "name": "Spreading the Word & Products",
+    "shortName": "Spreading",
     "description": "How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user",
     "id": "spreading",
     "link": "/v2-Marketing",
@@ -396,6 +402,7 @@
   },
   {
     "name": "Apps",
+    "shortName": "Apps",
     "description": "V² Open Source Web Apps simplify experiencing or building V² PCs",
     "id": "app",
     "items": [
@@ -442,6 +449,7 @@
   },
   {
     "name": "Plan",
+    "shortName": "Plan",
     "description": "Our Plan, shared in Open Source on GitHub. Check out why it will work or how you can help.",
     "id": "plan",
     "items": [
@@ -488,6 +496,7 @@
   },
   {
     "name": "Organization",
+    "shortName": "Organization",
     "description": "About the people, process and legal stuff creating the V² Open Standards",
     "id": "organization",
     "items": [

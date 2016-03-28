@@ -6,7 +6,7 @@ layout: home
 
   <div class="portfolio-sidenav" off-content-sidebar="520" ng-style="{'display':isDisplay}" ng-class="displayed">
     <ul class="uk-nav">
-      <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll offset="-1" ng-href="#[[sections.id]]">[[sections.name]]</a></li>
+      <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
     </ul>
   </div>
 
@@ -56,11 +56,11 @@ layout: home
   </div>
 
   
-  <div class="table-of-content" data-uk-sticky="{media: '(max-width: 1540px)'}">
+  <div class="table-of-content" data-uk-sticky="{media: '(max-width: 1435px)'}">
     <div class="uk-container uk-container-center">
       <div class="portlotifo-nav">
         <ul>
-          <li du-spy-context ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll offset="-1" ng-href="#[[sections.id]]">[[sections.name]]</a></li>
+          <li du-spy-context ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
         </ul>
       </div>
     </div>
