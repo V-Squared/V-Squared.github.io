@@ -34,9 +34,16 @@
         li {
             list-style:none;
             padding-right:15pt;
-        }
-        li:last-child {
-            padding-right:0;
+            
+            &:last-child {
+              padding-right:0;
+            }
+            
+            &.active {
+              a {
+                color:#FF8000;
+              }
+            }
         }
     }
 }
@@ -67,8 +74,7 @@
     }
     
     padding-top:50pt;
-    margin-top:-20pt;
-    padding-bottom:30pt;
+    padding-bottom:10pt;
 }
 
 // Ribbon
