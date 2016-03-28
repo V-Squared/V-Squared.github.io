@@ -1,14 +1,60 @@
 [
   {
-    "name": "Trailblazer Products",
-    "description": "Showcase with real products what you can build with V² Standards and Blueprints.",
+    "name": "The Missing Standard",
+    "description": "All missing standards to find parts, build, upgrade and repair a modular Mini / All-In-One PC.",
+    "id": "missing-standard",
+    "items": [
+      {
+        "name": "V² Parts Standards",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Building a modular Mini or All-In-One Computer was difficult if not impossible in the past due to missing key components. And even for those components in existence key specs were not standardized, making it hard to predict compatibility prior to purchase. The V² Parts Standards define specs for missing parts and where necessary append specs to existing standards.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Use Standards",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "<strong>V² Silent</strong>: Measurement and Classification of PC noise V²<br><strong>Easy-Upgrade</strong>: Specs for easy upgrading<br><strong>V² Easy Repair</strong>: Specs for easy repairing<br><strong>V² Easy Clean</strong>: Specs for easy cleaning<br><strong>V² Easy Assembly</strong>: Specs for easy assembly.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Compatibility Logo",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "V² Logo is a tool to assist consumers in their buying process and at the same time to assist makers and retailers in their sales efforts. We believe the V² Logo Program is a community service. As such it is developed within the community and we are making licensing as transparent and straight forward as possible. All at zero cost.",
+        "progress": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Trailblazer Products & Logo",
+    "description": "Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow.",
     "id": "products",
     "items": [
       {
         "name": "ViCase",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use",
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories compliant to the V²Case standard and compatible to ViDock graphics or storage booster.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -21,7 +67,7 @@
         "name": "ViAccessories",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use",
+        "description": "Accessories for any V²Case such as VESA brackets, feet, All-In-One Stand, Arduino Module, Remote Access, etc ... Compliant to the V²Case standard.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -31,36 +77,23 @@
         "ribbonName": "Off"
       },
       {
-        "name": "ViPC",
+        "name": "ViPC & ViBare",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
+        "description": "Ready build custom PCs and bare bones ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Compliant to V²Case and V²PC standards.",
         "progress": [
           "is-complete",
           "is-complete",
           "is-complete",
           "is-active"
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "ViBare",
-        "img": "images/389x389_theme=sky.png",
-        "gitLink": "#",
-        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "",
-          ""
         ],
         "ribbonName": "Off"
       },
       {
         "name": "ViPanel",
-        "img": "images/389x389_theme=lava.png",
+        "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use",
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. Compliant with V²Case standard.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -71,9 +104,22 @@
       },
       {
         "name": "ViDock",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Graphics or storage booster for your V²PC with data rates of up to 4000 MB/s. Connect a full sized desktop GPU or four disk RAID.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Logo",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "description": "The V² Logo makes it easy to identify compatible products and parts. The V²PC Logo makes it easy to classify features and performance of a build PC or to find instructions for building, upgrading or repairing.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -85,15 +131,15 @@
     ]
   },
   {
-    "name": "For Maker",
-    "description": "Standards, Blueprints, Development Kits, Compliance Tests",
+    "name": "For Makers",
+    "description": "Everything you need to develop your new products faster at lower cost",
     "id": "for-maker",
     "items": [
       {
-        "name": "V²Case",
+        "name": "Standards",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "Products compliant to a standard always sell better and have lower development and manufacturing costs versus products based on proprietary solutions. V² is for Mini and All-In-One Computer what the ATX Standard was for the Desktop.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -103,10 +149,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V²Accessories",
+        "name": "Trailblazer Products",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "New standards and specs on the web are one thing; having a final product in hand very early on is quite another. Test V² features before you develop your product with it. Give it into your customer's hand to test their feedback before you build it. This is one purpose of V² Trailblazer products to clear the path to your mass production",
         "progress": [
           "is-complete",
           "is-complete",
@@ -116,10 +162,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V²PC",
+        "name": "RDK & Blueprints",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "Rapid Development Kits give your development team a running start. Blueprints are Rapid Manufacturing Kits, ready to go to production.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -129,10 +175,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V²Bare",
+        "name": "No Gate Keepers",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "No membership approval, no proprietary parts, no long lead time parts, no certification process that can hold off production. V² mission is to get out of your way. We care about the maker, as they have been part of this community developing V² since the beginning. Alongside with consumers, retailers and press.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -142,10 +188,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V²Panel",
+        "name": "Maker Kits",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "It is our mission and we are proud that we can enable you to build V² products that are licensed to carry the V² Logo without you ever talked to us or having paid a single dollar to us. But we hope you check out our Maker Kits where we offer additional services and products in an effort to help you to speed up your time to market.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -155,10 +201,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V²Dock",
+        "name": "V² Logo Program",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "description": "Make it easy for your customers to identify compatible products and parts. To find PCs with the features and performance they are looking for. We make it easy for you (or your customers or the press) to self-test compliance of your products or to contract an approval agency. Once passed you can use the V² Logo at zero costs to increase sales.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -171,90 +217,90 @@
   },
   {
     "name": "For DIY",
-    "description": "PC Know How & Tools make building a Custom PC easier.",
+    "description": "PC Know How & Tools",
     "id": "for-diy",
     "items": [
       {
-        "name": "V²Configurator",
-        "img": "https://raw.githubusercontent.com/V-Squared/v2-Art/master/v2-Home/v2-Configurator-Folio.png",
-        "gitLink": "#",
-        "borderColor": "#ccc",
-        "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²PC as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback.",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "is-complete",
-          ""
-        ],
-        "ribbonName": "On"
-      },
-      {
         "name": "V² How to DIY Mini PC",
-        "img": "images/389x389_theme=industrial.png",
-        "gitLink": "#",
-        "description": "How-to Articles on custom building your own DIY Mini or All-In-One Computer",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V²Base.Compatibility",
-        "img": "images/389x389_theme=vine.png",
-        "gitLink": "#",
-        "description": "V² Compatibility Web App",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "On"
-      }
-    ]
-  },
-  {
-    "name": "Social Media",
-    "description": "Talk to us and spread the word",
-    "id": "social",
-    "items": [
-      {
-        "name": "Facebook",
-        "img": "images/389x389_theme=gray.png",
-        "gitLink": "#",
-        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall.",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "is-complete",
-          "is-complete"
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "YouTube",
-        "img": "images/389x389_theme=industrial.png",
-        "gitLink": "#",
-        "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012.",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "is-complete",
-          "is-complete"
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "Twitter",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "We are new on Twitter. But intend to make our presence a great one with your help!",
+        "description": "How-to Articles on custom building your own DIY Mini or All-In-One Computer.",
         "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "V² PC Configurations & Logo",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. The V² PC Logo program makes it easy to find compatible parts or benchmark reports of the final build PC.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Configurator",
+        "img": "https://raw.githubusercontent.com/V-Squared/v2-Art/master/v2-Home/v2-Configurator-Folio.png",
+        "borderColor": "#ccc",
+        "gitLink": "#",
+        "description": "Easy to use PC Configurator Web App. Pick a V² PC Configuration as your base config and then customize to your needs. Supports sharing of your custom Configuration in social media to get feedback.",
+        "progress": [
+          "is-complete",
           "",
           "",
+          ""
+        ],
+        "ribbonName": "On"
+      }
+    ]
+  },
+  {
+    "name": "For Retail",
+    "description": "Lower your cost and increase computer sales",
+    "id": "for-retail",
+    "items": [
+      {
+        "name": "Better Cash Flow & Availability",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Keep V² Mini and V² All-In-One PCs in stock requires a fraction of the cash flow when compared to traditional Mini and All-In-One PCs. Being modular and made of standard desktop parts increases availability of different models even further.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "New Markets",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "V² Mini and All-In-One PCs cover the traditional markets. In addition they are suited for personal workstations, professional workstations and game console upgrades.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "V² Logo to help sales",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Computer with V² Logo are quiet, portable, modular, easy to upgrade and repair. Their standardized accessories are cross vendor compatible and can be kept in use when changing the V²PC. Features important to the buyer. The V²Logo makes it easy to communicate it.",
+        "progress": [
+          "is-complete",
+          "is-active",
           "",
           ""
         ],
@@ -263,16 +309,16 @@
     ]
   },
   {
-    "name": "Marketing",
-    "description": "Spreading the Word and Products through Community",
-    "id": "marketing",
+    "name": "Spreading the Word & Products",
+    "description": "How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user",
+    "id": "spreading",
     "link": "/v2-Marketing",
     "items": [
       {
-        "name": "Promotions & Spread the Word",
+        "name": "Social Web",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Help to make the V² Modular PC a success and spread the word! Benefit from your help with Early Bird discounts, Stretch Goal Bonus and Referral Bonus.",
+        "description": "We are on Facebook, Twitter, YouTube and GitHub Issues. We share what we are working on V² Blog, giving you a chance to give feedback or get engaged early on. And we are creating projects with other DIY Forums and DIY Websites who share the same interests of a Mini / All-In-One DIY PC.",
         "progress": [
           "is-complete",
           "is-active",
@@ -282,10 +328,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Shops",
+        "name": "Computex",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Listing of all shops selling V² Products and Instructions on how your can build your own V² Community online shop.",
+        "description": "We will show V² Modular PC at Computex Taipei May 31 ... June 4. Make an appointment, just visit us or help to spread the word.",
         "progress": [
           "is-complete",
           "is-active",
@@ -295,13 +341,144 @@
         "ribbonName": "On"
       },
       {
-        "name": "Milestones",
+        "name": "Press",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>.",
+        "description": "V² modular PC saves the environment and the user's money. It breathes new life into the Desktop and delivers faster, quieter and more portable PCs. Help to spread the word. Find Press Releases, White Papers and more ...",
         "progress": [
           "is-complete",
           "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Stage 1: V² Trailblazer Products",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Early Bird V² products ship in June, Trailblazer Products ship in August. Enjoy the benefits of V² Modular PC before they become available to consumers as mainstream products, or be one of the first to write about it. The first 100 orders will enjoy a 25% discount. Help to spread the word to reach our 200 pcs stretch goal to get a free Arduino.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Stage 2: V² Shops",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "<b>1)</b> Listing of all shops selling V² Products. <b>2)</b> Instructions on how you can build your own V² Community online shop. Ideal for Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income. <b>3)</b> Instructions how you can add custom build Mini and All-In-One Workstations to your existing shop.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Stage 3: V² Consumer Products",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream, to put them into the shop around your corner. It is our Mission to provide everything that an OEM need in Open Source and to remove all gate keepers. We expect V² OEM products to become available at the end of 2016 / beginning 2017.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Apps",
+    "description": "V² Open Source Web Apps simplify experiencing or building V² PCs",
+    "id": "app",
+    "items": [
+      {
+        "name": "V² Configurator",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Easy to use PC Configurator Web App. Pick a V² PC Configuration as your base config and then customize to your needs. Supports sharing of your custom Configuration in social media to get feedback.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Form Factors",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Interactive Web App shows how to convert a V²PC from Mini PC to various All-In-One Form Factors. How it will look, how it works with 1, 2, or 3 displays and which V² Accessories are needed.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "V² Base.Logo",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Database listing PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets that are compatible with the V² Standard.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Plan",
+    "description": "Our Plan, shared in Open Source on GitHub. Check out why it will work or how you can help.",
+    "id": "plan",
+    "items": [
+      {
+        "name": "True North",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "We will draw an image how the world will look like in 2021 after the successful introduction of V². It is a list of User Stories written in the perspective of: PC User, Journalist, Developer, Manufacturer, Retailer, Standard Community, so it is easy for you to find yourself and what V² will do to improve your life.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "Road Map & Milestones",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "The <strong>Road Map</strong> shows the way to reach True North with key releases for each Quarter. <strong>Milestones</strong> breaks each quarter down into release targets for each month.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "Projects",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Finally each target is broken down into projects, that are manged in <strong>GitHub Issues</strong>.",
+        "progress": [
+          "is-complete",
+          "",
           "",
           ""
         ],
@@ -318,7 +495,7 @@
         "name": "About",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard",
+        "description": "History, Mission, Board / People, Operations, Bylaws, Logo, White Papers",
         "progress": [
           "is-complete",
           "",
@@ -341,108 +518,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Blog",
+        "name": "Logo License",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "News, Incubating Articles, Public Brainstorming",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      }
-    ]
-  },
-  {
-    "name": "Misc",
-    "description": "More useful things ...",
-    "id": "misc",
-    "items": [
-      {
-        "name": "v2-Videogular-SingleStep",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "On"
-      },
-      {
-        "name": "v2-Video-Active",
-        "img": "images/389x389_theme=vine.png",
-        "gitLink": "#",
-        "description": "Interactive HTML5 Angular Video Player made with Angular.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "On"
-      },
-      {
-        "name": "v2-Slide",
-        "img": "images/389x389_theme=industrial.png",
-        "gitLink": "#",
-        "description": "Powerful Slideshow Plugin made with Angular.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V²Art",
-        "img": "images/389x389_theme=social.png",
-        "gitLink": "#",
-        "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V²Docu",
-        "img": "images/389x389_theme=sky.png",
-        "gitLink": "#",
-        "description": "About writing consistently and efficient.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V²Contribution",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "Workflow and Tutorials on how to contribute to V²",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V²Site",
-        "img": "images/389x389_theme=industrial.png",
-        "gitLink": "#",
-        "description": "Research and Know How on Workflow and Coding of websites for V².",
+        "description": "As a Standard Organization our V² Logo is the key tool to assist consumers in their buying process and at the same time to assist makers and retailers in their sales efforts. We believe the V² Logo Program is a community service. As such it is developed within the community and we are making licensing as transparent and straight forward as possible. All at zero cost.",
         "progress": [
           "is-complete",
           "",

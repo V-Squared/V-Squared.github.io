@@ -1,0 +1,456 @@
+[
+  {
+    "name": "Trailblazer Products",
+    "description": "Showcase with real products what you can build with V² Standards and Blueprints.",
+    "id": "products",
+    "items": [
+      {
+        "name": "ViCase",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViAccessories",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Accessories made by Village Tronic for any V²Case such as ViCase: ViFeet, ViBracket, ViAccess, ViControl, ViColor, ViDuino, ViCooler, ViParallel. <strong>Buyer Info:</strong> Models & Features, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViPC",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Ready build custom PCs ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Build with ViCase. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViBare",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Ready build Bare Bone PCs build with ViCase. 3L, 6L and 9L models with V²Bare feature set.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViPanel",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. V²Case or ATX Case options. <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViDock",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s.  <strong>Buyer Info:</strong> Features, Models, Use",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "For Maker",
+    "description": "Standards, Blueprints, Development Kits, Compliance Tests",
+    "id": "for-maker",
+    "items": [
+      {
+        "name": "V²Case",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Modular, scalable, quiet, Mini-PC Case for Desktop Parts with standardized Accessories. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Accessories",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Standardized Accessories for V²Case: V²Feet, V²Bracket, V²Access, V²Control, V²Color, V²Duino, V²Cooler, V²Parallel. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²PC",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Ready made PC Configurations ranging from Entry Level to High End. Covering custom configurations for Personal Use, Game PC and Workstations. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Bare",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Ready made Bare Bone Configurations. 3L, 6L and 9L Models. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Panel",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "PC I/O Panel with Remote Power On, 4 USB Ports, Head Set Ports, Arduino compatible MCU for extensive Fan and RGB Lights Control. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Dock",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Boost your V²PC with a docked GPU or 4 RAID Disks. Data Rates up to 4000 MB/s. <strong>Maker Docu:</strong> Standards, Blueprints, Development Kits, Developer Stories, User Stories",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "For DIY",
+    "description": "PC Know How & Tools make building a Custom PC easier.",
+    "id": "for-diy",
+    "items": [
+      {
+        "name": "V²Configurator",
+        "img": "https://raw.githubusercontent.com/V-Squared/v2-Art/master/v2-Home/v2-Configurator-Folio.png",
+        "gitLink": "#",
+        "borderColor": "#ccc",
+        "description": "PC Configurator Web App. Easy to use. Elegant UI. Pick a V²PC as your base config and then customize to your needs. Your custom Configuration can be easily shared in Forums, emails, etc to get feedback.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "V² How to DIY Mini PC",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "How-to Articles on custom building your own DIY Mini or All-In-One Computer",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Base.Compatibility",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "V² Compatibility Web App",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "description": "Talk to us and spread the word",
+    "id": "social",
+    "items": [
+      {
+        "name": "Facebook",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "The birthplace of this Community. It all started on the VillageViDock Facebook Page. Started in 2009 as VillageViDock Wall.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "YouTube",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Where we publish our Videos or relevant Videos made by community members. Started in 2012.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-complete"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Twitter",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "We are new on Twitter. But intend to make our presence a great one with your help!",
+        "progress": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Marketing",
+    "description": "Spreading the Word and Products through Community",
+    "id": "marketing",
+    "link": "/v2-Marketing",
+    "items": [
+      {
+        "name": "Promotions & Spread the Word",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Help to make the V² Modular PC a success and spread the word! Benefit from your help with Early Bird discounts, Stretch Goal Bonus and Referral Bonus.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Shops",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Listing of all shops selling V² Products and Instructions on how your can build your own V² Community online shop.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "Milestones",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "<strong>True North</strong> describes how it looks when we accomplish our <strong>Mission</strong>. <strong>Strategy</strong> is how to go about it in activities reaching <strong>Stages</strong> and <strong>Milestones</strong>.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Organization",
+    "description": "About the people, process and legal stuff creating the V² Open Standards",
+    "id": "organization",
+    "items": [
+      {
+        "name": "About",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "History, Mission, Board, Operations, Bylaws, Logo, License, Open Standard",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Contributing",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Blog",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "News, Incubating Articles, Public Brainstorming",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
+    "name": "Misc",
+    "description": "More useful things ...",
+    "id": "misc",
+    "items": [
+      {
+        "name": "v2-Videogular-SingleStep",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Videogular Plugin to single step frame by frame in a video. Forward and backwards.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "v2-Video-Active",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Interactive HTML5 Angular Video Player made with Angular.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "v2-Slide",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Powerful Slideshow Plugin made with Angular.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Art",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "About all artwork used in V² Projects. Concepts, source files, finished images and illustrations,  visual style guides & visual workflows.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Docu",
+        "img": "images/389x389_theme=sky.png",
+        "gitLink": "#",
+        "description": "About writing consistently and efficient.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Contribution",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Workflow and Tutorials on how to contribute to V²",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V²Site",
+        "img": "images/389x389_theme=industrial.png",
+        "gitLink": "#",
+        "description": "Research and Know How on Workflow and Coding of websites for V².",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  }
+]
