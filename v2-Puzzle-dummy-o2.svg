@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="4.1781in" width="4.1777in" version="1.1" viewBox="0 0 375.997 376.02749">
+ <style>
+  /*<![CDATA[ */
+    .column > rect {
+      transition: .6s fill;
+    }
+    .column:hover > rect {
+      fill: #eee;
+    }
+  /* ]]>*/
+ </style>
+ <g class="column" transform="translate(-110.79 -40.182)">
+  <rect height="125" width="125" stroke="#000" y="40.84" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="107.9836" x="136.42857" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="107.9836" x="136.42857" font-size="15px">Consumer</tspan></text>
+ </g>
+ <g class="column" transform="translate(14.247 -568.2)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">DIY</tspan></text>
+ </g>
+ <g class="column" transform="translate(139.07 -568.29)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Retail</tspan></text>
+ </g>
+ <g class="column" transform="translate(-110.9 -443.2)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Spreading</tspan></text>
+ </g>
+ <g class="column" transform="translate(14.147 -443.28)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Standard</tspan></text>
+ </g>
+ <g class="column" transform="translate(138.96 -443.37)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Maker</tspan></text>
+ </g>
+ <g class="column" transform="translate(-110.93 -318.26)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Plan</tspan></text>
+ </g>
+ <g class="column" transform="translate(14.107 -318.33)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Organization</tspan></text>
+ </g>
+ <g class="column" transform="translate(138.93 -318.42)">
+  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
+  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Apps</tspan></text>
+ </g>
+</svg>
