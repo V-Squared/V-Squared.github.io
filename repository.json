@@ -9,25 +9,25 @@
         "name": "V² Parts Standards",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Building a modular Mini or All-In-One Computer was difficult if not impossible in the past due to missing key components. And even for those components in existence key specs were not standardized, making it hard to predict compatibility prior to purchase. The V² Parts Standards define specs for missing parts and where necessary append specs to existing standards.",
+        "description": "Building a modular Mini or All-In-One Computer was difficult if not impossible in the past due to missing key components. And even for those components in existence key specs were not standardized, making it hard to predict compatibility to a Mini Case. The V² Parts Standards solve these problems.",
         "progress": [
           "is-complete",
           "is-complete",
-          "is-complete",
-          "is-complete"
+          "",
+          ""
         ],
         "ribbonName": "Off"
       },
       {
-        "name": "V² Use Standards",
+        "name": "V² Usability Standards",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "<strong>V² Silent</strong>: Measurement and Classification of PC noise V²<br><strong>Easy-Upgrade</strong>: Specs for easy upgrading<br><strong>V² Easy Repair</strong>: Specs for easy repairing<br><strong>V² Easy Clean</strong>: Specs for easy cleaning<br><strong>V² Easy Assembly</strong>: Specs for easy assembly.",
+        "description": "Making V² PCs more enjoyable in daily operations is good for the user and as such is a good sales point too. We provide Design Guides, Design Requirements, Measurement Procedures, Classifications, User Manual Templates on the topics: Silent PC, easy upgradability, easy repair, easy cleaning, easy assembly, and reliability.",
         "progress": [
           "is-complete",
           "is-complete",
-          "is-complete",
-          "is-complete"
+          "",
+          ""
         ],
         "ribbonName": "Off"
       },
@@ -37,8 +37,8 @@
         "gitLink": "#",
         "description": "V² Logo is a tool to assist consumers in their buying process and at the same time to assist makers and retailers in their sales efforts. We believe the V² Logo Program is a community service. As such it is developed within the community and we are making licensing as transparent and straight forward as possible. All at zero cost.",
         "progress": [
-          "",
-          "",
+          "is-complete",
+          "is-complete",
           "",
           ""
         ],
@@ -82,12 +82,12 @@
         "name": "ViPC & ViBare",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Ready build custom PCs and bare bones ranging from Entry Level to High End based on V²PC configurations. Covering custom configurations for Personal Use, Game PC and Workstations. Compliant to V²Case and V²PC standards.",
+        "description": "Ready build custom PCs and bare bones ranging from entry level to high end based on V²PC configurations. Covering custom configurations for personal use, game PC and workstations. Compliant to V²Case and V²PC standards.",
         "progress": [
           "is-complete",
           "is-complete",
           "is-complete",
-          "is-active"
+          ""
         ],
         "ribbonName": "Off"
       },
@@ -99,7 +99,7 @@
         "progress": [
           "is-complete",
           "is-complete",
-          "",
+          "is-active",
           ""
         ],
         "ribbonName": "Off"
@@ -108,7 +108,7 @@
         "name": "ViDock",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Graphics or storage booster for your V²PC with data rates of up to 4000 MB/s. Connect a full sized desktop GPU or four disk RAID.",
+        "description": "Graphics or storage booster for your V²PC with data rates of up to 4000 MB/s. Connect a full sized desktop GPU or four disk RAID to a V² Mini or All-In-One PC.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -121,7 +121,7 @@
         "name": "V² Logo",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "The V² Logo makes it easy to identify compatible products and parts. The V²PC Logo makes it easy to classify features and performance of a build PC or to find instructions for building, upgrading or repairing.",
+        "description": "The V²Parts Logo makes it easy to identify compatible products and parts. The V²PC Logo makes it easy to classify features and performance of a build PC or to find instructions for building, upgrading or repairing.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -146,7 +146,7 @@
         "progress": [
           "is-complete",
           "is-complete",
-          "is-complete",
+          "",
           ""
         ],
         "ribbonName": "Off"
@@ -160,7 +160,7 @@
           "is-complete",
           "is-complete",
           "is-complete",
-          ""
+          "is-active"
         ],
         "ribbonName": "Off"
       },
@@ -185,7 +185,7 @@
         "progress": [
           "is-complete",
           "is-complete",
-          "",
+          "is-complete",
           ""
         ],
         "ribbonName": "Off"
@@ -276,7 +276,7 @@
         "name": "Better Cash Flow & Availability",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "In order to keep enough configurations of traditional Mini and All-In-One PCs in stock to be attractive to the buyer the Retailer needs significant cash flow. Instead V² Mini and V² ALl-In-One PC require only a fraction of that cash flow. Thanks to their modular nature they can be configured while the customer is in the shop.",
+        "description": "In order to keep enough configurations of traditional Mini and All-In-One PCs in stock to be attractive to the buyer the Retailer needs significant cash flow. Instead V² Mini and V² All-In-One PC require only a fraction of that cash flow. Thanks to their modular nature they can be configured while the customer is in the shop.",
         "progress": [
           "is-complete",
           "is-active",
@@ -289,7 +289,7 @@
         "name": "New Markets",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "V² Mini and All-In-One PCs cover the traditional markets. In top of it they add the markets for personal (creative) workstations, professional workstations and game console upgrades.",
+        "description": "V² Mini and All-In-One PCs cover the traditional markets. On top of it they add the markets for personal (creative) workstations, professional workstations and game console upgrades.",
         "progress": [
           "is-complete",
           "is-active",
@@ -302,7 +302,7 @@
         "name": "V² Logo to help sales",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "Computer with V² Logo are quiet, portable, modular, easy to upgrade and repair. Their standardized accessories are cross vendor compatible and can be kept in use when changing the V²PC. Features important to the buyer. The V²Logo makes it easy to communicate it.",
+        "description": "Computer with V² Logo are quiet, portable, modular, easy to maintain, upgrade and repair. Their standardized accessories are cross vendor compatible and can be kept in use when changing the V²PC. Features important to the buyer. The V²Logo makes it easy to communicate it.",
         "progress": [
           "is-complete",
           "is-active",
@@ -321,26 +321,26 @@
     "link": "/v2-Marketing",
     "items": [
       {
-        "name": "Social Web",
+        "name": "Social Media",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "We are on Facebook, Twitter, YouTube and GitHub Issues. We share what we are working on V² Blog, giving you a chance to give feedback or get engaged early on. And we are creating projects with other DIY Forums and DIY Websites who share the same interests of a Mini / All-In-One DIY PC.",
+        "description": "The easiest way to contact us, find out what others are saying about V² Modular PC or to let your friends know about it. We are on Facebook, Twitter, YouTube and GitHub Issues.",
         "progress": [
           "is-complete",
-          "is-active",
+          "is-complete",
           "",
           ""
         ],
         "ribbonName": "Off"
       },
       {
-        "name": "Computex",
+        "name": "DIY Forums & DIY Websites",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "We will show V² Modular PC at Computex Taipei May 31 ... June 4. Make an appointment, just visit us or help to spread the word.",
+        "description": "V², DIY Forums and DIY websites all share the same goal of making building, upgrading or repairing a custom PC easier. Here we are looking for Win-Win scenarios to help and promote each other.",
         "progress": [
           "is-complete",
-          "is-active",
+          "",
           "",
           ""
         ],
@@ -353,7 +353,7 @@
         "description": "V² modular PC saves the environment and the user's money. It breathes new life into the Desktop and delivers faster, quieter and more portable PCs. Help to spread the word. Find Press Releases, White Papers and more ...",
         "progress": [
           "is-complete",
-          "is-active",
+          "",
           "",
           ""
         ],
@@ -366,9 +366,9 @@
         "description": "V² Gamma Sample Products ship in June, Trailblazer Products ship in August. Enjoy the benefits of V² Modular PC before they become available through OEM offerings, or be one of the first to write about it. The first 100 orders will enjoy a 25% discount. Help to spread the word to reach our 200 pcs stretch goal to get a free Arduino.",
         "progress": [
           "is-complete",
-          "is-active",
-          "",
-          ""
+          "is-complete",
+          "is-complete",
+          "is-active"
         ],
         "ribbonName": "Off"
       },
@@ -379,7 +379,7 @@
         "description": "<strong>1)</strong> Listing of all shops selling V² Products. <strong>2)</strong> Tutorials on how you can build your own V² Community online shop. (e.g., Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income.) <strong>3)</strong> How you can add custom build Mini and All-In-One Workstations to your existing shop.",
         "progress": [
           "is-complete",
-          "is-active",
+          "",
           "",
           ""
         ],
@@ -389,10 +389,10 @@
         "name": "Stage 3: V² Consumer Products",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream, to put them into the shop around your corner. It is our Mission to provide everything that an OEM need in Open Source and to remove all gate keepers. We expect V² OEM products to become available at the end of 2016 / beginning 2017.",
+        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream, to put them into the shop around your corner. We are demoing V² on our OEM tour in Q3 in China, Hong Kong and Taiwan. We expect V² OEM products to become available in 2017.",
         "progress": [
           "is-complete",
-          "is-active",
+          "",
           "",
           ""
         ],
@@ -450,7 +450,7 @@
   {
     "name": "Plan",
     "shortName": "Plan",
-    "description": "Our Plan, shared in Open Source on GitHub. Check out why it will work or how you can help.",
+    "description": "Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help.",
     "id": "plan",
     "items": [
       {
@@ -460,7 +460,7 @@
         "description": "We will draw an image how the world will look like in 2021 after the successful introduction of V². It is a list of User Stories written in the perspective of: PC User, Journalist, Developer, Manufacturer, Retailer, Standard Community, so it is easy for you to find yourself and what V² will do to improve your life.",
         "progress": [
           "is-complete",
-          "",
+          "is-complete",
           "",
           ""
         ],
@@ -473,7 +473,7 @@
         "description": "The <strong>Road Map</strong> shows the way to reach True North with key releases for each Quarter. <strong>Milestones</strong> breaks each quarter down into release targets for each month.",
         "progress": [
           "is-complete",
-          "",
+          "is-active",
           "",
           ""
         ],
@@ -486,7 +486,7 @@
         "description": "Finally each target is broken down into projects, that are manged in <strong>GitHub Issues</strong>.",
         "progress": [
           "is-complete",
-          "",
+          "is-active",
           "",
           ""
         ],
