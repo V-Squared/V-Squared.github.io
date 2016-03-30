@@ -276,7 +276,7 @@
         "name": "Better Cash Flow & Availability",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "Keep V² Mini and V² All-In-One PCs in stock requires a fraction of the cash flow when compared to traditional Mini and All-In-One PCs. Being modular and made of standard desktop parts increases availability of different models even further.",
+        "description": "In order to keep enough configurations of traditional Mini and All-In-One PCs in stock to be attractive to the buyer the Retailer needs significant cash flow. Instead V² Mini and V² ALl-In-One PC require only a fraction of that cash flow. Thanks to their modular nature they can be configured while the customer is in the shop.",
         "progress": [
           "is-complete",
           "is-active",
@@ -289,7 +289,7 @@
         "name": "New Markets",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "V² Mini and All-In-One PCs cover the traditional markets. In addition they are suited for personal workstations, professional workstations and game console upgrades.",
+        "description": "V² Mini and All-In-One PCs cover the traditional markets. In top of it they add the markets for personal (creative) workstations, professional workstations and game console upgrades.",
         "progress": [
           "is-complete",
           "is-active",
@@ -360,36 +360,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Better Cash Flow & Availability",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "In order to keep enough configurations of traditional Mini and All-In-One PCs in stock to be attractive to the buyer the Retailer needs significant cash flow. Instead V² Mini and V² ALl-In-One PC require only a fraction of that cash flow. Thanks to their modular nature they can be configured while the customer is in the shop.",
-        "progress": [
-          "is-complete",
-          "is-active",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "New Markets",
-        "img": "images/389x389_theme=social.png",
-        "gitLink": "#",
-        "description": "V² Mini and All-In-One PCs cover the traditional markets. In top of it they add the markets for personal (creative) workstations, professional workstations and game console upgrades.",
-        "progress": [
-          "is-complete",
-          "is-active",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
         "name": "Stage 1: V² Trailblazer Products",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "<strong>1)</strong> Listing of all shops selling V² Products. <strong>2)</strong> Tutorials on how you can build your own V² Community online shop. (e.g., Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income.) <strong>3)</strong> How you can add custom build Mini and All-In-One Workstations to your existing shop.",
+        "description": "V² Gamma Sample Products ship in June, Trailblazer Products ship in August. Enjoy the benefits of V² Modular PC before they become available through OEM offerings, or be one of the first to write about it. The first 100 orders will enjoy a 25% discount. Help to spread the word to reach our 200 pcs stretch goal to get a free Arduino.",
         "progress": [
           "is-complete",
           "is-active",
@@ -402,7 +376,7 @@
         "name": "Stage 2: V² Shops",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "1) Listing of all shops selling V² Products. 2) Tutorials on how you can build your own V² Community online shop. (e.g., Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income.) 3) How you can add custom build Mini and All-In-One Workstations to your existing shop.",
+        "description": "<strong>1)</strong> Listing of all shops selling V² Products. <strong>2)</strong> Tutorials on how you can build your own V² Community online shop. (e.g., Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income.) <strong>3)</strong> How you can add custom build Mini and All-In-One Workstations to your existing shop.",
         "progress": [
           "is-complete",
           "is-active",
@@ -412,10 +386,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "V² Base.Compliance",
+        "name": "Stage 3: V² Consumer Products",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "Web App Database that is listing compliant products, that can use the V² Logo. Classified for the following product types: PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets. Anyone can suggest additions via GitHub Flow.",
+        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream, to put them into the shop around your corner. It is our Mission to provide everything that an OEM need in Open Source and to remove all gate keepers. We expect V² OEM products to become available at the end of 2016 / beginning 2017.",
         "progress": [
           "is-complete",
           "is-active",
@@ -459,10 +433,10 @@
         "ribbonName": "On"
       },
       {
-        "name": "V² Base.Logo",
+        "name": "V² Base.Compliance",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "Database listing PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets that are compatible with the V² Standard.",
+        "description": "Web App Database that is listing compliant products, that can use the V² Logo. Classified for the following product types: PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets. Anyone can suggest additions via GitHub Flow.",
         "progress": [
           "is-complete",
           "is-active",
@@ -543,7 +517,7 @@
         "name": "Contributing",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member.",
+        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member. Workflow and Tutorials on how to contribute to V². List of resources such as style guides, images, etc ...",
         "progress": [
           "is-complete",
           "",
