@@ -4,13 +4,14 @@ layout: home
 
 <div class="home">
 
-  <div class="portfolio-sidenav" off-content-sidebar="520" ng-style="{'display':isDisplay}" ng-class="displayed">
+  <div class="portfolio-sidenav" ng-style="{'display':isDisplay}" ng-class="displayed">
     <ul class="uk-nav">
+      <li du-scrollspy="introduction" offset="51"><a du-smooth-scroll offset="51" href="#introduction">Introduction</a></li>
       <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll offset="-1" ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
     </ul>
   </div>
 
-  <div class="jumbotron">
+  <div class="jumbotron" id="introduction">
     <div class="uk-container uk-container-center">
       <div class="jumbotron-title">
         <div class="title-logo">
