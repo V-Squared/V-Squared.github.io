@@ -100,6 +100,25 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background:#242729;
+    color:#767d84;
+    
+    h1,h2,h3,h4,h5,h6 {
+        color:#FFF;
+    }
+    
+    .footer-list {
+        list-style:none;
+        margin:0;
+        
+        li {
+            padding-bottom:5pt;
+        }
+    }
+    
+    a {
+        color:#b9bdc1;
+    }
 }
 
 .footer-heading {
