@@ -316,6 +316,11 @@
     padding-top: 90pt;
     padding-bottom: 100pt;
 }
+@media (min-width:768px) {
+    .feature-text {
+        font-size:35pt;
+    }
+}
 .gray {
     background: #f5f5f5;
 }
