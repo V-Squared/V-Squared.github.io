@@ -51,30 +51,35 @@
   background:#F5F5F5;
 }
 .portfolio-section {
-    
-    em {
-        color:#111 !important;
+
+  &:first-child {
+    border-top:0
+  }
+
+  em {
+      color:#111 !important;
+  }
+
+  .uk-grid > div {
+    h3 {
+      margin-bottom:0;
     }
     
-    .uk-grid > div {
-        h3 {
-          margin-bottom:0;
-        }
-        
-        .progess-bar {
-          margin-top: 20pt;
-        }
-        
-        figure {
-          border-radius: 20pt;
-        }
-        
-        padding-top:20pt;
-        padding-bottom:20pt;
+    .progess-bar {
+      margin-top: 20pt;
     }
     
-    padding-bottom: 110pt;
-    padding-top: 100pt;
+    figure {
+      border-radius: 20pt;
+    }
+    
+    padding-top:20pt;
+    padding-bottom:20pt;
+  }
+
+  padding-bottom: 20pt;
+  border-top: 1px solid #eee;
+  padding-top: 80pt;
 }
 
 @media (max-width:480px) {
