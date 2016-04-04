@@ -49,7 +49,6 @@ layout: home
 
 	</div>
 
-
 	<div id="all-peice-of-puzzle" class="feature-section">
 		<div class="uk-container-center uk-container">
 			<h1 class="uk-text-center feature-text">Delivering all pieces of the puzzle</h1>
@@ -109,6 +108,19 @@ layout: home
 				</svg>
 			</div>
 		</div>
+	</div>
+
+	<div class="table-of-content uk-navbar" data-uk-sticky>
+	  <div class="uk-container uk-container-center">
+	    <div class="portlotifo-nav">
+	      <ul class="uk-navbar-nav">
+	      	<li du-scrollspy="introduction">
+	      		<a du-smooth-scroll href="#introduction">Intro</a>
+	      	</li>
+	        <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
+	      </ul>
+	    </div>
+	  </div>
 	</div>
 
 

@@ -17,34 +17,6 @@
         }
     }
 }
-
-.portlotifo-nav {
-    ul {
-        display: -webkit-box;
-        display: -moz-box; 
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
-        margin-left:0;
-        margin-bottom: 0;
-        li {
-            list-style:none;
-            padding-right:15pt;
-            
-            &:last-child {
-              padding-right:0;
-            }
-            
-            &.active {
-              a {
-                color:#FF8000;
-              }
-            }
-        }
-    }
-}
 .portfolio-section {
 
   em {
@@ -113,26 +85,18 @@
 .ribbon:after {
   right: 0;
 }
-
-.table-of-content {
-  padding: 13px 0;
-  border-bottom: 1px solid #E5E5E5;
-  background:#FFF;
-  z-index:9999 !important;
-}
-@media (max-width: 677px) {
-  .table-of-content {
-    padding: 1px 0;
-  }
-}
 .compliances {
-  padding:5px 0;
-  background-color: #EEEEEE;
+  padding:20px 0;
+  background-color: #039be5;
+
+  * {
+    color:#FFF;
+  }
 }
 .compliances-row {
   padding-bottom: 5px;
   h3 {
-    color:#666;
+    color:#FFF;
     cursor:pointer;
     text-align:center;
   }
