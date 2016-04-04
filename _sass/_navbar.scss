@@ -1,18 +1,18 @@
 .v2-navbar {
-    min-height: 50px;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
+    min-height: 45pt;
     z-index: 9999;
+    background:#FFF;
 }
 .v2-navbar-nav > li > a {
     height:auto;
-    padding:15px;
+    padding: 19.5px 15px;
     line-height:inherit;
+    cursor:pointer !important;
 }
-.v2-navbar-nav > li > a:hover {
-    cursor:pointer;
+@media (max-width:888px) {
+  .v2-navbar-nav > li > a {
+    padding: 19.5px 8px;
+  }
 }
 .v2-navbar .uk-active {
     background-color:#ddd;
@@ -20,68 +20,54 @@
 .v2-navbar-brand {
     padding-left:0;
 }
-body {
-	padding-top:51px;
+.table-of-content {
+  background:#039be5;
+  z-index:9999 !important;
 }
-.uk-offcanvas.uk-active .uk-offcanvas-bar  {
-	padding-top:51px;
+@media (max-width: 705px) {
+  .table-of-content {
+    position:static !important;
+  }
 }
-.portfolio-sidenav {
-    position:fixed;
-    top:100pt;
-    left:20pt;
-    
-    ul {
-     border-left: 1px solid #039be5;
-        li {
-          position: relative;
-          line-height:10.5pt;
-          margin-top:15pt;
-          
-          &:first-child {
-            margin-top:0;
-          }
-          
-          &:before {
-            content: '';
-            position: absolute;
-            z-index: 2;
-            left: -8px;
-            top: -1px;
-            width: 15px;
-            height: 15px;
-            background-color: #039be5;
-            border-radius: 3pt;
-            -webkit-border-radius: 3pt;
-           }
-           
-           &.active {
-               
-               &:before {
-                   background-color:#FF8000;
-               }
-               
-               a {
-                   color:#FF8000;
-               }
-           }
-           
-           a {
-               padding:0;
-               padding-left:12pt;
-               color:#039be5;
-           }
+.portlotifo-nav {
+  ul {
+    display: -webkit-box;
+    display: -moz-box; 
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin-left:0;
+    margin-bottom: 0;
+    li {
+      list-style:none;
+
+      &:last-child {
+        padding-right:0;
+      }
+
+      a, a:focus,a:active {
+        color:#FFF;
+        padding: 9.75pt 7.5pt;
+        line-height: inherit;
+        height:auto;
+        background-color:transparent;
+
+        &:hover {
+          background-color:#037CB7;
+          color:#FFF;
         }
+      }
+
+      &.active {
+        a {
+          background-color:#037CB7;
+        }
+      }
     }
+  }
 }
-@media (max-width:1435px) {
-    .portfolio-sidenav {
-        display:none !important;
-    }
-    .v2-navbar {
-        position:static;
-    }
-    body {
-	    padding-top:0;
-    }
+.uk-sticky-placeholder {
+  height: 51px !important;
 }
