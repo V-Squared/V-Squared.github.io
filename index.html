@@ -4,7 +4,7 @@ layout: home
 
 <div class="home">
 
-	<div class="jumbotron" id="introduction">
+	<div class="jumbotron" id="home-introduction">
 		<div class="uk-container uk-container-center">
 			<div class="jumbotron-title">
 				<div class="title-logo">
@@ -15,7 +15,7 @@ layout: home
 					<h2 class="tagline">Upgradable Mini and All-In-One PC</h2>
 				</div>
 			</div>
-			<p class="uk-text-justify"><i>V-Squared</i> is an Open Source, Non-Profit Standard Initiative and Community on <a href="https://github.com/V-Squared">GitHub.com/V-Squared</a> that creates, compiles and catalogs projects, know-how articles, standards, blue prints and applications for the purpose to make Mini and All-In-One Computer modular, ugradable and easy to repair. For the benefit of the individual DIY person as well as the industry as a whole. We have published what we have under CC and MIT License and we are working on closing all holes. Since this is Open Source, you are invited to help. Or simply use what is already available. Pay attention to the progress bars and ribbons.</p>
+			<p class="uk-text-center"><i>V-Squared</i> is an Open Source Standard Initiative and Community on <a href="https://github.com/V-Squared">GitHub.com/V-Squared</a>. We develop and publish standards, blueprints, know how articles, white papers and apps to make Mini and All-In-One Computer modular, ugradable and easy to repair. For the benefit of the individual user as well as the DIY Community and PC Industry as a whole.</p>
 		</div>
 	</div>
 
@@ -109,8 +109,7 @@ layout: home
 
 	<div id="section-seperator" class="call-to-action">
 		<div class="uk-container uk-container-center uk-text-center">
-			<h1>Lorem Ipsum</h1>
-			<p>Lorum ipsum dolar sit atmet. ASCA ASCA ASCA ASCA ASCA ASCA ASCA</p>
+			<h1 style="margin:0"><a du-smooth-scroll href="#missing-standard"><i class="uk-icon-hand-o-right"></i> Explore what V² offers for you</a></h1>
 		</div>
 	</div>
 
@@ -119,7 +118,7 @@ layout: home
 	    <div class="portlotifo-nav">
 	      <ul class="uk-navbar-nav">
 	      	<li du-scrollspy="introduction">
-	      		<a du-smooth-scroll href="#introduction">Intro</a>
+	      		<a du-smooth-scroll href="#home-introduction" offset="60">Intro</a>
 	      	</li>
 	        <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
 	      </ul>
