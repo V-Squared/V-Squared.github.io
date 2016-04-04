@@ -321,10 +321,10 @@
     "link": "/v2-Marketing",
     "items": [
       {
-        "name": "Social Media",
+        "name": "Social Web",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "The easiest way to contact us, find out what others are saying about V² Modular PC or to let your friends know about it. We are on Facebook, Twitter, YouTube and GitHub Issues.",
+        "description": "We are on Facebook, YouTube, Twitter, Disqus and GitHub Issues. This is the easiest way to contact us, share V² with your friends or follow our progress. We are developing win-win scenarios with DIY Forums and Websites who share the same targets to improve the computer user experience.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -334,10 +334,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "DIY Forums & DIY Websites",
+        "name": "White Paper & Know How",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "V², DIY Forums and DIY websites all share the same goal of making building, upgrading or repairing a custom PC easier. Here we are looking for Win-Win scenarios to help and promote each other.",
+        "description": "A growing collection of White Paper and Know How Articles on the topics of developing, building, retailing, benchmarking, maintaining and repairing computer. Our aim is to become one of the best place on the web to find and publish computer know how on above topics.",
         "progress": [
           "is-complete",
           "",
@@ -347,10 +347,10 @@
         "ribbonName": "On"
       },
       {
-        "name": "Press",
+        "name": "Blog",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "V² modular PC saves the environment and the user's money. It breathes new life into the Desktop and delivers faster, quieter and more portable PCs. Help to spread the word. Find Press Releases, White Papers and more ...",
+        "description": "Latest News, Incubating Articles, Public Brainstorming. We share what we are working on in the early stages, giving you a heads up and a chance to give feedback or to contribute.",
         "progress": [
           "is-complete",
           "",
@@ -360,10 +360,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Stage 1: V² Trailblazer Products",
+        "name": "Q2: Community Campaign",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "V² Gamma Sample Products ship in June, Trailblazer Products ship in August. Enjoy the benefits of V² Modular PC before they become available through OEM offerings, or be one of the first to write about it. The first 100 orders will enjoy a 25% discount. Help to spread the word to reach our 200 pcs stretch goal to get a free Arduino.",
+        "description": "V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on V²Case Trailblazer Products. And it is your last chance to give feedback on the product. We also need your continued support to promote V². Tell a friend or post a review. Help us to reach our stretch goal to earn free bonus products.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -373,10 +373,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Stage 2: V² Shops",
+        "name": "Q3: Shops & Press Campaign",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "<strong>1)</strong> Listing of all shops selling V² Products. <strong>2)</strong> Tutorials on how you can build your own V² Community online shop. (e.g., Computer Clubs and DIY forums to offer a service to their members that saves their money and at the same time generates income.) <strong>3)</strong> How you can add custom build Mini and All-In-One Workstations to your existing shop.",
+        "description": "Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming it is a good time to approach the press.",
         "progress": [
           "is-complete",
           "",
@@ -386,10 +386,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Stage 3: V² Consumer Products",
+        "name": "Q4: OEM Campaign",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
-        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream, to put them into the shop around your corner. We are demoing V² on our OEM tour in Q3 in China, Hong Kong and Taiwan. We expect V² OEM products to become available in 2017.",
+        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in Summer 2017. We also have an \"Open House\" in Guangzhou for OEM developer to visit us and get answers to their questions.",
         "progress": [
           "is-complete",
           "",
