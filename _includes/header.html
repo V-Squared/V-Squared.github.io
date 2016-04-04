@@ -47,6 +47,16 @@
 
 </nav>
 
+<div class="table-of-content" data-uk-sticky>
+  <div class="uk-container uk-container-center">
+    <div class="portlotifo-nav">
+      <ul>
+        <li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <div id="moble-site-nav" class="uk-offcanvas">
   <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
     <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="">

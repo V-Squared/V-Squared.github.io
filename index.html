@@ -4,13 +4,6 @@ layout: home
 
 <div class="home">
 
-	<div class="portfolio-sidenav" ng-style="{'display':isDisplay}" ng-class="displayed">
-		<ul class="uk-nav">
-			<li du-scrollspy="introduction" offset="51"><a du-smooth-scroll offset="51" href="#introduction">Introduction</a></li>
-			<li ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll offset="-1" ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
-		</ul>
-	</div>
-
 	<div class="jumbotron" id="introduction">
 		<div class="uk-container uk-container-center">
 			<div class="jumbotron-title">
@@ -114,17 +107,6 @@ layout: home
 						<text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Apps</tspan></text>
 					</g>
 				</svg>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="table-of-content" data-uk-sticky="{media: '(max-width: 1435px)'}">
-		<div class="uk-container uk-container-center">
-			<div class="portlotifo-nav">
-				<ul>
-					<li du-spy-context ng-repeat="sections in vm.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll offset="-1" ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
-				</ul>
 			</div>
 		</div>
 	</div>

@@ -1,9 +1,5 @@
 .v2-navbar {
     min-height: 50px;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
     z-index: 9999;
 }
 .v2-navbar-nav > li > a {
@@ -19,69 +15,4 @@
 }
 .v2-navbar-brand {
     padding-left:0;
-}
-body {
-	padding-top:51px;
-}
-.uk-offcanvas.uk-active .uk-offcanvas-bar  {
-	padding-top:51px;
-}
-.portfolio-sidenav {
-    position:fixed;
-    top:100pt;
-    left:20pt;
-    
-    ul {
-     border-left: 1px solid #039be5;
-        li {
-          position: relative;
-          line-height:10.5pt;
-          margin-top:15pt;
-          
-          &:first-child {
-            margin-top:0;
-          }
-          
-          &:before {
-            content: '';
-            position: absolute;
-            z-index: 2;
-            left: -8px;
-            top: -1px;
-            width: 15px;
-            height: 15px;
-            background-color: #039be5;
-            border-radius: 3pt;
-            -webkit-border-radius: 3pt;
-           }
-           
-           &.active {
-               
-               &:before {
-                   background-color:#FF8000;
-               }
-               
-               a {
-                   color:#FF8000;
-               }
-           }
-           
-           a {
-               padding:0;
-               padding-left:12pt;
-               color:#039be5;
-           }
-        }
-    }
-}
-@media (max-width:1435px) {
-    .portfolio-sidenav {
-        display:none !important;
-    }
-    .v2-navbar {
-        position:static;
-    }
-    body {
-	    padding-top:0;
-    }
 }
