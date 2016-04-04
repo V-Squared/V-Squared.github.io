@@ -47,14 +47,7 @@
         }
     }
 }
-.portfolio-section:nth-child(even) {
-  background:#F5F5F5;
-}
 .portfolio-section {
-
-  &:first-child {
-    border-top:0
-  }
 
   em {
       color:#111 !important;
@@ -78,7 +71,6 @@
   }
 
   padding-bottom: 20pt;
-  border-top: 1px solid #eee;
   padding-top: 80pt;
 }
 
