@@ -47,7 +47,7 @@
     ]
   },
   {
-    "name": "Trailblazer Products & Logo",
+    "name": "Trailblazer Products",
     "shortName": "Products",
     "description": "Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow.",
     "id": "products",
@@ -79,14 +79,27 @@
         "ribbonName": "Off"
       },
       {
-        "name": "ViPC & ViBare",
+        "name": "ViPC",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Ready build custom PCs and bare bones ranging from entry level to high end based on V²PC configurations. Covering custom configurations for personal use, game PC and workstations. Compliant to V²Case and V²PC standards.",
+        "description": "Ready build custom PCs ranging from entry level to high end based on V²PC configurations. Covering custom configurations for personal use, game PC and workstations. Compliant to V²Case and V²PC standards.",
         "progress": [
           "is-complete",
           "is-complete",
           "is-complete",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "ViBarebone",
+        "img": "images/389x389_theme=social.png",
+        "gitLink": "#",
+        "description": "Ready build bare bone PCs ranging from AMD entry level to Intel high end based on V²PC configurations. Add CPUs, disks and GPUs to cover any custom configuration for home, game and workstation use. Compliant to V²Case and V²PC standards.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "",
           ""
         ],
         "ribbonName": "Off"
@@ -109,19 +122,6 @@
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Graphics or storage booster for your V²PC with data rates of up to 4000 MB/s. Connect a full sized desktop GPU or four disk RAID to a V² Mini or All-In-One PC.",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V² Logo",
-        "img": "images/389x389_theme=social.png",
-        "gitLink": "#",
-        "description": "The V²Parts Logo makes it easy to identify compatible products and parts. The V²PC Logo makes it easy to classify features and performance of a build PC or to find instructions for building, upgrading or repairing.",
         "progress": [
           "is-complete",
           "is-complete",
