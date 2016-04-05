@@ -1,49 +1,45 @@
 <footer class="site-footer">
 
-  <div class="uk-container uk-container-center">
+  <h2 class="footer-heading">{{ site.title }}</h2>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="uk-grid">
-      <!--<div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>-->
-      
-      <div class="uk-width-small-2-3">
-        <p>{{ site.description }}</p>
-      </div>
-
-      <div class="uk-width-small-1-3">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
+  <div class="uk-grid">
+    <!--<div class="footer-col footer-col-1">
+      <ul class="contact-list">
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+    </div>-->
     
-    <div class="uk-grid footer-column" load-repository="repository.json">
-      <div ng-repeat="repositorySection in json.repositories">
-        <h4>[[repositorySection.name]]</h4>
-        <ul class="footer-list">
-          <li ng-repeat="repository in repositorySection.items"><a href="#">[[repository.name]]</a></li>
-        </ul>
-      </div>
+    <div class="uk-width-small-2-3">
+      <p>{{ site.description }}</p>
     </div>
 
-  </div>
+    <div class="uk-width-small-1-3">
+      <ul class="social-media-list">
+        {% if site.github_username %}
+        <li>
+          {% include icon-github.html username=site.github_username %}
+        </li>
+        {% endif %}
 
+        {% if site.twitter_username %}
+        <li>
+          {% include icon-twitter.html username=site.twitter_username %}
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="uk-grid footer-column" load-repository="repository.json">
+    <div ng-repeat="repositorySection in json.repositories">
+      <h6>[[repositorySection.name]]</h6>
+      <ul class="footer-list">
+        <li ng-repeat="repository in repositorySection.items"><span>[[repository.name]]</span></li>
+      </ul>
+    </div>
+  </div>
+  
 </footer>
 
 <script type="text/javascript" src="_javascript/dependencies/angular-sanitize.min.js"></script>

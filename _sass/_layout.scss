@@ -99,7 +99,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit;
     background:#242729;
     color:#767d84;
     
@@ -116,7 +116,7 @@
         }
     }
     
-    a {
+    span {
         color:#b9bdc1;
     }
 }
@@ -313,8 +313,15 @@
   margin:0;
 }
 .footer-column {
-    div {
-        width:150px;
-        padding-bottom: 20pt;
+  div {
+    width:124.5pt;
+    padding-bottom: 20pt;
+    box-sizing:border-box;
+
+    span {
+        font-size:8pt;
+        line-height: 9pt;
+        display: block;
     }
+  }
 }
