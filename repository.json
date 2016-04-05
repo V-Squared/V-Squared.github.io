@@ -314,6 +314,53 @@
     ]
   },
   {
+    "name": "Apps",
+    "shortName": "Apps",
+    "description": "V² Open Source Web Apps simplify experiencing or building V² PCs",
+    "id": "app",
+    "items": [
+      {
+        "name": "V² Configurator",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Easy to use PC Configurator Web App. Pick a V² PC Configuration as your base config and then customize to your needs. Supports sharing of your custom Configuration in social media to get feedback.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "V² Form Factors",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "Interactive Web App shows how to convert a V²PC from Mini PC to various All-In-One Form Factors. How it will look, how it works with 1, 2, or 3 displays and which V² Accessories are needed.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "On"
+      },
+      {
+        "name": "V² Base.Compliance",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "Web App Database that is listing compliant products, that can use the V² Logo. Classified for the following product types: PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets. Anyone can suggest additions via GitHub Flow.",
+        "progress": [
+          "is-complete",
+          "is-active",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      }
+    ]
+  },
+  {
     "name": "Spreading the Word & Products",
     "shortName": "Spreading",
     "description": "How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user",
@@ -360,7 +407,7 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Q2: Community Campaign",
+        "name": "Stage 2: Community Campaign",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
         "description": "V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on V²Case Trailblazer Products. And it is your last chance to give feedback on the product. We also need your continued support to promote V². Tell a friend or post a review. Help us to reach our stretch goal to earn free bonus products.",
@@ -373,7 +420,7 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Q3: Shops & Press Campaign",
+        "name": "Stage 3: Shops & Press Campaign",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
         "description": "Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming it is a good time to approach the press.",
@@ -386,60 +433,13 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Q4: OEM Campaign",
+        "name": "Stage 4: OEM Campaign",
         "img": "images/389x389_theme=gray.png",
         "gitLink": "#",
         "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in Summer 2017. We also have an \"Open House\" in Guangzhou for OEM developer to visit us and get answers to their questions.",
         "progress": [
           "is-complete",
           "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      }
-    ]
-  },
-  {
-    "name": "Apps",
-    "shortName": "Apps",
-    "description": "V² Open Source Web Apps simplify experiencing or building V² PCs",
-    "id": "app",
-    "items": [
-      {
-        "name": "V² Configurator",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "Easy to use PC Configurator Web App. Pick a V² PC Configuration as your base config and then customize to your needs. Supports sharing of your custom Configuration in social media to get feedback.",
-        "progress": [
-          "is-complete",
-          "is-active",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "V² Form Factors",
-        "img": "images/389x389_theme=gray.png",
-        "gitLink": "#",
-        "description": "Interactive Web App shows how to convert a V²PC from Mini PC to various All-In-One Form Factors. How it will look, how it works with 1, 2, or 3 displays and which V² Accessories are needed.",
-        "progress": [
-          "is-complete",
-          "is-active",
-          "",
-          ""
-        ],
-        "ribbonName": "On"
-      },
-      {
-        "name": "V² Base.Compliance",
-        "img": "images/389x389_theme=vine.png",
-        "gitLink": "#",
-        "description": "Web App Database that is listing compliant products, that can use the V² Logo. Classified for the following product types: PCs, Cases, Panels, Motherboards, CPU Cooler, Power Supplies, Remote Access, All-In-One Stands, VESA-Brackets. Anyone can suggest additions via GitHub Flow.",
-        "progress": [
-          "is-complete",
-          "is-active",
           "",
           ""
         ],
