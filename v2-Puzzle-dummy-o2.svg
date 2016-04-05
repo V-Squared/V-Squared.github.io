@@ -1,48 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="4.1781in" width="4.1777in" version="1.1" viewBox="0 0 375.997 376.02749">
- <style>
-  /*<![CDATA[ */
-    .column > rect {
-      transition: .6s fill;
-    }
-    .column:hover > rect {
-      fill: #eee;
-    }
-  /* ]]>*/
- </style>
- <g class="column" transform="translate(-110.79 -40.182)">
-  <rect height="125" width="125" stroke="#000" y="40.84" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="107.9836" x="136.42857" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="107.9836" x="136.42857" font-size="15px">Consumer</tspan></text>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="4.1781in" width="4.1777in" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 376 376">
+<style>
+/* <![CDATA[ */
+  svg {
+    font:normal 14px / 20px "Helvetica Neue",Helvetica,Arial,sans-serif
+  }
+  .column {
+    cursor:pointer;
+  }
+  .svg-tooltip {
+    display:none;
+  }
+  g:hover .svg-tooltip {
+    fill: #07b;
+    display:block;
+  }
+/* ]]> */
+</style>
+ <g class="column" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Consumer</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(14.247 -568.2)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">DIY</tspan></text>
+ <g class="column" transform="translate(125)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">DIY</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(139.07 -568.29)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Retail</tspan></text>
+ <g class="column" transform="translate(250)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Retail</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(-110.9 -443.2)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Spreading</tspan></text>
+ <g class="column" transform="translate(0 125)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Spreading</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(14.147 -443.28)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Standard</tspan></text>
+ <g class="column" transform="translate(125 125)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Standard</tspan></text>
+    <g class="svg-tooltip">
+      <text x="50%" y="30%" text-anchor="middle" alignment-baseline="middle">SVG Tooltip!!</text>
+    </g>
+    <svg-tooltip></svg-tooltip>
+  </svg>
  </g>
- <g class="column" transform="translate(138.96 -443.37)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Maker</tspan></text>
+ <g class="column" transform="translate(250 125)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Maker</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(-110.93 -318.26)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Plan</tspan></text>
+ <g class="column" transform="translate(0 250)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Plan</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(14.107 -318.33)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Organization</tspan></text>
+ <g class="column" transform="translate(125 250)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Organization</tspan></text>
+  </svg>
  </g>
- <g class="column" transform="translate(138.93 -318.42)">
-  <rect height="125" width="125" stroke="#000" y="568.79" x="111.43" fill="#fff"/>
-  <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" y="635.93359" x="174.20323" font-family="sans-serif" line-height="125%" fill="#000000"><tspan y="635.93359" x="174.20323" font-size="15px" style="text-anchor:middle;text-align:center">Apps</tspan></text>
+ <g class="column" transform="translate(250 250)" width="125" height="125">
+  <svg width="125" height="125" viewBox="0 0 125 125">
+    <rect height="125" width="125" stroke="#000" y="0" x="0" fill="#fff"/>
+    <text font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" y="50%" x="50%" font-family="sans-serif" line-height="125%" fill="#000000"><tspan text-anchor="middle" alignment-baseline="middle" y="50%" x="50%" font-size="15px">Apps</tspan></text>
+  </svg>
  </g>
 </svg>

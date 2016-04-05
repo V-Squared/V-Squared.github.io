@@ -1,3 +1,22 @@
+.feature-section {
+    padding-top: 100pt;
+    padding-bottom: 100pt;
+
+    p {
+    	margin:0;
+    }
+}
+@media (min-width:768px) {
+    .feature-text {
+        font-size:35pt;
+    }
+}
+.gray {
+  background: #f5f5f5;
+}
+.light-blue {
+	background: #EDEDED;
+}
 .call-to-action {
 	padding: 50pt 0;
 	background:#039be5;
@@ -21,7 +40,7 @@
 	}
 }
 #home-introduction {
-	background:url('https://raw.githubusercontent.com/V-Squared/v2-Art/master/ViCase-Campaign/v2-Team/_IGP7092.jpg') no-repeat center center;
+	background: url('https://raw.githubusercontent.com/V-Squared/v2-Art/master/ViCase-Campaign/v2-Team/_IGP7092.jpg') no-repeat center center;
 	background-size: cover;
 	padding: 150pt 0;
 	color:#FFF;
