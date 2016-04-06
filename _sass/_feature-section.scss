@@ -5,6 +5,12 @@
     p {
     	margin:0;
     }
+
+    .uk-grid {
+    	div {
+    		padding-bottom:20pt;
+    	}
+    }
 }
 @media (min-width:768px) {
     .feature-text {
