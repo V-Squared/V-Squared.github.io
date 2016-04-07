@@ -450,14 +450,14 @@
   {
     "name": "Plan",
     "shortName": "Plan",
-    "description": "Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help.",
+    "description": "How V² will improve your life, how we make it happen and how you can help.",
     "id": "plan",
     "items": [
       {
         "name": "True North",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "We will draw an image how the world will look like in 2021 after the successful introduction of V². It is a list of User Stories written in the perspective of: PC User, Journalist, Developer, Manufacturer, Retailer, Standard Community, so it is easy for you to find yourself and what V² will do to improve your life.",
+        "description": "A Vision on how the world will look like in 2021 after the successful introduction of V² showing how V² improves your life. It shows you where we are going and directs us to go there.",
         "progress": [
           "is-complete",
           "is-complete",
@@ -467,10 +467,10 @@
         "ribbonName": "On"
       },
       {
-        "name": "Road Map & Milestones",
+        "name": "Road Map & Campaigns",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "The <strong>Road Map</strong> shows the way to reach True North with key releases for each Quarter. <strong>Milestones</strong> breaks each quarter down into release targets for each month.",
+        "description": "The <strong>Road Map</strong> shows the way to reach <strong>True North</strong> via consecutive <strong>Campaigns</strong>. A campaign lasts about 3 months and focuses all our efforts.",
         "progress": [
           "is-complete",
           "is-active",
@@ -480,10 +480,10 @@
         "ribbonName": "On"
       },
       {
-        "name": "Projects",
+        "name": "Milestones & Issues",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Finally each target is broken down into projects, that are manged in <strong>GitHub Issues</strong>.",
+        "description": "Each <strong>Campaign</strong> is broken down into <strong>GitHub Milestones</strong>, which itself is a bucket of <strong>GitHub Issues</strong>, making it easy for you to get involved.",
         "progress": [
           "is-complete",
           "is-active",
