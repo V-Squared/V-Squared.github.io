@@ -18,6 +18,8 @@
   
   <script>
   angular.module('site', ['ngSanitize','duScroll'], function($interpolateProvider) {
+    //Change from {{}} to [[]] so it dosen't conflict with jekyll
+
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
   })
