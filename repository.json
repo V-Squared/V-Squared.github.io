@@ -470,7 +470,7 @@
         "name": "Road Map & Campaigns",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
-        "description": "The <strong>Road Map</strong> shows the way to reach <strong>True North</strong> via consecutive <strong>Campaigns</strong>. A campaign lasts about 3 months and focuses all our efforts.",
+        "description": "The <strong>Road Map</strong> shows the way to reach <strong>True North</strong> via consecutive <strong>Campaigns</strong>. A campaign is a group of <strong>Milestones</strong> and lasts about 3 months while focusing all our efforts.",
         "progress": [
           "is-complete",
           "is-active",
@@ -480,10 +480,10 @@
         "ribbonName": "On"
       },
       {
-        "name": "Milestones & Issues",
+        "name": "Milestones, Sprints & Issues",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Each <strong>Campaign</strong> is broken down into <strong>GitHub Milestones</strong>, which itself is a bucket of <strong>GitHub Issues</strong>, making it easy for you to get involved.",
+        "description": "Each <strong>Milestone</strong> is broken down into <strong>Sprints</strong>, which itself is a bucket of <strong>GitHub Issues</strong>, making it easy for you to get involved. Each Sprint outputs an <strong>Incremental Product Release</strong>.",
         "progress": [
           "is-complete",
           "is-active",
