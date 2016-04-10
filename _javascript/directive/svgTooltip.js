@@ -23,6 +23,10 @@ angular.module('site')
 
         targetElemPos.left = hostElemPos.left + hostElemPos.width / 2 - targetWidth / 2;
 
+        if (hostElemPos.left - targetWidth / 2 < 0) {
+          targetElemPos.left = 0;
+        }
+
         return targetElemPos;
       }
 
