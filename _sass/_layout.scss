@@ -329,3 +329,26 @@
     text-align: center;
     padding-top: 15pt;
 }
+.svg-tooltip {
+    position:absolute;
+    text-align: center;
+    background:#333;
+    color:rgba(255,255,255,0.7);
+    padding: 5px 8px;
+    font-size: 12px;
+    max-width: 200px;
+}
+.svg-tooltip:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(51, 51, 51, 0);
+    border-top-color: #333;
+    border-width: 5px;
+    margin-left: -5px;
+}

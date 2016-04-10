@@ -17,7 +17,7 @@
   <script type="text/javascript" src="_javascript/dependencies/angular.min.js"></script>
   
   <script>
-  angular.module('site', ['ngSanitize','duScroll'], function($interpolateProvider) {
+  angular.module('site', ['ngSanitize','duScroll','ui.bootstrap.position'], function($interpolateProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     $interpolateProvider.startSymbol('[[');

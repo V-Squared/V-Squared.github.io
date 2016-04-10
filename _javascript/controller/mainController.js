@@ -24,4 +24,8 @@ angular.module('site')
      		tooltip: "This project is on our V² GitHub"
      	}
      ]
+
+     vm.ASDA = function() {
+          console.log("ASCA");
+     }
 });
