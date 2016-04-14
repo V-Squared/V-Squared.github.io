@@ -144,7 +144,7 @@ angular.module('site')
           showTimeout = $timeout(function() {
             createTooltip();
             positionTooltip();
-          },1000);
+          },100);
         } else {
           createTooltip();
           positionTooltip();
@@ -167,7 +167,7 @@ angular.module('site')
         if(mouseoverTooltip) {
           hideTimeout = $timeout(function() {
             removeTooltip()
-          }, 1000);
+          }, 100);
         } else {
           removeTooltip();
         }
@@ -223,7 +223,7 @@ angular.module('site')
               tooltip.remove();
               tooltip = null;
             }
-          }, 1000);
+          }, 100);
         }
       }
 
