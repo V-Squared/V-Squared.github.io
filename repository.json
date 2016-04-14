@@ -82,7 +82,7 @@
         "name": "ViPC & ViBarebone",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "<strong>ViPC:</strong>Ready build custom PCs ranging from entry level to high end based on V²PC configurations. Covering personal use, game PC and workstations. <strong>ViBarebone:</strong> Ready build bare bone PC's from AMD entry level to Intel high end.",
+        "description": "<strong>ViPC: </strong>Ready build custom PCs ranging from entry level to high end based on V²PC configurations. Covering personal use, game PC and workstations. <strong>ViBarebone:</strong> Ready build bare bone PC's from AMD entry level to Intel high end.",
         "progress": [
           "is-complete",
           "is-complete",
