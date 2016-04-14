@@ -1,5 +1,30 @@
 angular.module('site')
-.directive('svgTooltip',function($interpolate,$compile,$document,$uibPosition,$window) {
+.provider("tooltipSettings", function() {
+
+  var options = {
+    placement: "top",
+    arrowHeight: 5,
+    mouseoverTooltip: false,
+    animation: true
+  };
+
+  return {
+   /**
+    * angular.module('App',function(tooltipSettingsProvider) {
+    *  // Set the default placement to bottom instead of top
+    *  tooltipSettingsProvider.options({placement:"Bottom"});
+    * })
+    */
+    options: function (value) {
+      angular.extend(options,value);
+    },
+    $get: function () {
+      return options;
+    }
+  }
+})
+.directive('svgTooltip',['$interpolate','$compile','$document','$window','$timeout','tooltipSettings',
+  function($interpolate,$compile,$document,$window,$timeout,tooltipSettings) {
 	return {
 		restrict: 'A',
     controller: function($scope,$window,$document) {
@@ -42,13 +67,17 @@ angular.module('site')
         };
       };
 
-      vm.getRawNode =  function getRawNode(elem) {
+      vm.getRawNode = function getRawNode(elem) {
         return elem.nodeName ? elem : elem[0] || elem;
       };
 
       vm.stringToBoolean = function stringToBoolean(string) {
-        if (string === 'true') {
-          return true;
+        if(string) {
+          if (string.toLowerCase() === 'true') {
+            return true;
+          } else {
+            return false;
+          }
         } else {
           return false;
         }
@@ -65,10 +94,33 @@ angular.module('site')
 
       var content = attrs.svgTooltip;
 
-      var template = '<div class="svg-tooltip" ' + 
-      'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' +
-         content +
-      '</div>'; 
+
+      var showTimeout;
+      var hideTimeout;
+
+      // Get attribute
+
+      var placement = (attrs.placement || tooltipSettings.placement);
+      var arrowHeight = (attrs.arrowHeight || tooltipSettings.arrowHeight);
+      var mouseoverTooltip = (vm.stringToBoolean(attrs.mouseoverTooltip) || tooltipSettings.mouseoverTooltip);
+      var animation = (vm.stringToBoolean(attrs.animation) || tooltipSettings.animation);
+
+
+      var template;
+
+      if (mouseoverTooltip) {
+        template = '<div class="svg-tooltip" ' + 
+        'ng-mouseenter="onMouseenter()" '+
+        'ng-mouseout="onMouseLeave()" ' +
+        'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' + 
+           content +
+        '</div>'; 
+      } else {
+        template = '<div class="svg-tooltip" ' + 
+        'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' +
+           content +
+        '</div>'; 
+      }
 
       /*tooltip.css({
         top:  ttTop + 'px',
@@ -81,44 +133,54 @@ angular.module('site')
       var ttPosition;
 
 
-      // Get attribute
-
-      var placement = (attrs.placement || "top");
-      var arrowHeight = (attrs.arrowHeight || "5");
-      var mouseoverTooltip = (vm.stringToBoolean(attrs.mouseoverTooltip) || false);
-
       // Event
 
 		  element.bind('mousemove',showTooltip);
 		  element.bind('mouseout',hideTooltip);
 
       function showTooltip(event) {
+       
+        if(mouseoverTooltip) {
+          showTimeout = $timeout(function() {
+            createTooltip();
+            positionTooltip();
+          },1000);
+        } else {
+          createTooltip();
+          positionTooltip();
+        }
+      	
+      }
 
-        createTooltip();
-
+      function positionTooltip () {
         // Position tooltip
         scope.$apply(
           function updatePosition() {
             ttScope.ttLeft = ttPosition.left;
             ttScope.ttTop = ttPosition.top;
-            ttScope.visibility = true;
           }
         );
-      	/*tooltip.css({
-      		top:  ttTop + 'px',
-      		left: ttLeft + 'px',
-      		visibility: 'visible'
-      	});*/
       }
 
       function hideTooltip(event) {
+        
+        if(mouseoverTooltip) {
+          hideTimeout = $timeout(function() {
+            removeTooltip()
+          }, 1000);
+        } else {
+          removeTooltip();
+        }
+      }
+
+      function removeTooltip () {
+        if(ttScope) {
+          ttScope.$destroy();
+          ttScope = null;
+        }
         if (tooltip) {
           tooltip.remove();
           tooltip = null;
-        }
-        if (ttScope) {
-          ttScope.$destroy();
-          ttScope = null;
         }
       }
 
@@ -135,7 +197,6 @@ angular.module('site')
 
         ttScope.ttLeft = 0;
         ttScope.ttTop = 0;
-        ttScope.visibility = false;
 
         // append tooltip to the body
         tooltip = tooltipLinker(ttScope, function(tooltip) {
@@ -144,8 +205,28 @@ angular.module('site')
 
         // Get the Position of tooltip
         ttPosition = vm.positionElement(element,tooltip,placement,arrowHeight);
+
+
+        // tooltip event for mouseoverTooltip 
+
+        ttScope.onMouseenter = function onMouseenter () {
+          $timeout.cancel(hideTimeout);
+        }
+
+        ttScope.onMouseLeave = function onMouseLeave () {
+          hideTimeout = $timeout(function() {
+            if(ttScope) {
+              ttScope.$destroy();
+              ttScope = null;
+            }
+            if (tooltip) {
+              tooltip.remove();
+              tooltip = null;
+            }
+          }, 1000);
+        }
       }
 
     }
   }
-})
+}]);
