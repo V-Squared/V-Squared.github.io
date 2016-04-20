@@ -110,7 +110,7 @@ angular.module('site')
 
       if (mouseoverTooltip) {
         template = '<div class="svg-tooltip" ' + 
-        'ng-mouseenter="onMouseenter()" '+
+        'ng-mouseover="onMouseover()" '+
         'ng-mouseout="onMouseLeave()" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' + 
            content +
@@ -139,12 +139,12 @@ angular.module('site')
 		  element.bind('mouseout',hideTooltip);
 
       function showTooltip(event) {
-       
         if(mouseoverTooltip) {
+          $timeout.cancel(hideTimeout);
           showTimeout = $timeout(function() {
             createTooltip();
             positionTooltip();
-          },100);
+          },90);
         } else {
           createTooltip();
           positionTooltip();
@@ -163,11 +163,11 @@ angular.module('site')
       }
 
       function hideTooltip(event) {
-        
         if(mouseoverTooltip) {
-          hideTimeout = $timeout(function() {
-            removeTooltip()
-          }, 100);
+        $timeout.cancel(showTimeout);
+         hideTimeout = $timeout(function() {
+          removeTooltip();
+         },90);
         } else {
           removeTooltip();
         }
@@ -209,23 +209,22 @@ angular.module('site')
 
         // tooltip event for mouseoverTooltip 
 
-        ttScope.onMouseenter = function onMouseenter () {
+        ttScope.onMouseover = function onMouseover () {
           $timeout.cancel(hideTimeout);
         }
 
         ttScope.onMouseLeave = function onMouseLeave () {
           hideTimeout = $timeout(function() {
-            if(ttScope) {
-              ttScope.$destroy();
-              ttScope = null;
-            }
-            if (tooltip) {
-              tooltip.remove();
-              tooltip = null;
-            }
-          }, 100);
+           removeTooltip();
+          },90);
         }
       }
+
+      scope.$on('destroy',function(event) {
+        $timeout.cancel(showTimeout);
+        $timeout.cancel(hideTimeout);
+        ttScope.$destroy();
+      }); 
 
     }
   }
