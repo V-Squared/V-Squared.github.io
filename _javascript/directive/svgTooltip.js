@@ -5,6 +5,7 @@ angular.module('site')
     placement: "top",
     arrowHeight: 5,
     mouseoverTooltip: false,
+    timeoutDelay: 90,
     animation: true
   };
 
@@ -104,6 +105,7 @@ angular.module('site')
       var arrowHeight = (attrs.arrowHeight || tooltipSettings.arrowHeight);
       var mouseoverTooltip = (vm.stringToBoolean(attrs.mouseoverTooltip) || tooltipSettings.mouseoverTooltip);
       var animation = (vm.stringToBoolean(attrs.animation) || tooltipSettings.animation);
+      var timeoutDelay = (parseInt(attrs.timeoutDelay) || tooltipSettings.timeoutDelay);
 
 
       var template;
@@ -111,7 +113,7 @@ angular.module('site')
       if (mouseoverTooltip) {
         template = '<div class="svg-tooltip" ' + 
         'ng-mouseover="onMouseover()" '+
-        'ng-mouseout="onMouseLeave()" ' +
+        'ng-mouseleave="onMouseLeave()" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' + 
            content +
         '</div>'; 
@@ -135,16 +137,17 @@ angular.module('site')
 
       // Event
 
-		  element.bind('mousemove',showTooltip);
-		  element.bind('mouseout',hideTooltip);
+		  element.bind('mouseenter',showTooltip);
+		  element.bind('mouseleave',hideTooltip);
 
       function showTooltip(event) {
+        console.log("mouseenter");
         if(mouseoverTooltip) {
           $timeout.cancel(hideTimeout);
           showTimeout = $timeout(function() {
             createTooltip();
             positionTooltip();
-          },90);
+          },timeoutDelay);
         } else {
           createTooltip();
           positionTooltip();
@@ -163,11 +166,12 @@ angular.module('site')
       }
 
       function hideTooltip(event) {
+        console.log("mouseout");
         if(mouseoverTooltip) {
-        $timeout.cancel(showTimeout);
-         hideTimeout = $timeout(function() {
-          removeTooltip();
-         },90);
+          $timeout.cancel(showTimeout);
+           hideTimeout = $timeout(function() {
+            removeTooltip();
+           },timeoutDelay);
         } else {
           removeTooltip();
         }
@@ -216,7 +220,7 @@ angular.module('site')
         ttScope.onMouseLeave = function onMouseLeave () {
           hideTimeout = $timeout(function() {
            removeTooltip();
-          },90);
+          },timeoutDelay);
         }
       }
 
