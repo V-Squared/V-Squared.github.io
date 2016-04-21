@@ -329,7 +329,7 @@
     text-align: center;
     padding-top: 15pt;
 }
-.svg-tooltip {
+.v2-tooltip {
     position:absolute;
     text-align: center;
     background:#333;
@@ -339,7 +339,7 @@
     max-width: 216px;
     box-sizing:border-box;
 }
-.svg-tooltip:after {
+.v2-tooltip:after {
     top: 100%;
     left: 50%;
     border: solid transparent;

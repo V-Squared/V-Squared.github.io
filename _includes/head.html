@@ -17,7 +17,7 @@
   <script type="text/javascript" src="_javascript/dependencies/angular.min.js"></script>
   
   <script>
-  angular.module('site', ['ngSanitize','duScroll'], function($interpolateProvider,tooltipSettingsProvider) {
+  angular.module('site', ['ngSanitize','duScroll','v2.tooltip'], function($interpolateProvider,tooltipSettingsProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     tooltipSettingsProvider.options( {mouseoverTooltip: true} );

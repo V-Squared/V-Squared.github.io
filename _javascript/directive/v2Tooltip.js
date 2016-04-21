@@ -1,4 +1,4 @@
-angular.module('site')
+angular.module('v2.tooltip',[])
 .provider("tooltipSettings", function() {
 
   var options = {
@@ -24,10 +24,10 @@ angular.module('site')
     }
   }
 })
-.directive('svgTooltip',['$interpolate','$compile','$document','$window','$timeout','tooltipSettings',
+.directive('v2Tooltip',['$interpolate','$compile','$document','$window','$timeout','tooltipSettings',
   function($interpolate,$compile,$document,$window,$timeout,tooltipSettings) {
-	return {
-		restrict: 'A',
+  return {
+    restrict: 'A',
     controller: function($scope,$window,$document) {
       var vm = this;
 
@@ -85,7 +85,7 @@ angular.module('site')
       };
 
     },
-		link: function (scope,element,attrs,vm) {
+    link: function (scope,element,attrs,vm) {
 
       // Init
 
@@ -93,7 +93,7 @@ angular.module('site')
       // So it doesn't conflict with each other
       var ttScope;
 
-      var content = attrs.svgTooltip;
+      var content = attrs.v2Tooltip;
 
 
       var showTimeout;
@@ -111,14 +111,14 @@ angular.module('site')
       var template;
 
       if (mouseoverTooltip) {
-        template = '<div class="svg-tooltip" ' + 
+        template = '<div class="v2-tooltip" ' + 
         'ng-mouseover="onMouseover()" '+
         'ng-mouseleave="onMouseLeave()" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' + 
            content +
         '</div>'; 
       } else {
-        template = '<div class="svg-tooltip" ' + 
+        template = '<div class="v2-tooltip" ' + 
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' +
            content +
         '</div>'; 
@@ -137,8 +137,8 @@ angular.module('site')
 
       // Event
 
-		  element.bind('mouseenter',showTooltip);
-		  element.bind('mouseleave',hideTooltip);
+      element.bind('mouseenter',showTooltip);
+      element.bind('mouseleave',hideTooltip);
 
       function showTooltip(event) {
         if(mouseoverTooltip) {
@@ -151,7 +151,7 @@ angular.module('site')
           createTooltip();
           positionTooltip();
         }
-      	
+        
       }
 
       function positionTooltip () {
