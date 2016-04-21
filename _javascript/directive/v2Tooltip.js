@@ -128,7 +128,7 @@ angular.module('v2.tooltip',[])
       } else {
         template = '<div class="v2-tooltip" ' + 
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' +
-        'ng-class="placement">' +
+        'ng-class="placement>' +
            content +
         '</div>'; 
       }
@@ -218,8 +218,6 @@ angular.module('v2.tooltip',[])
         ttPosition = vm.positionElement(element,tooltip,placement,arrowHeight);
 
         ttScope.placement = ttPosition.placement;
-
-        console.log(scope.placement);
 
 
         // tooltip event for mouseoverTooltip 
