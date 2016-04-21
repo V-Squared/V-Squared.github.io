@@ -141,7 +141,6 @@ angular.module('site')
 		  element.bind('mouseleave',hideTooltip);
 
       function showTooltip(event) {
-        console.log("mouseenter");
         if(mouseoverTooltip) {
           $timeout.cancel(hideTimeout);
           showTimeout = $timeout(function() {
@@ -166,7 +165,6 @@ angular.module('site')
       }
 
       function hideTooltip(event) {
-        console.log("mouseout");
         if(mouseoverTooltip) {
           $timeout.cancel(showTimeout);
            hideTimeout = $timeout(function() {
