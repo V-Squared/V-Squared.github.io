@@ -38,6 +38,11 @@ angular.module('v2.tooltip',[])
         var targetWidth = angular.isDefined(targetElem.offsetWidth) ? targetElem.offsetWidth : targetElem.prop('offsetWidth');
         var targetHeight = angular.isDefined(targetElem.offsetHeight) ? targetElem.offsetHeight : targetElem.prop('offsetHeight');
 
+        if(hostElemPos.top - targetHeight - arrowHeight < $window.pageYOffset) {
+          placement = 'bottom';
+          targetElemPos.placement = 'bottom';
+        }
+
         switch(placement) {
           case 'top' :
           targetElemPos.top = hostElemPos.top - targetHeight - arrowHeight;
@@ -110,16 +115,20 @@ angular.module('v2.tooltip',[])
 
       var template;
 
+      scope.placement = 'bottom';
+
       if (mouseoverTooltip) {
         template = '<div class="v2-tooltip" ' + 
         'ng-mouseover="onMouseover()" '+
         'ng-mouseleave="onMouseLeave()" ' +
-        'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' + 
+        'ng-style="{\'top\': ttTop,\'left\': ttLeft}"' +
+        'ng-class="placement">' +  
            content +
         '</div>'; 
       } else {
         template = '<div class="v2-tooltip" ' + 
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}">' +
+        'ng-class="placement">' +
            content +
         '</div>'; 
       }
@@ -207,6 +216,10 @@ angular.module('v2.tooltip',[])
 
         // Get the Position of tooltip
         ttPosition = vm.positionElement(element,tooltip,placement,arrowHeight);
+
+        ttScope.placement = ttPosition.placement;
+
+        console.log(scope.placement);
 
 
         // tooltip event for mouseoverTooltip 
