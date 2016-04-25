@@ -24,8 +24,8 @@ angular.module('v2.tooltip',[])
     }
   }
 })
-.directive('v2Tooltip',['$interpolate','$compile','$document','$window','$timeout','tooltipSettings',
-  function($interpolate,$compile,$document,$window,$timeout,tooltipSettings) {
+.directive('v2Tooltip',['$animate','$interpolate','$compile','$document','$window','$timeout','tooltipSettings',
+  function($animate,$interpolate,$compile,$document,$window,$timeout,tooltipSettings) {
   return {
     restrict: 'A',
     controller: function($scope,$window,$document) {
@@ -54,7 +54,8 @@ angular.module('v2.tooltip',[])
 
         targetElemPos.left = hostElemPos.left + hostElemPos.width / 2 - targetWidth / 2;
 
-        if (hostElemPos.left - targetWidth / 2 < 0) {
+        if (targetElemPos.left < 0) {
+          console.log(hostElemPos.left);
           targetElemPos.left = 0;
         }
 
