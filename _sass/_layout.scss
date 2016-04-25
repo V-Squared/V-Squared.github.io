@@ -338,6 +338,13 @@
     font-size: 12px;
     max-width: 216px;
     box-sizing:border-box;
+    border-radius:5pt;
+
+    a {
+        color:#f70;
+        //text-decoration: underline;
+        font-weight: 700;
+    }
 }
 .v2-tooltip.top:after {
     top: 100%;
