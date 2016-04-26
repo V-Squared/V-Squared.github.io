@@ -55,7 +55,6 @@ angular.module('v2.tooltip',[])
         targetElemPos.left = hostElemPos.left + hostElemPos.width / 2 - targetWidth / 2;
 
         if (targetElemPos.left < 0) {
-          console.log(hostElemPos.left);
           targetElemPos.left = 0;
         }
 
