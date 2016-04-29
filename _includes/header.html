@@ -3,7 +3,7 @@
   <div class="uk-container uk-container-center">
 
     <a class="uk-navbar-brand v2-navbar-brand" href="{{ site.baseurl }}/">
-      <img src="https://avatars1.githubusercontent.com/u/7278625?v=3&s=200" style="height: 60px;float:left;" class="uk-margin uk-margin-remove">
+      <img v2-tooltip="V²Homepage" src="https://avatars1.githubusercontent.com/u/7278625?v=3&s=200" style="height: 60px;float:left;" class="uk-margin uk-margin-remove">
     </a>
 
     <!--<nav class="site-nav">
@@ -17,34 +17,31 @@
 
       <ul class="uk-navbar-nav v2-navbar-nav uk-hidden-small">
         <li>
-          <a href="#" class="{% if page.url == '/product' %}uk-active{% endif %}">Standard</a>
+          <a href="#" v2-tooltip="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC" class="{% if page.url == '/product' %}uk-active{% endif %}">Standards</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
+          <a href="#" v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/diy' %}uk-active{% endif %}">Makers</a>
+          <a href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost" class="{% if page.url == '/diy' %}uk-active{% endif %}">Makers</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/social' %}uk-active{% endif %}">Social</a>
+          <a href="/v2-Marketing" v2-tooltip="PC Know How & Tools" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">DIY</a>
         </li>
         <li>
-          <a href="/v2-Marketing" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">DIY</a>
+          <a href="#" v2-tooltip="Lower your cost and increase computer sales" class="{% if page.url == '/organization' %}uk-active{% endif %}">Retail</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/organization' %}uk-active{% endif %}">Retail</a>
+          <a href="#" v2-tooltip="How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user" class="{% if page.url == '/misc' %}uk-active{% endif %}">Spreading</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Spreading</a>
+          <a href="#" v2-tooltip="V² Open Source Web Apps simplify experiencing or building V² PCs" class="{% if page.url == '/misc' %}uk-active{% endif %}">Apps</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Apps</a>
+          <a href="#" v2-tooltip="Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help" class="{% if page.url == '/misc' %}uk-active{% endif %}">Plan</a>
         </li>
         <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Plan</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
+          <a href="#" v2-tooltip="About the people, process and legal stuff creating the V² Open Standards" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
         </li>
       </ul>
       <div style="padding-top:5px;" class="uk-navbar-flip uk-visible-small">
@@ -67,9 +64,6 @@
         </li>
         <li>
           <a href="#" class="{% if page.url == '/diy' %}uk-active{% endif %}">Makers</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/social' %}uk-active{% endif %}">Social</a>
         </li>
         <li>
           <a href="/v2-Marketing" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">DIY</a>

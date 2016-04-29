@@ -139,9 +139,13 @@ angular.module('ui.bootstrap.tabs', [])
           var tabString = location.hash.split('-');
           tabString[0] = tabString[0].replace('#/','');
 
-          if(tabString[0] == ctrl.id) {
-            ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
-            $anchorScroll(ctrl.id);
+          try {
+            if(tabString[0] == ctrl.id) {
+              ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
+              $anchorScroll(ctrl.id);
+            }
+          } catch(err) {
+            throw "please specify the id on the directive to make hasgtag linking work"
           }
         }
       }
