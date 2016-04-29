@@ -450,7 +450,7 @@
   {
     "name": "Plan",
     "shortName": "Plan",
-    "description": "How V² will improve your life, how we make it happen and how you can help.",
+    "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan is growing into a generic Agile & TPS management system.",
     "id": "plan",
     "items": [
       {
