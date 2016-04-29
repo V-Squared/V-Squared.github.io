@@ -374,3 +374,9 @@
     border-width: 5px;
     margin-left: -5px;
 }
+.tab-content>.uk-active {
+    display: block !important;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
