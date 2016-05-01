@@ -452,11 +452,13 @@
     "shortName": "Plan",
     "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.",
     "id": "plan",
+    "link":"https://v-squared.github.io/v2-Plan",
     "items": [
       {
         "name": "Target",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
+        "webLink": "https://v-squared.github.io/v2-Plan/target/",
         "description": "The <strong>Target</strong> is expressed in <strong>V² True North</strong> which is a vision on how the world will look like in 2021 after the successful introduction of V², showing how V² improves your life. It shows the user where we are going and directs the contributor how to get there.",
         "progress": [
           "is-complete",
@@ -470,6 +472,7 @@
         "name": "Road Map",
         "img": "images/389x389_theme=vine.png",
         "gitLink": "#",
+        "webLink": "https://v-squared.github.io/v2-Plan/road-map/",
         "description": "The <strong>Road Map</strong> shows the way to reach <strong>V² True North</strong> via consecutive <strong>Campaigns</strong>. A campaign is a group of <strong>Milestones</strong> and lasts about 3 months while focusing all our efforts.",
         "progress": [
           "is-complete",
@@ -483,6 +486,7 @@
         "name": "Dashboard",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
+        "webLink": "https://v-squared.github.io/v2-Plan/dashboard/",
         "description": "Easy to read status board showing progress for <strong>Milestones</strong>, <strong>Sprints</strong>, <strong>Issues</strong> and <strong>Tasks</strong> with lots of easily configurable filters to narrow down the information. Good starting point to get involved.",
         "progress": [
           "is-active",
