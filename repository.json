@@ -497,14 +497,14 @@
   {
     "name": "Organization",
     "shortName": "Organization",
-    "description": "About the people, process and legal stuff creating the V² Open Standards",
+    "description": "How you can benefit from or contribute to V² and who are the people making it happen, why and how.",
     "id": "organization",
     "items": [
       {
-        "name": "About",
-        "img": "images/389x389_theme=social.png",
+        "name": "Benefitting",
+        "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "History, Mission, Board / People, Operations, Bylaws, Logo, White Papers",
+        "description": "V² Mission is to make your computer life easier and lower cost. Check out our list of services grouped for: Users, Maker, DIY and Retail.",
         "progress": [
           "is-complete",
           "",
@@ -517,7 +517,7 @@
         "name": "Contributing",
         "img": "images/389x389_theme=sky.png",
         "gitLink": "#",
-        "description": "Fix Bugs, Projects in search of Owner, Workflows, Joining ongoing Projects, Become a member. Workflow and Tutorials on how to contribute to V². List of resources such as style guides, images, etc ...",
+        "description": "Found a bug, need a feature or simply want to help? V² makes contributing as easy as possible by using GitHub Issues and GitHub Flow.",
         "progress": [
           "is-complete",
           "",
@@ -527,10 +527,10 @@
         "ribbonName": "Off"
       },
       {
-        "name": "Logo License",
-        "img": "images/389x389_theme=industrial.png",
+        "name": "About",
+        "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "As a Standard Organization our V² Logo is the key tool to assist consumers in their buying process and at the same time to assist makers and retailers in their sales efforts. We believe the V² Logo Program is a community service. As such it is developed within the community and we are making licensing as transparent and straight forward as possible. All at zero cost.",
+        "description": "Who are the people making it happen, why and how. History, Mission, Board, Bylaws, Licenses, White Papers.",
         "progress": [
           "is-complete",
           "",
