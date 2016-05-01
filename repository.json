@@ -450,18 +450,18 @@
   {
     "name": "Plan",
     "shortName": "Plan",
-    "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan is growing into a generic Agile & TPS management system.",
+    "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.",
     "id": "plan",
     "items": [
       {
         "name": "Target",
         "img": "images/389x389_theme=lava.png",
         "gitLink": "#",
-        "description": "<strong>V² True North</strong> is the target expressed in a vision on how the world will look like in 2021 after the successful introduction of V², showing how V² improves your life. It shows the user where we are going and directs the contributor how to get there.",
+        "description": "The <strong>Target</strong> is expressed in <strong>V² True North</strong> which is a vision on how the world will look like in 2021 after the successful introduction of V², showing how V² improves your life. It shows the user where we are going and directs the contributor how to get there.",
         "progress": [
           "is-complete",
           "is-complete",
-          "",
+          "is-active",
           ""
         ],
         "ribbonName": "On"
@@ -480,13 +480,13 @@
         "ribbonName": "On"
       },
       {
-        "name": "Contributing",
+        "name": "Dashboard",
         "img": "images/389x389_theme=industrial.png",
         "gitLink": "#",
-        "description": "Each <strong>Milestone</strong> is broken down into <strong>Sprints</strong>, which itself is a bucket of <strong>GitHub Issues</strong>, making it easy for you to get involved. Each Sprint outputs an <strong>Incremental Product Release</strong>.",
+        "description": "Easy to read status board showing progress for <strong>Milestones</strong>, <strong>Sprints</strong>, <strong>Issues</strong> and <strong>Tasks</strong> with lots of easily configurable filters to narrow down the information. Good starting point to get involved.",
         "progress": [
-          "is-complete",
           "is-active",
+          "",
           "",
           ""
         ],
