@@ -187,7 +187,7 @@
  * Page content
  */
 .page-content {
-    padding-bottom: $spacing-unit;
+    //padding-bottom: $spacing-unit;
 }
 
 .page-heading {
@@ -373,10 +373,4 @@
     border-bottom-color: #333;
     border-width: 5px;
     margin-left: -5px;
-}
-.tab-content>.uk-active {
-    display: block !important;
-}
-.tab-content>.tab-pane {
-    display: none;
 }

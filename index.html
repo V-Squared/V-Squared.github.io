@@ -85,18 +85,6 @@ layout: home
 		<div class="uk-container uk-container-center">
 			<h1>Usable Work in Progress</h1>
 			<p>Our development of the standard has progressed far enough that we could develop working Trailblazer Products. We are now in the process of moving all that we have to GitHub. The GitHub Batch and Progress Bar inform you of the status and expected improvements.</p>
-			<uib-tabset id="tab1">
-    		<uib-tab heading="Static title">Static content</uib-tab>
-    		<uib-tab heading="Life">
-      		ASCA
-    		</uib-tab>
-    		<uib-tab>
-      		<uib-tab-heading>
-        		<i class="glyphicon glyphicon-bell"></i> Alert!
-      		</uib-tab-heading>
-      		I've got an HTML heading, and a select callback. Pretty cool!
-    		</uib-tab>
-  		</uib-tabset>
 		</div>
 	</div>
 
@@ -166,21 +154,8 @@ layout: home
 		</div>
 	</div>
 
-	<div class="table-of-content uk-navbar" data-uk-sticky>
-	  <div class="uk-container uk-container-center">
-	    <div class="portlotifo-nav">
-	      <ul class="uk-navbar-nav">
-	      	<li du-scrollspy="introduction">
-	      		<a du-smooth-scroll href="#home-introduction" offset="60">Intro</a>
-	      	</li>
-	        <li ng-repeat="sections in json.repositories" du-scrollspy="[[sections.id]]"><a du-smooth-scroll ng-href="#[[sections.id]]">[[sections.shortName]]</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</div>
 
-
-	<div class="portfolio">
+	<!--<div class="portfolio">
 		<div class="portfolio-section" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
 			<div class="portfolio-heading">
 				<div class="uk-container uk-container-center">
@@ -189,6 +164,61 @@ layout: home
 				</div>
 			</div>
 			<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
+				<div ng-repeat="repository in repositorySection.items">
+					<h3>[[repository.name]]</h3>
+					<a ng-href="[[repository.gitLink]]">GitHub</a>
+					<a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
+					<br />
+					<figure ng-style="repository.borderColor ? {border: '0.7pt solid ' + repository.borderColor} : {}" class="uk-overlay uk-overlay-hover">
+						<img ng-src="[[repository.img]]">
+						<div class="ribbon-wrapper" v2-tooltip="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
+							<div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
+						</div>
+						<figcaption ng-bind-html="repository.description" class="uk-overlay-panel uk-overlay-background  uk-overlay-bottom uk-overlay-slide-bottom"></figcaption>
+					</figure>
+          <!--<div class="uk-progress" ng-if="repository.progress">
+           <div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}"></div>
+          </div>
+          <div class="uk-progress-overlay" ng-if="repository.progress">
+            <div>Create</div>
+            <div>Develop</div>
+            <div>Beta</div>
+            <div>Make</div>
+          </div>
+
+          <div class="progess-bar" ng-if="repository.progress">
+          	<ol class="progress progress--small">
+          		<li data-step="1" v2-tooltip="Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." ng-class="repository.progress[0]">
+          			Create
+          		</li>
+          		<li data-step="2" v2-tooltip="Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." ng-class="repository.progress[1]">
+          			Develop
+          		</li>
+          		<li data-step="3" v2-tooltip="Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests. " ng-class="repository.progress[2]">
+          			Beta
+          		</li>
+          		<li data-step="4" v2-tooltip="Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." ng-class="repository.progress[3]" class="progress__last">
+          			Make
+          		</li>
+          	</ol>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</div>-->
+
+<uib-tabset id="tab1" class="portfolio" justified>
+	<uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
+
+		<div class="uk-container uk-container-center">
+			<h1><a ng-href="[[repositorySection.link]]">[[repositorySection.name]]</a></h1>
+			<p><em>[[repositorySection.description]]</em></p>
+
 			<div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
 				<div ng-repeat="repository in repositorySection.items">
 					<h3>[[repository.name]]</h3>
@@ -231,8 +261,7 @@ layout: home
 
         </div>
       </div>
-      </div>
-    </div>
+		</div>
 
-  </div>
-</div>
+	</uib-tab>
+</uib-tabset>

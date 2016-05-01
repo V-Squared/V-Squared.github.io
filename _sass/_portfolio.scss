@@ -17,7 +17,25 @@
         }
     }
 }
-.portfolio-section {
+
+.tab-content {
+    margin:0;
+}
+.tab-content>.uk-active {
+    display: block !important;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.uib-tab {
+    flex: 1 0 0px;
+    -webkit-flex: 1 0 0px;
+}
+.tab-content {
+    padding:30pt 0;
+}
+
+.tab-content {
 
   em {
       color:#111 !important;
@@ -45,7 +63,7 @@
 }
 
 @media (max-width:480px) {
-  .portfolio-section h1 {
+  .tab-content h1 {
     font-size:24px;
   }
 }

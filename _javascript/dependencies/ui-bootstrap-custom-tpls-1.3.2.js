@@ -125,6 +125,8 @@ angular.module('ui.bootstrap.tabs', [])
 
       console.log("outer - Link");
 
+      console.log(element.children());
+
       scope.vertical = angular.isDefined(attrs.vertical) ?
         scope.$parent.$eval(attrs.vertical) : false;
       scope.justified = angular.isDefined(attrs.justified) ?
@@ -183,6 +185,8 @@ angular.module('ui.bootstrap.tabs', [])
       }
 
       console.log("Inner - Link");
+
+      console.log(elm);
 
       if (angular.isUndefined(attrs.index)) {
         if (tabsetCtrl.tabs && tabsetCtrl.tabs.length) {
@@ -269,6 +273,15 @@ angular.module('ui.bootstrap.tabs', [])
       node.tagName.toLowerCase() === 'x-uib-tab-heading' ||
       node.tagName.toLowerCase() === 'uib:tab-heading'
     );
+  }
+})
+
+.directive('repeatDirective',function() {
+  return {
+    restrict:'A',
+    link: function(scope,element,attrs) {
+      console.log("finish ng-repeat");
+    }
   }
 });
 
