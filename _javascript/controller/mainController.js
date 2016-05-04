@@ -25,7 +25,4 @@ angular.module('site')
      	}
      ]
 
-     vm.ASDA = function() {
-          console.log("ASCA");
-     }
 });

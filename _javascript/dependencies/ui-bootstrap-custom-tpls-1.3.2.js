@@ -106,7 +106,7 @@ angular.module('ui.bootstrap.tabs', [])
   }
 }])
 
-.directive('uibTabset', function($anchorScroll,$location) {
+.directive('uibTabset', function($anchorScroll) {
   return {
     transclude: true,
     replace: true,
@@ -125,7 +125,28 @@ angular.module('ui.bootstrap.tabs', [])
 
       console.log("outer - Link");
 
-      console.log(element.children());
+      scope.$on('render.done',function() {
+
+        if(location.hash) {
+          var tabLink = ctrl.wordInString(location.hash,'tab');
+          if(tabLink) {
+            var tabString = location.hash.split('-');
+            tabString[0] = tabString[0].replace('#/','');
+
+            try {
+              if(tabString[0] == ctrl.id) {
+                ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
+                console.log(ctrl.id);
+                console.log("render done");
+                
+                $anchorScroll(ctrl.id);
+              }
+            } catch(err) {
+              throw "please specify the id on the directive to make hasgtag linking work " + err;
+            }
+          }
+        }
+      });
 
       scope.vertical = angular.isDefined(attrs.vertical) ?
         scope.$parent.$eval(attrs.vertical) : false;
@@ -134,28 +155,11 @@ angular.module('ui.bootstrap.tabs', [])
       if (angular.isUndefined(attrs.active)) {
         scope.active = 0;
       }
-
-      if(location.hash) {
-        var tabLink = ctrl.wordInString(location.hash,'tab');
-        if(tabLink) {
-          var tabString = location.hash.split('-');
-          tabString[0] = tabString[0].replace('#/','');
-
-          try {
-            if(tabString[0] == ctrl.id) {
-              ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
-              $anchorScroll(ctrl.id);
-            }
-          } catch(err) {
-            throw "please specify the id on the directive to make hasgtag linking work"
-          }
-        }
-      }
     }
   };
 })
 
-.directive('uibTab', ['$parse', function($parse) {
+.directive('uibTab', ['$parse','$location', function($parse,$location) {
   return {
     require: '^uibTabset',
     replace: true,
@@ -177,6 +181,8 @@ angular.module('ui.bootstrap.tabs', [])
     },
     controllerAs: 'tab',
     link: function(scope, elm, attrs, tabsetCtrl, transclude) {
+
+
       scope.disabled = false;
       if (attrs.disable) {
         scope.$parent.$watch($parse(attrs.disable), function(value) {
@@ -185,8 +191,6 @@ angular.module('ui.bootstrap.tabs', [])
       }
 
       console.log("Inner - Link");
-
-      console.log(elm);
 
       if (angular.isUndefined(attrs.index)) {
         if (tabsetCtrl.tabs && tabsetCtrl.tabs.length) {
@@ -209,8 +213,6 @@ angular.module('ui.bootstrap.tabs', [])
               break;
             }
           }
-
-          tabsetCtrl.select(index, evt);
         }
       };
 
@@ -241,7 +243,7 @@ angular.module('ui.bootstrap.tabs', [])
   };
 })
 
-.directive('uibTabContentTransclude', function() {
+.directive('uibTabContentTransclude', function($timeout) {
   return {
     restrict: 'A',
     require: '^uibTabset',
@@ -254,9 +256,16 @@ angular.module('ui.bootstrap.tabs', [])
         angular.forEach(contents, function(node) {
           if (isTabHeading(node)) {
             //Let tabHeadingTransclude know.
-            tab.headingElement = node;
+            tab.headingElement = node;  
           } else {
             elm.append(node);
+
+            // Timeout to wait for  Tab content load
+            if(scope.$last) {
+              $timeout(function() {
+                scope.$emit('render.done');
+              });
+            }
           }
         });
       });
@@ -275,15 +284,6 @@ angular.module('ui.bootstrap.tabs', [])
     );
   }
 })
-
-.directive('repeatDirective',function() {
-  return {
-    restrict:'A',
-    link: function(scope,element,attrs) {
-      console.log("finish ng-repeat");
-    }
-  }
-});
 
 angular.module("uib/template/tabs/tab.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("uib/template/tabs/tab.html",
