@@ -214,6 +214,12 @@ angular.module('ui.bootstrap.tabs', [])
             }
           }
         }
+
+        var userIndex = index + 1;
+
+        location.hash = tabsetCtrl.id + "-" + userIndex;
+
+        tabsetCtrl.select(index,evt);
       };
 
       tabsetCtrl.addTab(scope);
