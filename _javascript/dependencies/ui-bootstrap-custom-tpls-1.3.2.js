@@ -10,7 +10,6 @@ angular.module('ui.bootstrap.tabs', [])
   console.log("outer - controller");
 
   ctrl.select = function(index, evt) {
-    console.log(index);
     if (!destroyed) {
       var previousIndex = findTabIndex(oldIndex);
       var previousSelected = ctrl.tabs[previousIndex];
@@ -58,7 +57,6 @@ angular.module('ui.bootstrap.tabs', [])
     });
 
     if (tab.index === ctrl.active || !angular.isNumber(ctrl.active) && ctrl.tabs.length === 1) {
-      console.log(ctrl.active);
       var newActiveIndex = findTabIndex(tab.index);
       ctrl.select(newActiveIndex);
     }
@@ -106,7 +104,7 @@ angular.module('ui.bootstrap.tabs', [])
   }
 }])
 
-.directive('uibTabset', function($anchorScroll) {
+.directive('uibTabset', function($anchorScroll,$window) {
   return {
     transclude: true,
     replace: true,
@@ -125,8 +123,16 @@ angular.module('ui.bootstrap.tabs', [])
 
       console.log("outer - Link");
 
-      scope.$on('render.done',function() {
+      // Listen fir address bar hash change
+      angular.element($window).bind('hashchange',function() {
+        scrollToTab();
+      });
 
+      scope.$on('render.done',function() {
+        scrollToTab();
+      });
+
+      function scrollToTab () {
         if(location.hash) {
           var tabLink = ctrl.wordInString(location.hash,'tab');
           if(tabLink) {
@@ -146,7 +152,7 @@ angular.module('ui.bootstrap.tabs', [])
             }
           }
         }
-      });
+      }
 
       scope.vertical = angular.isDefined(attrs.vertical) ?
         scope.$parent.$eval(attrs.vertical) : false;
@@ -265,13 +271,13 @@ angular.module('ui.bootstrap.tabs', [])
             tab.headingElement = node;  
           } else {
             elm.append(node);
+          }
 
-            // Timeout to wait for  Tab content load
-            if(scope.$last) {
-              $timeout(function() {
-                scope.$emit('render.done');
-              });
-            }
+          // Timeout to wait for  Tab content load
+          if(scope.$last) {
+            $timeout(function() {
+              scope.$emit('render.done');
+            });
           }
         });
       });
