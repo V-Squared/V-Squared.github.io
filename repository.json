@@ -405,45 +405,6 @@
           ""
         ],
         "ribbonName": "Off"
-      },
-      {
-        "name": "Campaign 2: Community",
-        "img": "images/389x389_theme=vine.png",
-        "gitLink": "#",
-        "description": "V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on V²Case Trailblazer Products. And it is your last chance to give feedback on the product. We also need your continued support to promote V². Tell a friend or post a review. Help us to reach our stretch goal to earn free bonus products.",
-        "progress": [
-          "is-complete",
-          "is-complete",
-          "is-complete",
-          "is-active"
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "Campaign 3: Shops & Press",
-        "img": "images/389x389_theme=lava.png",
-        "gitLink": "#",
-        "description": "Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming it is a good time to approach the press.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
-      },
-      {
-        "name": "Campaign 4: OEM",
-        "img": "images/389x389_theme=gray.png",
-        "gitLink": "#",
-        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in Summer 2017. We also have an \"Open House\" in Guangzhou for OEM developer to visit us and get answers to their questions.",
-        "progress": [
-          "is-complete",
-          "",
-          "",
-          ""
-        ],
-        "ribbonName": "Off"
       }
     ]
   },
@@ -452,7 +413,7 @@
     "shortName": "Plan",
     "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.",
     "id": "plan",
-    "link":"https://v-squared.github.io/v2-Plan",
+    "link": "https://v-squared.github.io/v2-Plan",
     "items": [
       {
         "name": "Target",
@@ -490,6 +451,45 @@
         "description": "Easy to read status board showing progress for <strong>Milestones</strong>, <strong>Sprints</strong>, <strong>Issues</strong> and <strong>Tasks</strong> with lots of easily configurable filters to narrow down the information. Good starting point to get involved.",
         "progress": [
           "is-active",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Campaign 2: Community",
+        "img": "images/389x389_theme=vine.png",
+        "gitLink": "#",
+        "description": "V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on V²Case Trailblazer Products. And it is your last chance to give feedback on the product. We also need your continued support to promote V². Tell a friend or post a review. Help us to reach our stretch goal to earn free bonus products.",
+        "progress": [
+          "is-complete",
+          "is-complete",
+          "is-complete",
+          "is-active"
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Campaign 3: Shops & Press",
+        "img": "images/389x389_theme=lava.png",
+        "gitLink": "#",
+        "description": "Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming it is a good time to approach the press.",
+        "progress": [
+          "is-complete",
+          "",
+          "",
+          ""
+        ],
+        "ribbonName": "Off"
+      },
+      {
+        "name": "Campaign 4: OEM",
+        "img": "images/389x389_theme=gray.png",
+        "gitLink": "#",
+        "description": "OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in Summer 2017. We also have an \"Open House\" in Guangzhou for OEM developer to visit us and get answers to their questions.",
+        "progress": [
+          "is-complete",
           "",
           "",
           ""
@@ -534,7 +534,7 @@
         "name": "About",
         "img": "images/389x389_theme=social.png",
         "gitLink": "#",
-        "description": "Who are the people making it happen, why and how. History, Mission, Board, Bylaws, Licenses, White Papers.",
+        "description": "Who are the people making it happen, why and how. History, Mission, Board, Bylaws, Licenses.",
         "progress": [
           "is-complete",
           "",
