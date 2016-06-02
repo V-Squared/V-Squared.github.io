@@ -16,6 +16,7 @@ twitter_username: villagevidock
 github_username:  v-squared
 include: ["_pages","_javascript"]
 exclude: ["node_modules"]
+permalink: pretty
 
 # Build settings
 markdown: kramdown

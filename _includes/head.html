@@ -5,23 +5,26 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/jquery.qtip.min.css" | prepend: site.baseurl }}">
+  
   <link rel="stylesheet" href="{{ "/css/uikit.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/angular-material.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   
-  <script type="text/javascript" src="_javascript/dependencies/jquery.min.js"></script>
-  <script data-require="angular.js@1.5.x" src="_javascript/dependencies/angular.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/jquery.min.js"></script>
+  <script data-require="angular.js@1.5.x" src="{{site.baseurl}}/_javascript/dependencies/angular.js"></script>
   
   <script>
-  angular.module('site', ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ui.bootstrap'], function($interpolateProvider,tooltipSettingsProvider) {
+  angular.module('site',
+    ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ui.bootstrap','ngMaterial','ngAria'], function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
+    
+    $mdThemingProvider.theme('default').primaryPalette('blue').accentPalette('orange');
   })
   </script>
 </head>

@@ -1,0 +1,116 @@
+{% if include.id %}
+{% assign feature_row = page.[include.id] %}
+{% else %}
+{% assign feature_row = page.feature_row %}
+{% endif %}
+
+{% if include.align %}
+{% assign align = include.align %}
+{% else %}
+{% assign align = 'left' %}
+{% endif %}
+
+{% if include.type %}
+{% assign type = include.type %}
+{% else %}
+{% assign type = 'default' %}
+{% endif %}
+
+{% if type == 'default' %}
+<div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
+     id="{{include.id}}"
+     {% if include.background %}style="background: {{include.background}}"{% endif %}>
+  <div class="uk-container uk-container-center">
+    <div layout="row" class="uk-text-{{align}}">
+      {% for feature in feature_row %}
+      <div flex>
+        {% if feature.image %}
+        <div>
+          <img src="{{feature.image}}" alt="{{feature.alt}}">
+        </div>
+        {% endif %}
+        {% if feature.svg %}
+        <div>
+          <md-icon md-svg-src="{{feature.image}}" aria-label="{{feature.alt}}"></md-icon>
+        </div>
+        {% endif %}
+        {% if feature.title %}
+        <h1 {% if feature.tooltip %}v2-tooltip="{{feature.tooltip}}"{% endif %}>{{feature.title}}</h1>
+        {% endif %}
+        {% if feature.desc %}
+        <p>{{feature.desc | markdownify}}</p>
+        {% endif %}
+        {{feature.custom}}
+        {{include.custom}}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if type == 'left' %}
+<div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
+     id="{{include.id}}"
+     {% if include.background %}style="background: {{include.background}}"{% endif %}>
+  <div class="uk-container uk-container-center">
+    {% for feature in feature_row %}
+    <div layout="row" layout-xs="column" layout-align="none center" class="uk-text-{{align}}">
+      {% if feature.image %}
+      <div flex="40">
+        <img src="{{feature.image}}" alt="{{feature.alt}}">
+      </div>
+      {% endif %}
+      {% if feature.svg %}
+      <div flex="20">
+        <md-icon md-svg-src="{{feature.svg}}" aria-label="{{feature.alt}}"></md-icon>
+      </div>
+      {% endif %}
+      <div flex>
+        {% if feature.title %}
+        <h1 {% if feature.tooltip %}v2-tooltip="{{feature.tooltip}}"{% endif %}>{{feature.title}}</h1>
+        {% endif %}
+        {% if feature.desc %}
+        <p>{{feature.desc | markdownify}}</p>
+        {% endif %}
+        {{feature.custom}}
+        {{include.custom}}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if type == 'right' %}
+<div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
+     id="{{include.id}}"
+     {% if include.background %}style="background: {{include.background}}"{% endif %}>
+  <div class="uk-container uk-container-center">
+    {% for feature in feature_row %}
+    <div layout="row" layout-xs="column" layout-align="none center" class="uk-text-{{align}}">
+      <div flex>
+        {% if feature.title %}
+        <h1 {% if feature.tooltip %}v2-tooltip="{{feature.tooltip}}"{% endif %}>{{feature.title}}</h1>
+        {% endif %}
+        {% if feature.desc %}
+        <p>{{feature.desc | markdownify}}</p>
+        {% endif %}
+        {{feature.custom}}
+        {{include.custom}}
+      </div>
+      {% if feature.image %}
+      <div flex="40">
+        <img src="{{feature.image}}" alt="{{feature.alt}}">
+      </div>
+      {% endif %}
+      {% if feature.svg %}
+      <div flex="20">
+        <md-icon md-svg-src="{{feature.svg}}" aria-label="{{feature.alt}}"></md-icon>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

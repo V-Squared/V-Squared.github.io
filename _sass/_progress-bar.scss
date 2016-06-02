@@ -10,6 +10,7 @@ $mute: #DFE3E4;
   table-layout: fixed;
   width: 100%;
   color: darken($mute, 33%);
+  font-size:1em;
 
   > li {
     position: relative;
@@ -29,7 +30,7 @@ $mute: #DFE3E4;
       line-height: 3em;
       border-radius: 0.4em;
       position: relative;
-      z-index: 1000;
+      z-index: 2;
     }
     &:after {
       content: '';
@@ -70,6 +71,10 @@ $mute: #DFE3E4;
   .progress__last:after {
     display: none!important;
   }
+
+.progress__last:before {
+  margin: 0 0 0 auto;
+}
 
   /**
    * Size Extensions

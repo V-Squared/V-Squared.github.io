@@ -1,0 +1,53 @@
+
+- menu: Target
+  url: /target/
+- menu: Road Map
+  url: /road-map/
+  desc: >
+    How to reach True North via consecutive Campaigns.
+  subitems:
+    - menu: Strategy
+      url: /road-map/strategy/
+    - menu: Campaign 1
+      url: /road-map/campaign01/
+    - menu: Campaign 2
+      url: /road-map/campaign02/
+    - menu: Campaign 3
+      url: /road-map/campaign03/
+- menu: Dashboard
+  url: /dashboard/
+- menu: Contributing
+  url: /contributing/
+- menu: System
+  url: /system/
+  desc: >
+    Generic Agile Development and Toyota Production System for Github Organizations.
+  subitems:
+    - menu: V²Agile Workflow
+      url: /system/agile-workflow/
+    - menu: V²Sprint Workflow
+      url: /system/sprint-workflow/
+    - menu: Roles & Communication
+      url: /system/roles/
+    - menu: Iterations & Testing
+      url: /system/iterations/
+    - menu: Solving Problems
+      url: /system/solving-problems/
+    - menu: Features of V²Plan
+      url: /system/features/
+    - menu: Agile Primer
+      url: /system/agile-primer/
+    - menu: Motivation by Design
+      url: /system/motivation/
+    - menu: Multi Repo Management
+      url: /system/multi-repo/
+    - menu: Adding SCRUM
+      url: /system/adding-scrum/
+    - menu: Adding Dashboard
+      url: /system/dashboard/
+    - menu: V² Plan Reference
+      url: /system/reference/
+    - menu: Developing V²Plan
+      url: /system/developing/
+    - menu: Adapting V²Plan
+      url: /system/adapting/

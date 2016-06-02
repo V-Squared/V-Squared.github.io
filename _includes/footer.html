@@ -31,7 +31,7 @@
     </div>
   </div>
   
-  <div class="uk-grid footer-column" load-repository="repository.json">
+  <div class="uk-grid footer-column" load-repository="{{site.baseurl}}/repository.json">
     <div ng-repeat="repositorySection in json.repositories">
       <h6>[[repositorySection.name]]</h6>
       <ul class="footer-list">
@@ -42,12 +42,14 @@
   
 </footer>
 
-<script type="text/javascript" src="_javascript/dependencies/angular-sanitize.min.js"></script>
-<script type="text/javascript" src="_javascript/dependencies/angular-animate.min.js"></script>
-<script type="text/javascript" src="_javascript/dependencies/uikit.min.js"></script>
-<script type="text/javascript" src="_javascript/dependencies/sticky.min.js"></script>
-<script type="text/javascript" src="_javascript/dependencies/ui-bootstrap-custom-tpls-1.3.2.js"></script>
-<script type="text/javascript" src="_javascript/dependencies/angular-scroll.min.js"></script>
-<script type="text/javascript" src="_javascript/controller/mainController.js"></script>
-<script type="text/javascript" src="_javascript/directive/loadRepository.js"></script>
-<script type="text/javascript" src="_javascript/directive/v2Tooltip.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-animate.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-aria.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/uikit.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/sticky.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-material.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/ui-bootstrap-custom-tpls-1.3.2.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-scroll.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/controller/mainController.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/directive/loadRepository.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/_javascript/directive/v2Tooltip.js"></script>

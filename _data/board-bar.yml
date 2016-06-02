@@ -1,0 +1,42 @@
+- menu: Standards
+  url: /standards/
+  title: The Missing Standard
+  subtitle: >
+    All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC.
+- menu: Products
+  url: /products/
+  title: Trailblazer Products
+  subtitle: Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow.
+- menu: Makers
+  url: /makers/
+  title: For Makers
+  subtitle: >
+    Everything you need to develop your new products faster at lower cost.
+- menu: DIY
+  url: /diy/
+  title: For DIY
+  subtitle: PC Know How & Tools.
+- menu: Retail
+  url: /reatil/
+  title: For Retail
+  subtitle: >
+    Lower your cost and increase computer sales.
+- menu: Apps
+  url: /apps/
+  title: Apps
+  subtitle: V² Open Source Web Apps simplify experiencing or building V² PCs.
+- menu: Spreading
+  url: /spreading/
+  title: Spreading the Word of V²
+  subtitle: >
+    How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user.
+- menu: Plan
+  url: /plan/
+  title: V²Plan
+  subtitle: >
+    How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
+- menu: Organization
+  url: /organization/
+  title: Organization
+  subtitle: >
+    How you can benefit from or contribute to V² and who are the people making it happen, why and how.

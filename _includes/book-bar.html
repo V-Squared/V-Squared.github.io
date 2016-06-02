@@ -1,0 +1,26 @@
+{% assign navurl = page.url | remove: 'index.html'%}
+{% capture baseurl %}{{ site.baseurl }}/{% endcapture %}
+
+<div data-uk-sticky class="uk-navbar uk-navbar-attached sub-navbar md-primary">
+  <div class="uk-container uk-container-center">
+
+    <div layout="row" hide-gt-sm layout-align="none center">
+      <md-button href="#book-bar-nav" data-uk-offcanvas class="md-icon-button uk-navbar-toggle" aria-label="Toggle Navigation Bar" hide-gt-md>
+        <md-icon md-svg-src="{{site.baseurl}}/icons/ic_menu_24px.svg"></md-icon>
+      </md-button>
+
+      <h3>Books & Articles</h3>
+    </div>
+
+    <ul class="uk-navbar-nav sub-navbar-nav" hide show-gt-sm>
+      
+      {% capture introUrl %}/{{include.board}}/{% endcapture %}
+      
+      <li md-ink-ripple class="{% if navurl == introUrl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}/" class="md-tab">Intro</a></li>
+
+      {% for my_page in include.nav %}
+      <li md-ink-ripple class="{% if navurl contains my_page.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab">{{ my_page.menu }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
