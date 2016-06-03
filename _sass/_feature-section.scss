@@ -18,8 +18,11 @@
     }
   }
 }
-.feature-section:nth-child(odd) {
-  background: white;
+.feature-section:nth-child(2n) {
+  background: #f7f7f7;
+}
+.feature-section:nth-child(3n) {
+  background: #EDEDED;
 }
 @media (min-width:768px) {
   .feature-text {

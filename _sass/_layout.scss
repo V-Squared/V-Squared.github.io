@@ -484,10 +484,18 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   position: absolute;
   top: 0;
   right: 20px;
+  
+  &.portfolio {
+    top: auto;
+    bottom:0;
+    right:0;
+  }
 
   div {
     border-left: 2px solid rgba(0, 0, 0, 0.2);
     background:transparent;
+    opacity: 0.8;
+    background: #DFE3E4;
   }
 
   div:first-child {
@@ -496,9 +504,11 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
 
   .is-complete {
     background:#1976D2;
+    opacity: 1;
   }
   .is-active {
     background:#FFAB40;
+    opacity: 1;
   }
 }
 

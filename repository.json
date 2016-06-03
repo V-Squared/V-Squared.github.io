@@ -411,9 +411,9 @@
   {
     "name": "Plan",
     "shortName": "Plan",
-    "description": "How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.",
+    "description": "How V² will improve your life, how we make it happen and how you can help.",
     "id": "plan",
-    "link": "https://v-squared.github.io/v2-Plan",
+    "link": "https://v-squared.github.io/plan",
     "items": [
       {
         "name": "Target",

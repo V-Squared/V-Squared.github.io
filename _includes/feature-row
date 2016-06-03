@@ -31,7 +31,7 @@
         {% endif %}
         {% if feature.svg %}
         <div>
-          <md-icon md-svg-src="{{feature.image}}" aria-label="{{feature.alt}}"></md-icon>
+          <md-icon md-svg-src="{{feature.svg}}" aria-label="{{feature.alt}}"></md-icon>
         </div>
         {% endif %}
         {% if feature.title %}
