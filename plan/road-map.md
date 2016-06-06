@@ -13,9 +13,9 @@ readiness:
 
 
 # List of Campaigns
-- [Campaign 1: V²Site Launch](https://v-squared.github.io/v2-Plan/road-map/campaign01/)
-- [Campaign 2: Community](https://v-squared.github.io/v2-Plan/road-map/campaign02/)
-- [Campaign 3: Shop & Press](https://v-squared.github.io/v2-Plan/road-map/campaign02/)
+- [Campaign 1: V²Site Launch](https://v-squared.github.io/plan/road-map/campaign01/)
+- [Campaign 2: Community](https://v-squared.github.io/plan/road-map/campaign02/)
+- [Campaign 3: Shop & Press](https://v-squared.github.io/plan/road-map/campaign02/)
 - Campaign 4: V² OEM
 - Campaign 5: Computex 2017
 - Campaign 6: V²C + ViDock Launch
