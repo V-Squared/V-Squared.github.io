@@ -15,10 +15,10 @@ readiness:
 
 # Purpose <a name="purpose"></a>
 - Show where we are going → [Target](/plan/target/)
-- Lead the way → [Road Map](https://v-squared.github.io/plan/road-map/)
-- Organize our development → [Dashboard](https://v-squared.github.io/v2-Plan/dashboard/)
-- Make it easy to contribute → [Contributing](https://v-squared.github.io/v2-Plan/contributing/)
-- Explain how V²Plan System works → [System](https://v-squared.github.io/v2-Plan/system/)
+- Lead the way → [Road Map](/plan/road-map/)
+- Organize our development → [Dashboard](/plan/dashboard/)
+- Make it easy to contribute → [Contributing](/plan/contributing/)
+- Explain how V²Plan System works → [System](/plan/system/)
 
 
 # Simple and Fast <a name="simple"></a>
@@ -34,4 +34,4 @@ V²Plan System is a generic Agile Development and Toyota Production System  that
 4. Dashboard to show progress and filtered view on current work in Sprint 
 5. Consistent documentation with interactive Info-graphics to ease learning
 
-V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](https://v-squared.github.io/v2-Plan/system/).
+V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](/plan/system/).
