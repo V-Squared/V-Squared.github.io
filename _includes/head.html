@@ -6,6 +6,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   
+  <base href="/"/>
+  
   <link rel="stylesheet" href="{{ "/css/uikit.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/angular-material.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -18,7 +20,7 @@
   
   <script>
   angular.module('site',
-    ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ui.bootstrap','ngMaterial','ngAria'], function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider) {
+    ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ui.bootstrap','ngMaterial','ngAria'], function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider,$locationProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     $interpolateProvider.startSymbol('[[');

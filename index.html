@@ -5,25 +5,25 @@ layout: home
 
 missing-strandard: 
 - title: The Missing Standard
-desc: 'Desktop Computer were the best selling PC form factor, because the ATX standard made them to be lowest cost, easy to build and upgrade. But this de facto standard is 30 years old and was not updated to fit the needs of Mini and All-In-One Form Factor. The V² Standard lowers cost, increases performance and simplifies upgrading. In doing so V² is breathing new life into Mini and All-In-One PCs.'
+  desc: 'Desktop Computer were the best selling PC form factor, because the ATX standard made them to be lowest cost, easy to build and upgrade. But this de facto standard is 30 years old and was not updated to fit the needs of Mini and All-In-One Form Factor. The V² Standard lowers cost, increases performance and simplifies upgrading. In doing so V² is breathing new life into Mini and All-In-One PCs.'
 open-source:
 - title: Open Source Accelerator
-desc: 'Establishing a new standard was time consuming in the past. V² speeds up the process by fully embracing the best of Open Source and Rapid Development workflows. Hover over the Logos to learn more ...'
+  desc: 'Establishing a new standard was time consuming in the past. V² speeds up the process by fully embracing the best of Open Source and Rapid Development workflows. Hover over the Logos to learn more ...'
 zero-cost:
 - title: Zero Cost
-desc: 'To further speed up the introduction of the V² Standard we are introducing it at Zero Cost, as in free beer, and it will always stay that way. In other words, license for comercial use, license of the logo or product certification are all available at $0 US cost.'
+  desc: 'To further speed up the introduction of the V² Standard we are introducing it at Zero Cost, as in free beer, and it will always stay that way. In other words, license for comercial use, license of the logo or product certification are all available at $0 US cost.'
 timeline:
 - title: Timeline
-desc: 'We began research of V² Modular PC in 2011 and started prototyping in 2013. Now in 2016 we are ready to go to production. Please hover / tab on the timeline for more details.'
+  desc: 'We began research of V² Modular PC in 2011 and started prototyping in 2013. Now in 2016 we are ready to go to production. Please hover / tab on the timeline for more details.'
 products: 
 - title: Trailblazer Products
-desc: 'Specifications of a new standard on the web is one thing. Having a finished product in hand for testing is quite another. This is where Trailblazer Products come in: **1)** Proof of concept of the V² Standard **2)** Demo the value of V² Standard with real products **3)** Early adopters can buy Trailblazer Products for testing / reviewing or simply personal use before mass production becomes available. **4)** Funding of V² Standard development.'
+  desc: 'Specifications of a new standard on the web is one thing. Having a finished product in hand for testing is quite another. This is where Trailblazer Products come in: **1)** Proof of concept of the V² Standard **2)** Demo the value of V² Standard with real products **3)** Early adopters can buy Trailblazer Products for testing / reviewing or simply personal use before mass production becomes available. **4)** Funding of V² Standard development.'
 progress:
 - title: Usable Work in Progress
-desc: 'Our development of the standard has progressed far enough that we could develop working Trailblazer Products. We are now in the process of moving all that we have to GitHub. The GitHub Batch and Progress Bar inform you of the status and expected improvements.'
+  desc: 'Our development of the standard has progressed far enough that we could develop working Trailblazer Products. We are now in the process of moving all that we have to GitHub. The GitHub Batch and Progress Bar inform you of the status and expected improvements.'
 delivering-puzzle: 
 - title: Delivering all pieces of the Puzzle
-desc: V² mission is to make Modular Mini and All-In-One Computer mainstream. To speed up the process we are not only delivering the V² Standard. Hover (or tab on mobile) over each piece of the puzzle to see how it contributes to the whole.
+  desc: V² mission is to make Modular Mini and All-In-One Computer mainstream. To speed up the process we are not only delivering the V² Standard. Hover (or tab on mobile) over each piece of the puzzle to see how it contributes to the whole.
 cta: 
 - title: <a du-smooth-scroll href="#missing-standard"><i class="uk-icon-hand-o-right"></i> Explore what V² offers for you</a>
 ---
@@ -140,12 +140,14 @@ cta:
   {% include feature-row id="delivering-puzzle" align="center" custom=puzzle-svg %}
 
   {% include feature-row id="cta" align="center" background="#2196F3" class="call-to-action" %}
+  
+  [[life]]
 
-  <uib-tabset id="tab1" class="portfolio" justified>
+  <uib-tabset active="life" id="tab1" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
 
       <div class="uk-container uk-container-center">
-        <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em></p>
+        <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em> <md-button ng-click="next($event)">Hi</md-button></p>
 
         <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
           <div ng-repeat="repository in repositorySection.items">
@@ -153,7 +155,7 @@ cta:
             <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>-->
             <figure ng-style="repository.borderColor ? {border: '0.7pt solid ' + repository.borderColor} : {}" class="uk-overlay uk-overlay-hover">
               <img ng-src="[[repository.img]]">
-              <h2>[[repository.name]]</h2>
+              <h2>[[repository.name]]</h2>+
               <div class="ribbon-wrapper" v2-tooltip="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
                 <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
               </div>

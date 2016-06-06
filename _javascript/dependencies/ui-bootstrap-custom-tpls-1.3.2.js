@@ -2,7 +2,7 @@ angular.module("ui.bootstrap", ["ui.bootstrap.tpls","ui.bootstrap.tabs"]);
 angular.module("ui.bootstrap.tpls", ["uib/template/tabs/tab.html","uib/template/tabs/tabset.html"]);
 angular.module('ui.bootstrap.tabs', [])
 
-.controller('UibTabsetController', ['$scope', function ($scope) {
+.controller('UibTabsetController', ['$scope', '$location',  function ($scope,$location) {
   var ctrl = this,
     oldIndex;
   ctrl.tabs = [];
@@ -79,8 +79,15 @@ angular.module('ui.bootstrap.tabs', [])
 
     ctrl.tabs.splice(index, 1);
   };
+  
+  ctrl.setHash = function setHash (activeTab) {
+    
+  }
+  
+  ctrl.setHash();
 
   $scope.$watch('tabset.active', function(val) {
+    console.log("value change: " + val);
     if (angular.isNumber(val) && val !== oldIndex) {
       ctrl.select(findTabIndex(val));
     }
@@ -227,6 +234,24 @@ angular.module('ui.bootstrap.tabs', [])
 
         tabsetCtrl.select(index,evt);
       };
+      
+      scope.next = function next(event) {
+        if (!scope.disabled) {
+          var index;
+          for (var i = 0; i < tabsetCtrl.tabs.length; i++) {
+            if (tabsetCtrl.tabs[i].tab === scope) {
+              index = i;
+              break;
+            }
+          }
+        }
+
+        var userIndex = index + 2;
+
+        location.hash = tabsetCtrl.id + "-" + userIndex;
+
+        tabsetCtrl.select(index + 1,evt);
+      }
 
       tabsetCtrl.addTab(scope);
       scope.$on('$destroy', function() {
