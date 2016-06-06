@@ -17,26 +17,29 @@ readiness:
 
 |               Milestone | Description                                                                                                                                                                                                               |
 |------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  c2.V²►Standards.Create | Launch of the Missing Standards Board. We begin with creating missing Power Supply standards for Mini and All-IN-One PCs | 
-|   c2.V²►Products.Create | All essential pages of Products Board on V² are ready with sufficient content. These pages are the foundation of V²Shop & ViSite. |  
-|     c2.V²►Makers.Create | Benefits of using missing standards. Road Map of V² for Makers. |
-|       c2.V²►.DIY.Create | Two categories of *How-to Articles* on custom building your own DIY Mini PC or All-In-One Computer: **1)** Generic DIY Custom Build PC Know How 2) *Ready Made* and tested *Custom Build PC Configurations*, optimized for different use cases.|
-|     c2.V²►Retail.Create | Articles on benefits for Retailers on V² Modular PC, ViCase and ViPC. Price List with ViCase and Ratailer discounts |
-|   c2.V²►Speading.Create | Launch of the Board that describes how to spread the word and products. One Campaign Article for each social media to creates its kickoff or reboot.  |
-|        c2.V²►App.Create | Launch App Board. Create platform for V²App.Configurator & V²App.FormFactor |
-|              c2.QA.ViPC | Testing Quality of all parts used in ViCase. **Stage 1** is separate testing of parts. **Stage 2** is testing complete ViPC configurations |
+|  c2.v2.Standards.Create | Launch of the Missing Standards Board. We begin with creating missing Power Supply standards for Mini and All-IN-One PCs | 
+|   c2.v2.Products.Create | All essential pages of Products Board on V² are ready with sufficient content. These pages are the foundation of V²Shop & ViSite. |  
+|     c2.v2.Makers.Create | Benefits of using missing standards. Road Map of V² for Makers. |
+|        [c2.v2.DIY.Create][04] | Two categories of *How-to Articles* on custom building your own DIY Mini PC or All-In-One Computer: **1)** Generic DIY Custom Build PC Know How 2) *Ready Made* and tested *Custom Build PC Configurations*, optimized for different use cases.|
+|     c2.v2.Retail.Create | Articles on benefits for Retailers on V² Modular PC, ViCase and ViPC. Price List with ViCase and Ratailer discounts |
+|   c2.v2.Speading.Create | Launch of the Board that describes how to spread the word and products. One Campaign Article for each social media to creates its kickoff or reboot.  |
+|        c2.v2.App.Create | Launch App Board. Create platform for V²App.Configurator & V²App.FormFactor |
+|       [c2.v2.DIY.QA.ViPC][08] | Testing Quality of all parts used in ViCase. **Stage 1** is separate testing of parts. **Stage 2** is testing complete ViPC configurations. **Stage 3** is testing the complete assembled ViPC in ViCase. |
 |       c2.ViCase.Mini.R1 | Production Run 1. 20 pcs. Same design as ViCase Mini Gold Sample, but including bug fixes.                                                                                                                                |
 |     c2.ViCase.Promotion | Create a campaign page in the same format as a crowd funding project. ViCase Promotion is having all crowd funding benefits without their risks |
-|    c2.V²Referral.Create | Starting Referral Marketing: Pick the right plugin, choose the right campaign. Set up the campaign and promote its availability to the community. Work with community so to reach the viral marketing effect.             |
+|    c2.v2-Referral.Create | Starting Referral Marketing: Pick the right plugin, choose the right campaign. Set up the campaign and promote its availability to the community. Work with community so to reach the viral marketing effect.             |
 |     c2.ViCase.Mini.Ship | Resolve all issues needed to ship ViCase: Packaging, Shipping Cost, cost of selling one ViCase in the shop, etc ...                                                                                                       |
 |       c2.ViCase.Mini.R2 | Production Run 2. 100 pcs. Same design as ViCase Mini R1, but including bug fixes.                                                                                                                                        |
 |      c2.Previews.ViCase | Find reviewers who are interested in being the first to show new innovative products and / or who care that V² is providing the missing standard for Mini and All-In-One PCs. Schedule visits and demo the Golden Sample. |
 |       c2.Reviews.ViCase | All things that need to be done to get ViCase in front of reviewers and to support the reviewer until the review is out.                                                                                                  |
 |        c2.ViSite.Create | Launch of Village Tronic Web Site. All pages and functions complete to support selling ViCase via *V²Shop* and *ViCase Promotion* and to provide support for customer.                                                                                        |
-|        c2.V²Shop.Create | All things need to be done to launch the V²Shop. V²Shop caters to American Customers                                                                                                                                      |
+|        c2.v2-Shop.Create | All things need to be done to launch the V²Shop. V²Shop caters to American Customers                                                                                                                                      |
 |        c2.ViShop.Create | All things need to be done to launch the ViShop. ViShop caters to Asian and European Customers. We will remain looking for a V²Shop partner for Europe.                                                                   |
-|      c2.V²Social.Create | Promote Blog Posts and Referral Marketing on Social Media. Get readers engaged to the point to reach a viral marketing effect.                                                                                            |
-|        c2.V²Blog.Create | Get Blog Software going. Start posting blogs and re-post on Social Media. Get readers involved to get feedback and to get them spreading the posts. Listen and follow their ideas on how to become more valuable to them. |
-|   c2.V²App.Configurator | Adopt the Configurator to work in tandem with V²PC.Configs. Remove Wizard. Instead simply choose a V²PC configuration from a list. Update all data according to V²PC shopping References.                                 |
-|     c2.V²App.FormFactor | Remove the Form Factor App from the Configurator and make it work stand alone, so it can be used within product pages to demo how to turn ViCase Mini into an All-In-One PC.                                              |
+|      c2.v2-Social.Create | Promote Blog Posts and Referral Marketing on Social Media. Get readers engaged to the point to reach a viral marketing effect.                                                                                            |
+|        c2.v2-Blog.Create | Get Blog Software going. Start posting blogs and re-post on Social Media. Get readers involved to get feedback and to get them spreading the posts. Listen and follow their ideas on how to become more valuable to them. |
+|   c2.v2-App.Configurator | Adopt the Configurator to work in tandem with V²PC.Configs. Remove Wizard. Instead simply choose a V²PC configuration from a list. Update all data according to V²PC shopping References.                                 |
+|     c2.v2-App.FormFactor | Remove the Form Factor App from the Configurator and make it work stand alone, so it can be used within product pages to demo how to turn ViCase Mini into an All-In-One PC.                                              |
 |           c2.Accounting | Set up the Interface between the Shop and the Accounting App.                                                                                                                                                             |
+
+[04]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.Create
+[08]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.QA.ViPC
