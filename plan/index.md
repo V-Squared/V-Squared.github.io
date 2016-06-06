@@ -14,8 +14,8 @@ readiness:
 
 
 # Purpose <a name="purpose"></a>
-- Show where we are going → [Target](https://v-squared.github.io/v2-Plan/target/)
-- Lead the way → [Road Map](https://v-squared.github.io/v2-Plan/road-map/)
+- Show where we are going → [Target](/plan/target/)
+- Lead the way → [Road Map](https://v-squared.github.io/plan/road-map/)
 - Organize our development → [Dashboard](https://v-squared.github.io/v2-Plan/dashboard/)
 - Make it easy to contribute → [Contributing](https://v-squared.github.io/v2-Plan/contributing/)
 - Explain how V²Plan System works → [System](https://v-squared.github.io/v2-Plan/system/)
