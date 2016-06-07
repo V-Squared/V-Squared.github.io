@@ -1,0 +1,61 @@
+- menu: Configs
+  url: /configs/
+  subitems:
+- menu: Optimize
+  url: /optimize/
+  subitems:
+- menu: Cool
+  url: /cool/
+  subitems:
+- menu: Assemble
+  url: /assemble/
+  subitems:
+- menu: AIO
+  url: /aio/
+  subitems:
+- menu: Install
+  url: /install/
+  subitems:
+- menu: Fixing
+  url: /fixing/
+  subitems:
+- menu: QA
+  url: /qa/
+  subitems:
+- menu: Parts
+  url: /parts/
+  desc: Choosing & Understanding Workstation PC Parts
+  subitems:
+    - menu: Boot Disk
+      url: /parts/boot-disk/
+    - menu: Data Disks
+      url: /parts/data-disks/
+    - menu: RAID Disks
+      url: /parts/raid-disks/
+    - menu: Motherboard
+      url: /parts/motherboard/
+    - menu: CPU
+      url: /parts/cpu/
+    - menu: DRAM
+      url: /parts/dram/
+    - menu: Operating System
+      url: /parts/operating-system/
+    - menu: Case
+      url: /parts/case/
+    - menu: Accessories
+      url: /parts/accessories/
+- menu: Tools
+  url: /tools/
+  subitems:
+- menu: Compare
+  url: /compare/
+  desc: Comparison Reviews
+  subitems:
+    - menu: Workstation Comparison
+      url: /compare/workstation-comparison/
+    - menu: Custom PC Comparison
+      url: /compare/custom-pc-comparison/
+    - menu: Mac Mini Comparison
+      url: /compare/mac-mini-comparison/
+    - menu: ViCase Generations
+      url: /compare/vicase-generations/

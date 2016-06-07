@@ -144,9 +144,9 @@ cta:
   <uib-tabset id="tab1" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
       
-      <md-button uib-tab-previous layout="column" layout-align="center center" no-gap>
+      <button uib-tab-previous layout="column" layout-align="center center" no-gap>
         <div>&lt;</div>
-      </md-button>
+      </button>
 
       <div class="uk-container uk-container-center">
         <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em></p>
@@ -185,9 +185,9 @@ cta:
         </div>
       </div>
       
-      <md-button uib-tab-next layout="column" layout-align="center center" no-gap>
+      <button uib-tab-next layout="column" layout-align="center center" no-gap>
         <div>&gt;</div>
-      </md-button>
+      </button>button>
 
     </uib-tab>
   </uib-tabset>

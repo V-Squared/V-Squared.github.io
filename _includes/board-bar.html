@@ -24,10 +24,10 @@
           <a href="#" v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
         </li>
         <li>
-          <a href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost" class="{% if page.url == '/diy' %}uk-active{% endif %}">Makers</a>
+          <a href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">Makers</a>
         </li>
-        <li>
-          <a href="/v2-Marketing" v2-tooltip="PC Know How & Tools" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">DIY</a>
+        <li class="{% if page.url == '/diy/' %}uk-active{% endif %}">
+          <a href="/diy/" v2-tooltip="PC Know How & Tools">DIY</a>
         </li>
         <li>
           <a href="#" v2-tooltip="Lower your cost and increase computer sales" class="{% if page.url == '/organization' %}uk-active{% endif %}">Retail</a>
@@ -67,10 +67,10 @@
         <a href="#" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
       </li>
       <li>
-        <a href="#" class="{% if page.url == '/diy' %}uk-active{% endif %}">Makers</a>
+        <a href="#" class="{% if page.url == '/makers' %}uk-active{% endif %}">Makers</a>
       </li>
-      <li>
-        <a href="/v2-Marketing" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">DIY</a>
+      <li class="{% if page.url == '/diy/' %}uk-active{% endif %}">
+        <a href="/diy/">DIY</a>
       </li>
       <li>
         <a href="#" class="{% if page.url == '/organization' %}uk-active{% endif %}">Retail</a>
@@ -81,40 +81,12 @@
       <li>
         <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Apps</a>
       </li>
-      <li>
-        <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Plan</a>
+      <li class="{% if page.url == '/plan/' %}uk-active{% endif %}">
+        <a href="/plan/">Plan</a>
       </li>
       <li>
         <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
       </li>
-    </ul>
-  </div>
-</div>
-{% assign navurl = page.url | remove: 'index.html' %}
-<div id="book-bar-nav" class="uk-offcanvas">
-  <div class="uk-offcanvas-bar md-whiteframe-z2">
-    
-    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
-      {% for my_page in site.data.book-bar %}
-      
-      <li class="{% if my_page.subitems %}uk-parent{% endif %} {% if navurl contains my_page.url %}uk-active{% endif %}">
-        <a href="{% if my_page.subitems %}#{% else %}{{site.baseurl}}{{my_page.url}}{% endif %}">{{my_page.menu}}</a>
-        {% if my_page.subitems %}
-        
-        <ul class="uk-nav-sub">
-          
-          <li class="{% if navurl == my_page.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{my_page.url}}">Intro</a></li>
-        
-          {% for subitem in my_page.subitems %}
-          <li class="{% if navurl contains subitem.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{subitem.url}}">{{subitem.menu}}</a></li>        
-          {% endfor %}
-          
-        </ul>
-        
-        {% endif %}
-      </li>
-      
-      {% endfor %}
     </ul>
   </div>
 </div>

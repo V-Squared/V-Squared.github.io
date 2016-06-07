@@ -24,3 +24,34 @@
     </ul>
   </div>
 </div>
+
+{% assign navurl = page.url | remove: 'index.html' %}
+<div id="book-bar-nav" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar md-whiteframe-z2">
+    
+    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+      {% for my_page in include.nav %}
+      
+      <li class="{% if my_page.subitems %}uk-parent{% endif %} {% if navurl contains my_page.url %}uk-active{% endif %}">
+        <a href="{% if my_page.subitems %}#{% else %}{{site.baseurl}}/{{include.board}}{{my_page.url}}{% endif %}">{{my_page.menu}}</a>
+        {% if my_page.subitems %}
+        
+        <ul class="uk-nav-sub">
+          
+          {% capture introUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
+          
+          <li class="{% if navurl == introUrl %}uk-active{% endif %}"><a href="{{site.baseurl}}/{{include.board}}{{my_page.url}}">Intro</a></li>
+        
+          {% for subitem in my_page.subitems %}
+          <li class="{% if navurl contains subitem.url %}uk-active{% endif %}"><a href="{{site.baseurl}}/{{include.board}}{{subitem.url}}">{{subitem.menu}}</a></li>        
+          {% endfor %}
+          
+        </ul>
+        
+        {% endif %}
+      </li>
+      
+      {% endfor %}
+    </ul>
+  </div>
+</div>
