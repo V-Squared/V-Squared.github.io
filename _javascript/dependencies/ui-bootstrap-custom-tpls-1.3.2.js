@@ -2,116 +2,119 @@ angular.module("ui.bootstrap", ["ui.bootstrap.tpls","ui.bootstrap.tabs"]);
 angular.module("ui.bootstrap.tpls", ["uib/template/tabs/tab.html","uib/template/tabs/tabset.html"]);
 angular.module('ui.bootstrap.tabs', [])
 
-.controller('UibTabsetController', ['$scope', '$location',  function ($scope,$location) {
-  var ctrl = this,
-    oldIndex;
-  ctrl.tabs = [];
+  .controller('UibTabsetController', ['$scope', '$location',  function ($scope,$location) {
+    var ctrl = this,
+        oldIndex;
+    ctrl.tabs = [];
 
-  console.log("outer - controller");
+    console.log("outer - controller");
 
-  ctrl.select = function(index, evt) {
-    if (!destroyed) {
-      var previousIndex = findTabIndex(oldIndex);
-      var previousSelected = ctrl.tabs[previousIndex];
-      if (previousSelected) {
-        previousSelected.tab.onDeselect({
-          $event: evt
-        });
-        if (evt && evt.isDefaultPrevented()) {
-          return;
+    ctrl.select = function(index, evt) {
+      if (!destroyed) {
+        var previousIndex = findTabIndex(oldIndex);
+        var previousSelected = ctrl.tabs[previousIndex];
+        if (previousSelected) {
+          previousSelected.tab.onDeselect({
+            $event: evt
+          });
+          if (evt && evt.isDefaultPrevented()) {
+            return;
+          }
+          previousSelected.tab.active = false;
         }
-        previousSelected.tab.active = false;
+
+        var selected = ctrl.tabs[index];
+
+        if (selected) {
+          selected.tab.onSelect({
+            $event: evt
+          });
+          selected.tab.active = true;
+          ctrl.active = selected.index;
+          oldIndex = selected.index;
+        } else if (!selected && angular.isNumber(oldIndex)) {
+          ctrl.active = null;
+          oldIndex = null;
+        }
+      }
+    };
+
+    ctrl.addTab = function addTab(tab) {
+      ctrl.tabs.push({
+        tab: tab,
+        index: tab.index
+      });
+      ctrl.tabs.sort(function(t1, t2) {
+        if (t1.index > t2.index) {
+          return 1;
+        }
+
+        if (t1.index < t2.index) {
+          return -1;
+        }
+
+        return 0;
+      });
+
+      if (tab.index === ctrl.active || !angular.isNumber(ctrl.active) && ctrl.tabs.length === 1) {
+        var newActiveIndex = findTabIndex(tab.index);
+        ctrl.select(newActiveIndex);
+      }
+    };
+
+    ctrl.removeTab = function removeTab(tab) {
+      var index;
+      for (var i = 0; i < ctrl.tabs.length; i++) {
+        if (ctrl.tabs[i].tab === tab) {
+          index = i;
+          break;
+        }
       }
 
-      var selected = ctrl.tabs[index];
-      
-      if (selected) {
-        selected.tab.onSelect({
-          $event: evt
-        });
-        selected.tab.active = true;
-        ctrl.active = selected.index;
-        oldIndex = selected.index;
-      } else if (!selected && angular.isNumber(oldIndex)) {
-        ctrl.active = null;
-        oldIndex = null;
+      if (ctrl.tabs[index].index === ctrl.active) {
+        var newActiveTabIndex = index === ctrl.tabs.length - 1 ?
+            index - 1 : index + 1 % ctrl.tabs.length;
+        ctrl.select(newActiveTabIndex);
       }
+
+      ctrl.tabs.splice(index, 1);
+    };
+
+    ctrl.setHash = function setHash (activeIndex) {
+      var userActiveIndex = activeIndex + 1;
+
+      console.log(activeIndex);
+
+      $location.hash(ctrl.id + '-' + userActiveIndex);
+
+      //window.location.hash = ctrl.id + "-" + userActiveIndex;
     }
-  };
 
-  ctrl.addTab = function addTab(tab) {
-    ctrl.tabs.push({
-      tab: tab,
-      index: tab.index
+    $scope.$watch('tabset.active', function(val) {
+      if (angular.isNumber(val) && val !== oldIndex) {
+        ctrl.select(findTabIndex(val));
+      }
     });
-    ctrl.tabs.sort(function(t1, t2) {
-      if (t1.index > t2.index) {
-        return 1;
-      }
 
-      if (t1.index < t2.index) {
-        return -1;
-      }
-
-      return 0;
+    var destroyed;
+    $scope.$on('$destroy', function() {
+      destroyed = true;
     });
 
-    if (tab.index === ctrl.active || !angular.isNumber(ctrl.active) && ctrl.tabs.length === 1) {
-      var newActiveIndex = findTabIndex(tab.index);
-      ctrl.select(newActiveIndex);
-    }
-  };
-
-  ctrl.removeTab = function removeTab(tab) {
-    var index;
-    for (var i = 0; i < ctrl.tabs.length; i++) {
-      if (ctrl.tabs[i].tab === tab) {
-        index = i;
-        break;
+    function findTabIndex(index) {
+      for (var i = 0; i < ctrl.tabs.length; i++) {
+        if (ctrl.tabs[i].index === index) {
+          return i;
+        }
       }
     }
 
-    if (ctrl.tabs[index].index === ctrl.active) {
-      var newActiveTabIndex = index === ctrl.tabs.length - 1 ?
-        index - 1 : index + 1 % ctrl.tabs.length;
-      ctrl.select(newActiveTabIndex);
+    ctrl.wordInString = function wordInString(s, word){
+      return s.indexOf(word) >= 0;
     }
+  }])
 
-    ctrl.tabs.splice(index, 1);
-  };
-  
-  ctrl.setHash = function setHash (activeTab) {
-    
-  }
-  
-  ctrl.setHash();
-
-  $scope.$watch('tabset.active', function(val) {
-    console.log("value change: " + val);
-    if (angular.isNumber(val) && val !== oldIndex) {
-      ctrl.select(findTabIndex(val));
-    }
-  });
-
-  var destroyed;
-  $scope.$on('$destroy', function() {
-    destroyed = true;
-  });
-
-  function findTabIndex(index) {
-    for (var i = 0; i < ctrl.tabs.length; i++) {
-      if (ctrl.tabs[i].index === index) {
-        return i;
-      }
-    }
-  }
-
-  ctrl.wordInString = function wordInString(s, word){
-    return s.indexOf(word) >= 0;
-  }
-}])
-
-.directive('uibTabset', function($anchorScroll,$window) {
+  .directive('uibTabset', function($anchorScroll,$window,$location) {
   return {
     transclude: true,
     replace: true,
@@ -130,33 +133,33 @@ angular.module('ui.bootstrap.tabs', [])
 
       console.log("outer - Link");
 
-      // Listen fir address bar hash change
-      angular.element($window).bind('hashchange',function() {
-        scrollToTab();
+      // Listen fire address bar hash change
+      angular.element($window).bind( 'hashchange', function(event) {
+        console.log("hashChanged");
+        scope.hashChange();
       });
 
       scope.$on('render.done',function() {
-        scrollToTab();
+        scope.hashChange();
       });
 
-      function scrollToTab () {
-        if(location.hash) {
-          var tabLink = ctrl.wordInString(location.hash,'tab');
-          if(tabLink) {
-            var tabString = location.hash.split('-');
-            tabString[0] = tabString[0].replace('#/','');
+      scope.hashChange = function hashChange() {
 
-            try {
-              if(tabString[0] == ctrl.id) {
-                ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
-                console.log(ctrl.id);
-                console.log("render done");
-                
-                $anchorScroll(ctrl.id);
-              }
-            } catch(err) {
-              throw "please specify the id on the directive to make hasgtag linking work " + err;
+        var tabLink = ctrl.wordInString($location.hash(),'tab');
+
+        if(tabLink) {
+          var tabString = $location.hash().split('-');
+
+          console.log("tabString: " + tabString[1]);
+
+          try {
+            if(tabString[0] == ctrl.id) {
+              ctrl.select(parseInt(tabString[1] - 1),""); // User's first tab start with 1, uiBootstrap's start with 0
+
+              $anchorScroll(ctrl.id);
             }
+          } catch(err) {
+            throw "please specify the id on the directive to make hasgtag linking work " + err;
           }
         }
       }
@@ -172,100 +175,78 @@ angular.module('ui.bootstrap.tabs', [])
   };
 })
 
-.directive('uibTab', ['$parse','$location', function($parse,$location) {
-  return {
-    require: '^uibTabset',
-    replace: true,
-    templateUrl: function(element, attrs) {
-      return attrs.templateUrl || 'uib/template/tabs/tab.html';
-    },
-    transclude: true,
-    scope: {
-      heading: '@',
-      index: '=?',
-      classes: '@?',
-      onSelect: '&select', //This callback is called in contentHeadingTransclude
-                          //once it inserts the tab's content into the dom
-      onDeselect: '&deselect'
-    },
-    controller: function() {
-      console.log("Inner - controller");
-      //Empty controller so other directives can require being 'under' a tab
-    },
-    controllerAs: 'tab',
-    link: function(scope, elm, attrs, tabsetCtrl, transclude) {
+  .directive('uibTab', ['$parse','$location', function($parse,$location) {
+    return {
+      require: '^uibTabset',
+      replace: true,
+      templateUrl: function(element, attrs) {
+        return attrs.templateUrl || 'uib/template/tabs/tab.html';
+      },
+      transclude: true,
+      scope: {
+        heading: '@',
+        index: '=?',
+        classes: '@?',
+        onSelect: '&select', //This callback is called in contentHeadingTransclude
+        //once it inserts the tab's content into the dom
+        onDeselect: '&deselect'
+      },
+      controller: function() {
+        console.log("Inner - controller");
+        //Empty controller so other directives can require being 'under' a tab
+      },
+      controllerAs: 'tab',
+      link: function(scope, elm, attrs, tabsetCtrl, transclude) {
 
 
-      scope.disabled = false;
-      if (attrs.disable) {
-        scope.$parent.$watch($parse(attrs.disable), function(value) {
-          scope.disabled = !! value;
+        scope.disabled = false;
+        if (attrs.disable) {
+          scope.$parent.$watch($parse(attrs.disable), function(value) {
+            scope.disabled = !! value;
+          });
+        }
+
+        console.log("Inner - Link");
+
+        if (angular.isUndefined(attrs.index)) {
+          if (tabsetCtrl.tabs && tabsetCtrl.tabs.length) {
+            scope.index = Math.max.apply(null, tabsetCtrl.tabs.map(function(t) { return t.index; })) + 1;
+          } else {
+            scope.index = 0;
+          }
+        }
+
+        if (angular.isUndefined(attrs.classes)) {
+          scope.classes = '';
+        }
+
+        scope.select = function(evt) {
+          if (!scope.disabled) {
+            var index;
+            for (var i = 0; i < tabsetCtrl.tabs.length; i++) {
+              if (tabsetCtrl.tabs[i].tab === scope) {
+                index = i;
+                break;
+              }
+            }
+          }
+
+          tabsetCtrl.setHash(index);
+        };
+
+        tabsetCtrl.addTab(scope);
+        scope.$on('$destroy', function() {
+          tabsetCtrl.removeTab(scope);
         });
+
+        //We need to transclude later, once the content container is ready.
+        //when this link happens, we're inside a tab heading.
+        scope.$transcludeFn = transclude;
       }
+    };
+  }])
 
-      console.log("Inner - Link");
-
-      if (angular.isUndefined(attrs.index)) {
-        if (tabsetCtrl.tabs && tabsetCtrl.tabs.length) {
-          scope.index = Math.max.apply(null, tabsetCtrl.tabs.map(function(t) { return t.index; })) + 1;
-        } else {
-          scope.index = 0;
-        }
-      }
-
-      if (angular.isUndefined(attrs.classes)) {
-        scope.classes = '';
-      }
-
-      scope.select = function(evt) {
-        if (!scope.disabled) {
-          var index;
-          for (var i = 0; i < tabsetCtrl.tabs.length; i++) {
-            if (tabsetCtrl.tabs[i].tab === scope) {
-              index = i;
-              break;
-            }
-          }
-        }
-
-        var userIndex = index + 1;
-
-        location.hash = tabsetCtrl.id + "-" + userIndex;
-
-        tabsetCtrl.select(index,evt);
-      };
-      
-      scope.next = function next(event) {
-        if (!scope.disabled) {
-          var index;
-          for (var i = 0; i < tabsetCtrl.tabs.length; i++) {
-            if (tabsetCtrl.tabs[i].tab === scope) {
-              index = i;
-              break;
-            }
-          }
-        }
-
-        var userIndex = index + 2;
-
-        location.hash = tabsetCtrl.id + "-" + userIndex;
-
-        tabsetCtrl.select(index + 1,evt);
-      }
-
-      tabsetCtrl.addTab(scope);
-      scope.$on('$destroy', function() {
-        tabsetCtrl.removeTab(scope);
-      });
-
-      //We need to transclude later, once the content container is ready.
-      //when this link happens, we're inside a tab heading.
-      scope.$transcludeFn = transclude;
-    }
-  };
-}])
-
-.directive('uibTabHeadingTransclude', function() {
+  .directive('uibTabHeadingTransclude', function() {
   return {
     restrict: 'A',
     require: '^uibTab',
@@ -280,7 +261,7 @@ angular.module('ui.bootstrap.tabs', [])
   };
 })
 
-.directive('uibTabContentTransclude', function($timeout) {
+  .directive('uibTabContentTransclude', function($timeout) {
   return {
     restrict: 'A',
     require: '^uibTabset',
@@ -321,26 +302,62 @@ angular.module('ui.bootstrap.tabs', [])
     );
   }
 })
+.directive('uibTabNext',function () {
+  return {
+    restrict: 'A',
+    scope:{},
+    require: "^uibTabset",
+    link: function(scope,element,attrs,ctrl) {
+
+      element.on('click',function() {
+        var next = ctrl.active + 1;
+        
+        scope.$apply(function() {
+          ctrl.setHash(next);
+        });
+      });
+
+    }
+  }
+})
+.directive('uibTabPrevious',function () {
+  return {
+    restrict: 'A',
+    scope:{},
+    require: "^uibTabset",
+    link: function(scope,element,attrs,ctrl) {
+
+      element.on('click',function() {
+        var previous = ctrl.active - 1;
+        
+        scope.$apply(function() {
+          ctrl.setHash(previous);
+        });
+      });
+
+    }
+  }
+});
 
 angular.module("uib/template/tabs/tab.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("uib/template/tabs/tab.html",
-    "<li ng-class=\"[{'uk-active': active, 'uk-disabled': disabled}, classes]\" class=\"uib-tab\">\n" +
-    "  <a href ng-click=\"select($event)\" class=\"\" uib-tab-heading-transclude>{{heading}}</a>\n" +
-    "</li>\n" +
-    "");
+                     "<li ng-class=\"[{'uk-active': active, 'uk-disabled': disabled}, classes]\" class=\"uib-tab\">\n" +
+                     "  <a href ng-click=\"select($event)\" class=\"\" uib-tab-heading-transclude>{{heading}}</a>\n" +
+                     "</li>\n" +
+                     "");
 }]);
 
 angular.module("uib/template/tabs/tabset.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("uib/template/tabs/tabset.html",
-    "<div>\n" +
-    "  <ul class=\"uk-{{tabset.type || 'tab'}}\" ng-class=\"{'uk-tab-left': vertical, 'uk-tab-grid': justified}\" ng-transclude></ul>\n" +
-    "  <ul class=\"tab-content\">\n" +
-    "    <li class=\"tab-pane\"\n" +
-    "         ng-repeat=\"tab in tabset.tabs\"\n" +
-    "         ng-class=\"{'uk-active': tabset.active === tab.index}\"\n" +
-    "         uib-tab-content-transclude=\"tab\">\n" +
-    "    </li>\n" +
-    "  </ul>\n" +
-    "</div>\n" +
-    "");
+                     "<div layout=\"column\" no-gap>\n" +
+                     "  <ul class=\"uk-{{tabset.type || 'tab'}}\" ng-class=\"{'uk-tab-left': vertical, 'uk-tab-grid': justified}\" ng-transclude></ul>\n" +
+                     "  <ul class=\"tab-content\" flex>\n" +
+                     "    <li class=\"tab-pane\"\n" +
+                     "         ng-repeat=\"tab in tabset.tabs\"\n" +
+                     "         ng-class=\"{'uk-active': tabset.active === tab.index}\"\n" +
+                     "         uib-tab-content-transclude=\"tab\">\n" +
+                     "    </li>\n" +
+                     "  </ul>\n" +
+                     "</div>\n" +
+                     "");
 }]);

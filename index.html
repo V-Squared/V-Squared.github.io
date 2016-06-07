@@ -140,14 +140,16 @@ cta:
   {% include feature-row id="delivering-puzzle" align="center" custom=puzzle-svg %}
 
   {% include feature-row id="cta" align="center" background="#2196F3" class="call-to-action" %}
-  
-  [[life]]
 
-  <uib-tabset active="life" id="tab1" class="portfolio" justified>
+  <uib-tabset id="tab1" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
+      
+      <md-button uib-tab-previous layout="column" layout-align="center center" no-gap>
+        <div>&lt;</div>
+      </md-button>
 
       <div class="uk-container uk-container-center">
-        <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em> <md-button ng-click="next($event)">Hi</md-button></p>
+        <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em></p>
 
         <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
           <div ng-repeat="repository in repositorySection.items">
@@ -155,7 +157,7 @@ cta:
             <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>-->
             <figure ng-style="repository.borderColor ? {border: '0.7pt solid ' + repository.borderColor} : {}" class="uk-overlay uk-overlay-hover">
               <img ng-src="[[repository.img]]">
-              <h2>[[repository.name]]</h2>+
+              <h2>[[repository.name]]</h2>
               <div class="ribbon-wrapper" v2-tooltip="[[ribbon.tooltip]]" ng-repeat="ribbon in vm.ribbon" ng-if="ribbon.name == repository.ribbonName">
                 <div class="ribbon" ng-style="{background: ribbon.color}">[[ribbon.name]]</div>
               </div>
@@ -182,6 +184,10 @@ cta:
           </div>
         </div>
       </div>
+      
+      <md-button uib-tab-next layout="column" layout-align="center center" no-gap>
+        <div>&gt;</div>
+      </md-button>
 
     </uib-tab>
   </uib-tabset>
