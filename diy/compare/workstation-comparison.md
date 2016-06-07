@@ -21,6 +21,7 @@ readiness:
 ## Comparison
 
 {:.uk-table.uk-table-hover}
+
 |                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z230 | HP Z1 | Dell Precision Tower |
 |----------------------------:|:--------------------:|:-------------:|:-------:|:-----:|:--------------------:|
 |                       Price |         100%         |      218%     |   217%  |  188% |         130%         |
@@ -70,6 +71,7 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 ## ViPC-620 vs HP Z230
 
 {:.uk-table.uk-table-hover}
+
 |   Features |    ViCase-620   |     HP Z230     |
 |-----------:|:---------------:|:---------------:|
 |         OS |    Win 10 Pro   |    Win 10 Pro   |
@@ -99,6 +101,7 @@ Even though the HP Z230 is categorized as Small Form Factor it is still a full D
 ## ViPC 1200 vs HP Z1
 
 {:.uk-table.uk-table-hover}
+
 |           Features |   ViCase-1200   |       HZ Z1       |
 |-------------------:|:---------------:|:-------------------:|
 |                 OS |    Win 10 Pro   |      Win 10 Pro     |
@@ -129,6 +132,7 @@ The HP Z1 is the only Workstation other than ViPC that can be converted into an 
 ## ViCase 970-T vs Mac Pro
 
 {:.uk-table.uk-table-hover}
+
 |   Features |   ViCase-970T   |      Mac Pro      |
 |-----------:|:---------------:|:-----------------:|
 |         OS |    Win 10 Pro   |     Win 10 Pro    |
@@ -156,6 +160,7 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 ## ViCase vs Dell
 
 {:.uk-table.uk-table-hover}
+
 |           Features |  ViCase-1200-T  | Dell Precision Tower 3000 |
 |-------------------:|:---------------:|:-------------------------:|
 |                 OS |    Win 10 Pro   |         Win 10 Pro        |
@@ -197,6 +202,7 @@ ViPC is aimed to build the smallest, most powerful and most cost efficient works
 ## Comparison
 
 {:.uk-table.uk-table-hover}
+
 |                        Feature | 1151 (i3-i5-i7) | 2011-v3 (Xeon) |
 |-------------------------------:|:---------------:|:--------------:|
 |                          Cores |      2 … 4      |     4 … 12     |
