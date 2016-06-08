@@ -34,17 +34,6 @@
       
       <li class="{% if navurl == subitemUrl %}uk-active{% endif %}"><a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
 
-
-
-      {% if navurl == subitemUrl and page.contents %}
-
-      <ul class="uk-nav uk-nav-toc">
-        {% for content in page.contents %}
-        <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
-        {% endfor %}
-      </ul>
-
-      {% endif %}
       {% endfor %}
     </ul>
   </div>

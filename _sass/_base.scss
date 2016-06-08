@@ -25,6 +25,12 @@ body {
   font-kerning: normal;
 }
 
+@media (min-width: 1420px) {
+  .uk-container {
+    max-width: 1400px;
+  }
+}
+
 
 
 /**

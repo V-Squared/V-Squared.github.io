@@ -157,9 +157,9 @@ layout: default
 
           {% if page.contents %}
 
-          <h1 hide-gt-sm>Table of Contents</h1>
+          <h1 hide-gt-md>Table of Contents</h1>
 
-          <ul class="uk-nav uk-nav-toc" hide-gt-sm>
+          <ul class="uk-nav uk-nav-toc" hide-gt-md>
             {% for content in page.contents %}
             <li><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
             {% endfor %}
@@ -173,6 +173,9 @@ layout: default
 
       </div>
     </div>
+    
+    {% include contents-bar.html %}
+    
   </div>
 
 </article>
