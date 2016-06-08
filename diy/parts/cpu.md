@@ -68,7 +68,7 @@ Short advice which CPU to choose for which purpose
 
 ## CPU Comparison Table
 
-{:.uk-table.uk-table-hover}
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | CPU Feature         |Entry CPU Value|Entry CPU Performance|Mid CPU Value|Mid CPU Performance|High CPU Value|High CPU Performance|
 |:--------------------|:-------:  |:-------:  |:-------:  |:-------:  |:-------:  |:-------:  |
@@ -97,7 +97,7 @@ Short advice which CPU to choose for which purpose
 
 ## CPU Features explained
 
-{:.uk-table.uk-table-hover}
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | CPU Feature | Feature explained |
 |--------------------:|:------------------|
@@ -134,7 +134,7 @@ Short advice which CPU to choose for which purpose
 
 ### CPU Benchmarks
 
-{:.uk-table.uk-table-hover}
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 |CPU Name         |Benchmark|
 |----------------:|:--------|
@@ -176,7 +176,7 @@ Choose this CPU if you are looking for the Ultimate in CPU performance.
 
 ## Overview
 
-{:.uk-table.uk-table-hover}
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 |Feature       | LGA 1156     |LGA 1155       | LGA 1150    | LGA 1151 |
 |-------------:|:-------------|:---------------|:------------|:--------------------|
