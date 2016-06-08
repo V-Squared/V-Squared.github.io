@@ -280,3 +280,21 @@ md-menu-content {
 .md-open-menu-container md-menu-content {
   display:inherit;
 }
+
+.uk-table td, .uk-table th {
+  padding: 8px 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.table-header-row-column thead {
+  background:#2196F3;
+  color:#FFF;
+  
+  th {
+    border:none;
+  }
+}
+.table-header-row-column tr td:first-child {
+  background: #B3E5FC;
+  border:none;
+}
