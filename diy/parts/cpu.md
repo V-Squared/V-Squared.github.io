@@ -67,6 +67,8 @@ Short advice which CPU to choose for which purpose
 
 ## CPU Comparison Table
 
+{:.uk-table.uk-table-hover}
+
 | CPU Feature         |Entry CPU Value|Entry CPU Performance|Mid CPU Value|Mid CPU Performance|High CPU Value|High CPU Performance|
 |:--------------------|:-------:  |:-------:  |:-------:  |:-------:  |:-------:  |:-------:  |
 | Model►Name          |[Sempron 2650](http://www.newegg.com/Product/Product.aspx?Item=N82E16819113367)|[Athlon 5350](http://www.newegg.com/Product/Product.aspx?Item=N82E16819113364)|[i3-4160](http://www.newegg.com/Product/Product.aspx?Item=N82E16819117447)|[i5-4570S](http://www.newegg.com/Product/Product.aspx?Item=N82E16819116897)|[i5-6500](http://www.newegg.com/Product/Product.aspx?Item=N82E16819117563)|[i7-6700K](http://www.newegg.com/Product/Product.aspx?Item=N82E16819117559)|
@@ -93,6 +95,8 @@ Short advice which CPU to choose for which purpose
 
 
 ## CPU Features explained
+
+{:.uk-table.uk-table-hover}
 
 | CPU Feature | Feature explained |
 |--------------------:|:------------------|
@@ -128,6 +132,8 @@ Short advice which CPU to choose for which purpose
 - [i7-6700K] $360  - Intel - Extreme
 
 ### CPU Benchmarks
+
+{:.uk-table.uk-table-hover}
 
 |CPU Name         |Benchmark|
 |----------------:|:--------|
@@ -168,6 +174,8 @@ Choose this CPU if you are looking for the Ultimate in CPU performance.
 # About Intel CPU Sockets
 
 ## Overview
+
+{:.uk-table.uk-table-hover}
 
 |Feature       | LGA 1156     |LGA 1155       | LGA 1150    | LGA 1151 |
 |-------------:|:-------------|:---------------|:------------|:--------------------|
