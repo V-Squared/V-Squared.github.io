@@ -237,7 +237,7 @@
     position: relative;
 
     a {
-      padding: 3px 15px;
+      padding: 8px 15px;
       color:#212121;
       font-size: 15px;
       color:#666;
@@ -255,11 +255,6 @@
 #article-toc {
   width:215px;
 
-  * {
-    font-family: Roboto-Thin;
-    color:#777;
-  }
-
   .padding {
     padding: 0 16px;
   }
@@ -273,9 +268,11 @@
   }
 
   ul {
+    border-left: 2px solid #2196F3;
     li > a {
-      font-size:12px;
+      font-size:13px;
       color:#666;
+      font-weight: bold;
     }
   }
 }
@@ -290,16 +287,5 @@
 
   @media (min-width:768px) {
     display: none;
-  }
-}
-.uk-nav-toc li a {
-  border-left: 2px solid #2196F3;
-  font-size: 13px;
-  color: #666;
-  padding: 3px 15px;
-
-  &:hover {
-    background: transparent;
-    font-weight: bold;
   }
 }

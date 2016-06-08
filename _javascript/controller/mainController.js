@@ -23,10 +23,21 @@ angular.module('site')
       color: "#6CC644",
       tooltip: "This project is on our V² GitHub"
     }
-  ]
+  ];
+  
+  vm.displayContents = true;
+  vm.displaySideBar = true;
 
   vm.openMenu = function($mdOpenMenu, ev) {
     $mdOpenMenu(ev);
   };
+  
+  vm.toggleSideBar = function() {
+    vm.displaySideBar =! vm.displaySideBar;
+  }
+  
+  vm.toggleContents = function() {
+    vm.displayContents =! vm.displayContents;
+  }
 
 });

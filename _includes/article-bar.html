@@ -3,7 +3,7 @@
 {% for my_page in include.nav %}
 {% if my_page.subitems and navurl contains my_page.url %}
 
-<div class="article-col" show-gt-sm hide>
+<div class="article-col" show-gt-sm hide ng-show="vm.displaySideBar">
 
   <div style="margin-top: 38px;"></div>
   <div class="article-bar">

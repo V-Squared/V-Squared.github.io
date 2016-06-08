@@ -26,6 +26,21 @@ layout: default
         {% endif %}
 
         <div class="article-jumbotron-container" style="padding:20px;">
+          
+          <div layout="row" layout-align="space-between none" no-gap>
+            <div>
+              <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+                <md-icon ng-show="vm.displaySideBar" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+                <md-icon ng-show="!vm.displaySideBar" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+              </md-button>
+            </div>
+            <div>
+              <md-button class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+                <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+                <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+              </md-button>
+            </div>
+          </div>
 
           <h1 class="article-title">{{ page.title }}</h1>
 
