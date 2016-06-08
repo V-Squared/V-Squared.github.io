@@ -8,10 +8,13 @@ readiness:
    - is-active
 ---
 
-These comparisons are seperated into three categories in this order: GPU models, non-GPU models, AIO configurations
+# Us versus the competition: Custom PC Computers #
 
-**VICASE GTX VS. ECHO PRO**
-Small cases, the ViCase is still smaller and monitor-mountable.
+#### These comparisons are seperated into three categories in this order: GPU models, non-GPU models, AIO configurations.  ####
+
+## VICASE GTX VS. ECHO PRO ##
+
+Echo Pro can hold a full size GPU, although with a larger footprint. Computers are nearly spec for spec and aim for similiar markets.
 
 |**Computer**|Vicase GTX|Echo Pro|
 |:-----------|:-------:|:-------:|
@@ -31,7 +34,7 @@ Small cases, the ViCase is still smaller and monitor-mountable.
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**1045.00**|**1606.57**|
 
-**VICASE QUADRO VS. ECHO PRO**
+### VICASE QUADRO VS. ECHO PRO ###
 
 |**Computer**|Vicase Quadro|Echo Pro|
 |:-----------|:-------:|:-------:|
@@ -51,7 +54,7 @@ Small cases, the ViCase is still smaller and monitor-mountable.
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**1291.00**|**1966.01**|
 
-**VICASE EXTREME VS. ECHO PRO**
+### VICASE EXTREME VS. ECHO PRO ###
 
 |**Computer**|Vicase Extreme|Echo Pro|
 |:-----------|:-------:|:-------:|
@@ -71,7 +74,8 @@ Small cases, the ViCase is still smaller and monitor-mountable.
 |Extras Wireless|802.11 a/c|Wifi+Bluetooth|
 |Total Cost|**2140.00**|**2678.88**|
 
-**VICASE GTX VS. ORIGIN OMEGA**
+## VICASE GTX VS. ORIGIN OMEGA ##
+
 SFF case but still too large to fit behind monitor. Almost spec for spec though so good price comparison.
 
 |**Computer**|Vicase GTX|Origin OMEGA|
@@ -92,7 +96,7 @@ SFF case but still too large to fit behind monitor. Almost spec for spec though 
 |Extras Wireless|None|None|
 |Total Cost|**1045.00**|**1363.00**|
 
-**VICASE EXTREME VS. ORIGIN OMEGA**
+### VICASE EXTREME VS. ORIGIN OMEGA ###
 
 |**Computer**|Vicase Extreme|Origin OMEGA|
 |:-----------|:-------:|:-------:|
@@ -112,9 +116,9 @@ SFF case but still too large to fit behind monitor. Almost spec for spec though 
 |Extras Wireless|802.11a/c|802.11a/c|
 |Total Cost|**2140.00**|**2334.00**|
 
---------------------------------------------------------------------------------------
 
-**VICASE MID VS. LENOVO M900 TINY**
+## VICASE MID VS. LENOVO M900 TINY ##
+
 Another SFF case, uses mobile parts. Not quite as configurable as the ViCase.
 
 |**Computer**|Vicase Mid|M900 Tiny|
@@ -135,7 +139,9 @@ Another SFF case, uses mobile parts. Not quite as configurable as the ViCase.
 |Extras Wireless|None|None|
 |Total Cost|**785.00**|**836.10**|
 
-**VICASE MID VS. ECHO**
+## VICASE MID VS. ECHO ##
+
+Smaller, none-GPU variant of the Echo Pro.
 
 |**Computer**|Vicase Mid|Echo|
 |:-----------|:-------:|:-------:|
@@ -155,7 +161,7 @@ Another SFF case, uses mobile parts. Not quite as configurable as the ViCase.
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**785.00**|**1147.27**|
 
-**VICASE ULTRA VS. ECHO**
+### VICASE ULTRA VS. ECHO ###
 
 |**Computer**|Vicase Ultra|Echo|
 |:-----------|:-------:|:-------:|
@@ -175,7 +181,7 @@ Another SFF case, uses mobile parts. Not quite as configurable as the ViCase.
 |Extras Wireless|802.11a/c|Wifi+Bluetooth|
 |Total Cost|**1173.00**|**1709.02**|
 
-**VICASE ENTRY VS. HP EliteDesk 800 G2**
+## VICASE ENTRY VS. HP EliteDesk 800 G2 ##
 
 GREAT comparisons for the non-GPU models. Uses mobile processor and costs way more for almost spec for spec. This model is a bit smaller than the ViCase, but ViCase still does the job of the elitedesk: small enough to stick on the back of a monitor.
 
@@ -197,7 +203,7 @@ GREAT comparisons for the non-GPU models. Uses mobile processor and costs way mo
 |Extras Wireless|None|None|
 |Total Cost|**631.00**|**1164.01**|
 
-**VICASE MID VS. HP 800 G2**
+### VICASE MID VS. HP 800 G2 ###
 
 |**Computer**|Vicase Mid|HP 800 G2|
 |:-----------|:-------:|:-------:|
@@ -217,7 +223,7 @@ GREAT comparisons for the non-GPU models. Uses mobile processor and costs way mo
 |Extras Wireless|None|None|
 |Total Cost|**785.00**|**1879.01**|
 
-**VICASE ULTRA VS. HP 800 G2**
+### VICASE ULTRA VS. HP 800 G2 ###
 
 |**Computer**|Vicase Ultra|HP 800 G2|
 |:-----------|:-------:|:-------:|
@@ -237,10 +243,10 @@ GREAT comparisons for the non-GPU models. Uses mobile processor and costs way mo
 |Extras Wireless|None|None|
 |Total Cost|**1173.00**|**2717.01**|
 
---------------------------------------------------------------------------
 
-**VICASE QUADRO VS. LENOVO IDEACENTRE AIO 700**
-Battle of 4K IPS screens, didn't want to do extreme because the ideacentre didn't configure that high. Not the greatest price/performance table but wanted to show you. 
+## VICASE QUADRO VS. LENOVO IDEACENTRE AIO 700 ##
+
+Battle of 4K IPS screens, ViCase can hold better specifications but for fairness, made the two as equal as possible.
 
 |**Computer**|Vicase Quadro|Ideacentre AIO 700|
 |:-----------|:-------:|:-------:|
@@ -261,7 +267,8 @@ Battle of 4K IPS screens, didn't want to do extreme because the ideacentre didn'
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**1841.00**|**1850.00**|
 
-**VICASE QUADRO VS. HP Z1 G2**
+## VICASE QUADRO VS. HP Z1 G2 ##
+
 The mother of them all, and I think a great thing to make note of. This is as far as I can tell the only Quadro all in one, and you can make a ViCase AIO with newer specs for half the price. 
 
 |**Computer**|Vicase Quadro|HP Z1 G2|
@@ -283,10 +290,9 @@ The mother of them all, and I think a great thing to make note of. This is as fa
 |Extras Wireless|None|802.11a/c|
 |Total Cost|**2156.00**|**4331.00**|
 
-The k2100m and k620 are actually very close in terms of performance (k620 performs better)
-monitor: Acer T272HUL bmidpcz
+## VICASE QUADRO VS. DELL XPS 27 TOUCH ##
 
-**VICASE QUADRO VS. DELL XPS 27 TOUCH**
+Uses older, haswell based components
 
 |**Computer**|Vicase Quadro|DELL XPS 27|
 |:-----------|:-------:|:-------:|
@@ -307,3 +313,7 @@ monitor: Acer T272HUL bmidpcz
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**2156.00**|**2649.00**|
 
+
+## Results ##
+
+Whether you are looking at a standalone small PC or All in One, ViPC can put up a fight against every opponent, and in most cases have the upper hand in size, cost, and performance. 
