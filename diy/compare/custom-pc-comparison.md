@@ -3,8 +3,8 @@ layout: page
 title: Custom PC Comparison
 subtitle: Comparison Review of Custom Build PC up to $4000.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 139
 readiness:
-   - is-complete
    - is-active
 ---
 
