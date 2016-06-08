@@ -304,3 +304,8 @@ md-menu-content {
   background: #B3E5FC;
   border:none;
 }
+.collapse-group {
+  position: absolute;
+  z-index:9999;
+  width:100%;
+}
