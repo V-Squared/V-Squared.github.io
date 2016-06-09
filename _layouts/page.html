@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
 
-  <div layout="row"  layout-sm="column" no-gap>
+  <div layout="row"  layout-sm="column" layout-align="center none" no-gap>
     {% for board in site.data.board-bar %}
     {% if page.url contains board.url %}
     {% assign boardName = board.url | remove: "/" %}
@@ -143,14 +143,18 @@ layout: default
             {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
             {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
             {% for i in (1..forLoopMaxInt) %}
-            {% capture current_breadcrumb_url %}{{boardUrl}}/{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-            {% capture current_breadcrumb_md_url %}{{boardUrl}}/{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
             {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
 
             {% for breadcrumb_page in bookbar %}
+            
+            {% capture breadcrumb_pageUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_page.url}}{% endcapture %}
+            
+            {{current_breadcrumb_md_url}} - {{breadcrumb_pageUrl}}
 
-            {% if current_breadcrumb_url == breadcrumb_page.url or
-            current_breadcrumb_md_url == breadcrumb_page.url %}
+            {% if current_breadcrumb_url == breadcrumb_pageUrl or
+            current_breadcrumb_md_url == breadcrumb_pageUrl %}
             {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
             {% assign j = forLoopMaxInt | plus: 0 %}
 
@@ -161,9 +165,11 @@ layout: default
             {% endif %}
 
             {% for breadcrumb_sub in breadcrumb_page.subitems %}
+            
+            {% capture breadcrumb_subUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_sub.url}}{% endcapture %}
 
-            {% if current_breadcrumb_url == breadcrumb_sub.url or
-            current_breadcrumb_md_url == breadcrumb_sub.url %}
+            {% if current_breadcrumb_url == breadcrumb_subUrl or
+            current_breadcrumb_md_url == breadcrumb_subUrl %}
             <li {% if i == j %}class="active"{% endif %}>
               <a href="{{ site.baseurl }}/{{boardUrl}}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_sub.menu}}</a>
             </li>
