@@ -295,7 +295,7 @@ md-menu-content {
 .table-header-row-column thead {
   background:#2196F3;
   color:#FFF;
-  
+
   th {
     border:none;
   }
@@ -308,4 +308,12 @@ md-menu-content {
   position: absolute;
   z-index:9999;
   width:100%;
+}
+.flipped {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }

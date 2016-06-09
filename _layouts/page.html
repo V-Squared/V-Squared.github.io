@@ -21,30 +21,44 @@ layout: default
           <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="{{page.readiness[3]}}"></div>
         </div>
 
-        <div class="collapse-group" layout="row" layout-align="space-between none" no-gap>
-          {% for my_page in articlebar %}
-          {% if my_page.subitems and navurl contains my_page.url %}
-          <div>
-            <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-              <md-icon ng-show="vm.displaySideBar" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="!vm.displaySideBar" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
-            </md-button>
-          </div>
-          {% endif %}
-          {% endfor %}
-          {% if page.contents %}
-          <div>
-            <md-button class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
-              <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
-              <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
-            </md-button>
-          </div>
-          {% endif %}
-        </div>
+        <!--<div class="collapse-group" layout="row" layout-align="space-between none" no-gap>
+{% for my_page in articlebar %}
+{% if my_page.subitems and navurl contains my_page.url %}
+<div>
+<md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+<md-icon ng-show="vm.displaySideBar" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+<md-icon ng-show="!vm.displaySideBar" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+</md-button>
+</div>
+{% endif %}
+{% endfor %}
+{% if page.contents %}
+<div>
+<md-button class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+<md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+<md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+</md-button>
+</div>
+{% endif %}
+</div>-->
 
         {% if page.visualURL %}
         <img src="{{ page.visualURL }}" style="width:100%;">
         {% endif %}
+
+        <div layout="row" no-gap class="status-bar">
+          <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+            <md-icon ng-show="vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+            <md-icon ng-show="!vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Toggle Copy Article Path"
+                     copy-to-clipboard text-to-copy="'{{ chears }}'">
+            <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
+            <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
+          </md-button>
+        </div>
 
         <div class="article-jumbotron-container" style="padding:20px;">
 
@@ -148,30 +162,27 @@ layout: default
             {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
 
             {% for breadcrumb_page in bookbar %}
-            
+
             {% capture breadcrumb_pageUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_page.url}}{% endcapture %}
-            
-            {{current_breadcrumb_md_url}} - {{breadcrumb_pageUrl}}
 
             {% if current_breadcrumb_url == breadcrumb_pageUrl or
             current_breadcrumb_md_url == breadcrumb_pageUrl %}
-            {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
             {% assign j = forLoopMaxInt | plus: 0 %}
 
             <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/{{boardUrl}}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.menu}}</a>
+              <a href="{{ site.baseurl }}{{breadcrumb_pageUrl}}">{{breadcrumb_page.menu}}</a>
             </li>
 
             {% endif %}
 
             {% for breadcrumb_sub in breadcrumb_page.subitems %}
-            
+
             {% capture breadcrumb_subUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_sub.url}}{% endcapture %}
 
             {% if current_breadcrumb_url == breadcrumb_subUrl or
             current_breadcrumb_md_url == breadcrumb_subUrl %}
             <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/{{boardUrl}}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_sub.menu}}</a>
+              <a href="{{ site.baseurl }}{{breadcrumb_subUrl}}">{{breadcrumb_sub.menu}}</a>
             </li>
 
             {% endif %}

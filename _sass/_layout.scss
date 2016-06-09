@@ -431,7 +431,7 @@ md-content {
 .jumbotron.article-jumbotron {
   //padding:40px 50px 15px 50px;
   padding:0;
-  background:#b3e5fc;
+  background:#64B5F6;
   position: relative;
   
   
@@ -453,11 +453,11 @@ md-content {
   
   .article-desc {
     font-size: 21px;
-    color: #1976D2;
+    color: #0D47A1;
   }
 
   * {
-    color:#212121;
+    color:#F3F0F0;
   }
 }
 .edit-fab {
@@ -517,4 +517,12 @@ table.table-detail {
   thead th:first-child {
     width:20%;
   } 
+}
+
+.status-bar {
+  background: #42A5F5;
+  
+  svg path {
+    color: #1E88E5 !important;
+  }
 }
