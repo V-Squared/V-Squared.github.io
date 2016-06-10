@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Solving today's Problems
-subtitle: How V² Plan solved our Problems of managing Agile Development and Production on GitHub.
-abstract: We are developing V²Plan because we had big problems in the past with managing our development. We heard complaints about lack of management, lack of transparency, frustration of too slow development speed. This document compiles all complaints and describes how V²Plan will fix these problems. This is an open process in which you can participate by adding a comment to the issue of this article or by editing this article which creates a pull request. If you are evaluating V²Plan you can compare if you experience similar problems as we do. If so, chances are V²Plan is your solution too.
+title: Solving Agile on GitHub Problems
+subtitle: List of Problems of managing Agile Development and Production on GitHub to be cured by V²PLan System
+abstract: >
+   After switching to Agile Development on GitHub we were still left wanting. Although we cured a lot of problems ailing us, some of the old problems were not eradicated yet by using GitHub alone and even some new problems emerged. 
+   
+   This is our list of remaining problems and how V²Plan did already or is expected to cure them. This document is one of the guides for our V²Plan development. If you are evaluating V²Plan you can compare your problems with our list of Problems prior to V²Plan introduction. If you find similarities to your problems, chances are V²Plan is your solution too. As always you can ask questions, report bugs or request features with the orange V²Flow button.
 issueNo: 64
 contents:
    - name: Frustration of Slow Progress
@@ -23,6 +26,8 @@ contents:
      url: no-ticket-system
    - name: No Development Transparency
      url: no-transparency
+   - name: No Workflows
+     url: no-workflows
 ---
 
 
@@ -96,4 +101,9 @@ contents:
 ## Fix with V²PLan
 
 
+# No Workflows {no-workflows}
+
+## How the Problem Showed
+
+## Fix with V²PLan
 
