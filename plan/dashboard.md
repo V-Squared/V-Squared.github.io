@@ -5,20 +5,26 @@ title: V² Dashboard
 subtitle: Complete overview of our current development convenient in one place.
 abstract: This is the place to go to get an overview of our current development.
 issueNo: 94
+contents:
+   - name: Scrum Boards
+     url: scrum-boards
+   - name: Weekly Sprints
+     url: weekly-sprints
 readiness:
    - is-complete
    - is-active
 ---
 
+# Scrum Boards {#scrum-boards}
 
-# Scrum Board V² ######
+## V² Scrum Board ######
 - [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io)
 - All activities of this weeks sprint
 - Listing of what goes into next spring and the spring after that
 - listing of what we are working on right now
 
 
-# Scrum Board Production ######
+## Production Scrum Board ######
 - [Scrum Board Production](https://waffle.io/V-Squared/v2-Production)
 - Listing of all production issues, grouped into 4 columns:
    - Design
@@ -27,9 +33,23 @@ readiness:
    - Shipping / Clsoing
 
 
-# Weekly Sprints ######
+# Weekly Sprints {#weekly-sprints}
 
-## Sprint Week 23
+## Sprint Week 24 (June 13)
+
+### Focus this Week
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+| Team | Key Target this week |
+|------:|:--------------------|
+| Shop + Site | Complete DIY & Comparison Pages including Intro. Add nice visuals and infographics |
+| Site | Fix Bugs, automated table of contents, automated infographics, tune article layouts, Fluid Formfactor App |
+| Engineering | Create Panel Form 2mm. Manufacture Panel Holder and 2mm Parts |
+| Leading | Legal protection of IP |
+
+
+## Sprint Week 23 (June 6)
 
 ### Focus this Week
 
