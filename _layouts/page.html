@@ -42,32 +42,35 @@ layout: default
 
         <div layout="row" layout-align="space-between none" no-gap class="status-bar">
           <div layout="row" no-gap layout-align="none center">
-            <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+            <md-button v2-tooltip="Fold Article-Bar to reduce clutter. Unfold it to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
               <md-icon ng-show="vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
               <md-icon ng-show="!vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
             </md-button>
           </div>
           <div layout="row" no-gap layout-align="none center">
-            <md-button class="md-icon-button" aria-label="Toggle Copy Article Path"
+            <md-button v2-tooltip="Copy the Article Path to Clipboard" class="md-icon-button" aria-label="Toggle Copy Article Path"
                        copy-to-clipboard text-to-copy="'Gooden Tak'">
               <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
             </md-button>
-            <md-button class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
+            <md-button v2-tooltip="Create Markdown Link to Article in Clipboard" class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
               <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
             </md-button>
             <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;z-index:99;">
-              <div flex v2-tooltip="<h3>Create</h3>Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." class="{{page.readiness[0]}}"></div>
-              <div flex v2-tooltip="<h3>Develop</h3>Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." class="{{page.readiness[1]}}"></div>
+              <div flex v2-tooltip="<h3>Create</h3>Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature" class="{{page.readiness[0]}}"></div>
+              <div flex v2-tooltip="<h3>Develop</h3>Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request" class="{{page.readiness[1]}}"></div>
               <div flex v2-tooltip="<h3>Beta</h3>Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests." class="{{page.readiness[2]}}"></div>
               <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="{{page.readiness[3]}}"></div>
             </div>
-            <md-button id="article-license" class="md-icon-button" aria-label="License For This Article">
+            <md-button v2-tooltip="License for this Article. Click icon to learn more" id="article-license" class="md-icon-button" aria-label="License For This Article">
               <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon>
+            </md-button>
+            <md-button v2-tooltip="Edit this Article directly. Instead the big Edit-Button below also lets you report a bug, file an idea, go to GitHub Repo and more ..." class="md-icon-button" id="edit-article-status" aria-label="Edit this article">
+              <md-icon md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
             </md-button>
           </div>
 
           <div>
-            <md-button class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+            <md-button v2-tooltip="Fold Contents-Bar to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
               <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
               <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
