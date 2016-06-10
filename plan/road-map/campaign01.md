@@ -3,6 +3,13 @@ layout: page
 title: V²Site Launch Campaign 1
 subtitle: Creating the V² Platform completed enough to attract and coordinate contributors.
 issueNo: 97
+contents:
+   - name: Campaign Target
+     url: target
+   - name: Milestones
+     url: milestones
+   - name: Progress
+     url: progress
 readiness:
   - is-complete
   - is-complete
@@ -10,14 +17,14 @@ readiness:
   - is-complete
 ---
 
-# Campaign Target ######
+# Campaign Target {#target}
 
 It is important to ship products. This gets them in front of reviewers and into the hands of users, shows what products you can build with the V² standard, and provides funding to our work, which is what Campaign 2 is all about. 
 
 Campaign 1 is about laying the foundation: Create the V² web site that publishes our targets, how we get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. 
 
 
-# Milestones to reach the Target ######
+# Milestones to reach the Target {#milestones}
 
 Click the milestone to see the open list of issues of this milestone.
 
@@ -49,7 +56,7 @@ Click the milestone to see the open list of issues of this milestone.
 [11]: https://waffle.io/V-Squared/v2-Production
 
 
-# Campaign Progress ######
+# Campaign Progress {#progress}
 
 The below snapshot shows completion of milestones by June 11th 2016. For an updated status, please click → [Milestones](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
 
