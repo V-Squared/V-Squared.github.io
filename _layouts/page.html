@@ -14,12 +14,6 @@ layout: default
     {% include article-bar.html nav=articlebar board=boardName %}
     <div flex class="article md-whiteframe-5dp">
       <div class="jumbotron article-jumbotron">
-        <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;z-index:99;">
-          <div flex v2-tooltip="<h3>Create</h3>Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." class="{{page.readiness[0]}}"></div>
-          <div flex v2-tooltip="<h3>Develop</h3>Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." class="{{page.readiness[1]}}"></div>
-          <div flex v2-tooltip="<h3>Beta</h3>Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests." class="{{page.readiness[2]}}"></div>
-          <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="{{page.readiness[3]}}"></div>
-        </div>
 
         <!--<div class="collapse-group" layout="row" layout-align="space-between none" no-gap>
 {% for my_page in articlebar %}
@@ -46,18 +40,38 @@ layout: default
         <img src="{{ page.visualURL }}" style="width:100%;">
         {% endif %}
 
-        <div layout="row" no-gap class="status-bar">
-          <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-            <md-icon ng-show="vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
-            <md-icon ng-show="!vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-          </md-button>
-          <md-button class="md-icon-button" aria-label="Toggle Copy Article Path"
-                     copy-to-clipboard text-to-copy="'{{ chears }}'">
-            <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
-          </md-button>
-          <md-button class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
-            <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
-          </md-button>
+        <div layout="row" layout-align="space-between none" no-gap class="status-bar">
+          <div layout="row" no-gap layout-align="none center">
+            <md-button class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+              <md-icon ng-show="vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
+              <md-icon ng-show="!vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+            </md-button>
+          </div>
+          <div layout="row" no-gap layout-align="none center">
+            <md-button class="md-icon-button" aria-label="Toggle Copy Article Path"
+                       copy-to-clipboard text-to-copy="'Gooden Tak'">
+              <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
+              <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
+            </md-button>
+            <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;z-index:99;">
+              <div flex v2-tooltip="<h3>Create</h3>Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." class="{{page.readiness[0]}}"></div>
+              <div flex v2-tooltip="<h3>Develop</h3>Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." class="{{page.readiness[1]}}"></div>
+              <div flex v2-tooltip="<h3>Beta</h3>Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests." class="{{page.readiness[2]}}"></div>
+              <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="{{page.readiness[3]}}"></div>
+            </div>
+            <md-button id="article-license" class="md-icon-button" aria-label="License For This Article">
+              <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon>
+            </md-button>
+          </div>
+
+          <div>
+            <md-button class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+              <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+              <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+            </md-button>
+          </div>
         </div>
 
         <div class="article-jumbotron-container" style="padding:20px;">
@@ -73,7 +87,7 @@ layout: default
 
           <md-menu>
 
-            <md-button style="{% if page.visualURL %}top: -35px;{% else %}bottom: -35px;{% endif %}" class="md-fab edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
+            <md-button style="bottom: -35px" class="md-fab edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
                        target="_blank">
               <md-icon md-menu-origin md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
             </md-button>

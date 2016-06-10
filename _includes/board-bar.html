@@ -26,7 +26,7 @@
         <li>
           <a href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">Makers</a>
         </li>
-        <li class="{% if page.url == '/diy/' %}uk-active{% endif %}">
+        <li class="{% if page.url contains '/diy/' %}uk-active{% endif %}">
           <a href="/diy/" v2-tooltip="PC Know How & Tools">DIY</a>
         </li>
         <li>
