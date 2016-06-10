@@ -19,6 +19,8 @@ Campaign 1 is about laying the foundation: Create the V² web site that publishe
 
 # Milestones to reach the Target ######
 
+Click the milestone to see the open list of issues of this milestone.
+
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
 |                     Milestone | Description                                                                                                                                                                                                                                |
@@ -45,3 +47,10 @@ Campaign 1 is about laying the foundation: Create the V² web site that publishe
 [9]: https://github.com/V-Squared/V-Squared.github.io/milestones/V%C2%B2Intro%20Video%20%09
 [10]: https://github.com/V-Squared/V-Squared.github.io/milestones/V%C2%B2Site%20Launch%20%09
 [11]: https://waffle.io/V-Squared/v2-Production
+
+
+# Campaign Progress ######
+
+The below snapshot shows completion of milestones by June 11th 2016. For an updated status, please click → [Milestones](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
+
+![progress-milestones](https://cloud.githubusercontent.com/assets/7278716/15971227/b75cfed4-2f6a-11e6-827b-dfeb1e688762.png)
