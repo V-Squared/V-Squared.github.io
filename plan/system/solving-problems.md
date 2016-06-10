@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solving Agile on GitHub Problems
-subtitle: List of Problems of managing Agile Development and Production on GitHub to be cured by V²PLan System
+subtitle: List of Problems of managing Agile Development and Production on GitHub to be cured by V²Plan System
 abstract: >
    After switching to Agile Development on GitHub we were still left wanting. Although we cured a lot of problems ailing us, some of the old problems were not eradicated yet by using GitHub alone and even some new problems emerged. 
    
