@@ -256,19 +256,18 @@
   width:215px;
 
   .padding {
-    padding: 0 16px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
-  h3,h4 {
+  h2 {
     margin:0;
-  }
-
-  h4 {
-    font-size:15px;
+    padding-bottom: 12.5px;
+    border-left: 5px solid #2196F3;
   }
 
   ul {
-    border-left: 2px solid #2196F3;
+    border-left: 5px solid #2196F3;
     li > a {
       font-size:13px;
       color:#666;
