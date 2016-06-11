@@ -1,5 +1,5 @@
 angular.module('site')
-  .controller('mainController',function($scope) {
+  .controller('mainController', function($scope,$localStorage) {
   var vm = this;
 
   vm.ribbon = [
@@ -24,20 +24,30 @@ angular.module('site')
       tooltip: "This project is on our V² GitHub"
     }
   ];
-  
-  vm.displayContents = true;
-  vm.displaySideBar = true;
+
+  $localStorage.$default({
+    showArticleBar:true,
+    showContents: true
+  });
+
+  vm.displayContents = $localStorage.showContents;
+  vm.displaySideBar = $localStorage.showArticleBar;
+
+  console.log($localStorage);
+  console.log("vm.displaySideBar: " + vm.displaySideBar);
 
   vm.openMenu = function($mdOpenMenu, ev) {
     $mdOpenMenu(ev);
   };
-  
+
   vm.toggleSideBar = function() {
     vm.displaySideBar =! vm.displaySideBar;
+    $localStorage.showArticleBar = vm.displaySideBar;
   }
-  
+
   vm.toggleContents = function() {
     vm.displayContents =! vm.displayContents;
+    $localStorage.showContents = vm.displayContents;
   }
 
 });
