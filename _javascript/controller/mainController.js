@@ -25,6 +25,8 @@ angular.module('site')
     }
   ];
 
+  // Set the localStorage default
+  
   $localStorage.$default({
     showArticleBar:true,
     showContents: true

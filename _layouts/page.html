@@ -80,11 +80,12 @@ layout: default
           <h1 class="article-title">{{ page.title }}</h1>
 
           {% if page.subtitle %}
-          <p class="article-desc">{{ page.subtitle }}</p>
+          <!--Remove the <p> because markdownify generate empty <p>-->
+          <p class="article-desc">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           {% endif %}
 
-
-          {% if page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
+          <!--Remove the <p> because markdownify generate empty <p>-->
+          {% if page.abstract %}<p>{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
 
           <md-menu>
 
