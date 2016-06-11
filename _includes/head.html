@@ -20,7 +20,10 @@
   
   <script>
   angular.module('site',
-    ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ui.bootstrap','ngMaterial','ngAria','ngStorage'], function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider,$locationProvider) {
+    [
+      'ngSanitize','ngAnimate',
+      'duScroll','v2.tooltip','ui.bootstrap',
+      'ngMaterial','ngAria','ngStorage','angular-clipboard'], function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider,$locationProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     $interpolateProvider.startSymbol('[[');
