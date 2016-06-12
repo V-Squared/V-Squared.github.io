@@ -18,6 +18,8 @@ readiness:
 # Scrum Boards {#scrum-boards}
 
 ## V² Scrum Board ######
+[![scrum-board-v-squared](https://cloud.githubusercontent.com/assets/7278716/15988570/568b6f40-3088-11e6-8bd9-e9405bbc453f.png)](https://waffle.io/V-Squared/V-Squared.github.io)
+
 - [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io)
 - All activities of this weeks sprint
 - Listing of what goes into next spring and the spring after that
@@ -25,6 +27,9 @@ readiness:
 
 
 ## Production Scrum Board ######
+[![scrum-board-production](https://cloud.githubusercontent.com/assets/7278716/15988587/1b82a2dc-3089-11e6-8d9c-10c44b94914c.png)](https://waffle.io/V-Squared/v2-Production)
+
+
 - [Scrum Board Production](https://waffle.io/V-Squared/v2-Production)
 - Listing of all production issues, grouped into 4 columns:
    - Design
@@ -44,7 +49,7 @@ readiness:
 | Team | Key Target this week |
 |------:|:--------------------|
 | Shop + Site | Complete DIY & Comparison Pages including Intro. Add nice visuals and infographics |
-| Site | Fix Bugs, automated table of contents, automated infographics, tune article layouts, Fluid Formfactor App |
+| Site | Fix Bugs, automated table of contents, automated infographics, tune article layouts, Fluid Formfactor App, V²Flow Create, V²Art Create |
 | Engineering | Create Panel Form 2mm. Manufacture Panel Holder and 2mm Parts |
 | Leading | Legal protection of IP |
 
