@@ -80,6 +80,7 @@ Every day each developer works down the issues assigned to him and placed in the
 
  At the end of each Sprint the Srum Master cleans out the [Scrum Board](https://waffle.io/V-Squared/V-Squared.github.io) like so:
 
+- Work on Sunday and possibly Monday morning. So far I (HC) needed about 14 hours work time.
 - Archiving all closed Issues → [Example Closed Issues](#example-closed-issues)
 - Create Sprint Review → [Example Sprint Review](#example-sprint-review}
 - Close Issues that the developer finished but forgot to close
@@ -97,10 +98,12 @@ Every day each developer works down the issues assigned to him and placed in the
  
 ### Creating Sprint Review
 
-- Work on Sunday and possibly Monday morning. So far I need about 14 hours work time.
-- Add search label of current week into Issue Title. Example for label: "16W23" as 2016 week 23 
+After each Sprint (and prior to the next) the Scrum Master creates the Sprint Review like so:
+
+- Add search term of current week into Issue Title. Example for label: "16W23" as 2016 week 23 
 - Create Link as → [Example Closed Issues]{#example-closed-issues}
 - Create Statistics → [Example Statistics](#example-statistics)
+- Write the Wish List for Improvements
 - Notify team members that all reference documentation to new sprint has been updated so they can prepare next sprint
 
 
