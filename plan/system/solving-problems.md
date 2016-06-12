@@ -3,7 +3,7 @@ layout: page
 title: Solving Agile on GitHub Problems
 subtitle: List of Problems of managing Agile Development and Production on GitHub to be cured by V²Plan System
 abstract: >
-   After switching to *Agile Development* on *GitHub* we were still left wanting. Although we cured a lot of problems ailing us, some of the old problems were not eradicated yet by using GitHub alone and even some new problems emerged.<br> 
+   After switching to *Agile Development* on *GitHub* we were still left wanting. Although we cured a lot of problems ailing us, some of the old problems were not eradicated yet by using GitHub alone and even some new problems emerged.<br>&nbsp;&nbsp;&nbsp; 
    This is our list of remaining problems and how V²Plan did already or is expected to cure them. This document is one of the guides for our V²Plan development. If you are evaluating V²Plan you can compare your problems with our list of Problems prior to V²Plan introduction. If you find similarities to your problems, chances are V²Plan is your solution too. As always you can ask questions, report bugs or request features with the orange V²Flow button.
 issueNo: 64
 contents:
