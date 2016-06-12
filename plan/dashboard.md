@@ -71,4 +71,6 @@ readiness:
 
 ### Completed Work
 
+We totally closed 18 Issues this week, two of which were Epics. One Epic contains the work of 4 ... 8 Normal Issues. 
+
 - → [All issues closed in Sprint of Week 16](https://github.com/search?q=org%3AV-Squared++2016W23&type=Issues)
