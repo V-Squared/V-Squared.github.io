@@ -53,7 +53,7 @@ readiness:
 |------:|:--------------------|
 | Shop | Build ViPC Workstation used for Review and Reference |
 | Shop + Site | Create all Pages in DIY Books: *Install* and *QA* based on real world experience of building the ViPC Workstation |
-| Site | |
+| Site | Setting up and test Contribution Workflow, Pull Requests, Write Contribution Instruction |
 | Engineering | BTL PCBs, Sandblasting & Anodizing ViCase  |
 | Leading |  |
 
