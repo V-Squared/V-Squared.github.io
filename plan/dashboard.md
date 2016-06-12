@@ -9,10 +9,10 @@ issueNo: 94
 contents:
    - name: Scrum Boards
      url: scrum-boards
-   - name: Weekly Sprints Overview
-     url: weekly-sprints-overview
    - name: Understanding V² Sprints
      url: understanding-v2-sprints
+   - name: Weekly Sprints Overview
+     url: weekly-sprints-overview
 readiness:
    - is-complete
    - is-complete
@@ -44,7 +44,7 @@ readiness:
 
 
 
-# Understanding V² Sprints {understanding-v2-sprints}
+# Understanding V² Sprints {#understanding-v2-sprints}
 
 ## If You are Familiar with Agile Sprints
 - → [Weekly Sprints Overview](#weekly-sprints-overview) (on page links are broken → [Bug: Stop Angular from Rerouting Hashtag #154](https://github.com/V-Squared/V-Squared.github.io/issues/154)
