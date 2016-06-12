@@ -13,6 +13,7 @@ contents:
      url: weekly-sprints
 readiness:
    - is-complete
+   - is-complete
    - is-active
 ---
 
