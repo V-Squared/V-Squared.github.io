@@ -42,9 +42,40 @@ readiness:
 
 # Weekly Sprints {#weekly-sprints}
 
-## Sprint Week 24 (June 13)
 
-### Focus this Week
+## Sprint Week 26 (June 27) — In two weeks
+
+### Focus Sprint after Next
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+| Team | Key Target this week |
+|------:|:--------------------|
+| Shop | Build ViPC Workstation used for Review and Reference |
+| Shop + Site | Create all Pages in DIY Books: *Install* and *QA* based on real world experience of building the ViPC Workstation |
+| Site | |
+| Engineering | BTL PCBs, Sandblasting & Anodizing ViCase  |
+| Leading |  |
+
+
+## Sprint Week 25 (June 20) — Next Week
+
+### Focus next Sprint
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+| Team | Key Target this week |
+|------:|:--------------------|
+| Shop + Site | Complete all Configuration Pages. Data Structure for Configuration. Finalize Configuration for ViPC Workstation Review & Reference PC |
+| Site | V² Home Page and all its Visuals |
+| Engineering | Create Panel Form 6mm. Manufacture Panel Holder and 6mm Parts. BTL ViCase. |
+| Leading | ViPC Legal Situation ; Legal protection of IP: Implementation  |
+
+
+
+## Sprint Week 24 (June 13) — This Week ← ←
+
+### Focus this Sprint
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -53,12 +84,12 @@ readiness:
 | Shop + Site | Complete DIY & Comparison Pages including Intro. Add nice visuals and infographics |
 | Site | Fix Bugs, automated table of contents, automated infographics, tune article layouts, Fluid Formfactor App, V²Flow Create, V²Art Create |
 | Engineering | Create Panel Form 2mm. Manufacture Panel Holder and 2mm Parts |
-| Leading | Legal protection of IP |
+| Leading | Legal protection of IP: detailed research |
 
 
-## Sprint Week 23 (June 6)
+## Sprint Week 23 (June 6) — Last Sprint
 
-### Target of Sprint 16W23
+### Targets of Sprint 16W23
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -67,7 +98,7 @@ readiness:
 | Shop + Site | Create: V²DIY, all its pages, transfer DIY & Config Article, begin again writing, create concept of DIY data & DIY Apps |
 | Shop + Engineering | Joint Review, creating ECR, verifying HDPLEX dimensions |
 | Engineering | Put ViCase to production: Final Review, generate production files |
-| Leading | Legal protection of IP |
+| Leading | Legal protection of IP, Basic Research |
 
 ### Completed Work
 
