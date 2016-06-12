@@ -67,7 +67,7 @@ readiness:
 | Team | Key Target this week |
 |------:|:--------------------|
 | Shop + Site | Complete all Configuration Pages. Data Structure for Configuration. Finalize Configuration for ViPC Workstation Review & Reference PC |
-| Site | V² Home Page and all its Visuals |
+| Site | V² Home Page and all its Visuals, Add Title Graphics to all Main Plan Articles |
 | Engineering | Create Panel Form 6mm. Manufacture Panel Holder and 6mm Parts. BTL ViCase. |
 | Leading | ViPC Legal Situation ; Legal protection of IP: Implementation  |
 
