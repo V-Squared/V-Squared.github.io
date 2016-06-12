@@ -12,7 +12,7 @@ contents:
    - name: Weekly Sprints Overview
      url: weekly-sprints-overview
    - name: Understanding V² Sprints
-     understanding-v2-sprints
+     url: understanding-v2-sprints
 readiness:
    - is-complete
    - is-complete
