@@ -71,4 +71,4 @@ readiness:
 
 ### Completed Work
 
-- → [All issues closed in Sprint of Week 16](https://github.com/V-Squared/V-Squared.github.io/search?utf8=%E2%9C%93&q=%2816W23%29&type=Issues)
+- → [All issues closed in Sprint of Week 16](https://github.com/search?q=org%3AV-Squared++2016W23&type=Issues)
