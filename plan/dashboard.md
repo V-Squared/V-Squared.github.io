@@ -3,7 +3,8 @@ layout: page
 menu: Dashboard
 title: V² Dashboard
 subtitle: Complete overview of our current development convenient in one place.
-abstract: This is the place to go to get an overview of our current development.
+abstract: >
+   We develop in [Agile Sprints](https://v-squared.github.io/plan/system/sprint-workflow/). This dashboard shows all our Scrum Boards and a History of each Sprint Target. Convenient for the **Contributor** to find the next work to do and for the **V²Reader** to get an overview what we are working on. Please note that the Scrum Boards are public and visible to anyone. Also anyone can enter comments to any issue on the Scrum Board. Ideal to add a *Feature Request* or to *Report a Bug*.
 issueNo: 94
 contents:
    - name: Scrum Boards
@@ -20,7 +21,7 @@ readiness:
 ## V² Scrum Board ######
 [![scrum-board-v-squared](https://cloud.githubusercontent.com/assets/7278716/15988570/568b6f40-3088-11e6-8bd9-e9405bbc453f.png)](https://waffle.io/V-Squared/V-Squared.github.io)
 
-- [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io)
+- Pblic [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io)
 - All activities of this weeks sprint
 - Listing of what goes into next spring and the spring after that
 - listing of what we are working on right now
@@ -30,7 +31,7 @@ readiness:
 [![scrum-board-production](https://cloud.githubusercontent.com/assets/7278716/15988587/1b82a2dc-3089-11e6-8d9c-10c44b94914c.png)](https://waffle.io/V-Squared/v2-Production)
 
 
-- [Scrum Board Production](https://waffle.io/V-Squared/v2-Production)
+- Public [Scrum Board Production](https://waffle.io/V-Squared/v2-Production)
 - Listing of all production issues, grouped into 4 columns:
    - Design
    - Production
