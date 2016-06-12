@@ -100,8 +100,20 @@ readiness:
 | Engineering | Put ViCase to production: Final Review, generate production files |
 | Leading | Legal protection of IP, Basic Research |
 
-### Completed Work
+### Statistics
 
-We totally closed 18 Issues this week, two of which were Epics. One Epic contains the work of 4 ... 8 Normal Issues. 
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+| What | Number |
+|------:|:--------------------|
+| Total Number of Issues & Epics | 18 |
+| Number of Epics | 2 |
+| Number of Issues considering Epic Size (*1) | 32 |
+| Number of Issues closed by V²Core | 32 |
+| Number of Issues closed by V²Shop-Midwest (*2) | 0 |
+
+
+- (*1) One Epic contains the in average work of 8 Normal Issues. 
+- (*2) This number is misleading. V²Shop-Midwest worked on many Articles. But the Issue not closed yet. We should discuss to a) change these Issues to Epics, b) if we should break the Epic into separate issues for more transparent Management?
 
 - → [All issues closed in Sprint of Week 16](https://github.com/search?q=org%3AV-Squared++2016W23&type=Issues)
