@@ -9,8 +9,10 @@ issueNo: 94
 contents:
    - name: Scrum Boards
      url: scrum-boards
-   - name: Weekly Sprints
-     url: weekly-sprints
+   - name: Weekly Sprints Overview
+     url: weekly-sprints-overview
+   - name: Understanding V² Sprints
+     understanding-v2-sprints
 readiness:
    - is-complete
    - is-complete
@@ -37,36 +39,36 @@ readiness:
    - Design
    - Production
    - Bring to Life
-   - Shipping / Clsoing
+   - Shipping / Closing
 
 
 
 
-# Understanding V² Weekly Sprints
+# Understanding V² Sprints {understanding-v2-sprints}
 
-## You are Familiar with Agile Sprints
-- → [Weekly Sprints Overview](#weekly-sprints-overview)
+## If You are Familiar with Agile Sprints
+- → [Weekly Sprints Overview](#weekly-sprints-overview) (on page links are broken → [Bug: Stop Angular from Rerouting Hashtag #154](https://github.com/V-Squared/V-Squared.github.io/issues/154)
 - → [V² Scrum Board of all Work](https://waffle.io/V-Squared/V-Squared.github.io)
 - → [V² Scrum Board Production Only](https://waffle.io/V-Squared/v2-Production)
 - **Sprint Kick Off:** Sunday 8:30 pm Las Vegas Time, Monday 11:30 am China time
 - **Daily Stand Up:** 8:30 pm Las Vegas time, 11:30 am China time
 - **Sprint Review:** At the bottom of each completed weekly sprint. → [Example Sprint Review](#example-sprint-review)
 
-## Agile Sprint is new to you
+## If Agile Sprint is new to you
 
-A very quick introduction goes like this:
+We are working on a detailed Article Series → [V²Plan Agile System](https://v-squared.github.io/plan/system/). A Quick Start Guide goes like this:
 
 ### Sprint Kick Off Meeting
 
-- **Update Messgae:** Scrum Master notifies Team Members once Sprints Overview and Scrum Boards are updated.
-- **Study Weekly Sprints:** Every Team Member studies a) the updated → [Weekly Sprints Overview](#weekly-sprints-overview) and b) the updated → [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io) and → [Scrum Board Production](https://waffle.io/V-Squared/v2-Production) to understand targets and issues for this and next two sprints
-- **Sprint Review:** Discuss the results of Sprint Review. → [Example Sprint Review](#example-sprint-review)
-- **Discuss Problems:** Every team member already read target of this weeks sprint and her / his assignments. Only problems need to be discussed.
-- **First Stand Up Meeting:** Each developer presents last Friday's work and drags the work of today into *Developing* column.
-
- At the end of each Sprint the Srum Master cleans out the [Scrum Board](https://waffle.io/V-Squared/V-Squared.github.io) and archives all completed issues
-
-For a detailed understanding please refer to our article series of V²Plan System / V²Plan Agile. 
+- Preparation (1 hour prior to meeting)
+   - **Update Messgae:** Scrum Master notifies Team Members once Sprints Overview and Scrum Boards are updated.
+   - **Study Weekly Sprints:** Every Team Member studies a) the updated → [Weekly Sprints Overview](#weekly-sprints-overview) and b) the updated → [Scrum Board V²](https://waffle.io/V-Squared/V-Squared.github.io) and → [Scrum Board Production](https://waffle.io/V-Squared/v2-Production) to understand targets and issues for this and next two sprints
+- Meeting (Skype call on Sunday 8:30 pm Las Vegas Time, Monday 11:30 am China time)
+   - **Sprint Review:** Discuss the results of Sprint Review. → [Example Sprint Review](#example-sprint-review)
+   - **Sprint Targets:** Discuss agreements / disagreements with the next three Sprint Targets
+   - **Discuss Problems:** Every team member already read the target of this week's sprint and her / his assignments. Only problems need to be discussed.
+   - **First Stand Up Meeting:** Each developer presents last Friday's work and drags the work of today into *Developing* column.
+   - **Wrapping up:** Any last minute comments? Compliments or Complaints? Confirm next Kick Off Meeting on schedule?
 
 ### Daily Stand Up Meeting
 At the beginning (or end) of every work day the sprint team meets for the Daily Stand Up Meeting. Each developer has 2 minutes to show what he did since the last meeting and what he is going to do until the next one. The idea is to synchronize order in which tasks are worked down to avoid one incompleted issue is gating another. This is also the best place to ask for help if needed. During the meeting the agreed upon next work is dragged from the *This Sprint* column to the *Developing* column.
@@ -76,12 +78,40 @@ Every day each developer works down the issues assigned to him and placed in the
 
 ### Sprint Preparation
 
+ At the end of each Sprint the Srum Master cleans out the [Scrum Board](https://waffle.io/V-Squared/V-Squared.github.io) like so:
+
 - Archiving all closed Issues → [Example Closed Issues](#example-closed-issues)
 - Create Sprint Review → [Example Sprint Review](#example-sprint-review}
+- Close Issues that the developer finished but forgot to close
+- Move still open issues from *Developing* to *This Sprint* column. Add lable: *o.week.2* to mark failed target.
+- Reorganize and update [Weekly Sprints Overview](#weekly-sprints-overview)
+- Move Issues from *Next Sprint* to *This Sprint*
+- Move Issues from *Sprint after Next* to *Next Sprint*
+- Fill up *Sprint after Next* from *Backlog*
+- Order Issues in all columns so that more important issues or issues gating others are placed on top
+- Open each issue. Check if:
+   - Writing is complete and up to date
+   - Labels, Milestones and Assignee are properly
+   - Only one Assignee is set
+   - Task have trigger build in to keep flow on hand over work (e.g. write "@bcaswelch Please review" in comment)
+ 
+### Creating Sprint Review
+
+- Work on Sunday and possibly Monday morning. So far I need about 14 hours work time.
+- Add search label of current week into Issue Title. Example for label: "16W23" as 2016 week 23 
+- Create Link as → [Example Closed Issues]{#example-closed-issues}
+- Create Statistics → [Example Statistics](#example-statistics)
+- Notify team members that all reference documentation to new sprint has been updated so they can prepare next sprint
+
 
 
 
 # Weekly Sprints Overview {#weekly-sprints-overview}
+
+## Purpose of Weekly Sprints Overview
+- Give an Overview of the current plus next two sprints
+- Keep a historic record on what we did in each week and what we learned to improve each week
+- Compile targets for next two sprints before the Scrum Master spells it out in current sprint
 
 ## Sprint Week 26 (June 27) — In two weeks
 
@@ -142,7 +172,7 @@ Every day each developer works down the issues assigned to him and placed in the
 
 ### Sprint Review {#example-sprint-review}
 
-#### Statistics {#statistics}
+#### Statistics {#example-statistics}
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
