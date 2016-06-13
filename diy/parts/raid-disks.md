@@ -3,6 +3,7 @@ layout: page
 title: RAID Disks
 subtitle: How to choose RAID Disks.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 163
 readiness:
    - is-complete
    - is-active
