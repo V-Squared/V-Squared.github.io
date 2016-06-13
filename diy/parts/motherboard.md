@@ -3,6 +3,7 @@ layout: page
 title: Motherboard
 subtitle: How to choose the Motherboard.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 164
 readiness:
    - is-complete
    - is-active
