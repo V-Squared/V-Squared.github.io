@@ -3,8 +3,9 @@ layout: page
 title: Install
 subtitle: Software Installation & Updating.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 169
 readiness:
-   - is-complete
+   - is complete
 ---
 
 
