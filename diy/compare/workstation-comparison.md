@@ -3,6 +3,7 @@ layout: page
 title: Workstation Comparison
 subtitle: Comparison Review of Workstations up to $4000.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 157
 readiness:
    - is-complete
    - is-active
