@@ -3,6 +3,7 @@ layout: page
 title: Data Disks
 subtitle: How to choose Data Disks.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 162
 readiness:
    - is-complete
    - is-active
