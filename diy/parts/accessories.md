@@ -3,6 +3,7 @@ layout: page
 title: Accessories
 subtitle: How to choose Workstation Accessories.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 168
 readiness:
    - is-complete
    - is-active
