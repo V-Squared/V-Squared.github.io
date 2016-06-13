@@ -3,6 +3,7 @@ layout: page
 title: DRAM
 subtitle: How to choose the Memory aka DRAM.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 165
 readiness:
    - is-complete
    - is-active
