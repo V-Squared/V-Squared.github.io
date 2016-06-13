@@ -3,6 +3,7 @@ layout: page
 title: QA
 subtitle: How to Check Workstation PC is up to spec.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 170
 readiness:
    - is-complete
 ---
