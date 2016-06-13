@@ -1,6 +1,6 @@
 
-- menu: Target
-  url: /target/
+- menu: True North
+  url: /true-north/
 - menu: Road Map
   url: /road-map/
   desc: >
@@ -18,8 +18,8 @@
   url: /dashboard/
 - menu: Contributing
   url: /contributing/
-- menu: System
-  url: /system/
+- menu: Agile
+  url: /agile/
   desc: >
     Generic Agile Development and Toyota Production System for Github Organizations.
   subitems:
