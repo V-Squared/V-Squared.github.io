@@ -9,23 +9,23 @@ readiness:
    - is-active
 contents:
    - name: Marketing
-     url: #marketing
+     url: marketing
    - name: Power
-     url: #power
+     url: power
    - name: Performance
-     url: #performance
+     url: performance
    - name: Disks
-     url: #disks
+     url: disks
    - name: Safety
-     url: #safety
+     url: safety
    - name: Standards @ Shipping
-     url: #standards
+     url: standards
    - name: Case Features
-     url: #case-features
+     url: case-features
    - name: Accessories
-     url: #accessories
+     url: accessories
    - name: Portability
-     url: #portability
+     url: portability
 ---
 
 
