@@ -23,31 +23,39 @@
   desc: >
     Generic Agile Development and Toyota Production System for Github Organizations.
   subitems:
-    - menu: V²Agile Workflow
-      url: /system/agile-workflow/
-    - menu: V²Sprint Workflow
-      url: /system/sprint-workflow/
-    - menu: Roles & Communication
-      url: /system/roles/
-    - menu: Iterations & Testing
-      url: /system/iterations/
-    - menu: Solving Problems
-      url: /system/solving-problems/
-    - menu: Features of V²Plan
-      url: /system/features/
-    - menu: Agile Primer
-      url: /system/agile-primer/
-    - menu: Motivation by Design
-      url: /system/motivation/
-    - menu: Multi Repo Management
-      url: /system/multi-repo/
-    - menu: Adding SCRUM
-      url: /system/adding-scrum/
-    - menu: Adding Dashboard
-      url: /system/dashboard/
-    - menu: V² Plan Reference
-      url: /system/reference/
-    - menu: Developing V²Plan
-      url: /system/developing/
-    - menu: Adapting V²Plan
-      url: /system/adapting/
+    - menu: Getting Started
+      group: 
+        - menu: V²Agile Workflow on GitHub
+          url: /system/getting-started/agile-workflow/
+        - menu: V²Sprint Workflow on GitHub
+          url: /system/getting-started/sprint-workflow/
+        - menu: Roles & Communication
+          url: /system/getting-started/roles/
+        - menu: Testing
+          url: /system/getting-started/iterations/
+    - menu: Fundamentals
+      group:
+        - menu: Agile Development Primer
+          url: /system/fundamentals/agile-primer/
+        - menu: Motivation by Design
+          url: /system/fundamentals/motivation/
+    - menu: Developing / Evaluating
+      group:
+        - menu: Solving today's Problems
+          url: /system/developing/solving-problems/
+        - menu: Multi Repo Management
+          url: /system/developing/multi-repo/
+        - menu: Adding SCRUM to GitHub
+          url: /system/developing/adding-scrum/
+        - menu: Adding Dashboard to GitHu
+          url: /system/developing/dashboard/
+        - menu: Developing V²Plan
+          url: /system/developing/developing/
+        - menu: Adapting V²Plan
+          url: /system/developing/adapting/
+    - menu: Reference
+      group:
+        - menu: Features of V²Plan
+          url: /system/reference/features/
+        - menu: V² Plan Reference
+          url: /system/reference/reference/

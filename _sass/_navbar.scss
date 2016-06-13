@@ -203,7 +203,7 @@
 
 .article-col {
   //border-right: 1px solid #BBB;
-  width: 215px;
+  width: 230px;
 
   .padding {
     padding: 0 16px;
@@ -228,12 +228,14 @@
   overflow-y:auto;
 
   ul {
+    padding-left: 0;
     li a {
       font-size: 13px;
     }
   }
 
-  li {
+
+  > li:not(.article-group) , ul > li {
     position: relative;
 
     a {
@@ -250,10 +252,25 @@
       }
     }
   }
+
+  .article-group {
+
+    > a {
+      padding-top: 15px;
+      font-size: 14px;
+      cursor: default;
+      color: #A5A5A5;
+      border-bottom: 1px solid #D4D4D4;
+    }
+
+    &:hover > a {
+      background: transparent !important;
+    }
+  }
 }
 
 #article-toc {
-  width:215px;
+  width:200px;
 
   .padding {
     padding-right: 16px;
