@@ -3,6 +3,7 @@ layout: page
 title: ViCase Generations
 subtitle: Comparison Review of ViCase Generations.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 159
 readiness:
    - is-complete
    - is-active
