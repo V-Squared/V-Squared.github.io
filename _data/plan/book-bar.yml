@@ -26,36 +26,36 @@
     - menu: Getting Started
       group: 
         - menu: V²Agile Workflow on GitHub
-          url: /system/getting-started/agile-workflow/
+          url: /agile/getting-started/agile-workflow/
         - menu: V²Sprint Workflow on GitHub
-          url: /system/getting-started/sprint-workflow/
+          url: /agile/getting-started/sprint-workflow/
         - menu: Roles & Communication
-          url: /system/getting-started/roles/
+          url: /agile/getting-started/roles/
         - menu: Testing
-          url: /system/getting-started/iterations/
+          url: /agile/getting-started/iterations/
     - menu: Fundamentals
       group:
         - menu: Agile Development Primer
-          url: /system/fundamentals/agile-primer/
+          url: /agile/fundamentals/agile-primer/
         - menu: Motivation by Design
-          url: /system/fundamentals/motivation/
+          url: /agile/fundamentals/motivation/
     - menu: Developing / Evaluating
       group:
         - menu: Solving today's Problems
-          url: /system/developing/solving-problems/
+          url: /agile/developing/solving-problems/
         - menu: Multi Repo Management
-          url: /system/developing/multi-repo/
+          url: /agile/developing/multi-repo/
         - menu: Adding SCRUM to GitHub
-          url: /system/developing/adding-scrum/
+          url: /agile/developing/adding-scrum/
         - menu: Adding Dashboard to GitHub
-          url: /system/developing/dashboard/
+          url: /agile/developing/dashboard/
         - menu: Developing V²Plan
-          url: /system/developing/developing/
+          url: /agile/developing/developing/
         - menu: Adapting V²Plan
-          url: /system/developing/adapting/
+          url: /agile/developing/adapting/
     - menu: Reference
       group:
         - menu: Features of V²Plan
-          url: /system/reference/features/
+          url: /agile/reference/features/
         - menu: V² Plan Reference
-          url: /system/reference/reference/
+          url: /agile/reference/reference/
