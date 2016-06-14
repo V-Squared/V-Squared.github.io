@@ -3,6 +3,7 @@ layout: page
 title: Community Promotion Campaign 2
 subtitle: Begin shipping ViCase and ViPC while increasing awareness of V² Modular PC
 issueNo: 98
+contents:
    - name: Where Campaign fits
      url: fit-where
    - name: On Shoulders of Campaign 1
