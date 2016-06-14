@@ -10,7 +10,7 @@ contents:
      url: based-on
    - name: Campaign 1 Target
      url: target
-   - name: Preparing Campaign 2
+   - name: Preparing Campaign 3
      url: preparing
    - name: Milestones
      url: milestones
