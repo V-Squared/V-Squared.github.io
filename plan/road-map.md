@@ -1,8 +1,9 @@
 ---
 layout: page
 title: V² Road Map
-subtitle: How to reach our Targets
-abstract: <strong>The V²Road Map</strong> shows the way to reach our <strong>V² True North</strong> via consecutive <strong>Campaigns</strong>. A campaign is a group of <strong>Milestones</strong> and lasts about 3 months while focusing all our efforts.
+subtitle: How to reach True North
+abstract: >
+   **The V²Road Map** shows the way to reach our **V² True North** via consecutive **Campaigns**. A campaign is a group of **Milestones** and lasts about 3 months while focusing all our efforts.
 issueNo: 95
 contents:
    - name: Where Road Map fits
