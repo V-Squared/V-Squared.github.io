@@ -43,6 +43,8 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 
 # Compact List of Campaigns {#compact-list}
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | # | Name | Tag line |
 |--:|:----------:|:-------------------|
 | 1 | [V²Site Launch][1] | Creating the V² Platform completed enough to attract and coordinate contributors. |
