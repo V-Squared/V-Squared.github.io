@@ -10,8 +10,8 @@ contents:
    - name: Next 2 Years
      url: two-years
 readiness:
-   - is complete
-   - is active
+   - is-complete
+   - is-active
 
 ---
 
