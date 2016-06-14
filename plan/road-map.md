@@ -15,6 +15,7 @@ contents:
      url: detailed-list
 readiness:
    - is-complete
+   - is-complete
    - is-active
 ---
 
