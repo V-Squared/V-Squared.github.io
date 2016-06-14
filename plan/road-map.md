@@ -40,6 +40,15 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 
 # How Road Map Works {#how-it-works}
 
+## The Big Journey Metaphor
+
+Say you want to walk on foot from Germany to the Himalayas. This is a long journey that requires some planning. You will break the long journey into smaller parts. You may call them campaigns. Each *Campaign* begins where the previous one ended. To not loose overview you map them out in the *Road Map*. When travelling through wasteland with no orientation available you will look to the *True North Star* to find your way. Each campaign still covers a significant distance, so you set *Milestones* to have smaller, more manageable targets. And each milestone is further broken down in smaller targets for every week, which you call weekly *Sprints*.
+
+
+## Agile with Road Map works exactly the same
+
+With True North we describe where we want to be when our journey is done. The Road Map shows how to get there with consecutive Campaigns. This document is the Road Map, as it list each Campaign Target and how each campaign is connected to its predecessor and successor.
+
 
 
 # Compact List of Campaigns {#compact-list}
@@ -51,11 +60,11 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 | 1 | [V²Site Launch][1] | Creating the V² Platform completed enough to attract and coordinate contributors. |
 | 2 | [Community Promotion][2] | Begin shipping ViCase Mini and ViPC while increasing awareness of V² Modular PC. |
 | 3 | [Press & Shop][3] (*1) | Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC. |
-| 4 | V²Case Tiny | Schrinking i7 Modular Workstation with NVME disk to 3 Liters. | 
+| 4 | V²Case Tiny | Schrinking i7 Modular Workstation with NVME disk & Disk RAID to 3 Liters. | 
 | 5 | V²Case Small | Introducing V² Modular PC to High End Gaming supporting GTX 1080 |
-| 6 | Computex 2017 | Kick Off OEM promotion by V² Modular PC exhibiting with partner at Computex Taipei. |
+| 6 | Computex 2017 | Kick Off OEM promotion by V² Modular PC exhibiting at Computex Taipei. |
 | 7 | V² OEM | Fuel OEM promotion of V² Modular PC to OEM with V² Asia Road Show. |
-| 8 | V²Dock (*1) | Introducing V² Modular PC Docking Station and Docking Cable |
+| 8 | V²Dock | Introducing V² Modular PC Docking Station and Docking Cable |
 
 **(*1)** The Press and Shop campaign is special in that it will run in parallel with Campaigns 4 ... 6
 
@@ -84,17 +93,16 @@ You have heard of “Sitting on Shoulders of Giants”. Only this time the commu
 
 ## Connection 2-3
 
-Campaign 3 Press and Shop is about gaining momentum of the V²Movement by the Press writing about V² Modular PC and regular Shops to carry the V² Trailblazer Products ViCase and ViPC. But before they will get engaged we need to create enough visibility and grow our community large enough to be worth their while.
-
+Campaign 2 grew awarenes and availability of V² Trailblazer Products to the point to peak the interest of press and shops. Campaign 3 will actively approach them with press releases and new products. Having press write about and shops sell V² Trailblazer products will increase the brand awareness of V² Modular PC further, making it easier for anyone to find, use and buy V² Trailblazer Products.
 
 ## Campaign 3
 
-[Press & Shop][3] Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming the V² Movement with its V² Trailblazer Products gets noticed by the press and write press releases, news stories and product reviews.
+[Press & Shop Campaign:][3] Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming the V² Movement with its V² Trailblazer Products gets noticed by the press and write press releases, news stories and product reviews.
 
 
 ## Connection 3-4
 
-The Press & Shop Campaign is lasting for half a year. It's first major news is the availability of V² Trailblazer Products in major onine stores. But one major news can not carry for half a year. This is where the introduction for V²Case Tiny and V²Case Mini come in. They will add major news every two months in this period. And each new case will introduce several new ViPC computer, each also spread out about every two weeks apart.
+The Press & Shop Campaign is lasting for half a year. It's first major news is the availability of V² Trailblazer Products in major onine stores. But one major news can not carry for half a year. This is where the introduction for V²Case Tiny and V²Case Mini come in. They will add major news every two months in this period. And each new case will introduce several new ViPC computer, each spread out two weeks apart.
 
 
 ## Campaign 4
@@ -109,7 +117,7 @@ We are in the middle of the Press and Shop campaign. Frequently introducing new 
 
 ## Campaign 5
 
-**V²Case Small** is introducing the V² Modular PC to the High End Gaming consumer market. Its key feature is support the GTX 1080 gaming graphics card. This further expands the market share of V² Modular PC.
+**V²Case Small** is introducing the V² Modular PC to the High End Gaming consumer market. Its key feature is the support of the GTX 1080 gaming graphics card. This further expands the market share of V² Modular PC.
 
 
 ## Connection 5-6
@@ -127,7 +135,7 @@ The target of V² Modular PC is to make them mainstream. That means they become 
 
 ## Campaign 7
 
-OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our **OEM Asia Tour** in China, Hong Kong and Taiwan. We will exhibit in major cities. OEM can book our visit to their site, so their is minimal cost and interruptions to train their marketing people and engineers on V² Modular Mini PC. We will bring OEM RDK's for the engineers to start Rapid Development. We also offer an "Open House" in Guangzhou for OEM developer to visit us at any time in order to get answers to their questions directly from the people who created V² Open Modular PC.
+OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our **OEM Asia Tour** in China, Hong Kong and Taiwan. We will exhibit in major cities. OEM can book our visit to their site, reducing cost and interruptions to train their marketing people and engineers on V² Modular Mini PC. We will bring OEM RDK's for the engineers to start Rapid Development. We also offer an "Open House" in Guangzhou for OEM developer to visit us at any time in order to get answers to their questions directly from the people who created V² Open Modular PC.
 
 
 ## Connection 7-8
