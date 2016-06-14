@@ -6,8 +6,8 @@ issueNo: 98
 contents:
    - name: Where Campaign fits
      url: fit-where
-   - name: On Shoulders of Campaign 1
-     url: sitting-on-shoulders
+   - name: Based on Campaign 1
+     url: based-on
    - name: Campaign 1 Target
      url: target
    - name: Preparing Campaign 2
@@ -41,7 +41,7 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 
 
 
-# Sitting on Shoulders of Campaign 1 {#sitting-on-shoulders}
+# Based on Campaign 1 {#based-on}
 
 You have heard of "Sitting on Shoulders of Giants". Only this time the community is building the Giant ourselves. Growing it with each consecutive campaign. Campaign 1 **V²Site Launch** creates all the tools that makes working together as a community more focused and more efficient. In Campaign 2 we are already using these tools to full extend thus greatly increasing our speed by benefitting of automation. The new management tools also allow to add more contributors. We welcome the V²Shop-Midwest team: Karen, Tom and Bobby!
 
