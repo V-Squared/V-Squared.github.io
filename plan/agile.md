@@ -18,7 +18,7 @@ contents:
      url: testing
    - name: Fundamentals
      url: fundamentals
-   - name: → Agile Development Primer
+   - name: → Agile Primer
      url: agile-primer
    - name: → Motivation by Design
      url: motivation
@@ -79,7 +79,7 @@ Read → [more](/plan/agile/getting-started/sprint-workflow/)
 
 Definition of each Role in the Agile Development System. What are responsibilities and activities of each Role. How to communicate between each role using the tools of the V²Plan System so that communication is transparent. Thanks to the V²Plan System some of the communication even automatically becomes documentation, saving your time.
 
-Read → [more](/agile/getting-started/roles/)
+Read → [more](/plan/agile/getting-started/roles/)
 
 
 
