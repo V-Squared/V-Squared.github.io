@@ -21,7 +21,7 @@ readiness:
 ---
 
 
-# Where Campaign fits in {fit-where}
+# Where Campaign fits in {#fit-where}
 
 Each Campaign is part of the Road Map leading our work towards True North. In the below Tree Diagram you can see how and where a campaign fits into the bigger picture:
 
@@ -42,7 +42,7 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 
 # Target of Campaign 1 {#target}
 
-Create the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
+**V²Site Launch** is about creating the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
 
 
 # Preparing for Campaign 2 {#preparing}
