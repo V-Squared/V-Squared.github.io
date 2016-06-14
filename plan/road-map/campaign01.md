@@ -4,8 +4,11 @@ title: V²Site Launch Campaign 1
 subtitle: Creating the V² Platform completed enough to attract and coordinate contributors.
 issueNo: 97
 contents:
-   - name: Campaign Target
+   - name: Where Campaign fits
+   - name: Campaign 1 Target
      url: target
+   - name: Preparing Campaign 2
+     url: preparing
    - name: Milestones
      url: milestones
    - name: Progress
@@ -17,11 +20,34 @@ readiness:
   - is-complete
 ---
 
-# Campaign Target {#target}
 
-It is important to ship products. This gets them in front of reviewers and into the hands of users, shows what products you can build with the V² standard, and provides funding to our work, which is what Campaign 2 is all about. 
+# Where Campaign fits in {fit-where}
 
-Campaign 1 is about laying the foundation: Create the V² web site that publishes our targets, how we get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. 
+Each Campaign is part of the Road Map leading our work towards True North. In the below Tree Diagram you can see how and where a campaign fits into the bigger picture:
+
+- [V²Agile System](https://v-squared.github.io/plan/agile/) shows how each Task works towards True North via 7 Layer hierarchy
+   - [True North Article](https://v-squared.github.io/plan/true-north/) (Vision)
+     - **L1: True North:** Where we want to be
+   - [Road Map Book](https://v-squared.github.io/plan/road-map/) (Lead the way)
+     - **L2: Road Map:** How to reach True North via consecutive Campaigns
+     - **L3: Campaign:** How each Campaign moves to True North via group of Milestones *← You are here*
+     - **L4: Milestone:** How each Milestone is completed via a bucket of Issues
+   - [Dashboard Article](https://v-squared.github.io/plan/dashboard/) (Organize our daily development)
+     - **L5: Sprint:** What Issues to work down in this week.
+     - **L6: Issue:** Group of Tasks to be worked down, guided by User Story.
+     - **L7: Task:** Actual work to be completed.
+
+
+
+
+# Target of Campaign 1 {#target}
+
+Create the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
+
+
+# Preparing for Campaign 2 {#preparing}
+
+Campaign 2 is all about spreading the word in our community about V² by means of shipping product solving people's problems. We want to do this by maximum engagement with our community, making it very easy to report bugs, provide ideas or providing ready made improvements via Pull Requests. The idea is to make members of the community excited that we listen to what people really need and implement improvement ideas very quickly in both the web site and shipping products. This Campaign 1 is laying the foundation by building the V² Site that provides all these services and tools.
 
 
 # Milestones to reach the Target {#milestones}
