@@ -39,17 +39,20 @@ readiness:
 |--:|:----------:|:-------------------|
 | 1 | [V²Site Launch][1] | Creating the V² Platform completed enough to attract and coordinate contributors. |
 | 2 | [Community Promotion][2] | Begin shipping ViCase Mini and ViPC while increasing awareness of V² Modular PC. |
-| 3 | [Press & Shop][3] (*1) | Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC. |
+| 3 | [Press & Shop][3] | Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC. |
 
 [1]: /plan/road-map/campaign01/
 [2]: /plan/road-map/campaign02/
 [3]: /plan/road-map/campaign03/
 
-# Simple and Fast {#simple}
+
+# V²Flow Simple and Fast Contribution {#simple}
 
 Editing an article, reporting a bug or provide an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [wikipedia](https://www.wikipedia.org/). V² applies this method (quite possibly for the first time) to standards and products. 
 
 V²Flow gives you even more functions on your fingertip: You can see what we are working on. Get direact access to the corresponding GitHub Reppository. Take the pulse of our community projects.
+
+When completed V²Flow will include complete workflows for writing articles, creating artwork, designing PCBs, designing computer cases, create PC configurations.
 
 
 # V²Agile is the engine of V²Plan {#agile}
