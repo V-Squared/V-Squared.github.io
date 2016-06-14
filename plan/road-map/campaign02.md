@@ -2,16 +2,62 @@
 layout: page
 title: Community Promotion Campaign 2
 subtitle: Begin shipping ViCase and ViPC while increasing awareness of V² Modular PC
-abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. Check out the innovative ViCase and ViPC products in the V²Shop. Help us promote the V² Shop by telling your friends to help us reach our stretch goal and you will earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
 issueNo: 98
+   - name: Where Campaign fits
+     url: fit-where
+   - name: On Shoulders of Campaign 1
+     url: sitting-on-shoulders
+   - name: Campaign 1 Target
+     url: target
+   - name: Preparing Campaign 2
+     url: preparing
+   - name: Milestones
+     url: milestones
+   - name: Progress
+     url: progress
 readiness:
    - is-complete
    - is-complete
    - is-active
 ---
 
-&nbsp; <!--This is added to make GitHub Markdown Preview happy to render the table below-->
 
+# Where Campaign fits in {#fit-where}
+
+Each Campaign is part of the Road Map leading our work towards True North. In the below Tree Diagram you can see how and where a campaign fits into the bigger picture:
+
+- [V²Agile System](https://v-squared.github.io/plan/agile/) shows how each Task works towards True North via 7 Layer hierarchy
+   - [True North Article](https://v-squared.github.io/plan/true-north/) (Vision)
+     - **L1: True North:** Where we want to be
+   - [Road Map Book](https://v-squared.github.io/plan/road-map/) (Lead the way)
+     - **L2: Road Map:** How to reach True North via consecutive Campaigns
+     - **L3: Campaign:** How each Campaign moves to True North via group of Milestones *← You are here*
+     - **L4: Milestone:** How each Milestone is completed via a bucket of Issues
+   - [Dashboard Article](https://v-squared.github.io/plan/dashboard/) (Organize our daily development)
+     - **L5: Sprint:** What Issues to work down in this week.
+     - **L6: Issue:** Group of Tasks to be worked down, guided by User Story.
+     - **L7: Task:** Actual work to be completed.
+
+
+
+# Sitting on Shoulders of Campaign 1 {#sitting-on-shoulders}
+
+You have heard of "Sitting on Shoulders of Giants". Only this time the community is building the Giant ourselves. Growing it with each consecutive campaign. Campaign 1 **V²Site Launch** creates all the tools that makes working together as a community more focused and more efficient. In Campaign 2 we are already using these tools to full extend thus greatly increasing our speed by benefitting of automation. The new management tools also allow to add more contributors. We welcome the V²Shop-Midwest team: Karen, Tom and Bobby!
+
+
+# Target of Campaign 2 {#target}
+
+**Community Promotion Campaign:** V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. Check out the innovative ViCase and ViPC products in the V²Shop. Help us promote the V² Shop by telling your friends to help us reach our stretch goal and you will earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
+
+
+# Preparing for Campaign 3 {#preparing}
+The **Press and Shop** campaign is about gaining momentum of the V²Movement by the Press writing about V² Modular PC and regular Shops to carry V² Trailblazer Products ViCase and ViPC. But before they will get engaged we need to create enough visibility and grow our community large enough to be worth their while.
+
+
+
+# Milestones to reach the Target {#milestones}
+
+Click the milestone to see the open list of issues of this milestone.
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -43,3 +89,12 @@ readiness:
 
 [04]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.Create
 [08]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.QA.ViPC
+
+
+
+# Campaign Progress {#progress}
+
+The below snapshot shows completion of milestones by June 11th 2016. For an updated status, please click → [Milestones](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
+
+[![progress-milestones](https://cloud.githubusercontent.com/assets/7278716/15971227/b75cfed4-2f6a-11e6-827b-dfeb1e688762.png)](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
+
