@@ -14,12 +14,12 @@ issueNo: 100
    - [True North Article](https://v-squared.github.io/plan/true-north/)
      - **L1: True North:** Where we want to be *← You are here*
    - [Road Map Book](https://v-squared.github.io/plan/road-map/)
-     - **L2: Road Map:** How to reach *True North* via consecutive *Campaigns*
-     - **L3: Campaign:** How each *Campaign* moves to True North via group of *Milestones*
-     - **L4: Milestone:** How each *Milestone* is completed via a bucket of *Issues*
+     - **L2: Road Map:** How to reach True North via consecutive Campaigns
+     - **L3: Campaign:** How each Campaign moves to True North via group of Milestones
+     - **L4: Milestone:** How each Milestone is completed via a bucket of Issues
    - [Dashboard Article](https://v-squared.github.io/plan/dashboard/)
-     - **L5: Sprint:** What *Issues* to work down in this week.
-     - **L6: Issue:** Group of *Tasks* to be worked down.
+     - **L5: Sprint:** What Issues to work down in this week.
+     - **L6: Issue:** Group of Tasks to be worked down, guided by User Story.
      - **L7: Task:** Actual work to be completed.
 
 
