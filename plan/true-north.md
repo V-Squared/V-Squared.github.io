@@ -10,7 +10,7 @@ issueNo: 100
 
 # Where True North fits into V²Agile
 
-- [V²Agile System](https://v-squared.github.io/plan/agile/) 7 Layer Agile Management System
+- [V²Agile System](https://v-squared.github.io/plan/agile/) is an Agile Management System with a 7 Layer 
    - [True North Article](https://v-squared.github.io/plan/true-north/)
      - **L1: True North:** Where we want to be *← You are here*
    - [Road Map Book](https://v-squared.github.io/plan/road-map/)
