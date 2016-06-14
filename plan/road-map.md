@@ -12,6 +12,7 @@ contents:
    - name: Compact Campaign List
      url: compact-list
    - name: Detailed Campaign List
+     url: detailed-list
 readiness:
    - is-complete
    - is-active
@@ -64,7 +65,7 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
 
 
 
-# Detailed List of Campaigns {#detailed-List}
+# Detailed List of Campaigns {#detailed-list}
 
 ## Campaign 1
 
@@ -78,7 +79,7 @@ You have heard of “Sitting on Shoulders of Giants”. Only this time the commu
 
 ## Campaign 2
 
-[Community Promotion][2]: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on the V² Trailblzer Products ViCase and ViPC. Check out these innovative products in the V²Shop. Help us promote the V² Shop by telling your friends in order to help us reach our stretch goal and you will earn free bonus products.
+[Community Promotion][2]: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on the V² Trailblazer Products ViCase and ViPC. Check out these innovative products in the V²Shop. Help us promote the V² Shop by telling your friends in order to help us reach our stretch goal and you will earn free bonus products.
 
 ## Connection 2-3
 Campaign 3 Press and Shop is about gaining momentum of the V²Movement by the Press writing about V² Modular PC and regular Shops to carry the V² Trailblazer Products ViCase and ViPC. But before they will get engaged we need to create enough visibility and grow our community large enough to be worth their while.
@@ -86,12 +87,13 @@ Campaign 3 Press and Shop is about gaining momentum of the V²Movement by the Pr
 
 ## Campaign 3
 
-[Press & Shop][3] Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming it is a good time to approach the press. The V² Movement with its V² Trailblazer Products gets noticed by the press and write press releases, news stories and product reviews.
+[Press & Shop][3] Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. With ViPC shipping and the OEM campaign coming the V² Movement with its V² Trailblazer Products gets noticed by the press and write press releases, news stories and product reviews.
 
 ## Connection 3-4
+The Press & Shop Campaign is lasting 
 
 ## Campaign 4
-
+**V²Case Tiny** shrinks all the goodness of ViCase / ViPC to three Liters, effectively making the first ultra portable modular Workstation PC build from Desktop Parts. This campaign is about shipping the first Golden Samples, getting community reviews, include the feedback into an improved shipping Trailblazer Product ViCase and ViPC.
 
 ## Connection 4-5
 
@@ -108,4 +110,4 @@ Campaign 3 Press and Shop is about gaining momentum of the V²Movement by the Pr
 
 ## Campaign 7
 
-OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in Summer 2017. We also have an "Open House" in Guangzhou for OEM developer to visit us and get answers to their questions.
+OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put them into the shop around your corner. We will demo V² with working products on our OEM Asia Tour in China, Hong Kong and Taiwan. We expect V² OEM products to become available in 2018. We also have an "Open House" in Guangzhou for OEM developer to visit us and get answers to their questions.
