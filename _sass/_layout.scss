@@ -356,7 +356,7 @@
   max-width: 216px;
   box-sizing:border-box;
   border-radius:5pt;
-  
+
   * {
     margin:0;
     color:rgba(255,255,255,0.7);
@@ -433,8 +433,8 @@ md-content {
   padding:0;
   background:#64B5F6;
   position: relative;
-  
-  
+
+
   .article-jumbotron-container {
     position: relative;
   }
@@ -450,7 +450,7 @@ md-content {
     padding-top: 10px;
     font-size:15px;
   }
-  
+
   .article-desc {
     font-size: 21px;
     color: #0D47A1;
@@ -458,6 +458,11 @@ md-content {
 
   * {
     color:#F3F0F0;
+  }
+
+  a {
+    color: #1976d2;
+    font-weight: bold;
   }
 }
 .edit-fab {
@@ -488,7 +493,7 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
 .progess-bar {
   height:20px;
   margin: 0 14px;
-  
+
   &.portfolio {
     top: auto;
     bottom:0;
@@ -524,7 +529,7 @@ table.table-detail {
 
 .status-bar {
   background: #42A5F5;
-  
+
   svg path {
     fill: #1976D2 !important;
   }
