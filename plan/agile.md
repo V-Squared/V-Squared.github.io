@@ -51,7 +51,15 @@ readiness:
 
 # Getting Started {#getting-started}
 
-In the best spirit of Agile Development that puts experience over documentation you can dive straight into V²Plan with the four *Getting Started* Articles: → V²Agile Workflow on GitHub, → V²Sprint Workflow on GitHub, → Roles & Communication, → Testing.
+In the best spirit of Agile Development that puts experience over documentation you can dive straight into V²Agile with the four *Getting Started* Articles: 
+
+1. V²Agile Workflow on GitHub
+2. V²Sprint Workflow on GitHub
+3. Roles & Communication
+4. Testing
+
+Read more about it below:
+
 
 ## V²Agile Workflow on GitHub {#agile-workflow}
 
