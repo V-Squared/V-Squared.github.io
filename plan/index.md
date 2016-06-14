@@ -13,25 +13,31 @@ readiness:
 
 
 
-# Purpose <a name="purpose"></a>
-- Show where we are going → [Target](/plan/target/)
-- Lead the way → [Road Map](/plan/road-map/)
-- Organize our development → [Dashboard](/plan/dashboard/)
-- Make it easy to contribute → [Contributing](/plan/contributing/)
-- Explain how V²Plan System works → [System](/plan/system/)
+# Key Elements of V²Plan <a name="purpose"></a>
+
+1. [True North Page](/plan/true-north/) showing a Vision of your improved computer life.
+2. [Road Map Book](/plan/road-map/) is leading the way.
+3. [Dashboard Page](/plan/dashboard/) is organizing our development.
+4. [Contributing Page](/plan/contributing/) shows you how to engage with V² Community.
+6. [Agile Book](/plan/agile/) explains how the engine powering V²Plan works.
+7. *Flow Book* guides contributors to deliver work ready to go to production.
 
 
 # Simple and Fast <a name="simple"></a>
-We integrated V²Plan into the V² web site. Editing an article or adding a comment to its issue is done with just one mouse click on the Edit Floating Action Button. The power of community editing has been proven by  [wikipedia](https://www.wikipedia.org/).
+
+Editing an article, reporting a bug or given an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [wikipedia](https://www.wikipedia.org/). V² applies this method (quite possibly for the first time) to standards and products. 
+
+But with V²Flow button you can access even more. You can see what we are working on. Get direact access to the corresponding GitHub Reppository. Take the pulse of our community projects.
 
 
-# V²Plan System is the engine of V²Plan <a name="engine"></a>
-V²Plan System is a generic Agile Development and Toyota Production System  that we use to get the job done in V². Key features:
+# V²Agile is the engine of V²Plan <a name="engine"></a>
+
+A generic Agile Development and Toyota Production System that we use to get the job done in V². Key features:
 
 1. Full GitHub Issues Integration
-2. Cross Repo Management
-3. Visualization of Progress in Road Maps, Kanban Boards and Gantt Charts
-4. Dashboard to show progress and filtered view on current work in Sprint 
+2. Cross Repository Management suitable for small to very large GitHub Origanizations
+3. Visualization of Progress in Road Maps and Kanban Boards
+4. Dashboard provides Weekly Sprint Overview with 3 weeks look ahead and history of all completed sprints
 5. Consistent documentation with interactive Info-graphics to ease learning
 
 V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](/plan/system/).
