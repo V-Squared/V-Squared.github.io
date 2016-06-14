@@ -41,7 +41,9 @@ readiness:
 | 2 | [Community Promotion][2] | Begin shipping ViCase Mini and ViPC while increasing awareness of V² Modular PC. |
 | 3 | [Press & Shop][3] (*1) | Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC. |
 
-
+[1]: /plan/road-map/campaign01/
+[2]: /plan/road-map/campaign02/
+[3]: /plan/road-map/campaign03/
 
 # Simple and Fast {#simple}
 
