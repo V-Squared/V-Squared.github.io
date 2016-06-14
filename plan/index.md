@@ -15,7 +15,7 @@ readiness:
 
 # Key Elements of V²Plan <a name="purpose"></a>
 
-1. [True North Page](/plan/true-north/) showing a Vision of your improved computer life.
+1. [True North Page](/plan/true-north/) is showing a Vision of your improved computer life.
 2. [Road Map Book](/plan/road-map/) is leading the way.
 3. [Dashboard Page](/plan/dashboard/) is organizing our development.
 4. [Contributing Page](/plan/contributing/) shows you how to engage with V² Community.
@@ -25,9 +25,9 @@ readiness:
 
 # Simple and Fast <a name="simple"></a>
 
-Editing an article, reporting a bug or given an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [wikipedia](https://www.wikipedia.org/). V² applies this method (quite possibly for the first time) to standards and products. 
+Editing an article, reporting a bug or provide an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [wikipedia](https://www.wikipedia.org/). V² applies this method (quite possibly for the first time) to standards and products. 
 
-But with V²Flow button you can access even more. You can see what we are working on. Get direact access to the corresponding GitHub Reppository. Take the pulse of our community projects.
+V²Flow gives you even more functions on your fingertip: You can see what we are working on. Get direact access to the corresponding GitHub Reppository. Take the pulse of our community projects.
 
 
 # V²Agile is the engine of V²Plan <a name="engine"></a>
@@ -40,4 +40,4 @@ A generic Agile Development and Toyota Production System that we use to get the 
 4. Dashboard provides Weekly Sprint Overview with 3 weeks look ahead and history of all completed sprints
 5. Consistent documentation with interactive Info-graphics to ease learning
 
-V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](/plan/system/).
+V²Agile System can be easily adapted for other GitHub Organizations. It is Open Source and Licensed under CC-By. For more information please see → [Introduction to V²Agile System](/plan/agile/).
