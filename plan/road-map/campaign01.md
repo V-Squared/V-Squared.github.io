@@ -5,6 +5,7 @@ subtitle: Creating the V² Platform completed enough to attract and coordinate c
 issueNo: 97
 contents:
    - name: Where Campaign fits
+     url: fit-where
    - name: Campaign 1 Target
      url: target
    - name: Preparing Campaign 2
