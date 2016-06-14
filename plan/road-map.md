@@ -16,6 +16,7 @@ contents:
 readiness:
    - is-complete
    - is-complete
+   - is-complete
    - is-active
 ---
 
@@ -29,8 +30,8 @@ Each Campaign is part of the Road Map leading our work towards True North. In th
    - [True North Article](https://v-squared.github.io/plan/true-north/) (Vision)
      - **L1: True North:** Where we want to be
    - [Road Map Book](https://v-squared.github.io/plan/road-map/) (Lead the way)
-     - **L2: Road Map:** How to reach True North via consecutive Campaigns
-     - **L3: Campaign:** How each Campaign moves to True North via group of Milestones *← You are here*
+     - **L2: Road Map:** How to reach True North via consecutive Campaigns  *← You are here*
+     - **L3: Campaign:** How each Campaign moves to True North via group of Milestones
      - **L4: Milestone:** How each Milestone is completed via a bucket of Issues
    - [Dashboard Article](https://v-squared.github.io/plan/dashboard/) (Organize our daily development)
      - **L5: Sprint:** What Issues to work down in this week.
@@ -79,7 +80,7 @@ With True North we describe where we want to be when our journey is done. The Ro
 
 ## Campaign 1
 
-[V²Site Launch][1] is about creating the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very fast and easy. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
+[V²Site Launch][1] is about creating the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very fast and easy. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via Article Issues and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
 
 
 ## Connection 1-2
