@@ -10,14 +10,14 @@ issueNo: 100
 
 # Where True North fits into V²Agile
 
-- [V²Agile System](https://v-squared.github.io/plan/agile/) is an Agile Management System with 7 Layer 
-   - [True North Article](https://v-squared.github.io/plan/true-north/)
+- [V²Agile System](https://v-squared.github.io/plan/agile/) shows how each Task works towards True North via 7 Layer hierarchy
+   - [True North Article](https://v-squared.github.io/plan/true-north/) (Vision)
      - **L1: True North:** Where we want to be *← You are here*
-   - [Road Map Book](https://v-squared.github.io/plan/road-map/)
+   - [Road Map Book](https://v-squared.github.io/plan/road-map/) (How to get there)
      - **L2: Road Map:** How to reach True North via consecutive Campaigns
      - **L3: Campaign:** How each Campaign moves to True North via group of Milestones
      - **L4: Milestone:** How each Milestone is completed via a bucket of Issues
-   - [Dashboard Article](https://v-squared.github.io/plan/dashboard/)
+   - [Dashboard Article](https://v-squared.github.io/plan/dashboard/) (What to do)
      - **L5: Sprint:** What Issues to work down in this week.
      - **L6: Issue:** Group of Tasks to be worked down, guided by User Story.
      - **L7: Task:** Actual work to be completed.
