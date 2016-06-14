@@ -6,18 +6,7 @@ abstract: Agile development requires the repeated precise execution of specific 
 issueNo: 60
 ---
 
---------------------------
 
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | [Classeur](https://app.classeur.io/#!/files/MgaU4KjEYbct3VPl3dwL) |
-| Readiness | Develop |
-| On GitHub | [agile-workflow.md](https://github.com/V-Squared/v2-Plan/edit/gh-pages/system/agile-workflow.md) |
-| Issue | [Agile Workflow User Manual #3](https://github.com/V-Squared/v2-Plan/issues/3) |
-
---------------------------
 
 ![](https://s-media-cache-ak0.pinimg.com/736x/41/a4/1b/41a41b44dbe8eefe487f95895c85e4ff.jpg)
 *Infographics courtesy [Russel Tate](http://russelltate.com/)*
