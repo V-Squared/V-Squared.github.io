@@ -44,15 +44,14 @@ readiness:
 ## What makes a Workstation Computer? 
 A workstation is designed to make the waiting time and experience of an artist or photographer as smooth and fast as possible. Workstation computers use more reliable parts that are optimized for speed and performance in areas such as rendering and photo editing. 
 
-
-In general Pro Workstations are about twice as expensive from the major brands, with the notable exception of Dell, who is only 30% more expensive. All Workstations are louder, with the notable exception of again, the Mac Pro, who is actually even more quoet than ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
-
-## Open Configuration
-You can negotiate with the V²PC Community Store to also install PC parts of your choosing for you, such as special PCI Express Card that you need and which is not included in the V²Configurator. Basically, what you can buy we can assemble into your PC for you, as long as the parts are compatible.
-
 ## Importance of portability
 
 From photographers to designers working in the field, having a powerful machine you can bring with you is a plus for many. While many manufacturers deem their machines portable, it is a pretty vauge statement. For the purpose of this comparison review, lets deem a portable machine means it can easily be carried with you in a backpack. A backpack-able computer gives easy transportation in a studio, home and work, travel, and conventions.
+
+# Benefits of ViPC
+
+## Open Configuration
+You can negotiate with the V²PC Community Store to also install PC parts of your choosing for you, such as special PCI Express Card that you need and which is not included in the V²Configurator. Basically, what you can buy we can assemble into your PC for you, as long as the parts are compatible.
 
 ## DIY Option
 For the Budget conscientious. Shaves off another $100 US.
@@ -75,7 +74,6 @@ Our V² Community Stores offer a Flat Fee Assembly Service. Now you can have the
 
 If you bought your ViPC in one of our V² Community Stores or with Village Tronic, then you have the option to use the Flat Fee Repair Service in case you can not fix it by yourself. The fee includes labor, parts are extra. Most computer parts in your PC will come with a 3 year warranty.
  
-
 # Comparison
 
 ## ViPC-620 vs HP Z230
@@ -240,3 +238,5 @@ When spending > 3000 USD you can benefit from more cores and more memory. Xeon c
 https://www.pugetsystems.com/labs/articles/Intel-CPUs-Xeon-E5-vs-Core-i7-634/
 
 
+## Concluding thoughts
+In general Pro Workstations are about twice as expensive from the major brands, with the notable exception of Dell, who is only 30% more expensive. All Workstations are louder, with the notable exception of again, the Mac Pro, who is actually even more quoet than ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
