@@ -2,7 +2,7 @@
 layout: page
 title: Parts
 subtitle: Understanding Workstation PC Parts.
-Breaking down each component and highlighting role it plays in computing performance.
+abstract: Breaking down each component and highlighting role it plays in computing performance.
 issueNo: 160
 readiness:
    - is-complete
