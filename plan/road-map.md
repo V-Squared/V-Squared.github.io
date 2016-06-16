@@ -67,7 +67,9 @@ With True North we describe where we want to be when our journey is done. The Ro
 | 5 | V²Case Small | Introducing V² Modular PC to High End Gaming supporting GTX 1080 |
 | 6 | Computex 2017 | Kick Off OEM promotion by V² Modular PC exhibiting at Computex Taipei. |
 | 7 | V² OEM | Fuel OEM promotion of V² Modular PC to OEM with V² Asia Road Show. |
-| 8 | V²Dock | Introducing V² Modular PC Docking Station and Docking Cable |
+| 8 | V²Dock | Introducing V² Modular PC Docking Station.  |
+| 9 | ViCase Open Source | Opening the ViCase Industrial Design to the 3D Print and CNC Cut Community |
+| 10+ | Growing V²Dock | Continue growing ViDock Product Family and V² Standards in a family of Campaigns |
 
 **(*1)** The Press and Shop campaign is special in that it will run in parallel with Campaigns 4 ... 6
 
@@ -156,9 +158,11 @@ Campaign 9 marks the end of the transition period of V²Case to V²Dock.
 
 ## Campaign 9
 
-As soon as ViDock Trailblazer Products sales covers the operational cost of the V² organization we will end the V² Trailblazer Products Grace Period. It means that we will lift all copyright and registered designs from ViCase and ViPC, opening their designs completely to any form of 1:1 reproduction. This includes publication of the 3D files for the ViCase. Anyone can now go ahead and CNC cut or 3D print an original ViCase. 3D files are published in FreeCAD. PCBs in KiCAD. CNC files in G-Code. License in Open Source under CC. We are expecting this gives the V² movement another push by growing support of the 3D Printing and CNC cut communities.
+**ViCase Open Source** As soon as ViDock Trailblazer Products sales covers the operational cost of the V² organization we will end the V² Trailblazer Products Grace Period. It means that we will lift all copyright and registered designs from ViCase and ViPC, opening their designs completely to any form of 1:1 reproduction. This includes publication of the 3D files for the ViCase. Anyone can now go ahead and CNC cut or 3D print an original ViCase. 3D files are published in FreeCAD. PCBs in KiCAD. CNC files in G-Code. License in Open Source under CC. We are expecting this gives the V² movement another push by growing support of the 3D Printing and CNC cut communities. 
+
+**Note:** V²Case is the Standard for an Open Mini and All-In-One PC. It always has been and always will be Free and Open Source. ViCase is but one industrial design of V²Case. We called Trailblazer Products as they paved the way to make V²Case mainstream. They served many roles, such as demonstrating what V²Case can do, RDKs for OEMs. And it was our sole source of income. As such we protected our design with copyrights and registered design. Now that ViDock is providing sufficient income to the V²Organization we are in a position to also release all design files of ViCase to the growing pool of V² Open Source files and designs, continuing to grow its value and versatility on the Open Source Communnity.
 
 
-## Beyond Campaign 9
+## Campaign 10+
 
-From now on out our activities will be focused on V²Dock. Expanding the range of docking station types. Increase the number of protocols you can run over the V²Dock cable. Increase lengths of the V²Dock cables. Shrink the connector size. Approach and cooperate with Open Source projects to include the Open Soure PCI Express Docking Stations. Projects such as Arduino, Raspberry Pie, Open Source Mobile Phone and Tablet projects all are good candidates.
+**Growing V²Dock:** From now on out our activities will be focused on V²Dock. Expanding the range of docking station types. Increase the number of protocols you can run over the V²Dock cable. Increase lengths of the V²Dock cables. Shrink the connector size. Approach and cooperate with Open Source projects to include the Open Soure PCI Express Docking Stations. Projects such as Arduino, Raspberry Pie, Open Source Mobile Phone and Tablet projects all are good candidates.
