@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Style Guide
-subtitle: Set of standard for the writing and design of articles on V².
+subtitle: Set of standards on writing and designing articles for V².
 abstract: > 
   A style guide establishes and enforces style to improve communication. To do that, it ensures consistency within a document and across multiple documents and enforces best practice in usage and in language composition, visual composition, orthography and typography. Since we publish technical articles this style guide is also concerned about the best practice in ethics (such as authorship, research ethics, and disclosure), pedagogy (such as exposition and clarity), and compliance (technical and regulatory).
 issueNo: 178
