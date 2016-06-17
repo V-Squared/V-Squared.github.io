@@ -71,7 +71,7 @@
         - menu: How-To Task-Templates
           url: /flow/writing/how-to/
         - menu: Style Guide
-          url: / flow/writing/style-guide/
+          url: /flow/writing/style-guide/
     - menu: Mechanical Design
       group:
         - menu: Intro Mechanical Design
