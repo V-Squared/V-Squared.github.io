@@ -59,3 +59,26 @@
           url: /agile/reference/features/
         - menu: V² Plan Reference
           url: /agile/reference/reference/
+- menu: Flow
+  url: /flow/
+  desc: >
+    Workflows on contributing to V² in ready to use quality.
+  subitems:
+    - menu: Writing Articles
+      group: 
+        - menu: Intro Writing Articles
+          url: /flow/writing/intro/
+        - menu: How-To Task-Templates
+          url: /flow/writing/how-to/
+        - menu: Style Guide
+          url: / flow/writing/style-guide/
+    - menu: Mechanical Design
+      group:
+        - menu: Intro Mechanical Design
+          url: /flow/mechanical/intro/
+        - menu: Choosing CAM Software
+          url: /flow/mechanical/pick-cam-app/
+        - menu: Workflow CAD → CAM → CNC
+          url: /flow/mechanical/cad-cam-cnc/
+        - menu: How-To Task-Templates
+          url: /flow/mechanical/how-to/
