@@ -13,7 +13,7 @@ Table of Contents
 
 # Boot Disk
 ## Which type of Disk we choose for Boot Disk? 
-We choose SSD for the Boot Disk, because it is simply more faster than the HD
+We choose SSD for the Boot Disk, because it is simply more faster than the HD. Boot disk affects boot up and shut down speed, key programs, and daily tasks performed on a PC. 
  
 ## Comparison Table
 ## Boot Disk Comparison Table
@@ -65,6 +65,8 @@ We choose SSD for the Boot Disk, because it is simply more faster than the HD
 - [HDD 3.5" 4TB Black](http://www.newegg.com/Product/Product.aspx?Item=N82E16822236622)-$199-???
 
 ## Why we choose WD HD? 
+
+Western Digital is a highly regarded brand, with many high rated drives on sites such as Amazon and Newegg. Reliability is key, so choosing a drive with low failure rates is important.
 
 ## Advice
 
