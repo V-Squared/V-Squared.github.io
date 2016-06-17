@@ -16,8 +16,8 @@
       url: /road-map/campaign03/
 - menu: Dashboard
   url: /dashboard/
-- menu: Flow
-  url: /flow/
+- menu: Contributing
+  url: /contributing/
 - menu: Agile
   url: /agile/
   desc: >
