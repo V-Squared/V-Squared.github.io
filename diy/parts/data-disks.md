@@ -45,6 +45,9 @@ We choose SSD for the Boot Disk, because it is simply more faster than the HD
 
 ## Advice
 
+
+
+
 # Data Disk(RAID)
 
 ## Comparison Table
@@ -65,3 +68,4 @@ We choose SSD for the Boot Disk, because it is simply more faster than the HD
 
 ## Advice
 
+While solid state drives are continuously dropping in price, spinning disk drives are still king in terms of price/GB. Whenever storage is  amust, HDD are pefect for photos, videos, single player games, and setting up as a backup drive. 
