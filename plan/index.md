@@ -27,8 +27,9 @@ readiness:
 1. [True North Page](/plan/true-north/) is showing a Vision of your improved computer life.
 2. [Road Map Book](/plan/road-map/) is leading the way.
 3. [Dashboard Page](/plan/dashboard/) is organizing our development.
-4. [Flow Page](/plan/flow/) shows you how to engage with V² Community.
-6. [Agile Book](/plan/agile/) explains how the engine powering V²Plan works.
+4. [Contribute Page](/plan/contribute/) shows you how to engage with V² Community.
+5. [Agile Book](/plan/agile/) explains how the engine powering V²Plan works.
+6. [Flow Book](/plan/flow/) Workflows on writing articles, CAD-CAM-CNC, creating artwork, ...
 
 
 # Next Campaigns {#next-campaigns}
