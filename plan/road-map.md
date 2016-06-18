@@ -83,36 +83,36 @@ With True North we describe where we want to be when our journey is done. The Ro
 
 ## Campaign 1
 
-[V²Site Launch][1] is about creating the V² web site that publishes our vision, how we will get there, who we are and how this helps you. We also create the tools to make contribution very fast and easy. This helps us work faster and will attract more contributors to help V² move faster. Finally it gives you very easy methods to report bugs and request features via V² Flow Button and in turn provides us with the tools to track, rate and close these issues very efficiently. Finally we create a Work Flow System that is guiding Contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
+[V²Site Launch][1] is about creating the V² web site that publishes our vision, how we will get there, who we are, and how this helps you. We also create the tools to make contribution very fast and easy. This helps us work faster and will attract more contributors to help V² move faster. It gives you very easy methods to report bugs and request features via V² Flow Button and in turn provides us with the tools to track, rate, and close these issues very efficiently. Finally we create a work flow system that is guiding contributors when working down their tasks and issues to deliver work so that it fits in directly without lengthy reworks.
 
 
 ## Connection 1-2
 
-You have heard of “Sitting on Shoulders of Giants”. Only this time the community is building the Giant ourselves. Growing it with each consecutive campaign. Campaign 1 V²Site Launch creates all the tools that makes working together as a community more focused and more efficient. In Campaign 2 we are already using these tools to full extend thus greatly increasing our speed by benefitting of automation. The new management tools also allow to add more contributors. We welcome the V²Shop-Midwest team: Karen, Tom and Bobby!
+You have heard of “Sitting on Shoulders of Giants”, only this time the community is building the Giant ourselves, growing it with each consecutive campaign. Campaign 1 V²Site launch creates all the tools that makes working together as a community more focused and more efficient. In Campaign 2 we are already using these tools to the full extent, thus greatly increasing our speed by benefitting  automation. The new management tools also allow to add more contributors. We welcome the V²Shop-Midwest team: Karen, Tom and Bobby!
 
 
 ## Campaign 2
 
-[Community Promotion][2]: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on the V² Trailblazer Products ViCase and ViPC. Check out these innovative products in the V²Shop. Help us promote the V² Shop by telling your friends in order to help us reach our stretch goal and you will earn free bonus products.
+[Community Promotion][2]: V²Case has been developed with the Community. This is our opportunity to give back with community discounts on the V² Trailblazer Products ViCase and ViPC. Check out these innovative products in the V²Shop. Help us promote the V² Shop by telling your friends in order to help us reach our stretch goal and you will earn free bonus products.
 
 
 ## Connection 2-3
 
-Campaign 2 grew awarenes and availability of V² Trailblazer Products to the point to peak the interest of press and shops. Campaign 3 will actively approach them with press releases and new products. Press coverage and increased availability is critical to the continued grows of the V² movement.
+Campaign 2 grew awarenes and availability of V² Trailblazer Products to the point to peak the interest of press and shops. Campaign 3 will actively approach them with press releases and new products. Press coverage and increased availability is critical to the continued growth of the V² movement.
 
 ## Campaign 3
 
-[Press & Shop Campaign:][3] Ready build Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. The resulting increase in availability will trigger some of the press to realize that V² Movement is at the beginning of bigger changes improving the situation for users and makers alike. Consequently we hope that press coverage will include both V²Trailblazer Products and their Open Standards.
+[Press & Shop Campaign:][3] Ready-built Mini and All-In-One PCs are becoming available in major stores, such as Amazon, Newegg and eBay. Or if you are (or want to be) a shop owner we have tutorials and case studies on how to add ViCase or ViPC to your existing store or even how to build one. The resulting increase in availability will trigger some of the press to realize that V² Movement is at the beginning of bigger changes improving the situation for users and makers alike. Consequently we hope that press coverage will include both V²Trailblazer Products and their open standards.
 
 
 ## Connection 3-4
 
-The Press & Shop Campaign is lasting for half a year. It's first major news is the availability of V² Trailblazer Products in major online stores. But one major news can not carry for half a year. This is where the introduction for V²Case Tiny and V²Case Small come in. They will add major news every two months in this period. And each new case will introduce several new ViPC computer, each spread out two weeks apart.
+The Press & Shop Campaign has lasted for half a year. It's first major news is the availability of V² Trailblazer Products in major online stores. But one major news can not carry for half a year. This is where the introduction for V²Case Tiny and V²Case Small come into play. They will add major news every two months in this period. And each new case will introduce several new ViPC computers, each spread out two weeks apart.
 
 
 ## Campaign 4
 
-**V²Case Tiny** shrinks all the goodness of ViCase / ViPC to three Liters, effectively making the first ultra portable modular Workstation PC build from Desktop Parts. This campaign is about shipping the first Golden Samples, getting reviews, include the feedback into new and improved shipping Trailblazer Products ViCase and ViPC.
+**V²Case Tiny** shrinks all the goodness of ViCase / ViPC to three Liters, effectively making the first ultra portable modular Workstation PC build from Desktop Parts. This campaign is about shipping the first golden samples, getting reviews, and including the feedback into new and improved shipping Trailblazer Products ViCase and ViPC.
 
 
 ## Connection 4-5
@@ -131,11 +131,11 @@ OEM are about shipping PCs in quantities. The *PC Consumer Market* is significan
 
 ## Campaign 6
 
-**Computex Taipei** in June 2017 is the biggest computer show tailored to the OEM. In time to the show we will complete all V²Standards needed for any OEM to develop their own V² compatible Mini or All-In-One PC. All license agreements are ready to provide the necessary legal foundation to OEM. V²Case and V²PC will be the first community developed, open source Mini and All-In-One computer system. As such it comes with accessories that are compatible between different computer models made by different brands. V² exhibits at computex, domonstrating available standards, cases, PC's and RDKs (Rapid Development Kits) to the press and to the industry.
+**Computex Taipei** in June 2017 is the biggest computer show tailored to the OEM. Prior to the show we will complete all V²Standards needed for any OEM to develop their own V² compatible Mini or All-In-One PC. All license agreements are ready to provide the necessary legal foundation to OEM. V²Case and V²PC will be the first community developed, open source Mini and All-In-One computer system. As such it comes with accessories that are compatible between different computer models made by different brands. V² exhibits at Computex, domonstrating available standards, cases, PC's and RDKs (Rapid Development Kits) to the press and to the industry.
 
 
 ## Connection 6-7
-The target of V² Modular PC is to make them mainstream. That means they become low cost and available in the shop around your corner. OEM's have the power to do that. Exhibiting V² Modular PC at Computex got us a foot into the door to OEMs. The OEM Asia Tour will get us in front of marketing people and engineers of an OEM. They are the ones who will make OEM versions of V² Modular PC happen.
+The target of V² Modular PC is to make them mainstream. That means they become low cost and available in the shop around the corner. OEM's have the power to do that. Exhibiting V² Modular PC at Computex got us a foot in the door to OEMs. The OEM Asia Tour will get us in front of marketing people and engineers of an OEM. They are the ones who will make OEM versions of V² Modular PC happen.
 
 ## Campaign 7
 
@@ -144,12 +144,12 @@ OEMs have the power to make the V² Mini and All-In-One PCs mainstream; to put t
 
 ## Connection 7-8
 
-This is the beginning of transition period of V²Case to V²Dock. The introduction of V²Dock sees the end of the V²Case Trailblazer Products Grace Period. 
+This is the beginning of the transition period from V²Case to V²Dock. The introduction of V²Dock sees the end of the V²Case Trailblazer Products grace period. 
 
 
 ## Campaign 8
 
-**V²Dock** is introducing the world's first Open Source, Modular Docking Station. The ideal docking station or expansion to the V²Modular PC, Tablet PC or Notebook. Add powerul RAID or GPU cards to your small computer or connect power, displays, mouse, keyboard and accessories with just one cable when you return with your computer / tablet to your desk. Connect your small computer to docking stations no matter brand or model. And vice versa. Keep using your docking station when bying a new small PC. Its modular design will allows upgrading aging parts resulting in a service life spanning that of many of your PCs.
+**V²Dock** is introducing the world's first Open Source, modular docking station. The ideal docking station or expansion to the V²Modular PC, tablet PC or notebook. Add powerul RAID or GPU cards to your small computer or connect power, displays, mouse, keyboard, and accessories with just one cable when you return with your computer / tablet to your desk. Connect your small computer to docking stations regardless of make or model. this works vice versa; keep using your docking station when buying a new small PC. Its modular design will allow you to upgrade aging parts resulting in a service life spanning that of many of your PCs.
 
 
 ## Connection 8-9
@@ -158,11 +158,11 @@ Campaign 9 marks the end of the transition period of V²Case to V²Dock.
 
 ## Campaign 9
 
-**ViCase Open Source** As soon as ViDock Trailblazer Products sales covers the operational cost of the V² organization we will end the V² Trailblazer Products Grace Period. It means that we will lift all copyright and registered designs from ViCase and ViPC, opening their designs completely to any form of 1:1 reproduction. This includes publication of the 3D files for the ViCase. Anyone can now go ahead and CNC cut or 3D print an original ViCase. 3D files are published in FreeCAD. PCBs in KiCAD. CNC files in G-Code. License in Open Source under CC. We are expecting this gives the V² movement another push by growing support of the 3D Printing and CNC cut communities. 
+**ViCase Open Source** As soon as ViDock Trailblazer Products sales covers the operational cost of the V² organization we will end the V² Trailblazer Products grace period. It means that we will lift all copyright and registered designs from ViCase and ViPC, opening their designs completely to any form of 1:1 reproduction. This includes publication of the 3D files for the ViCase. Anyone can now go ahead and CNC cut or 3D print an original ViCase. 3D files are published in FreeCAD. PCBs in KiCAD. CNC files in G-Code. License in open source under CC. We are expecting this gives the V² movement another push by growing support of the 3D Printing and CNC cut communities. 
 
-**Note:** V²Case is the Standard for an Open Mini and All-In-One PC. It always has been and always will be Free and Open Source. ViCase is but one industrial design of V²Case. We called Trailblazer Products as they paved the way to make V²Case mainstream. They served many roles, such as demonstrating what V²Case can do, RDKs for OEMs. And it was our sole source of income. As such we protected our design with copyrights and registered design. Now that ViDock is providing sufficient income to the V²Organization we are in a position to also release all design files of ViCase to the growing pool of V² Open Source files and designs, continuing to grow its value and versatility on the Open Source Communnity.
+**Note:** V²Case is the Standard for an open mini and All-In-One PC. It always has been and always will be free and open source. ViCase is but one industrial design of V²Case. We named them Trailblazer Products as they paved the way to make V²Case mainstream. They served many roles, such as demonstrating what V²Case can do, RDKs for OEMs. And it was our sole source of income. As such we protected our design with copyrights and registered design. Now that ViDock is providing sufficient income to the V²Organization we are in a position to also release all design files of ViCase to the growing pool of V² Open Source files and designs, continuing to grow its value and versatility on the open source communnity.
 
 
 ## Campaign 10+
 
-**Growing V²Dock:** From now on out our activities will be focused on V²Dock. Expanding the range of docking station types. Increase the number of protocols you can run over the V²Dock cable. Increase lengths of the V²Dock cables. Shrink the connector size. Approach and cooperate with Open Source projects to include the Open Soure PCI Express Docking Stations. Projects such as Arduino, Raspberry Pie, Open Source Mobile Phone and Tablet projects all are good candidates.
+**Growing V²Dock:** From now on out, our activities will be focused on V²Dock, expanding the range of docking station types. This includes increasing the number of protocols you can run over the V²Dock cable, increasing the lengths of the V²Dock cables, and shrinking the connector size. Approach and cooperate with open source projects to include the open soure PCI Express docking stations. Projects such as Arduino, Raspberry Pie, Open Source Mobile Phone and Tablet projects all are good candidates.
