@@ -1,6 +1,12 @@
 angular.module('site')
-  .controller('mainController', function($scope,$localStorage) {
+  .controller('mainController', function($scope,$localStorage,$document) {
   var vm = this;
+  
+  // I am getting the document width data through
+  // document element so I am not doing Dom manipulation
+  // in a controller!
+  
+  var documentWidth = $document[0].documentElement.clientWidth;
 
   vm.ribbon = [
     {
@@ -25,31 +31,10 @@ angular.module('site')
     }
   ];
 
-  // Set the localStorage default
-  
-  $localStorage.$default({
-    showArticleBar:true,
-    showContents: true
-  });
-
-  vm.displayContents = $localStorage.showContents;
-  vm.displaySideBar = $localStorage.showArticleBar;
-
-  console.log($localStorage);
   console.log("vm.displaySideBar: " + vm.displaySideBar);
 
   vm.openMenu = function($mdOpenMenu, ev) {
     $mdOpenMenu(ev);
-  };
-
-  vm.toggleSideBar = function() {
-    vm.displaySideBar =! vm.displaySideBar;
-    $localStorage.showArticleBar = vm.displaySideBar;
-  }
-
-  vm.toggleContents = function() {
-    vm.displayContents =! vm.displayContents;
-    $localStorage.showContents = vm.displayContents;
   }
 
 });

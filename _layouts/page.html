@@ -123,7 +123,7 @@ layout: default
           </div>
 
           <div>
-            <md-button v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+            <md-button toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
               <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
               <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>

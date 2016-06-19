@@ -3,7 +3,7 @@
 {% for my_page in include.nav %}
 {% if my_page.subitems and navurl contains my_page.url %}
 
-<div class="article-col" show-gt-sm hide ng-show="vm.displaySideBar">
+<collapse-bar class="article-col">
 
   <div style="margin-top: 38px;"></div>
   <div class="article-bar">
@@ -54,7 +54,7 @@
       {% endfor %}
     </ul>
   </div>
-</div>
+</collapse-bar>
 
 {% endif %}
 {% endfor %}
