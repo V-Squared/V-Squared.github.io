@@ -5,12 +5,25 @@ subtitle: Tutorial on how to one Article or an Article Group to V² Site.
 abstract: >
   *V² Site* offers a lot of *Automation* for Articles. Such as Navigation Menus, Readiness Ratings and the integration into V²Flow. To benefit from the Automation the article need to be set up correctly. This illustrated tutorial shows how to. No special knowledge to V² Site is required. You must have a GitHub account and at least be able to navigate the web interface of GitHub. If you are not member of the core team (if you have no write privileges to this repository* you still can add articles by **First:** Create a *Fork*, **Second:** Follow these instructions, **Third:** create a *Pull Request*.
 issueNo: 185
+contents:
+  - name: Where to Add Article
+    url: where-to-add
+  - name: Creating Menu Entry
+    url: creating-menu-entry
+  - name: Create the Article-Issue
+    url: create-article-issue
+  - name: Create Article File
+    url: create-article-file
+  - name: Check the Added Article
+    url: check-article
+  - name: Add Issue Number in Article
+    url: add-issue-no
 readiness:
    - is-active
 ---
 
 
-# Where to Add Article {#where-to-add}
+# Where to Add the Article {#where-to-add}
 
 ![](/plan/flow/writing/adding-articles/where-to-add.png)
 
@@ -24,8 +37,9 @@ Go to the place where you want to add the article, then identify:
 6. Create *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
 
 
+# Creating Menu Entry {#creating-menu-entry}
 
-# Get ready to edit book-bar.yaml {#edit-article-yml}
+## Get ready to edit book-bar.yaml {#edit-article-yml}
 
 ![](/plan/flow/writing/adding-articles/book-bar-yml.png)
 
@@ -41,7 +55,7 @@ Go to the place where you want to add the article, then identify:
 
 
 
-# Find where to edit {#where-to-edit}
+## Find where to edit {#where-to-edit}
 
 ![](/plan/flow/writing/adding-articles/where-to-edit.png)
 
@@ -51,23 +65,23 @@ Go to the place where you want to add the article, then identify:
 
 
 
-# Add Article to book-bar.yaml {#add-to-book-bar}
+## Add Article to book-bar.yaml {#add-to-book-bar}
 
-## Duplicate Entry
+### Duplicate Entry
 
 ![](/plan/flow/writing/adding-articles/duplicate-entry.png)
 
 Duplicate an entry of same type as we need.
 
 
-## Edit Entry
+### Edit Entry
 
 ![](/plan/flow/writing/adding-articles/edit-entry.png)
 
 Edit the duplicate to match the article we want to create.
 
 
-## Commit your Change
+### Commit your Change
 
 ![](/plan/flow/writing/adding-articles/commit-book-bar.png)
 
@@ -182,7 +196,7 @@ readiness:
 3. Click the newly addded article. It should load properly
 
 
-# Add Issue Number in Article
+# Add Issue Number in Article {#add-issue-no}
 
 If the Issue is not yet linked to the Article yet, you can link it like so:
 
