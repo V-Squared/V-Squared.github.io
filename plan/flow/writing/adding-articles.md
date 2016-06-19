@@ -30,7 +30,7 @@ contents:
     url: issue-task-template
   - name: →Note Issue Number
     url: note-issue-no
- - name: Create Article File
+  - name: Create Article File
     url: create-article-file
   - name: → Create File
     url: create-file
