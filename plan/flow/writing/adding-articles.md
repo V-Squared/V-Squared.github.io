@@ -12,7 +12,7 @@ readiness:
 
 # Where to Add Article {#where-to-add}
 
-![](adding-articles/where-to-add.png)
+![](/plan/flow/writing/adding-articles/where-to-add.png)
 
 Go to the place where you want to add the article, then identify:
 
