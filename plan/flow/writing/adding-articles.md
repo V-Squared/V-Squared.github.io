@@ -10,16 +10,49 @@ contents:
     url: where-to-add
   - name: Creating Menu Entry
     url: creating-menu-entry
+  - name: → Get ready book-bar.yaml
+    url: edit-article-yml
+  - name: → Find where to edit
+    url: where-to-edit
+  - name: → Duplicate Entry
+    url: duplicate-entry
+  - name: → Edit Entry
+    url: edit-entry
+  - name: → Commit your Change
+    url: commit-your-change
   - name: Create the Article-Issue
     url: create-article-issue
-  - name: Create Article File
+  - name: → Create new Issue
+    url: create-new-issue
+  - name: → Add Content to Article Issue
+    url: content-article-issue
+  - name: → Issue Task Template
+    url: issue-task-template
+  - name: →Note Issue Number
+    url: note-issue-no
+ - name: Create Article File
     url: create-article-file
+  - name: → Create File
+    url: create-file
+  - name: →Add Content
+    url: add-content
+  - name: → YML Template
+    url: yml-template
   - name: Check the Added Article
     url: check-article
   - name: Add Issue Number in Article
     url: add-issue-no
+  - name: → Hovering V²-Flow-Button
+    url: hovering-v2-flow-button
+  - name: → Clicking V²-Flow-Button
+    url: clicking-v2-flow-button
+  - name: → Linking the Issue
+    url: linking-the-issue
 readiness:
-   - is-active
+  - is-complete
+  - is-complete
+  - is-complete
+  - is-active
 ---
 
 
@@ -67,21 +100,21 @@ Go to the place where you want to add the article, then identify:
 
 ## Add Article to book-bar.yaml {#add-to-book-bar}
 
-### Duplicate Entry
+### Duplicate Entry {#duplicate-entry}
 
 ![](/plan/flow/writing/adding-articles/duplicate-entry.png)
 
 Duplicate an entry of same type as we need.
 
 
-### Edit Entry
+### Edit Entry {#edit-entry}
 
 ![](/plan/flow/writing/adding-articles/edit-entry.png)
 
 Edit the duplicate to match the article we want to create.
 
 
-### Commit your Change
+### Commit your Change {#commit-your-change}
 
 ![](/plan/flow/writing/adding-articles/commit-book-bar.png)
 
@@ -92,7 +125,7 @@ Edit the duplicate to match the article we want to create.
 
 # Create the Article-Issue {#create-article-issue}
 
-## Create new Issue
+## Create new Issue {#create-new-issue}
 
 ![](/plan/flow/writing/adding-articles/new-issue.png)
 
@@ -115,7 +148,7 @@ Edit the duplicate to match the article we want to create.
 6. Press: *Submit new issue"
 
 
-### Issue Task Template
+### Issue Task Template {#issue-task-template}
 
 ```markdown
 # Generic Tasks
@@ -137,7 +170,7 @@ Edit the duplicate to match the article we want to create.
 ```
 
 
-## Note Issue Number
+## Note Issue Number {#note-issue-no}
 
 
 ![](/plan/flow/writing/adding-articles/note-issue-number.png)
@@ -148,7 +181,7 @@ In this case the *Issue Number* is 185. You need it later to link the *Issue* to
 
 # Create Article File {#create-article-file}
 
-## Create File
+## Create File {#create-file}
 
 ![](/plan/flow/writing/adding-articles/new-file.png)
 
@@ -156,7 +189,7 @@ In this case the *Issue Number* is 185. You need it later to link the *Issue* to
 2. Go to corresponding folder in <>Code: [V-Squared.github.io/plan/flow/writing/](https://github.com/V-Squared/V-Squared.github.io/tree/master/plan/flow/writing)
 3. Click "Create new File* button
 
-## Add Content
+## Add Content {#add-content}
 
 ![](/plan/flow/writing/adding-articles/add-content.png)
 
@@ -172,7 +205,7 @@ In this case the *Issue Number* is 185. You need it later to link the *Issue* to
 5. Press Button: "Commit new file"
 
 
-### YML Template
+### YML Template {#yml-template}
 
 ```yml
 ---
@@ -200,14 +233,14 @@ readiness:
 
 If the Issue is not yet linked to the Article yet, you can link it like so:
 
-## Hovering V²-Flow-Button
+## Hovering V²-Flow-Button {#hovering-v2-flow-button}
 
 ![](/plan/flow/writing/adding-articles/hover-v2-flow-button.png)
 
 Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
 
 
-## Clicking V²-Flow-Button
+## Clicking V²-Flow-Button {#clicking-v2-flow-button}
 
 ![](/plan/flow/writing/adding-articles/click-v2-flow-button.png)
 
@@ -216,7 +249,7 @@ Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
 3. The GitHub text editor opens in a new tab with the mathching markdown file to the article.
 
 
-## Linking the Issue
+## Linking the Issue {#linking-the-issue}
 
 ![](/plan/flow/writing/adding-articles/add-issueNo.png)
 
