@@ -48,7 +48,7 @@ contents:
     url: clicking-v2-flow-button
   - name: → Linking the Issue
     url: linking-the-issue
-  - name: → Tip: Article Group
+  - name: Tip: Article Group
     url: create-article-group
 readiness:
   - is-complete
