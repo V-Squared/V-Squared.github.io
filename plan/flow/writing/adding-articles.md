@@ -8,3 +8,205 @@ issueNo: 185
 readiness:
    - is-active
 ---
+
+
+# Where to Add Article {#where-to-add}
+
+![](adding-articles/where-to-add.png)
+
+Go to the place where you want to add the article, then identify:
+
+1. What is the *Baord*: Plan
+2. What is the *Book*: Flow
+3. What is the *Article Group*: Writing Articles
+4. Where you want to place the new *Article*: Under "Style Guide"
+5. What is the new Article's name: Adding Articles
+6. Create *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
+
+
+
+# Get ready to edit book-bar.yaml {#edit-article-yml}
+
+![](adding-articles/book-bar-yml.png)
+
+1. Go to [V² > V-Squared.github.io > _data](https://github.com/V-Squared/V-Squared.github.io/tree/master/_data)
+   - Note: Make sure it is in the Master Branch
+2. Pick the *Board* in which you want to add the *Article*
+   - Note: In this example we choose *Plan*
+3. Open "book-bar.yml"
+4. Click the *Edit* Button
+5. Add the Article into the tree structure of this yml document
+   - Note: The syntax should be obvious to you after reading this file. If not, please read -> [Wikipedia > YAML](https://en.wikipedia.org/wiki/YAML)
+6. Example code change
+
+
+
+# Find where to edit {#where-to-edit}
+
+![](adding-articles/where-to-edit.png)
+
+1. Remember *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
+2. Remember where to place: Under "Style Guide"
+3. Find the place to add the Article
+
+
+
+# Add Article to book-bar.yaml {#add-to-book-bar}
+
+## Duplicate Entry
+
+![](adding-articles/duplicate-entry.png)
+
+Duplicate an entry of same type as we need.
+
+
+## Edit Entry
+
+![](adding-articles/edit-entry.png)
+
+Edit the duplicate to match the article we want to create.
+
+
+## Commit your Change
+
+![](adding-articles/commit-book-bar.png)
+
+1. Enter Commit Message
+2. Press Button *Commit Changes*
+
+
+
+# Create the Article-Issue {#create-article-issue}
+
+## Create new Issue
+
+![](adding-articles/new-issue.png)
+
+1. Go to Issues of [V-Squared/V-Squared.github.io](https://github.com/V-Squared/V-Squared.github.io/issues)
+2. Click button: "New issue"
+
+
+## Add Content to Article Issue {#content-article-issue}
+
+![](adding-articles/add-content-issue.png)
+
+
+1. Paste the *Path* into the *Title* field
+2. Paste *Issue Task Template* into the *Leave a comment* field
+3. Update Article-Path and Article URL in Reference section of *Issue Task Template*
+   - *Note:* You will use this link when you want to open the matching article to this issue.
+4. Add: Labels, Milestones, Assignees
+   - Note: Labels that start with "m." are mandatory, instead "o." is optional.
+5. Tick completed tasks
+6. Press: *Submit new issue"
+
+
+### Issue Task Template
+
+```markdown
+# Generic Tasks
+
+- [x] Create Issue
+- [ ] Add Link to Article in Reference of this Issue
+- [ ] Classify Labels, Milestone & Assignee
+- [ ] Create Article
+- [ ] Create Title / Subtitle / Abstract
+- [ ] Enter Issue No in Article
+- [ ] Write Article
+- [ ] Add cross references
+- [ ] Trigger review
+- [ ] Include review feedback
+
+
+# Reference
+- [Article > Path > ???](Article/URL/???/)
+```
+
+
+## Note Issue Number
+
+
+![](adding-articles/note-issue-number.png)
+
+In this case the *Issue Number* is 185. You need it later to link the *Issue* to the *Article*.
+
+
+
+# Create Article File {#create-article-file}
+
+## Create File
+
+![](adding-articles/new-file.png)
+
+1. Remember *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
+2. Go to corresponding folder in <>Code: [V-Squared.github.io/plan/flow/writing/](https://github.com/V-Squared/V-Squared.github.io/tree/master/plan/flow/writing)
+3. Click "Create new File* button
+
+## Add Content
+
+![](adding-articles/add-content.png)
+
+
+1. Enter file name: "adding-articles.md"
+   - **Note:** If this does not match your entry in book-bar.yml you will get a 404 Error when browsing to this page in the *Article-Bar*.
+   - **Note:** Remember to add the extension ".md". This indicates that the file content is of *Markdown* type.
+2. Copy Paste the YML Template (see below)
+3. Fill out the YML Template
+   - **Note 1:** You can use markdown formatting in subtitle and abstract if you use the *greater sign:* ">" in combination with new line and tab indent. See the screen snapshot.
+   - **Note 2:** Except for the above you are not allowed to use new line within values.
+4. Enter Commit Message
+5. Press Button: "Commit new file"
+
+
+### YML Template
+
+```yml
+---
+layout: page
+title: 
+subtitle: 
+abstract: 
+issueNo: 
+readiness:
+   - is-active
+---
+```
+
+
+# Check the Added Article {#check-article}
+
+![](adding-articles/check-article.png)
+
+1. Reload the Article Page
+2. The added article should show up in Article Navigation Bar
+3. Click the newly addded article. It should load properly
+
+
+# Add Issue Number in Article
+
+If the Issue is not yet linked to the Article yet, you can link it like so:
+
+## Hovering V²-Flow-Button
+
+![](adding-articles/hover-v2-flow-button.png)
+
+Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
+
+
+## Clicking V²-Flow-Button
+
+![](adding-articles/click-v2-flow-button.png)
+
+1. On click the Floating Action Menu of the V²-Flow-Button is shown. Select: "Edit Article".
+2. Click the "Edit Article" Button
+3. The GitHub text editor opens in a new tab with the mathching markdown file to the article.
+
+
+## Linking the Issue
+
+![](adding-articles/add-issueNo.png)
+
+1. Enter the Issue Number to the property: "issueNo:**
+   *Note 1:* See above on how to find the value of the issue number 
+   *Note 2:* Make sure to have a space between the colon and the number
+
