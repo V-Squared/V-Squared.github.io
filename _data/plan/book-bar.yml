@@ -72,6 +72,8 @@
           url: /flow/writing/how-to/
         - menu: Style Guide
           url: /flow/writing/style-guide/
+        - menu: Adding Articles
+          url: /flow/writing/adding-articles/
     - menu: Mechanical Design
       group:
         - menu: Intro Mechanical Design
