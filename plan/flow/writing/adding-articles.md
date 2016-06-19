@@ -48,6 +48,8 @@ contents:
     url: clicking-v2-flow-button
   - name: → Linking the Issue
     url: linking-the-issue
+  - name: → Tip: Article Group
+    url: create-article-group
 readiness:
   - is-complete
   - is-complete
@@ -257,3 +259,45 @@ Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
    *Note 1:* See above on how to find the value of the issue number 
    *Note 2:* Make sure to have a space between the colon and the number
 
+
+# Tip: Create Article Group {#create-article-group}
+
+## Step 1: Create the Menu Entries
+
+```markdown
+- menu: Flow
+  url: /flow/
+  desc: >
+    Workflows on contributing to V² in ready to use quality.
+  subitems:
+    - menu: Writing Articles
+      group: 
+        - menu: Intro Writing Articles
+          url: /flow/writing/intro/
+        - menu: How-To Task-Templates
+          url: /flow/writing/how-to/
+        - menu: Style Guide
+          url: / flow/writing/style-guide/
+```
+
+## Step 2: Create Issues & Note Issue Number
+
+```markdown
+- menu: Flow
+  url: /flow/
+  desc: >
+    Workflows on contributing to V² in ready to use quality.
+  subitems:
+    - menu: Writing Articles
+      group: 
+        - menu: Intro Writing Articles   #176
+          url: /flow/writing/intro/
+        - menu: How-To Task-Templates #177
+          url: /flow/writing/how-to/
+        - menu: Style Guide #178
+          url: / flow/writing/style-guide/
+```
+
+## Step 3: Create Article
+
+The trick is that now you already have the Issue Numbers and can enter them into the yml file. This saves you the step to later link the Article to the Issue.
