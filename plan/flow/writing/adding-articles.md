@@ -24,17 +24,17 @@ contents:
     url: create-article-issue
   - name: → Create new Issue
     url: create-new-issue
-  - name: → Add Content to Article Issue
+  - name: → Add Content to Issue
     url: content-article-issue
   - name: → Issue Task Template
     url: issue-task-template
-  - name: →Note Issue Number
+  - name: → Note Issue Number
     url: note-issue-no
   - name: Create Article File
     url: create-article-file
   - name: → Create File
     url: create-file
-  - name: →Add Content
+  - name: → Add Content
     url: add-content
   - name: → YML Template
     url: yml-template
