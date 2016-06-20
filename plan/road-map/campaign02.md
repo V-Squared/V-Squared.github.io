@@ -97,6 +97,5 @@ Click the milestone to see the open list of issues of this milestone.
 
 The below snapshot shows completion of milestones by June 11th 2016. For an updated status, please click → [Milestones](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
 
-[![progress-milestones](/plan/road-map/campaign02/progress-snap](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
+[![progress-milestones](/plan/road-map/campaign02/progress-snap.png)](https://github.com/V-Squared/V-Squared.github.io/milestones?direction=desc&sort=count&state=open)
 
-![progress-milestones](https://cloud.githubusercontent.com/assets/7278716/15971227/b75cfed4-2f6a-11e6-827b-dfeb1e688762.png)
