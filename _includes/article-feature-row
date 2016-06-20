@@ -52,7 +52,7 @@
      id="{{include.id}}"
      {% if include.background %}style="background: {{include.background}}"{% endif %}>
     {% for feature in feature_row %}
-    <div layout="row" layout-xs="column" layout-align="none center" class="uk-text-{{align}}">
+    <div layout="row" layout-xs="column" class="uk-text-{{align}}">
       {% if feature.image %}
       <div flex="40">
         <img src="{{feature.image}}" alt="{{feature.alt}}">
