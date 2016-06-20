@@ -29,29 +29,7 @@ contents:
     url: prepared
 readiness:
    - is-active
-feature-1:
-   - image: /plan/flow/mechanical/cad-cam-cnc/workflow.png
-     desc: >
-       **Specs** Specifications and to do lists to complete the design. We use Trello to organize, coordinate, delegate and synchronize our work.<br>
-       
-       **CAD:** We design the part or a complete assembly of parts in Computer Aided Design. We use SolidWorks for complex designs such as ViCase and FreeCAD for simple designs, such as Fixtures to help manufacturing, say assembling ViCase. The CAD departments exports the design not as assembly but part for part in .igs file to hand over to CAM.<br>
-       
-       **.igs** File: is the file format we chose to hand over the design of one part from CAD → CAM.<br>
-       
-       **CAM:** Our end goal is to automatically manufacture the part with CNC Machines. The CNC Machine follows Tool Paths with its tool and thus cutting everything away which is not needed. The CAM (Computer Aided Manufacturing) department generates these Tool Paths from the .igs files and saves them as .nc (numeric control) files.<br>
-       
-       **File Conversion:** The CAM department receives .igs files and converts them to .stl and .dxf files. We use FreeCAM for this Job.<br>
-       
-       **Building Toolpath:** is a difficult job that requires lots of experience. We use CAMBAM for this work. It imports paths as .dxf files. However, .dxf files are 2D only and the part is a 3D part (2.5D to be exact). The person who builds the Toolpath has the 3D part open in FreeCAD side by side with CAMBAM so he can extract the missing 2.5D information from FreeCAD and enter manually into CAMBAM. This is symbolized by the “2.5D info” box in the flow chart to the left.<br>
-       
-       **CAM Verification:** Since the generation of Tool Paths is a manual process, errors can happen. The purpose of CAM
-       Verification is to find these Errors before cutting the part in CNC to avoid high costs.<br>
-       
-       **.nc:** is the file format we chose to hand over the part as numeric control file from CAM → CNC.<br>
-       
-       **CNC Cut:** The process where a Computer Numeric Controlled Machine moves a tool along a tool path, cutting away all stock material which is not needed and revealing the part.<br>
-       
-       **Part:** The CNC cut component from which we build our product case.
+
 ---
 
 # Overview {#overview}
@@ -62,17 +40,17 @@ feature-1:
   </div>
   <div flex>
   
-    <p><b>Specs</b> Specifications and to do lists to complete the design. We use Trello to organize, coordinate, delegate and synchronize our work.</p>
+    <p><b>Specs</b> Specifications and to do lists to complete the design. We use GitHub and Trello to organize, coordinate, delegate and synchronize our work.</p>
        
-    <p><b>CAD:</b> We design the part or a complete assembly of parts in Computer Aided Design. We use SolidWorks for complex designs such as ViCase and FreeCAD for simple designs, such as Fixtures to help manufacturing, say assembling ViCase. The CAD departments exports the design not as assembly but part for part in .igs file to hand over to CAM.</p>
+    <p><b>CAD:</b> We design the part or a complete assembly of parts in Computer Aided Design. We use SolidWorks for complex designs such as ViCase and FreeCAD for simple designs, such as Fixtures to help manufacturing, say assembling ViCase.</p>
        
-    <p><b>.igs</b> File: is the file format we chose to hand over the design of one part from CAD → CAM.</p>
+    <p><b>.igs</b> File: This file format works well to transfer the design of one part from CAD → CAM.</p>
        
-    <p><b>CAM:</b> Our end goal is to automatically manufacture the part with CNC Machines. The CNC Machine follows Tool Paths with its tool and thus cutting everything away which is not needed. The CAM (Computer Aided Manufacturing) department generates these Tool Paths from the .igs files and saves them as .nc (numeric control) files.</p>
+    <p><b>File Conversion:</b> The CAM department uses FreeCAM to convert the .igs files into .stl and .dxf files plus 3D info.</p>
        
-    <p><b>File Conversion:</b> The CAM department receives .igs files and converts them to .stl and .dxf files. We use FreeCAM for this Job.</p>
+    <p><b>CAM:</b> The CAM (Computer Aided Manufacturing) process generates Tool Paths saved in a .nc (numeric control) file. The CNC Machine load the nc file and follows the Tool Paths with its tools and thus cutting everything away which is not needed.</p>
        
-    <p><b>Building Toolpath:</b> is a difficult job that requires lots of experience. We use CAMBAM for this work. It imports paths as .dxf files. However, .dxf files are 2D only and the part is a 3D part (2.5D to be exact). The person who builds the Toolpath has the 3D part open in FreeCAD side by side with CAMBAM so he can extract the missing 2.5D information from FreeCAD and enter manually into CAMBAM. This is symbolized by the “2.5D info” box in the flow chart to the left.</p>
+    <p><b>Building Toolpaths:</b> is a complicated job that requires a lot of skill and experience. The CAM engineer exports a feature outline from FreeCAD in .dxf, imports it into Cambam and then adds CNC attributes to it such as feed and spindle speed. Once done the toolpaths are saved in the .nc file.</p>
        
     <p><b>CAM Verification:</b> Since the generation of Tool Paths is a manual process, errors can happen. The purpose of CAM
     Verification is to find these Errors before cutting the part in CNC to avoid high costs.</p>
