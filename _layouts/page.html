@@ -51,8 +51,7 @@ layout: default
         <div layout="row" layout-align="space-between none" no-gap class="status-bar">
           <div layout="row" no-gap layout-align="none center">
             <md-button v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-              <md-icon ng-show="vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-              <md-icon ng-show="!vm.displaySideBar" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+              <span toggle-collapse-bar="article-col"></span>
             </md-button>
           </div>
           <div layout="row" no-gap layout-align="none center">
@@ -123,9 +122,8 @@ layout: default
           </div>
 
           <div>
-            <md-button toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
-              <md-icon ng-show="vm.displayContents" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="!vm.displayContents" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+            <md-button v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
+              <span toggle-collapse-bar="article-toc"></span>
             </md-button>
           </div>
         </div>
