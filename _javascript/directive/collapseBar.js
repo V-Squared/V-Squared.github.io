@@ -19,7 +19,6 @@ angular.module('site')
       };
       
       foldBar.type = foldBar.type || 'Sm';
-      console.log(foldBar.isCollapse.collapse);
   
       foldBar.checkCollapse = function() {
         var documentWidth = $window.innerWidth;
@@ -37,12 +36,14 @@ angular.module('site')
         }
         
         if(documentWidth > 960 && foldBar.type == 'Sm') {
-          foldBar.isCollapse.collapse = true;
+          foldBar.isCollapse.collapse = false;
         }
       }
       
       $rootScope.$on('toggleCollapse',function(event,id) {
+        console.log("$emited: " + foldBar.id);
         if (id == foldBar.id) {
+          console.log("Success if: " + foldBar.id);
           foldBar.isCollapse.collapse =!foldBar.isCollapse.collapse;
           foldBar.isCollapse.important = true;
         }
@@ -50,10 +51,11 @@ angular.module('site')
     },
     link: function(scope,element,attrs,foldBar) {
       
-      console.log("before checkCollapse()");
-      console.log("isCollapse: " + foldBar.isCollapse.collapse);
-      
       foldBar.checkCollapse();
+      
+      console.log(foldBar.isCollapse.collapse);
+      
+      watchCollapse(foldBar.isCollapse.collapse,false);
       
       // Bind Events
       angular.element($window).bind('resize',function() {
@@ -62,39 +64,36 @@ angular.module('site')
         });
       });
       
-      console.log("After checkCollapse()");
-      console.log("isCollapse: " + foldBar.isCollapse.collapse);
       
-      scope.$watch("foldBar.isCollapse.collapse",function(isCollapse,wasCollapse) {
-        console.log("Watcher wasCollapse: " + wasCollapse);
-        console.log("Watcher isCollapse: " + isCollapse);
+      function watchCollapse (isCollapse,wasCollapse) {
         
         if (isCollapse != wasCollapse) {
-          console.log("watcher is triggered");
           if(isCollapse) {
-            element.hide();
-            console.log("set element.hide");            
+            element.hide();  
           } else {
-            element.show();
-            console.log("set element.show");    
+            element.show();  
           }
         }
-      },true);
+        
+      }
+      
+      
+      scope.$watch("foldBar.isCollapse.collapse",watchCollapse,true);
     }
   }
 }])
-.directive('toggleCollapseBar', [ 'collapseBar',function(collapseBar) {
+.directive('toggleCollapseBar', [ 'collapseBar', function(collapseBar) {
   return {
     restrict:'A',
     scope: {
       id: '@toggleCollapseBar'
     },
-    link: function(scope,element,attrs) {
-      
-      element.bind('click',function(event) {
+    link: function (scope,element,attrs) {
+      element.bind('click',clickCallBack);
+        
+        function clickCallBack () {
           collapseBar.toggle(scope.id);
-      });
-      
+        }
     }
   }
 }])
@@ -102,6 +101,7 @@ angular.module('site')
   
   this.toggle = function(id) {
     $rootScope.$emit('toggleCollapse',id);
+    console.log("collapseBar Toggle: " + id);
   }
   
 }]);
