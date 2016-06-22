@@ -4,7 +4,7 @@ menu: Target
 title: True North
 subtitle: Where we want to be
 abstract: >
-   The mission of V² is expressed in **V² True North**: A vision on how the world will look like in 2021 after the successful introduction of V² Modular PC, showing how it will improve your life. It shows the user where we are going and guides the contributor to get there.
+   The mission of V² is expressed in **V² True North**: A list of *User Stories* for each Product Line / Service / Standards of V². Each group of user stories contains views of *User*, *Manufacturer* and *Retailer*. These *User Stories* show them where we are going and guides the contributor to get there. As always you can provide feedback and contributions via *V²Flow Button*.
 issueNo: 100
 contents:
    - name: Where True North Fits
@@ -36,35 +36,39 @@ True North is our vision which we are working towards. To not get lost in the mi
      - **L7: Task:** Actual work to be completed.
 
 
+# About Agile User Story Format
 
-# Vision of an Open Modular Mini PC {#vision-modular-pc}
+In *product development* a *user story* is a description from the user point of view. We use the *user story template*: "As a <role>, I want <goal/desire> so that <benefit>". V² services three user types: the *computer user*, the *computer manufacturer* and the *compuer retailer*. Consequently we deliver thre user stories, one for each user type. If you are interested in more information on user stories → [Wikipedia > User stroy](https://en.wikipedia.org/wiki/User_story)
 
-## Good Looking
+# User Stories
 
-## Easy Building
+## Open Modular Mini PC {#vision-modular-pc}
 
-## Easy Upgrading
+### Workstation User
 
-## Easy Repairing
+As a **Workstation User** **I want:** a Mini PC that is as powerful as a workstation PC. It is build from standard desktop components. This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. The workstation is quiet, important for a relaxed working environment. The small size opens up complete new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy acces to the PC very comfortable. The integrated EMI filter and surge protection increases reliability. The added USB ports and power distribution removed the cable and adapter mess. 
 
-## Fluid Formfactor
-
-## Quiet
-
-## Powerful
-
-## Lots of Accessories
-
-## Open Source Standard
-
-## Compatibility across Brands and Models
-
-## Portable
-
-## Modular All-In-One
+**My benefits are** Significant cost savings, more comfortable working, more cleaned up work desk, portability and increased service life.
 
 
+### Computer Manufacturer
 
-# Vision of an Open Modular Docking Station {#vision-docking-station}
+As a **Computer Mannufacturer** I want
+
+### Computer Retailer
+
+As a **Computer Retailer** I want
+
+
+## Open Modular All-In-One
+
+## Vision of Open Modular PC Accessory System
+
+## Vision of DIY Custom PC Know How
+
+## Vision of Open Standards
+
+
+## Vision of an Open Modular Docking Station {#vision-docking-station}
 
 
