@@ -46,16 +46,40 @@ In *product development* a *user story* is a description from the user point of 
 
 ### Workstation User
 
-As a **Workstation User** **I want:** a Mini PC that is as powerful as a workstation PC. It is build from standard desktop components. This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. The workstation is quiet, important for a relaxed working environment. The small size opens up complete new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy acces to the PC very comfortable. The integrated EMI filter and surge protection increases reliability. The added USB ports and power distribution removed the cable and adapter mess. 
+As a **Workstation User** **I want:** a Mini PC that is as powerful as a workstation PC. It is build from standard desktop components. This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. The workstation is quiet, important for a relaxed working environment. The small size opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable. The integrated EMI filter and surge protection increases reliability. The added USB ports and power distribution removed the cable and adapter mess. 
 
-**My benefits are** Significant cost savings, more comfortable working, more cleaned up work desk, portability and increased service life.
+**My benefits are** Significant cost savings, more comfortable working, cleaner work desk, increased productivity and increased service life.
 
 
-### Computer Manufacturer
+# Open Modular Mini PC User Stories
+
+## Workstation User
+
+**As a workstation user I want the benefits of:** 
+
+- Significant cost savings
+- More comfortable working
+- Cleaner work desk
+- Increased productivity
+- Increased service life
+- Increased reliability
+
+**This is made possible by the following features:**
+
+- **Powerful:** CPU up to i7 Quad Core, GPU up to K1200, NVME PCIe Boot Disk, SSD RAID Data Disks
+- **Standard desktop components:** This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. 
+- **Quiet:** important for a relaxed working environment
+- **Small Mini PC Size:** Opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable. - **Safety:** The integrated EMI filter and surge protection increases reliability. 
+- **Clean Desk:** The added USB ports and power distribution removes the cable and adapter mess. 
+
+
+
+
+# Computer Manufacturer User Stories
 
 As a **Computer Mannufacturer** I want
 
-### Computer Retailer
+# Computer Retailer
 
 As a **Computer Retailer** I want
 
