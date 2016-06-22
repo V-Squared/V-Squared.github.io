@@ -69,7 +69,8 @@ As a **Workstation User** **I want:** a Mini PC that is as powerful as a worksta
 - **Powerful:** CPU up to i7 Quad Core, GPU up to K1200, NVME PCIe Boot Disk, SSD RAID Data Disks
 - **Standard desktop components:** This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. 
 - **Quiet:** important for a relaxed working environment
-- **Small Mini PC Size:** Opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable. - **Safety:** The integrated EMI filter and surge protection increases reliability. 
+- **Small Mini PC Size:** Opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable.
+- **Safety:** The integrated EMI filter and surge protection increases reliability. 
 - **Clean Desk:** The added USB ports and power distribution removes the cable and adapter mess. 
 
 
