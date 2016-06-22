@@ -21,6 +21,8 @@ readiness:
 
 ## Comparison
 
+
+
 {:.uk-table.uk-table-hover}
 
 |                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z230 | HP Z1 | Dell Precision Tower |
@@ -54,7 +56,9 @@ From photographers to designers working in the field, having a powerful machine 
 You can negotiate with the V²PC Community Store to also install PC parts of your choosing for you, such as special PCI Express Card that you need and which is not included in the V²Configurator. Basically, what you can buy we can assemble into your PC for you, as long as the parts are compatible.
 
 ## DIY Option
-For the Budget conscientious. Shaves off another $100 US.
+Building a PC yourself is still the most budget consious choice one can make when buying a new computer. Going DIY gives you the freedom to choose which parts you buy, from any manufacturer you want. Doing it yourself also cuts the cost of the PC, leaving you with more money in the pocket or better performing PC parts. 
+
+   DIY isn't for everyone though. While building a PC has gotten easier, 
 
 ## I Fixit Option
 Whereas other manufacturers will void your warranty when you try to fix it yourself, we are empowering you to do:
