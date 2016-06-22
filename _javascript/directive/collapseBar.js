@@ -84,6 +84,8 @@ angular.module('site')
       
       var toggle = this;
       
+      toggle.isCollapse = false;
+      
       this.$postLink = function () {
         
         $element.bind('click',clickCallBack);
@@ -122,6 +124,18 @@ angular.module('site')
   
   this.toggle = function(id) {
     this.isCollapse[id].collapse =! this.isCollapse[id].collapse;
+  }
+  
+  this.open = function (id) {
+    this.isCollapse[id].collapse = false;
+  }
+  
+  this.close = function (id) {
+    this.isCollapse[id].collapse = true;
+  }
+  
+  this.getIsCollapse = function (id) {
+    return this.isCollapse[id];
   }
   
 }]);

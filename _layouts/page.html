@@ -54,50 +54,19 @@ layout: default
               <span toggle-collapse-bar="article-col"></span>
             </md-button>
           </div>
-          <div layout="row" no-gap layout-align="none center">
+          <div layout="row" layout-align="none center">
             
             {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
             {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
             {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+            
             {% for i in (1..forLoopMaxInt) %}
-            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-
-            {% for breadcrumb_page in bookbar %}
-
-            {% capture breadcrumb_pageUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_page.url}}{% endcapture %}
-
-            {% if current_breadcrumb_url == breadcrumb_pageUrl or
-            current_breadcrumb_md_url == breadcrumb_pageUrl %}
-            {% assign j = forLoopMaxInt | plus: 0 %}
-
-            {% if i == j %}
-            
-            {% assign pagePath = breadcrumb_pageUrl | prepend: 'V²' | replace: '/', '>' %}
-            
-            {% endif %}
-
-            {% endif %}
-
-            {% for breadcrumb_sub in breadcrumb_page.subitems %}
-
-            {% capture breadcrumb_subUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_sub.url}}{% endcapture %}
-
-            {% if current_breadcrumb_url == breadcrumb_subUrl or
-            current_breadcrumb_md_url == breadcrumb_subUrl %}
-            {% if i == j %}
-            
-              {% assign pagePath = breadcrumb_subUrl | prepend: 'V²' | replace: '/', '>' %}
-          
-            {% endif %}
-
-            {% endif %}
-
+              {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+              {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+              {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
             {% endfor %}
-
-            {% endfor %}
-            {% endfor %}
+            
+            {% capture next_prepender %}{% endcapture %}
             
             <md-button v2-tooltip="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing" class="md-icon-button" aria-label="Toggle Copy Article Path"
                        clipboard text="'{{pagePath}}'">
@@ -248,6 +217,25 @@ layout: default
             </li>
 
             {% endif %}
+            
+            {% for breadcrumb_group in breadcrumb_sub.group %}
+            
+            {% capture breadcrumb_groupUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_group.url}}{% endcapture %}
+            
+            {% if current_breadcrumb_url == breadcrumb_groupUrl or
+            current_breadcrumb_md_url == breadcrumb_groupUrl %}
+            
+            <li>
+              <a>{{breadcrumb_sub.menu}}</a>
+            </li>
+            
+            <li {% if i == j %}class="active"{% endif %}>
+              <a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{{breadcrumb_group.menu}}</a>
+            </li>
+
+            {% endif %}
+            
+            {% endfor %}
 
             {% endfor %}
 
