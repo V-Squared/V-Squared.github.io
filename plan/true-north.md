@@ -36,64 +36,51 @@ True North is our vision which we are working towards. To not get lost in the mi
      - **L7: Task:** Actual work to be completed.
 
 
-# About Agile User Story Format
+# Mission
 
-In *product development* a *user story* is a description from the user point of view. We use the *user story template*: "As a <role>, I want <goal/desire> so that <benefit>". V² services three user types: the *computer user*, the *computer manufacturer* and the *compuer retailer*. Consequently we deliver thre user stories, one for each user type. If you are interested in more information on user stories → [Wikipedia > User stroy](https://en.wikipedia.org/wiki/User_story)
+## Making Missing Mini PC Standard Mainstream
 
-# User Stories
-
-## Open Modular Mini PC {#vision-modular-pc}
-
-### Workstation User
-
-As a **Workstation User** **I want:** a Mini PC that is as powerful as a workstation PC. It is build from standard desktop components. This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. The workstation is quiet, important for a relaxed working environment. The small size opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable. The integrated EMI filter and surge protection increases reliability. The added USB ports and power distribution removed the cable and adapter mess. 
-
-**My benefits are** Significant cost savings, more comfortable working, cleaner work desk, increased productivity and increased service life.
+## Analogy to ATX Desktop PC Standard
 
 
-# Open Modular Mini PC User Stories
+# Principles
 
-## Workstation User
+## Open Source
 
-**As a workstation user I want the benefits of:** 
+## Zero Cost License
 
-- Significant cost savings
-- More comfortable working
-- Cleaner work desk
-- Increased productivity
-- Increased service life
-- Increased reliability
+## Trailblazer Products
 
-**This is made possible by the following features:**
+## Easy Contribution with V² Flow
 
-- **Powerful:** CPU up to i7 Quad Core, GPU up to K1200, NVME PCIe Boot Disk, SSD RAID Data Disks
-- **Standard desktop components:** This makes custom building the workstation matching my requirements low cost. During the life time of the workstation it is easy to upgrade bottle neck parts. Even fixing the workstation is easy by isolating and replacing the defective part, leading to short repair times. 
-- **Quiet:** important for a relaxed working environment
-- **Small Mini PC Size:** Opens up completely new use cases: when needed it is convenient to take my workstation from my work desk to my home or to my customer. Placing the PC on top of the table makes wiring easy and access to the PC very comfortable.
-- **Safety:** The integrated EMI filter and surge protection increases reliability. 
-- **Clean Desk:** The added USB ports and power distribution removes the cable and adapter mess. 
+## Quality Assurance
+
+## Agile Development
+
+## Public Road Map
+
+## No Gating
+
+## Modular Design
 
 
 
+# Benefits
 
-# Computer Manufacturer User Stories
+## Reduce Cost
 
-As a **Computer Mannufacturer** I want
+## Save Planet
 
-# Computer Retailer
-
-As a **Computer Retailer** I want
-
-
-## Open Modular All-In-One
-
-## Vision of Open Modular PC Accessory System
-
-## Vision of DIY Custom PC Know How
-
-## Vision of Open Standards
+## Simplify DIY
 
 
-## Vision of an Open Modular Docking Station {#vision-docking-station}
+
+# How life will look like ...
+
+## ... as Computer Manufacturer
+
+## ... as Computer Retailer
+
+## ... as Computer User
 
 
