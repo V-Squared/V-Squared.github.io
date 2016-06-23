@@ -158,10 +158,11 @@ How life looks after V² has become mainstream from the point of view of compute
 A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
 
 ## Life after V² as Computer Retailer
-A computer retailer selling V² compatible PCs has reduced inventory cost and at the same time increased product availability. Due to the fast and low cost repair service for V²PCs he is increasing sales and customer's satisfaction.
+A computer retailer selling V² compatible PCs has reduced inventory costs while at the same time increased product availability. The modular nature also allows fast and low cost repair service for V²PCs, increasing sales and customer's satisfaction.
+
 
 ## Life after V² as Computer Manufacturer
-A computer manufacturer using V² Standards has a shorter development time with less development risks. Production is faster with lower cost and less custom tooling. Inventory cost is reduced by less custom parts and increased number of parts that are shared across more products.
+A computer manufacturer using V² Standards has a shorter development time with less risks. Production is faster with lower costs and less custom tooling. Inventory costs are reduced by fewer custom parts and increased number of standardaized parts that are shared across products.
 
 
 
