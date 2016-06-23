@@ -11,12 +11,12 @@ contents:
     url: fit-where
   - name: V² Mission
     url: v2-mission
-  - name: V² Principles
-    url: v2-principles
   - name: V² Benefits
     url: v2-benefits
   - name: Life after V²
     url: life-after-v2
+  - name: V² Principles
+    url: v2-principles
 readiness:
    - is-complete
    - is-complete
@@ -53,6 +53,51 @@ At V² we are a global community of architects, thinkers, engineers and marketee
 ## Analogy to ATX Desktop PC Standard
 
 Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
+
+
+# V² Benefits {#v2-benefits}
+
+## Reduce Cost
+
+Today mini and All-In-One PCs are significantly more expensive than an ATX Desktop PC with identical specs. After V² becomes mainstream the cost of mini and All-In-One PCs will be identical to a desktop ATX PC with identical specs.
+
+## Save Planet
+
+Computer waste with all their hazardeous materials is one of the ecological problems of our planet. The modular nature of V² PCs allows the user to replace the broken or bottlenecked component to extend the service life. By trashing only a few parts versus the entire PC, computer waste is greatly reduced.
+
+## Simplify DIY
+
+Standardization of parts, ready made configurations, benchmarks, DIY Know-How articles are all published in open source. They aim to reduce the learning curve and trial and error in building a custom PC.
+
+## Flexibility
+
+V²PC is modular, giving the user greater customization and optimization options for his/her needs. We give you the necessary tools to make configuring what you want easy and intuitive.
+
+## Fluid Form Factor
+
+The owner of a V²PC can change the form factor of his PC from desktop to mini to All-in-One at any time, avoiding the need to buy a new PC in case he/she needs a different form factor.
+
+## Portability
+
+V²PCs are more portable than traditional PC counterparts, giving users portability without sacrificing performance; this opens new creative use cases.
+
+
+
+
+# Life after V² {#life-after-v2}
+
+How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturers:
+
+## Life after V² as Computer User
+A computer user of a V² compatible PC enjoy's lower buying costs while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves costs due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
+
+## Life after V² as Computer Retailer
+The modular design of V² Product family reduces the inventory cost of a computer retailer selling V² compatible PCs while at the same time increasing availability of different computer models. The fast and low cost repair service gives the shop a tool that helps customers quickly and easily, minimizing their computer down time and increasing customer loyalty.
+
+
+## Life after V² as Computer Manufacturer
+A computer manufacturer using V² Standards has a shorter development time with less risks. Production is faster with lower costs and less custom tooling. Inventory costs are reduced by fewer custom parts and increased number of standardized parts that are shared across products.
+
 
 
 # V² Principles {#v2-principles}
@@ -128,52 +173,3 @@ Wherever possible we use our own standards, specs, apps, and products in our dev
 ## Easy to Fix
 
 All V² Products are conceived, designed, made, and documented with the goal to make it easy for the end user to identify and replace the faulty part.
-
-
-
-# V² Benefits {#v2-benefits}
-
-## Reduce Cost
-
-Today mini and All-In-One PCs are significantly more expensive than an ATX Desktop PC with identical specs. After V² becomes mainstream the cost of mini and All-In-One PCs will be identical to a desktop ATX PC with identical specs.
-
-## Save Planet
-
-Computer waste with all their hazardeous materials is one of the ecological problems of our planet. The modular nature of V² PCs allows the user to replace the broken or bottlenecked component to extend the service life. By trashing only a few parts versus the entire PC, computer waste is greatly reduced.
-
-## Simplify DIY
-
-Standardization of parts, ready made configurations, benchmarks, DIY Know-How articles are all published in open source. They aim to reduce the learning curve and trial and error in building a custom PC.
-
-## Flexibility
-
-V²PC is modular, giving the user greater customization and optimization options for his/her needs. We give you the necessary tools to make configuring what you want easy and intuitive.
-
-## Fluid Form Factor
-
-The owner of a V²PC can change the form factor of his PC from desktop to mini to All-in-One at any time, avoiding the need to buy a new PC in case he/she needs a different form factor.
-
-## Portability
-
-V²PCs are more portable than traditional PC counterparts, giving users portability without sacrificing performance; this opens new creative use cases.
-
-
-
-
-# Life after V² {#life-after-v2}
-
-How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturers:
-
-## Life after V² as Computer User
-A computer user of a V² compatible PC enjoy's lower buying costs while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves costs due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
-
-## Life after V² as Computer Retailer
-The modular design of V² Product family reduces the inventory cost of a computer retailer selling V² compatible PCs while at the same time increasing availability of different computer models. The fast and low cost repair service gives the shop a tool that helps customers quickly and easily, minimizing their computer down time and increasing customer loyalty.
-
-
-## Life after V² as Computer Manufacturer
-A computer manufacturer using V² Standards has a shorter development time with less risks. Production is faster with lower costs and less custom tooling. Inventory costs are reduced by fewer custom parts and increased number of standardized parts that are shared across products.
-
-
-
-
