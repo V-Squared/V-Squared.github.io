@@ -93,6 +93,7 @@ readiness:
 
 
 # 8 ViPC Models (v4)
+
 ## ViPC-1
 Very quiet and environmentally friendly budget PC. The 120 GB SSD makes responsive and fast to boot. The Athlon 5350 CPU with integrated graphics is snappy for modern internet browsing, web apps and office applications. In the spirit of a Budget PC it comes with Ubuntu. If however you are more comfortable with Windows you can upgrade to Windows 10 Home full edition for $110 US. Up to 2 Displays allow for smooth multitasking.
 
@@ -119,6 +120,7 @@ Insane CPU and SSD performance that fits into a silent Mini PC. Ideal for Data B
 
 
 # 6 ViCase Mini PC Models (v3)
+
 ## Entry: Silent i3 Workstation
 This computer is virtually inaudible when working, even under constant full load! The i3 packs enough punch for common work. Up to 2 Displays allow for smooth multitasking.
 - CPU 33%
@@ -128,6 +130,7 @@ This computer is virtually inaudible when working, even under constant full load
 
 
 ## Mid: Silent i5 Workstation
+
 Step up features over Entry: For a little more cost this computer doubles performance in all areas except GPU.  Ideal if you need more speed, e.g. for Virtualization.
 - CPU 66%
 - Disk 40%
@@ -136,6 +139,7 @@ Step up features over Entry: For a little more cost this computer doubles perfor
 
 
 ## Ultra: Silent i7 Workstation
+
 Step up features over Mid: The M2 PCIe SSD is extremely fast and so is the i7 CPU. This is an extremely fast powerhouse that still remains inaudible. Ideal for most demanding applications as long as you do not need extreme GPU performance or CUDA GPU computing.
 - CPU 100%
 - Disk 100%
@@ -143,6 +147,7 @@ Step up features over Mid: The M2 PCIe SSD is extremely fast and so is the i7 CP
 - Mem 80%
 
 ## GTX: Quiet powerful 3D Workstation
+
 This is a powerful 3D Workstation with 640 Cuda Cores with 2 GB GDD5 and four 4K Displays @ 60 Hz. Great balance of fast SSD and large size HDD. Combined with the i5 you get a powerful 3D Workstation that remains relatively quiet. Powerful and cost efficient 3D Workstation for: Adobe Creative Cloud, 3D Design, Video Editing, etc ...
 - CPU 66%
 - Disk 50%
@@ -150,6 +155,7 @@ This is a powerful 3D Workstation with 640 Cuda Cores with 2 GB GDD5 and four 4K
 - Mem 50%
 
 ## Quadro: Quiet High End 3D Workstation
+
 Step up feature i7 Processor plus nVidia Quadro with 4 GB GDDR5 and more memory. Ideal for very demanding work.
 - CPU 100%
 - Disk 70%
@@ -157,6 +163,7 @@ Step up feature i7 Processor plus nVidia Quadro with 4 GB GDDR5 and more memory.
 - Mem 80%
 
 ## Extreme: Quiet Ultimate 3D Workstation
+
 Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwidth you can cut through disk intensive design work. 32 GB of DDR4 memory add to the performance gain for very demanding use cases.
 - CPU 100%
 - Disk 100%
@@ -202,6 +209,7 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
 
 
 # Common Specs
+
 | Common Features     | Detail     |
 |:-------------------|:-------|
 | High-tech Dust Filter | Ultra low airflow resistance.<br>Ultra low noise.<br>Magnetic quick release mount.<br>Washable.  |
@@ -227,6 +235,7 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
 
 
 ## What is included in the Service Fee
+
 - Purchasing all PC parts
 - Shipping cost from PC parts dealer to system integrator
 - Incoming Quality control and any RMA handling costs
@@ -236,6 +245,7 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
 - Packaging and material for shipping
 
 ## What is not included in the Service Fee
+
 - Additional customization
 - Shipping cost and insurance from System Integrator to end user
 - Technical support for Windows (You get full version authorized to get support from Microsoft)
@@ -280,6 +290,7 @@ Above table shows 6 Base configurations. This gives you a convenient starting po
 
 
 ## Skylake additional details
+
 | MoBo Feature    | Entry   | Mid    | Ultra  | GTX     | Quadro  | Extreme |
 |:----------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | MoBO | [H170M][1] | [H170M][1] | [Z170][2] | [H170M][1] | [H170M][1] | [Z170][2] | 
@@ -292,6 +303,7 @@ Above table shows 6 Base configurations. This gives you a convenient starting po
 # Choose Base Models for efficient building
 
 ## How is this relevant
+
 If we choose the parts of the different base models right it is possible to build a base system and test it. A base system includes: 
 
 1. Case 
@@ -300,11 +312,13 @@ If we choose the parts of the different base models right it is possible to buil
 4. Boot Disk
 
 ## One Power Supply for all Models
+
 - We choose high quality 80 Plus Gold 300W. It is quiet, powerful, cool and high quality
 - One power supply for all PCs makes it easy to build one base model that can be configured into any final shipping PC
 - The customer has complete freedom it expand the PC later, since any possible configurations are covered by this PSU
 
 ## One Motherboard for all common models
+
 We choose one Motherboard for all common models. Relatively low cost of this Motherboard combined with high run rate makes it cost efficient to always have some pre-build and tested systems available with it.  Only for the high end model we choose one with the special features:
 
 1. M.2 Socket for NVME aka PCIe SSD (about 5x faster than SATA3)
@@ -313,11 +327,13 @@ We choose one Motherboard for all common models. Relatively low cost of this Mot
 One Motherboard only will allow to build base models and test them. For more information, please see the → "Proposed assembly workflow" below.
 
 # Reference
+
 ## New Skylake Motherboards: 
    - **Entry:** [ASRock H170M-ITX/DL](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157669) $90 US
    - **High End:** [ASRock Fata1ty Z170 ITX/ac](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650) 4K @ 60 Hz  $175 US
    - 
 ## Power Supply
+
 ![](http://c1.neweggimages.com/BizIntell/item/17/104/17-104-195/1.jpg)
 - [FSP USA►Product Pages►FSP300-60FAG](http://www.fspgroupusa.com/ecommerce/retail-psu/mini-itx/fsp300-60fag.html)
 - [FSP Taiwan►Product Pages►FSP300-60FAG](http://www.fsp-group.com.tw/index.php?do=proinfo&id=1719)
