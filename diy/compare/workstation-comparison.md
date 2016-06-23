@@ -25,7 +25,7 @@ readiness:
 
 {:.uk-table.uk-table-hover}
 
-|                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z230 | HP Z1 | Dell Precision Tower |
+|                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z230 | HP G3 | Dell Precision Tower |
 |----------------------------:|:--------------------:|:-------------:|:-------:|:-----:|:--------------------:|
 |                       Price |         100%         |      218%     |   217%  |  188% |         130%         |
 |         Similar Performance |          Yes         |      Yes      |   Yes   |  Yes  |          Yes         |
@@ -34,7 +34,7 @@ readiness:
 |                    Portable |          Yes         |      Yes      |    No   |   No  |          No          |
 |            Surge Protection |          Yes         |       No      |    No   |   No  |          No          |
 |          Clean Desk Cabling |          Yes         |       No      |    No   |   No  |          No          |
-|            Intel Generation |           6          |       5       |    5    |   5   |           6          |
+|            Intel Generation |           6          |       5       |    5    |   6   |           6          |
 |          Open Configuration |          Yes         |       No      |    No   |   No  |          No          |
 |                  DIY Option |          Yes         |       No      |    No   |   No  |          No          |
 |              I Fixit Option |          Yes         |       No      |    No   |   No  |          No          |
@@ -87,16 +87,16 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 |   Features |    ViCase-620   |     HP Z230     |
 |-----------:|:---------------:|:---------------:|
 |         OS |    Win 10 Pro   |    Win 10 Pro   |
-|        CPU | i5-6400 (Gen 6) | i5-4690 (Gen 5) |
+|        CPU | i5-6400 (Gen 6) | i5-6500 (Gen 6) |
 |  Boot Disk | 256 GB SSD NVME | 256 GB SSD NVME |
 | Data Disks | 256 GB SSD SATA | 256 GB SSD SATA |
-|        RAM |   16 GB DDR 4   |    16 GB DDR3   |
+|        RAM |   16 GB DDR4   |    16 GB DDR4   |
 |        GPU |       K620      |       K620      |
 |   AiO Conversion| Yes        | No              |
 | Portable   | Yes, 6L         | No, 30 L        |
 | Power Distribution | Yes    | No |
 | Surge Protection | Yes | No   |
-|      Total |     1200 USD    |     2600 USD    |
+|      Total |     1200 USD    |     1581 USD    |
 | Over Price |     100 %       |     217 %       |
 
 ### Comment
@@ -114,22 +114,22 @@ Even though the HP Z230 is categorized as Small Form Factor it is still a full D
 
 {:.uk-table.uk-table-hover}
 
-|           Features |   ViCase-1200   |       HZ Z1       |
+|           Features |   ViCase-1200   |       HZ Z1 G3       |
 |-------------------:|:---------------:|:-------------------:|
 |                 OS |    Win 10 Pro   |      Win 10 Pro     |
-|                CPU | i7-6700 (Gen 6) |   i7-4790 (Gen 5)   |
+|                CPU | i7-6700 (Gen 6) |   i7-6700 (Gen 6)   |
 |          Boot Disk | 512 GB SSD NVME |   512 GB SSD SATA   |
 |         Data Disks | 256 GB SSD SATA |   256 GB SSD SATA   |
-|                RAM |   32 GB DDR 4   |      16 GB DDR3     |
-|                GPU |      K1200      |        K2100M       |
-|             Memory |       4 GB      |         2 GB        |
+|                RAM |   32 GB DDR 4   |      32 GB DDR4     |
+|                GPU |      K1200      |        M2000M       |
+|             Memory |       4 GB      |         4 GB        |
 |         Cuda Cores |       512       |         640         |
 |     AiO Conversion |       Yes       |         Yes         |
-|            Display |        No       |          No         |
+|            Display |        No       |          Yes         |
 |  CPU Unit Portable |     Yes, 6L     | Not easy removeable |
 | Power Distribution |       Yes       |          No         |
 |   Surge Protection |       Yes       |          No         |
-|              Total |     1946 USD    |       3665 USD      |
+|              Total |     1946 USD    |       2656 USD      |
 | Over Price         |     100 %       |     188 %           |
 
 
@@ -176,8 +176,8 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 |           Features |  ViCase-1200-T  | Dell Precision Tower 3000 |
 |-------------------:|:---------------:|:-------------------------:|
 |                 OS |    Win 10 Pro   |         Win 10 Pro        |
-|                CPU | i7-6700 (Gen 6) |      i7-4790 (Gen 5)      |
-|          Boot Disk | 512 GB SSD NVME |      512 GB SSD SATA      |
+|                CPU | i7-6700 (Gen 6) |      i7-6700 (Gen 6)      |
+|          Boot Disk | 512 GB SSD NVME |      512 GB SSD NVME      |
 |         Data Disks |   2 TB RAID 0   |        2 TB RAID 0        |
 |                RAM |   32 GB DDR 4   |        32 GB DDR 4        |
 |                GPU |      K1200      |           K1200           |
@@ -189,7 +189,7 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 | Power Distribution |       Yes       |             No            |
 |   Surge Protection |       Yes       |             No            |
 |    PSU Power       | 300 W           |          240W             |
-|              Total |     1946 USD    |          2532 USD         |
+|              Total |     1946 USD    |          2463 USD         |
 
 
 ### Comment
