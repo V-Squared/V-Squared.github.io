@@ -75,7 +75,7 @@ angular.module('site')
 .directive('toggleCollapseBar', function() {
   return {
     restrict:'A',
-    scope:{},
+    scope: true,
     bindToController: {
       id: '@toggleCollapseBar'
     },
