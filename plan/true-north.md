@@ -139,11 +139,11 @@ Standardization of parts, ready made configurations, benchmarks, DIY Know-How ar
 
 V²PC is modular, giving the user greater customization and optimization options for his/her needs. We give you the necessary tools to make picking what you want easy and intuitive.
 
-# Fluid Form Factor
+## Fluid Form Factor
 
 The owner of a V²PC can change the Form Factor of his PC from Desktop to Mini to All-In-One at any time. Avoiding the need to buy a new PC in case he needs a different form factor.
 
-# Portability
+## Portability
 
 V²PCs are more portable than traditional PC counterparts, giving users portability without sacrificing performance.
 
