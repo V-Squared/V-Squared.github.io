@@ -4,7 +4,7 @@ menu: Target
 title: True North
 subtitle: V² Mission and Principles; Benefits and Life after V²
 abstract: >
-   Whenever the V² team need to make choices, while choice where to go is not obvious, we will look to V² True North to find the right direction. We will compare each choice with the Mission to identify which one is closest to the V²Mission. We compare each choice with all principles to identify the choice supporting most and breaking none. Who is seeking to understand the benefits of V² finds the answers in the chapters *V²Benefits* and *Life after V²*. As always you can provide feedback and contributions via *V²Flow Button*.
+   Whenever the V² team needs to make decisions we will look to V² True North to find the right direction. We will compare each option with the Mission to identify which one is truest to the V²Mission. We further compare each choice with all principles to identify the choice supporting most and breaking none. Who is seeking to understand the benefits of V² finds the answers in the chapters *V²Benefits* and *Life after V²*. As always you can provide feedback and contributions via *V²Flow Button*.
 issueNo: 100
 contents:
   - name: Where True North Fits
