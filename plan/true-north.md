@@ -134,14 +134,19 @@ Standardization of parts, ready made configurations, benchmarks, DIY Know How ar
 
 
 
-# How life looks like after V² is mainstream ...
+# Life after V²
 
-## ... as Computer Manufacturer
-A computer manufacturer using V² Standards has a shorter development time with less development risks. Production is faster with lower cost and less custom tooling. Inventory cost is reduced by less custom parts and increased number of parts that are shared across more products.
+How life looks like after V² has become mainstream from the point of view of computer user, reatiler and manufacturer:
 
-## ... as Computer Retailer
+## Computer User
+A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the service life of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing the days of outage by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
+
+## Life after V² as Computer Retailer
 A computer retailer selling V² compatible PCs has reduced inventory cost and at the same time increased product availability. Due to the fast and low cost repair service for V²PCs he is increasing sales and customer's satisfaction.
 
-## ... as Computer User
-A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the service life of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing the days of outage by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
+## Life after V² as Computer Manufacturer
+A computer manufacturer using V² Standards has a shorter development time with less development risks. Production is faster with lower cost and less custom tooling. Inventory cost is reduced by less custom parts and increased number of parts that are shared across more products.
+
+
+
 
