@@ -52,7 +52,7 @@ At V² we are a global community of architects, thinkers, engineers and marketee
 
 ## Analogy to ATX Desktop PC Standard
 
-Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this hole. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades. In doing so, V² is breathing new life into mini and All-In-One PCs.
+Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
 
 
 # V² Principles {#v2-principles}
@@ -68,9 +68,13 @@ We will publish all knowledge, specifications, standards, and design as open sou
 
 All V² licenses are and always will be at zero cost to the licensee.
 
+## V² Standards
+
+All standards are published early on in Open Source under CC-BY license. The standards are developed in parallel with Trailblazer Products. The standards are the specs for anyone to build their design implementation of a Mini or All in One PC compatible to the V² Standard.
+
 ## Trailblazer Products
 
-During development of new standards corresponding trailblazer products are developed in parallel to verify and demonstrate feasibility and efficiency of the new standard. During the spreading period they serve early adapters, press, and developers as bleeding edge products and rapid development kits. During this period they also serve V² as our funding. After the spreading period their design is published as open source.
+During development of new standards corresponding trailblazer products are developed in parallel to verify and demonstrate feasibility and efficiency of the new standard. V² Trailblazer products are but one possible design implementation of the V² Standard. During the spreading period they serve early adapters, press, and developers as bleeding edge products and rapid development kits. During this period they also serve V² as our funding. After the spreading period their design is published as open source.
 
 ## Easy Contribution
 
@@ -158,7 +162,7 @@ V²PCs are more portable than traditional PC counterparts, giving users portabil
 
 # Life after V² {#life-after-v2}
 
-How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturer:
+How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturers:
 
 ## Life after V² as Computer User
 A computer user of a V² compatible PC enjoy's lower buying costs while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves costs due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
