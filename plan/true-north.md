@@ -68,7 +68,7 @@ During development of a new standard corresponding trailblazer products are deve
 
 ## Easy Contribution
 
-We will provide a system that makes contribution easy and accessible to everyone.
+We will provide one system V²Flow that makes contribution easy and accessible to everyone. The only requirement is to have a GitHub account. V²Flow will be used for any kind of feedback or contribution. Learn it once, use it in any place.
 
 ## Community Quality Management
 
@@ -84,6 +84,7 @@ All deveopment of specs, standards, test procedures, trailblazer products, elect
 
 ## Public Road Map
 
+Our Road Map is published publically. It has 3 views of 5 years ahead, 18 months ahead and 6 months ahead. To closer you get to now the more detailed it gets. A
 
 
 ## Gating Free
@@ -96,11 +97,23 @@ Everyone must have full access to all materials. License agreement can not singl
 
 ## Modular Design
 
+Whenever possible we will use a modular design versus a monolithic one. All interfaces are specified in a corresponding V² Standard, enabling interoperability of parts of various makes and brands. Examples are V²Case-VESA, V²Case-Feet, V²Case-Access.
 
+## Continuity by Full Time Core Team
 
-## Full Time Core Team
+To ensure consistency and continuity of standard publication we use a full time employed core team, funded by sales of Trailblazer Products.
+
+## Development by V²Community
+
+Most development is contributed by the community.
 
 ## Eating our own Dogfood
+
+Wherever possible we use our own standards, specs, apps and products in our development. E.g. all members of the V²Core team develop the V²Standards using a V²PC.
+
+## Easy to Fix
+
+All V² Products are conceived, designed, made and documented with the goal to make it easy for the end user to identify and replace the faulty part.
 
 
 
@@ -116,14 +129,19 @@ Computer waste with all their hazardeous materials is one of the ecological prob
 
 ## Simplify DIY
 
+Standardization of parts, ready made configurations, benchmarks, DIY Know How articles are all published in Open Source. They aim to reduce the learning curve and trial and error in assembly.
 
 
-# How life will look like ...
+
+
+# How life looks like after V² is mainstream ...
 
 ## ... as Computer Manufacturer
+A computer manufacturer using V² Standards has a shorter development time with less development risks. Production is faster with lower cost and less custom tooling. Inventory cost is reduced by less custom parts and increased number of parts that are shared across more products.
 
 ## ... as Computer Retailer
+A computer retailer selling V² compatible PCs has reduced inventory cost and at the same time increased product availability. Due to the fast and low cost repair service for V²PCs he is increasing sales and customer's satisfaction.
 
 ## ... as Computer User
-
+A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the service life of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing the days of outage by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
 
