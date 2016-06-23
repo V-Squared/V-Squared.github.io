@@ -1,15 +1,14 @@
 ---
 layout: page
-title: DIY Workstation PC
-subtitle: Hello
-abstract: Understanding the in and outs of workstation computers
+title: V² DIY Workstation PC Introduction
+subtitle: All you want or need to know about workstation computers for users, DIY and retail folks
+abstract: >
+   This a community effort to create a series of articles that are comprehensive, consistent and cross referenced on all topics relevant to users as well as builders of a workstations PC. The structure allows readers ranging from newcomers to experts to quickly find the information that they are looking for. Tips, notes and references assist the newcomers while the can be safely ignored by the experts. We cover all topics through the entire life cycle of a workstation PC ranging from shopping, customization, installation, optimization, usage, maintenance and repair. DIY on a workstation PC may easily save the user a thousand dollars, whereas it opens shop owners new and lucrative income. 
 readiness:
    - is-complete
+   - is-actove
 ---
 
-# DIY PC 
-
-The following pages give an detailed information for the DIY folk; from experienced users to newcomers building their first computer, these articles aim to give a structured bookcase with information pertaining DIY computing. Finding information on computer software or hardware can leave you with many pages from many websites, so our goal is to make a single area where all the information can be easily viewed and shared across the web.
 
 ## Configs
 Learn about the different ViPC models. Ranging from quiet, entry level PCs to pwoerful gaming rigs capable of smooth 4k gaming. Detailed overlook on technical specifications of each model to give a better understanding of which one is more suited for you.
