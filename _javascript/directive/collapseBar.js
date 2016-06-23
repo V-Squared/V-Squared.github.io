@@ -75,7 +75,7 @@ angular.module('site')
 .directive('toggleCollapseBar', function() {
   return {
     restrict:'A',
-    scope: {},
+    scope:{},
     bindToController: {
       id: '@toggleCollapseBar'
     },
@@ -86,7 +86,11 @@ angular.module('site')
       
       toggle.isCollapse = false;
       
+      console.log(collapseService);
+      
       this.$postLink = function () {
+        
+        console.log($element);
         
         $element.bind('click',clickCallBack);
         
@@ -98,17 +102,15 @@ angular.module('site')
         
       }
       
+      console.log(toggle);
+      
       $scope.$watch(function(){
         return collapseService.isCollapse[toggle.id].collapse;
       },function(isCollapse) {
         toggle.isCollapse = isCollapse;
       });
       
-    }],
-    template: [
-      "<md-icon ng-show=\"toggleCollapse.isCollapse\" md-svg-src=\"icons/format-horizontal-align-left.svg\"></md-icon>",
-      "<md-icon ng-show=\"!toggleCollapse.isCollapse\" md-svg-src=\"icons/format-horizontal-align-right.svg\"></md-icon>"
-    ].join("")
+    }]
   }
 })
 .service('collapseService', ['$rootScope',function ($rootScope) {

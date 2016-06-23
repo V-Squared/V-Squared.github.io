@@ -1,6 +1,6 @@
 angular.module('site')
   .controller('mainController', function($scope,$localStorage,$document) {
-  var vm = this;
+  var hi = this;
   
   // I am getting the document width data through
   // document element so I am not doing Dom manipulation
@@ -8,7 +8,7 @@ angular.module('site')
   
   var documentWidth = $document[0].documentElement.clientWidth;
 
-  vm.ribbon = [
+  hi.ribbon = [
     {
       name: "Off",
       color: "#DFE3E4",
@@ -30,10 +30,10 @@ angular.module('site')
       tooltip: "This project is on our V² GitHub"
     }
   ];
+  
+  hi.hi = "hi";
 
-  console.log("vm.displaySideBar: " + vm.displaySideBar);
-
-  vm.openMenu = function($mdOpenMenu, ev) {
+  hi.openMenu = function($mdOpenMenu, ev) {
     $mdOpenMenu(ev);
   }
 

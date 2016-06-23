@@ -32,11 +32,14 @@
 
       {% capture subitemUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
-      <li class="{% if navurl == subitemUrl %}uk-active{% endif %}{% if subitem.group %}article-group{% endif %}">
-        <a {% if subitem.url %}href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}>{{ subitem.menu }}</a>
+      <li class="{% if navurl == subitemUrl %}uk-active{% endif %} {% if subitem.group %}article-group{% endif %}">
+        <a {% if subitem.group == false %}href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}>{{ subitem.menu }}</a>
 
         {% if subitem.group %}
         <ul>
+          <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
+            <a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">Intro {{subitem.menu}}</a>
+          </li>
           {% for group in subitem.group %}
           
           {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}

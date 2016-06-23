@@ -237,6 +237,19 @@
 
 .post-content {
   //padding: $spacing-unit 0;
+  
+  md-card {
+    position: relative;
+    cursor: pointer;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+    
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 
   h2 {
     font-size: 32px;

@@ -13,13 +13,7 @@ layout: default
 <article class="post">
 
   <div layout="row"  layout-sm="column" layout-align="center none" no-gap>
-    {% for board in site.data.board-bar %}
-    {% if page.url contains board.url %}
-    {% assign boardName = board.url | remove: "/" %}
-    {% assign articlebar = site.data.[boardName].book-bar %}
-    {% endif %}
-    {% endfor %}
-    {% include article-bar.html nav=articlebar board=boardName %}
+    {% include article-bar.html nav=bookbar board=boardUrl %}
     <div flex class="article md-whiteframe-5dp">
       <div class="jumbotron article-jumbotron">
 
@@ -50,8 +44,9 @@ layout: default
 
         <div layout="row" layout-align="space-between none" no-gap class="status-bar">
           <div layout="row" no-gap layout-align="none center">
-            <md-button v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-              <span toggle-collapse-bar="article-col"></span>
+            <md-button toggle-collapse-bar="article-col" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
           </div>
           <div layout="row" layout-align="none center">
@@ -91,8 +86,9 @@ layout: default
           </div>
 
           <div>
-            <md-button v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" ng-click="vm.toggleContents()" aria-label="Toggle Contents Bar">
-              <span toggle-collapse-bar="article-toc"></span>
+            <md-button hide toggle-collapse-bar="article-toc" show-gt-sm v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
+              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
+              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
           </div>
         </div>
@@ -224,10 +220,6 @@ layout: default
             
             {% if current_breadcrumb_url == breadcrumb_groupUrl or
             current_breadcrumb_md_url == breadcrumb_groupUrl %}
-            
-            <li>
-              <a>{{breadcrumb_sub.menu}}</a>
-            </li>
             
             <li {% if i == j %}class="active"{% endif %}>
               <a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{{breadcrumb_group.menu}}</a>

@@ -9,3 +9,7 @@ issueNo: 176
 readiness:
    - is-active
 ---
+
+{% include content-navigation.html %}
+
+<p toggle-collapse-bar="article-toc"></p>
