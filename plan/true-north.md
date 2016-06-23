@@ -152,17 +152,17 @@ V²PCs are more portable than traditional PC counterparts, giving users portabil
 
 # Life after V²
 
-How life looks after V² has become mainstream from the point of view of computer user, retailer, and manufacturer:
+How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturer:
 
 ## Life after V² as Computer User
-A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
+A computer user of a V² compatible PC enjoy's lower buying costs while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves costs due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
 
 ## Life after V² as Computer Retailer
-A computer retailer selling V² compatible PCs has reduced inventory costs while at the same time increased product availability. The modular nature also allows fast and low cost repair service for V²PCs, increasing sales and customer's satisfaction.
+The modular design of V² Product family reduces the inventory cost of a computer retailer selling V² compatible PCs while at the same time increasing availability of different computer models. The fast and low cost repair service gives the shop a tool that helps customers quickly and easily, minimizing their computer down time and increasing customer loyalty.
 
 
 ## Life after V² as Computer Manufacturer
-A computer manufacturer using V² Standards has a shorter development time with less risks. Production is faster with lower costs and less custom tooling. Inventory costs are reduced by fewer custom parts and increased number of standardaized parts that are shared across products.
+A computer manufacturer using V² Standards has a shorter development time with less risks. Production is faster with lower costs and less custom tooling. Inventory costs are reduced by fewer custom parts and increased number of standardized parts that are shared across products.
 
 
 
