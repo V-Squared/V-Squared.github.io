@@ -4,7 +4,7 @@ menu: Target
 title: True North
 subtitle: V² Mission, Benefits, Life after V² and Principles
 abstract: >
-   *V² Mission* is a succinct description of our targets, while *V² Benefits* is a list of advantages introduced by V² Open Modular Mini PC. *Life after V²* draws a picture how life looks after V² has become mainstream from three distinct point of views of computer users, retailers, and manufacturers. Finally *V² Principles* will give anyone evaluating V² an clear idea about our ethics and working methods. *V² Principles* are also a constant reference in the decision making processes of the V² team and community. As always you can provide feedback and contributions via *V²Flow Button*.
+   *V² Mission* is a succinct description of our targets, while *V² Benefits* is a list of advantages introduced by V² Open Modular Mini PC. *Life after V²* draws a picture of how life will look after V² has become mainstream from three distinct points of view:  those of computer users, retailers, and manufacturers. Finally, *V² Principles* will give anyone evaluating V² an clear idea about our ethics and working methods. *V² Principles* are also constantly used as references in the decision making processes of the V² team and community. As always you can provide feedback and contributions via *V²Flow Button*.
 issueNo: 100
 contents:
   - name: Where True North Fits
