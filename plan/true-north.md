@@ -40,23 +40,23 @@ True North is our vision which we are working towards. To not get lost in the mi
 
 ## Making Missing Mini PC Standard Mainstream
 
-Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, to reduce cost, to reduce trial and error in development and assembly.
+Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, reduce cost, and reduce trial and error in development and assembly.
 
-At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an Open Modular Mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
+At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an open modular mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
 
 ## Analogy to ATX Desktop PC Standard
 
-Desktop ATX Computer were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of Mini and All-In-One Form Factor. The V² Standard fills this hole. By using the exact same principles that the ATX standard used on Deskopt PCs, the V² Standard is lowering cost, increasing development speed and performance and simplifies upgrading. In doing so V² is breathing new life into Mini and All-In-One PCs.
+Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this hole. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades. In doing so, V² is breathing new life into mini and All-In-One PCs.
 
 
 # Manifesto
 
-These are the principles that guide our mission to promote openness, innovation & opportunity in computer design, making and using.
+These are the principles that guide our mission to promote openness, innovation, & opportunity in using, making, and designing computers.
 
 
 ## Open Source
 
-We will publish all knowledge, specifications, standards and design as open source. We will use Free and Open Source Software (FOSS) in development and publish all files in file formats compatible with FOSS.
+We will publish all knowledge, specifications, standards, and design as open source. We will use Free and Open Source Software (FOSS) in development and publish all files in file formats compatible with FOSS.
 
 ## Zero Cost License
 
@@ -64,23 +64,23 @@ All V² licenses are and always will be at zero cost to the licensee.
 
 ## Trailblazer Products
 
-During development of a new standard corresponding trailblazer products are deveoped in parallel to verify and demonstrate feasibility and efficiency of the new standard. During the spreading period they serve early adapters, press and developers as bleeding edge products and rapid development kits. During this period they also serve V² as our funding. After the spreading period their design is published as Open Source.
+During development of new standards corresponding trailblazer products are developed in parallel to verify and demonstrate feasibility and efficiency of the new standard. During the spreading period they serve early adapters, press, and developers as bleeding edge products and rapid development kits. During this period they also serve V² as our funding. After the spreading period their design is published as open source.
 
 ## Easy Contribution
 
-We will provide one system V²Flow that makes contribution easy and accessible to everyone. The only requirement is to have a GitHub account. V²Flow will be used for any kind of feedback or contribution. Learn it once, use it in any place.
+We will provide one system - V²Flow - that makes contribution easy and accessible to everyone. The only requirement is to have a GitHub account. V²Flow will be used for any kind of feedback or contribution. Learn it once, use it in any place.
 
 ## Community Quality Management
 
-Quality management is very important. Specifications and test procedures are published in Open Source. Anyone can perform independant Quality Assrance Tests or provide such services to the community. We will provide a public data base as a central place to publish such test results.
+Quality management is very important. Specifications and test procedures are published in open source. Anyone can perform independant quality assurance Tests or provide such services to the community. We will provide a public data base as a central place to publish and share such test results.
 
 ## Community Driven Features
 
-Any initial draft of specs or features are drawn up by community members and are published open source early on. Anyone in the community can make improvements.
+Any initial draft of specs or features are drawn up by community members and are published open source early on. Anyone in the community can make improvements using V²Flow.
 
 ## Agile Development
 
-All deveopment of specs, standards, test procedures, trailblazer products, electronic design, mechanical design and artwork are developed using the Agile Development System.
+All development of specs, standards, test procedures, trailblazer products, electronic design, mechanical design, and artwork are developed using the *agile development system*.
 
 ## Public Road Map
 
