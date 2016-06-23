@@ -2,18 +2,24 @@
 layout: page
 menu: Target
 title: True North
-subtitle: Where we want to be
+subtitle: V² Mission and Principles; Benefits and Life after V²
 abstract: >
-   The mission of V² is expressed in **V² True North**: A list of *User Stories* for each Product Line / Service / Standards of V². Each group of user stories contains views of *User*, *Manufacturer* and *Retailer*. These *User Stories* show them where we are going and guides the contributor to get there. As always you can provide feedback and contributions via *V²Flow Button*.
+   Whenever the V² team need to make choices, while choice where to go is not obvious, we will look to V² True North to find the right direction. We will compare each choice with the Mission to identify which one is closest to the V²Mission. We compare each choice with all principles to identify the choice supporting most and breaking none. Who is seeking to understand the benefits of V² finds the answers in the chapters *V²Benefits* and *Life after V²*. As always you can provide feedback and contributions via *V²Flow Button*.
 issueNo: 100
 contents:
-   - name: Where True North Fits
-     url: fit-where
-   - name: Vision Modular Mini PC
-     url: vision-modular-pc
-   - name: Vision Docking Station
-     url: vision-docking-station
+  - name: Where True North Fits
+    url: fit-where
+  - name: V² Mission
+    url: v2-mission
+  - name: V² Principles
+    url: v2-principles
+  - name: V² Benefits
+    url: v2-benefits
+  - name: Life after V²
+    url: life-after-v2
 readiness:
+   - is-complete
+   - is-complete
    - is-complete
    - is-active
 ---
@@ -36,7 +42,7 @@ True North is our vision which we are working towards. To not get lost in the mi
      - **L7: Task:** Actual work to be completed.
 
 
-# Mission
+# V² Mission {#v2-mission}
 
 ## Making Missing Mini PC Standard Mainstream
 
@@ -49,9 +55,9 @@ At V² we are a global community of architects, thinkers, engineers and marketee
 Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this hole. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades. In doing so, V² is breathing new life into mini and All-In-One PCs.
 
 
-# Manifesto
+# V² Principles {#v2-principles}
 
-These are the principles that guide our mission to promote openness, innovation, & opportunity in using, making, and designing computers.
+These are the principles that guide our mission to promote openness, innovation, & opportunity in using, making, and designing computers. The list of principles is also known as manifesto.
 
 
 ## Open Source
@@ -87,7 +93,7 @@ All development of specs, standards, test procedures, trailblazer products, elec
 Our Road Map is published publically. It has three views of five years ahead, 18 months ahead and six months ahead. To closer you get to now the more detailed it gets. 
 Our roadmap is published for all to see and has three main timestamps; six months, 18 months, and five years. The recent months are more detailed while farther down the road is more vague due to not having all of the details finalized yet. 
 
-# Public Dashboard
+## Public Dashboard
 
 In the public dashboard we publish all milestones, issues and tasks that we are working on at the moment in a hierarchical fashion. As always you can contribute with feedback or geting actual work done using V²Flow.
 
@@ -121,7 +127,7 @@ All V² Products are conceived, designed, made, and documented with the goal to 
 
 
 
-# Benefits
+# V² Benefits {#v2-benefits}
 
 ## Reduce Cost
 
@@ -150,7 +156,7 @@ V²PCs are more portable than traditional PC counterparts, giving users portabil
 
 
 
-# Life after V²
+# Life after V² {#life-after-v2}
 
 How life looks after V² has become mainstream from the point of view of computer users, retailers, and manufacturer:
 
