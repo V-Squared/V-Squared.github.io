@@ -152,10 +152,10 @@ V²PCs are more portable than traditional PC counterparts, giving users portabil
 
 # Life after V²
 
-How life looks like after V² has become mainstream from the point of view of computer user, reatiler and manufacturer:
+How life looks after V² has become mainstream from the point of view of computer user, retailer, and manufacturer:
 
-## Computer User
-A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the service life of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing the days of outage by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
+## Life after V² as Computer User
+A computer user of a V² compatible PC enjoy's lower buying cost while at the same time getting higher performance for his applications due to increased customization of his V²PC. During the lifespan of his V²PC he further saves cost due to easy upgrading of parts that bottleneck the performance. In case of a computer failure he is reducing downtime by either repairing the PC himself or by using the V² Repair Service in a shop around the corner.
 
 ## Life after V² as Computer Retailer
 A computer retailer selling V² compatible PCs has reduced inventory cost and at the same time increased product availability. Due to the fast and low cost repair service for V²PCs he is increasing sales and customer's satisfaction.
