@@ -33,7 +33,7 @@
       {% capture subitemUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
       <li class="{% if navurl == subitemUrl %}uk-active{% endif %} {% if subitem.group %}article-group{% endif %}">
-        <a {% if subitem.group == false %}href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}>{{ subitem.menu }}</a>
+        <a {% if subitem.group %}{%else%}href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}>{{ subitem.menu }}</a>
 
         {% if subitem.group %}
         <ul>

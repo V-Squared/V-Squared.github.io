@@ -68,11 +68,11 @@ layout: default
             
             {% capture next_prepender %}{% endcapture %}
             
-            <md-button v2-tooltip="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing" class="md-icon-button" aria-label="Toggle Copy Article Path"
+            <md-button hide show-gt-xs v2-tooltip="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing" class="md-icon-button" aria-label="Toggle Copy Article Path"
                        clipboard text="'{{pagePath}}'">
               <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
             </md-button>
-            <md-button v2-tooltip="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing
+            <md-button hide show-gt-xs v2-tooltip="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing
 " class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
               <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
             </md-button>
@@ -91,7 +91,7 @@ layout: default
           </div>
 
           <div>
-            <md-button hide toggle-collapse-bar="article-toc" show-gt-sm v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
+            <md-button hide show-gt-sm toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
               [[toggleCollapse.isCollapse]]
               <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
               <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
