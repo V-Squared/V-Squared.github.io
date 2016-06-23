@@ -97,7 +97,7 @@ All work that we publish must be free of any kind of gating items or processes. 
 
 ## Discrimination Free
 
-Everyone must have full access to all materials. License agreement can not single out certain licensees. All license agreements only require the agreement of the licensee.
+Everyone must have full access to all materials. License agreements can not single out certain licensees. All license agreements only require the agreement of the licensee.
 
 ## Modular Design
 
@@ -109,15 +109,15 @@ To ensure consistency and continuity of standard publication we use a full time 
 
 ## Development by V²Community
 
-Most development is contributed by the community.
+Most development is contributed by industry experts within the community.
 
 ## Eating our own Dogfood
 
-Wherever possible we use our own standards, specs, apps and products in our development. E.g. all members of the V²Core team develop the V²Standards using a V²PC.
+Wherever possible we use our own standards, specs, apps, and products in our development. E.g. all members of the V²Core team develop the V²Standards using a V²PC.
 
 ## Easy to Fix
 
-All V² Products are conceived, designed, made and documented with the goal to make it easy for the end user to identify and replace the faulty part.
+All V² Products are conceived, designed, made, and documented with the goal to make it easy for the end user to identify and replace the faulty part.
 
 
 
@@ -125,15 +125,31 @@ All V² Products are conceived, designed, made and documented with the goal to m
 
 ## Reduce Cost
 
-Today Mini and All-In-One PCs are significantly more expensive than an ATX Desktop PC with identical specs. After V² becomes mainstream the cost of Mini and All-In-One PCs will be identical to a Desktop ATX PC with identical specs.
+Today mini and All-In-One PCs are significantly more expensive than an ATX Desktop PC with identical specs. After V² becomes mainstream the cost of mini and All-In-One PCs will be identical to a desktop ATX PC with identical specs.
 
 ## Save Planet
 
-Computer waste with all their hazardeous materials is one of the ecological problems of our planet. The modular nature of V² PCs allows the user to replace the broken or bottle neck part to extend the service life. By trashing only few parts versus the entire PC waste is reduced.
+Computer waste with all their hazardeous materials is one of the ecological problems of our planet. The modular nature of V² PCs allows the user to replace the broken or bottlenecked component to extend the service life. By trashing only a few parts versus the entire PC, computer waste is greatly reduced.
 
 ## Simplify DIY
 
-Standardization of parts, ready made configurations, benchmarks, DIY Know How articles are all published in Open Source. They aim to reduce the learning curve and trial and error in assembly.
+Standardization of parts, ready made configurations, benchmarks, DIY Know-How articles are all published in open source. They aim to reduce the learning curve and trial and error in building a custom PC.
+
+## Flexibility
+
+ViPC lets you have the freedom to choose how you want it configured. We give you the necessary tools and you get to pick what you want and how you want it.
+
+## Flexibility
+
+V²PC is more modular allowing the user greater customization and optimization for his needs or used applications. Both in terms of features and performance.
+
+# Fluid Form Factor
+
+The owner of a V²PC can change the Form Factor of his PC from Desktop to Mini to All-In-One at any time. Avoiding the need to buy a new PC in case he needs a different form factor.
+
+# Portability
+
+V²PCs are more portable than traditional PC counterparts, giving users portability without sacrificing performance.
 
 
 
