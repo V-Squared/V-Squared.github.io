@@ -137,11 +137,7 @@ Standardization of parts, ready made configurations, benchmarks, DIY Know-How ar
 
 ## Flexibility
 
-ViPC lets you have the freedom to choose how you want it configured. We give you the necessary tools and you get to pick what you want and how you want it.
-
-## Flexibility
-
-V²PC is more modular allowing the user greater customization and optimization for his needs or used applications. Both in terms of features and performance.
+V²PC is modular, giving the user greater customization and optimization options for his/her needs. We give you the necessary tools to make picking what you want easy and intuitive.
 
 # Fluid Form Factor
 
