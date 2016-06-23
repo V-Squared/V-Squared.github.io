@@ -87,6 +87,9 @@ All development of specs, standards, test procedures, trailblazer products, elec
 Our Road Map is published publically. It has three views of five years ahead, 18 months ahead and six months ahead. To closer you get to now the more detailed it gets. 
 Our roadmap is published for all to see and has three main timestamps; six months, 18 months, and five years. The recent months are more detailed while farther down the road is more vague due to not having all of the details finalized yet. 
 
+# Public Dashboard
+
+In the public dashboard we publish all milestones, issues and tasks that we are working on at the moment in a hierarchical fashion. As always you can contribute with feedback or geting actual work done using V²Flow.
 
 ## Gating Free
 
