@@ -97,7 +97,7 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 | Power Distribution | Yes    | No |
 | Surge Protection | Yes | No   |
 |      Total |     1200 USD    |     1581 USD    |
-| Over Price |     100 %       |     217 %       |
+| Over Price |     100 %       |     132 %       |
 
 ### Comment
 Even though the HP Z230 is categorized as Small Form Factor it is still a full Desktop Tower. 
@@ -130,7 +130,7 @@ Even though the HP Z230 is categorized as Small Form Factor it is still a full D
 | Power Distribution |       Yes       |          No         |
 |   Surge Protection |       Yes       |          No         |
 |              Total |     1946 USD    |       2656 USD      |
-| Over Price         |     100 %       |     188 %           |
+| Over Price         |     100 %       |     135 %           |
 
 
 ### Comment
@@ -190,7 +190,7 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 |   Surge Protection |       Yes       |             No            |
 |    PSU Power       | 300 W           |          240W             |
 |              Total |     1946 USD    |          2463 USD         |
-
+| Over Price         |     100 %       |           126 %           |
 
 ### Comment
 Dell is the only vendor besides ViPC offering the latest Intel Generation 6. It is also significantly lower proce than its competitors and only 30% more expensive than ViPC. It also offers the lest features in terms of joy to use / creative use or stylish design.
