@@ -8,12 +8,12 @@ readiness:
 contents:
   - name: PC Comparison (v4)
     url: pc-comparison-v4
-  - name: 8 ViPC Models (v4)
+  - name: ViPC Models (v4)
     url: vipc-models-v4
   - name: Cost Calculations (v4)
     url: cost-calculations-v4
-  - name: 6 ViCase Mini PC Models
-    url: 6-vicase-mini-pc-models-v3
+  - name: ViCase Mini PC Models
+    url: vicase-mini-pc-models-v3
   - name: PC Comparison (v3)
     url: pc-comparison-v3
   - name: Common Specs
@@ -122,7 +122,7 @@ Extreme CPU and SSD performance that fits into a silent Mini PC. Ideal for Data 
 Insane CPU and SSD performance that fits into a silent Mini PC. Ideal for Data Base Server, Photo & Video Editing and Development work needing Virtualization. Thanks to ViCase you can convert any display into an All-In-One PC. The small size make it convenient to bring your ViPC where you need.
 
 
-# 6 ViCase Mini PC Models (v3) {#6-vicase-mini-pc-models-v3}
+# 6 ViCase Mini PC Models (v3) {#vicase-mini-pc-models-v3}
 
 ## Entry: Silent i3 Workstation
 This computer is virtually inaudible when working, even under constant full load! The i3 packs enough punch for common work. Up to 2 Displays allow for smooth multitasking.
