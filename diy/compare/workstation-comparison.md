@@ -16,12 +16,14 @@ readiness:
 - [Comparison](#comparison)
 - [i7 versus Xeon](#i7-versus-xeon)
 
+![workstationgraph](https://cloud.githubusercontent.com/assets/16950279/16318048/1a881440-3942-11e6-9660-f5e78d60d0e7.png)
 
 # Summary
+Detailed comparison of current workstation PCs on the market.
 
 ## Comparison
 
-![workstationgraph](https://cloud.githubusercontent.com/assets/16950279/16318048/1a881440-3942-11e6-9660-f5e78d60d0e7.png)
+![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
 {:.uk-table.uk-table-hover}
 
