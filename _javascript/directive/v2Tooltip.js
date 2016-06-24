@@ -57,6 +57,10 @@ angular.module('v2.tooltip',[])
         if (targetElemPos.left < 0) {
           targetElemPos.left = 0;
         }
+        
+        if(targetElemPos.left + 216 >= $document[0].documentElement.clientWidth) {
+          targetElemPos.left = $document[0].documentElement.clientWidth - 216;
+        }
 
         return targetElemPos;
       }
@@ -238,6 +242,8 @@ angular.module('v2.tooltip',[])
       scope.$on('destroy',function(event) {
         $timeout.cancel(showTimeout);
         $timeout.cancel(hideTimeout);
+        element.bind('mouseenter');
+        element.bind('mouseleave');
         ttScope.$destroy();
       }); 
 
