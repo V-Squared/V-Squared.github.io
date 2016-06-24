@@ -22,8 +22,6 @@ contents:
     url: pc-comparison-details
   - name: Choose Base Models
     url: choose-base-models
-  - name: Proposed assembly workflow
-    url: proposed-assembly-workflow
   - name: Reference
     url: reference
 ---
