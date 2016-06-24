@@ -23,7 +23,8 @@ contents:
 readiness:
    - is-complete
    - is-complete
-   - is-active
+   - is-complete
+   - is-complete
 ---
 
 
