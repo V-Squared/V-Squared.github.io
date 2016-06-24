@@ -51,11 +51,14 @@ Excluding Apple, competing workstation computers are around 30% more expensive t
 Power density is defined as the amount of performance in regard to the size. In this case, ViPC beats the competition, having the same specifications while having the smallest size in liters.
 ## Fluid Form Factor
 Most systems are locked down to one way of using them. The HP G1 Z3 is a beautiful all-in-one but because its paired to the screen, cannot be a truly portable machine. The Dell Z240 is small in size, but does not have direct support for an all-in-one transformation. ViPC gives you the freedom of using it how you want to use it; place it next to your monitor as a standalone or mount it to the back your screen to create a 100% DIY AiO. With a fluid form factor, the choice is up to you in how to use it, a great addition for artists or photographers who have dynamic lives.
+
 ## Portability
-
+People have mobile lives, constantly moving around and needing to bring their work with them. Most PCs suited for travel in todays market (able to stick it in a backpack or bring on a plane) are limited by mobile parts which don't give the kind of performance many people need from a workstation computer. ViPC throws these issues out the window, being small enough to throw in a backpack for easy transportation while also using desktop class components; no performance is loss. Having such a portable machine isn't just beneficial for carrying around the office, ViPC is great to travel with going from home to office, traveling to conferences, or bringing out to the field.
 ## Clean Wiring
+ViPC offers clean and simple wiring, inside and out of the case. The built-in surge protection and DC plug means the cable mess outside of the case is kept to a minimum; the only wall plug you need is for the ViPC power supply. The included DC port also lets you plug a monitor directly into your ViPC, freeing up a wall port and making a DIY AiO clean and easy. On the inside, tool-less free cable ties on the bottom of the case keeps wires out of the way for a clean case that is easy to replace parts if need be.
 
-Power Protection
+## Power Protection
+Even with a single cable all-in-one, you have to buy an external surge protector to protect your computer from power fluctuations. ViPC solves this by being the first computer to have one built into the case itself; plug the power supply into any AC plug without worrying about the commputer shorting out. This slightly increased the size of the case, but we felt it was an important feature to include to both lessen the cable mess and keep your computer safe. 
 
 ## What makes a Workstation Computer? 
 A workstation is designed to make the waiting time and experience of an artist or photographer as smooth and fast as possible. Workstation computers use more reliable parts that are optimized for speed and performance in areas such as rendering and photo editing. 
