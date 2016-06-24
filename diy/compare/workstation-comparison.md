@@ -25,16 +25,16 @@ readiness:
 
 {:.uk-table.uk-table-hover}
 
-|                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z230 | HP G3 | Dell Precision Tower |
+|                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z240 | HP G3 | Dell Precision Tower |
 |----------------------------:|:--------------------:|:-------------:|:-------:|:-----:|:--------------------:|
-|                       Price |         100%         |      218%     |   217%  |  188% |         130%         |
+|                       Price |         100%         |      218%     |   132%  |  135% |         126%         |
 |         Similar Performance |          Yes         |      Yes      |   Yes   |  Yes  |          Yes         |
 |       All In One Conversion |          Yes         |       No      |    No   |  Yes  |          No          |
 | 3 Chamber Airflow or better |          Yes         |      Yes      |    No   |   No  |          No          |
 |                    Portable |          Yes         |      Yes      |    No   |   No  |          No          |
 |            Surge Protection |          Yes         |       No      |    No   |   No  |          No          |
 |          Clean Desk Cabling |          Yes         |       No      |    No   |   No  |          No          |
-|            Intel Generation |           6          |       5       |    5    |   6   |           6          |
+|            Intel Generation |           6          |       5       |    6    |   6   |           6          |
 |          Open Configuration |          Yes         |       No      |    No   |   No  |          No          |
 |                  DIY Option |          Yes         |       No      |    No   |   No  |          No          |
 |              I Fixit Option |          Yes         |       No      |    No   |   No  |          No          |
@@ -80,11 +80,11 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
  
 # Comparison
 
-## ViPC-620 vs HP Z230
+## ViPC-620 vs HP Z240
 
 {:.uk-table.uk-table-hover}
 
-|   Features |    ViCase-620   |     HP Z230     |
+|   Features |    ViCase-620   |     HP Z240     |
 |-----------:|:---------------:|:---------------:|
 |         OS |    Win 10 Pro   |    Win 10 Pro   |
 |        CPU | i5-6400 (Gen 6) | i5-6500 (Gen 6) |
@@ -93,24 +93,24 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 |        RAM |   16 GB DDR4   |    16 GB DDR4   |
 |        GPU |       K620      |       K620      |
 |   AiO Conversion| Yes        | No              |
-| Portable   | Yes, 6L         | No, 30 L        |
+| Portable   | Yes, 6L         | No, 13 L        |
 | Power Distribution | Yes    | No |
 | Surge Protection | Yes | No   |
 |      Total |     1200 USD    |     1581 USD    |
 | Over Price |     100 %       |     132 %       |
 
 ### Comment
-Even though the HP Z230 is categorized as Small Form Factor it is still a full Desktop Tower. 
+Even though the HP Z240 is categorized as Small Form Factor it is still a full Desktop Tower. 
 
 ### Reference
-- http://www8.hp.com/us/en/workstations/z230.html
+- http://www8.hp.com/us/en/workstations/z240.html
    - Press Shop Now button, then configure as per below
 - http://www8.hp.com/us/en/campaigns/workstations/z-turbo-drive.html
 - http://h20195.www2.hp.com/V2/GetPDF.aspx/4AA4-7618ENW.pdf
 - http://h20195.www2.hp.com/V2/GetPDF.aspx/4AA4-7343ENW.pdf
 
 
-## ViPC 1200 vs HP Z1
+## ViPC 1200 vs HP Z1 G3
 
 {:.uk-table.uk-table-hover}
 
@@ -134,10 +134,10 @@ Even though the HP Z230 is categorized as Small Form Factor it is still a full D
 
 
 ### Comment
-The HP Z1 is the only Workstation other than ViPC that can be converted into an All-In-One. 
+The HP Z1 G3 is the only Workstation other than ViPC that can be converted into an All-In-One. This is great for saving space and keeping the desk tidy. Because the G3 is prebuilt, there are no options for the type of screen you choose.  
 
 ### Reference
-- [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g2.html)
+- [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
 
 
 
@@ -193,7 +193,7 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 | Over Price         |     100 %       |           126 %           |
 
 ### Comment
-Dell is the only vendor besides ViPC offering the latest Intel Generation 6. It is also significantly lower proce than its competitors and only 30% more expensive than ViPC. It also offers the lest features in terms of joy to use / creative use or stylish design.
+Dell is the only vendor besides ViPC offering the latest Intel Generation 6. It is also significantly lower proce than its competitors and only about 30% more expensive than ViPC. It also offers the lest features in terms of joy to use / creative use or stylish design.
 
 ### Reference
 - [Dell Precision Tower 3000](http://www.dell.com/us/business/p/precision-t3x20-series-workstation/pd?ref=PD_OC)
@@ -243,4 +243,6 @@ https://www.pugetsystems.com/labs/articles/Intel-CPUs-Xeon-E5-vs-Core-i7-634/
 
 
 ## Concluding thoughts
-In general Pro Workstations are about twice as expensive from the major brands, with the notable exception of Dell, who is only 30% more expensive. All Workstations are louder, with the notable exception of again, the Mac Pro, who is actually even more quoet than ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
+When compared to other notable workstation PCs on the market, ViPC competes with nearly identical specs while having a smaller footprint and lower cost. All Workstations are louder, with the notable exception of the Mac Pro which produces less noise than the ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
+
+
