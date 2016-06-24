@@ -28,4 +28,6 @@ Workstation comparisons aren't common, and finding the best one for your needs c
 
 # Vicase Generations
 
+![vicase-overview-1](https://cloud.githubusercontent.com/assets/16950279/16326887/88e78456-397f-11e6-9221-aa67d7b3a454.jpg)
+
 ViCase and ViPC are generational, with many iterations planned from your requests and ideas. Our generations article is aimed to give an overview of the changes ViCase goes through and were we started with it. This article will be contiously updated with new models.
