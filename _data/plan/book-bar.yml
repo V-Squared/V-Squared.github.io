@@ -6,8 +6,10 @@
   desc: >
     How to reach True North via consecutive Campaigns.
   subitems:
-    - menu: Strategic Road Map
-      url: /road-map/strategic/
+    - menu: Road Map 2011-2021
+      url: /road-map/2011-2021/
+    - menu: Road Map Next 2 Years
+      url: /road-map/next-2-years/
     - menu: Campaign 1
       url: /road-map/campaign01/
     - menu: Campaign 2
