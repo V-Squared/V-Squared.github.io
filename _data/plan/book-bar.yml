@@ -24,6 +24,7 @@
     Generic Agile Development and Toyota Production System for Github Organizations.
   subitems:
     - menu: Getting Started
+      url: /agile/getting-started/
       group: 
         - menu: V²Agile Workflow on GitHub
           url: /agile/getting-started/agile-workflow/
@@ -34,12 +35,14 @@
         - menu: Testing
           url: /agile/getting-started/iterations/
     - menu: Fundamentals
+      url: /agile/fundamentals/
       group:
         - menu: Agile Development Primer
           url: /agile/fundamentals/agile-primer/
         - menu: Motivation by Design
           url: /agile/fundamentals/motivation/
     - menu: Developing / Evaluating
+      url: /agile/developing/
       group:
         - menu: Solving today's Problems
           url: /agile/developing/solving-problems/
@@ -54,6 +57,7 @@
         - menu: Adapting V²Plan
           url: /agile/developing/adapting/
     - menu: Reference
+      url: /agile/reference/
       group:
         - menu: Features of V²Plan
           url: /agile/reference/features/

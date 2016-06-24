@@ -92,6 +92,10 @@ angular.module('site')
       var toggle = this;
       
       toggle.isCollapse = false;
+      
+      console.log(toggle.id);
+      
+      console.log(collapseService);
             
       this.$postLink = function () {
         
