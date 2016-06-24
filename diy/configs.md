@@ -9,7 +9,7 @@ contents:
   - name: PC Comparison (v4)
     url: pc-comparison-v4
   - name: 8 ViPC Models (v4)
-    url: 8-vipc-models-v4
+    url: vipc-models-v4
   - name: Cost Calculations (v4)
     url: cost-calculations-v4
   - name: 6 ViCase Mini PC Models
@@ -95,7 +95,7 @@ contents:
 
 
 
-# 8 ViPC Models (v4) {#8-vipc-models-v4}
+# 8 ViPC Models (v4) {#vipc-models-v4}
 
 ## ViPC-1
 Very quiet and environmentally friendly budget PC. The 120 GB SSD makes responsive and fast to boot. The Athlon 5350 CPU with integrated graphics is snappy for modern internet browsing, web apps and office applications. In the spirit of a Budget PC it comes with Ubuntu. If however you are more comfortable with Windows you can upgrade to Windows 10 Home full edition for $110 US. Up to 2 Displays allow for smooth multitasking.
