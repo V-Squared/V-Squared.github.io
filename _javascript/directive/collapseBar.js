@@ -50,6 +50,8 @@ angular.module('site')
     },
     link: function(scope,element,attrs,foldBar) {
       
+      console.log(element);
+      
       foldBar.checkCollapse();
       
       watchCollapse(collapseService.isCollapse[foldBar.id].collapse,false);
@@ -96,10 +98,6 @@ angular.module('site')
       console.log(toggle.id);
       
       console.log(collapseService);
-      
-      if(!collapseService.isCollapse[toggle.id]) {
-        throw "directive " +  toggle.id + " does not exist";
-      }
             
       this.$postLink = function () {
         
