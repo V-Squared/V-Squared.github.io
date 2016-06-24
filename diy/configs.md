@@ -6,30 +6,30 @@ abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsu
 readiness:
    - is-complete
 contents:
-  name: PC Comparison (v4)
-  url: pc-comparison-v4
-  name: 8 ViPC Models (v4)
-  url: 8-vipc-models-v4
-  name: Cost Calculations (v4)
-  url: cost-calculations-v4
-  name: 6 ViCase Mini PC Models
-  url: 6-vicase-mini-pc-models-v3
-  name: PC Comparison (v3)
-  url: pc-comparison-v3
-  name: Common Specs
-  url: common-specs
-  name: Cost Calculations (v3)
-  url: cost-calculations-v3
-  name: Full Customization
-  url: full-customization
-  name: PC Comparison details
-  url: pc-comparison-details
-  name: Choose Base Models
-  url: choose-base-models
-  name: Proposed assembly workflow
-  url: proposed-assembly-workflow
-  name: Reference
-  url: reference
+  - name: PC Comparison (v4)
+    url: pc-comparison-v4
+  - name: 8 ViPC Models (v4)
+    url: 8-vipc-models-v4
+  - name: Cost Calculations (v4)
+    url: cost-calculations-v4
+  - name: 6 ViCase Mini PC Models
+    url: 6-vicase-mini-pc-models-v3
+  - name: PC Comparison (v3)
+    url: pc-comparison-v3
+  - name: Common Specs
+    url: common-specs
+  - name: Cost Calculations (v3)
+    url: cost-calculations-v3
+  - name: Full Customization
+    url: full-customization
+  - name: PC Comparison details
+    url: pc-comparison-details
+  - name: Choose Base Models
+    url: choose-base-models
+  - name: Proposed assembly workflow
+    url: proposed-assembly-workflow
+  - name: Reference
+    url: reference
 ---
 
 
