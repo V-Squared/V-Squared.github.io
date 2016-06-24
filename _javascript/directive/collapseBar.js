@@ -96,6 +96,10 @@ angular.module('site')
       console.log(toggle.id);
       
       console.log(collapseService);
+      
+      if(!collapseService.isCollapse[toggle.id]) {
+        throw "directive " +  toggle.id + " does not exist";
+      }
             
       this.$postLink = function () {
         
@@ -128,6 +132,7 @@ angular.module('site')
       collapse: false,
       important: false
     }
+    console.log(this.isCollapse);
   }
   
   this.toggle = function(id) {

@@ -43,7 +43,7 @@ layout: default
         {% endif %}
 
         <div layout="row" layout-align="space-between none" no-gap class="status-bar">
-          <div layout="row" no-gap layout-align="none center">
+          <div>
             {% for my_page in bookbar %}
 {% if my_page.subitems and navurl contains my_page.url %}
             <md-button toggle-collapse-bar="article-col" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
@@ -90,10 +90,12 @@ layout: default
           </div>
 
           <div>
+            {% if page.contents %}
             <md-button hide show-gt-sm toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
               <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
               <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
+            {% endif %}
           </div>
         </div>
 
