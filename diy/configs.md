@@ -3,6 +3,7 @@ layout: page
 title: Configs
 subtitle: Ready Made Workstation Configurations.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+issueNo: 190
 readiness:
    - is-complete
 contents:
