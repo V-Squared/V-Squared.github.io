@@ -7,6 +7,8 @@ abstract: After 2 years of development for the first generation, another year fo
 issueNo: 159
 readiness:
    - is-complete
+   - is-complete
+   - is-complete
    - is-active
 contents:
    - name: Marketing
