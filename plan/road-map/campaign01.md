@@ -18,7 +18,7 @@ readiness:
   - is-complete
   - is-complete
   - is-complete
-  - is-active
+  - is-complete
 ---
 
 
