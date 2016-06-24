@@ -21,7 +21,7 @@ readiness:
 
 ## Comparison
 
-
+![workstationgraph](https://cloud.githubusercontent.com/assets/16950279/16318048/1a881440-3942-11e6-9660-f5e78d60d0e7.png)
 
 {:.uk-table.uk-table-hover}
 
