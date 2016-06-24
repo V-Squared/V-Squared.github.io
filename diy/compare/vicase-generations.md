@@ -31,9 +31,8 @@ contents:
 
 
 
-# ViCase / ViPC Comparison
 
-## Marketing {#marketing}
+# Marketing {#marketing}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -44,7 +43,7 @@ contents:
 | Sales and Marketing Platform | Crowd Funding | V² Community Promotion |
 
 
-## Power {#power}
+# Power {#power}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -58,7 +57,7 @@ contents:
 | Build in Power Distribution | No | Yes |
 
 
-## Performance {#performance}
+# Performance {#performance}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -69,7 +68,7 @@ contents:
 | Double Bracket GPU Low Profile | No | Yes |
 
 
-## Disks {#disks}
+# Disks {#disks}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -81,7 +80,7 @@ contents:
 | maximum data rate | 600 MB/s | 4000 MB/s |
 
 
-## Safety {#safety}
+# Safety {#safety}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -93,7 +92,7 @@ contents:
 | User replaceable Fuse | No | Yes |
 
 
-## Available Standards by time of shipping {#standards}
+# Available Standards by time of shipping {#standards}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -104,7 +103,7 @@ contents:
 |V²FlexATX-PSU | No | Yes |
 
  
-## Case Features {#case-features}
+# Case Features {#case-features}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -118,7 +117,7 @@ contents:
 | 3 Chamber Airflow | No | Yes |
 
 
-## Accessories {#accessories}
+# Accessories {#accessories}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
@@ -135,7 +134,7 @@ contents:
 | 3 Pin Fan Support with Fan Speed Regulation | No | Yes |
 
 
-## Portability {#portability}
+# Portability {#portability}
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
