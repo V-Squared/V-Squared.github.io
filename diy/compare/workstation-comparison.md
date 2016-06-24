@@ -185,7 +185,7 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 |         Cuda Cores |       512       |            512            |
 |     AiO Conversion |       Yes       |             No            |
 |            Display |        No       |             No            |
-|  CPU Unit Portable |     Yes, 6L     |          No, 30L          |
+|  CPU Unit Portable |     Yes, 6L     |          Yes, 8L          |
 | Power Distribution |       Yes       |             No            |
 |   Surge Protection |       Yes       |             No            |
 |    PSU Power       | 300 W           |          240W             |
@@ -243,6 +243,6 @@ https://www.pugetsystems.com/labs/articles/Intel-CPUs-Xeon-E5-vs-Core-i7-634/
 
 
 ## Concluding thoughts
-When compared to other notable workstation PCs on the market, ViPC competes with nearly identical specs while having a smaller footprint and lower cost. All Workstations are louder, with the notable exception of the Mac Pro which produces less noise than the ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
+When compared to other notable workstation PCs on the market, ViPC competes with nearly identical specs while having a smaller footprint and lower cost. All Workstations are louder, with the notable exception of the Mac Pro which produces less noise than the ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro and the Dell Precision (although still not fit to be carrying around. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
 
 
