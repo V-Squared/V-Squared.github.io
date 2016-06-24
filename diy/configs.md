@@ -10,16 +10,12 @@ contents:
     url: pc-comparison-v4
   - name: ViPC Models (v4)
     url: vipc-models-v4
-  - name: Cost Calculations (v4)
-    url: cost-calculations-v4
   - name: ViCase Mini PC Models
     url: vicase-mini-pc-models-v3
   - name: PC Comparison (v3)
     url: pc-comparison-v3
   - name: Common Specs
     url: common-specs
-  - name: Cost Calculations (v3)
-    url: cost-calculations-v3
   - name: Full Customization
     url: full-customization
   - name: PC Comparison details
