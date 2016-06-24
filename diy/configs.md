@@ -5,32 +5,35 @@ subtitle: Ready Made Workstation Configurations.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
 readiness:
    - is-complete
+contents:
+  name: PC Comparison (v4)
+  url: pc-comparison-v4
+  name: 8 ViPC Models (v4)
+  url: 8-vipc-models-v4
+  name: Cost Calculations (v4)
+  url: cost-calculations-v4
+  name: 6 ViCase Mini PC Models
+  url: 6-vicase-mini-pc-models-v3
+  name: PC Comparison (v3)
+  url: pc-comparison-v3
+  name: Common Specs
+  url: common-specs
+  name: Cost Calculations (v3)
+  url: cost-calculations-v3
+  name: Full Customization
+  url: full-customization
+  name: PC Comparison details
+  url: pc-comparison-details
+  name: Choose Base Models
+  url: choose-base-models
+  name: Proposed assembly workflow
+  url: proposed-assembly-workflow
+  name: Reference
+  url: reference
 ---
 
-# Table of Content
 
-- [PC Comparison (v4)](#pc-comparison-v4)
-- [8 ViPC Models (v4)](#8-vipc-models-v4)
-- [Cost Calculations (v4)](#cost-calculations-v4)
-- [6 ViCase Mini PC Models (v3)](#6-vicase-mini-pc-models-v3)
-- [PC Comparison (v3)](#pc-comparison-v3)
-- [Common Specs](#common-specs)
-- [Cost Calculations (v3)](#cost-calculations-v3)
-- [PC Comparison (v2)](#pc-comparison-v2)
-- [Full Customization](#full-customization)
-- [PC Comparison additional details](#pc-comparison-additional-details)
-- [Choose Base Models for efficient building](#choose-base-models-for-efficient-building)
-- [Proposed assembly workflow](#proposed-assembly-workflow)
-- [Questions / Decisions to finalize Base PCs](#questions--decisions-to-finalize-base-pcs)
-- [Reference](#reference)
-
-
-
-
-
-
-
-# PC Comparison (v4)
+# PC Comparison (v4) {#pc-comparison-v4}
 
 ## Improvements v4 → v3
 - Switched to 4 Groups: ( Work | Gaming | Design | Lightning )
@@ -92,7 +95,7 @@ readiness:
 
 
 
-# 8 ViPC Models (v4)
+# 8 ViPC Models (v4) {#8-vipc-models-v4}
 
 ## ViPC-1
 Very quiet and environmentally friendly budget PC. The 120 GB SSD makes responsive and fast to boot. The Athlon 5350 CPU with integrated graphics is snappy for modern internet browsing, web apps and office applications. In the spirit of a Budget PC it comes with Ubuntu. If however you are more comfortable with Windows you can upgrade to Windows 10 Home full edition for $110 US. Up to 2 Displays allow for smooth multitasking.
@@ -119,7 +122,7 @@ Extreme CPU and SSD performance that fits into a silent Mini PC. Ideal for Data 
 Insane CPU and SSD performance that fits into a silent Mini PC. Ideal for Data Base Server, Photo & Video Editing and Development work needing Virtualization. Thanks to ViCase you can convert any display into an All-In-One PC. The small size make it convenient to bring your ViPC where you need.
 
 
-# 6 ViCase Mini PC Models (v3)
+# 6 ViCase Mini PC Models (v3) {#6-vicase-mini-pc-models-v3}
 
 ## Entry: Silent i3 Workstation
 This computer is virtually inaudible when working, even under constant full load! The i3 packs enough punch for common work. Up to 2 Displays allow for smooth multitasking.
@@ -171,7 +174,7 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
 - Mem 100%
 
 
-# PC Comparison (v3)
+# PC Comparison (v3) {#pc-comparison-v3}
 
 ## Improvements v3 → v2
 - Skylake only, which is Intel's 6th (and latest) Generation
@@ -208,7 +211,7 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
    2. LINUX Ubuntu at $110 US discount for Home Edition and $140 US discount on Pro Edition.
 
 
-# Common Specs
+# Common Specs {#common-specs}
 
 | Common Features     | Detail     |
 |:-------------------|:-------|
@@ -280,10 +283,14 @@ Step up feature larger and much faster M2. PCIe SSD. With its 500% faster bandwi
 - (\*2) **Quiet:** as in barely noticeable or technically 25 dBA. This is caused by adding the hard disks. Removing the disks from the configuration will make your PC silent again when operating under idle to medium loads.
 - (\*3) **Normal loudness:** as in noticeable background noise or technically 35 dBA. This is caused mostly by the GPU fan.
 
-# Full Customization
+
+
+# Full Customization {#full-customization}
 Above table shows 6 Base configurations. This gives you a convenient starting point. More configuration options are available in the V²Configurator. We will modify it so that you one out of the six Base Configuration and then can customize your PC.
 
-# PC Comparison additional details
+
+
+# PC Comparison additional details {#pc-comparison-details}
 ## New Skylake Motherboards: 
    - **Entry:** [ASRock H170M-ITX/DL](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157669) $90 US
    - **High End:** [ASRock Fata1ty Z170 ITX/ac](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650) 4K @ 60 Hz  $175 US
@@ -300,7 +307,7 @@ Above table shows 6 Base configurations. This gives you a convenient starting po
 [2]: http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650 "Newegg►ASRock Fata1ty Z170 ITX/ac @ $175 US"
 
 
-# Choose Base Models for efficient building
+# Choose Base Models for efficient building {#choose-base-models}
 
 ## How is this relevant
 
@@ -326,7 +333,7 @@ We choose one Motherboard for all common models. Relatively low cost of this Mot
 
 One Motherboard only will allow to build base models and test them. For more information, please see the → "Proposed assembly workflow" below.
 
-# Reference
+# Reference {#reference}
 
 ## New Skylake Motherboards: 
    - **Entry:** [ASRock H170M-ITX/DL](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157669) $90 US
