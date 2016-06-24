@@ -43,7 +43,19 @@ Detailed comparison of current workstation PCs on the market.
 |   Flat Fee Assembly Service |          Yes         |       No      |    No   |   No  |          No          |
 |     Flat Fee Repair Service |          Yes         |       No      |    No   |   No  |          No          |
 
+# Key Features of ViPC
 
+## Price
+Excluding Apple, competing workstation computers are around 30% more expensive than ViPC. For the specs, ViPC is still the least expensive options when choosing a workstation PC, while still performing the same as the rest. Apple has a beautiful design with their Mac Pro, although you pay for this in the cost of the machine. 
+## Power Density
+Power density is defined as the amount of performance in regard to the size. In this case, ViPC beats the competition, having the same specifications while having the smallest size in liters.
+## Fluid Form Factor
+Most systems are locked down to one way of using them. The HP G1 Z3 is a beautiful all-in-one but because its paired to the screen, cannot be a truly portable machine. The Dell Z240 is small in size, but does not have direct support for an all-in-one transformation. ViPC gives you the freedom of using it how you want to use it; place it next to your monitor as a standalone or mount it to the back your screen to create a 100% DIY AiO. With a fluid form factor, the choice is up to you in how to use it, a great addition for artists or photographers who have dynamic lives.
+## Portability
+
+## Clean Wiring
+
+Power Protection
 
 ## What makes a Workstation Computer? 
 A workstation is designed to make the waiting time and experience of an artist or photographer as smooth and fast as possible. Workstation computers use more reliable parts that are optimized for speed and performance in areas such as rendering and photo editing. 
