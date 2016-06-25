@@ -244,7 +244,7 @@ GREAT comparisons for the non-GPU models. Uses mobile processor and costs way mo
 |Total Cost|**1173.00**|**2717.01**|
 
 
-## VICASE QUADRO VS. LENOVO IDEACENTRE AIO 700 ##
+## VICASE QUADRO VS. LENOVO IDEACENTRE AIO 700 
 
 Battle of 4K IPS screens, ViCase can hold better specifications but for fairness, made the two as equal as possible.
 
@@ -267,7 +267,7 @@ Battle of 4K IPS screens, ViCase can hold better specifications but for fairness
 |Extras Wireless|None|Wifi+Bluetooth|
 |Total Cost|**1841.00**|**1850.00**|
 
-## VICASE QUADRO VS. HP Z1 G2 ##
+## VICASE QUADRO VS. HP Z1 G2 
 
 The mother of them all, and I think a great thing to make note of. This is as far as I can tell the only Quadro all in one, and you can make a ViCase AIO with newer specs for half the price. 
 
@@ -290,7 +290,7 @@ The mother of them all, and I think a great thing to make note of. This is as fa
 |Extras Wireless|None|802.11a/c|
 |Total Cost|**2156.00**|**4331.00**|
 
-## VICASE QUADRO VS. DELL XPS 27 TOUCH ##
+## VICASE QUADRO VS. DELL XPS 27 TOUCH 
 
 Uses older, haswell based components
 
@@ -314,6 +314,6 @@ Uses older, haswell based components
 |Total Cost|**2156.00**|**2649.00**|
 
 
-## Results ##
+## Results 
 
 Whether you are looking at a standalone small PC or All in One, ViPC can put up a fight against every opponent, and in most cases have the upper hand in size, cost, and performance. 
