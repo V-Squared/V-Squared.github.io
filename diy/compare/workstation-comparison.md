@@ -18,6 +18,8 @@ readiness:
 
 ![workstationprice2](https://cloud.githubusercontent.com/assets/16950279/16353354/df3658ba-3a2d-11e6-8258-9bab7f532c21.png)
 
+![workstationpower](https://cloud.githubusercontent.com/assets/16950279/16353986/7251ea04-3a3a-11e6-9974-63c0ce74a915.png)
+
 ![workstationsize2](https://cloud.githubusercontent.com/assets/16950279/16353355/df3819ac-3a2d-11e6-948e-1cf4074840d2.png)
 
 # Summary
