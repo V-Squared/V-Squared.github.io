@@ -55,6 +55,8 @@
       url: /compare/workstation-comparison/
     - menu: Custom PC Comparison
       url: /compare/custom-pc-comparison/
+    - menu: All-in-One Comparison
+      url: /compare/aio-comparison/
     - menu: Mac Mini Comparison
       url: /compare/mac-mini-comparison/
     - menu: ViCase Generations
