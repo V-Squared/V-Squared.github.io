@@ -11,4 +11,4 @@ readiness:
 ---
 
 
-{% include content-navigation.html %}
+{% include content-navigation.html type="article" %}
