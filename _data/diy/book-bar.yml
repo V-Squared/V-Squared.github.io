@@ -1,27 +1,17 @@
-- menu: Configs
-  url: /configs/
+- menu: Compare
+  url: /compare/
+  desc: Comparison Reviews
   subitems:
-- menu: Optimize
-  url: /optimize/
-  subitems:
-- menu: Cool
-  url: /cool/
-  subitems:
-- menu: Assemble
-  url: /assemble/
-  subitems:
-- menu: AIO
-  url: /aio/
-  subitems:
-- menu: Install
-  url: /install/
-  subitems:
-- menu: Fixing
-  url: /fixing/
-  subitems:
-- menu: QA
-  url: /qa/
-  subitems:
+    - menu: Workstation Comparison
+      url: /compare/workstation-comparison/
+    - menu: Custom PC Comparison
+      url: /compare/custom-pc-comparison/
+    - menu: All-in-One Comparison
+      url: /compare/aio-comparison/
+    - menu: Mac Mini Comparison
+      url: /compare/mac-mini-comparison/
+    - menu: ViCase Generations
+      url: /compare/vicase-generations/
 - menu: Parts
   url: /parts/
   desc: Choosing & Understanding Workstation PC Parts
@@ -44,20 +34,40 @@
       url: /parts/case/
     - menu: Accessories
       url: /parts/accessories/
+- menu: Configs
+  url: /configs/
+  desc: Ready Made Workstation Configurations. 
+  subitems:
+- menu: Install
+  url: /install/
+  desc: Software Installation & Updating. 
+  subitems:
+- menu: QA
+  url: /qa/
+  desc: How to Check Workstation PC is up to spec. 
+  subitems:
+- menu: Optimize
+  url: /optimize/
+  desc: How to Optimize Workstation PC Performance. 
+  subitems:
+- menu: Cool
+  url: /cool/
+  desc: How to Make your PC Cool & Quiet. 
+  subitems: 
+- menu: Assemble
+  url: /assemble/
+  desc: How to Assemble a Workstation PC yourself. 
+  subitems:
+- menu: AIO
+  url: /aio/
+  desc: How to Build an All-In-One Workstation. 
+  subitems:
+- menu: Fixing
+  url: /fixing/
+  desc: How to Fix Your Workstation PC. 
+  subitems:
 - menu: Tools
   url: /tools/
+  desc: Custom Workstation PC Configuration Tools. 
   subitems:
-- menu: Compare
-  url: /compare/
-  desc: Comparison Reviews
-  subitems:
-    - menu: Workstation Comparison
-      url: /compare/workstation-comparison/
-    - menu: Custom PC Comparison
-      url: /compare/custom-pc-comparison/
-    - menu: All-in-One Comparison
-      url: /compare/aio-comparison/
-    - menu: Mac Mini Comparison
-      url: /compare/mac-mini-comparison/
-    - menu: ViCase Generations
-      url: /compare/vicase-generations/
+
