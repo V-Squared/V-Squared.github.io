@@ -16,7 +16,7 @@
 
 {% if type == 'article-group' %}
 
-<div layout="row" layout-wrap class="content-navigation">
+<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -30,7 +30,7 @@
 
   {% if page.url == groupUrl %}
 
-  <div flex="50">
+  <div flex="50" flex-sm="100">
     <md-card class="md-whiteframe-9dp">
       <a href="{{site.baseurl}}{{groupUrl}}" flex>
         <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
@@ -66,7 +66,7 @@
 {% endif %}
 
 {% if type == "article" %}
-<div layout="row" layout-wrap class="content-navigation">
+<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -78,7 +78,7 @@
 
   {% if sitePage.url == subitemUrl %}
 
-  <div flex="50">
+  <div flex="50" flex-sm="100">
     <md-card class="md-whiteframe-9dp">
       <a href="{{site.baseurl}}{{subitemUrl}}" flex>
         <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
@@ -112,7 +112,7 @@
 {% endif %}
 
 {% if type == "book" %}
-<div layout="row" layout-wrap class="content-navigation">
+<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
 
   {% for my_page in bookbar %}
   {% capture bookUrl %}/{{boardUrl}}{{my_page.url}}{% endcapture %}
@@ -121,7 +121,7 @@
 
   {% if sitePage.url == bookUrl %}
 
-  <div flex="50">
+  <div flex="50" flex-sm="100">
     <md-card class="md-whiteframe-9dp">
       <a href="{{site.baseurl}}{{bookUrl}}" flex>
         <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
