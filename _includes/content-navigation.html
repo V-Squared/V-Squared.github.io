@@ -9,43 +9,46 @@
 {% endfor %}
 
 <div layout="row" layout-wrap class="content-navigation">
-  
+
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
   {% for subitem in my_page.subitems %}
   {% if subitem.group and navurl contains subitem.url %}
   {% for group in subitem.group %}
-  
+
   {% capture groupUrl %}/{{boardUrl}}{{group.url}}{% endcapture %}
-  
+
   {% for page in site.pages %}
-  
+
   {% if page.url == groupUrl %}
-  
+
   <div flex="50">
-  <md-card>
-    <a href="{{site.baseurl}}{{groupUrl}}" flex>
-    <md-card-header>
-      <span class="md-title">Angular</span>
-    </md-card-header>
-    {% if page.visualUrl %}<img src="{{page.visualUrl}}" class="md-card-image">{% endif %}
-    <md-card-title>
-      <md-card-title-text>
-        <span class="md-headline">{{page.title}}</span>
-      </md-card-title-text>
-    </md-card-title>
-    <md-card-content>
-      <md-card-subtitle>
-        {{page.subtitle}}
-      </md-card-subtitle>
-      <md-card-description>
-        {% if page.abstract %}{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
-      </md-card-description>
-    </md-card-content>
-    </a>
-  </md-card>
+    <md-card class="md-whiteframe-9dp">
+      <a href="{{site.baseurl}}{{groupUrl}}" flex>
+        <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+            <div flex class="{{page.readiness[0]}}"></div>
+            <div flex class="{{page.readiness[1]}}"></div>
+            <div flex class="{{page.readiness[2]}}"></div>
+            <div flex class="{{page.readiness[3]}}"></div>
+          </div>
+        {% if page.visualUrl %}<img src="{{page.visualUrl}}" class="md-card-image">{% endif %}
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{page.title}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <md-card-subtitle>
+            {{page.subtitle}}
+          </md-card-subtitle>
+          <md-card-description>
+            {% if page.abstract %}{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+          </md-card-description>
+        </md-card-content>
+      </a>
+    </md-card>
   </div>
-  
+
   {% endif %}
   {% endfor %}
   {% endfor %}

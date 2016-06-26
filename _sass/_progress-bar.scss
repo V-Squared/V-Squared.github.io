@@ -17,7 +17,7 @@ $mute: #DFE3E4;
     display: table-cell;
     text-align: center;
     font-size: 0.8em;
-    
+
     &:before {
       content: attr(data-step);
       display: block;
@@ -48,7 +48,7 @@ $mute: #DFE3E4;
     }
     &.is-complete {
       color: $complete;
-      
+
       &:before,
       &:after {
         color: #FFF;
@@ -57,7 +57,7 @@ $mute: #DFE3E4;
     }
     &.is-active {
       color: $active;
-      
+
       &:before {
         color: #FFF;
         background: $active;
@@ -65,23 +65,37 @@ $mute: #DFE3E4;
     }
   }
 }
-  /**
-   * Needed for IE8
-   */
-  .progress__last:after {
-    display: none!important;
-  }
+/**
+* Needed for IE8
+*/
+.progress__last:after {
+  display: none!important;
+}
 
 .progress__last:before {
   margin: 0 0 0 auto;
 }
 
-  /**
-   * Size Extensions
-   */
-  .progress--medium {
-    font-size: 1.5em;
+/**
+* Size Extensions
+*/
+.progress--medium {
+  font-size: 1.5em;
+}
+.progress--large {
+  font-size: 2em;
+}
+
+.card-progress-bar {
+  width: 150px;
+  z-index: 99;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  border-top-right-radius: 10px;
+  height: 10px;
+  
+  div:last-child {
+    border-top-right-radius: 10px;
   }
-  .progress--large {
-    font-size: 2em;
-  }
+}
