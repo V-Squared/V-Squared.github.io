@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Tools
-subtitle: Custom Workstation PC Configuration Tools.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+title: Tools for DIY Workstation
+subtitle: A set of tools to make the configuration and optimization process easy and intuitive. 
+abstract: >
+  These tools cover: Custom PC Configurator (for buyer), Custom PC Builder (for seller), Fan Speed Regulator.
 readiness:
    - is-complete
 ---
@@ -11,4 +12,4 @@ readiness:
 
 # Intro {#intro}
 
-This is a intro page incase you don't know.
+This will be the introduction page.
