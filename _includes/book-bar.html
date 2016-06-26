@@ -16,7 +16,7 @@
       
       {% capture introUrl %}/{{include.board}}/{% endcapture %}
       
-      <li md-ink-ripple class="{% if navurl == introUrl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}/" class="md-tab">Intro</a></li>
+      <li md-ink-ripple class="{% if navurl == introUrl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}/" class="md-tab">Index</a></li>
 
       {% for my_page in include.nav %}
       <li md-ink-ripple class="{% if navurl contains my_page.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab">{{ my_page.menu }}</a></li>
