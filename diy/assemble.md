@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Assemble
-subtitle: How to Assemble a Custom Workstation PC Yourself.
-abstract: > 
-	Building a custom workstation PC can save hundreds of dollars and it can give you the exact computer you want, that may not be available otherwise. At the same time it can be a daunting and time consuming experience to the new comer. These step by step tutorials in combination with the ViCase design optimized for easy assembly will make your assembly experience easy and free of headaches.
+title: Workstation PC Assembly
+subtitle: Tutorials on wow to Assemble a Custom Workstation PC.
+abstract: >
+  Building a custom workstation PC can save hundreds of dollars and it can give you the exact computer you want, that may not be available otherwise. At the same time it can be a daunting and time consuming experience to the new comer. These step by step tutorials in combination with the ViCase design optimized for easy assembly will make your assembly experience easy and free of headaches.
 readiness:
    - is-complete
 ---
