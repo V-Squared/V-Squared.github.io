@@ -2,7 +2,8 @@
 layout: page
 title: AiO
 subtitle: How to Build an All-In-One Workstation.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: >
+  All-In-One computer are stylish and elegant. These tutorials show how you can build an Open Modular All-In-One Workstation by yourself. Or how we build one for you if you choose the ViPC custom build option. In any event you will enjoy the best of both worlds: High performance and upgradeability of a desktop married with the stylish design and elegant looks of an All-In-One.
 readiness:
    - is-complete
 ---
