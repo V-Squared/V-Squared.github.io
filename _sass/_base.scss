@@ -24,13 +24,16 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
 }
-
-@media (min-width: 1420px) {
-  .uk-container {
-    max-width: 1400px;
-  }
+.uk-container {
+  max-width: 1400px;
+  padding: 0 30px;
 }
 
+@media (max-width: 960px) {
+  .uk-container {
+  padding: 0 25px;
+  }
+}
 
 
 /**
