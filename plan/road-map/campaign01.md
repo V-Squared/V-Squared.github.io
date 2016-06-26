@@ -59,27 +59,19 @@ Click the milestone to see the open list of issues of this milestone.
 
 |                     Milestone | Description                                                                                                                                                                                                                                |
 |------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      [c1.Home-Page.Create][1] | The V² Home Page is extremely complex and has its own Milestone. It is the most important fishing net for us with lots of advanced features.                                                                                               |
 |           [c1.Plan.Create][2] | First implementation of V²Plan. First two Campaigns are completely planned out. All Articles on how to create and read the plan are written. Cross linked navigation works.                                                                |
 |       [c1.GitHub-Template][3] | Jekyll Template and 5 Level Navigation Menu System that is used in V²Site, ViSite and is the base for the template in V²Shop and ViShop. Integrated with V²Plan System.                                                                    |
-|   [c1.Organization.Create][4] | This V²Site Board tells who we are, what are our bylaws and our license agreements and how to contribute. All that is needed to attract contributors will be finished.                                                                   |
 |            [c1.Art.Create][5] | Launch of V²Art. All Articles, Workflows, Folder Structures, Nomenclature and file hosting services are up in order to create and host artwork for our web sites. It is possible for contributors to create art that is consistent to our CI.|
-|          [c1.Visuals-Home][6] | This page has about 50 custom visuals. This Milestone creates an Issue for every Image Group with instructions on creating and editing.                                                                                                    |
 |      [c1.ViCase-Mini-Gold][7] | Golden Sample of ViCase Mini before Mass Production. Latest design with integrated PSU and Surge Protection. Made completely in Aluminum. Full optimized for mass production. 1 pcs. We will take picture and video here, then send the case to Bobby for final review. [Production-Scrum][11]|
 |         [c1.v2-Shop-Proto][8] | Complete working shop in Shopify. Landing Page, About Page, Products Pages, Products Overview Page, check out, payment. Speed of payment is tested too. Works on Mobile. True cost per sales. Cash Flow per Sales                          |
-|       [c1.v2-Intro-Video ][9] | Re-edit of ViCase Campaign Movie with updated story flow to new situation. We are using all existing footage. Where needed we make subtitles or show new images when new design is different.                                              |
-|       [c1.v2-Site-Launch][10] | Launch of V² Site. Home Page is completely finished. All boards needed to a) attract contributors and b) to utilize contributions are completed. Plan and Org Boardss are fully completed.                                             |
 
-[1]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.Home-Page.Create
+
 [2]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.Plan.Create
 [3]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.GitHub-Template
-[4]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.Organization.Create
 [5]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.Art.Create
-[6]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.Visuals-Home
 [7]: https://github.com/V-Squared/v2-Production/milestones/c1.ViCase-Mini-Gold
 [8]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.v2-Shop-Proto
-[9]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.v2-Intro-Video 
-[10]: https://github.com/V-Squared/V-Squared.github.io/milestones/c1.v2-Site-Launch
+
 
 
 # Campaign Progress {#progress}
