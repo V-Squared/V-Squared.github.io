@@ -42,9 +42,9 @@
   url: /install/
   desc: Software Installation & Updating. 
   subitems:
-- menu: QA
-  url: /qa/
-  desc: How to Check Workstation PC is up to spec. 
+- menu: Quality
+  url: /quality/
+  desc: How to Check the Workstation PC is up to spec. 
   subitems:
 - menu: Optimize
   url: /optimize/
