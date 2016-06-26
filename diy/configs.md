@@ -2,7 +2,7 @@
 layout: page
 title: Configs
 subtitle: Ready Made Workstation Configurations.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: Learn about the different ViPC models. Ranging from entry level generic Workstation PCs to High End 3D Workstations capable of smooth 4k 3D design on multiple displays. Detailed overlook on technical specifications of each model provides a better understanding of which model is more optimal for your applications.
 issueNo: 190
 readiness:
    - is-complete
