@@ -116,3 +116,49 @@
 
 </div>
 {% endif %}
+
+{% if type == 'book' %}
+<div layout="row" layout-wrap class="content-navigation">
+
+  {% for my_page in bookbar %}
+  {% if my_page.subitems and navurl contains my_page.url %}
+  {% capture bookUrl %}/{{boardUrl}}{{subitem.url}}{% endcapture %}
+  
+
+  {% for page in site.pages %}
+
+  {% if page.url == bookUrl %}
+
+  <div flex="50">
+    <md-card class="md-whiteframe-9dp">
+      <a href="{{site.baseurl}}{{bookUrl}}" flex>
+        <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+            <div flex class="{{page.readiness[0]}}"></div>
+            <div flex class="{{page.readiness[1]}}"></div>
+            <div flex class="{{page.readiness[2]}}"></div>
+            <div flex class="{{page.readiness[3]}}"></div>
+          </div>
+        {% if page.visualUrl %}<img src="{{page.visualUrl}}" class="md-card-image">{% endif %}
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{page.title}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <md-card-subtitle>
+            {{page.subtitle | markdownify | remove: "<p>" | remove: "</p>"}}
+          </md-card-subtitle>
+          <md-card-description>
+            {% if page.abstract %}{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+          </md-card-description>
+        </md-card-content>
+      </a>
+    </md-card>
+  </div>
+
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
