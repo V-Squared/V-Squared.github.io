@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QA
+title: Quality Assurance
 subtitle: How to Check Workstation PC is up to spec.
 abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
 issueNo: 170
