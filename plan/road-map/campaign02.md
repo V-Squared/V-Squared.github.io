@@ -76,7 +76,7 @@ Click the milestone to see the open list of issues of this milestone.
 |    [c2.Retail.Create][05] | Articles on benefits for Retailers on V² Modular PC, ViCase and ViPC. Price List with ViCase and Ratailer discounts |
 | [c2.Spreading.Create][06] | Launch of the Board that describes how to spread the word and products. One Campaign Article for each social media to creates its kickoff or reboot.  |
 |       [c2.App.Create][07] | Launch App Board. Create platform for V²App.Configurator & V²App.FormFactor |
-|      [c2.DIY.QA.ViPC][08] | Testing Quality of all parts used in ViCase. **Stage 1** is separate testing of parts. **Stage 2** is testing complete ViPC configurations. **Stage 3** is testing the complete assembled ViPC in ViCase. |
+| [c2.Organization.Create][24] | This V²Site Board tells who we are, what are our bylaws and our license agreements and how to contribute. All that is needed to attract contributors will be finished.                                                                   |
 
 [01]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Standards.Create
 [02]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Products.Create
@@ -85,7 +85,7 @@ Click the milestone to see the open list of issues of this milestone.
 [05]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Retail.Create
 [06]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Spreading.Create
 [07]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.App.Create
-[08]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.QA.ViPC
+[24]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Organization.Create
 
 
 # Milestones to Create Shop & Product Pages {#milestones-shop}
@@ -101,6 +101,7 @@ Click the milestone to see the open list of issues of this milestone.
 |   [c2.ViCase.Mini.R2][11] | Production Run 2. 100 pcs. Same design as ViCase Mini R1, but including bug fixes.                                                                                                                                        |
 |    [c2.ViSite.Create][12] | Launch of Village Tronic Web Site. All pages and functions complete to support selling ViCase via *V²Shop* and *ViCase Promotion* and to provide support for customer.                                                                                        |
 |   [c2.v2-Shop.Create][13] | All things need to be done to launch the V²Shop. V²Shop caters to Customers in the Americas.                                                                                                                                      |
+|      [c2.DIY.QA.ViPC][08] | Testing Quality of all parts used in ViCase. **Stage 1** is separate testing of parts. **Stage 2** is testing complete ViPC configurations. **Stage 3** is testing the complete assembled ViPC in ViCase. |
 |    [c2.ViShop.Create][14] | All things need to be done to launch the ViShop. ViShop caters Customers in the Asian and European Regions. We will remain looking for a V²Shop partner for Europe.                                                                   |
 | [c2.App.Configurator][15] | Adopt the Configurator to work in tandem with V²PC.Configs. Remove Wizard. Instead simply choose a V²PC configuration from a list. Update all data according to V²PC shopping References.                                 |
 |   [c2.App.FormFactor][16] | Remove the Form Factor App from the Configurator and make it work stand alone, so it can be used within product pages to demo how to turn ViCase Mini into an All-In-One PC.                                              |
@@ -111,6 +112,7 @@ Click the milestone to see the open list of issues of this milestone.
 [11]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.ViCase.Mini.R2
 [12]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.ViSite.Create
 [13]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2-Shop.Create
+[08]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2.DIY.QA.ViPC
 [14]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.ViShop.Create
 [15]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.App.Configurator
 [16]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.App.FormFactor
@@ -127,6 +129,10 @@ Click the milestone to see the open list of issues of this milestone.
 
 |               Milestone | Description                                                                                                                                                                                                               |
 |------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      [c2.Home-Page.Create][25] | The V² Home Page is extremely complex and has its own Milestone. It is the most important fishing net for us with lots of advanced features.                                                                                               |
+|       [c2.v2-Intro-Video ][27] | Re-edit of ViCase Campaign Movie with updated story flow to new situation. We are using all existing footage. Where needed we make subtitles or show new images when new design is different.                                              |
+|       [c2.v2-Site-Launch][26] | Launch of V² Site. Home Page is completely finished. All boards needed to a) attract contributors and b) to utilize contributions are completed. Plan and Org Boardss are fully completed.                                             |
+|          [c2.Visuals-Home][28] | This page has about 50 custom visuals. This Milestone creates an Issue for every Image Group with instructions on creating and editing.                                                                                                    |
 |     [c2.ViCase.Promotion][18] | Create a campaign page in the same format as a crowd funding project. ViCase Promotion is having all crowd funding benefits without their risks |
 |    [c2.Referral.Create][19] | Starting Referral Marketing: Pick the right plugin, choose the right campaign. Set up the campaign and promote its availability to the community. Work with community so to reach the viral marketing effect.             |
 |      [c2.Previews.ViCase][20] | Find reviewers who are interested in being the first to show new innovative products and / or who care that V² is providing the missing standard for Mini and All-In-One PCs. Schedule visits and demo the Golden Sample. |
@@ -134,6 +140,10 @@ Click the milestone to see the open list of issues of this milestone.
 |      [c2.Social.Create][22] | Promote Blog Posts and Referral Marketing on Social Media. Get readers engaged to the point to reach a viral marketing effect.                                                                                            |
 |        [c2.Blog.Create][23] | Get Blog Software going. Start posting blogs and re-post on Social Media. Get readers involved to get feedback and to get them spreading the posts. Listen and follow their ideas on how to become more valuable to them. |
 
+[25]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Home-Page.Create
+[27]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2-Intro-Video 
+[26]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.v2-Site-Launch
+[28]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Visuals-Home
 [18]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.ViCase.Promotion
 [19]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Referral.Create
 [20]: https://github.com/V-Squared/V-Squared.github.io/milestones/c2.Previews.ViCase
