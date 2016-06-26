@@ -2,7 +2,7 @@
 layout: page
 title: Cool
 subtitle: How to Make your PC Cool & Quiet.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: It is relatively easy to build a quiet PC or a PC that runs cool. The trick is to build a PC that is both: Cool and quiet. Here you find guides on how to make it happen.
 readiness:
    - is-complete
 ---
