@@ -1,7 +1,7 @@
 ---
 layout: page
 title: V²Site Launch Campaign 1
-subtitle: Creating the V² Platform completed enough to attract and coordinate contributors.
+subtitle: Reach a completeness of the V² Platform sufficient to attract and coordinate contributors.
 issueNo: 97
 contents:
    - name: Where Campaign fits
