@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.articleBar %}
+  {% assign articleBar = page.articleBar %}
+{% else %}
+  {% assign articleBar = 'yes' %}
+{% endif %}
+
 {% for board in site.data.board-bar %}
 {% if page.url contains board.url %}
 {% assign boardName = board.menu %}
@@ -13,7 +19,9 @@ layout: default
 <article class="post">
 
   <div layout="row"  layout-sm="column" layout-align="center none" no-gap>
+    {% if articleBar == 'yes' %}
     {% include article-bar.html nav=bookbar board=boardUrl %}
+    {% endif %}
     <div flex class="article md-whiteframe-5dp">
       <div class="jumbotron article-jumbotron">
 
