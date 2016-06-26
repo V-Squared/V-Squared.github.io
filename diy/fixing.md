@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Fixing
-subtitle: How to Fix Your Workstation PC.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+title: Fixing Workstation PCs
+subtitle: Tutorials on how to Fix Your Workstation PC.
+abstract: >
+  These Tutorials show you how to fix your workstation PC by yourself. This will often save your money and reduce the downtime of your Workstation. And in case you can't do it by yourself we show you how and where to get help.
 readiness:
    - is-complete
 ---
@@ -11,4 +12,3 @@ readiness:
 
 # Intro {#intro}
 
-This is a intro page incase you don't know.
