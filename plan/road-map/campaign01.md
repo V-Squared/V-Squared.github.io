@@ -57,7 +57,7 @@ Click the milestone to see the open list of issues of this milestone.
 
 {:.uk-table.table-detail.detail-blue}
 
-|                     Milestone |                                                                                                                                                                                                                                 |
+|                  Milestones |                                                                                                                                                                                                                                 |
 |------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           [c1.Plan.Create][2] | First implementation of V²Plan. First two Campaigns are completely planned out. All Articles on how to create and read the plan are written. Cross linked navigation works.                                                                |
 |       [c1.GitHub-Template][3] | Jekyll Template and 5 Level Navigation Menu System that is used in V²Site, ViSite and is the base for the template in V²Shop and ViShop. Integrated with V²Plan System.                                                                    |
