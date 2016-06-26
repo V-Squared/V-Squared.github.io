@@ -237,17 +237,47 @@
 
 .post-content {
   //padding: $spacing-unit 0;
-  
-  md-card {
-    position: relative;
-    cursor: pointer;
+
+  .content-navigation {
+    padding:8px;
     
-    &:first-child {
-      margin-left: 0;
+    > div.flex-50 {
+      padding:8px;
     }
-    
-    &:last-child {
-      margin-right: 0;
+
+    md-card {
+      margin: 0;
+      height: 100%;
+      border-radius: 10px;
+      transition: all .2s cubic-bezier(.55,0,.55,.2);
+      
+      &:hover {
+        box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);
+      }
+      
+      a{
+        position: relative;
+        &:hover {
+          text-decoration: none;
+        }
+        * {
+          color:rgba(0,0,0,0.87);
+        }
+      }
+    }
+    md-card-subtitle {
+      font-size: 17px;
+      display: block;
+      margin-bottom: 12.5px;
+    }
+    md-card-description {
+      line-height: 1.7em;
+      font-size:16px;
+      display: block;
+      color:rgba(0,0,0,0.6) !important;
+    }
+    md-card .md-headline {
+      font-size:25px;
     }
   }
 

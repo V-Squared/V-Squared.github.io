@@ -9,3 +9,5 @@ issueNo: 179
 readiness:
    - is-active
 ---
+
+{% include content-navigation.html %}
