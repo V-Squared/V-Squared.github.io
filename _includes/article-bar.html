@@ -15,7 +15,7 @@
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
 
       <li class="{% if navurl == itemUrl %}uk-active{% endif %}">
-        <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Intro</a>
+        <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
       </li>
 
       {% if navurl == my_page.url and page.contents %}
@@ -38,7 +38,7 @@
         {% if subitem.group %}
         <ul>
           <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
-            <a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">Intro {{subitem.menu}}</a>
+            <a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">Index {{subitem.menu}}</a>
           </li>
           {% for group in subitem.group %}
           
