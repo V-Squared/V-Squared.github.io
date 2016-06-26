@@ -17,7 +17,7 @@ readiness:
    - is-active
 ---
 
-
+{% include content-navigation.html type="article" %}
 
 # Where Road Map fits in {#fit-where}
 
