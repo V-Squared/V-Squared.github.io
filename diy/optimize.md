@@ -2,7 +2,7 @@
 layout: page
 title: Optimize
 subtitle: How to Optimize Workstation PC Performance.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: Get a better understanding of how to get the most out of your workstation computer. Photographers will be using differently optimized PC parts compared to 3D designers or software developers. Learn all about the difference here. Follow these guides to find out what type of computer you need based on your applications.
 readiness:
    - is-complete
 ---
@@ -11,4 +11,4 @@ readiness:
 
 # Intro {#intro}
 
-This is a intro page incase you don't know.
+This will become the introduction page
