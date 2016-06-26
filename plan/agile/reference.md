@@ -7,3 +7,5 @@ issueNo:
 readiness:
    - is-active
 ---
+
+{% include content-navigation.html %}
