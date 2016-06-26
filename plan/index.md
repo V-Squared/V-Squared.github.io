@@ -20,7 +20,7 @@ readiness:
    - is-complete
 ---
 
-
+{% include content-navigation.html type="book" %}
 
 # Key Elements of V²Plan {#key-elements}
 
