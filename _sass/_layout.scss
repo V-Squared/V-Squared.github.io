@@ -240,7 +240,7 @@
 
   .content-navigation {
     padding:8px;
-    
+
     > div.flex-50 {
       padding:8px;
     }
@@ -250,11 +250,11 @@
       height: 100%;
       border-radius: 10px;
       transition: all .2s cubic-bezier(.55,0,.55,.2);
-      
+
       &:hover {
         box-shadow: 0 9px 11px -5px rgba(0,0,0,.2),0 18px 28px 2px rgba(0,0,0,.14),0 7px 34px 6px rgba(0,0,0,.12);
       }
-      
+
       a{
         position: relative;
         &:hover {
@@ -575,5 +575,28 @@ table.table-detail {
 
   svg path {
     fill: #1976D2 !important;
+  }
+}
+table.detail-blue {
+  thead > tr {
+    background: #3949AB;
+    color:#FFF;
+  }
+
+  tbody {
+    tr {
+      border-bottom: 2px solid #7986cb;
+      
+      &:last-child {
+        border-bottom:0;
+      }
+      
+      td:first-child {
+        background: #E5E7F4;
+      }
+      td {
+        background: #F6F6FB;
+      }
+    }
   }
 }
