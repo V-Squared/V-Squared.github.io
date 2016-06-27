@@ -5,7 +5,10 @@ subtitle: Index of all reference articles.
 abstract: 
 issueNo: 
 readiness:
-   - is-active
+   - is-complete
+   - is-complete
+   - is-complete
+   - is-complete
 ---
 
 {% include content-navigation.html %}
