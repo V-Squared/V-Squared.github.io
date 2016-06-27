@@ -203,7 +203,7 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 
 ## ViPC-620 vs HP Z240
 
-<table class="uk-table detail-blue">
+<table class="uk-table table-detail detail-blue">
 <thead>
 <tr>
   <th align="right">Features</th>
@@ -286,7 +286,7 @@ Even though the HP Z240 is categorized as Small Form Factor it is still a full D
 
 ## ViPC 1200 vs HP Z1 G3
 
-<table class="uk-table detail-blue">
+<table class="uk-table table-detail detail-blue">
 <thead>
 <tr>
   <th align="right">Features</th>
@@ -382,23 +382,81 @@ The HP Z1 G3 is the only Workstation other than ViPC that can be converted into 
 
 ## ViCase 970-T vs Mac Pro
 
-{:.uk-table.uk-table-hover}
 
-|   Features |   ViCase-970T   |      Mac Pro      |
-|-----------:|:---------------:|:-----------------:|
-|         OS |    Win 10 Pro   |     Win 10 Pro    |
-|        CPU | i7-6700 (Gen 6) | 3.7 GHz Quad Core |
-|  Boot Disk | 512 GB SSD NVME |  512 GB SSD NVME  |
-| Data Disks |       2 TB      |         —         |
-|        RAM |   16 GB DDR 4   |    16 GB DDR3     |
-|        GPU |   GTX 970 4 GB  |   Dual D300 4 GB  |
-|  GPU Cores |       1664      |        1280       |
-|   AiO Conversion| Yes        | No                |
-| Portable   | Yes, 9L         | Yes, 7 L          |
-| Power Distribution | Yes    | No |
-| Surge Protection | Yes | No   |
-|      Total |     1600 USD    |      3500 USD     |
-| Over Price |     100 %       |     218 %           |
+<table class="uk-table table-detail detail-blue">
+<thead>
+<tr>
+  <th align="right">Features</th>
+  <th align="center">ViCase-970T</th>
+  <th align="center">Mac Pro</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="right">OS</td>
+  <td class="gn" align="center">Win 10 Pro</td>
+  <td class="gn" align="center">Win 10 Pro</td>
+</tr>
+<tr>
+  <td align="right">CPU</td>
+  <td class="gn" align="center">i7-6700 (Gen 6)</td>
+  <td class="rd" align="center">3.7 GHz Quad (Gen 5)</td>
+</tr>
+<tr>
+  <td align="right">Boot Disk</td>
+  <td class="gn" align="center">512 GB SSD NVME</td>
+  <td class="gn" align="center">512 GB SSD NVME</td>
+</tr>
+<tr>
+  <td align="right">Data Disks</td>
+  <td class="gn" align="center">2 TB</td>
+  <td class="rd" align="center">—</td>
+</tr>
+<tr>
+  <td align="right">RAM</td>
+  <td class="gn" align="center">16 GB DDR 4</td>
+  <td class="rd" align="center">16 GB DDR3</td>
+</tr>
+<tr>
+  <td align="right">GPU</td>
+  <td class="gn" align="center">GTX 970 4 GB</td>
+  <td class="rd" align="center">Dual D300 4 GB</td>
+</tr>
+<tr>
+  <td align="right">GPU Cores</td>
+  <td class="gn" align="center">1664</td>
+  <td class="rd" align="center">1280</td>
+</tr>
+<tr>
+  <td align="right">AiO Conversion</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Portable</td>
+  <td class="gn" align="center">Yes, 9L</td>
+  <td class="rd" align="center">Yes, 7 L</td>
+</tr>
+<tr>
+  <td align="right">Power Distribution</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Surge Protection</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Total</td>
+  <td class="gn" align="center">1600 USD</td>
+  <td class="rd" align="center">3500 USD</td>
+</tr>
+<tr>
+  <td align="right">Over Price</td>
+  <td class="gn" align="center">100 %</td>
+  <td class="rd" align="center">218 %</td>
+</tr>
+</tbody></table>
 
 ### Comment
 The Mac Pro is the only Workstation in this comparison which is smaller and quieter than ViPC. It is a very cool design in every sense and we adore it. You pay for it of course with a 218% higher price.
