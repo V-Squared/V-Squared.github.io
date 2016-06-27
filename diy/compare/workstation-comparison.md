@@ -58,8 +58,8 @@ Detailed comparison of current workstation PCs on the market.
 </tr>
 <tr>
   <td align="right">All In One Conversion</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
   <td class="rd" align="center">No</td>
   <td align="center">Yes</td>
   <td align="center">No</td>
