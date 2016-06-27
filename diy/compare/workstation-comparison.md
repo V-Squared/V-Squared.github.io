@@ -45,9 +45,9 @@ Detailed comparison of current workstation PCs on the market.
   <td align="right">Price</td>
   <td class="gn" align="center">100%</td>
   <td class="rd" align="center">218%</td>
-  <td align="center">132%</td>
-  <td align="center">135%</td>
-  <td align="center">126%</td>
+  <td class="yw" align="center">132%</td>
+  <td class="yw" align="center">135%</td>
+  <td class="yw" align="center">126%</td>
 </tr>
 <tr>
   <td align="right">Similar Performance</td>
