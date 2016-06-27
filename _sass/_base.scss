@@ -217,6 +217,18 @@ padding-left: $spacing-unit / 2;
   }
 }
 
+
+
+
+table {
+  .rd {
+    background: #ffcdd2;
+  }
+}
+
+
+
+
 [layout=column][layout-gap] > *:not(:last-child) {
   margin-bottom: 20px;
 }
