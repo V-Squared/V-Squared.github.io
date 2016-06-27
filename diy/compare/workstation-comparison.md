@@ -433,8 +433,8 @@ The HP Z1 G3 is the only Workstation other than ViPC that can be converted into 
 </tr>
 <tr>
   <td align="right">Portable</td>
-  <td class="gn" align="center">Yes, 9L</td>
-  <td class="rd" align="center">Yes, 7 L</td>
+  <td class="rd" align="center">Yes, 9L</td>
+  <td class="gn" align="center">Yes, 7 L</td>
 </tr>
 <tr>
   <td align="right">Power Distribution</td>
@@ -468,26 +468,95 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 
 ## ViCase vs Dell
 
-{:.uk-table.uk-table-hover}
-
-|           Features |  ViCase-1200-T  | Dell Precision Tower 3000 |
-|-------------------:|:---------------:|:-------------------------:|
-|                 OS |    Win 10 Pro   |         Win 10 Pro        |
-|                CPU | i7-6700 (Gen 6) |      i7-6700 (Gen 6)      |
-|          Boot Disk | 512 GB SSD NVME |      512 GB SSD NVME      |
-|         Data Disks |   2 TB RAID 0   |        2 TB RAID 0        |
-|                RAM |   32 GB DDR 4   |        32 GB DDR 4        |
-|                GPU |      K1200      |           K1200           |
-|             Memory |       4 GB      |            4 GB           |
-|         Cuda Cores |       512       |            512            |
-|     AiO Conversion |       Yes       |             No            |
-|            Display |        No       |             No            |
-|  CPU Unit Portable |     Yes, 6L     |          Yes, 8L          |
-| Power Distribution |       Yes       |             No            |
-|   Surge Protection |       Yes       |             No            |
-|    PSU Power       | 300 W           |          240W             |
-|              Total |     1946 USD    |          2463 USD         |
-| Over Price         |     100 %       |           126 %           |
+<table class="uk-table table-detail detail-blue">
+<thead>
+<tr>
+  <th align="right">Features</th>
+  <th align="center">ViCase-1200-T</th>
+  <th align="center">Dell Precision Tower 3000</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="right">OS</td>
+  <td class="gn" align="center">Win 10 Pro</td>
+  <td align="center">Win 10 Pro</td>
+</tr>
+<tr>
+  <td align="right">CPU</td>
+  <td align="center">i7-6700 (Gen 6)</td>
+  <td align="center">i7-6700 (Gen 6)</td>
+</tr>
+<tr>
+  <td align="right">Boot Disk</td>
+  <td align="center">512 GB SSD NVME</td>
+  <td align="center">512 GB SSD NVME</td>
+</tr>
+<tr>
+  <td align="right">Data Disks</td>
+  <td align="center">2 TB RAID 0</td>
+  <td align="center">2 TB RAID 0</td>
+</tr>
+<tr>
+  <td align="right">RAM</td>
+  <td align="center">32 GB DDR 4</td>
+  <td align="center">32 GB DDR 4</td>
+</tr>
+<tr>
+  <td align="right">GPU</td>
+  <td align="center">K1200</td>
+  <td align="center">K1200</td>
+</tr>
+<tr>
+  <td align="right">Memory</td>
+  <td align="center">4 GB</td>
+  <td align="center">4 GB</td>
+</tr>
+<tr>
+  <td align="right">Cuda Cores</td>
+  <td align="center">512</td>
+  <td align="center">512</td>
+</tr>
+<tr>
+  <td align="right">AiO Conversion</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Display</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">CPU Unit Portable</td>
+  <td align="center">Yes, 6L</td>
+  <td align="center">Yes, 8L</td>
+</tr>
+<tr>
+  <td align="right">Power Distribution</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Surge Protection</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">PSU Power</td>
+  <td align="center">300 W</td>
+  <td align="center">240W</td>
+</tr>
+<tr>
+  <td align="right">Total</td>
+  <td align="center">1946 USD</td>
+  <td align="center">2463 USD</td>
+</tr>
+<tr>
+  <td align="right">Over Price</td>
+  <td align="center">100 %</td>
+  <td align="center">126 %</td>
+</tr>
+</tbody></table>
 
 ### Comment
 Dell is the only vendor besides ViPC offering the latest Intel Generation 6. It is also significantly lower proce than its competitors and only about 30% more expensive than ViPC. It also offers the lest features in terms of joy to use / creative use or stylish design.
@@ -505,7 +574,7 @@ Xeon can go to much higher performance versus Desktop CPUs and they can use more
 
 
 ## Why ViPC is build with Desktop CPUs
-ViPC is aimed to build the smallest, most powerful and most cost efficient workstation for under 3000 USD. In this price and size region Desktop Processors simply provide significantly better value and smaller size.
+ViPC is aimed to build the smallest, most powerful and most cost efficient workstation for under 3000 USD. In this price and size region Desktop Processors simmply provide significantly better value and smaller size.
 
 
 ## Comparison
