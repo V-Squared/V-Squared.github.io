@@ -286,25 +286,90 @@ Even though the HP Z240 is categorized as Small Form Factor it is still a full D
 
 ## ViPC 1200 vs HP Z1 G3
 
-{:.uk-table.uk-table-hover}
-
-|           Features |   ViCase-1200   |       HZ Z1 G3       |
-|-------------------:|:---------------:|:-------------------:|
-|                 OS |    Win 10 Pro   |      Win 10 Pro     |
-|                CPU | i7-6700 (Gen 6) |   i7-6700 (Gen 6)   |
-|          Boot Disk | 512 GB SSD NVME |   512 GB SSD SATA   |
-|         Data Disks | 256 GB SSD SATA |   256 GB SSD SATA   |
-|                RAM |   32 GB DDR 4   |      32 GB DDR4     |
-|                GPU |      K1200      |        M2000M       |
-|             Memory |       4 GB      |         4 GB        |
-|         Cuda Cores |       512       |         640         |
-|     AiO Conversion |       Yes       |         Yes         |
-|            Display |        No       |          Yes         |
-|  CPU Unit Portable |     Yes, 6L     | Not easy removeable |
-| Power Distribution |       Yes       |          No         |
-|   Surge Protection |       Yes       |          No         |
-|              Total |     1946 USD    |       2656 USD      |
-| Over Price         |     100 %       |     135 %           |
+<table class="uk-table detail-blue">
+<thead>
+<tr>
+  <th align="right">Features</th>
+  <th align="center">ViCase-1200</th>
+  <th align="center">HZ Z1 G3</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="right">OS</td>
+  <td class="gn" align="center">Win 10 Pro</td>
+  <td class="gn" align="center">Win 10 Pro</td>
+</tr>
+<tr>
+  <td align="right">CPU</td>
+  <td class="gn" align="center">i7-6700 (Gen 6)</td>
+  <td class="gn" align="center">i7-6700 (Gen 6)</td>
+</tr>
+<tr>
+  <td align="right">Boot Disk</td>
+  <td class="gn" align="center">512 GB SSD NVME</td>
+  <td class="rd" align="center">512 GB SSD SATA</td>
+</tr>
+<tr>
+  <td align="right">Data Disks</td>
+  <td class="gn" align="center">256 GB SSD SATA</td>
+  <td class="gn" align="center">256 GB SSD SATA</td>
+</tr>
+<tr>
+  <td align="right">RAM</td>
+  <td class="gn" align="center">32 GB DDR4</td>
+  <td class="gn" align="center">32 GB DDR4</td>
+</tr>
+<tr>
+  <td align="right">GPU</td>
+  <td class="gn" align="center">K1200</td>
+  <td class="gn" align="center">M2000M</td>
+</tr>
+<tr>
+  <td align="right">GPU Memory</td>
+  <td class="gn" align="center">4 GB</td>
+  <td class="gn" align="center">4 GB</td>
+</tr>
+<tr>
+  <td align="right">Cuda Cores</td>
+  <td class="rd" align="center">512</td>
+  <td class="gn" align="center">640</td>
+</tr>
+<tr>
+  <td align="right">AiO Conversion</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+</tr>
+<tr>
+  <td align="right">Display</td>
+  <td class="rd" align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+</tr>
+<tr>
+  <td align="right">CPU Unit Portable</td>
+  <td class="gn" align="center">Yes, 6L</td>
+  <td class="rd" align="center">Not easy removeable</td>
+</tr>
+<tr>
+  <td align="right">Power Distribution</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Surge Protection</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Total</td>
+  <td class="gn" align="center">1946 USD</td>
+  <td class="rd" align="center">2656 USD</td>
+</tr>
+<tr>
+  <td align="right">Over Price</td>
+  <td class="gn" align="center">100 %</td>
+  <td class="rd" align="center">135 %</td>
+</tr>
+</tbody></table>
 
 
 ### Comment
