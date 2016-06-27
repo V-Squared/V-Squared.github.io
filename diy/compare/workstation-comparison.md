@@ -29,23 +29,122 @@ Detailed comparison of current workstation PCs on the market.
 
 ![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
-{:.uk-table.uk-table-hover}
-
-|                    Features | ViPC Pro Workstation | Apple Mac Pro | HP Z240 | HP G3 | Dell Precision Tower |
-|----------------------------:|:--------------------:|:-------------:|:-------:|:-----:|:--------------------:|
-|                       Price |         100%         |      218%     |   132%  |  135% |         126%         |
-|         Similar Performance |          Yes         |      Yes      |   Yes   |  Yes  |          Yes         |
-|       All In One Conversion |          Yes         |       No      |    No   |  Yes  |          No          |
-| 3 Chamber Airflow or better |          Yes         |      Yes      |    No   |   No  |          No          |
-|                    Portable |          Yes         |      Yes      |    No   |   No  |          No          |
-|            Surge Protection |          Yes         |       No      |    No   |   No  |          No          |
-|          Clean Desk Cabling |          Yes         |       No      |    No   |   No  |          No          |
-|            Intel Generation |           6          |       5       |    6    |   6   |           6          |
-|          Open Configuration |          Yes         |       No      |    No   |   No  |          No          |
-|                  DIY Option |          Yes         |       No      |    No   |   No  |          No          |
-|              I Fixit Option |          Yes         |       No      |    No   |   No  |          No          |
-|   Flat Fee Assembly Service |          Yes         |       No      |    No   |   No  |          No          |
-|     Flat Fee Repair Service |          Yes         |       No      |    No   |   No  |          No          |
+<table class="uk-table uk-table-hover">
+<thead>
+<tr>
+  <th align="right">Features</th>
+  <th align="center">ViPC Pro Workstation</th>
+  <th align="center">Apple Mac Pro</th>
+  <th align="center">HP Z240</th>
+  <th align="center">HP G3</th>
+  <th align="center">Dell Precision Tower</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="right">Price</td>
+  <td align="center">100%</td>
+  <td align="center">218%</td>
+  <td align="center">132%</td>
+  <td align="center">135%</td>
+  <td align="center">126%</td>
+</tr>
+<tr>
+  <td align="right">Similar Performance</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+<tr>
+  <td align="right">All In One Conversion</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">3 Chamber Airflow or better</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Portable</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Surge Protection</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Clean Desk Cabling</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Intel Generation</td>
+  <td align="center">6</td>
+  <td align="center">5</td>
+  <td align="center">6</td>
+  <td align="center">6</td>
+  <td align="center">6</td>
+</tr>
+<tr>
+  <td align="right">Open Configuration</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">DIY Option</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">I Fixit Option</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Flat Fee Assembly Service</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+<tr>
+  <td align="right">Flat Fee Repair Service</td>
+  <td align="center">Yes</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+  <td align="center">No</td>
+</tr>
+</tbody></table>
 
 # Key Features of ViPC
 
