@@ -4,7 +4,7 @@
 {% assign table = page.table %}
 {% endif %}
 
-<table class="uk-table {% for style in table.style %}{{style}}{% endfor %}">
+<table class="uk-table {% for style in table.style %}{{style}} {% endfor %}">
   <thead>
     <tr>
       {% for head in table.head %}      
@@ -33,7 +33,8 @@
       
       {% endif %}
       {% endfor %}
+      {% endfor %}
     </tr>
-    {% endif %}
+    {% endfor %}
   </tbody>
 </table>
