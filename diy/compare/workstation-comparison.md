@@ -479,47 +479,47 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 <tbody><tr>
   <td align="right">OS</td>
   <td class="gn" align="center">Win 10 Pro</td>
-  <td align="center">Win 10 Pro</td>
+  <td class="gn" align="center">Win 10 Pro</td>
 </tr>
 <tr>
   <td align="right">CPU</td>
-  <td align="center">i7-6700 (Gen 6)</td>
-  <td align="center">i7-6700 (Gen 6)</td>
+  <td class="gn" align="center">i7-6700 (Gen 6)</td>
+  <td class="gn" align="center">i7-6700 (Gen 6)</td>
 </tr>
 <tr>
   <td align="right">Boot Disk</td>
-  <td align="center">512 GB SSD NVME</td>
-  <td align="center">512 GB SSD NVME</td>
+  <td class="gn" align="center">512 GB SSD NVME</td>
+  <td class="gn" align="center">512 GB SSD NVME</td>
 </tr>
 <tr>
   <td align="right">Data Disks</td>
-  <td align="center">2 TB RAID 0</td>
-  <td align="center">2 TB RAID 0</td>
+  <td class="gn" align="center">2 TB RAID 0</td>
+  <td class="gn" align="center">2 TB RAID 0</td>
 </tr>
 <tr>
   <td align="right">RAM</td>
-  <td align="center">32 GB DDR 4</td>
-  <td align="center">32 GB DDR 4</td>
+  <td class="gn" align="center">32 GB DDR 4</td>
+  <td class="gn" align="center">32 GB DDR 4</td>
 </tr>
 <tr>
   <td align="right">GPU</td>
-  <td align="center">K1200</td>
-  <td align="center">K1200</td>
+  <td class="gn" align="center">K1200</td>
+  <td class="gn" align="center">K1200</td>
 </tr>
 <tr>
-  <td align="right">Memory</td>
-  <td align="center">4 GB</td>
-  <td align="center">4 GB</td>
+  <td align="right">GPU Memory</td>
+  <td class="gn" align="center">4 GB</td>
+  <td class="gn" align="center">4 GB</td>
 </tr>
 <tr>
   <td align="right">Cuda Cores</td>
-  <td align="center">512</td>
-  <td align="center">512</td>
+  <td class="gn" align="center">512</td>
+  <td class="gn" align="center">512</td>
 </tr>
 <tr>
   <td align="right">AiO Conversion</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Display</td>
@@ -528,33 +528,33 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 </tr>
 <tr>
   <td align="right">CPU Unit Portable</td>
-  <td align="center">Yes, 6L</td>
-  <td align="center">Yes, 8L</td>
+  <td class="gn" align="center">Yes, 6L</td>
+  <td class="rd" align="center">Yes, 8L</td>
 </tr>
 <tr>
   <td align="right">Power Distribution</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Surge Protection</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">PSU Power</td>
-  <td align="center">300 W</td>
-  <td align="center">240W</td>
+  <td class="rd" align="center">300 W</td>
+  <td class="gn" align="center">240W</td>
 </tr>
 <tr>
   <td align="right">Total</td>
-  <td align="center">1946 USD</td>
-  <td align="center">2463 USD</td>
+  <td class="gn" align="center">1946 USD</td>
+  <td class="rd" align="center">2463 USD</td>
 </tr>
 <tr>
   <td align="right">Over Price</td>
-  <td align="center">100 %</td>
-  <td align="center">126 %</td>
+  <td class="gn" align="center">100 %</td>
+  <td class="rd" align="center">126 %</td>
 </tr>
 </tbody></table>
 
