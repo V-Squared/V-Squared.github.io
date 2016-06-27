@@ -523,8 +523,8 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 </tr>
 <tr>
   <td align="right">Display</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">CPU Unit Portable</td>
@@ -579,21 +579,71 @@ ViPC is aimed to build the smallest, most powerful and most cost efficient works
 
 ## Comparison
 
-{:.uk-table.uk-table-hover}
 
-|                        Feature | 1151 (i3-i5-i7) | 2011-v3 (Xeon) |
-|-------------------------------:|:---------------:|:--------------:|
-|                          Cores |      2 … 4      |     4 … 12     |
-|          Max CPU / Motherboard |        1        |        2       |
-|               Max Cores / MoBo |        4        |       24       |
-|             Max Memory / Board |       64 GB     |     1536 GB    |
-|  On CPU GPU + On MoBo Graphics |       Yes       |      No        |
-|                      MoBo Cost |   70 … 170 USD  |    200 + USD   |
-|           Smallest Motherboard |      Mini-ITX   |   Micro-ATX    |
-|      MoBo Workstation Features |       Yes       |       No       |
-|           MoBo Server Features |        No       |       Yes      |
-| Performance per core per clock |     100.00%     |     100.00%    |
-|                     ECC Memory |        No       |       Yes      |
+<table class="uk-table table-detail detail-blue">
+<thead>
+<tr>
+  <th align="right">Feature</th>
+  <th align="center">1151 (i3-i5-i7)</th>
+  <th align="center">2011-v3 (Xeon)</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="right">Cores</td>
+  <td class="rd" align="center">2 … 4</td>
+  <td class="gn" align="center">4 … 12</td>
+</tr>
+<tr>
+  <td align="right">Max CPU / Motherboard</td>
+  <td class="rd" align="center">1</td>
+  <td class="gn" align="center">2</td>
+</tr>
+<tr>
+  <td align="right">Max Cores / MoBo</td>
+  <td class="rd" align="center">4</td>
+  <td class="gn" align="center">24</td>
+</tr>
+<tr>
+  <td align="right">Max Memory / Board</td>
+  <td class="rd" align="center">64 GB</td>
+  <td class="gn" align="center">1536 GB</td>
+</tr>
+<tr>
+  <td align="right">On CPU GPU + On MoBo Graphics</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">MoBo Cost</td>
+  <td class="gn" align="center">70 … 170 USD</td>
+  <td class="rd" align="center">200 + USD</td>
+</tr>
+<tr>
+  <td align="right">Smallest Motherboard</td>
+  <td class="gn" align="center">Mini-ITX</td>
+  <td class="rd" align="center">Micro-ATX</td>
+</tr>
+<tr>
+  <td align="right">MoBo Workstation Features</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+</tr>
+<tr>
+  <td align="right">MoBo Server Features</td>
+  <td class="rd" align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+</tr>
+<tr>
+  <td align="right">Performance per core per clock</td>
+  <td class="gn" align="center">100.00%</td>
+  <td class="gn" align="center">100.00%</td>
+</tr>
+<tr>
+  <td align="right">ECC Memory</td>
+  <td class="rd" align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+</tr>
+</tbody></table>
 
 
 ## i7 wins < 3000 USD Workstation
