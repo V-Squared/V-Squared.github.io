@@ -30,7 +30,7 @@ Detailed comparison of current workstation PCs on the market.
 ![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
 
-<table class="uk-table uk-table-hover table-detail">
+<table class="uk-table uk-table-hover table-detail detail-blue">
 <thead>
 <tr>
   <th align="right">Features</th>
