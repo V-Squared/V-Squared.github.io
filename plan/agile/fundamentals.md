@@ -5,7 +5,10 @@ subtitle: Index of all articles on the topics of basic understanding of Agile.
 abstract: 
 issueNo: 
 readiness:
-   - is-active
+   - is-complete
+   - is-complete
+   - is-complete
+   - is-complete
 ---
 
 {% include content-navigation.html %}
