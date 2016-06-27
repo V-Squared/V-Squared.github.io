@@ -28,8 +28,10 @@ contents:
   - name: Prepared for Open Source
     url: prepared
 readiness:
-   - is-active
-
+   - is-complete
+   - is-complete
+   - is-complete
+   - is-complete
 ---
 
 # Overview {#overview}
