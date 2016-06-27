@@ -1,0 +1,39 @@
+{% if include.id %}
+{% assign table = page.[include.id] %}
+{% else %}
+{% assign table = page.table %}
+{% endif %}
+
+<table class="uk-table {% for style in table.style %}{{style}}{% endfor %}">
+  <thead>
+    <tr>
+      {% for head in table.head %}      
+      {% if forloop.last and forloop.length == 2 %}
+      
+      <td>{{head}}</td>
+      
+      {% else %}
+      
+      <td style="text-align:center">{{head}}</td>
+      
+      {% endif %}
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in table.rows %}
+    <tr>
+      {% for data in row.data %}
+      {% assign dataIndex = forloop.index %}
+      {% for color in row.color %}
+      
+      {% if forloop.index == dataIndex %}
+      
+      <td class="{{color}}">{{data}}</td>
+      
+      {% endif %}
+      {% endfor %}
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
