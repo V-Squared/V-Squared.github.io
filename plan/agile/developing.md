@@ -5,7 +5,10 @@ subtitle: Index of all articles on the topics of developing or evaluating V²Agi
 abstract:
 issueNo: 
 readiness:
-   - is-active
+   - is-complete
+   - is-complete
+   - is-complete
+   - is-complete
 ---
 
 {% include content-navigation.html %}
