@@ -42,107 +42,107 @@ Detailed comparison of current workstation PCs on the market.
 </thead>
 <tbody><tr>
   <td align="right">Price</td>
-  <td align="center">100%</td>
-  <td align="center">218%</td>
+  <td class="gn" align="center">100%</td>
+  <td class="rd" align="center">218%</td>
   <td align="center">132%</td>
   <td align="center">135%</td>
   <td align="center">126%</td>
 </tr>
 <tr>
   <td align="right">Similar Performance</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
 </tr>
 <tr>
   <td align="right">All In One Conversion</td>
   <td class="gn" align="center">Yes</td>
   <td class="rd" align="center">No</td>
   <td class="rd" align="center">No</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">3 Chamber Airflow or better</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Portable</td>
-  <td align="center">Yes</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Surge Protection</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Clean Desk Cabling</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Intel Generation</td>
-  <td align="center">6</td>
-  <td align="center">5</td>
-  <td align="center">6</td>
-  <td align="center">6</td>
-  <td align="center">6</td>
+  <td class="gn" align="center">6</td>
+  <td class="rd" align="center">5</td>
+  <td class="gn" align="center">6</td>
+  <td class="gn" align="center">6</td>
+  <td class="gn" align="center">6</td>
 </tr>
 <tr>
   <td align="right">Open Configuration</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">DIY Option</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">I Fixit Option</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Flat Fee Assembly Service</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 <tr>
   <td align="right">Flat Fee Repair Service</td>
-  <td align="center">Yes</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
-  <td align="center">No</td>
+  <td class="gn" align="center">Yes</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
+  <td class="rd" align="center">No</td>
 </tr>
 </tbody></table>
 
