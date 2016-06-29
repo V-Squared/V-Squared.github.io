@@ -87,7 +87,7 @@ table-solid-colors:
 table-style-twin-head:
    style: [twin-head,table-blue]
    caption: >
-      # Style Twin Head
+      # Style Twin Headings
       Ideal for Feature Comparison
    head: [Features, Model 1, Model 2]
    rows:
@@ -99,36 +99,39 @@ table-style-twin-head:
 table-style-row-head:
    style: [row-head,table-blue]
    caption: >
-      # Style Row Head
-      Ideal for Feature Comparison
+      # Style Row Heading
+      Some data just need a Row Heading. Like this example:
    head: [Features, Model 1, Model 2]
    rows:
-     - data: [Feature 1 , Good, Bad]
-       color: [tp, gn, rd]
-     - data: [Feature 2,―,✓]
-       color: [tp,rd,gn]
+     - data: [Campaign 1, Creating the V²Platform]
+       color: [tp, tp]
+     - data: [Campaign 2, Community Promotions]
+       color: [tp, tp]
+     - data: [Campaign 3, Shop and Press Campaign]
+       color: [tp, tp]
 
 table-style-col-head:
    style: [col-head,table-blue]
    caption: >
-      ## Style Column Head
+      ## Style Column Heading
       Ideal for Feature Comparison
    head: [Campaign 1, Campaign 2, Campaign 3]
    rows:
      - data: [Spring, Summer, Fall]
        color: [ln, gn, dn]
        
-table-style-col-head:
-   style: [col-head,table-blue]
+table-style-no-head:
+   style: [no-head,table-blue]
    caption: >
-      ## Tabular Listings
-      Ideal to just list things. Here we list useful special characters
+      ## Style No Headings
+      Ideal to just list things. In this example we list useful special characters.
    rows:
      - data: [←, ↑, →, ↓]
        color: [tp, tp, tp, tp]
-     - data: [☀, ☁, ☂], ☃
+     - data: [ ☐ , ☑  ,  ☒  ,   ☓   ]
        color: [tp, tp, tp, tp] 
-
+     - data: [ ✔ , ✘  , —  , ✚  ]
+       color: [tp, tp, tp, tp]
 ---
 
 
@@ -184,8 +187,19 @@ table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
 
 ## Reference of all Background Colors
 
-{% include table id="table-colors" %}
+{% include table id="table-shaded-colors" %}
+
+{% include table id="table-solid-colors" %}
+
 
 ## Reference for all Table Styles
+
+{% include table id="table-style-twin-head" %}
+
+{% include table id="table-style-row-head" %}
+
+{% include table id="table-style-col-head" %}
+
+{% include table id="table-style-no-head" %}
 
 
