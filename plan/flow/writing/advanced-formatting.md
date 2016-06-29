@@ -6,7 +6,7 @@ abstract: Your toolbox to make your articles easier to read and write even if th
 issueNo: 204
 readiness:
    - is-active
-table-vicase-vs-nacpro:
+table-vicase-vs-macpro:
    name: ViCase 970-T vs Mac Pro
    style: [table-detail,detail-blue] # Lukas: need to change to: [twin-head,table-blue]
    caption: >
@@ -59,7 +59,7 @@ table-comparison-all:
 
 ## Example of a Comparison Table
 
-{% include table id="table-vicase-vs-nacpro" %}
+{% include table id="table-vicase-vs-macpro" %}
 
 
 ## User Story
