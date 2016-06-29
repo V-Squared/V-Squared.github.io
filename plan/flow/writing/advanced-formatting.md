@@ -22,6 +22,8 @@ table-vicase-vs-macpro:
 
 table-comparison-all: 
   style: [twin-head,twin-blue]
+  name: Workstation Comparison Overview
+  desc: All key features in one table for easy over all comparison
   head: [Features,ViPC Pro Workstation,Apple Mac Pro,HP Z240,HP G3,Dell Precision Tower]
   rows: 
     - data: [Price, 100%,218%,132%,136%,126%]
@@ -38,7 +40,7 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Clean Desk Cabling,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Intel Generation,6,5,6,6,6]
+    - data: [Intel Generation,6,5 (*1),6,6,6]
       color: [tp,gn,yw,gn,gn,gn]
     - data: [Open Configuration,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
@@ -50,6 +52,8 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Flat Fee Repair Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
+   footer: >
+      **Note:** Buying a new computer with an old socket will limit if not hamper upgradeability in the future.
 
 table-shaded-colors:
    style: [twin-head,twin-blue]
