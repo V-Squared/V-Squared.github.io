@@ -182,7 +182,7 @@ table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
 ### Step 2: Insert Table with Liquid Include
 
 ```liquid
-{% include table id="table-vicase-vs-macpro" %}
+{% raw %}{% include table id="table-vicase-vs-macpro" %}{% endraw %}
 ```
 
 ## Reference of all Background Colors
