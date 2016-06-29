@@ -283,12 +283,20 @@
     border-left: 5px solid #2196F3;
   }
 
-  ul {
+  .uk-nav-toc {
     border-left: 5px solid #2196F3;
-    li > a {
+    > li > a {
       font-size:13px;
       color:#666;
       font-weight: bold;
+    }
+    
+    ul {
+      margin-left: 5px;
+      li > a {
+        color:#666;
+      font-size: 13px;
+      }
     }
   }
 }

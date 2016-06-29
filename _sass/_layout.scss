@@ -454,19 +454,19 @@ md-content {
   h1 {
     color:#777;
     font-family: Roboto-Thin;
-    padding-top: 70px;
+    margin-top: 70px;
   }
 
   h2 {
     font-size: 28px !important;
     color: #777;
-    padding-top: 20px;
+    margin-top: 20px;
   }
 
   h3 {
     font-size: 21px !important;
     color: #777;
-    padding-top: 14px;
+    margin-top: 14px;
   }
 
   ul>li>ul {
@@ -569,7 +569,18 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
 table.table-detail {
   thead th:first-child {
     width:20%;
-  } 
+    text-align: right;
+  }
+  thead th {
+    text-align: center;
+  }
+  tr td:first-child {
+    text-align: right;
+  }
+  
+  tr td {
+    text-align: center;
+  }
 }
 
 .status-bar {

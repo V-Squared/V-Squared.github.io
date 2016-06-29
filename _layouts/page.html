@@ -16,9 +16,9 @@ layout: default
 {% endif %}
 {% endfor %}
 
-<article class="post">
+<div class="post">
 
-  <div layout="row"  layout-sm="column" layout-align="center none" no-gap>
+  <div layout="row"  layout-sm="column" no-gap>
     {% if articleBar == 'yes' %}
     {% include article-bar.html nav=bookbar board=boardUrl %}
     {% endif %}
@@ -272,4 +272,4 @@ layout: default
 
   </div>
 
-</article>
+</div>

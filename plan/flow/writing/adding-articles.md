@@ -10,44 +10,48 @@ contents:
     url: where-to-add
   - name: Creating Menu Entry
     url: creating-menu-entry
-  - name: → Get ready book-bar.yaml
-    url: edit-article-yml
-  - name: → Find where to edit
-    url: where-to-edit
-  - name: → Duplicate Entry
-    url: duplicate-entry
-  - name: → Edit Entry
-    url: edit-entry
-  - name: → Commit your Change
-    url: commit-your-change
+    subitems:
+      - name: Get ready book-bar.yaml
+        url: edit-article-yml
+      - name: Find where to edit
+        url: where-to-edit
+      - name: Duplicate Entry
+        url: duplicate-entry
+      - name: Edit Entry
+        url: edit-entry
+      - name: Commit your Change
+        url: commit-your-change
   - name: Create the Article-Issue
     url: create-article-issue
-  - name: → Create new Issue
-    url: create-new-issue
-  - name: → Add Content to Issue
-    url: content-article-issue
-  - name: → Issue Task Template
-    url: issue-task-template
-  - name: → Note Issue Number
-    url: note-issue-no
+    subitems: 
+      - name: Create new Issue
+        url: create-new-issue
+      - name: Add Content to Issue
+        url: content-article-issue
+      - name: Issue Task Template
+        url: issue-task-template
+      - name: Note Issue Number
+        url: note-issue-no
   - name: Create Article File
     url: create-article-file
-  - name: → Create File
-    url: create-file
-  - name: → Add Content
-    url: add-content
-  - name: → YML Template
-    url: yml-template
+    subitems:
+      - name: Create File
+        url: create-file
+      - name: Add Content
+        url: add-content
+      - name: YML Template
+        url: yml-template
   - name: Check the Added Article
     url: check-article
   - name: Add Issue Number in Article
     url: add-issue-no
-  - name: → Hovering V²-Flow-Button
-    url: hovering-v2-flow-button
-  - name: → Clicking V²-Flow-Button
-    url: clicking-v2-flow-button
-  - name: → Linking the Issue
-    url: linking-the-issue
+    subitems:
+      - name: Hovering V²-Flow-Button
+        url: hovering-v2-flow-button
+      - name: Clicking V²-Flow-Button
+        url: clicking-v2-flow-button
+      - name: Linking the Issue
+        url: linking-the-issue
   - name: Tip for Article Group
     url: create-article-group
 readiness:
