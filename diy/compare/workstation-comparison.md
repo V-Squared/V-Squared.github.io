@@ -45,6 +45,7 @@ table-comparison-all:
 - [Summary](#summary)
 - [Comparison](#comparison)
 - [i7 versus Xeon](#i7-versus-xeon)
+- [Key Features ViPC]
 
 ![workstationprice2](https://cloud.githubusercontent.com/assets/16950279/16353354/df3658ba-3a2d-11e6-8258-9bab7f532c21.png)
 
@@ -577,4 +578,12 @@ https://www.pugetsystems.com/labs/articles/Intel-CPUs-Xeon-E5-vs-Core-i7-634/
 ## Concluding thoughts
 When compared to other notable workstation PCs on the market, ViPC competes with nearly identical specs while having a smaller footprint and lower cost. All Workstations are louder, with the notable exception of the Mac Pro which produces less noise than the ViPC. No workstation featured Surge Protection or Clean Desk Cabling. As for style, the Mac Pro is the clear winner, followed HP Z1 and ViPC while the rest are regular Desktop tower. In terms of portability ViPC is the clear winner, due to its flat size and integrated cable management, followed by Mac Pro and the Dell Precision (although still not fit to be carrying around. All others are not portable at all. ViPC stands out again for safety as being the only PC with integrated Surge Protection.
 
+## Pricing Conclusion
+
+
+## Specifications Conclusion
+For almost every single computer comparison, the internal components are near similar. All of them are running on the Intel Skylake platform (save for the Mac Pro) and offer powerful graphics + plenty of storage options. The key difference ViPC sees in the specs are integrated power distribution and surge protection aren't in any of the other machines. Another important quality of ViPC is its size; at 6 liters, it retains the smallest size of any of the machines, making it small enough to mount to a monitor or carry with you in your bag. Portability is huge in today's world, and ViPC capitalizes on this factor.
+
+## Usability Comparison
+ViPC keeps up with the other machines in terms of price and features, most of the time beating the others. One standout 
 
