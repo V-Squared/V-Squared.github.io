@@ -11,7 +11,7 @@ table-comparison-all:
   style: [table-detail,detail-blue]
   head: [Features,ViPC Pro Workstation,Apple Mac Pro,HP Z240,HP G3,Dell Precision Tower]
   rows: 
-    - data: [Price, 100%,218%,132%,135%,126%]
+    - data: [Price, 100%,218%,132%,136%,126%]
       color: [tp,gn,rd,yw,yw,yw]
     - data: [Similar Performance,'Yes','Yes','Yes','Yes','Yes']
       color: [tp,gn,gn,gn,gn,gn]
@@ -283,7 +283,7 @@ Even though the HP Z240 is categorized as Small Form Factor it is still a full D
 <tr>
   <td align="right">Over Price</td>
   <td class="gn" align="center">100 %</td>
-  <td class="rd" align="center">135 %</td>
+  <td class="rd" align="center">136 %</td>
 </tr>
 </tbody></table>
 
