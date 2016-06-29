@@ -296,15 +296,15 @@ table {
   
   // Others
   
-  or {
+  .or {
     background: #FFECB3 !important;
   }
   
-  bl {
+  .bl {
     background: #BBDEFB !important;
   }
   
-  pp {
+  .pp {
     background: #CE93D8 !important;
   }
   
@@ -359,6 +359,9 @@ table.twin-blue {
 }
 .table-head {
   padding-top: 10px;
+}
+.table-desc {
+  color:#0D47A1;
 }
 
 
