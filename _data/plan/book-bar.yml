@@ -83,6 +83,10 @@
           url: /flow/writing/style-guide/
         - menu: Adding Articles
           url: /flow/writing/adding-articles/
+        - menu: Basic Formatting
+          url: /flow/writing/basic-formatting/
+        - menu: Advanced Formatting
+          url: /flow/writing/advanced-formatting/
     - menu: Mechanical Design
       url: /flow/mechanical/
       group:
