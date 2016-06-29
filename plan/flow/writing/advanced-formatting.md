@@ -18,7 +18,7 @@ table-vicase-vs-macpro:
        color: [tp, gn, gn]
      - data: [CPU, i7-6700 (Gen 6), 3.7 GHz Quad (Gen 5) (*1)]
        color: [tp, gn, rd]
-     - data: [AiO Conversion, Yes, No]
+     - data: [AiO Conversion,  ✓, No]
        color: [tp, gn, rd]
    footer: (*1) Using an old CPU socket limits upgrading in the future
 
