@@ -67,33 +67,68 @@ table-comparison-vipc-z240:
     - data: [Over Price,100 %,132%]
       color: [tp,gn,rd,]
 
-table-comparison-vipc-z240: 
+table-comparison-vipc-HPg3: 
   style: [table-detail,detail-blue]
-  head: [Features,ViPC 620,HP Z240]
+  head: [Features,ViPC 1200,HP Z1 G3]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
       color: [tp,gn,gn]
-    - data: [CPU,i5-6400(Gen 6),i5-6500]
-      color: [tp,yw,gn]
-    - data: [Boot Disk,256 GB SSD NVME,256 GB SSD NVME]
+    - data: [CPU,i7-6700(Gen 6),i7-6700(Gen 6)]
+      color: [tp,gn,gn]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD SATA]
       color: [tp,gn,gn]
     - data: [Data Disks,256 GB SSD SATA,256 GB SSD SATA]
       color: [tp,gn,gn]
-    - data: [RAM,16 GB DDR4,16 GB DDR4]
+    - data: [RAM,32 GB DDR4,32 GB DDR4]
       color: [tp,gn,gn]
-    - data: [GPU,K620,K620]
+    - data: [GPU,K1200,M2000M]
       color: [tp,gn,gn]
-    - data: [AiO Conversion,'Yes','No']
+    - data: [CUDA Cores,512,640]
+      color: [tp,rd,gn]
+    - data: [AiO Conversion,'Yes','Yes']
+      color: [tp,gn,gn]
+    - data: [Display,'No','Yes']
+      color: [tp,rd,gn]
+    - data: [CPU Unit Portable,'Yes,6L','Not easy removeable']
       color: [tp,gn,rd]
-    - data: [Portable,'Yes,6L','No,13L']
-      color: [tp,gn,yw]
     - data: [Power Distribution,'Yes','No']
       color: [tp,gn,rd]
     - data: [Surge Protection,'Yes','No']
       color: [tp,gn,rd]
-    - data: [Total,1200 USB,1581 USD]
+    - data: [Total,1946 USB,2656 USD]
       color: [tp,gn,rd]
-    - data: [Over Price,100 %,132%]
+    - data: [Over Price,100 %,136%]
+      color: [tp,gn,rd,]
+
+table-comparison-vipc-macpro: 
+  style: [table-detail,detail-blue]
+  head: [Features,ViPC-970T,Apple Mac Pro]
+  rows: 
+    - data: [OS,Win 10 Pro,OS X]
+      color: [tp,gn,gn]
+    - data: [CPU,i7-6700(Gen 6),3.7 GHz Quad(Gen 5)]
+      color: [tp,gn,rd]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
+      color: [tp,gn,gn]
+    - data: [Data Disks,2 TB,'-']
+      color: [tp,gn,rd]
+    - data: [RAM,16 GB DDR4,16 GB DDR3]
+      color: [tp,gn,rd]
+    - data: [GPU,GTX 970 4GB,Dual D300 4GB]
+      color: [tp,gn,rd]
+    - data: [GPU Cores,1664,1280]
+      color: [tp,gn,rd]
+    - data: [AiO Conversion,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Portable,'Yes,9L','Yes,7L']
+      color: [tp,rd,gn]
+    - data: [Power Distribution,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Surge Protection,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Total,1600 USB,3500 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,218%]
       color: [tp,gn,rd,]
 ---
 
@@ -263,6 +298,8 @@ Even though the HP Z240 is categorized as Small Form Factor it is still a full D
 
 ## ViPC 1200 vs HP Z1 G3
 
+{% include table id="table-comparison-vipc-HPg3" %}
+
 <table class="uk-table table-detail detail-blue">
 <thead>
 <tr>
@@ -359,6 +396,7 @@ The HP Z1 G3 is the only Workstation other than ViPC that can be converted into 
 
 ## ViCase 970-T vs Mac Pro
 
+{% include table id="table-comparison-vipc-macpro" %}
 
 <table class="uk-table table-detail detail-blue">
 <thead>
