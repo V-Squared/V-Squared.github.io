@@ -53,7 +53,7 @@ And because the screen is separate from the components, you can upgrade the scre
 
 # Portable vs Chained to Desk
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Portable vs. Chained, vs is bold and highlight color
     - *Portable:* 
@@ -79,7 +79,7 @@ ViPC AiO is designed to be carried around easily throughout a workplace or home.
 
 # Desktop Parts vs Mobile Parts
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Desktop:* 
@@ -103,7 +103,7 @@ ViPC uses standard desktop parts for all of its components, running at the inten
 
 # Fix vs Trash
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Open:* 
@@ -129,7 +129,7 @@ Using standard parts around an open computer chassis means your computer can las
 
 # Carry on vs Shipping
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *carry on:* 
@@ -155,7 +155,7 @@ There are many reasons you would want to travel with your computer. Students goi
 
 # Clean Desk vs Mess
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *clean:* 
@@ -185,7 +185,7 @@ To battle the famous cable mess issue that computer desks face, we incorporated 
 
 # Workstation vs Consumer
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Workstation:* 
@@ -207,7 +207,7 @@ Everyone uses their computer differently. Some use it mainly for gaming or 3D mo
 
 # Safety
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Open:* 
@@ -228,7 +228,7 @@ With every computer,additional safety peripherals are needed to keep everything 
 
 # Cleaning
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Open:* 
@@ -249,7 +249,7 @@ For computers, dust is their worst nightmare. Dust build-up makes your component
 
 # Easy Access
 
- **Art Place Holder***
+    **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
     - two line art illustrations demo Closed vs Open, vs is bold and highlight color
     - *Open:* 
