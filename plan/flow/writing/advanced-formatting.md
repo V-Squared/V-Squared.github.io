@@ -52,8 +52,8 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Flat Fee Repair Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-   footer: >
-      **Note:** Buying a new computer with an old socket will limit if not hamper upgradeability in the future.
+footer: >
+   **Note:** Buying a new computer with an old socket will limit if not hamper upgradeability in the future.
 
 table-shaded-colors:
    style: [twin-head,twin-blue]
