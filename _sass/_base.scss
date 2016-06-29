@@ -219,21 +219,147 @@ padding-left: $spacing-unit / 2;
 
 
 
+/**
+* Table
+*/
 
 table {
+  
+  margin:0 !important;
+  
+  thead th {
+    text-align: center;
+  }
+  tr td {
+    text-align: center;
+  }
+  
+  /**
+  * Colors
+  */
+  
+  // Gray
+  
+  .ly {
+    background: #FAFAFA !important;
+  }
+  
+  .gy {
+    background: #F5F5F5 !important;
+  }
+  
+  .dy {
+    background: #E0E0E0 !important;
+  }
+  
+  // Yellow
+  
+  .lw {
+    background: #FFFDE7 !important;
+  }
+  
+  .yw {
+    background: #FFF9C4 !important;
+  }
+  
+  .dw {
+    background: #FFF59D !important;
+  }
+  
+  // Green
+  
+  .ln {
+    background: #F1F8E9 !important;
+  }
+  
+  .gn {
+    background: #DCEDC8 !important;
+  }
+  
+  .dn {
+    background: #C5E1A5 !important;
+  }
+  
+  // Red
+  
+  .ld {
+    background: #ffebee !important;
+  }
+  
   .rd {
     background: #ffcdd2 !important;
   }
   
-  .gn {
-    background: #C8E6C9 !important;
+  .dd {
+    background: #ef9a9a !important;
   }
   
-  .yw {
+  // Others
+  
+  or {
     background: #FFECB3 !important;
+  }
+  
+  bl {
+    background: #BBDEFB !important;
+  }
+  
+  pp {
+    background: #CE93D8 !important;
+  }
+  
+  .bk {
+    background: #BDBDBD !important;
+  }
+  
+  .wt {
+    background: #FFF !important;
   }
 }
 
+table.twin-head {
+  thead th:first-child {
+    width:20%;
+    text-align: right;
+  }
+  tr td:first-child {
+    text-align: right;
+  }
+}
+
+table.twin-blue {
+  thead > tr {
+    background: #64B5F6;
+    color:#FFF;
+  }
+
+  tbody {
+    tr { 
+      border-bottom: 2px solid #7986cb;  
+      &:last-child {
+        border-bottom: 0;  
+      }
+      
+      td:first-child {
+        background: #E5E7F4;
+      }
+      td {
+        background: #F6F6FB;
+      }
+    }
+  }
+}
+
+.table-caption {
+  margin:0;
+  padding:0;
+  background:#64B5F6;
+  color:#FFF;
+  padding-left: 10px;
+}
+.table-head {
+  padding-top: 10px;
+}
 
 
 

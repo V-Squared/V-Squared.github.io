@@ -4,6 +4,9 @@
 {% assign table = page.table %}
 {% endif %}
 
+{% if table.name %}<h3 class="table-caption table-head">{{table.name}}</h3>{% endif %}
+{% if table.desc %}<p class="table-caption table-desc">{{table.desc}}</p>{% endif %}
+
 <table class="uk-table {% for style in table.style %}{{style}} {% endfor %}">
   <thead>
     <tr>

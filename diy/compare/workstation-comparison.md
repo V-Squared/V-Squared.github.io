@@ -8,7 +8,8 @@ readiness:
    - is-complete
    - is-active
 table-comparison-all: 
-  style: [table-detail,detail-blue]
+  name: Comparison
+  style: [twin-head,twin-blue]
   head: [Features,ViPC Pro Workstation,Apple Mac Pro,HP Z240,HP G3,Dell Precision Tower]
   rows: 
     - data: [Price, 100%,218%,132%,136%,126%]
@@ -39,7 +40,7 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
 
 table-comparison-vipc-z240: 
-  style: [table-detail,detail-blue]
+  style: [twin-head,twin-blue]
   head: [Features,ViPC 620,HP Z240]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
@@ -68,7 +69,7 @@ table-comparison-vipc-z240:
       color: [tp,gn,rd,]
 
 table-comparison-vipc-HPg3: 
-  style: [table-detail,detail-blue]
+  style: [twin-head,twin-blue]
   head: [Features,ViPC 1200,HP Z1 G3]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
@@ -101,7 +102,7 @@ table-comparison-vipc-HPg3:
       color: [tp,gn,rd,]
 
 table-comparison-vipc-macpro: 
-  style: [table-detail,detail-blue]
+  style: [twin-head,twin-blue]
   head: [Features,ViPC-970T,Apple Mac Pro]
   rows: 
     - data: [OS,Win 10 Pro,OS X]
@@ -215,7 +216,7 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 
 {% include table id="table-comparison-vipc-z240" %}
 
-<table class="uk-table table-detail detail-blue">
+<table class="uk-table twin-head twin-blue">
 <thead>
 <tr>
   <th align="right">Features</th>
