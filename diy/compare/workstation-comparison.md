@@ -8,36 +8,39 @@ readiness:
    - is-complete
    - is-active
 table-comparison-all: 
-  name: Comparison
   style: [twin-head,twin-blue]
+  name: Workstation Comparison Overview
+  desc: All key features in one table for easy over all comparison
   head: [Features,ViPC Pro Workstation,Apple Mac Pro,HP Z240,HP G3,Dell Precision Tower]
   rows: 
     - data: [Price, 100%,218%,132%,136%,126%]
       color: [tp,gn,rd,yw,yw,yw]
-    - data: [Similar Performance,'Yes','Yes','Yes','Yes','Yes']
+    - data: [Similar Performance,✓,✓,✓,✓,✓]
       color: [tp,gn,gn,gn,gn,gn]
-    - data: [All In One Conversion,'Yes','No','No','Yes','No']
+    - data: [All In One Conversion,✓,―,―,✓,―]
       color: [tp,gn,rd,rd,gn,rd]
-    - data: [3 Chamber Airflow or better,'Yes','Yes','No','No','No']
+    - data: [3 Chamber Airflow or better,✓,✓,―,―,―]
       color: [tp,gn,gn,rd,rd,rd]
-    - data: [Portable,'Yes','Yes','No','No','No']
+    - data: [Portable,✓,✓,―,―,―]
       color: [tp,gn,gn,rd,rd,rd]
-    - data: [Surge Protection,'Yes','No','No','No','No']
+    - data: [Surge Protection,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Clean Desk Cabling,'Yes','No','No','No','No']
+    - data: [Clean Desk Cabling,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Intel Generation,6,5,6,6,6]
+    - data: [Intel Generation,6,5 (*1),6,6,6]
       color: [tp,gn,yw,gn,gn,gn]
-    - data: [Open Configuration,'Yes','No','No','No','No']
+    - data: [Open Configuration,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [DIY Option,'Yes','No','No','No','No']
+    - data: [DIY Option,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [I Fixit Option,'Yes','No','No','No','No']
+    - data: [I Fixit Option,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Flat Fee Assembly Service,'Yes','No','No','No','No']
+    - data: [Flat Fee Assembly Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Flat Fee Repair Service,'Yes','No','No','No','No']
+    - data: [Flat Fee Repair Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
+footer: >
+   **Note:** Buying a new computer with an old socket will limit if not hamper upgradeability in the future.
 
 table-comparison-vipc-z240: 
   style: [twin-head,twin-blue]
