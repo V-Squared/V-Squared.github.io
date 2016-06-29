@@ -66,6 +66,35 @@ table-comparison-vipc-z240:
       color: [tp,gn,rd]
     - data: [Over Price,100 %,132%]
       color: [tp,gn,rd,]
+
+table-comparison-vipc-z240: 
+  style: [table-detail,detail-blue]
+  head: [Features,ViPC 620,HP Z240]
+  rows: 
+    - data: [OS,Win 10 Pro,Win 10 Pro]
+      color: [tp,gn,gn]
+    - data: [CPU,i5-6400(Gen 6),i5-6500]
+      color: [tp,yw,gn]
+    - data: [Boot Disk,256 GB SSD NVME,256 GB SSD NVME]
+      color: [tp,gn,gn]
+    - data: [Data Disks,256 GB SSD SATA,256 GB SSD SATA]
+      color: [tp,gn,gn]
+    - data: [RAM,16 GB DDR4,16 GB DDR4]
+      color: [tp,gn,gn]
+    - data: [GPU,K620,K620]
+      color: [tp,gn,gn]
+    - data: [AiO Conversion,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Portable,'Yes,6L','No,13L']
+      color: [tp,gn,yw]
+    - data: [Power Distribution,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Surge Protection,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Total,1200 USB,1581 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,132%]
+      color: [tp,gn,rd,]
 ---
 
 
