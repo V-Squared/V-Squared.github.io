@@ -18,7 +18,7 @@ table-vicase-vs-macpro:
        color: [tp, gn, gn]
      - data: [CPU, i7-6700 (Gen 6), 3.7 GHz Quad (Gen 5) (*1)]
        color: [tp, gn, rd]
-     - data: [AiO Conversion,  ✓, No]
+     - data: [AiO Conversion,✓,―]
        color: [tp, gn, rd]
    footer: (*1) Using an old CPU socket limits upgrading in the future
 
@@ -28,29 +28,29 @@ table-comparison-all:
   rows: 
     - data: [Price, 100%,218%,132%,136%,126%]
       color: [tp,gn,rd,yw,yw,yw]
-    - data: [Similar Performance,'Yes','Yes','Yes','Yes','Yes']
+    - data: [Similar Performance,✓,✓,✓,✓,✓]
       color: [tp,gn,gn,gn,gn,gn]
-    - data: [All In One Conversion,'Yes','No','No','Yes','No']
+    - data: [All In One Conversion,✓,―,―,✓,―]
       color: [tp,gn,rd,rd,gn,rd]
-    - data: [3 Chamber Airflow or better,'Yes','Yes','No','No','No']
+    - data: [3 Chamber Airflow or better,✓,✓,―,―,―]
       color: [tp,gn,gn,rd,rd,rd]
-    - data: [Portable,'Yes','Yes','No','No','No']
+    - data: [Portable,✓,✓,―,―,―]
       color: [tp,gn,gn,rd,rd,rd]
-    - data: [Surge Protection,'Yes','No','No','No','No']
+    - data: [Surge Protection,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Clean Desk Cabling,'Yes','No','No','No','No']
+    - data: [Clean Desk Cabling,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Intel Generation,6,5,6,6,6]
       color: [tp,gn,yw,gn,gn,gn]
-    - data: [Open Configuration,'Yes','No','No','No','No']
+    - data: [Open Configuration,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [DIY Option,'Yes','No','No','No','No']
+    - data: [DIY Option,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [I Fixit Option,'Yes','No','No','No','No']
+    - data: [I Fixit Option,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Flat Fee Assembly Service,'Yes','No','No','No','No']
+    - data: [Flat Fee Assembly Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Flat Fee Repair Service,'Yes','No','No','No','No']
+    - data: [Flat Fee Repair Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
 ---
 
@@ -64,3 +64,8 @@ table-comparison-all:
 
 ## User Story
 As a **Reader of your Comparison Review** I very appreciate the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process.
+
+## More Complex Example
+
+{% include table id="table-comparison-all" %}
+
