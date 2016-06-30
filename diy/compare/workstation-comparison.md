@@ -119,6 +119,34 @@ table-comparison-vipc-macpro:
       color: [tp,gn,rd]
     - data: [Over Price,100 %,218%]
       color: [tp,gn,rd,]
+
+table-comparison-vipc-dell: 
+  style: [twin-head,twin-blue]
+  caption: >
+   # ViPC 1200 vs Dell Precision 3000
+   Similar machines with a similar footprint
+  head: [Features,ViPC-970T,Dell Precision 3000]
+  rows: 
+    - data: [OS,Win 10 Pro,Win 10 Pro]
+      color: [tp,gn,gn]
+    - data: [CPU,i7-6700(Gen 6),i7-6700 (Gen 6)]
+      color: [tp,gn,gn]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
+      color: [tp,gn,gn]
+    - data: [Data Disks,2 TB,2 TB]
+      color: [tp,gn,gn]
+    - data: [RAM,32 GB DDR4,32 GB DDR4]
+      color: [tp,gn,gn]
+    - data: [GPU,K1200,K1200]
+      color: [tp,gn,gn]
+    - data: [GPU Memory,4 GB,4 GB]
+      color: [tp,gn,gn]
+    - data: [GPU Cores,512,512]
+      color: [tp,gn,gn]
+    - data: [Total,1946 USB,2463 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,126%]
+      color: [tp,gn,rd,]
 ---
 
 
@@ -253,95 +281,8 @@ The Mac Pro is the only Workstation in this comparison which is smaller and quie
 
 ## ViCase vs Dell
 
-<table class="uk-table table-detail detail-blue">
-<thead>
-<tr>
-  <th align="right">Features</th>
-  <th align="center">ViCase-1200-T</th>
-  <th align="center">Dell Precision Tower 3000</th>
-</tr>
-</thead>
-<tbody><tr>
-  <td align="right">OS</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-</tr>
-<tr>
-  <td align="right">CPU</td>
-  <td class="gn" align="center">i7-6700 (Gen 6)</td>
-  <td class="gn" align="center">i7-6700 (Gen 6)</td>
-</tr>
-<tr>
-  <td align="right">Boot Disk</td>
-  <td class="gn" align="center">512 GB SSD NVME</td>
-  <td class="gn" align="center">512 GB SSD NVME</td>
-</tr>
-<tr>
-  <td align="right">Data Disks</td>
-  <td class="gn" align="center">2 TB RAID 0</td>
-  <td class="gn" align="center">2 TB RAID 0</td>
-</tr>
-<tr>
-  <td align="right">RAM</td>
-  <td class="gn" align="center">32 GB DDR 4</td>
-  <td class="gn" align="center">32 GB DDR 4</td>
-</tr>
-<tr>
-  <td align="right">GPU</td>
-  <td class="gn" align="center">K1200</td>
-  <td class="gn" align="center">K1200</td>
-</tr>
-<tr>
-  <td align="right">GPU Memory</td>
-  <td class="gn" align="center">4 GB</td>
-  <td class="gn" align="center">4 GB</td>
-</tr>
-<tr>
-  <td align="right">Cuda Cores</td>
-  <td class="gn" align="center">512</td>
-  <td class="gn" align="center">512</td>
-</tr>
-<tr>
-  <td align="right">AiO Conversion</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Display</td>
-  <td class="rd" align="center">No</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">CPU Unit Portable</td>
-  <td class="gn" align="center">Yes, 6L</td>
-  <td class="rd" align="center">Yes, 8L</td>
-</tr>
-<tr>
-  <td align="right">Power Distribution</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Surge Protection</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">PSU Power</td>
-  <td class="rd" align="center">300 W</td>
-  <td class="gn" align="center">240W</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td class="gn" align="center">1946 USD</td>
-  <td class="rd" align="center">2463 USD</td>
-</tr>
-<tr>
-  <td align="right">Over Price</td>
-  <td class="gn" align="center">100 %</td>
-  <td class="rd" align="center">126 %</td>
-</tr>
-</tbody></table>
+{% include table id="table-comparison-vipc-dell" %}
+
 
 ### Comment
 Dell is the only vendor besides ViPC offering the latest Intel Generation 6. It is also significantly lower proce than its competitors and only about 30% more expensive than ViPC. It also offers the lest features in terms of joy to use / creative use or stylish design.
