@@ -106,29 +106,8 @@ table-comparison-vipc-dellxps:
     - data: [Over Price,100 %,135%]
       color: [tp,gn,rd]
 ---
-# Specifications 
 
-<br>
-
-{% include table id="table-comparison-vipc-hpg3" %}
-### Reference
-
-[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
-<br>
-<br>
-
-{% include table id="table-comparison-vipc-imac" %}
-### Reference
-
-[Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
-<br>
-<br>
-
-{% include table id="table-comparison-vipc-dellxps" %}
-### Reference
-
-[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
-<br>
+## What is an All-in-One?
 
 # Open Modular AiO vs Closed Monolithic
 
@@ -392,3 +371,32 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 | Quick Snap Top Cover | yes {gn} | no {rd} |
 | Fluid Port Placement | yes {gn} | no {rd} |
 | Remote Power On | yes {gn} | no {rd} |
+
+
+
+
+# Specifications 
+
+<br>
+
+{% include table id="table-comparison-vipc-hpg3" %}
+### Reference
+
+[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
+<br>
+<br>
+
+{% include table id="table-comparison-vipc-imac" %}
+### Reference
+
+[Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
+<br>
+<br>
+
+{% include table id="table-comparison-vipc-dellxps" %}
+### Reference
+
+[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
+<br>
+
+
