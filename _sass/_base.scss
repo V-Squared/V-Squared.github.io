@@ -31,7 +31,7 @@ body {
 
 @media (max-width: 960px) {
   .uk-container {
-  padding: 0 25px;
+    padding: 0 25px;
   }
 }
 
@@ -224,101 +224,101 @@ padding-left: $spacing-unit / 2;
 */
 
 table {
-  
+
   margin:0 !important;
-  
+
   thead th {
     text-align: center;
   }
   tr td {
     text-align: center;
   }
-  
+
   tfoot td {
     text-align: left !important;
     color:#42A5F5;
     font-style: normal;
     font-size:13px;
   }
-  
+
   /**
   * Colors
   */
-  
+
   // Gray
-  
+
   .ly {
     background: #FAFAFA !important;
   }
-  
+
   .gy {
     background: #F5F5F5 !important;
   }
-  
+
   .dy {
     background: #E0E0E0 !important;
   }
-  
+
   // Yellow
-  
+
   .lw {
     background: #FFFDE7 !important;
   }
-  
+
   .yw {
     background: #FFF9C4 !important;
   }
-  
+
   .dw {
     background: #FFF59D !important;
   }
-  
+
   // Green
-  
+
   .ln {
     background: #F1F8E9 !important;
   }
-  
+
   .gn {
     background: #DCEDC8 !important;
   }
-  
+
   .dn {
     background: #C5E1A5 !important;
   }
-  
+
   // Red
-  
+
   .ld {
     background: #ffebee !important;
   }
-  
+
   .rd {
     background: #ffcdd2 !important;
   }
-  
+
   .dd {
     background: #ef9a9a !important;
   }
-  
+
   // Others
-  
+
   .or {
     background: #FFE082 !important;
   }
-  
+
   .bl {
     background: #BBDEFB !important;
   }
-  
+
   .pp {
     background: #CE93D8 !important;
   }
-  
+
   .bk {
     background: #BDBDBD !important;
   }
-  
+
   .wt {
     background: #FFF !important;
   }
@@ -334,6 +334,52 @@ table.twin-head {
   }
 }
 
+table.row-blue {
+  tbody {
+    tr { 
+      border-bottom: 2px solid #2196F3;  
+      &:last-child {
+        border-bottom: 0;  
+      }
+
+      td:first-child {
+        background: #BBDEFB;
+      }
+      td {
+        background: #E3F2FD;
+      }
+    }
+  }
+}
+
+table.col-blue {
+  thead > tr {
+    background: #64B5F6;
+    color:#FFF;
+  }
+  tbody tr {
+    border-bottom: 2px solid #2196F3;  
+    &:last-child {
+      border-bottom: 0;  
+    }
+    td {
+      background: #E3F2FD;
+    }
+  }
+}
+
+table.no-blue {
+  tbody tr {
+    border-bottom: 2px solid #2196F3;  
+    &:last-child {
+      border-bottom: 0;  
+    }
+    td {
+      background: #E3F2FD;
+    }
+  }
+}
+
 table.twin-blue {
   thead > tr {
     background: #64B5F6;
@@ -346,7 +392,7 @@ table.twin-blue {
       &:last-child {
         border-bottom: 0;  
       }
-      
+
       td:first-child {
         background: #BBDEFB;
       }
