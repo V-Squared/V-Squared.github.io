@@ -10,7 +10,9 @@ readiness:
 table-comparison-all: 
   style: [twin-head,twin-blue]
   name: Workstation Comparison Overview
-  desc: All key features in one table for easy over all comparison
+  caption: >
+   # Overall performance comparison between workstations
+   Compare features and prices between all of the top workstation computers on the market
   head: [Features,ViPC Pro Workstation,Apple Mac Pro,HP Z240,HP G3,Dell Precision Tower]
   rows: 
     - data: [Price, 100%,218%,132%,136%,126%]
