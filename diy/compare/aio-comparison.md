@@ -108,11 +108,21 @@ table-comparison-vipc-dellxps:
 ---
 # Specifications 
 
+<br>
+
 {% include table id="table-comparison-vipc-hpg3" %}
+
+<br>
+<br>
 
 {% include table id="table-comparison-vipc-imac" %}
 
+<br>
+<br>
+
 {% include table id="table-comparison-vipc-dellxps" %}
+
+<br>
 
 # Open Modular AiO vs Closed Monolithic
 
