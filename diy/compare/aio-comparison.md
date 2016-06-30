@@ -5,7 +5,64 @@ subtitle: Comparing Workstation All-in-Ones
 abstract: Talk about information here
 issueNo: 192
 readiness:
+   - is-complete
    - is-active
+contents:
+  - name: Summary
+    url: summary
+    subitems:
+      - name: Spec Comparison
+        url: sum-spec
+      - name: Price Comparison
+        url: sum-price
+      - name: Usability Comparison
+        url: sum-usability
+      - name: Grand Summary
+        url: grand-summary
+  - name: Spec Comparison Details
+    url: spec-comparison
+    subitems: 
+      - name: ViPC 620 vs Dell XPS 27
+        url: ViPC620-DellXPS27
+      - name: ViPC 1200 vs Apple iMac 27
+        url: ViPC1200-iMac27
+      - name: ViPC 1200 vs HP Z1 G3
+        url: ViPC1200-HPZ1G3
+  - name: Usability Details
+    url: usability-details
+    subitems:
+      - name: Open Modular Displays
+        url: open-modular-displays
+      - name: Open Modular Upgrading
+        url: open-modular-upgrading
+      - name: Open Modular Configuration
+        url: open-modular-config
+      - name: Open Modular Formfactor
+        url: open-modular-formfactor
+      - name: Portable
+        url: portable
+      - name: Desktop Parts
+        url: desktop-parts
+      - name: I Fix It Option
+        url: i-fix-it
+      - name: DIY Option
+        url: diy-option
+      - name: Carry On Compliant
+        url: carry-on-compliant
+      - name: Clean Desk
+        url: clean-desk
+      - name: Workstation Class
+        url: workstation-class
+      - name: Surge & EMI Protection
+        url: surge-emi-protection
+      - name: Easy Clean
+        url: easy-clean
+      - name: Easy Access
+        url: easy-access
+      - name: Save Planet
+        url: save-planet
+  - name: Reference
+    url: reference
 
 table-comparison-vipc-imac: 
   style: [twin-head,twin-blue]
@@ -117,33 +174,62 @@ table-comparison-usability:
     - data: [Flat Fee Repair Service,✓,―,―,―]
       color: [tp,gn,rd,rd,rd]
 
+table-usabillity-open-modular-display: 
+  style: [twin-head,twin-blue]
+  name: AiO Open Modular Display
+  desc: More choice, easy upgrading and repair
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Choice, Vast, Limited ]
+       color: [tp,gn,rd]
+     - data: [ Upgrading Display , ✓ , — ]
+       color: [tp,gn,rd]
+     - data: [ Fix a roken Display , ✓ , — ]
+       color: [tp,gn,rd]
 ---
 
-# Table of Contents
--Specifications
--Price Comparison
--Usability
--Conclusion
 
-# Specifications 
+# Summary {#summary} #######
 
+## Spec Comparison {#sum-spec}
+
+
+## Price Comparison {#sum-price}
+
+![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
+ 
+
+## Usability Comparison {#sum-usability}
+
+Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
+
+{% include table id="table-comparison-usability" %}
 <br>
+
+## Grand Summary {#grand-summary}
+
+
+
+# Spec Comparison Details {#spec-comparison} ######
+
+## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
 
 {% include table id="table-comparison-vipc-hpg3" %}
 
 ### Reference
 
 [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
-<br>
-<br>
+
+## ViPC 1200 vs Apple iMac 27 {#ViPC1200-iMac27}
 
 {% include table id="table-comparison-vipc-imac" %}
 
 ### Reference
 
 [Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
-<br>
-<br>
+
+
+## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
@@ -153,20 +239,15 @@ table-comparison-usability:
 <br>
 
 
-# Price Comparison
 
-![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
 
-<br>
-
-# Usability
+# Usability Details {#usability-details} ####################
 
 Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
 
-{% include table id="table-comparison-usability" %}
-<br>
 
-## Screen Options
+
+## Open Modular Displays {#open-modular-displays}
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -200,14 +281,49 @@ And because the screen is separate from the components, you can upgrade the scre
 
 ### Comparing Screen Options
 
-|Feature | Open All-In-One | Closed All-in-One |
-|----------:|:-------:|:--------:|
-| Choice | Vast {gn} | Limited {rd} |
-| Upgrading | Yes {gn} | No {rd} |
-| Fix it | Yes {gn} | No {rd} |
 
 
-# Portable vs Chained to Desk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Open Modular Upgrading {#open-modular-upgrading}
+
+
+## Open Modular Configuration {#open-modular-config}
+
+
+## Open Modular Formfactor {#open-modular-formfactor}
+
+
+
+## Portable {#portable}
+
+### Portable vs Chained to Desk
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -233,7 +349,11 @@ ViPC AiO is designed to be carried around easily throughout a workplace or home.
 | Keyboard Bay | yes {gn} | no {rd} |
 | One cable only | yes {gn} | no {rd} |
 
-# Desktop Parts vs Mobile Parts
+
+
+## Desktop Parts {#desktop-parts} ###################
+
+### Desktop Parts vs Mobile Parts
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -257,7 +377,9 @@ ViPC uses standard desktop parts for all of its components, running at the inten
 | Cost | lower {gn} | higher {rd} |
 | User replaceability | higher {gn} | lower {rd} |
 
-# Fix vs Trash
+## I Fix It Option {#i-fix-it}
+
+### Fix vs Trash
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -283,7 +405,14 @@ Using standard parts around an open computer chassis means your computer can las
 | Average repair / upgrade cost |  low {gn} | high {rd} |
 | Average down time | short {gn} | long {rd} |
 
-# Carry on vs Shipping
+
+
+## DIY Option {#diy-option}
+
+
+## Carry On Compliant {#carry-on-compliant}
+
+### Carry on vs Shipping
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -309,7 +438,10 @@ There are many reasons you would want to travel with your computer. Students goi
 | Time without workstation | zero {gn} | days {rd} |
 | Risk of loss or damage | slim {gn} | considerable {rd} |
 
-# Clean Desk vs Mess
+
+## Clean Desk {#clean-desk}
+
+### Clean Desk vs Mess
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -339,7 +471,9 @@ To battle the famous cable mess issue that computer desks face, we incorporated 
 | Cable Organizer | yes {gn} | no {rd} |
 
 
-# Workstation vs Consumer
+# Workstation Class {#workstation-class} ####################
+
+## Workstation vs Consumer
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -361,7 +495,9 @@ Everyone uses their computer differently. Some use it mainly for gaming or 3D mo
 | 100% load capable | yes {gn} | no {rd} |
 
 
-# Safety
+# Surge & EMI Protection {#surge-emi-protection}
+
+## Safety
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -382,7 +518,7 @@ With every computer,additional safety peripherals are needed to keep everything 
 | Power Monitor | yes {gn} | no {rd} |
 
 
-# Cleaning
+## Easy Clean {#easy-clean} ####################
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -403,7 +539,9 @@ For computers, dust is their worst nightmare. Dust build-up makes your component
 | Washable | yes {gn} | no {rd} |
 | Quiet PC due to regular cleaning | yes {gn} | no {rd} |
 
-# Easy Access
+
+
+## Easy Access {#easy-access} ###################
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -426,3 +564,11 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 | Quick Snap Top Cover | yes {gn} | no {rd} |
 | Fluid Port Placement | yes {gn} | no {rd} |
 | Remote Power On | yes {gn} | no {rd} |
+
+
+
+## Save Planet {#save-planet} ############
+
+
+# Reference {#reference} #####################
+
