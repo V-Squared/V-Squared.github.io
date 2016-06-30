@@ -46,6 +46,9 @@ footer: >
 
 table-comparison-vipc-z240: 
   style: [twin-head,twin-blue]
+  caption: >
+   # ViPC 1200 vs HP Z240
+   Small workstations with similar specifications
   head: [Features,ViPC 620,HP Z240]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
@@ -75,6 +78,9 @@ table-comparison-vipc-z240:
 
 table-comparison-vipc-HPg3: 
   style: [twin-head,twin-blue]
+  caption: >
+   # ViPC 1200 vs HP Z1 G3
+   Two workstations capable of acting as all-in-one computers.
   head: [Features,ViPC 1200,HP Z1 G3]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
@@ -108,6 +114,9 @@ table-comparison-vipc-HPg3:
 
 table-comparison-vipc-macpro: 
   style: [twin-head,twin-blue]
+  caption: >
+   # ViPC 970T vs Apple Mac Pro
+   Comparison between the two smallest and best looking workstations
   head: [Features,ViPC-970T,Apple Mac Pro]
   rows: 
     - data: [OS,Win 10 Pro,OS X]
