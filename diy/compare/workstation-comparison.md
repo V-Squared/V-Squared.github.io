@@ -165,10 +165,6 @@ Detailed comparison of current workstation PCs on the market.
 ## Comparison
 
 
-![workstationpower](https://cloud.githubusercontent.com/assets/16950279/16353986/7251ea04-3a3a-11e6-9974-63c0ce74a915.png)
-
-![workstationsize2](https://cloud.githubusercontent.com/assets/16950279/16353355/df3819ac-3a2d-11e6-948e-1cf4074840d2.png)
-
 ![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
 {% include table id="table-comparison-all" %}
@@ -181,12 +177,21 @@ Detailed comparison of current workstation PCs on the market.
 ![workstationprice2](https://cloud.githubusercontent.com/assets/16950279/16353354/df3658ba-3a2d-11e6-8258-9bab7f532c21.png)
 
 Excluding Apple, competing workstation computers are around 30% more expensive than ViPC. For the specs, ViPC is still the least expensive options when choosing a workstation PC, while still performing the same as the rest. Apple has a beautiful design with their Mac Pro, although you pay for this in the cost of the machine. 
+
 ## Power Density
+
+![workstationpower](https://cloud.githubusercontent.com/assets/16950279/16353986/7251ea04-3a3a-11e6-9974-63c0ce74a915.png)
+
 Power density is defined as the amount of performance in regard to the size. In this case, ViPC beats the competition, having the same specifications while having the smallest size in liters.
+
 ## Fluid Form Factor
+
 Most systems are locked down to one way of using them. The HP G1 Z3 is a beautiful all-in-one but because its paired to the screen, cannot be a truly portable machine. The Dell Z240 is small in size, but does not have direct support for an all-in-one transformation. ViPC gives you the freedom of using it how you want to use it; place it next to your monitor as a standalone or mount it to the back your screen to create a 100% DIY AiO. With a fluid form factor, the choice is up to you in how to use it, a great addition for artists or photographers who have dynamic lives.
 
 ## Portability
+
+![workstationsize2](https://cloud.githubusercontent.com/assets/16950279/16353355/df3819ac-3a2d-11e6-948e-1cf4074840d2.png)
+
 People have mobile lives, constantly moving around and needing to bring their work with them. Most PCs suited for travel in todays market (able to stick it in a backpack or bring on a plane) are limited by mobile parts which don't give the kind of performance many people need from a workstation computer. ViPC throws these issues out the window, being small enough to throw in a backpack for easy transportation while also using desktop class components; no performance is loss. Having such a portable machine isn't just beneficial for carrying around the office, ViPC is great to travel with going from home to office, traveling to conferences, or bringing out to the field.
 ## Clean Wiring
 ViPC offers clean and simple wiring, inside and out of the case. The built-in surge protection and DC plug means the cable mess outside of the case is kept to a minimum; the only wall plug you need is for the ViPC power supply. The included DC port also lets you plug a monitor directly into your ViPC, freeing up a wall port and making a DIY AiO clean and easy. On the inside, tool-less free cable ties on the bottom of the case keeps wires out of the way for a clean case that is easy to replace parts if need be.
