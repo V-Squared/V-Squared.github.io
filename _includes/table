@@ -34,7 +34,7 @@
       
       {% if forloop.index == dataIndex %}
       
-      <td class="{{color}}">{{ data | markdownify | remove: "<p>" | remove: "</p>"}}</td>
+      <td class="{{color}}">{{ data }}</td>
       
       {% endif %}
       {% endfor %}
