@@ -155,19 +155,21 @@ table-comparison-vipc-macpro:
 - [i7 versus Xeon](#i7-versus-xeon)
 - [Key Features ViPC]
 
-![workstationprice2](https://cloud.githubusercontent.com/assets/16950279/16353354/df3658ba-3a2d-11e6-8258-9bab7f532c21.png)
 
-![workstationpower](https://cloud.githubusercontent.com/assets/16950279/16353986/7251ea04-3a3a-11e6-9974-63c0ce74a915.png)
 
-![workstationsize2](https://cloud.githubusercontent.com/assets/16950279/16353355/df3819ac-3a2d-11e6-948e-1cf4074840d2.png)
+
 
 # Summary
 Detailed comparison of current workstation PCs on the market.
 
 ## Comparison
 
-![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
+![workstationpower](https://cloud.githubusercontent.com/assets/16950279/16353986/7251ea04-3a3a-11e6-9974-63c0ce74a915.png)
+
+![workstationsize2](https://cloud.githubusercontent.com/assets/16950279/16353355/df3819ac-3a2d-11e6-948e-1cf4074840d2.png)
+
+![workstationimages3](https://cloud.githubusercontent.com/assets/16950279/16323492/0a93acf2-3960-11e6-9c70-d3b707ad490f.png)
 
 {% include table id="table-comparison-all" %}
 
@@ -175,6 +177,9 @@ Detailed comparison of current workstation PCs on the market.
 # Key Features of ViPC
 
 ## Price
+
+![workstationprice2](https://cloud.githubusercontent.com/assets/16950279/16353354/df3658ba-3a2d-11e6-8258-9bab7f532c21.png)
+
 Excluding Apple, competing workstation computers are around 30% more expensive than ViPC. For the specs, ViPC is still the least expensive options when choosing a workstation PC, while still performing the same as the rest. Apple has a beautiful design with their Mac Pro, although you pay for this in the cost of the machine. 
 ## Power Density
 Power density is defined as the amount of performance in regard to the size. In this case, ViPC beats the competition, having the same specifications while having the smallest size in liters.
