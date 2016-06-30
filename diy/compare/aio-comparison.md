@@ -282,33 +282,7 @@ And because the screen is separate from the components, you can upgrade the scre
 
 ### Comparing Screen Options
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% include table id="table-usabillity-open-modular-display" %}
 
 
 
