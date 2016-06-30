@@ -151,8 +151,8 @@ table-comparison-usability:
 
 ![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
 
-
 <br>
+
 # Usability
 
 Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
