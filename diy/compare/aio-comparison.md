@@ -188,9 +188,9 @@ table-usabillity-open-modular-display:
        color: [tp,gn,rd]
 ---
 
-test
 
-# Summary {#summary} #######
+
+# Summary {#summary}
 
 ## Spec Comparison {#sum-spec}
 
@@ -211,7 +211,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 
 
-# Spec Comparison Details {#spec-comparison} ######
+# Spec Comparison Details {#spec-comparison} 
 
 ## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
 
@@ -242,7 +242,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 
 
-# Usability Details {#usability-details} ####################
+# Usability Details {#usability-details} 
 
 Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
 
@@ -352,7 +352,7 @@ ViPC AiO is designed to be carried around easily throughout a workplace or home.
 
 
 
-## Desktop Parts {#desktop-parts} ###################
+## Desktop Parts {#desktop-parts} 
 
 ### Desktop Parts vs Mobile Parts
 
@@ -472,7 +472,7 @@ To battle the famous cable mess issue that computer desks face, we incorporated 
 | Cable Organizer | yes {gn} | no {rd} |
 
 
-# Workstation Class {#workstation-class} ####################
+# Workstation Class {#workstation-class} 
 
 ## Workstation vs Consumer
 
@@ -519,7 +519,7 @@ With every computer,additional safety peripherals are needed to keep everything 
 | Power Monitor | yes {gn} | no {rd} |
 
 
-## Easy Clean {#easy-clean} ####################
+## Easy Clean {#easy-clean} 
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -542,7 +542,7 @@ For computers, dust is their worst nightmare. Dust build-up makes your component
 
 
 
-## Easy Access {#easy-access} ###################
+## Easy Access {#easy-access} 
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -568,8 +568,7 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 
 
 
-## Save Planet {#save-planet} ############
+## Save Planet {#save-planet} 
 
 
-# Reference {#reference} #####################
-
+# Reference {#reference}
