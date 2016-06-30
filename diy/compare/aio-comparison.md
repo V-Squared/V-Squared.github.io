@@ -29,12 +29,6 @@ table-comparison-vipc-imac:
       color: [tp,gn,gn]
     - data: [Cuda Cores,512,640]
       color: [tp,yw,gn]
-    - data: [AiO Conversion,'Yes','Yes']
-      color: [tp,gn,gn]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
-      color: [tp,gn,rd]
     - data: [Total,1946 USB,3600 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,185%]
@@ -62,12 +56,6 @@ table-comparison-vipc-hpg3:
       color: [tp,gn,gn]
     - data: [Cuda Cores,384,384]
       color: [tp,gn,gn]
-    - data: [AiO Conversion,'Yes','Yes']
-      color: [tp,gn,gn]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
-      color: [tp,gn,rd]
     - data: [Total,1200 USB,2700 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,225%]
@@ -95,12 +83,6 @@ table-comparison-vipc-dellxps:
       color: [tp,gn,gn]
     - data: [Cuda Cores,512,640]
       color: [tp,yw,gn]
-    - data: [AiO Conversion,'Yes','Yes']
-      color: [tp,gn,gn]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
-      color: [tp,gn,rd]
     - data: [Total,1946 USB,2656 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,135%]
@@ -137,6 +119,7 @@ table-comparison-usability:
 
 ---
 
+{% include table id="table-comparison-usability" %}
 
 # Open Modular AiO vs Closed Monolithic
 
