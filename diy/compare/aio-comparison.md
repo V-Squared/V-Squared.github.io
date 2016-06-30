@@ -6,6 +6,7 @@ abstract: Talk about information here
 issueNo: 192
 readiness:
    - is-active
+
 table-comparison-vipc-imac: 
   style: [twin-head,twin-blue]
   caption: >
