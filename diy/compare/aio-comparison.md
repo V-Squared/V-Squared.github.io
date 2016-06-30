@@ -119,6 +119,12 @@ table-comparison-usability:
 
 ---
 
+# Table of Contents
+-Specifications
+-Price Comparison
+-Usability
+-Conclusion
+
 # Specifications 
 
 <br>
