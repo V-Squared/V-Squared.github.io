@@ -108,22 +108,22 @@ table-comparison-vipc-dellxps:
 
 table-comparison-usability: 
   style: [twin-head,twin-blue]
-  name: ViPC 1200 vs Apple iMac
-  desc: Battle of the GPU Goliath of Workstations
+  name: AiO Usability Comparison
+  desc: How the computers compare when looking at ease of use
   head: [Features,ViPC,Apple iMac 27,HP Z1 G3,Dell XPS 27]
   rows: 
-    - data: [All In One Conversion,✓,―,―,✓]
-      color: [tp,gn,rd,rd,gn]
-    - data: [3 Chamber Airflow or better,✓,✓,―,―]
-      color: [tp,gn,gn,rd,rd]
-    - data: [Portable,✓,✓,―,―]
-      color: [tp,gn,gn,rd,rd]
+    - data: [All In One Conversion,✓,✓,✓,✓]
+      color: [tp,gn,gn,gn,gn]
+    - data: [3 Chamber Airflow or better,✓,―,―,―]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Portable,✓,―,―,―]
+      color: [tp,gn,rd,rd,rd]
     - data: [Surge Protection,✓,―,―,―]
       color: [tp,gn,rd,rd,rd]
     - data: [Clean Desk Cabling,✓,―,―,―]
       color: [tp,gn,rd,rd,rd]
-    - data: [Intel Generation,6,5 (*1),6,6]
-      color: [tp,gn,yw,gn,gn]
+    - data: [Intel Generation,6,6,6,5 (*1)]
+      color: [tp,gn,gn,gn,yw]
     - data: [Open Configuration,✓,―,―,―]
       color: [tp,gn,rd,rd,rd]
     - data: [DIY Option,✓,―,―,―]
