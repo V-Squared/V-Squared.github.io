@@ -151,28 +151,35 @@ table-comparison-usability:
   desc: How the computers compare when looking at ease of use
   head: [Features,ViPC,Apple iMac 27,HP Z1 G3,Dell XPS 27]
   rows: 
-    - data: [All In One Conversion,✓,✓,✓,✓]
-      color: [tp,gn,gn,gn,gn]
-    - data: [3 Chamber Airflow or better,✓,―,―,―]
+    - data: [Open Modular Displays,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Portable,✓,―,―,―]
+    - data: [Open Modular Upgrading,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Surge Protection,✓,―,―,―]
+    - data: [Open Modular Configuration,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Clean Desk Cabling,✓,―,―,―]
+    - data: [Open Modular Formfactor,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Intel Generation,6,6,6,5 (*1)]
-      color: [tp,gn,gn,gn,yw]
-    - data: [Open Configuration,✓,―,―,―]
+    - data: [Portable,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [DIY Option,✓,―,―,―]
+    - data: [Desktop Parts,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [I Fixit Option,✓,―,―,―]
+    - data: [I Fix It Option,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Flat Fee Assembly Service,✓,―,―,―]
+    - data: [DIY Option,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Flat Fee Repair Service,✓,―,―,―]
+    - data: [Carry On Compliant,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
+    - data: [Clean Desk,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Workstation Class,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Surge & EMI Protection,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Easy Clean,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Easy Access,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
+    - data: [Save Planet,✓,—,—,—]
 
 table-usabillity-open-modular-display: 
   style: [twin-head,twin-blue]
@@ -234,7 +241,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
-### Reference {ref-hubba}
+### Reference {#ref-hp}
 
 [Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
