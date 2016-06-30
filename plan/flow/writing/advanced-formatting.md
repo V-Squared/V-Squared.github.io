@@ -14,13 +14,14 @@ table-vicase-vs-macpro:
    rows:
      - data: [OS, Win 10 Pro, Win 10 Pro]
        color: [tp, gn, gn]
-     - data: [CPU, i7-6700 (Gen 6 (*1)), 3.7 GHz Quad (Gen 5) (*2)]
+     - data: [CPU, i7-6700 (Gen 6 †), 3.7 GHz Quad (Gen 5) ‡]
        color: [tp, gn, rd]
-     - data: [AiO Conversion,✓,―]
+     - data: [AiO Conversion,✓ †3,―]
        color: [tp, gn, rd]
    footer: >
-      **(1)** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
-      **(2)** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
+      **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
+      **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
+      **†3** This makes a big difference if you need a portable workstation.
 table-comparison-all: 
   style: [twin-head,twin-blue]
   name: Workstation Comparison Overview
@@ -127,6 +128,10 @@ table-style-no-head:
      - data: [ ☐ , ☑  ,  ☒  ,   ☓   ]
        color: [tp, tp, tp, tp] 
      - data: [ ✔ , ✘  , —  , ✚  ]
+       color: [tp, tp, tp, tp]
+     - data: [ †  ,  ‡ , †3, †4]
+       color: [tp, tp, tp, tp]
+     - data: [ ©  ,  ® , µ, V²]
        color: [tp, tp, tp, tp]
 ---
 
