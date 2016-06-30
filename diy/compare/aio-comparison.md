@@ -119,9 +119,46 @@ table-comparison-usability:
 
 ---
 
-{% include table id="table-comparison-usability" %}
 
-# Open Modular AiO vs Closed Monolithic
+
+
+# Price Comparison
+
+![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
+
+
+<br>
+
+# Specifications 
+
+<br>
+
+{% include table id="table-comparison-vipc-hpg3" %}
+### Reference
+
+[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
+<br>
+<br>
+
+{% include table id="table-comparison-vipc-imac" %}
+### Reference
+
+[Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
+<br>
+<br>
+
+{% include table id="table-comparison-vipc-dellxps" %}
+### Reference
+
+[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
+<br>
+
+# Usability
+
+Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
+
+{% include table id="table-comparison-usability" %}
+<br>
 
 ## Screen Options
 
@@ -383,32 +420,3 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 | Quick Snap Top Cover | yes {gn} | no {rd} |
 | Fluid Port Placement | yes {gn} | no {rd} |
 | Remote Power On | yes {gn} | no {rd} |
-
-
-
-
-# Specifications 
-
-<br>
-
-{% include table id="table-comparison-vipc-hpg3" %}
-### Reference
-
-[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
-<br>
-<br>
-
-{% include table id="table-comparison-vipc-imac" %}
-### Reference
-
-[Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
-<br>
-<br>
-
-{% include table id="table-comparison-vipc-dellxps" %}
-### Reference
-
-[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
-<br>
-
-
