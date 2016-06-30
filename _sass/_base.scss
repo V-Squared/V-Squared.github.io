@@ -234,6 +234,12 @@ table {
     text-align: center;
   }
   
+  tfoot td {
+    text-align: left !important;
+    color:#42A5F5;
+    font-style: normal;
+  }
+  
   /**
   * Colors
   */
@@ -297,7 +303,7 @@ table {
   // Others
   
   .or {
-    background: #FFECB3 !important;
+    background: #FFE082 !important;
   }
   
   .bl {
@@ -341,10 +347,10 @@ table.twin-blue {
       }
       
       td:first-child {
-        background: #E5E7F4;
+        background: #BBDEFB;
       }
       td {
-        background: #F6F6FB;
+        background: #E3F2FD;
       }
     }
   }
@@ -356,12 +362,14 @@ table.twin-blue {
   background:#64B5F6;
   color:#FFF;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 .table-head {
   padding-top: 10px;
 }
 .table-desc {
   color:#0D47A1;
+  line-height: 1em;
 }
 
 
@@ -430,7 +438,6 @@ md-menu-content {
 
 .uk-table td, .uk-table th {
   padding: 8px 8px;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .table-header-row-column thead {

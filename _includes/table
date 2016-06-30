@@ -5,9 +5,10 @@
 {% endif %}
 
 {% if table.name %}<h3 class="table-caption table-head">{{table.name}}</h3>{% endif %}
-{% if table.desc %}<p class="table-caption table-desc">{{table.desc}}</p>{% endif %}
+{% if table.desc %}<p class="table-caption table-desc">{{table.desc | markdownify | remove: "<p>" | remove: "</p>"}}</p>{% endif %}
 
-<table class="uk-table {% for style in table.style %}{{style}} {% endfor %}">
+<table class="uk-table {% for style in table.style %}{{style}} {% endfor %}"
+       {% unless table.name %}style="margin-top:15px"{% endunless %}>
   <thead>
     <tr>
       {% for head in table.head %}      
@@ -33,7 +34,7 @@
       
       {% if forloop.index == dataIndex %}
       
-      <td class="{{color}}">{{data}}</td>
+      <td class="{{color}}">{{ data | markdownify | remove: "<p>" | remove: "</p>"}}</td>
       
       {% endif %}
       {% endfor %}
@@ -45,7 +46,7 @@
   <tfoot>
     <tr>
       <td colspan="{{colLength}}">
-        {{table.footer}}
+        {{ table.footer | markdownify | remove: "<p>" | remove: "</p>" }}
       </td>
     </tr>
   </tfoot>
