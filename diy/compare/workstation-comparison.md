@@ -63,14 +63,6 @@ table-comparison-vipc-z240:
       color: [tp,gn,gn]
     - data: [GPU,K620,K620]
       color: [tp,gn,gn]
-    - data: [AiO Conversion,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Portable,'Yes,6L','No,13L']
-      color: [tp,gn,yw]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
-      color: [tp,gn,rd]
     - data: [Total,1200 USB,1581 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,132%]
@@ -97,16 +89,6 @@ table-comparison-vipc-HPg3:
       color: [tp,gn,gn]
     - data: [CUDA Cores,512,640]
       color: [tp,rd,gn]
-    - data: [AiO Conversion,'Yes','Yes']
-      color: [tp,gn,gn]
-    - data: [Display,'No','Yes']
-      color: [tp,rd,gn]
-    - data: [CPU Unit Portable,'Yes,6L','Not easy removeable']
-      color: [tp,gn,rd]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
-      color: [tp,gn,rd]
     - data: [Total,1946 USB,2656 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,136%]
@@ -132,14 +114,6 @@ table-comparison-vipc-macpro:
     - data: [GPU,GTX 970 4GB,Dual D300 4GB]
       color: [tp,gn,rd]
     - data: [GPU Cores,1664,1280]
-      color: [tp,gn,rd]
-    - data: [AiO Conversion,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Portable,'Yes,9L','Yes,7L']
-      color: [tp,rd,gn]
-    - data: [Power Distribution,'Yes','No']
-      color: [tp,gn,rd]
-    - data: [Surge Protection,'Yes','No']
       color: [tp,gn,rd]
     - data: [Total,1600 USB,3500 USD]
       color: [tp,gn,rd]
@@ -240,76 +214,6 @@ If you bought your ViPC in one of our V² Community Stores or with Village Troni
 
 {% include table id="table-comparison-vipc-z240" %}
 
-<table class="uk-table twin-head twin-blue">
-<thead>
-<tr>
-  <th align="right">Features</th>
-  <th align="center">ViCase-620</th>
-  <th align="center">HP Z240</th>
-</tr>
-</thead>
-<tbody><tr>
-  <td align="right">OS</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-</tr>
-<tr>
-  <td align="right">CPU</td>
-  <td class="gn" align="center">i5-6400 (Gen 6)</td>
-  <td class="gn" align="center">i5-6500 (Gen 6)</td>
-</tr>
-<tr>
-  <td align="right">Boot Disk</td>
-  <td class="gn" align="center">256 GB SSD NVME</td>
-  <td class="gn" align="center">256 GB SSD NVME</td>
-</tr>
-<tr>
-  <td align="right">Data Disks</td>
-  <td class="gn" align="center">256 GB SSD SATA</td>
-  <td class="gn" align="center">256 GB SSD SATA</td>
-</tr>
-<tr>
-  <td align="right">RAM</td>
-  <td class="gn" align="center">16 GB DDR4</td>
-  <td class="gn" align="center">16 GB DDR4</td>
-</tr>
-<tr>
-  <td align="right">GPU</td>
-  <td class="gn" align="center">K620</td>
-  <td class="gn" align="center">K620</td>
-</tr>
-<tr>
-  <td align="right">AiO Conversion</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Portable</td>
-  <td class="gn" align="center">Yes, 6L</td>
-  <td class="rd" align="center">No, 13 L</td>
-</tr>
-<tr>
-  <td align="right">Power Distribution</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Surge Protection</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td class="gn" align="center">1200 USD</td>
-  <td class="rd" align="center">1581 USD</td>
-</tr>
-<tr>
-  <td align="right">Over Price</td>
-  <td class="gn" align="center">100 %</td>
-  <td class="rd" align="center">132 %</td>
-</tr>
-</tbody></table>
-
 ### Comment
 Even though the HP Z240 is categorized as Small Form Factor it is still a full Desktop Tower. 
 
@@ -325,91 +229,6 @@ Even though the HP Z240 is categorized as Small Form Factor it is still a full D
 
 {% include table id="table-comparison-vipc-HPg3" %}
 
-<table class="uk-table table-detail detail-blue">
-<thead>
-<tr>
-  <th align="right">Features</th>
-  <th align="center">ViCase-1200</th>
-  <th align="center">HZ Z1 G3</th>
-</tr>
-</thead>
-<tbody><tr>
-  <td align="right">OS</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-</tr>
-<tr>
-  <td align="right">CPU</td>
-  <td class="gn" align="center">i7-6700 (Gen 6)</td>
-  <td class="gn" align="center">i7-6700 (Gen 6)</td>
-</tr>
-<tr>
-  <td align="right">Boot Disk</td>
-  <td class="gn" align="center">512 GB SSD NVME</td>
-  <td class="rd" align="center">512 GB SSD SATA</td>
-</tr>
-<tr>
-  <td align="right">Data Disks</td>
-  <td class="gn" align="center">256 GB SSD SATA</td>
-  <td class="gn" align="center">256 GB SSD SATA</td>
-</tr>
-<tr>
-  <td align="right">RAM</td>
-  <td class="gn" align="center">32 GB DDR4</td>
-  <td class="gn" align="center">32 GB DDR4</td>
-</tr>
-<tr>
-  <td align="right">GPU</td>
-  <td class="gn" align="center">K1200</td>
-  <td class="gn" align="center">M2000M</td>
-</tr>
-<tr>
-  <td align="right">GPU Memory</td>
-  <td class="gn" align="center">4 GB</td>
-  <td class="gn" align="center">4 GB</td>
-</tr>
-<tr>
-  <td align="right">Cuda Cores</td>
-  <td class="rd" align="center">512</td>
-  <td class="gn" align="center">640</td>
-</tr>
-<tr>
-  <td align="right">AiO Conversion</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="gn" align="center">Yes</td>
-</tr>
-<tr>
-  <td align="right">Display</td>
-  <td class="rd" align="center">No</td>
-  <td class="gn" align="center">Yes</td>
-</tr>
-<tr>
-  <td align="right">CPU Unit Portable</td>
-  <td class="gn" align="center">Yes, 6L</td>
-  <td class="rd" align="center">Not easy removeable</td>
-</tr>
-<tr>
-  <td align="right">Power Distribution</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Surge Protection</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td class="gn" align="center">1946 USD</td>
-  <td class="rd" align="center">2656 USD</td>
-</tr>
-<tr>
-  <td align="right">Over Price</td>
-  <td class="gn" align="center">100 %</td>
-  <td class="rd" align="center">136 %</td>
-</tr>
-</tbody></table>
-
 
 ### Comment
 The HP Z1 G3 is the only Workstation other than ViPC that can be converted into an All-In-One. This is great for saving space and keeping the desk tidy. Because the G3 is prebuilt, there are no options for the type of screen you choose.  
@@ -423,80 +242,6 @@ The HP Z1 G3 is the only Workstation other than ViPC that can be converted into 
 
 {% include table id="table-comparison-vipc-macpro" %}
 
-<table class="uk-table table-detail detail-blue">
-<thead>
-<tr>
-  <th align="right">Features</th>
-  <th align="center">ViCase-970T</th>
-  <th align="center">Mac Pro</th>
-</tr>
-</thead>
-<tbody><tr>
-  <td align="right">OS</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-  <td class="gn" align="center">Win 10 Pro</td>
-</tr>
-<tr>
-  <td align="right">CPU</td>
-  <td class="gn" align="center">i7-6700 (Gen 6)</td>
-  <td class="rd" align="center">3.7 GHz Quad (Gen 5)</td>
-</tr>
-<tr>
-  <td align="right">Boot Disk</td>
-  <td class="gn" align="center">512 GB SSD NVME</td>
-  <td class="gn" align="center">512 GB SSD NVME</td>
-</tr>
-<tr>
-  <td align="right">Data Disks</td>
-  <td class="gn" align="center">2 TB</td>
-  <td class="rd" align="center">—</td>
-</tr>
-<tr>
-  <td align="right">RAM</td>
-  <td class="gn" align="center">16 GB DDR 4</td>
-  <td class="rd" align="center">16 GB DDR3</td>
-</tr>
-<tr>
-  <td align="right">GPU</td>
-  <td class="gn" align="center">GTX 970 4 GB</td>
-  <td class="rd" align="center">Dual D300 4 GB</td>
-</tr>
-<tr>
-  <td align="right">GPU Cores</td>
-  <td class="gn" align="center">1664</td>
-  <td class="rd" align="center">1280</td>
-</tr>
-<tr>
-  <td align="right">AiO Conversion</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Portable</td>
-  <td class="rd" align="center">Yes, 9L</td>
-  <td class="gn" align="center">Yes, 7 L</td>
-</tr>
-<tr>
-  <td align="right">Power Distribution</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Surge Protection</td>
-  <td class="gn" align="center">Yes</td>
-  <td class="rd" align="center">No</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td class="gn" align="center">1600 USD</td>
-  <td class="rd" align="center">3500 USD</td>
-</tr>
-<tr>
-  <td align="right">Over Price</td>
-  <td class="gn" align="center">100 %</td>
-  <td class="rd" align="center">218 %</td>
-</tr>
-</tbody></table>
 
 ### Comment
 The Mac Pro is the only Workstation in this comparison which is smaller and quieter than ViPC. It is a very cool design in every sense and we adore it. You pay for it of course with a 218% higher price.
