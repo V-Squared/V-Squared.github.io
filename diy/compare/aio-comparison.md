@@ -217,7 +217,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 {% include table id="table-comparison-vipc-hpg3" %}
 
-### Reference
+### Reference {#ref-dell}
 
 [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
 
@@ -225,7 +225,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 {% include table id="table-comparison-vipc-imac" %}
 
-### Reference
+### Reference {#ref-imac}
 
 [Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
 
@@ -234,7 +234,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
-### Reference
+### Reference {ref-hubba}
 
 [Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
