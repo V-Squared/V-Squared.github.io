@@ -61,25 +61,25 @@ table-shaded-colors:
    desc: All Table Background Colors having Shades. These colors are mostly used in comparison tables. Each come with three shades to express variations.
    head: [Color, Light, Standard, Dark]
    rows:
-     - data: [gray, ly - **l**light **g**ray, gy - **g**ra**y**, dy - **d**ark gra**y**]
+     - data: [gray, ly - light gray, gy - gray, dy - dark gray]
        color: [tp, ly, gy, dy]
-     - data: [yellow, lw - **l**light **y**yellow, yw - **y**ello**w**, dy - **d**ark yello**w**]
+     - data: [yellow, lw - light yellow, yw - yellow, dy - dark yellow]
        color: [tp, lw, yw, dw]
-     - data: [green, ln - **l**light gree**n**, gn - **g**ree**n**, dn - **d**ark gree**n**]
+     - data: [green, ln - light green, gn - green, dn - dark green]
        color: [tp, ln, gn, dn]
-     - data: [red, ld - **l**light red**d**, rd - **r**e**d**, dd - **d**ark re**d**]
+     - data: [red, ld - light red, rd - red, dd - dark red]
        color: [tp, ld, rd, dd]
    footer: >
-      **Trick to remember:** First remember the color codes, e.g. gy for **g**ra**y*. Then the variations are easy. Keep last char. First char is either l for light or d for dark.
+      **Trick to remember:** First remember the color codes, e.g. gy for **g**ra**y**. Then the variations are easy. Keep last char. First char is either l for light or d for dark.
 
 table-solid-colors:
    style: [no-head,twin-blue]
    name: Solid Table Colors
    desc: These colors are for special purpose.
    rows:
-     - data: [or - **or**ange, bl - **bl**ue, pp - **p**ur**p**le ]
+     - data: [or - orange, bl - blue, pp - purple ]
        color: [or, bl, pp]
-     - data: [bk - **b**lac**k**, wt - **w**hi**t**e, tp - **t**rans**p**arent]
+     - data: [bk - black, wt - white, tp - transparent]
        color: [bk, wt, tp]
    footer: >
       **Note:** Use tp transparent for header columns.
@@ -131,6 +131,39 @@ table-style-no-head:
 
 
 # Advanced Table Formatting
+
+## Key Features
+
+- Keep all data in one place
+   - Name
+   - Description
+   - Table Data
+   - Footer
+- Keep Article Text Clean
+   - Regular table convolute the article text, making it hard to keep an overview
+   - Our tables are removed from the article text and placed in the yml front matter. Keeping article text clean.
+- Easy and fast to write table data in front matter yml
+   - Same power as HTML tables
+   - but much easier and faster to write and edit for the author
+   - much higher density than HTML. Much easier to keep the overview
+      - If HTML table contain 100% of code and lines, our yml tables are only 20% of lines and 10% of code
+- Powerful & consistent table styling
+   - Styling via stylesheet: All tables look the same, easy to change appearance of all tables consistently
+   - In contrast: We previously published our standards on Google Drive. Each table was individually formatted. It was hard if not impossible to keep a consistent style. A later update of the style would be impossible.
+- Table Name: Helps reader to find the right table
+- Table Description: Helps reader to quickly understand the table
+- Programmable Table Header for four different table styles:
+   - Twin Heading
+   - Row Heading
+   - Column Heading
+   - No Heading
+- Table Footer
+   - Multiple Callouts / Lines per Table in Footer
+   - Markdown in Footer
+- Cell Background Coloring
+   - ideal to make feature comparison table fast to read
+- Support Graphics Symbols in table cells
+   - Faster to write and easier to read
 
 ## Example of a Comparison Table
 
@@ -205,4 +238,4 @@ table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
 
 {% include table id="table-style-no-head" %}
 
-test
+
