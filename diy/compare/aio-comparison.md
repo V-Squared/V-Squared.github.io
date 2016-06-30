@@ -111,17 +111,23 @@ table-comparison-vipc-dellxps:
 <br>
 
 {% include table id="table-comparison-vipc-hpg3" %}
+### Reference
 
+[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
 <br>
 <br>
 
 {% include table id="table-comparison-vipc-imac" %}
+### Reference
 
+[Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
 <br>
 <br>
 
 {% include table id="table-comparison-vipc-dellxps" %}
+### Reference
 
+[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
 
 # Open Modular AiO vs Closed Monolithic
