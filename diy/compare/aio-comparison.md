@@ -107,7 +107,6 @@ table-comparison-vipc-dellxps:
       color: [tp,gn,rd]
 ---
 
-## What is an All-in-One?
 
 # Open Modular AiO vs Closed Monolithic
 
