@@ -20,7 +20,7 @@ table-vicase-vs-macpro:
        color: [tp, gn, rd]
    footer: >
       **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
-      **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
+      **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.<br>
       **†3** This makes a big difference if you need a portable workstation.
 table-comparison-all: 
   style: [twin-head,twin-blue]
@@ -98,7 +98,7 @@ table-style-twin-head:
        color: [tp,rd,gn]
 
 table-style-row-head:
-   style: [row-head,twin-blue]
+   style: [row-head,row-blue]
    name: Style Row Heading
    desc: Some data just need a Row Heading. Like this example
    rows:
@@ -110,7 +110,7 @@ table-style-row-head:
        color: [tp, tp]
 
 table-style-col-head:
-   style: [col-head,twin-blue]
+   style: [col-head,col-blue]
    name: Style Column Heading
    desc: Ideal for Feature Comparison
    head: [Campaign 1, Campaign 2, Campaign 3]
@@ -119,7 +119,7 @@ table-style-col-head:
        color: [ln, gn, dn]
        
 table-style-no-head:
-   style: [no-head,twin-blue]
+   style: [no-head,no-blue]
    name: Style No Headings
    desc: Ideal to just list things. In this example we list useful special characters.
    rows:
