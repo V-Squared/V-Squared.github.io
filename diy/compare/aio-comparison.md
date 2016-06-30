@@ -6,7 +6,115 @@ abstract: Talk about information here
 issueNo: 192
 readiness:
    - is-active
+table-comparison-vipc-imac: 
+  style: [twin-head,twin-blue]
+  caption: >
+      # ViPC 1200 vs Apple iMac
+      Battle of the GPU Goliath' of Workstations
+  head: [Features,ViPC 1200,Apple iMac 27]
+  rows: 
+    - data: [OS,Win 10 Pro,OS X]
+      color: [tp,gn,gn]
+    - data: [CPU,i7-6700 (Gen 6),i7-6700 (Gen 6)
+      color: [tp,gn,gn]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
+      color: [tp,gn,gn]
+    - data: [Data Disks,256 GB SSD SATA,None]
+      color: [tp,gn,rd]
+    - data: [RAM,32 GB DDR4,32 GB DDR4]
+      color: [tp,gn,gn]
+    - data: [GPU,K1200,M395X]
+      color: [tp,gn,gn]
+    - data: [Memory,4 GB,4 GB]
+      color: [tp,gn,gn]
+    - data: [Cuda Cores,512,640]
+      color: [tp,yw,gn]
+    - data: [AiO Conversion,'Yes','Yes']
+      color: [tp,gn,gn]
+    - data: [Power Distribution,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Surge Protection,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Total,1946 USB,3600 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,185%]
+      color: [tp,gn,rd,]
+
+table-comparison-vipc-hpg3: 
+  style: [twin-head,twin-blue]
+  caption: >
+      # ViPC 620 vs Dell XPS 27
+      Consumer friendly machines
+  head: [Features,ViPC 1200,Dell XPS 27]
+  rows: 
+    - data: [OS,Win 10 Pro,Win 10 Pro]
+      color: [tp,gn,gn]
+    - data: [CPU,i5-6400 (Gen 6),i7-4790s (Gen 5)
+      color: [tp,gn,yw]
+    - data: [Boot Disk,256 GB SSD NVME,64 GB SSD SATA]
+      color: [tp,gn,rd]
+    - data: [Data Disks,256 GB SSD SATA,2 TB HDD]
+      color: [tp,gn,yw]
+    - data: [RAM,16 GB DDR4,16 GB DDR3]
+      color: [tp,gn,yw]
+    - data: [GPU,K620,GTX 750m]
+      color: [tp,gn,gn]
+    - data: [Memory,2 GB,2 GB]
+      color: [tp,gn,gn]
+    - data: [Cuda Cores,384,384]
+      color: [tp,gn,gn]
+    - data: [AiO Conversion,'Yes','Yes']
+      color: [tp,gn,gn]
+    - data: [Power Distribution,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Surge Protection,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Total,1200 USB,2700 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,225%]
+      color: [tp,gn,rd,]
+
+table-comparison-vipc-dellxps: 
+  style: [twin-head,twin-blue]
+  caption: >
+      # ViPC 1200 vs HP Z1 G3
+      Battle of the GPU Goliath' of Workstations
+  head: [Features,ViPC 1200,HP Z1 G3]
+  rows: 
+    - data: [OS,Win 10 Pro,Win 10 Pro]
+      color: [tp,gn,gn]
+    - data: [CPU,i7-6700 (Gen 6),i7-6700 (Gen 6)
+      color: [tp,gn,gn]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD SATA]
+      color: [tp,gn,gn]
+    - data: [Data Disks,256 GB SSD SATA,256 GB SSD SATA]
+      color: [tp,gn,rd]
+    - data: [RAM,32 GB DDR4,32 GB DDR4]
+      color: [tp,gn,gn]
+    - data: [GPU,K1200,M2000M]
+      color: [tp,gn,gn]
+    - data: [Memory,4 GB,4 GB]
+      color: [tp,gn,gn]
+    - data: [Cuda Cores,512,640]
+      color: [tp,yw,gn]
+    - data: [AiO Conversion,'Yes','Yes']
+      color: [tp,gn,gn]
+    - data: [Power Distribution,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Surge Protection,'Yes','No']
+      color: [tp,gn,rd]
+    - data: [Total,1946 USB,2656 USD]
+      color: [tp,gn,rd]
+    - data: [Over Price,100 %,135%]
+      color: [tp,gn,rd,]
 ---
+# Specifications 
+
+{% include table id="table-comparison-vipc-hpg3" %}
+
+{% include table id="table-comparison-vipc-imac" %}
+
+{% include table id="table-comparison-vipc-dellxps" %}
 
 # Open Modular AiO vs Closed Monolithic
 
