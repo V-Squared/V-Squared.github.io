@@ -19,8 +19,8 @@ table-vicase-vs-macpro:
      - data: [AiO Conversion,✓,―]
        color: [tp, gn, rd]
    footer: >
-      **(*1)** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.
-      **(*2)** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
+      **(\*1)** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.
+      **(\*2)** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
 table-comparison-all: 
   style: [twin-head,twin-blue]
   name: Workstation Comparison Overview
