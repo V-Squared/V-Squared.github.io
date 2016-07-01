@@ -4,10 +4,48 @@ title: Advanced Article Formatting
 subtitle: Geek's Guide on Formatting Articles on V² 
 abstract: Your toolbox to make your articles easier to read and write even if they have complex content. Examples on powerful formatting that assists the reader in quickly ingest complex information. We also show how to keep your kramdown code legible for yourself.
 issueNo: 204
+contents:
+  - name: Table of Contents
+    url: table-of-contents
+    subitems:
+    - name: Manual vs Automatic
+      url: manual-vs-automatic
+    - name: Manual ToC
+      url: manual-toc
+    - name: Automatic ToC
+      url: automatic-toc
+  - name: Advanced Tables
+    url: advanced-table-formatting
+    subitems:
+      - name: Key Features
+        url: advanced-tables-features
 readiness:
+   - is-complete
    - is-active
+ 
+manual-versus-automatic-toc:
+   style: [twin-head,twin-blue]
+   name: Manual versus Automatic ToC
+   desc: Understanding the features of both ToC types makes it easy to know when to use which.
+   head: [Feature, Automatic ToC, Manual ToC]
+   rows:
+     - data: [Writer's time, none, considerable]
+       color: [tp, gn, rd]
+     - data: [Permanent Anchors †, — , ✔ ]
+       color: [tp, rd, gn]
+     - data: [Long Text Heading yet Short ToC Entry ‡,  — , ✔ ]
+       color: [tp, rd, gn]
+     - data: [Control which Headings to list †3,  — , ✔ ]
+       color: [tp, rd, gn]
+     - data: [When to use, Create & Develop, Beta & Make]
+       color: [tp, tp, tp]
+   footer: >
+      **†** Automatic ToC generates the anchors from the content of the heading. This is a problem like so: You publish an article. Another site links to a heading in your article and brings traffic. You fix a typo in the heading. The heading breaks. Traffic lost. Manual ToC solves this problem by manually creating permanent anchors that are independant to heading content.<br>
+      **‡** In the Table of Content Side Bar there is not much space. Headings need to be short, borderlining to be cryptic. In the Article you have space. Longer, expressive headings are better. Manual ToC gives you both, whereas automatic ToC only allows short headings in both places.<br>
+      **†3** Sometimes you do not need or want to list all headings for various reasons. Mostly to not make your ToC too long and scary. In Manual ToC you choose which headings to place in the ToC, whereas in Automatic ToC all headings will be listed in the ToC.
+
 table-vicase-vs-macpro:
-   style: [twin-head,twin-blue] # Lukas: need to change to: [twin-head,table-blue]
+   style: [twin-head,twin-blue]
    name: ViCase vs Mac Pro
    desc: Battle of the GPU Goliath' of Workstations
    head: [Features, ViCase-970T, Mac Pro]
@@ -22,6 +60,7 @@ table-vicase-vs-macpro:
       **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
       **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.<br>
       **†3** This makes a big difference if you need a portable workstation.
+      
 table-comparison-all: 
   style: [twin-head,twin-blue]
   name: Workstation Comparison Overview
@@ -135,10 +174,50 @@ table-style-no-head:
        color: [tp, tp, tp, tp]
 ---
 
+# Table of Contents {#table-of-contents}
 
-# Advanced Table Formatting
+## Manual versus Automatic ToC {#manual-vs-automatic}
 
-## Key Features
+{% include table id="manual-versus-automatic-toc" %}
+
+## Manual ToC {#manual-toc}
+
+### Adding ToC to YML Front Matter
+
+```yml
+contents:
+  - name: Table of Contents
+    url: table-of-contents
+    subitems:
+    - name: Manual vs Automatic
+      url: manual-vs-automatic
+    - name: Manual ToC
+      url: manual-toc
+    - name: Automatic ToC
+      url: automatic-toc
+  - name: Advanced Tables
+    url: advanced-table-formatting
+    subitems:
+      - name: Key Features
+        url: advanced-tables-features
+```
+
+### Adding Manual Anchors to Headings
+
+```markdown
+# Table of Contents {#table-of-contents}
+
+## Manual versus Automatic ToC {#manual-vs-automatic}
+
+The key difference is ...
+```
+
+## Automatic ToC {#automatic-toc}
+
+
+# Advanced Table Formatting {#advanced-table-formatting}
+
+## Key Features {#advanced-tables-features}
 
 - Keep all data in one place
    - Name
