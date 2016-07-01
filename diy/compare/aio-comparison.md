@@ -297,9 +297,20 @@ And because the screen is separate from the components, you can upgrade the scre
 
 ## Open Modular Upgrading {#open-modular-upgrading}
 
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - one single image
+    - Exploded view of ViPC, components surrounding machine
+       - components connected by lines
+
+
 One of the biggest downsides to all-in-one computers is the lack of future upgrades. With the slim design, many manufacturers take away the option of upgrading key parts such as the screen or graphics card. While they last for quite some time, you eventually have to get rid of the entire system due to lack to upgradeability. ViPC throws this concept out the window, letting the user upgrade every component down to the power supply to make one computer last as long as you own it. Because ViPC uses standard desktop parts, upgrading is easy and not tied down to any standard; use your PC how you want to. We also fully recommend self-upgrading your machine! This saves time and money for both parties, and we have many guides that walk you through the process of doing so. We can also do the repairs or upgrades for you, but give you the option of choosing.
 
 ## Open Modular Configuration {#open-modular-config}
+
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - Current configurator image
 
 Our configurator lets you choose how you want a computer built, with what parts you want inside. Choose from typical components such as power supply or CPU, while getting even more choices like the color of your ViCase cover or an AiO conversion kit. Many configurations are limited to what you can choose, but we want to give the user as much choice as possible to make the perfect machine. And for those that need guidance, we have pre-configured models that are ready made and tested for you.
 
@@ -389,7 +400,12 @@ Using standard parts around an open computer chassis means your computer can las
 
 ## DIY Option {#diy-option}
 
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - single image layout
+    - Pheonix changing parts out of ViCase
 
+There are many upsides to going the DIY route, including lower cost, more options, better performance, and the warm feeling of building a computer yourself. While we see the benefits of a pre-made machine, staying DIY still means we can configure your machine for you, while also not locking your computer down in any sort of way.
 
 ## Carry On Compliant {#carry-on-compliant}
 
@@ -549,6 +565,12 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 
 
 ## Save Planet {#save-planet} 
+
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - one image
+    - Phoenix logo with reclycle triangle around it
+
 
 PCs in todays era are made to be used, then trashed once the newer models are released. Parts are becoming harder to upgrade and whole systems are needed to be replaced instead of a few select components. Once you own a ViCase, every component can be upgraded individually with standard desktop components, helping out the planet by throwing away less parts.
 
