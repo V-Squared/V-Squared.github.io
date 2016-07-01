@@ -9,7 +9,7 @@
 
     <ul class="uk-nav uk-nav-toc">
       {% for content in page.contents %}
-      <li><a href="#{{content.url}}" du-smooth-scroll offset="70">{{ content.name }}</a></li>
+      <li><a href="#{{content.url}}" du-smooth-scroll offset="70">{{ content.name }}</a>
       
       {% if content.subitems %}
       
@@ -20,6 +20,8 @@
       </ul>
       
       {% endif %}
+      
+      </li>
       
       {% endfor %}
       </ul>

@@ -30,14 +30,60 @@
     <tr>
       {% for data in row.data %}
       {% assign dataIndex = forloop.index %}
-      {% for color in row.color %}
       
-      {% if forloop.index == dataIndex %}
+        {% if row.color %}
+        
+          {% for color in row.color %}
       
-      <td class="{{color}}">{{ data }}</td>
+            {% assign colorIndex = forloop.index %}
       
-      {% endif %}
-      {% endfor %}
+            {% if row.img %}
+      
+              {% for img in row.img %}
+      
+                {% if forloop.index == dataIndex and forloop.index == colorIndex %}
+      
+                  <td class="{{color}}"><img src="{{img}}"></td>
+      
+                {% endif %}
+      
+              {% endfor %}
+      
+      
+            {% else %}
+      
+                {% if forloop.index == dataIndex %}
+      
+                  <td class="{{color}}">{{ data }}</td>
+      
+                {% endif %}
+      
+            {% endif %}
+      
+          {% endfor %}
+      
+        {% else %}
+      
+          {% if row.img %}
+      
+          {% for img in row.img %}
+      
+                {% if forloop.index == dataIndex %}
+      
+                  <td class="tp"><img src="{{img}}"></td>
+      
+                {% endif %}
+      
+              {% endfor %}
+      
+          {% else %}
+      
+          <td class="tp">{{ data }}</td>
+      
+          {% endif %}
+      
+        {% endif %}
+      
       {% endfor %}
     </tr>
     {% endfor %}
