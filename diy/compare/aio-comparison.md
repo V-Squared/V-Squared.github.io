@@ -296,7 +296,7 @@ table-usabillity-clean:
        color: [tp,gn,rd]
      - data: [ Washable ,  ✓ , — ]
        color: [tp,gn,rd]
-      - data: [ Quiet PC due to regular cleaning,  ✓ , — ]
+     - data: [ Quiet PC due to regular cleaning,  ✓ , — ]
        color: [tp,gn,rd]
 
 table-usabillity-easyaccess: 
@@ -309,7 +309,7 @@ table-usabillity-easyaccess:
        color: [tp,gn,rd]
      - data: [ Fluid Port Placement ,  ✓ , — ]
        color: [tp,gn,rd]
-      - data: [ Remote Power On,  ✓ , — ]
+     - data: [ Remote Power On,  ✓ , — ]
        color: [tp,gn,rd]
 
 ---
