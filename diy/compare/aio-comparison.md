@@ -310,6 +310,7 @@ table-usabillity-easyaccess:
        color: [tp,gn,rd]
       - data: [ Remote Power On,  ✓ , — ]
        color: [tp,gn,rd]
+
 ---
 
 
