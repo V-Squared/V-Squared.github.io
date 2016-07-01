@@ -1,8 +1,8 @@
 ---
 layout: page
 title: AiO-Comparison
-subtitle: Comparing Workstation All-in-Ones
-abstract: Talk about information here
+subtitle: Comparing current-market workstations from the top retailers
+abstract: All-in-One computers are growing in popularity for both the consumer and professional market. We take a look at the top workstation computer from popular companies Dell, HP, and Apple, and compare them to the ViPC AiO.
 issueNo: 192
 readiness:
    - is-complete
@@ -193,6 +193,86 @@ table-usabillity-open-modular-display:
        color: [tp,gn,rd]
      - data: [ Fix a roken Display , ✓ , — ]
        color: [tp,gn,rd]
+
+table-usabillity-open-modular-formfactor: 
+  style: [twin-head,twin-blue]
+  name: AiO Open Modular FormFactor
+  desc: Fluid Formfactor for seamless switching
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Choice, Vast, Limited ]
+       color: [tp,gn,rd]
+     - data: [ Choosing AiO , ✓ , — ]
+       color: [tp,gn,rd]
+     - data: [ Choosing Mini-PC , ✓ , — ]
+       color: [tp,gn,rd]
+
+table-usability-desktopvsmobile: 
+  style: [twin-head,twin-blue]
+  name: AiO Desktop vs Mobile Parts
+  desc: Better performance, easy upgrades, lower cost
+  head: [Features , Desktop Parts , Mobile Parts]
+  rows: 
+     - data: [Max Performance, Higher, Lower]
+       color: [tp,gn,rd]
+     - data: [ Cost , Lower, Higher]
+       color: [tp,gn,rd]
+     - data: [ User replaceability , ✓ , — ]
+       color: [tp,gn,rd]
+
+table-usabillity-ifixit: 
+  style: [twin-head,twin-blue]
+  name: I Fix It Option
+  desc: Freedom to upgrade parts yourself
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Average repair / upgrade cost, Low, High]
+       color: [tp,gn,rd]
+     - data: [ Any part user replaceable , ✓ , — ]
+       color: [tp,gn,rd]
+     - data: [Average down time , Short , Long ]
+       color: [tp,gn,rd]
+
+table-usabillity-carryon: 
+  style: [twin-head,twin-blue]
+  name: Carry on Complaint
+  desc: Avoid Shipping your PC
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Cost, Nothing, High ]
+       color: [tp,gn,rd]
+     - data: [ Time without workstation , zero , days ]
+       color: [tp,gn,rd]
+     - data: [ Risk of loss or damage , slim , considerable ]
+       color: [tp,gn,rd]
+
+table-usabillity-cleandesk: 
+  style: [twin-head,twin-blue]
+  name: Clean Desk vs Mess
+  desc: More space for other activities
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Need external Power Distrbution,—  , ✓  ]
+       color: [tp,gn,rd]
+     - data: [ Need external USB Hub , — , ✓  ]
+       color: [tp,gn,rd]
+     - data: [ Cable Organizer , ✓ , — ]
+       color: [tp,gn,rd]
+
+table-usabillity-workstation-class: 
+  style: [twin-head,twin-blue]
+  name: Workstation vs Consumer
+  desc: All day usage vs partial usage
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Duty Hours,24 h  , 2 h  ]
+       color: [tp,gn,rd]
+     - data: [ GPU Type , Quadro ,GTX  ]
+       color: [tp,gn,rd]
+     - data: [ Eco Footprint , Low , Big ]
+       color: [tp,gn,rd]
+     - data: [ 100% Load Capable , ✓ , — ]
+       color: [tp,gn,rd]
 ---
 
 
@@ -223,11 +303,11 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 # Spec Comparison Details {#spec-comparison} 
 
-## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
+## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
 
 {% include table id="table-comparison-vipc-hpg3" %}
 
-### Reference {#ref-hp}
+### Reference {#ref-dell}
 
 [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
 
@@ -239,11 +319,12 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 [Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
 
-## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
+
+## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
-### Reference {#ref-dell}
+### Reference {#ref-hp}
 
 [Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
@@ -305,6 +386,12 @@ And because the screen is separate from the components, you can upgrade the scre
 
 One of the biggest downsides to all-in-one computers is the lack of future upgrades. With the slim design, many manufacturers take away the option of upgrading key parts such as the screen or graphics card. While they last for quite some time, you eventually have to get rid of the entire system due to lack to upgradeability. ViPC throws this concept out the window, letting the user upgrade every component down to the power supply to make one computer last as long as you own it. Because ViPC uses standard desktop parts, upgrading is easy and not tied down to any standard; use your PC how you want to. We also fully recommend self-upgrading your machine! This saves time and money for both parties, and we have many guides that walk you through the process of doing so. We can also do the repairs or upgrades for you, but give you the option of choosing.
 
+| Feature | ViPC AiO | Traditional AiO |
+|----------:|:-------:|:--------:|
+| Easy Upgrading | yes {gn} | no {rd} |
+| Replace Screen | yes {gn} | no {rd} |
+| Long Life-span | yes {gn} | no {rd} |
+
 ## Open Modular Configuration {#open-modular-config}
 
     **Art Place Holder***
@@ -314,6 +401,17 @@ One of the biggest downsides to all-in-one computers is the lack of future upgra
 Our configurator lets you choose how you want a computer built, with what parts you want inside. Choose from typical components such as power supply or CPU, while getting even more choices like the color of your ViCase cover or an AiO conversion kit. Many configurations are limited to what you can choose, but we want to give the user as much choice as possible to make the perfect machine. And for those that need guidance, we have pre-configured models that are ready made and tested for you.
 
 ## Open Modular Formfactor {#open-modular-formfactor}
+
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - Front view, ViPC and ViPC AiO next to eachother horizontally
+    - One arrow above pointing towards ViPC, one arrow below pointing towards AiO
+    - Creating loop
+
+Different form factors come with different benefits. Tower PCs are easy to repair and use standard parts, but are large and bulky. All-in-ones mold together the the monitor and components into a single chassis, are suffer in terms of upgradability and performance. Mini-PCs are easy to transport, but often times use mobile parts. Each comes with its own advantages, and different users will want different form factors. ViPC open modular formfactor means we give you control on how you want your computer displayed. Switch from an all-in-one layout to a mini-PC seamlessly, making the best of both worlds a reality. 
+
+
+# Portable{#portable}
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
