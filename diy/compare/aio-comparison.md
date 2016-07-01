@@ -223,7 +223,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 # Spec Comparison Details {#spec-comparison} 
 
-## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
+## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
 
 {% include table id="table-comparison-vipc-hpg3" %}
 
@@ -239,8 +239,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 [Apple iMac 27"](http://www.apple.com/shop/buy-mac/imac?product=MK482LL/A&step=config#)
 
-
-## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
+## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
