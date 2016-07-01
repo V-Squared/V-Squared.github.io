@@ -448,6 +448,8 @@ Our configurator lets you choose how you want a computer built, with what parts 
 Different form factors come with different benefits. Tower PCs are easy to repair and use standard parts, but are large and bulky. All-in-ones mold together the the monitor and components into a single chassis, are suffer in terms of upgradability and performance. Mini-PCs are easy to transport, but often times use mobile parts. Each comes with its own advantages, and different users will want different form factors. ViPC open modular formfactor means we give you control on how you want your computer displayed. Switch from an all-in-one layout to a mini-PC seamlessly, making the best of both worlds a reality. 
 
 
+{% include table id="table-usabillity-open-modular-formfactor" %}
+
 # Portable{#portable}
 
     **Art Place Holder***
@@ -466,14 +468,6 @@ Different form factors come with different benefits. Tower PCs are easy to repai
 In todays world, being mobile is vital for almost every situation. Collaboration has been a growing criteria for businesses and schools, making sharing your work important for all parties. Currently, you have to choose between power or mobility. Traditional desktops / all-in-ones are designed to be kept in a single spot; transporting them is awkward and difficult. Laptops are easy to transport, but leave much in terms of performance. Many people have both a laptop and desktop, but this leads to differences between workflow. 
 
 ViPC AiO is designed to be carried around easily throughout a workplace or home. By incorporating all of the standard peripherals into the case itself, the computer can easily be brought around without causing any headaches. Grips are another point many computers don't include, so we made sure to add grips for pain-free transportation.
-
-
-| Feature | ViPC AiO | Traditional AiO |
-|----------:|:-------:|:--------:|
-| Carry Grip | yes {gn} | no {rd} |
-| Keyboard Bay | yes {gn} | no {rd} |
-| One cable only | yes {gn} | no {rd} |
-
 
 
 ## Desktop Parts {#desktop-parts} 
@@ -496,11 +490,8 @@ Many all-in-ones use mobile variations of components to keep power usage and siz
 ### Modular AiO
 ViPC uses standard desktop parts for all of its components, running at the intentional speed that item was given. Desktop parts are overclock-able, offer more performance-per-value, and are much easier to replace/upgrade. Some desktop parts such as the CPU cooler and graphics cards are larger than their mobile counterparts due to heat, but ViCase manages to fit these components all in a 6-liter housing.
 
-| Feature | Desktop Parts | Mobile Parts |
-|----------:|:-------:|:--------:|
-| Max performance | higher {gn} | lower {rd} |
-| Cost | lower {gn} | higher {rd} |
-| User replaceability | higher {gn} | lower {rd} |
+
+{% include table id="table-usabillity-desktopvsmobile" %}
 
 ## I Fix It Option {#i-fix-it}
 
@@ -524,13 +515,8 @@ Many all-in-one components are fused into the chassis as non-standard parts, suc
 
 Using standard parts around an open computer chassis means your computer can last you as long as you want. Everything in the machine is user replaceable, such as standard ITX motherboards or FLEX ATX power supplies. This also means less waste, and repairing or upgrading the machine can be done yourself with little experience needed. ViPC firmly believes in an open system, so we made sure we incorporated this mindset when it came to the longevity of ViPC.
 
-| Feature | Open Modular | Closed Monolithic |
-|----------:|:-------:|:--------:|
-| Any part user replaceable |  yes {gn} | no {rd} |
-| Average repair / upgrade cost |  low {gn} | high {rd} |
-| Average down time | short {gn} | long {rd} |
 
-
+{% include table id="table-usabillity-ifixit" %}
 
 ## DIY Option {#diy-option}
 
@@ -563,12 +549,8 @@ Shipping a computer is expensive, time consuming, and potentially harmful to the
 ### Open Modular
 There are many reasons you would want to travel with your computer. Students going home for the holidays, spending the week at a convention, or travelling for business are a few. Being without your main computer for such trips can be difficult, so we made ViPC as travel-friendly as possible. ViPC is small enough to fit into carry on luggage, saving you time and money by not having to pack it separately. This also mitigates the need for a laptop for travel, making your life much easier by just needing one computer.
 
-| Feature | Carry ViPC | Shipping Other |
-|----------:|:-------:|:--------:|
-| Cost     | $ 0   {gn}  | $ 100 {rd} |
-| Time without workstation | zero {gn} | days {rd} |
-| Risk of loss or damage | slim {gn} | considerable {rd} |
 
+{% include table id="table-usabillity-carryon" %}
 
 ## Clean Desk {#clean-desk}
 
@@ -595,12 +577,8 @@ Managing your keyboard while not in use is a problem many face. Some people unpl
 
 To battle the famous cable mess issue that computer desks face, we incorporated many common peripherals into the case itself to keep everything in one place. 
 
-| Feature | ViPC | Other |
-|----------:|:-------:|:--------:|
-| Need external Power Distribution | no {gn} | yes {rd} |
-| Need external USB Hub | no {gn} | yes {rd} |
-| Cable Organizer | yes {gn} | no {rd} |
 
+{% include table id="table-usabillity-cleandesk" %}
 
 # Workstation Class {#workstation-class} 
 
@@ -618,13 +596,7 @@ To battle the famous cable mess issue that computer desks face, we incorporated 
 
 Everyone uses their computer differently. Some use it mainly for gaming or 3D modeling, while others use it for programming or video rendering. With this, certain configurations are going to be better for working day and night or just light work every couple of hours. Parts like hard drives or power supplies are rated for use, and are important factors to take into regard. If using a computer for heavy work, you'll want gold + rated power supplies and hard drives that are rated to be used continuously. These will cost more and aren't needed if you don't need the amount of reliability, but are a must buy if you do. ViPC configurations use workstation grade components, rated to keep up with your workload without failing.
 
-| Feature | Workstation | Consumer |
-|----------:|:-------:|:--------:|
-| Duty Hours | 24 h {gn} | 2h {rd} |
-| GPU type | Quadro {gn} |  GTX {rd} |
-| Eco footprint | low {gn} | big {rd} |
-| 100% load capable | yes {gn} | no {rd} |
-
+{% include table id="table-usabillity-workstation-class" %}
 
 # Surge & EMI Protection {#surge-emi-protection}
 
@@ -642,12 +614,7 @@ Everyone uses their computer differently. Some use it mainly for gaming or 3D mo
 
 With every computer,additional safety peripherals are needed to keep everything in check. For workstation computers, sudden electrical surges can be detrimental, causing many delays if your computer isn't properly protected. Up until now, people had to buy separate surge protectors to keep the components safe in case of electrical failure. ViCase has surge protection and an EMI filter built in, meaning your PC will always be protected no matter where you take it. The built-in DC port also keeps your monitor protected and lessens what you have to plug into the wall.
 
-| Feature | ViPC | Other |
-|----------:|:-------:|:--------:|
-| Surge Protection | yes {gn} | no {rd} |
-| EMI Filter | yes {gn} | no {rd} |
-| Power Monitor | yes {gn} | no {rd} |
-
+{% include table id="table-usabillity-safety" %}
 
 ## Easy Clean {#easy-clean} 
 
@@ -664,13 +631,7 @@ With every computer,additional safety peripherals are needed to keep everything 
 
 For computers, dust is their worst nightmare. Dust build-up makes your components run hotter, lessens the life of fans, and covers the shiny exterior of your PC. It can be a hassle to clean PCs, as its an important step to take in keeping your computer running cool and quiet. ViPC not only has high quality dust filters all around the case for great cooling, but the top cover and dust filters are 100% dish washer friendly. A common mistake many people do is use compressed air to blow dust off their computer. While this gets the dust off in the short run, all of that dust doesn't magically disappear; now its floating all over your room. Our filters and cover can be thrown in the sink for true cleansing, keeping the airflow in your PC dust free.
 
-| Feature | ViPC | Other |
-|----------:|:-------:|:--------:|
-| Magnetic Quick Snap | yes {gn} | no {rd} |
-| Washable | yes {gn} | no {rd} |
-| Quiet PC due to regular cleaning | yes {gn} | no {rd} |
-
-
+{% include table id="table-usabillity-clean" %}
 
 ## Easy Access {#easy-access} 
 
@@ -690,13 +651,7 @@ The power button on PCs have always been a pain to use. Most of the time you hav
 
 Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO, we give you the option to orient the direction of your ports however you want; face them up or down, left or right. For easy access, facing them upwards gives you every port you need just by standing up and looking down at your computer. Facing them downwards will hide any cables sticking out in case you value looks over function. And you can change the orientation any time you want. 
 
-| Feature | ViPC AiO | Traditional AiO |
-|----------:|:-------:|:--------:|
-| Quick Snap Top Cover | yes {gn} | no {rd} |
-| Fluid Port Placement | yes {gn} | no {rd} |
-| Remote Power On | yes {gn} | no {rd} |
-
-
+{% include table id="table-usabillity-easyaccess" %}
 
 ## Save Planet {#save-planet} 
 
