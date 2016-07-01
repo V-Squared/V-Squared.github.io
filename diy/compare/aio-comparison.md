@@ -91,7 +91,7 @@ table-comparison-vipc-imac:
     - data: [Over Price,100 %,185%]
       color: [tp,gn,rd]
 
-table-comparison-vipc-hpg3: 
+table-comparison-vipc-dellxps: 
   style: [twin-head,twin-blue]
   name: ViPC 620 vs Dell XPS 27
   desc: Consumer friendly machines
@@ -99,11 +99,11 @@ table-comparison-vipc-hpg3:
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
       color: [tp,gn,gn]
-    - data: [CPU,i5-6400 (Gen 6),i7-4790s (Gen 5)]
+    - data: [CPU,i7-6700 (Gen 6),i7-4790s (Gen 5)]
       color: [tp,gn,yw]
     - data: [Boot Disk,256 GB SSD NVME,64 GB SSD SATA]
       color: [tp,gn,rd]
-    - data: [Data Disks,256 GB SSD SATA,2 TB HDD]
+    - data: [Data Disks,2 TB RAID,2 TB ]
       color: [tp,gn,yw]
     - data: [RAM,16 GB DDR4,16 GB DDR3]
       color: [tp,gn,yw]
@@ -118,7 +118,7 @@ table-comparison-vipc-hpg3:
     - data: [Over Price,100 %,225%]
       color: [tp,gn,rd,]
 
-table-comparison-vipc-dellxps: 
+table-comparison-vipc-hpg3: 
   style: [twin-head,twin-blue]
   name: ViPC 1200 vs HP Z1 G3
   desc: Battle of the GPU Goliath' of Workstations
@@ -201,22 +201,25 @@ table-usabillity-open-modular-display:
 
 ## Spec Comparison {#sum-spec}
 
+Regarding components each computer runs, they remain almost identical, save for a few minor differences. Dell is the only workstation still on the Haswell series, and uses a mobile CPU processor instead of a standard desktop CPU. The rest are all running Intel Skylake, utilizing perks such as DDR4 memory and support for NVME drives.
 
 ## Price Comparison {#sum-price}
+
+In all comparisons, ViPC remains price leader for workstation AiO computers. For price / performance, ViPC offers the same specs as competitors but at a lower price. 
 
 ![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
  
 
 ## Usability Comparison {#sum-usability}
 
-Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
+Technical specs are important, but what makes each computer different? Usability takes many factors into regard, such as portability, modular design, and safety. ViPC matches competitors in components, but offers several advantages in usability and overall design of the computer. This is mostly due to modular design, giving plenty of options for users compared to current locked down alternatives. Not only does ViPC offer the user options, but guides them to recommendations tailored for their needs.  
 
 {% include table id="table-comparison-usability" %}
 <br>
 
 ## Grand Summary {#grand-summary}
 
-
+Workstation all-in-ones are growing in popularity, looking to combine the speed of a workstation computer with the form factor of an all-in-one. With ViPC, we were on a specific mission when designing it; create a open modular system that could be used however the user deemed necessary. Current all-in-ones are limited by a key element: the locked down design impairs the upgradability and options people have with changing it (a key advantage to traditional desktop computing). ViPC combines these two ideas, making not only a case you can choose any components with, but in a sleek, space-saving design.
 
 # Spec Comparison Details {#spec-comparison} 
 
@@ -251,8 +254,7 @@ Technical specs are important, but what makes each computer different? Usability
 
 # Usability Details {#usability-details} 
 
-Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right.
-
+Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right. Small, everyday actions such as having a keyboard dock or choosing how to orient the ports seem like a standard chassis should have, but are often neglected. The following topics are common features that many consumers want in a computer and we'll see how the different models fair.
 
 
 ## Open Modular Displays {#open-modular-displays}
@@ -295,17 +297,13 @@ And because the screen is separate from the components, you can upgrade the scre
 
 ## Open Modular Upgrading {#open-modular-upgrading}
 
+One of the biggest downsides to all-in-one computers is the lack of future upgrades. With the slim design, many manufacturers take away the option of upgrading key parts such as the screen or graphics card. While they last for quite some time, you eventually have to get rid of the entire system due to lack to upgradeability. ViPC throws this concept out the window, letting the user upgrade every component down to the power supply to make one computer last as long as you own it. Because ViPC uses standard desktop parts, upgrading is easy and not tied down to any standard; use your PC how you want to. We also fully recommend self-upgrading your machine! This saves time and money for both parties, and we have many guides that walk you through the process of doing so. We can also do the repairs or upgrades for you, but give you the option of choosing.
 
 ## Open Modular Configuration {#open-modular-config}
 
+Our configurator lets you choose how you want a computer built, with what parts you want inside. Choose from typical components such as power supply or CPU, while getting even more choices like the color of your ViCase cover or an AiO conversion kit. Many configurations are limited to what you can choose, but we want to give the user as much choice as possible to make the perfect machine. And for those that need guidance, we have pre-configured models that are ready made and tested for you.
 
 ## Open Modular Formfactor {#open-modular-formfactor}
-
-
-
-## Portable {#portable}
-
-### Portable vs Chained to Desk
 
     **Art Place Holder***
     - Layout: 3:1, whole width, under paragraph title
@@ -390,6 +388,7 @@ Using standard parts around an open computer chassis means your computer can las
 
 
 ## DIY Option {#diy-option}
+
 
 
 ## Carry On Compliant {#carry-on-compliant}
@@ -551,5 +550,10 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 
 ## Save Planet {#save-planet} 
 
+PCs in todays era are made to be used, then trashed once the newer models are released. Parts are becoming harder to upgrade and whole systems are needed to be replaced instead of a few select components. Once you own a ViCase, every component can be upgraded individually with standard desktop components, helping out the planet by throwing away less parts.
 
 # Reference {#reference}
+
+# Conclusion
+
+ViPC isn't meant to have an outstanding lead in price or performance (although it is the cheapest with identical specs) but excels rather in usability such as portability, a modular system, and integrated safety features. These aren't normally aspects you think about when buying an AiO, but they make day to day life stress-free. ViPC AiO may not have the sleek curves of machines such as the Apple iMac, but when you start ticking down the comparison sheet, you'll see theres more than what meets the eye.
