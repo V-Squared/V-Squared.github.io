@@ -227,7 +227,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 {% include table id="table-comparison-vipc-hpg3" %}
 
-### Reference {#ref-dell}
+### Reference {#ref-hp}
 
 [HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
 
@@ -243,7 +243,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
-### Reference {#ref-hp}
+### Reference {#ref-dell}
 
 [Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
