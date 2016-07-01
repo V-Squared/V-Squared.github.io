@@ -180,6 +180,7 @@ table-comparison-usability:
     - data: [Easy Access,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
     - data: [Save Planet,✓,—,—,—]
+      color: [tp,gn,rd,rd,rd]
 
 table-usabillity-open-modular-display: 
   style: [twin-head,twin-blue]
