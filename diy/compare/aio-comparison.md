@@ -273,6 +273,43 @@ table-usabillity-workstation-class:
        color: [tp,gn,rd]
      - data: [ 100% Load Capable , ✓ , — ]
        color: [tp,gn,rd]
+
+table-usabillity-safety: 
+  style: [twin-head,twin-blue]
+  name: Surge and EMI Protetion
+  desc: Built-in safety features
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Surge Protection, ✓ , —  ]
+       color: [tp,gn,rd]
+     - data: [ EMI Filter ,  ✓ , — ]
+       color: [tp,gn,rd]
+
+table-usabillity-clean: 
+  style: [twin-head,twin-blue]
+  name: Easy Clean
+  desc: Dishwasher safe and easy to clean
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Magnetic Quick Snap, ✓ , —  ]
+       color: [tp,gn,rd]
+     - data: [ Washable ,  ✓ , — ]
+       color: [tp,gn,rd]
+      - data: [ Quiet PC due to regular cleaning,  ✓ , — ]
+       color: [tp,gn,rd]
+
+table-usabillity-easyaccess: 
+  style: [twin-head,twin-blue]
+  name: Easy Access
+  desc: One-step to open PC
+  head: [Features , Open Modular AiO , Closed All-in-One]
+  rows: 
+     - data: [Quick Snap Top Cover, ✓ , —  ]
+       color: [tp,gn,rd]
+     - data: [ Fluid Port Placement ,  ✓ , — ]
+       color: [tp,gn,rd]
+      - data: [ Remote Power On,  ✓ , — ]
+       color: [tp,gn,rd]
 ---
 
 
