@@ -498,9 +498,9 @@ For computers, dust is their worst nightmare. Dust build-up makes your component
 
 For many, once you buy a PC you can operate it without opening it up. Many all-in-ones are designed like this, making self repairs / upgrades nearly impossible for the average user. For ViPC, we wanted to provide easy access for every aspect of the computer, from turning it on to plugging in peripherals. 
 
-The power button on PCs have always been a pain to use. Most of the time you have to reach way back behind the screen or, for tower PCs, underneath the desk. Not everyone is going to have their computer set up the same way, so we decided why not let the user choose where to power on their ViPC? We include a remote power button that can be placed on the desk or taped to a wall for easy access no matter where the PC is situated.
+The power buttons on PCs have always been a pain to use. Most of the time you have to reach far behind the screen or, for tower PCs, underneath the desk. Not everyone is going to have their computer set up the same way, so we decided why not let the user choose where to power on their ViPC? The ViPC includes a remote power button that can be placed on the desk or taped to a wall for easy access no matter where the PC is situated.
 
-Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO, we give you the option to orient the direction of your ports however you want; face them up or down, left or right. For easy access, facing them upwards gives you every port you need just by standing up and looking down at your computer. Facing them downwards will hide any cables sticking out in case you value looks over function. And you can change the orientation any time you want. 
+Similarly to power buttons, getting to your ports can be difficult. The ViPC AiO gives you the option to orient the direction of your ports however you want; face them up or down, left or right. For easy access, facing them upwards gives you every port you need just by standing up and looking down at your computer. Facing them downwards will hide any cables sticking out in case you value looks over function. And you can change the orientation any time you want. 
 
 {% include table id="table-usabillity-easyaccess" %}
 
@@ -523,19 +523,19 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 
 ### Closed Monolithic AiO
 
-Traditional all-in-ones have the display infused with the entire chassis.
+Traditional all-in-ones have the display unalterably integrated with the entire chassis.
 
-**Closed AiO limits your choice of:
+**Closed AiO architecture limits your choice of:
 
 - Screen size
 - LCD type
 - Quality ...
 
-... to what the manufacturer decides on. Some give certain flexibility in the size or screen type, but with hundreds of factors to take into account for monitors, this simply means you are limited in finding the best screen for you. All-in-ones also have no upgrade or repair options to the screen post-purchase, meaning you must buy a whole new machine.
+... to what the manufacturer decides upon. Some give certain flexibility in the size or screen type, but with hundreds of factors to take into account for monitors, this simply means you are limited in finding the best screen for you. All-in-ones also have no upgrade or repair options for the screen post-purchase, meaning you must buy a whole new machine.
 
 ### Open Modular
 
-ViPC AiO lets you choose any monitor you want, including the one you already own. Made possible by utilizing the open modular industry standard of VESA mount. The Display is the single most important interface between you and your computer. This is even more true for practitioners of the visual arts, such as photographers and designer. Resolution, size, density, color accuracy, viewing angle are all factors where the *open modular AiO* gives you full control to optimize features versus your budget.
+ViPC AiO lets you choose any monitor you want, including the one you already own. This is made possible by utilizing the open modular industry standard of VESA mounts. The Display is the single most important interface between you and your computer. This is even more true for practitioners of the visual arts, such as photographers and designers. Resolution, size, density, color accuracy, viewing angle are all factors where the *open modular AiO* gives you full control to optimize features versus your budget.
 
 And because the screen is separate from the components, you can upgrade the screen without changing the rest of the components while still enjoying the benefits of the all-in-one form factor.
 
@@ -554,13 +554,13 @@ And because the screen is separate from the components, you can upgrade the scre
        - components connected by lines
 
 
-One of the biggest downsides to all-in-one computers is the lack of future upgrades. With the slim design, many manufacturers take away the option of upgrading key parts such as the screen or graphics card. While they last for quite some time, you eventually have to get rid of the entire system due to lack to upgradeability. ViPC throws this concept out the window, letting the user upgrade every component down to the power supply to make one computer last as long as you own it. Because ViPC uses standard desktop parts, upgrading is easy and not tied down to any standard; use your PC how you want to. We also fully recommend self-upgrading your machine! This saves time and money for both parties, and we have many guides that walk you through the process of doing so. We can also do the repairs or upgrades for you, but give you the option of choosing.
+One of the biggest downsides to all-in-one computers is the absence of options for future upgrades. With their slim designs, many manufacturers eliminate the option of upgrading key components such as the screen or graphics card. While they last for quite some time, you eventually have to get rid of the entire system due to the lack of upgradeability. ViPC throws this concept out the window, letting the user upgrade every component down to the power supply, significantly extending the useful life of the computer and reducing the total cost of ownership (TCO). Because ViPC uses standard desktop parts, upgrading is easy and not restricted to any standard; use your PC how you want to. We also fully recommend self-upgrading your machine! This saves time and money for both parties, and we provide many guides that walk you through the process of doing so. We can also do the repairs or upgrades for you, but give you the option of choosing.
 
 | Feature | ViPC AiO | Traditional AiO |
 |----------:|:-------:|:--------:|
 | Easy Upgrading | yes {gn} | no {rd} |
 | Replace Screen | yes {gn} | no {rd} |
-| Long Life-span | yes {gn} | no {rd} |
+| Extended Life-span | yes {gn} | no {rd} |
 
 ## Open Modular Configuration {#open-modular-config}
 
@@ -568,7 +568,7 @@ One of the biggest downsides to all-in-one computers is the lack of future upgra
     - Layout: 3:1, whole width, under paragraph title
     - Current configurator image
 
-Our configurator lets you choose how you want a computer built, with what parts you want inside. Choose from typical components such as power supply or CPU, while getting even more choices like the color of your ViCase cover or an AiO conversion kit. Many configurations are limited to what you can choose, but we want to give the user as much choice as possible to make the perfect machine. And for those that need guidance, we have pre-configured models that are ready made and tested for you.
+Our configurator lets you choose how you want a computer built, and what parts you want inside. Choose from typical components such as power supply or CPU, while getting even broader choices such as the color of your ViCase cover or an AiO conversion kit. Many configurations are limited in what you can choose, but we want to give the user as much choice as possible to make the perfect machine. And for those that need guidance, we have pre-configured models that are ready made and tested for you.
 
 ## Open Modular Formfactor {#open-modular-formfactor}
 
@@ -578,7 +578,7 @@ Our configurator lets you choose how you want a computer built, with what parts 
     - One arrow above pointing towards ViPC, one arrow below pointing towards AiO
     - Creating loop
 
-Different form factors come with different benefits. Tower PCs are easy to repair and use standard parts, but are large and bulky. All-in-ones mold together the the monitor and components into a single chassis, are suffer in terms of upgradability and performance. Mini-PCs are easy to transport, but often times use mobile parts. Each comes with its own advantages, and different users will want different form factors. ViPC open modular formfactor means we give you control on how you want your computer displayed. Switch from an all-in-one layout to a mini-PC seamlessly, making the best of both worlds a reality. 
+Different form factors come with different benefits. Tower PCs are easy to repair and use standard parts, but are large and bulky. All-in-ones mold together the monitor and components into a single chassis, but suffer in terms of upgradability and performance. Mini-PCs are easy to transport, but often times use mobile parts. Each comes with its own advantages, and different users will want different form factors. ViPC open modular formfactor means we give you control of how you want your computer configured. Switch from an all-in-one layout to a mini-PC seamlessly, making the best of both worlds a reality. 
 
 
 {% include table id="table-usabillity-open-modular-formfactor" %}
@@ -598,10 +598,10 @@ Different form factors come with different benefits. Tower PCs are easy to repai
       - Stick man riding with frown
 
 ### Closed Monolitic AiO
-Many all-in-ones use mobile variations of components to keep power usage and size small. Mobile parts have less power consumption, lower clock speeds, and smaller coolers, acting as gimped versions of desktop parts. While useful for devices such as laptops, having mobile parts on an all-in-one limits performance and upgradeability.
+Many all-in-ones use mobile variations of components to reduce power usage and size. Mobile parts have less power consumption, lower clock speeds, and smaller coolers, effectively acting as gimped versions of desktop parts. While useful for devices such as laptops, having mobile parts on an all-in-one limits performance and upgradeability.
 
 ### Modular AiO
-ViPC uses standard desktop parts for all of its components, running at the intentional speed that item was given. Desktop parts are overclock-able, offer more performance-per-value, and are much easier to replace/upgrade. Some desktop parts such as the CPU cooler and graphics cards are larger than their mobile counterparts due to heat, but ViCase manages to fit these components all in a 6-liter housing.
+ViPC uses standard desktop parts for all of its components, running at the intentional speed that item was given. Desktop parts are overclock-able, offer more performance-per-value, and are much easier to replace/upgrade. Some desktop components such as the CPU cooler and graphics cards are larger than their mobile counterparts due to heat, but ViCase manages to fit these components all in a 6-liter housing.
 
 
 {% include table id="table-usabillity-desktopvsmobile" %}
@@ -626,7 +626,7 @@ Many all-in-one components are fused into the chassis as non-standard parts, suc
 
 ### Modular AiO
 
-Using standard parts around an open computer chassis means your computer can last you as long as you want. Everything in the machine is user replaceable, such as standard ITX motherboards or FLEX ATX power supplies. This also means less waste, and repairing or upgrading the machine can be done yourself with little experience needed. ViPC firmly believes in an open system, so we made sure we incorporated this mindset when it came to the longevity of ViPC.
+Using standard parts around an open computer chassis means that your computer can last you as long as you want. Everything in the machine is user replaceable, such as standard ITX motherboards or FLEX ATX power supplies. This also means less waste, and repairing or upgrading the machine can be done yourself with little experience needed. ViPC firmly believes in an open system, so we made sure to incorporate this mindset when it came to the longevity of ViPC.
 
 
 {% include table id="table-usabillity-ifixit" %}
@@ -638,7 +638,7 @@ Using standard parts around an open computer chassis means your computer can las
     - single image layout
     - Pheonix changing parts out of ViCase
 
-There are many upsides to going the DIY route, including lower cost, more options, better performance, and the warm feeling of building a computer yourself. While we see the benefits of a pre-made machine, staying DIY still means we can configure your machine for you, while also not locking your computer down in any sort of way.
+There are many upsides to going the DIY route, including lower cost, more options, better performance, and the satisfaction of building a computer yourself. While we see the benefits of a pre-made machine, staying DIY still means we can configure your machine for you, while also not locking your future options down in any manner.
 
 # Workstation Class {#workstation-class} 
 
@@ -654,7 +654,7 @@ There are many upsides to going the DIY route, including lower cost, more option
       - Traditional AiO with only 4 hours of clock  filled in
       - Stick man with frown
 
-Everyone uses their computer differently. Some use it mainly for gaming or 3D modeling, while others use it for programming or video rendering. With this, certain configurations are going to be better for working day and night or just light work every couple of hours. Parts like hard drives or power supplies are rated for use, and are important factors to take into regard. If using a computer for heavy work, you'll want gold + rated power supplies and hard drives that are rated to be used continuously. These will cost more and aren't needed if you don't need the amount of reliability, but are a must buy if you do. ViPC configurations use workstation grade components, rated to keep up with your workload without failing.
+Everyone uses their computer differently. Some use it mainly for gaming or 3D modeling, while others use it for programming or video rendering. With this, certain configurations are going to be better for working day and night or just light work every couple of hours. Parts like hard drives or power supplies are rated for use, and are important factors to consider. If using a computer for heavy work, you'll want gold + rated power supplies and hard drives that are rated to be used continuously. These will cost more and aren't needed if you don't need the level of reliability, but are a must buy if you do. ViPC configurations use workstation grade components, rated to keep up with your workload without failing.
 
 {% include table id="table-usabillity-workstation-class" %}
 
@@ -672,7 +672,7 @@ Everyone uses their computer differently. Some use it mainly for gaming or 3D mo
       - 
       - Stick man with frown
 
-With every computer,additional safety peripherals are needed to keep everything in check. For workstation computers, sudden electrical surges can be detrimental, causing many delays if your computer isn't properly protected. Up until now, people had to buy separate surge protectors to keep the components safe in case of electrical failure. ViCase has surge protection and an EMI filter built in, meaning your PC will always be protected no matter where you take it. The built-in DC port also keeps your monitor protected and lessens what you have to plug into the wall.
+With every computer, additional safety peripherals are needed to keep potential problems in check. For workstation computers, sudden electrical surges can be damaging, causing many delays – or worse – if your computer isn't properly protected. Until now, people had to buy separate surge protectors to keep the components safe in the event of electrical failure. ViCase has surge protection and an EMI filter built in, meaning that your PC will always be protected no matter where you take it. The built-in DC port also keeps your monitor protected and reduces what you have to plug into the wall.
 
 {% include table id="table-usabillity-safety" %}
 
@@ -684,9 +684,9 @@ With every computer,additional safety peripherals are needed to keep everything 
     - Phoenix logo with reclycle triangle around it
 
 
-PCs in todays era are made to be used, then trashed once the newer models are released. Parts are becoming harder to upgrade and whole systems are needed to be replaced instead of a few select components. Once you own a ViCase, every component can be upgraded individually with standard desktop components, helping out the planet by throwing away less parts.
+PCs in today's era are made to be used, then trashed once the newer models are released. Parts are becoming harder to upgrade and entire systems need to be replaced instead of a few select components. Once you own a ViCase, every component can be upgraded individually with standard desktop components, helping out the planet by throwing away less parts.
 # Reference {#reference}
 
 # Conclusion
 
-ViPC isn't meant to have an outstanding lead in price or performance (although it is the cheapest with identical specs) but excels rather in usability such as portability, a modular system, and integrated safety features. These aren't normally aspects you think about when buying an AiO, but they make day to day life stress-free. ViPC AiO may not have the sleek curves of machines such as the Apple iMac, but when you start ticking down the comparison sheet, you'll see theres more than what meets the eye.
+ViPC isn't meant to have an outstanding lead in either price or performance (although it is the least expensive with identical specs) but excels rather in usability features such as portability, an upgradeable, modular system, and integrated safety features. These aren't normally aspects you think about when buying an AiO, but they make day to day life more stress-free. ViPC AiO may not have the sleek curves of machines such as the Apple iMac, but when you start ticking down the comparison sheet, you'll see that there is more than what meets the eye.
