@@ -2,7 +2,7 @@
 layout: page
 title: AiO-Comparison
 subtitle: Comparing current-market workstations from the top retailers
-abstract: All-in-One computers are growing in popularity for both the consumer and professional market. We take a look at the top workstation computer from popular companies Dell, HP, and Apple, and compare them to the ViPC AiO.
+abstract: All-in-One computers are growing in popularity for both the consumer and professional markets. We take a look at the top workstation computer from popular companies Dell, HP, and Apple, and compare them to the ViPC AiO.
 issueNo: 192
 readiness:
    - is-complete
@@ -44,7 +44,7 @@ contents:
       - name: Easy Access
         url: easy-access
   - name: Open Modular
-    url: open-modularity
+    url: open-modular-tab
     subitems:
       - name: Open Modular Displays
         url: open-modular-displays
@@ -344,7 +344,7 @@ In all comparisons, ViPC remains price leader for workstation AiO computers. For
 
 ## Usability Summary {#sum-usability}
 
-Technical specs are important, but what makes each computer different? Usability takes many factors into consideration, such as portability, modular design, and safety. ViPC matches competitors in components, but offers several advantages in usability and overall design of the computer. Not only does ViPC offer the user options, but guides them to recommendations tailored for their needs.  
+Technical specs are important, but what makes each computer different? Usability takes many factors into consideration, such as portability, modular design, and safety. ViPC matches competitors in components, but offers several advantages in usability and overall design of the computer. Not only does ViPC offer the user options, but  it also guides them to recommendations tailored for their needs.  
 
 {% include table id="table-comparison-usability" %}
 <br>
@@ -355,7 +355,7 @@ Many PC manufacturers have been taking features away from users, limiting the op
 
 ## Grand Summary {#grand-summary}
 
-Workstation all-in-ones are growing in popularity, looking to combine the speed of a workstation computer with the form factor of an all-in-one. With ViPC, we were on a specific mission when designing it; create a open modular system that could be used however the user deemed necessary. Current all-in-ones are limited by a key element: the locked down design impairs the upgradability and options people have with changing it (a key advantage to traditional desktop computing). ViPC combines these two ideas, making not only a case you can choose any components with, but in a sleek, space-saving design.
+Workstation all-in-ones are growing in popularity, looking to combine the speed of a workstation computer with the form factor of an all-in-one. With ViPC, we were on a specific mission when designing it; create an open modular system that could be used however the user deemed necessary. Current all-in-ones are limited by a key element: the locked down design restricts the upgradability and options people have with changing it (a key advantage to traditional desktop computing). ViPC combines these two ideas, making not only a case you can choose any components with, but in a sleek, space-saving design.
 
 # Spec Comparison Details {#spec-comparison} 
 
@@ -389,7 +389,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 # Usability Details {#usability-details} 
 
-Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right. Small, everyday actions such as having a keyboard dock or choosing how to orient the ports seem like a standard chassis should have, but are often neglected. The following topics are common features that many consumers want in a computer and we'll see how the different models fair.
+Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right. Small, everyday actions such as having a keyboard dock or choosing how to orient the ports seem like standards a chassis should have, but are often neglected. The following topics are common features that many consumers want in a computer and we'll see how the different models fair.
 
 
 ## Portable {#portable}
@@ -407,9 +407,9 @@ Technical specs are important, but what makes each computer different? Usability
       - Lockdown symbol
       - Stick man with frown
 
-In todays world, being mobile is vital for almost every situation. Collaboration has been a growing criteria for businesses and schools, making sharing your work important for all parties. Currently, you have to choose between power or mobility. Traditional desktops / all-in-ones are designed to be kept in a single spot; transporting them is awkward and difficult. Laptops are easy to transport, but leave much in terms of performance. Many people have both a laptop and desktop, but this leads to differences between workflow. 
+In todays world, being mobile is vital for almost every situation. Collaboration has been a growing criteria for businesses and schools, making sharing your work important for all parties. Currently, you have to choose between power or mobility. Traditional desktops / all-in-ones are designed to be kept in a single spot; transporting them is awkward and difficult. Laptops are easy to transport, but leave much to be desired in terms of performance. Many people have both a laptop and a desktop, but this leads to differences in workflow. 
 
-ViPC AiO is designed to be carried around easily throughout a workplace or home. By incorporating all of the standard peripherals into the case itself, the computer can easily be brought around without causing any headaches. Grips are another point many computers don't include, so we made sure to add grips for pain-free transportation.
+ViPC AiO is designed to be transported easily throughout a workplace or home. By incorporating all of the standard peripherals into the case itself, the computer can easily be relocated without causing any headaches. Grips are another feature many computers don't include, so we made sure to add grips for pain-free transportation.
 
 
 
@@ -430,7 +430,7 @@ ViPC AiO is designed to be carried around easily throughout a workplace or home.
       - Stick man with frown
 
 ### Closed Monolithic
-Shipping a computer is expensive, time consuming, and potentially harmful to the machine. To get away from doing this many people will buy a laptop for travel, but this introduces two problems; a laptop isn't going to have the same performance as a desktop computer and its another machine you have to manage.
+Shipping a computer is expensive, time consuming, and potentially harmful to the machine. To avoid doing this many people buy a laptop for travel, but this introduces two additional problems; a laptop isn't going to have the same performance as a desktop computer and it's another machine you have to manage.
 
 ### Open Modular
 There are many reasons you would want to travel with your computer. Students going home for the holidays, spending the week at a convention, or travelling for business are a few. Being without your main computer for such trips can be difficult, so we made ViPC as travel-friendly as possible. ViPC is small enough to fit into carry on luggage, saving you time and money by not having to pack it separately. This also mitigates the need for a laptop for travel, making your life much easier by just needing one computer.
@@ -456,12 +456,12 @@ There are many reasons you would want to travel with your computer. Students goi
 ### Closed Monolithic AiO
 Keeping your computer desk clean can be a difficult task. From your keyboard or drawing tablet to the stacking pile of soda cans, managing desk space isn't easy. Many all-in-ones do a good job of minimizing space below the desk by taking the traditional desktop tower out of the equation, but you still have to manage all of the peripherals on the desk.
 
-Cable messes have always been a nightmare for computer desks. Look behind a desk and you will likely find piles of cables stuffed behind, all tangled and messy. You need power surge protectors, plugs for a monitor, USB hubs, and more. 
+Cable messes have always been a nightmare for computer desks. Look behind a desk and you will likely find piles of cables, all tangled and messy. You need power surge protectors, plugs for a monitor, USB hubs, and more. 
 
 ###Modular AiO
-Managing your keyboard while not in use is a problem many face. Some people unplug it from their computer or flip it on it's side on a ledge, but everyone shares the common problem; where can I put my keyboard for easy storage? We solved this issue by doing the most logical approach, incorporate a keyboard stand into the AiO chassis for storage and transportation. Now, you can simply place your keyboard underneath the screen to sketch some new designs or work in your textbook. 
+Managing your keyboard while not in use is a problem many face. Some people unplug it from their computer or flip it on its side on a ledge, but everyone shares the common problem; where can I put my keyboard for easy storage? ViPC solves this issue by using the most logical approach: incorporating a keyboard stand into the AiO chassis for storage and transportation. Now, you can simply place your keyboard underneath the screen to sketch new designs or work in your textbook. 
 
-To battle the famous cable mess issue that computer desks face, we incorporated many common peripherals into the case itself to keep everything in one place. 
+To battle the famous cable mess that plagues many computer desks, ViCase incorporates many common peripherals into the case itself to reduce the number of external cables. 
 
 
 {% include table id="table-usabillity-cleandesk" %}
@@ -480,7 +480,7 @@ To battle the famous cable mess issue that computer desks face, we incorporated 
            -red heat arrows radiating off computer
       - Stick man with frown
 
-For computers, dust is their worst nightmare. Dust build-up makes your components run hotter, lessens the life of fans, and covers the shiny exterior of your PC. It can be a hassle to clean PCs, as its an important step to take in keeping your computer running cool and quiet. ViPC not only has high quality dust filters all around the case for great cooling, but the top cover and dust filters are 100% dish washer friendly. A common mistake many people do is use compressed air to blow dust off their computer. While this gets the dust off in the short run, all of that dust doesn't magically disappear; now its floating all over your room. Our filters and cover can be thrown in the sink for true cleansing, keeping the airflow in your PC dust free.
+For computers, dust is their worst nightmare. Dust build-up makes your components run hotter, shortens the life of fans, and covers the shiny exterior of your PC. It can be a hassle to clean PCs, but it's an important step to take in keeping your computer running cool and quiet. ViPC not only has high quality dust filters all around the case for great cooling, but the top cover and dust filters are also 100% dish washer friendly. A common mistake many people make is to use compressed air to blow dust off their computer. While this gets the dust off in the short run, all of that dust doesn't magically disappear; now it is floating all over your room. Our filters and cover can be thrown in the sink for true cleansing, keeping the airflow in your PC dust free.
 
 {% include table id="table-usabillity-clean" %}
 
@@ -496,16 +496,16 @@ For computers, dust is their worst nightmare. Dust build-up makes your component
       - hand reaching to back of AiO, fumbling around plugging in USB
       - Stick man with frown
 
-For many, once you buy a PC you can leave it without opening it up. Many all-in-ones are designed like this, making self repairs / upgrades nearly impossible for the average user. For ViPC, we wanted to give easy access for every aspect of the computer, from turning it on to plugging in peripherals. 
+For many, once you buy a PC you can operate it without opening it up. Many all-in-ones are designed like this, making self repairs / upgrades nearly impossible for the average user. For ViPC, we wanted to provide easy access for every aspect of the computer, from turning it on to plugging in peripherals. 
 
-The power button on PCs have always been a pain to use. Most of the time you have to reach way back behind the screen or for tower PCs, underneath the desk. Not everyone is going to have their computer set up the same way, so we decided why not let the user choose where to power on their ViPC? We include a remote power button that can be placed on the desk or taped to a wall for easy access no matter where the PC is placed.
+The power button on PCs have always been a pain to use. Most of the time you have to reach way back behind the screen or, for tower PCs, underneath the desk. Not everyone is going to have their computer set up the same way, so we decided why not let the user choose where to power on their ViPC? We include a remote power button that can be placed on the desk or taped to a wall for easy access no matter where the PC is situated.
 
 Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO, we give you the option to orient the direction of your ports however you want; face them up or down, left or right. For easy access, facing them upwards gives you every port you need just by standing up and looking down at your computer. Facing them downwards will hide any cables sticking out in case you value looks over function. And you can change the orientation any time you want. 
 
 {% include table id="table-usabillity-easyaccess" %}
 
 
-# Open Modular {open-modularity}
+# Open Modular {open-modular-tab}
 
 ## Open Modular Displays {#open-modular-displays}
 
