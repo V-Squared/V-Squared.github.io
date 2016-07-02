@@ -30,7 +30,7 @@ contents:
       - name: ViPC 1200 vs HP Z1 G3
         url: ViPC1200-HPZ1G3
   - name: Open Modular
-    url: open-modular
+    url: open-modularity
     subitems:
       - name: Open Modular Displays
         url: open-modular-displays
