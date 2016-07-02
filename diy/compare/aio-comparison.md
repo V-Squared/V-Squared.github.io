@@ -28,8 +28,21 @@ contents:
         url: ViPC1200-iMac27
       - name: ViPC 1200 vs HP Z1 G3
         url: ViPC1200-HPZ1G3
+  - name: Usability Details
+    url: usability-details
+    subitems:
+      - name: Portable
+        url: portable
+      - name: Carry On Compliant
+        url: carry-on-compliant
+      - name: Clean Desk
+        url: clean-desk
+      - name: Easy Clean
+        url: easy-clean
+      - name: Easy Access
+        url: easy-access
   - name: Open Modular
-    url: open-modular
+    url: open-modularity
     subitems:
       - name: Open Modular Displays
         url: open-modular-displays
@@ -51,19 +64,6 @@ contents:
         url: surge-emi-protection
       - name: Save Planet
         url: save-planet
-  - name: Usability Details
-    url: usability-details
-    subitems:
-      - name: Portable
-        url: portable
-      - name: Carry On Compliant
-        url: carry-on-compliant
-      - name: Clean Desk
-        url: clean-desk
-      - name: Easy Clean
-        url: easy-clean
-      - name: Easy Access
-        url: easy-access
   - name: Reference
     url: reference
 
