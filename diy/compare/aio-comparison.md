@@ -332,6 +332,9 @@ table-usabillity-easyaccess:
 
 Regarding components each computer runs, they remain almost identical, save for a few minor differences. Dell is the only workstation still on the Haswell series, and uses a mobile CPU processor instead of a standard desktop CPU. The rest are all running Intel Skylake, utilizing perks such as DDR4 memory and support for NVME drives.
 
+![specomparison](https://cloud.githubusercontent.com/assets/16950279/16537617/4acffcc8-3fbc-11e6-9ca3-6ceb635d8d26.png)
+** percentages determined by GPU type, drive speed, and motherboard generation **
+
 ## Price Comparison {#sum-price}
 
 In all comparisons, ViPC remains price leader for workstation AiO computers. For price / performance, ViPC offers the same specs as competitors but at a lower price. 
