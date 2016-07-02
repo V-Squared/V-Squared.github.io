@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: AiO-Comparison
@@ -28,8 +29,8 @@ contents:
         url: ViPC1200-iMac27
       - name: ViPC 1200 vs HP Z1 G3
         url: ViPC1200-HPZ1G3
-  - name: Usability Details
-    url: usability-details
+  - name: Open Modular
+    url: open-modular
     subitems:
       - name: Open Modular Displays
         url: open-modular-displays
@@ -39,28 +40,31 @@ contents:
         url: open-modular-config
       - name: Open Modular Formfactor
         url: open-modular-formfactor
-      - name: Portable
-        url: portable
       - name: Desktop Parts
         url: desktop-parts
       - name: I Fix It Option
         url: i-fix-it
       - name: DIY Option
         url: diy-option
-      - name: Carry On Compliant
-        url: carry-on-compliant
-      - name: Clean Desk
-        url: clean-desk
       - name: Workstation Class
         url: workstation-class
       - name: Surge & EMI Protection
         url: surge-emi-protection
+      - name: Save Planet
+        url: save-planet
+      - name: Usability Details
+    url: usability-details
+    subitems:
+      - name: Portable
+        url: portable
+      - name: Carry On Compliant
+        url: carry-on-compliant
+      - name: Clean Desk
+        url: clean-desk
       - name: Easy Clean
         url: easy-clean
       - name: Easy Access
         url: easy-access
-      - name: Save Planet
-        url: save-planet
   - name: Reference
     url: reference
 
@@ -77,6 +81,8 @@ table-comparison-vipc-imac:
     - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
       color: [tp,gn,gn]
     - data: [Data Disks,256 GB SSD SATA,None]
+      color: [tp,gn,rd]
+    - data: [Disk Data Rate,500 MB, None]
       color: [tp,gn,rd]
     - data: [RAM,32 GB DDR4,32 GB DDR4]
       color: [tp,gn,gn]
@@ -105,10 +111,12 @@ table-comparison-vipc-dellxps:
       color: [tp,gn,rd]
     - data: [Data Disks,2 TB RAID,2 TB ]
       color: [tp,gn,yw]
+    - data: [Disk Data Rate,300 MB,150 MB]
+      color: [tp,gn,rd]
     - data: [RAM,16 GB DDR4,16 GB DDR3]
       color: [tp,gn,yw]
     - data: [GPU,K620,GTX 750m]
-      color: [tp,gn,gn]
+      color: [tp,gn,yw]
     - data: [Memory,2 GB,2 GB]
       color: [tp,gn,gn]
     - data: [Cuda Cores,384,384]
@@ -129,9 +137,11 @@ table-comparison-vipc-hpg3:
     - data: [CPU,i7-6700 (Gen 6),i7-6700 (Gen 6)]
       color: [tp,gn,gn]
     - data: [Boot Disk,512 GB SSD NVME,512 GB SSD SATA]
-      color: [tp,gn,gn]
+      color: [tp,gn,yw]
     - data: [Data Disks,256 GB SSD SATA,256 GB SSD SATA]
-      color: [tp,gn,rd]
+      color: [tp,gn,gn]
+    - data: [Disk Data Rate,500 MB,500 MB]
+      color: [tp,gn,gn]
     - data: [RAM,32 GB DDR4,32 GB DDR4]
       color: [tp,gn,gn]
     - data: [GPU,K1200,M2000M]
@@ -163,22 +173,22 @@ table-comparison-usability:
       color: [tp,gn,rd,rd,rd]
     - data: [Desktop Parts,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [I Fix It Option,✓,—,—,—]
-      color: [tp,gn,rd,rd,rd]
+    - data: [I Fix It Option,✓,—,✓,—]
+      color: [tp,gn,rd,gn,rd]
     - data: [DIY Option,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
     - data: [Carry On Compliant,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
     - data: [Clean Desk,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Workstation Class,✓,—,—,—]
-      color: [tp,gn,rd,rd,rd]
+    - data: [Workstation Class,✓,—,✓,—]
+      color: [tp,gn,rd,gn,rd]
     - data: [Surge & EMI Protection,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
     - data: [Easy Clean,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
-    - data: [Easy Access,✓,—,—,—]
-      color: [tp,gn,rd,rd,rd]
+    - data: [Easy Access,✓,—,✓,—]
+      color: [tp,gn,rd,gn,rd]
     - data: [Save Planet,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
 
@@ -313,7 +323,6 @@ table-usabillity-easyaccess:
        color: [tp,gn,rd]
 
 ---
-
 
 
 # Summary {#summary}
