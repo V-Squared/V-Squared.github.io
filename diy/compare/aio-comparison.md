@@ -42,7 +42,7 @@ contents:
       - name: Easy Access
         url: easy-access
   - name: Open Modular
-    url: open-modularity
+    url: open-modular-tab
     subitems:
       - name: Open Modular Displays
         url: open-modular-displays
@@ -497,7 +497,7 @@ Similarly to power buttons, getting to your ports can be difficult. For ViPC AiO
 {% include table id="table-usabillity-easyaccess" %}
 
 
-# Open Modular {open-modularity}
+# Open Modular {open-modular-tab}
 
 ## Open Modular Displays {#open-modular-displays}
 
