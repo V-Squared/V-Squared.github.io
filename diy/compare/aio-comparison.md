@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: AiO-Comparison
@@ -17,6 +18,8 @@ contents:
         url: sum-price
       - name: Usability Comparison
         url: sum-usability
+      - name: Modular Summary
+        url: modular-summary
       - name: Grand Summary
         url: grand-summary
   - name: Spec Comparison Details
@@ -89,8 +92,8 @@ table-comparison-vipc-imac:
       color: [tp,gn,gn]
     - data: [Memory,4 GB,4 GB]
       color: [tp,gn,gn]
-    - data: [Cuda Cores,512,640]
-      color: [tp,yw,gn]
+    - data: [Cuda Cores,512,2048]
+      color: [tp,rd,gn]
     - data: [Total,1946 USB,3600 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,185%]
@@ -335,14 +338,18 @@ Regarding components each computer runs, they remain almost identical, save for 
 In all comparisons, ViPC remains price leader for workstation AiO computers. For price / performance, ViPC offers the same specs as competitors but at a lower price. 
 
 ![aiopricecomparison](https://cloud.githubusercontent.com/assets/16950279/16481653/35f91d18-3e61-11e6-8f10-a41f8776632a.png)
- 
+ ** Note: Price comparison not final. Pricing will change. Image is here for Art Place Holder purpose at this time. **
 
-## Usability Comparison {#sum-usability}
+## Usability Summary {#sum-usability}
 
-Technical specs are important, but what makes each computer different? Usability takes many factors into regard, such as portability, modular design, and safety. ViPC matches competitors in components, but offers several advantages in usability and overall design of the computer. This is mostly due to modular design, giving plenty of options for users compared to current locked down alternatives. Not only does ViPC offer the user options, but guides them to recommendations tailored for their needs.  
+Technical specs are important, but what makes each computer different? Usability takes many factors into consideration, such as portability, modular design, and safety. ViPC matches competitors in components, but offers several advantages in usability and overall design of the computer. Not only does ViPC offer the user options, but guides them to recommendations tailored for their needs.  
 
 {% include table id="table-comparison-usability" %}
 <br>
+
+## Modular Summary {#sum-modular}
+
+Many PC manufacturers have been taking features away from users, limiting the options they have once their PC is bought. The way a computer can be used is focused down a narrow tunnel, leaving slim choices for upgradability, form factor, and safety features.
 
 ## Grand Summary {#grand-summary}
 
@@ -375,7 +382,6 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 [Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 <br>
-
 
 
 
