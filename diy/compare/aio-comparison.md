@@ -52,7 +52,7 @@ contents:
         url: surge-emi-protection
       - name: Save Planet
         url: save-planet
-      - name: Usability Details
+  - name: Usability Details
     url: usability-details
     subitems:
       - name: Portable
