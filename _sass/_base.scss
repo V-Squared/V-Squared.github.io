@@ -334,6 +334,19 @@ table.twin-head {
   }
 }
 
+table.twin-head-desc {
+  thead th:first-child {
+    width:20%;
+    text-align: right;
+  }
+  tr td:first-child {
+    text-align: right;
+  }
+  tr td:last-child {
+    text-align: left;
+  }
+}
+
 table.row-blue {
   tbody {
     tr { 

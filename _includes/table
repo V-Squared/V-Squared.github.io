@@ -15,11 +15,11 @@
       {% assign colLength = forloop.length %}
       {% if forloop.last and forloop.length == 2 %}
       
-      <td>{{head}}</td>
+      <th>{{head}}</th>
       
       {% else %}
       
-      <td style="text-align:center">{{head}}</td>
+      <th style="text-align:center">{{head}}</th>
       
       {% endif %}
       {% endfor %}
@@ -41,7 +41,7 @@
       
               {% for img in row.img %}
       
-                {% if forloop.index == dataIndex and forloop.index == colorIndex %}
+                {% if forloop.index == dataIndex and forloop.index == colorIndex and img != '' %}
       
                   <td class="{{color}}"><img src="{{img}}"></td>
       
@@ -67,12 +67,24 @@
           {% if row.img %}
       
           {% for img in row.img %}
+          
+              {% if img != '' %}
       
                 {% if forloop.index == dataIndex %}
       
                   <td class="tp"><img src="{{img}}"></td>
       
                 {% endif %}
+      
+               {% else %}
+      
+               {% if forloop.index == dataIndex %}
+      
+                  <td class="tp">{{ data }}</td>
+      
+                {% endif %}
+      
+               {% endif %}
       
               {% endfor %}
       

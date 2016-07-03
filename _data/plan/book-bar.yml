@@ -96,3 +96,5 @@
           url: /flow/mechanical/cad-cam-cnc/
         - menu: How-To Task-Templates
           url: /flow/mechanical/how-to/
+        - menu: Nc Codes
+          url: /flow/mechanical/nc-codes/
