@@ -355,6 +355,11 @@ Many PC manufacturers have been taking features away from users, limiting the op
 
 Workstation all-in-ones are growing in popularity, looking to combine the speed of a workstation computer with the form factor of an all-in-one. With ViPC, we were on a specific mission when designing it; create an open modular system that could be used however the user deemed necessary. Current all-in-ones are limited by a key element: the locked down design restricts the upgradability and options people have with changing it (a key advantage to traditional desktop computing). ViPC combines these two ideas, making not only a case you can choose any components with, but in a sleek, space-saving design.
 
+
+
+
+
+
 # Spec Comparison Details {#spec-comparison} 
 
 ## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
@@ -385,6 +390,8 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 
 
+
+
 # Usability Details {#usability-details} 
 
 Technical specs are important, but what makes each computer different? Usability can make everyday computing headache free if done right. Small, everyday actions such as having a keyboard dock or choosing how to orient the ports seem like standards a chassis should have, but are often neglected. The following topics are common features that many consumers want in a computer and we'll see how the different models fair.
@@ -408,6 +415,7 @@ Technical specs are important, but what makes each computer different? Usability
 In todays world, being mobile is vital for almost every situation. Collaboration has been a growing criteria for businesses and schools, making sharing your work important for all parties. Currently, you have to choose between power or mobility. Traditional desktops / all-in-ones are designed to be kept in a single spot; transporting them is awkward and difficult. Laptops are easy to transport, but leave much to be desired in terms of performance. Many people have both a laptop and a desktop, but this leads to differences in workflow. 
 
 ViPC AiO is designed to be transported easily throughout a workplace or home. By incorporating all of the standard peripherals into the case itself, the computer can easily be relocated without causing any headaches. Grips are another feature many computers don't include, so we made sure to add grips for pain-free transportation.
+
 
 
 
@@ -601,8 +609,7 @@ Many all-in-ones use mobile variations of components to reduce power usage and s
 ### Modular AiO
 ViPC uses standard desktop parts for all of its components, running at the intentional speed that item was given. Desktop parts are overclock-able, offer more performance-per-value, and are much easier to replace/upgrade. Some desktop components such as the CPU cooler and graphics cards are larger than their mobile counterparts due to heat, but ViCase manages to fit these components all in a 6-liter housing.
 
-
-{% include table id="table-usabillity-desktopvsmobile" %}
+{% include table id="table-usability-desktopvsmobile" %}
 
 ## I Fix It Option {#i-fix-it}
 
