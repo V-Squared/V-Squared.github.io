@@ -505,7 +505,7 @@ Similarly to power buttons, getting to your ports can be difficult. The ViPC AiO
 {% include table id="table-usabillity-easyaccess" %}
 
 
-# Open Modular {open-modular-details}
+# Open Modular {#open-modular-details}
 
 ## Open Modular Displays {#open-modular-displays}
 
