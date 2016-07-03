@@ -368,7 +368,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 ### Reference {#ref-dell}
 
-[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
+[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
 
 ## ViPC 1200 vs Apple iMac 27 {#ViPC1200-iMac27}
 
@@ -385,7 +385,8 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 ### Reference {#ref-hp}
 
-[Dell XPS 27](http://www.dell.com/us/p/xps-27-2720-aio/pd)
+[HP Z Workstations](http://www8.hp.com/us/en/workstations/z1-g3.html)
+
 <br>
 
 
