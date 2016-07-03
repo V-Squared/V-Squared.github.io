@@ -364,7 +364,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 ## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
 
-{% include table id="table-comparison-vipc-hpg3" %}
+{% include table id="table-comparison-vipc-dellxps" %}
 
 ### Reference {#ref-dell}
 
@@ -381,7 +381,7 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 ## ViPC 1200 vs HP Z1 G3 {#ViPC1200-HPZ1G3}
 
-{% include table id="table-comparison-vipc-dellxps" %}
+{% include table id="table-comparison-vipc-hpg3" %}
 
 ### Reference {#ref-hp}
 
