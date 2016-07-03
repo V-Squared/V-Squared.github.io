@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Nc Codes
-subtitle: Lorem
-abstract: Lorem Ipsum Dolar sit at met
-issueNo: 99999
+title: NC Codes
+subtitle: Reference of G-Codes and M-Codes used in V²Flow.CAM
+abstract: List of G and M Codes that we use in NC files. Basic reference information and links to more detailed articles. By limiting the number of codes is an attempt to reduce effort in testing.
+issueNo: 203
 readiness:
    - is-active
 table: 
