@@ -18,7 +18,7 @@ contents:
       - name: Usability Comparison
         url: sum-usability
       - name: Modular Summary
-        url: modular-summary
+        url: sum-modular
       - name: Grand Summary
         url: grand-summary
   - name: Spec Comparison Details
@@ -66,8 +66,6 @@ contents:
         url: surge-emi-protection
       - name: Save Planet
         url: save-planet
-  - name: Reference
-    url: reference
 
 table-comparison-vipc-imac: 
   style: [twin-head,twin-blue]
