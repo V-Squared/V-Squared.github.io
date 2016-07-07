@@ -24,8 +24,8 @@ contents:
   - name: Spec Comparison Details
     url: spec-comparison
     subitems: 
-      - name: ViPC 620 vs Dell XPS 27
-        url: ViPC620-DellXPS27
+      - name: ViPC 620 vs Dell 7440 24"
+        url: ViPC620-Dell7440
       - name: ViPC 1200 vs Apple iMac 27
         url: ViPC1200-iMac27
       - name: ViPC 1200 vs HP Z1 G3
@@ -79,6 +79,8 @@ table-comparison-vipc-imac:
       color: [tp,gn,gn]
     - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
       color: [tp,gn,gn]
+    - data: [Boot Disk Rate,2500 MB,2500 MB]
+      color: [tp,gn,gn]
     - data: [Data Disks,256 GB SSD SATA,None]
       color: [tp,gn,rd]
     - data: [Disk Data Rate,500 MB, None]
@@ -98,29 +100,31 @@ table-comparison-vipc-imac:
 
 table-comparison-vipc-dellxps: 
   style: [twin-head,twin-blue]
-  name: ViPC 620 vs Dell XPS 27
+  name: ViPC 620 vs Dell 7440 24"
   desc: Consumer friendly machines
-  head: [Features,ViPC 1200,Dell XPS 27]
+  head: [Features,ViPC 1200,Dell 7440]
   rows: 
     - data: [OS,Win 10 Pro,Win 10 Pro]
       color: [tp,gn,gn]
-    - data: [CPU,i7-6700 (Gen 6),i7-4790s (Gen 5)]
+    - data: [CPU,i7-6700 (Gen 6),i5-6600 (Gen 6)]
       color: [tp,gn,yw]
-    - data: [Boot Disk,256 GB SSD NVME,64 GB SSD SATA]
+    - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
       color: [tp,gn,rd]
+     - data: [Boot Disk Rate,2500 MB,2500 MB]
+      color: [tp,gn,gn]
     - data: [Data Disks,2 TB RAID,2 TB ]
       color: [tp,gn,yw]
-    - data: [Disk Data Rate,300 MB,150 MB]
+    - data: [Disk Data Rate,300 MB,100 MB]
       color: [tp,gn,rd]
-    - data: [RAM,16 GB DDR4,16 GB DDR3]
+    - data: [RAM,32 GB DDR4,32 GB DDR3]
       color: [tp,gn,yw]
-    - data: [GPU,K620,GTX 750m]
+    - data: [GPU,K620,AMD A370]
       color: [tp,gn,yw]
     - data: [Memory,2 GB,2 GB]
       color: [tp,gn,gn]
-    - data: [Cuda Cores,384,384]
+    - data: [Cuda Cores,384,1024]
       color: [tp,gn,gn]
-    - data: [Total,1200 USB,2700 USD]
+    - data: [Total,1200 USB,2373 USD]
       color: [tp,gn,rd]
     - data: [Over Price,100 %,225%]
       color: [tp,gn,rd,]
@@ -137,6 +141,8 @@ table-comparison-vipc-hpg3:
       color: [tp,gn,gn]
     - data: [Boot Disk,512 GB SSD NVME,512 GB SSD SATA]
       color: [tp,gn,yw]
+    - data: [Boot Disk Rate,2500 MB,500 MB]
+      color: [tp,gn,gn]
     - data: [Data Disks,256 GB SSD SATA,256 GB SSD SATA]
       color: [tp,gn,gn]
     - data: [Disk Data Rate,500 MB,500 MB]
@@ -158,7 +164,7 @@ table-comparison-usability:
   style: [twin-head,twin-blue]
   name: AiO Usability Comparison
   desc: How the computers compare when looking at ease of use
-  head: [Features,ViPC,Apple iMac 27,HP Z1 G3,Dell XPS 27]
+  head: [Features,ViPC,Apple iMac 27,HP Z1 G3,Dell 7440 24"]
   rows: 
     - data: [Open Modular Displays,✓,—,—,—]
       color: [tp,gn,rd,rd,rd]
@@ -323,6 +329,18 @@ table-usabillity-easyaccess:
 
 ---
 
+# Breaking New Ground {#intro}
+
+
+    **Art Place Holder***
+    - Layout: 3:1, whole width, under paragraph title
+    - single image
+    - Slightly slanted view of ViCase and ViPC AiO next to eachother
+
+
+All-in-One computers are the next step in traditional desktop computing, combining all of the necessary computer components into a single, sleek design. But this has come at a cost; the majority of all-in-ones are limited by inferior hardware and poor options for upgrading or repairing, taking away some of the most beneficial parts of a desktop computer. ViPC is a standard aimed to break this barrier by combining aspects of an all-in-one with those of a desktop. 
+
+This Article looks at current market all-in-one computers aimed for certain professions: designers, photographers, and programmers, comparing several models from known companies and evaluating each on price, performance, and usability. 
 
 # Summary {#summary}
 
@@ -357,12 +375,9 @@ Workstation all-in-ones are growing in popularity, looking to combine the speed 
 
 
 
-
-
-
 # Spec Comparison Details {#spec-comparison} 
 
-## ViPC 620 vs Dell XPS 27 {#ViPC620-DellXPS27}
+## ViPC 620 vs Dell 7440 24" {#ViPC620-Dell7440}
 
 {% include table id="table-comparison-vipc-dellxps" %}
 
