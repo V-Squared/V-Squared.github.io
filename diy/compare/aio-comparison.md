@@ -110,7 +110,7 @@ table-comparison-vipc-dellxps:
       color: [tp,gn,yw]
     - data: [Boot Disk,512 GB SSD NVME,512 GB SSD NVME]
       color: [tp,gn,rd]
-     - data: [Boot Disk Rate,2500 MB,2500 MB]
+    - data: [Boot Disk Rate,2500 MB,2500 MB]
       color: [tp,gn,gn]
     - data: [Data Disks,2 TB RAID,2 TB ]
       color: [tp,gn,yw]
@@ -329,7 +329,7 @@ table-usabillity-easyaccess:
 
 ---
 
-# Breaking New Ground {#intro}
+# Breaking New Ground
 
 
     **Art Place Holder***
