@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AiO-Comparison
-subtitle: Comparing current-market workstations from the top retailers
-abstract: All-in-One computers are growing in popularity for both the consumer and professional markets. We take a look at the top workstation computer from popular companies Dell, HP, and Apple, and compare them to the ViPC AiO.
+title: All-In-One Workstation Comparison
+subtitle: Comparing current-market All-In-One workstations from the top retailers
+abstract: > All-in-One computers are growing in popularity for both the consumer and professional markets. We take a look at the top AiO workstation computer from popular companies Dell, HP, and Apple, and compare them to the ViPC AiO.
 issueNo: 192
 readiness:
    - is-complete
