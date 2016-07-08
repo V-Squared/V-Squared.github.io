@@ -1,9 +1,9 @@
 ---
 layout: page
-title: White Paper Open Modular vs Monolithic Closed
-subtitle: The benefits of the Open Modular PC architecture of V²PC
+title: Benefits of V² Open Modular PC architecture
+subtitle: White Paper comparing V² Open Modular PC vs Traditional PC Form Factors
 abstract: >
-   Traditionally Mini PC and ALl-In-One PC have been proprietery designs. Motherboard and Case have been of one monolithic design. This article discuss the benefits of of an Open Modular architecture and compares it to the traditional Monolithic Closed one.
+   This white paper compares the four form factors: Modular PC, All-In-One, Desktop and Mini PC
 issueNo: 208
 contents:
   - name: Breaking New Ground
