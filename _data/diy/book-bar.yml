@@ -10,8 +10,10 @@
       url: /compare/aio-comparison/
     - menu: Mac Mini Comparison
       url: /compare/mac-mini-comparison/
-    - menu: White Paper
-      url: /compare/white-paper/
+    - menu: Paper on Missing Formfactor 
+      url: /compare/missing-formfactor/
+    - menu: Paper on Missing Standard 
+      url: /compare/missing-standard/
     - menu: ViCase Generations
       url: /compare/vicase-generations/
 - menu: Parts
