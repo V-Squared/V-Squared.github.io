@@ -45,7 +45,7 @@ readiness:
 * Fluid Port
 
 
-# Contribution Workflow
+# Standardized Contribution Workflow
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
