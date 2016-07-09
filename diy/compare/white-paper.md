@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Benefits of V² Open Modular PC architecture
-subtitle: White Paper comparing V² Open Modular PC vs Traditional PC Form Factors
+title: The Missing Formfactor
+subtitle: White Paper comparing V² Modular PC vs current PC Form Factors
 abstract: >
-   This white paper compares the four form factors: Modular PC, All-In-One, Desktop and Mini PC
+   This white paper compares the four form factors: V² Modular PC, All-In-One, Desktop and Mini PC
 issueNo: 208
 contents:
   - name: Breaking New Ground
