@@ -3,7 +3,7 @@ layout: page
 visualURL: https://cloud.githubusercontent.com/assets/7278716/16330471/06aeec16-3a1c-11e6-93f4-9fe13d719095.jpg
 title: ViCase Generations
 subtitle: Comparison of ViCase Generations.
-abstract: After 2 years of development for the first generation, another year for the second generation ViCase is now very mature and feature reach. This comparison gives an overview of all key features and their introduction.
+abstract: This white paper provides an indepth comparison on ViCase Generations. In the end it starts a wishlist and discussion on new features for future ViCase generations.
 issueNo: 159
 readiness:
    - is-complete
