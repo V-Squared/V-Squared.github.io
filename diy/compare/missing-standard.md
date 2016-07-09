@@ -34,3 +34,4 @@ readiness:
 |    Illumination |       ✓       |    —    |       —       |        —       |
 |     Custom Logo |       ✓       |    —    |       —       |        —       |
 |    Contribution |       ✓       |    —    |       —       |        —       |
+
