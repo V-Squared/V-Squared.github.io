@@ -34,18 +34,15 @@ readiness:
 |          Cables |       ✓       |    —    |       —       |        ✓       |
 
 
-# Fluid Form Factor Standards
+# Modular All-In-One Standards
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
-
-|       Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
-|----------------:|:-------------:|:-------:|:-------------:|:--------------:|
-| Remote Power On |       ✓       |    —    |       —       |        —       |
-|      Remote USB |       ✓       |    —    |       —       |        —       |
-|       Case Feet |       ✓       |    —    |       —       |        —       |
-|      Case Stand |       ✓       |    —    |       —       |        —       |
-|       Case Hang |       ✓       |    —    |       —       |        —       |
-
+* Remote Power On
+* Remote USB
+* Case Feet
+* Case Stand
+* Case Hang
+* Fluid Form Factor
+* Fluid Port
 
 
 # Contribution Standards
