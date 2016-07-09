@@ -45,16 +45,16 @@ readiness:
 * Fluid Port
 
 
-# Contribution Standards
+# Contribution Workflow
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|          Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
-|-------------------:|:-------------:|:-------:|:-------------:|:--------------:|
-|       Contribution |       ✓       |    —    |       —       |        —       |
-|           Workflow |       ✓       |    —    |       —       |        —       |
-|            Release |       ✓       |    —    |       —       |        —       |
-| Version Management |       ✓       |    —    |       —       |        —       |
-| Quality Management |       ✓       |    —    |       —       |        —       |
+|          Workflows | Description |
+|-------------------:|:-------------:|
+| Reporting Bugs / Ideas |       ✓       |
+|  Standard Creation Workflow |       ✓       |
+|            Release |       ✓       |
+| Version Management |       ✓       |
+| Quality Management |       ✓       |
 
 
