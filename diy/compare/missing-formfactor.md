@@ -3,7 +3,7 @@ layout: page
 title: The Missing Formfactor
 subtitle: Benefits of new V² Modular PC Formfator and comparison to current ones
 abstract: >
-   This white paper compares the new form factors V² Modular PC and compares it to the current All-In-One, Desktop and Mini PC formfactors. In the comparison the reason of being for the new formfactor becomes obvious as it fills a gap not covered by the current Formfactors. 
+   This white paper compares the new *formfactor* V² Modular PC to the current All-In-One, Desktop and Mini PC formfactors. In the comparison the reason of being for the new formfactor becomes obvious as it fills a gap not covered by the current formfactors. 
 issueNo: 208
 contents:
   - name: Breaking New Ground
