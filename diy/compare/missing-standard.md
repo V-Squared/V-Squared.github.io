@@ -30,6 +30,8 @@ readiness:
 |    Illumination |       ✓       |    —    |       —       |        —       |
 |     Custom Logo |       ✓       |    —    |       —       |        —       |
 |   Configuration |       ✓       |    —    |       —       |        —       |
+|Cable Management |       ✓       |    —    |       —       |        —       |
+|          Cables |       ✓       |    —    |       —       |        ✓       |
 
 
 # Fluid Form Factor Standards
