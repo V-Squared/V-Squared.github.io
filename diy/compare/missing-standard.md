@@ -9,3 +9,27 @@ readiness:
    - is-active
 ---
 
+
+
+|       Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
+|----------------:|:-------------:|:-------:|:-------------:|:--------------:|
+|            Case |       ✓       |    —    |       —       |        ✓       |
+|     Motherboard |       ✓       |    —    |       —       |        ✓       |
+|    Power Supply |       ✓       |    —    |       —       |        ✓       |
+|       Disk Bays |       ✓       |    ✓    |       ✓       |        ✓       |
+|  Memory Modules |       ✓       |    ✓    |       ✓       |        ✓       |
+|      CPU Socket |       ✓       |    —    |       —       |        ✓       |
+|     CPU Cooling |       ✓       |    —    |       —       |        ✓       |
+|   GPU Expansion |       ✓       |    —    |       —       |        ✓       |
+| Remote Power On |       ✓       |    —    |       —       |        —       |
+|      Remote USB |       ✓       |    —    |       —       |        —       |
+|       Case Feet |       ✓       |    —    |       —       |        —       |
+|      Case Stand |       ✓       |    —    |       —       |        —       |
+|       Case Hang |       ✓       |    —    |       —       |        —       |
+|         Airflow |       ✓       |    —    |       —       |        —       |
+|          Filter |       ✓       |    —    |       —       |        —       |
+|        IO Panel |       ✓       |    —    |       —       |        —       |
+|  Health Monitor |       ✓       |    —    |       —       |        —       |
+|    Illumination |       ✓       |    —    |       —       |        —       |
+|     Custom Logo |       ✓       |    —    |       —       |        —       |
+|    Contribution |       ✓       |    —    |       —       |        —       |
