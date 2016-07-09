@@ -9,6 +9,7 @@ readiness:
    - is-active
 ---
 
+# Core Standards
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -22,16 +23,38 @@ readiness:
 |      CPU Socket |       ✓       |    —    |       —       |        ✓       |
 |     CPU Cooling |       ✓       |    —    |       —       |        ✓       |
 |   GPU Expansion |       ✓       |    —    |       —       |        ✓       |
+|         Airflow |       ✓       |    —    |       —       |        —       |
+|          Filter |       ✓       |    —    |       —       |        —       |
+|        IO Panel |       ✓       |    —    |       —       |        ✓       |
+|  Health Monitor |       ✓       |    —    |       —       |        —       |
+|    Illumination |       ✓       |    —    |       —       |        —       |
+|     Custom Logo |       ✓       |    —    |       —       |        —       |
+|   Configuration |       ✓       |    —    |       —       |        —       |
+
+
+# Fluid Form Factor Standards
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+|       Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
+|----------------:|:-------------:|:-------:|:-------------:|:--------------:|
 | Remote Power On |       ✓       |    —    |       —       |        —       |
 |      Remote USB |       ✓       |    —    |       —       |        —       |
 |       Case Feet |       ✓       |    —    |       —       |        —       |
 |      Case Stand |       ✓       |    —    |       —       |        —       |
 |       Case Hang |       ✓       |    —    |       —       |        —       |
-|         Airflow |       ✓       |    —    |       —       |        —       |
-|          Filter |       ✓       |    —    |       —       |        —       |
-|        IO Panel |       ✓       |    —    |       —       |        —       |
-|  Health Monitor |       ✓       |    —    |       —       |        —       |
-|    Illumination |       ✓       |    —    |       —       |        —       |
-|     Custom Logo |       ✓       |    —    |       —       |        —       |
-|    Contribution |       ✓       |    —    |       —       |        —       |
+
+
+
+# Contribution Standards
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
+|          Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
+|-------------------:|:-------------:|:-------:|:-------------:|:--------------:|
+|       Contribution |       ✓       |    —    |       —       |        —       |
+|            Release |       ✓       |    —    |       —       |        —       |
+| Version Management |       ✓       |    —    |       —       |        —       |
+| Quality Management |       ✓       |    —    |       —       |        —       |
+
 
