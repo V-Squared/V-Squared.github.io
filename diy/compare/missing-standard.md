@@ -10,6 +10,7 @@ readiness:
 ---
 
 
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
 |       Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
 |----------------:|:-------------:|:-------:|:-------------:|:--------------:|
