@@ -53,6 +53,7 @@ readiness:
 |          Standards | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
 |-------------------:|:-------------:|:-------:|:-------------:|:--------------:|
 |       Contribution |       ✓       |    —    |       —       |        —       |
+|           Workflow |       ✓       |    —    |       —       |        —       |
 |            Release |       ✓       |    —    |       —       |        —       |
 | Version Management |       ✓       |    —    |       —       |        —       |
 | Quality Management |       ✓       |    —    |       —       |        —       |
