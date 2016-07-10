@@ -1,0 +1,11 @@
+.collapse {
+  display:none;
+}
+.collapsing {
+  transition: all 0.25s ease;
+  position:relative;
+  overflow:hidden;
+}
+.collapse.in {
+  display: block;
+}

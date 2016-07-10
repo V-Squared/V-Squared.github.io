@@ -73,7 +73,10 @@
   url: /flow/
   desc: >
     Workflows on contributing to V² in ready to use quality.
-  subitems:
+  subitem:
+    - menu: WHAT
+      url: /flow/what/
+  groups:
     - menu: Writing Articles
       url: /flow/writing/
       group: 

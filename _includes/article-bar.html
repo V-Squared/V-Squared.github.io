@@ -1,7 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 
 {% for my_page in include.nav %}
-{% if my_page.subitems and navurl contains my_page.url %}
+{% if navurl contains my_page.url %}
+{% if my_page.subitem or my_page.groups %}
 
 <collapse-bar id="article-col" class="article-col">
 
@@ -18,46 +19,65 @@
         <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
       </li>
 
-      {% if navurl == my_page.url and page.contents %}
-
-      <ul class="uk-nav">
-        {% for content in page.contents %}
-        <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
-        {% endfor %}
-      </ul>
-
-      {% endif %}
-
       {% for subitem in my_page.subitems %}
 
       {% capture subitemUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
-      <li class="{% if navurl == subitemUrl %}uk-active{% endif %} {% if subitem.group %}article-group{% endif %}">
-        <a {% if subitem.group %}{%else%}href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}>{{ subitem.menu }}</a>
-
-        {% if subitem.group %}
-        <ul>
-          <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
-            <a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">Index {{subitem.menu}}</a>
-          </li>
-          {% for group in subitem.group %}
-          
-          {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
-
-          <li class="{% if navurl == groupUrl %}uk-active{% endif %}">
-            <a href="{{groupUrl}}">{{group.menu}}</a>
-          </li>
-
-          {% endfor %}
-        </ul>
-        
-        {% endif %}
+      <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
+        <a href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}">{{ subitem.menu }}</a>
       </li>
 
       {% endfor %}
+
+      {% if my_page.groups %}
+
+      <uib-accordion template-url="accordian.html">
+
+      {% for groups in my_page.groups %}
+        <uib-accordion-group {% if navurl contains groups.url %}is-opened{% endif %} template-url="accordian-group.html" heading="{{groups.menu}}">
+
+          {% capture indexUrl %}/{{include.board}}{{groups.url}}{% endcapture %}
+          <li {% if navurl == indexUrl %}class="uk-active"{% endif %}>
+            <a href="{{site.baseurl}}{{indexUrl}}">
+            Index {{groups.menu}}
+            </a>
+          </li>
+          {% for group in groups.group %}
+
+            {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
+            <li {% if navurl == groupUrl %}class="uk-active"{% endif %}>
+              <a href="{{site.baseurl}}{{groupUrl }}">{{group.menu}}</a>
+            </li>
+          {% endfor %}
+        </uib-accordion-group>
+      {% endfor %}
+
+      </uib-accordion>
+
+      <script type="text/ng-template" id="accordian.html">
+        <div class="" ng-transclude></div>
+      </script>
+
+      <script type="text/ng-template" id="accordian-group.html">
+        <li class="article-group-header">
+          <div ng-click="toggleOpen()" uib-accordion-transclude="heading"
+             layout="row" layout-align="space-between none">
+            <a uib-accordion-header>[[heading]]</a> <md-icon ng-if="!isOpen" md-svg-src="{{site.baseurl}}/icons/ic_expand_more_black_24px.svg"></md-icon>
+            <md-icon ng-if="isOpen" md-svg-src="{{site.baseurl}}/icons/ic_expand_less_black_24px.svg"></md-icon>
+          </div>
+
+          <ul uib-collapse="!isOpen" ng-transclude>
+
+          </ul>
+        </li>
+      </script>
+
+      {% endif %}
+
     </ul>
   </div>
 </collapse-bar>
 
+{% endif %}
 {% endif %}
 {% endfor %}

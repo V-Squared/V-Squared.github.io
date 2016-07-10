@@ -235,7 +235,7 @@
   }
 
 
-  > li:not(.article-group) , ul > li {
+  > li:not(.article-group-header) , ul > li {
     position: relative;
 
     a {
@@ -253,19 +253,47 @@
     }
   }
 
-  .article-group {
+  .article-group-header {
 
-    > a {
+    > div {
       padding-top: 15px;
       font-size: 14px;
-      cursor: default;
+      cursor: pointer;
       color: #A5A5A5;
       border-bottom: 1px solid #D4D4D4;
+      padding: 5px 15px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+
+      &:focus {
+
+      }
+
+      > a {
+        color:#A5A5A5;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
 
     &:hover > a {
       background: transparent !important;
     }
+
+    md-icon {
+      margin:0;
+      > svg > path:first-child {
+        fill: #A5A5A5;
+      }
+    }
+  }
+  
+  uib-accordion {
+    
   }
 }
 

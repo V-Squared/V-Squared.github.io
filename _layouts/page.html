@@ -53,11 +53,13 @@ layout: default
         <div layout="row" layout-align="space-between none" no-gap class="status-bar">
           <div>
             {% for my_page in bookbar %}
-{% if my_page.subitems and navurl contains my_page.url %}
+            {% if navurl contains my_page.url %}
+{% if my_page.subitems or my_page.groups %}
             <md-button toggle-collapse-bar="article-col" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
               <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
               <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
+            {% endif %}
             {% endif %}
             {% endfor %}
           </div>
@@ -266,6 +268,8 @@ layout: default
         </md-content>
 
       </div>
+    </div>
+
     </div>
 
     {% include contents-bar.html %}

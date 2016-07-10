@@ -10,7 +10,7 @@ angular.module('site')
     },
     controller: function($scope,$timeout) {
       var foldBar = this;
-      
+
       collapseService.init(foldBar.id);
       
       var localStorageCollapse = "collapseBar_" + foldBar.id;
