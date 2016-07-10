@@ -28,7 +28,7 @@
   url: /agile/
   desc: >
     Generic Agile Development and Toyota Production System for Github Organizations.
-  subitems:
+  groups:
     - menu: Getting Started
       url: /agile/getting-started/
       group: 
@@ -73,9 +73,6 @@
   url: /flow/
   desc: >
     Workflows on contributing to V² in ready to use quality.
-  subitem:
-    - menu: WHAT
-      url: /flow/what/
   groups:
     - menu: Writing Articles
       url: /flow/writing/
