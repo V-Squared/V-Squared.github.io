@@ -88,7 +88,7 @@ The solution is obvious: Develop, publish and market the missing standards. This
 
 ### Problem 2: ATX has no Active Development
 
-The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
+The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening, at the very least a visitor would not know how and where to contribute to. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
 
 
 ### Solution 2: V² Community Development Platform
