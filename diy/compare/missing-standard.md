@@ -35,6 +35,11 @@ contents:
         url: standardized-workflow
   - name: Plan
     url: plan-v-squared
+    subitems:
+      - name: Where we are today
+        url: where-we-are-today
+      - name: Detailed Plan
+        url: detailed-plan
 readiness:
    - is-complete
    - is-active
@@ -162,18 +167,25 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 |          Workflows | Description |
 |-------------------:|:-------------:|
-| Reporting Bugs / Ideas |       ✓       |
-|  Standard Creation Workflow |       ✓       |
-|            Release |       ✓       |
-| Version Management |       ✓       |
-| Quality Management |       ✓       |
+| Reporting Bugs / Ideas | |
+|  Standard Creation Workflow | |
+|            Release | |
+| Version Management |  |
+| Quality Management |  |
 
 
 # Plan on How to make it Happen {#plan-v-squared}
 
+## Where we are today {#where-we-are-today}
+
 Developing, publishing and making a standard mainstream is no small feat. When looking at the history of other successful standards such as USB or PCI you will find that they all took over 10 years. We started in 2011 and are about half way through. Development of the core standards has been completed. 2016 sees the first shipping products based on the new V²Standard. All core standards will be completed publishing by middle of 2017.
 
-If you are interested in more details on how we are going to make it happen → [V² Plan](https://v-squared.github.io/plan/).
+
+## Detailed Plan {#detailed-plan}
+
+Development of V² is a coordinated community effort. Development happens on GitHub. Our Mission, Targets, Road Map and Milestones as well as our Contribution Workflow is spelled out in → [V² Plan](https://v-squared.github.io/plan/).
+
+
 
 
 
