@@ -24,6 +24,13 @@ contents:
           url: supporting-pc-standards
         - name: Modular All-In-One
           url: all-in-one-standards
+   - name: Mission V² Standards
+     url: mission-v-squared
+     subitems:
+        - name: Making V² Mainstream
+          url: making-modular-pc-mainstream
+        - name: Analogy to ATX Standard
+          url: analogy-to-atx
    - name: Community Development
      url: community-development
      subitems:
@@ -35,13 +42,6 @@ contents:
           url: standardized-workflow
         - name: Contribution Standards
           url: contribution-standards
-   - name: Mission V² Standards
-     url: mission-v-squared
-     subitems:
-        - name: Making V² Mainstream
-          url: making-modular-pc-mainstream
-        - name: Analogy to ATX Standard
-          url: analogy-to-atx
    - name: Plan
      url: plan-v-squared
      subitems:
@@ -82,7 +82,7 @@ The table → [PC Core Standards](https://v-squared.github.io/diy/compare/missin
 
 ### Solution 1: Providing Missing Standards
 
-The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](https://v-squared.github.io/diy/compare/missing-standard/#mission-v-squared).
+The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](https://v-squared.github.io/diy/compare/missing-standard/#mission-v-squared) further down of this document.
 
 ## Active Development {#active-development}
 
@@ -93,7 +93,7 @@ The set of ATX standards was developed by Intel and then published in 1995. It r
 
 ### Solution 2: V² Community Development Platform
 
-V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](https://v-squared.github.io/diy/compare/missing-standard/#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. 
+V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](https://v-squared.github.io/diy/compare/missing-standard/#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. How we do this exactly is described in more details → [V² Community Development Platform](community-development) further down in this white paper.
 
 
 
@@ -169,6 +169,24 @@ Set of standards that expand the Modular PC Standard to build modular All-In-One
 
 
 
+
+
+# Mission of V² Modular PC Standards {#mission-v-squared}
+
+## Making Missing PC Standards Mainstream {#making-modular-pc-mainstream}
+
+Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, reduce cost, and reduce trial and error in development and assembly.
+
+At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an open modular mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
+
+## Analogy to ATX Desktop PC Standard {#analogy-to-atx}
+
+Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
+
+## More ...
+For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
+
+
 # Community Development Platform {#community-development}
 
 ## Benefits of Community Development {#benefits}
@@ -228,22 +246,6 @@ The standard below ensure that the V² Standard documents are presented in a con
 |          V² Formatting | Tutorials and references on styling and formatting articles on V². Read more → [Basic Article Formatting](https://v-squared.github.io/plan/flow/writing/basic-formatting/) and [Advanced Article Formatting](https://v-squared.github.io/plan/flow/writing/advanced-formatting/) |
 |  V² Layout Style Guide | Consistent use of colors and text styles |
 
-
-
-# Mission of V² Modular PC Standards {#mission-v-squared}
-
-## Making Missing PC Standards Mainstream {#making-modular-pc-mainstream}
-
-Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, reduce cost, and reduce trial and error in development and assembly.
-
-At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an open modular mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
-
-## Analogy to ATX Desktop PC Standard {#analogy-to-atx}
-
-Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
-
-## More ...
-For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
 
 
 
