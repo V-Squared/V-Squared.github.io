@@ -6,22 +6,22 @@ abstract: >
    This white paper compares the new *PC standard* V² Modular PC to the current All-In-One, Desktop and Mini PC standards, respectively pointing out the lack thereof. In that comparison the reason of being for the new PC standard becomes obvious as it fills a gap not covered by the current standards. 
 issueNo: 209
 contents:
-  - url: Solving Problems
-  - name: solving-problems
+  - name: Solving Problems
+    url: solving-problems
     subitems:
       - name: Providing Missing Standards
         url: missing-standards
       - name: Active Development
         url: active-development
-  - url: Mission V² Standards
-  - name: mission-v-squared
+  - name: Mission V² Standards
+    url: mission-v-squared
     subitems:
       - name: Making Mainstream
         url: making-modular-pc-mainstream
       - name: Analogy to ATX Desktop
         url: analogy-to-atx
-  - url: List of Missing Standards
-  - name: list-missing-standards
+  - name: List of Missing Standards
+    url: list-missing-standards
     subitems:
       - name: Overview Missing Standards
         url: overview-missing-standards
@@ -33,8 +33,8 @@ contents:
         url: all-in-one-standards
       - name: Contribution Workflow
         url: standardized-workflow
-  - url: Plan
-  - name: plan-v-squared
+  - name: Plan
+    url: plan-v-squared
 readiness:
    - is-complete
    - is-active
