@@ -13,13 +13,6 @@ contents:
         url: missing-standards
       - name: Active Development
         url: active-development
-  - name: Mission V² Standards
-    url: mission-v-squared
-    subitems:
-      - name: Making Mainstream
-        url: making-modular-pc-mainstream
-      - name: Analogy to ATX Desktop
-        url: analogy-to-atx
   - name: List of Missing Standards
     url: list-missing-standards
     subitems:
@@ -33,6 +26,13 @@ contents:
         url: all-in-one-standards
       - name: Contribution Workflow
         url: standardized-workflow
+  - name: Mission V² Standards
+    url: mission-v-squared
+    subitems:
+      - name: Making Mainstream
+        url: making-modular-pc-mainstream
+      - name: Analogy to ATX Desktop
+        url: analogy-to-atx
   - name: Plan
     url: plan-v-squared
     subitems:
@@ -64,11 +64,11 @@ The table → [PC Core Standards](#core-standards) makes it obvious just how man
 
 |          Symptom | Mini & AiO PC | Desktop PC |
 |-----------------:|:-------------:|:----------:|
-| Development Cost |     — High    |    ✓ Low   |
-|     Tooling Cost |     — High    |    ✓ Low   |
-|     Product Cost |     — High    |    ✓ Low   |
-|      Save Planet |     — Low     |   ✓ High   |
-|   Upgradeability |     — Low     |   ✓ High   |
+| Development Cost |    — High    |    ✓ Low   |
+|     Tooling Cost |    — High    |    ✓ Low   |
+|     Product Cost |    — High    |    ✓ Low   |
+|      Save Planet |    — Wasteful|   ✓ Saving Resources |
+|   Upgradeability |    — Limited |   ✓ Completely Modular |
 
 
 ### Solution 1: Providing Missing Standards
@@ -86,20 +86,6 @@ The set of ATX standards was developed by Intel and then published in 1995. It r
 
 V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. 
 
-# Mission of V² Modular PC Standards {#mission-v-squared}
-
-## Making Missing PC Standards Mainstream {#making-modular-pc-mainstream}
-
-Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, reduce cost, and reduce trial and error in development and assembly.
-
-At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an open modular mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
-
-## Analogy to ATX Desktop PC Standard {#analogy-to-atx}
-
-Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
-
-## More ...
-For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
 
 
 
@@ -194,6 +180,23 @@ Standardized and published workflow on creating, publishing, improving and maint
 |     Quality Management | Workflow and Game Theory of Quality Management and Quality Control of the V² Standard Documents as well as V² compatible products from third parties.|
 |         Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
 |           File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected on file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
+
+
+# Mission of V² Modular PC Standards {#mission-v-squared}
+
+## Making Missing PC Standards Mainstream {#making-modular-pc-mainstream}
+
+Our mission is to develop, publish, promote and maintain all missing standards to enable anyone to develop, make, assemble, use and maintain Mini and All-In-One Computer. To lower any entry barriers, reduce cost, and reduce trial and error in development and assembly.
+
+At V² we are a global community of architects, thinkers, engineers and marketeers working together to achieve our vision of an open modular mini or All-in-One PC Standard. We believe this act of human collaboration across an open platform is essential for individual and collective growths.
+
+## Analogy to ATX Desktop PC Standard {#analogy-to-atx}
+
+Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
+
+## More ...
+For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
+
 
 
 # Plan on How to make it Happen {#plan-v-squared}
