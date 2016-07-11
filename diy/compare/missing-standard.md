@@ -56,7 +56,7 @@ List of current problems of Desktop PCs and how V² Modular PC Standards solves 
 
 ### Problem 1: Missing Standards
 
-The table → [PC Core Standards](#core-standards) makes it obvious just how many standards are missing. Whereas the ATX Desktop PC provides all essential standards, the Mini and All-In-One PCs however are basically not standardized. This leads to a lot of problems described in the table below:
+The table → [PC Core Standards](https://v-squared.github.io/diy/compare/missing-standard/#core-standards) makes it obvious just how many standards are missing. Whereas the ATX Desktop PC provides all essential standards, the Mini and All-In-One PCs however are basically not standardized. This leads to a lot of problems described in the table below:
 
 ### Symptoms of Missing Standards
 
@@ -73,18 +73,18 @@ The table → [PC Core Standards](#core-standards) makes it obvious just how man
 
 ### Solution 1: Providing Missing Standards
 
-The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](#mission-v-squared).
+The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](https://v-squared.github.io/diy/compare/missing-standard/#mission-v-squared).
 
 ## Active Development {#active-development}
 
 ### Problem 2: ATX has no Active Development
 
-The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on on [www.formfactors.org](www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](#missing-standards).
+The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on on [www.formfactors.org](www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
 
 
 ### Solution 2: V² Community Development Platform
 
-V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. 
+V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](https://v-squared.github.io/diy/compare/missing-standard/#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. 
 
 
 
