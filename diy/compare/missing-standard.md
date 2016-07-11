@@ -71,7 +71,7 @@ The table → [PC Core Standards](#core-standards) makes it obvious just how man
 
 The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](#mission-v-squared).
 
-## Active Development {#active-development)
+## Active Development {#active-development}
 
 ### Problem 2: ATX has no Active Development
 
