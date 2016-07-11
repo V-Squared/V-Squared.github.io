@@ -13,44 +13,44 @@ contents:
           url: missing-standards
         - name: Active Development
           url: active-development
-  - name: List of Missing Standards
-    url: list-missing-standards
-    subitems:
-       - name: Overview Missing Standards
-         url: overview-missing-standards
-       - name: Modular PC Standards
-         url: modular-pc-standards
-       - name: Supporting PC Standards
-         url: supporting-pc-standards
-       - name: Modular All-In-One
-         url: all-in-one-standards
-       - name: Contribution Workflow
-         url: standardized-workflow
-  - name: Community Development Platform
-    url: community-development
-    subitems:
-       - name: Benefits
-         url: benefist
-       - name: Leading Contribution
-         url: leading-contribution
-       - name: Contribution Workflows    
-         url: standardized-workflow
-       - name: Contribution Standards
-         url: contribution-standards
-  - name: Mission V² Standards
-    url: mission-v-squared
-    subitems:
-      - name: Making Mainstream
-        url: making-modular-pc-mainstream
-      - name: Analogy to ATX Desktop
-        url: analogy-to-atx
-  - name: Plan
-    url: plan-v-squared
-    subitems:
-      - name: Where we are today
-        url: where-we-are-today
-      - name: Detailed Plan
-        url: detailed-plan
+   - name: List of Missing Standards
+     url: list-missing-standards
+     subitems:
+        - name: Overview Missing Standards
+          url: overview-missing-standards
+        - name: Modular PC Standards
+          url: modular-pc-standards
+        - name: Supporting PC Standards
+          url: supporting-pc-standards
+        - name: Modular All-In-One
+          url: all-in-one-standards
+        - name: Contribution Workflow
+          url: standardized-workflow
+   - name: Community Development Platform
+     url: community-development
+     subitems:
+        - name: Benefits
+          url: benefist
+        - name: Leading Contribution
+          url: leading-contribution
+        - name: Contribution Workflows    
+          url: standardized-workflow
+        - name: Contribution Standards
+          url: contribution-standards
+   - name: Mission V² Standards
+     url: mission-v-squared
+     subitems:
+        - name: Making Mainstream
+          url: making-modular-pc-mainstream
+        - name: Analogy to ATX Desktop
+          url: analogy-to-atx
+   - name: Plan
+     url: plan-v-squared
+     subitems:
+        - name: Where we are today
+          url: where-we-are-today
+        - name: Detailed Plan
+          url: detailed-plan
 readiness:
    - is-complete
    - is-complete
