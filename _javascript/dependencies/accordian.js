@@ -122,6 +122,7 @@ angular.module('ui.bootstrap.accordion', ['ui.bootstrap.collapse'])
   this.closeOthers = function(openGroup) {
     var closeOthers = angular.isDefined($attrs.closeOthers) ?
       $scope.$eval($attrs.closeOthers) : accordionConfig.closeOthers;
+    console.log("closeOthers");
     if (closeOthers) {
       angular.forEach(this.groups, function(group) {
         if (group !== openGroup) {
