@@ -42,6 +42,7 @@ contents:
         url: detailed-plan
 readiness:
    - is-complete
+   - is-complete
    - is-active
 ---
 
