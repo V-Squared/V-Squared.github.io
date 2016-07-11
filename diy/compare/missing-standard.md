@@ -112,11 +112,13 @@ For more information on benefits, Life after V² and Principles of V² → [True
 |                Standard | Description |
 |------------------------:|:-------------:|
 |    Modular PC Standards | Set of standards that cover all parts needed to build a modular Mini PC. |
-| Supporting PC Standards | Set of standards that were forgotten in the original set of ATX standards, such as Airflow or Noise Management. |
+| Supporting PC Standards | Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management. |
 |      Modular All-In-One | Set of standards that expand the Modular PC Standard to build modular All-In-One PCs. |
 |   Contribution Workflow | Standardized and published workflow on creating, publishing, improving and maintaining the V² Modular PC standard documents including their supporting design files. |
 
 ## Modular PC Standards {#modular-pc-standards}
+
+Set of standards that cover all parts needed to build a modular Mini PC.
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -137,6 +139,7 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 ## Supporting PC Standards {#supporting-pc-standards}
 
+Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management.
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
@@ -154,6 +157,8 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 ## Modular All-In-One Standards {#all-in-one-standards}
 
+Set of standards that expand the Modular PC Standard to build modular All-In-One PCs.
+
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
 |           Standard | Description |
@@ -169,6 +174,8 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 
 ## Standardized Contribution Workflow {#standardized-workflow}
+
+Standardized and published workflow on creating, publishing, improving and maintaining the V² Modular PC standard documents including their supporting design files.
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
