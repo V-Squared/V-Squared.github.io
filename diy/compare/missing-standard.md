@@ -25,10 +25,10 @@ contents:
     subitems:
       - name: Overview Missing Standards
         url: overview-missing-standards
-      - name: PC Core Standards
-        url: core-standards
-      - name: PC Supporting Standards
-        url: supporting-standards
+      - name: Modular PC Standards
+        url: modular-pc-standards
+      - name: Supporting PC Standards
+        url: supporting-pc-standards
       - name: Modular All-In-One
         url: all-in-one-standards
       - name: Contribution Workflow
@@ -44,6 +44,7 @@ readiness:
    - is-complete
    - is-active
 ---
+
 
 
 # Solving Problems {#solving-problems}
@@ -107,18 +108,18 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|              Standard | Description |
-|----------------------:|:-------------:|
-|              PC Core  |  |
-|        PC Supporting  |  |
-|    Modular All-In-One |  |
-| Contribution Workflow |  |
+|                Standard | Description |
+|------------------------:|:-------------:|
+|    Modular PC Standards | Set of standards that cover all parts needed to build a modular Mini PC. |
+| Supporting PC Standards | Set of standards that were forgotten in the original set of ATX standards, such as Airflow or Noise Management. |
+|      Modular All-In-One | Set of standards that expand the Modular PC Standard to build modular All-In-One PCs. |
+|   Contribution Workflow | Standardized and published workflow on creating, publishing, improving and maintaining the V² Modular PC standard documents including their supporting design files. |
 
-## PC Core Standards {#core-standards}
+## Modular PC Standards {#modular-pc-standards}
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|        Standard | V² Modular PC | Mini PC | All-In-One PC | ATX Desktop PC |
+|        Standard | V² Modular PC † | Mini PC | All-In-One PC | ATX Desktop PC |
 |----------------:|:-------------:|:-------:|:-------------:|:--------------:|
 |            Case |       ✓       |    —    |       —       |        ✓       |
 |     Motherboard |       ✓       |    —    |       —       |        ✓       |
@@ -131,21 +132,23 @@ For more information on benefits, Life after V² and Principles of V² → [True
 |        IO Panel |       ✓       |    —    |       —       |        ✓       |
 |          Cables |       ✓       |    —    |       —       |        ✓       |
 
-## PC Supporting Standards {#supporting-standards}
+**† Note:** The V² Modular PC Standards include specifications on building Mini and All-In-One PCs.
+
+## Supporting PC Standards {#supporting-pc-standards}
 
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|           Standard | Description |
-|-------------------:|:-------------:|
-|  Airflow Management|  |
-|    Noise Management|  |
-|        Dust Filter |  |
-|     Health Monitor |  |
-|       Illumination |  |
-|        Custom Logo |  |
-|      Configuration |  |
-|   Cable Management |  |
+|              Standard | Description |
+|----------------------:|:-------------:|
+| V² Airflow Management | Standardized V² Airflow design is integrated with V²Case design, providing maximum thermal design power versus minimum case size and generated noise. |
+|   V² Noise Management | Design Guides to develop airflow with reduced noise footprint. Creation of 5 noise classes making it easy for the buyer to gauge loudness of a PC when buying. |
+|        V² Dust Filter | Standardized filter design that are quick and easy to clean. Integrated with V²Case design. |
+|     V² Health Monitor | Microcontroller that monitors various modular components of the PC. It tries to report failing modules ahead of fatal failure. It points out broken modules after failure simplifying repair. |
+|       V² Illumination | Standards of connectors, lights, mounting, firmware and UI for illuminating V²Case. |
+|        V² Custom Logo | Standardized Logo Inserts and Production Methods. Making custom logos easy and low cost. |
+|      V² Configuration | Standardization of the entire configuration chain. Configurator UI principles, configuration exchange data format, sample application in Open Source. |
+|   V² Cable Management | All that is necessary to make it easy for the user to contain the cable mess on his computer desk. |
 
 
 ## Modular All-In-One Standards {#all-in-one-standards}
@@ -154,26 +157,35 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 |           Standard | Description |
 |-------------------:|:-------------:|
-|    Remote Power On |   |
-|         Remote USB |   |
-|          Case Feet |   |
-|         Case Stand |   |
-|          Case Hang |   |
-|  Fluid Form Factor |   |
-|         Fluid Port |   |
+|           V²Access | Remote power on switch and status LED to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
+|       V²USB-Access | Simple remote USB Ports to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
+|             V²Feet | Standardized feet to V²Case. Allows placement of ports in left, up and right direction. |
+|            V²Stand | Standardized stand for Modular All-In-One PC. Holds V²Case, V²Access, V²USB-Access, V²Bracket, V²Hinge and Keyboard Shelf. Specs, sample design in STL and FreeCAD. |
+|          V²Bracket | Specs for a simple and low cost bracket to hang V²Case to the wall or to V²Stand. |
+|            V²Hinge | Standardized hinge for tilt movement with standardized mounting pattern to mount on one side to V²Stand and on the other side to a Display with VESA mount. |
+|V²Fluid-Form-Factor | Specs to design all other specs of V² in such a way that a V²Case can be converted from a Mini PC formfactor to an All-In-One formfactor and vice versa. |
+|       V²Fluid-Port | Hanging system enabling the connection of V²Case to V²Bracket so that the port of the V²Case can point to the four directions: up, right, down, left. |
 
 
 ## Standardized Contribution Workflow {#standardized-workflow}
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|          Workflows | Description |
-|-------------------:|:-------------:|
-| Reporting Bugs / Ideas | |
-|  Standard Creation Workflow | |
-|            Release | |
-| Version Management |  |
-| Quality Management |  |
+|              Workflows | Description |
+|-----------------------:|:-------------:|
+|          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guides for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
+|            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map](https://v-squared.github.io/plan/road-map/)|
+|              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard](https://v-squared.github.io/plan/dashboard/) |
+|          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute](https://v-squared.github.io/plan/contribute/)|
+|               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile](https://v-squared.github.io/plan/agile/)|
+|    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles](https://v-squared.github.io/plan/flow/writing/)|
+|             V²CAM.Flow | V²Case Trailblazer Product Cases are manufactured via CNC cut. We found that there exists no standard on how to go effectively from CAD → CAM → CNC. As such handing over a CNC project to the CNC shop is inefficient. V²CAM.Flow is an attempt to solve this problem for us and possibly also for the CNC industry. Read more → [V²CAM.Flow](https://v-squared.github.io/plan/flow/mechanical/cad-cam-cnc/)|
+|      Standard Creation | Workflow on creating a V² Standard Document with all supporting technical files.|
+|     Release Management | Workflow on publishing a new release of a V²Standard including promotion.|
+|     Version Management | Workflow, specs, tutorials and tools on version management of V² Standards.|
+|     Quality Management | Workflow and Game Theory of Quality Management and Quality Control of the V² Standard Documents as well as V² compatible products from third parties.|
+|         Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
+|           File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected on file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
 
 
 # Plan on How to make it Happen {#plan-v-squared}
@@ -186,9 +198,6 @@ Developing, publishing and making a standard mainstream is no small feat. When l
 ## Detailed Plan {#detailed-plan}
 
 Development of V² is a coordinated community effort. Development happens on GitHub. Our Mission, Targets, Road Map and Milestones as well as our Contribution Workflow is spelled out in → [V² Plan](https://v-squared.github.io/plan/).
-
-
-
 
 
 
