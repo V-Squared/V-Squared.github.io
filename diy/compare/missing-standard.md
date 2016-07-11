@@ -24,13 +24,11 @@ contents:
           url: supporting-pc-standards
         - name: Modular All-In-One
           url: all-in-one-standards
-        - name: Contribution Workflow
-          url: standardized-workflow
-   - name: Community Development Platform
+   - name: Community Development
      url: community-development
      subitems:
         - name: Benefits
-          url: benefist
+          url: benefits
         - name: Leading Contribution
           url: leading-contribution
         - name: Contribution Workflows    
@@ -40,9 +38,9 @@ contents:
    - name: Mission V² Standards
      url: mission-v-squared
      subitems:
-        - name: Making Mainstream
+        - name: Making V² Mainstream
           url: making-modular-pc-mainstream
-        - name: Analogy to ATX Desktop
+        - name: Analogy to ATX Standard
           url: analogy-to-atx
    - name: Plan
      url: plan-v-squared
@@ -111,7 +109,7 @@ V² Modular PC is actively developed by its community. It resides on [https://v-
 |    Modular PC Standards | Set of standards that cover all parts needed to build a modular Mini PC. |
 | Supporting PC Standards | Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management. |
 |      Modular All-In-One | Set of standards that expand the Modular PC Standard to build modular All-In-One PCs. |
-|   Contribution Workflow | Standardized and published workflow on creating, publishing, improving and maintaining the V² Modular PC standard documents including their supporting design files. |
+
 
 ## Modular PC Standards {#modular-pc-standards}
 
@@ -168,6 +166,7 @@ Set of standards that expand the Modular PC Standard to build modular All-In-One
 |            V²Hinge | Standardized hinge for tilt movement with standardized mounting pattern to mount on one side to V²Stand and on the other side to a Display with VESA mount. |
 |V²Fluid-Form-Factor | Specs to design all other specs of V² in such a way that a V²Case can be converted from a Mini PC formfactor to an All-In-One formfactor and vice versa. |
 |       V²Fluid-Port | Hanging system enabling the connection of V²Case to V²Bracket so that the port of the V²Case can point to the four directions: up, right, down, left. |
+
 
 
 # Community Development Platform {#community-development}
