@@ -568,6 +568,8 @@ There are five table styles suited for different data types
 
 {% include table id="table-style-twin-head-desc" %}
 
+    style: [twin-head-desc,twin-blue]
+
 ### Row Head
 
 {% include table id="table-style-row-head" %}
