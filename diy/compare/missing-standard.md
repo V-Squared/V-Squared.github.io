@@ -334,3 +334,5 @@ Computer waste with all their hazardeous materials is one of the ecological prob
 A Mini or All-In-One PC build by V² Modular PC standards offers significant benefits to Manufcturers, Dealer and User. In summer 2016 the second generation of products is available for purchase with the launch of the V² Community Campaign. All Modular PC standards will be published by summer 2017, ready for the launch of the V² OEM Campaign. Today anyone can contribute respectively take influennce to the development of the standard. This way you can be certain that by the time of launch the feature that you need will be included.
 
 The facts that V² Modular PC has already been 5 years in development, the availability of shipping real products, a website with detailed mission, road map and contribition workflows and last but no least the active development on the [V² Github Organization](https://github.com/V-Squared/V-Squared.github.io) all indicates that the V² Modular PC is coming and will have the impact you can expact with its rich features, open and modular standards and low costs.
+
+
