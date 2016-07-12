@@ -1,6 +1,6 @@
-- menu: Compare
-  url: /compare/
-  desc: Comparison Reviews
+- menu: Intro
+  url: /intro/
+  desc: Introduction to V² Modular PCs, Reviews & White Papers.
   subitems:
     - menu: Workstation Comparison
       url: /compare/workstation-comparison/
