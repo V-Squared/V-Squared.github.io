@@ -14,7 +14,7 @@ contents:
       url: manual-toc
     - name: Automatic ToC
       url: automatic-toc
-  - name: Advanced-tables
+  - name: Advanced Tables
     url: advanced-table-formatting
     subitems:
       - name: Overview
