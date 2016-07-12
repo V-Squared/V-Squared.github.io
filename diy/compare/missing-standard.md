@@ -53,6 +53,24 @@ readiness:
    - is-complete
    - is-complete
    - is-active
+
+table-symptoms-missing-standards:
+   style: [twin-head,twin-blue]
+   name: Symptons of the Missing Standards
+   desc: Mini and All-In-One PCs are more expensive as a result of their missing standards.
+   head: [Symptom, Mini & AiO PC, Desktop PC]
+   rows:
+     - data: [Development Cost, High, Low]
+       color: [tp, rd, gn]
+     - data: [Tooling Cost, High, Low]
+       color: [tp, rd, gn]
+     - data: [Production Cost, High, Low]
+       color: [tp, rd, gn]
+     - data: [Save Planet, Short Service Life, Long Service Life]
+       color: [tp, rd, gn]
+     - data: [Upgradeability, Very Limited, Completely Modular]
+       color: [tp, rd, gn]
+
 ---
 
 
@@ -67,17 +85,7 @@ List of current problems of Desktop PCs and how V² Modular PC Standards solves 
 
 The table → [PC Core Standards](https://v-squared.github.io/diy/compare/missing-standard/#modular-pc-standards) makes it obvious just how many standards are missing. Whereas the ATX Desktop PC provides all essential standards, the Mini and All-In-One PCs however are basically not standardized. This leads to a lot of problems described in the table below:
 
-### Symptoms of Missing Standards
-
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
-
-|          Symptom | Mini & AiO PC | Desktop PC |
-|-----------------:|:-------------:|:----------:|
-| Development Cost |    — High    |    ✓ Low   |
-|     Tooling Cost |    — High    |    ✓ Low   |
-|     Product Cost |    — High    |    ✓ Low   |
-|      Save Planet |    — Wasteful|   ✓ Saving Resources |
-|   Upgradeability |    — Limited |   ✓ Completely Modular |
+{% include table id="table-symptoms-missing-standards" %}
 
 
 ### Solution 1: Providing Missing Standards
