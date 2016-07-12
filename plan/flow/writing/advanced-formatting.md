@@ -184,7 +184,7 @@ table-style-twin-head:
        color: [tp,rd,gn]
 
 table-style-twin-head-desc:
-   style: [twin-head,twin-blue]
+   style: [twin-head-desc,twin-blue]
    name: Style Twin Headings
    desc: Ideal for Term and Definition
    head: [Term, Definition]
