@@ -74,10 +74,15 @@ table-symptoms-missing-standards:
        color: [tp, rd, gn]
      - data: [Production Cost, High, Low]
        color: [tp, rd, gn]
-     - data: [Save Planet, Short Service Life, Long Service Life]
+     - data: [Total Cost of Ownership, High, Low]
+       color: [tp, rd, gn]
+     - data: [Save Planet , Short Service Life †, Long Service Life ‡]
        color: [tp, rd, gn]
      - data: [Upgradeability, Very Limited, Completely Modular]
        color: [tp, rd, gn]
+   footer: >
+      **†** Once one part becomes broken or a bottleneck the entire PC needs to be replaced. Producing huge amount of waste<br>
+      **‡** Once a part goes bad it simply is replaced, breathing new life into the remaining PC. This typically extends the service life three fold and in turn producing only 1/3 of waste of a monolithic PC.
 
 table-modular-pc-standards:
    style: [twin-head,twin-blue]
@@ -106,7 +111,7 @@ table-modular-pc-standards:
      - data: [Cables, ✓ , — , — , ✓]
        color: [tp, gn, rd, rd, gn]
    footer: >
-      **†** The *Modular All-In-One Standards as described below in combination with the V²Modular PC standards provide all necessary standards to build a standardized and modular All-In-One PC.
+      **†** The *Modular All-In-One* Standards as described below in combination with the V²Modular PC standards provide all necessary standards to build a standardized and modular All-In-One PC.
 
 ---
 
@@ -114,7 +119,7 @@ table-modular-pc-standards:
 
 # Solving Problems {#solving-problems}
 
-List of current problems of Desktop PCs and how V² Modular PC Standards solves them:
+List of current problems of Desktop PCs and how V² Modular PC Standards solve them:
 
 ## Providing Missing Standards {#missing-standards}
 
@@ -179,7 +184,7 @@ Set of standards that were not important at time of creation of the original set
 |        V² Dust Filter | Standardized filter design that are quick and easy to clean. Integrated with V²Case design. |
 |     V² Health Monitor | Microcontroller that monitors various modular components of the PC. It tries to report failing modules ahead of fatal failure. It points out broken modules after failure simplifying repair. |
 |       V² Illumination | Standards of connectors, lights, mounting, firmware and UI for illuminating V²Case. |
-|        V² Custom Logo | Standardized Logo Inserts and Production Methods. Making custom logos easy and low cost. |
+|        V² Custom Logo | Standardized Logo Inserts and Production Methods. Making custom logos easy and low cost. And when upgrading your case you can continue using your custom logo. |
 |      V² Configuration | Standardization of the entire configuration chain. Configurator UI principles, configuration exchange data format, sample application in Open Source. |
 |   V² Cable Management | All that is necessary to make it easy for the user to contain the cable mess on his computer desk. |
 
@@ -215,7 +220,7 @@ At V² we are a global community of architects, thinkers, engineers and marketee
 
 ## Analogy to ATX Desktop PC Standard {#analogy-to-atx}
 
-Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for mini an All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
+Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for Mini and All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
 
 ## More ...
 For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
@@ -225,20 +230,20 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 ## Benefits of Community Development {#benefits}
 
-- **For the people, by the people:** The V² Modular PC Standards are a service to all PC Users, Retailer, Developers and Manufacturers. Development is provided by diverse community members who work for an equally diverse number of companies. This ensure a balance of interests.
-- **Simple and Fast Contribution:** Editing an article, reporting a bug or provide an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [wikipedia](//wikipedia.com). V² applies this method (quite possibly for the first time) to standards and products.
+- **For the people, by the people:** The V² Modular PC Standards are a service to all PC Users, Retailer, Developers and Manufacturers. Development is provided by a diverse community. Its members work for an equally diverse number of companies. This ensure a balance of interests.
+- **Simple and Fast Contribution:** Editing an article, reporting a bug or provide an idea is all accessible with just one mouse click / tab on the V²Flow Button. The power of community editing has been proven by [Wikipedia](//wikipedia.com). V² applies this method (quite possibly for the first time) to standards and products.
 - **You can always fix it yourself:** If a bug in the V² Standard blocks your project you can always go ahead and fix it yourself. To unstuck your project but also to move the standard forward. Simply fork it on GitHub, fix the problem and make a pull request. We will do our best to include your fix swiftly.
 
 
 ## Leading Contribution {#leading-contribution}
 
-Developing standards means to coordinate a lot of work by many contributors over a very long period of time. We have contributed a complete board (section) of our web site by the name [V²Plan](https://v-squared.github.io/plan/) to this purpose. Below is a list of the key documents to get you started:
+Developing standards means to coordinate a lot of work by many contributors over a very long period of time. We have dedicated a complete board (section) of our web site by the name [V²Plan](https://v-squared.github.io/plan/) to do just that. Below is a list of the key documents to get you started:
 
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
 |-----------------------:|:-------------|
-|          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guides for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
+|          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guide for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
 |            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map](https://v-squared.github.io/plan/road-map/)|
 |              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard](https://v-squared.github.io/plan/dashboard/) |
 
