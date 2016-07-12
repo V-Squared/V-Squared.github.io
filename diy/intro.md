@@ -10,4 +10,4 @@ readiness:
    - is-active
 ---
 
-{% include content-navigation.html type="book" %}
+{% include content-navigation.html type="article" %}
