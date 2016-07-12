@@ -286,6 +286,10 @@ The easiest way is to use → [Markdown Tables Generator](http://www.tablesgener
 
 ## Apply Styling {#apply-styling}
 
+### Source Code
+
+Please note the first line. This is how you apply the style. **Note:** It is important to leave a blank line between your style and the table.
+
 ```markdown
 {:.uk-table.twin-head.twin-blue}
 
@@ -297,6 +301,8 @@ The easiest way is to use → [Markdown Tables Generator](http://www.tablesgener
 |   Open Configuration |  Yes |       No      |  No  |
 ```
 
+### Rendered Table
+
 {:.uk-table.twin-head.twin-blue}
 
 |             Features | ViPC | Apple Mac Pro | HP Z |
@@ -307,11 +313,15 @@ The easiest way is to use → [Markdown Tables Generator](http://www.tablesgener
 |   Open Configuration |  Yes |       No      |  No  |
 
 
-Please refer → [Reference for all Table Styles](#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
+### More Styles ...
+
+Please refer → [Reference for all Table Styles](https://v-squared.github.io/plan/flow/writing/advanced-formatting/#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
 
 
 ## Use Graphic Symbols {#use-graphic-symbols}
 
+### Source Code
+
 ```markdown
 {:.uk-table.twin-head.twin-blue}
 
@@ -323,6 +333,8 @@ Please refer → [Reference for all Table Styles](#ref-table-styles) for a list,
 |   Open Configuration |   ✓  |       ―       |   ✓  |
 ```
 
+### Rendered Table
+
 {:.uk-table.twin-head.twin-blue}
 
 |             Features | ViPC | Apple Mac Pro | HP Z |
@@ -332,7 +344,9 @@ Please refer → [Reference for all Table Styles](#ref-table-styles) for a list,
 |        Quiet Cooling |   ✓  |       ✓       |   ✓  |
 |   Open Configuration |   ✓  |       ―       |   ✓  |
 
-Please refer to → [Graphic Symbols we use in tables](#graphic-symbols) for a list of useful symbols.
+### More Graphic Symbols
+
+Please refer to → [Graphic Symbols we use in tables](https://v-squared.github.io/plan/flow/writing/advanced-formatting/#graphic-symbols) for a list of useful symbols.
 
 
 # Super Table Formatting {#super-table-formatting}
