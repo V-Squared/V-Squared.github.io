@@ -17,8 +17,18 @@ contents:
   - name: Advanced Tables
     url: advanced-table-formatting
     subitems:
+      - name: user-story
+        url: user-story
       - name: Key Features
         url: advanced-tables-features
+      - name: How it Works
+        url: how-it-works
+      - name: Workflow Complex Tables
+        url: workflow-tables
+      - name: Background Colors
+        url: ref-background-colors
+      - name: Table Styles
+        url: ref-table-styles
 readiness:
    - is-complete
    - is-active
@@ -60,7 +70,7 @@ table-vicase-vs-macpro:
       **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
       **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.<br>
       **†3** This makes a big difference if you need a portable workstation.
-      
+
 table-comparison-all: 
   style: [twin-head,twin-blue]
   name: Workstation Comparison Overview
@@ -81,7 +91,7 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Clean Desk Cabling,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-    - data: [Intel Generation,6,5 (*1),6,6,6]
+    - data: [Intel Generation,6 †,5 ‡,6,6,6]
       color: [tp,gn,yw,gn,gn,gn]
     - data: [Open Configuration,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
@@ -93,8 +103,9 @@ table-comparison-all:
       color: [tp,gn,rd,rd,rd,rd]
     - data: [Flat Fee Repair Service,✓,―,―,―,―]
       color: [tp,gn,rd,rd,rd,rd]
-footer: >
-   **Note:** Buying a new computer with an old socket will limit if not hamper upgradeability in the future.
+  footer: >
+    **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
+    **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
 
 table-shaded-colors:
    style: [twin-head,twin-blue]
@@ -139,7 +150,8 @@ table-style-twin-head:
 table-style-row-head:
    style: [row-head,row-blue]
    name: Style Row Heading
-   desc: Some data just need a Row Heading. Like this example
+   desc: >
+    Some data just need a Row Heading. Typical example: Term & Definition as below.
    rows:
      - data: [Campaign 1, Creating the V²Platform]
        color: [tp, tp]
@@ -151,7 +163,7 @@ table-style-row-head:
 table-style-col-head:
    style: [col-head,col-blue]
    name: Style Column Heading
-   desc: Ideal for Feature Comparison
+   desc: Ideal for straight forward comparison table.
    head: [Campaign 1, Campaign 2, Campaign 3]
    rows:
      - data: [Spring, Summer, Fall]
@@ -166,13 +178,17 @@ table-style-no-head:
        color: [tp, tp, tp, tp]
      - data: [ ☐ , ☑  ,  ☒  ,   ☓   ]
        color: [tp, tp, tp, tp] 
-     - data: [ ✔ , ✘  , —  , ✚  ]
+     - data: [ ✔ , ✘  ,  ➖ , ✚  ]
        color: [tp, tp, tp, tp]
      - data: [ †  ,  ‡ , †3, †4]
        color: [tp, tp, tp, tp]
      - data: [ ©  ,  ® , µ, V²]
        color: [tp, tp, tp, tp]
+     - data: [ ∅  ,  ∆ ,  ❤  ,  ❢ ] 
+       color: [tp, tp, tp, tp]
+
 ---
+
 
 # Table of Contents {#table-of-contents}
 
@@ -217,13 +233,19 @@ The key difference is ...
 
 # Advanced Table Formatting {#advanced-table-formatting}
 
+## User Story {#user-story}
+As a **Reader of your Comparison Review** I very appreciate the colored comparison tables with the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process. Just look at the table below and let it speak for itself!
+
+{% include table id="table-comparison-all" %}
+
 ## Key Features {#advanced-tables-features}
 
 - Keep all data in one place
    - Name
    - Description
    - Table Data
-   - Footer
+   - Footer (Can use formatting, see examples)
+   - Pictures (Background or foreground pictures for cell content)
 - Keep Article Text Clean
    - Regular table convolute the article text, making it hard to keep an overview
    - Our tables are removed from the article text and placed in the yml front matter. Keeping article text clean.
@@ -250,19 +272,8 @@ The key difference is ...
 - Support Graphics Symbols in table cells
    - Faster to write and easier to read
 
-## Example of a Comparison Table
 
-{% include table id="table-vicase-vs-macpro" %}
-
-
-## User Story
-As a **Reader of your Comparison Review** I very appreciate the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process.
-
-## More Complex Example
-
-{% include table id="table-comparison-all" %}
-
-## How it works
+## How it works {#how-it-works}
 
 ### Step 1: Define Table in Front Matter
 
@@ -298,7 +309,27 @@ table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
 {% raw %}{% include table id="table-vicase-vs-macpro" %}{% endraw %}
 ```
 
-## Reference of all Background Colors
+### Step 3: Enjoy Table
+
+{% include table id="table-vicase-vs-macpro" %}
+
+
+
+## Workflow for Complex Tables {#workflow-tables}
+
+Developing tables with useful content and explessive layout is a lot of work. Like any larger project the grogress is smoother if you cut it into smaller steps. This is my workflow of developing tables as complex as you saw in the example:
+
+1. **Develop in Spreadsheet:** This offers you creative freedom, such as changing order of column or rows with simple drag and drop. Important powerful features during the table development phase.
+2. **Convert to Markdown:** Use → [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables) to convert Excel table to formatted markdown table. Use column alignment to make tables easy to read in markdown source code. **Tip:** Use special characters such as *checkmark*, *cross-out*, *em-dash* to visually express that the cell content is good or bad. Later this message will be expressed with the background color.
+3. **Write Article in Markdown Editor:** I am using [Classeur Markdown Editor](http://classeur.io/). This gives you live preview of your articles and your tables during the writing process. You also have a live Table of Contents with active links, which is invaluable to keep an overview and your article structure straight when writing longer articles.
+4. **Review Process on V²Site:** We use V²Flow during article review. Feedback can be given as comment in linked issue of article. Complex edits are done in Classeur, small edits in the GitHub source code editor.
+5. **Convert table to YML:** This is a manual process. Once you have practice it is quite fast.
+6. **YML Debugging:** Sometimes you will make a syntax error in your YML front matter. It shows when you *Preview changes* in the GitHub editor and you YML front matter shows as text and not as table. If you can not find your problem, you can use [YML Lint](http://www.yamllint.com/) to find your error. Another method is binary search where you remove half of your YML and go to preview. If the preview is good, your error is in the removed half, if the review is bad it is in the remaining half. Repeat process until you found your error.
+7. **Final Review:** Check that all is as it should be. Fix any bugs. Repeat until all is well.
+
+
+
+## Reference of all Background Colors {ref-background-colors}
 
 {% include table id="table-shaded-colors" %}
 
@@ -307,20 +338,41 @@ table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
 {% include table id="table-solid-colors" %}
 
 
-## Reference for all Table Styles
+## Reference for all Table Styles {ref-table-styles}
 
-{% include table id="table-style-twin-head" %}
+There are four table styles suited for different data types
 
-<br>
+|  Table Style | Data Type             | 
+|-------------:|:----------------------|
+|  Column Head | Standard table        |
+|    Twin Head | Feature Comparison    |
+|     Row Head | Terms and Description |
+|      No Head | List of Things        |
 
-{% include table id="table-style-row-head" %}
 
-<br>
+### Column Head  
 
 {% include table id="table-style-col-head" %}
 
-<br>
+    style: [col-head,col-blue]
+
+### Twin Head
+
+{% include table id="table-style-twin-head" %}
+
+    style: [twin-head,twin-blue]
+
+### Row Head
+
+{% include table id="table-style-row-head" %}
+
+    style: [row-head,row-blue]
+
+
+### No Head
 
 {% include table id="table-style-no-head" %}
+
+    style: [no-head,no-blue]
 
 
