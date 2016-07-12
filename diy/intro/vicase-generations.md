@@ -36,7 +36,7 @@ contents:
 
 # Marketing {#marketing}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -47,7 +47,7 @@ contents:
 
 # Power {#power}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -61,7 +61,7 @@ contents:
 
 # Performance {#performance}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -72,7 +72,7 @@ contents:
 
 # Disks {#disks}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -84,7 +84,7 @@ contents:
 
 # Safety {#safety}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -96,7 +96,7 @@ contents:
 
 # Available Standards by time of shipping {#standards}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -107,7 +107,7 @@ contents:
  
 # Case Features {#case-features}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -121,7 +121,7 @@ contents:
 
 # Accessories {#accessories}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -138,7 +138,7 @@ contents:
 
 # Portability {#portability}
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
 |:--------|:---:|:----:|
@@ -148,6 +148,18 @@ contents:
 
 
 
+# Wishlist for ViCase G3
 
+## Support for Full Height Desktop Cards
+- Up to GTX 1070
+   - 150W
+   - 10.5" lengths
 
+## 3 Disk Bays
+   - 2.5"
+   - Support for RAID5
 
+## PSU
+   - Flex ATX
+   - 300W
+   - 6 Pin Aux PCIe
