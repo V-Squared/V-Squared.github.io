@@ -34,12 +34,21 @@ contents:
         url: super-tables-features
       - name: How it Works
         url: how-it-works
+      - name: Images in Tables
+        url: images-in-tables
       - name: Workflow Complex Tables
         url: workflow-tables
       - name: Background Colors
         url: ref-background-colors
       - name: Table Styles
         url: ref-table-styles
+  - name: Reference
+    url: #reference
+    subitems:
+      - name: Tools
+        url: ref-tools
+      - name: Symbols used in Tables
+        url: graphic-symbols
 readiness:
    - is-complete
    - is-complete
@@ -118,6 +127,21 @@ table-comparison-all:
   footer: >
     **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
     **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.
+
+table-nc-codes: 
+  head: [G-Code,Description]
+  style: [twin-head-desc,twin-blue]
+  rows:
+    - data: ['',
+      'Go rapidly (with maximum traverse rate) to the X/Y/Z position. This code is used for position and not for actual machining.<br><b>Format:</b> G00 [X#][Y#][Z#]<br><b>Example:</b> G00 Z100'
+      ]
+      img: [/plan/flow/mechanical/nc-codes/g00.png,'']
+    - data: ['','Travel in a straight line using the programmed feed rate (F). This code is used for machining.<br><b>Format:</b> G01 [X#][Y#][Z#][F#]<br><b>Example:</b> G01 X2.5 Y4.1 F200']
+      img: ['/plan/flow/mechanical/nc-codes/g01.png','']
+    - data: ['','Exactly like G02 but the circular motion is going counterclockwise.<br><b>Format:</b> G03[X#][Y#][Z#][I#][J#][K#][R#][F#]<br><b>Example:</b> G03 X10 Y10 I10 J0 F200']
+      img: ['/plan/flow/mechanical/nc-codes/g03.png','']
+    - data: ['','Selects the XY plane for circular movements (see G02 and G03).<br><b>Format:</b> G17<br><b>Example:</b> G17']
+      img: ['/plan/flow/mechanical/nc-codes/g17.png','']
 
 table-shaded-colors:
    style: [twin-head,twin-blue]
@@ -454,6 +478,32 @@ After all is done your completed table shall render in the article like so:
 {% include table id="table-vicase-vs-macpro" %}
 
 
+## Images in Tables {#images-in-tables}
+
+### Table Source
+
+```markdown
+table-nc-codes: 
+  head: [G-Code,Description]
+  style: [twin-head-desc,twin-blue]
+  rows:
+    - data: ['',
+      'Go rapidly (with maximum traverse rate) to the X/Y/Z position. This code is used for position and not for actual machining.<br><b>Format:</b> G00 [X#][Y#][Z#]<br><b>Example:</b> G00 Z100'
+      ]
+      img: [/plan/flow/mechanical/nc-codes/g00.png,'']
+    - data: ['','Travel in a straight line using the programmed feed rate (F). This code is used for machining.<br><b>Format:</b> G01 [X#][Y#][Z#][F#]<br><b>Example:</b> G01 X2.5 Y4.1 F200']
+      img: ['/plan/flow/mechanical/nc-codes/g01.png','']
+    - data: ['','Exactly like G02 but the circular motion is going counterclockwise.<br><b>Format:</b> G03[X#][Y#][Z#][I#][J#][K#][R#][F#]<br><b>Example:</b> G03 X10 Y10 I10 J0 F200']
+      img: ['/plan/flow/mechanical/nc-codes/g03.png','']
+    - data: ['','Selects the XY plane for circular movements (see G02 and G03).<br><b>Format:</b> G17<br><b>Example:</b> G17']
+      img: ['/plan/flow/mechanical/nc-codes/g17.png','']
+```
+
+### Rendered Table
+
+{% include table id="table-nc-codes" %}
+
+
 
 ## Workflow for Complex Tables {#workflow-tables}
 
@@ -511,10 +561,22 @@ There are four table styles suited for different data types
     style: [row-head,row-blue]
 
 
-### No Head {#graphic-symbols}
+### No Head 
 
 {% include table id="table-style-no-head" %}
 
     style: [no-head,no-blue]
 
+
+# Reference {#reference}
+
+## Tools {#ref-tools}
+- [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)
+- [Unicode Character / Symbols](https://www.materialui.co/unicode-characters)
+- [Material Design Colors](https://www.materialui.co/unicode-characters)
+- [YML Lint](http://www.yamllint.com/) (Verify syntax of front matter YML)
+
+## Symbols used in Tables {#graphic-symbols}
+
+{% include table id="table-style-no-head" %}
 
