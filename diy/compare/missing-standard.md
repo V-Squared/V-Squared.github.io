@@ -150,7 +150,7 @@ V² Modular PC is actively developed by its community. It resides on [https://v-
 {:.uk-table.twin-head-desc.twin-blue}
 
 |                Standard | Description |
-|------------------------:|:-------------:|
+|------------------------:|-------------:|
 |    Modular PC Standards | Set of standards that cover all parts needed to build a modular Mini PC. |
 | Supporting PC Standards | Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management. |
 |      Modular All-In-One | Set of standards that expand the Modular PC Standard to build modular All-In-One PCs. |
@@ -173,7 +173,7 @@ Set of standards that were not important at time of creation of the original set
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Standard | Description |
-|----------------------:|:-------------:|
+|----------------------:|-------------:|
 | V² Airflow Management | Standardized V² Airflow design is integrated with V²Case design, providing maximum thermal design power versus minimum case size and generated noise. |
 |   V² Noise Management | Design Guides to develop airflow with reduced noise footprint. Creation of 5 noise classes making it easy for the buyer to gauge loudness of a PC when buying. |
 |        V² Dust Filter | Standardized filter design that are quick and easy to clean. Integrated with V²Case design. |
@@ -191,7 +191,7 @@ Set of standards that expand the Modular PC Standard to build modular All-In-One
 {:.uk-table.twin-head-desc.twin-blue}
 
 |           Standard | Description |
-|-------------------:|:-------------:|
+|-------------------:|-------------:|
 |           V²Access | Remote power on switch and status LED to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
 |       V²USB-Access | Simple remote USB Ports to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
 |             V²Feet | Standardized feet to V²Case. Allows placement of ports in left, up and right direction. |
@@ -237,7 +237,7 @@ Developing standards means to coordinate a lot of work by many contributors over
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
-|-----------------------:|:-------------:|
+|-----------------------:|-------------:|
 |          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guides for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
 |            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map](https://v-squared.github.io/plan/road-map/)|
 |              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard](https://v-squared.github.io/plan/dashboard/) |
@@ -253,7 +253,7 @@ Standardized and published workflow on creating, publishing, improving and maint
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
-|-----------------------:|:-------------:|
+|-----------------------:|-------------:|
 |          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute](https://v-squared.github.io/plan/contribute/)|
 |               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile](https://v-squared.github.io/plan/agile/)|
 |    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles](https://v-squared.github.io/plan/flow/writing/)|
@@ -272,7 +272,7 @@ The standard below ensure that the V² Standard documents are presented in a con
 {:.uk-table.twin-head-desc.twin-blue}
 
 | Contribution Standards | Description |
-|-----------------------:|:-------------:|
+|-----------------------:|-------------:|
 |      V² Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
 |        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected on file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
 |         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide](https://v-squared.github.io/plan/flow/writing/style-guide/) |
@@ -304,7 +304,7 @@ The benefits of a modular standardized Mini and All-In-One PC versus a monolithi
 
 ### Lower Cost
 
-Lower costs are always the best driving force to successfully introduce new standards. V² Modular PC standards offer significant cost savings for Mini and All-In-One PCs, bringing their cost down to the same level of a Desktop PC with same specs.
+Lower costs are always the best driving force to successfully introduce new standards. V² Modular PC standards offer significant cost savings for Mini and All-In-One PCs, bringing their cost down to the same level of a corresponding Desktop PC.
 
 ### Flexibility
 
@@ -328,4 +328,4 @@ Computer waste with all their hazardeous materials is one of the ecological prob
 
 A Mini or All-In-One PC build by V² Modular PC standards offers significant benefits to Manufcturers, Dealer and User. In summer 2016 the second generation of products is available for purchase with the launch of the V² Community Campaign. All Modular PC standards will be published by summer 2017, ready for the launch of the V² OEM Campaign. Today anyone can contribute respectively take influennce to the development of the standard. This way you can be certain that by the time of launch the feature that you need will be included.
 
-The facts that V² Modular PC has already been 5 years in development, the availability of shipping real products, a website with detailed mission, road map and contribition workflows and last but no least the active development on their github organization all indicates the V² Modular PC is coming and will have the impact you can expact with its rich features, open and modular standard and low costs.
+The facts that V² Modular PC has already been 5 years in development, the availability of shipping real products, a website with detailed mission, road map and contribition workflows and last but no least the active development on the [V² Github Organization](https://github.com/V-Squared/V-Squared.github.io) all indicates that the V² Modular PC is coming and will have the impact you can expact with its rich features, open and modular standards and low costs.
