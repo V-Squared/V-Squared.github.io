@@ -71,6 +71,35 @@ table-symptoms-missing-standards:
      - data: [Upgradeability, Very Limited, Completely Modular]
        color: [tp, rd, gn]
 
+table-modular-pc-standards:
+   style: [twin-head,twin-blue]
+   name: Comparison of available standards by Form Factor
+   desc: The new standard V² Modular PC provides the missing standards for Mini and All-In-One PC.
+   head: [Standard, V² Modular PC †, Mini PC, All-In-One PC, ATX Desktop PC]
+   rows:
+     - data: [Case †, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [Motherboard, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [Power Supply, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [Disk Bays, ✓ , ✓ , ✓ , ✓]
+       color: [tp, gn, gn, gn, gn]
+     - data: [Memory Modules, ✓ , ✓ , ✓ , ✓]
+       color: [tp, gn, gn, gn, gn]
+     - data: [CPU Socket, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [CPU Cooling, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [GPU Expansion, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [IO Panel, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+     - data: [Cables, ✓ , — , — , ✓]
+       color: [tp, gn, rd, rd, gn]
+   footer: >
+      **†** The *Modular All-In-One Standards as described below in combination with the V²Modular PC standards provide all necessary standards to build a standardized and modular All-In-One PC.
+
 ---
 
 
@@ -110,7 +139,7 @@ V² Modular PC is actively developed by its community. It resides on [https://v-
 
 ## Overview Missing Standards {#overview-missing-standards}
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 |                Standard | Description |
 |------------------------:|:-------------:|
@@ -123,22 +152,11 @@ V² Modular PC is actively developed by its community. It resides on [https://v-
 
 Set of standards that cover all parts needed to build a modular Mini PC.
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{% include table id="table-modular-pc-standards" %}
 
-|        Standard | V² Modular PC † | Mini PC | All-In-One PC | ATX Desktop PC |
-|----------------:|:-------------:|:-------:|:-------------:|:--------------:|
-|            Case |       ✓       |    —    |       —       |        ✓       |
-|     Motherboard |       ✓       |    —    |       —       |        ✓       |
-|    Power Supply |       ✓       |    —    |       —       |        ✓       |
-|       Disk Bays |       ✓       |    ✓    |       ✓       |        ✓       |
-|  Memory Modules |       ✓       |    ✓    |       ✓       |        ✓       |
-|      CPU Socket |       ✓       |    —    |       —       |        ✓       |
-|     CPU Cooling |       ✓       |    —    |       —       |        ✓       |
-|   GPU Expansion |       ✓       |    —    |       —       |        ✓       |
-|        IO Panel |       ✓       |    —    |       —       |        ✓       |
-|          Cables |       ✓       |    —    |       —       |        ✓       |
 
-**† Note:** The V² Modular PC Standards include specifications on building Mini and All-In-One PCs.
+
+
 
 ## Supporting PC Standards {#supporting-pc-standards}
 
