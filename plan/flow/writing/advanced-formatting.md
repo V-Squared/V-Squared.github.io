@@ -17,7 +17,7 @@ contents:
   - name: Advanced Tables
     url: advanced-table-formatting
     subitems:
-      - name: user-story
+      - name: User Story
         url: user-story
       - name: Key Features
         url: advanced-tables-features
@@ -30,6 +30,7 @@ contents:
       - name: Table Styles
         url: ref-table-styles
 readiness:
+   - is-complete
    - is-complete
    - is-active
  
@@ -234,7 +235,7 @@ The key difference is ...
 # Advanced Table Formatting {#advanced-table-formatting}
 
 ## User Story {#user-story}
-As a **Reader of your Comparison Review** I very appreciate the colored comparison tables with the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process. Just look at the table below and let it speak for itself!
+As a **Reader of your Comparison Review** I very appreciate the colored comparison tables with the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process. An example is worth a thousand words. Just look at the table below and let it speak for itself:
 
 {% include table id="table-comparison-all" %}
 
@@ -275,41 +276,61 @@ As a **Reader of your Comparison Review** I very appreciate the colored comparis
 
 ## How it works {#how-it-works}
 
-### Step 1: Define Table in Front Matter
+### Step 1: Convert Table to YML
 
 ```yml
----
-layout: page
-title: Advanced Article Formatting
-subtitle: Geek's Guide on Formatting Articles on V² 
-abstract: Your toolbox to make your articles easier to read and write.
-issueNo: 204
-readiness:
-   - is-active
-table-vicase-vs-macpro: # Table ID. Needed for Include in the Article
-   style: [table-detail,detail-blue] # Lukas: need to change to: [twin-head,table-blue]
-   caption: >
-      # ViPC 1090 vs Mac Pro
-      Battle of the GPU Goliath' of Workstations
-   head: [Features, ViCase-970T, Mac Pro]
-   rows:
-     - data: [OS, Win 10 Pro, Win 10 Pro]
-       color: [tp, gn, gn]
-     - data: [CPU, i7-6700 (Gen 6), 3.7 GHz Quad (Gen 5) (*1)]
+table-vicase-vs-macpro:                                         # Table ID. Needed for Include in the Article
+   style: [twin-head,twin-blue]                                 # Define styling of column and row header 
+   name: ViCase vs Mac Pro                                      # Table Name (optional)
+   desc: Battle of the GPU Goliath' of Workstations             # Table Description (optional)
+   head: [Features, ViCase-970T, Mac Pro]                       # Column Header (optional)
+   rows:                                                        # Initialize data section of table
+     - data: [OS, Win 10 Pro, Win 10 Pro]                       # Row of Table
+       color: [tp, gn, gn]                                      # Background Colors of table cells (optional)
+     - data: [CPU, i7-6700 (Gen 6 †), 3.7 GHz Quad (Gen 5) ‡]
        color: [tp, gn, rd]
-     - data: [AiO Conversion,✓,―]
+     - data: [AiO Conversion,✓ †3,―]
        color: [tp, gn, rd]
-   footer: (*1) Using an old CPU socket limits upgrading in the future
+   footer: >                                                    # Footer of Table (optional)
+      **†** Latest CPU Generation. Introducing DDR4 Memory. Important for larger workstation memory and speed.<br>
+      **‡** Using an old CPU socket limits upgrading in the future. Still uses DDR memory.<br>
+      **†3** This makes a big difference if you need a portable workstation.
+```
+
+### Step 2: Insert YML Table into Front Matter
+
+```yml
+---                                                             # Begin of YML Front Matter
+layout: page                                                    # Choose Page Layout Template
+title: Advanced Article Formatting                              # Title
+subtitle: Geek's Guide on Formatting Articles on V²             # Subtitle
+abstract: Your toolbox for formatting Articles                  # Abstract
+issueNo: 204                                                    # Number of linked Article Issue
+readiness:                                                      # Readiness of Article
+   - is-active                                                  #    ... continues
+                                                                # empty line is recommended for legibility
+# ← ← ← Place your table here, after readiness and before End of YML Front Matter
+                                                                # empty line is recommended for legibility
+---                                                             # End of YML Front Matter
 ```
 
 
-### Step 2: Insert Table with Liquid Include
+### Step 3: Insert Table with Liquid Include
 
 ```liquid
 {% raw %}{% include table id="table-vicase-vs-macpro" %}{% endraw %}
 ```
 
-### Step 3: Enjoy Table
+### Step 4: Validate YML Syntax
+
+- Press *Preview changes* in the GitHub editor. If your YML front matter shows as text and not as table then you have a YML syntax error. Go back to edit and fix the error.
+   - If you can not find your problem, you can use [YML Lint](http://www.yamllint.com/) to find your error.
+   - Another method is binary search where you remove half of your YML and go to preview. If the preview is good, your error is in the removed half, if the review is bad it is in the remaining half. Repeat process until you found your error.
+- Commit changes. Load article page in browser and check layout of article and table
+
+### Step 5: Enjoy Table
+
+After all is done your completed table shall render in the article like so:
 
 {% include table id="table-vicase-vs-macpro" %}
 
@@ -329,7 +350,7 @@ Developing tables with useful content and explessive layout is a lot of work. Li
 
 
 
-## Reference of all Background Colors {ref-background-colors}
+## Reference of all Background Colors {#ref-background-colors}
 
 {% include table id="table-shaded-colors" %}
 
@@ -338,7 +359,7 @@ Developing tables with useful content and explessive layout is a lot of work. Li
 {% include table id="table-solid-colors" %}
 
 
-## Reference for all Table Styles {ref-table-styles}
+## Reference for all Table Styles {#ref-table-styles}
 
 There are four table styles suited for different data types
 
