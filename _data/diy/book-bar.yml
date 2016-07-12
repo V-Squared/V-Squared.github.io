@@ -3,19 +3,19 @@
   desc: Introduction to V² Modular PCs, Reviews & White Papers.
   subitems:
     - menu: Workstation Comparison
-      url: /compare/workstation-comparison/
+      url: /intro/workstation-comparison/
     - menu: Custom PC Comparison
-      url: /compare/custom-pc-comparison/
+      url: /intro/custom-pc-comparison/
     - menu: All-in-One Comparison
-      url: /compare/aio-comparison/
+      url: /intro/aio-comparison/
     - menu: Mac Mini Comparison
-      url: /compare/mac-mini-comparison/
+      url: /intro/mac-mini-comparison/
     - menu: Paper on Missing Formfactor 
-      url: /compare/missing-formfactor/
+      url: /intro/missing-formfactor/
     - menu: Paper on Missing Standard 
-      url: /compare/missing-standard/
+      url: /intro/missing-standard/
     - menu: Paper on ViCase Generations
-      url: /compare/vicase-generations/
+      url: /intro/vicase-generations/
 - menu: Parts
   url: /parts/
   desc: Choosing & Understanding Workstation PC Parts
