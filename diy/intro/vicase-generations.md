@@ -9,7 +9,7 @@ readiness:
    - is-complete
    - is-complete
    - is-complete
-   - is-active
+   - is-complete
 contents:
    - name: Marketing
      url: marketing
@@ -151,15 +151,24 @@ contents:
 # Wishlist for ViCase G3
 
 ## Support for Full Height Desktop Cards
+
 - Up to GTX 1070
-   - 150W
-   - 10.5" lengths
+- 150W
+- 10.5" lengths
 
 ## 3 Disk Bays
-   - 2.5"
-   - Support for RAID5
+
+- 2.5"
+- Support for RAID5
 
 ## PSU
-   - Flex ATX
-   - 300W
-   - 6 Pin Aux PCIe
+
+- Flex ATX
+- 300W
+- 6 Pin Aux PCIe
+
+## Case
+
+- Form Factor: V²Case Small
+- Sise: 10 L (ViCase Mini = 6L)
+- Accessory Compatibility: All V²Case Accessories
