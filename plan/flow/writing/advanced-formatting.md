@@ -14,13 +14,22 @@ contents:
       url: manual-toc
     - name: Automatic ToC
       url: automatic-toc
-  - name: Advanced Tables
+  - name: Advanced-tables
     url: advanced-table-formatting
+    subitems:
+      - name: Overview
+        url: overview-advanced-tables
+      - name: Polish Table
+        url: polish-code
+      - name: Apply Styling
+        url: apply-styling
+  - name: Super Tables
+    url: super-table-formatting
     subitems:
       - name: User Story
         url: user-story
       - name: Key Features
-        url: advanced-tables-features
+        url: super-tables-features
       - name: How it Works
         url: how-it-works
       - name: Workflow Complex Tables
@@ -231,15 +240,107 @@ The key difference is ...
 
 ## Automatic ToC {#automatic-toc}
 
+This feature is not yet available, but it is in our to do list. If you are writing a long article and you need an automatically generated table of contents to keep an overview, you can use th very nice → [Classeur Markdown Editor](http://classeur.io/). It comes with the added bonus of life preview. (You need to enable it as it is off by default).
+
 
 # Advanced Table Formatting {#advanced-table-formatting}
+
+## Overview {#overview-advanced-tables}
+
+1. Align columns & clean up code
+2. Apply Styling
+3. Use Graphic Sumbols
+
+## Polish Table Source Code {#polish-code}
+
+The easiest way is to use → [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables). 
+
+1. It can import existing tables from clipboard, spread sheet and of course the markdown table source code you already have.
+2. Select each column and apply alignment (left | center | right ). Repeat for each column.
+3. Press Generate Button
+4. Copy nicely formatted  markdown source code back to your document
+
+### Source Code after clean up
+
+```markdown
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |  Yes |      Yes      |  Yes |
+| All In One Coversion |  Yes |       No      |  Yes |
+|        Quiet Cooling |  Yes |      Yes      |  No  |
+|   Open Configuration |  Yes |       No      |  No  |
+
+```
+
+### Rendered Table
+
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |  Yes |      Yes      |  Yes |
+| All In One Coversion |  Yes |       No      |  Yes |
+|        Quiet Cooling |  Yes |      Yes      |  No  |
+|   Open Configuration |  Yes |       No      |  No  |
+
+
+## Apply Styling {#apply-styling}
+
+```markdown
+{:.uk-table.twin-head.twin-blue}
+
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |  Yes |      Yes      |  Yes |
+| All In One Coversion |  Yes |       No      |  Yes |
+|        Quiet Cooling |  Yes |      Yes      |  No  |
+|   Open Configuration |  Yes |       No      |  No  |
+```
+
+{:.uk-table.twin-head.twin-blue}
+
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |  Yes |      Yes      |  Yes |
+| All In One Coversion |  Yes |       No      |  Yes |
+|        Quiet Cooling |  Yes |      Yes      |  No  |
+|   Open Configuration |  Yes |       No      |  No  |
+
+
+Please refer → [Reference for all Table Styles](#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
+
+
+## Use Graphic Symbols
+
+```markdown
+{:.uk-table.twin-head.twin-blue}
+
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |   ✓  |       ✓       |   ✓  |
+| All In One Coversion |   ✓  |       ―       |   ✓  |
+|        Quiet Cooling |   ✓  |       ✓       |   ✓  |
+|   Open Configuration |   ✓  |       ―       |   ✓  |
+```
+
+{:.uk-table.twin-head.twin-blue}
+
+|             Features | ViPC | Apple Mac Pro | HP Z |
+|---------------------:|:----:|:-------------:|:----:|
+|  Similar Performance |   ✓  |       ✓       |   ✓  |
+| All In One Coversion |   ✓  |       ―       |   ✓  |
+|        Quiet Cooling |   ✓  |       ✓       |   ✓  |
+|   Open Configuration |   ✓  |       ―       |   ✓  |
+
+Please refer to → [Graphic Symbols we use in tables](#graphic-symbols) for a list of useful symbols.
+
+
+# Super Table Formatting {#super-table-formatting}
 
 ## User Story {#user-story}
 As a **Reader of your Comparison Review** I very appreciate the colored comparison tables with the intuitive coloring of cell backgrounds: red = bad, yellow = so so , green = good. This speeds up my table reading significantly! And I can see pattern that otherwise I would have overlooked. These pattern proved most helpful in my decision making process. An example is worth a thousand words. Just look at the table below and let it speak for itself:
 
 {% include table id="table-comparison-all" %}
 
-## Key Features {#advanced-tables-features}
+## Key Features {#super-tables-features}
 
 - Keep all data in one place
    - Name
@@ -394,7 +495,7 @@ There are four table styles suited for different data types
     style: [row-head,row-blue]
 
 
-### No Head
+### No Head {#graphic-symbols}
 
 {% include table id="table-style-no-head" %}
 
