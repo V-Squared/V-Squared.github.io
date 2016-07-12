@@ -46,7 +46,6 @@ contents:
 | Market Focus | Consumer | Freelance / Contractor / Professional |
 | Sales and Marketing Platform | Crowd Funding | V² Community Promotion |
 | Product Range | DIY PC Case | DIY PC Case & Ready Built PC |
-| ViCase Generation | G1 | G2 |
 
 
 
@@ -64,7 +63,7 @@ contents:
 | Flex ATX | ➖ | ✔ |
 | Build in Power Distribution | ➖ | ✔ |
 
-Within one year of using ViCase G1 in our office 75% of pico ATX power supplies failed, even we already used the best brands available, which still were only third tier brands. No first or second tier PSU manufacturer offered pico ATX power supplies. As such we changed the design to accommodate Flex ATX power supplies and industrial passive nano ATX power supplies. Both are available as Gold versions with efficiency of better than 90%, long term warranty and from first tier brands.
+Within one year of using ViCase G1 in our office 75% of pico ATX power supplies failed, even we already used the best brands available, which still were only third tier brands. No first or second tier PSU manufacturer offered pico ATX power supplies. As such we changed the design to accommodate Flex ATX power supplies and industrial passive nano ATX power supplies. Both are available as Gold versions with efficiency of better than 90%, long term warranty and from first tier brands. Since the change we had no further power supply failure. We have removed pico ATX Power supplies from all configurations and we strongly discourage DIY users to opt for pico ATX power supplies.
 
 
 # Performance {#performance}
@@ -103,7 +102,7 @@ Customer feedback showed little interest in many disks and mSATA, but lots of in
 | EMI Protection | ➖ | ✔ |
 | User replaceable Fuse | ➖ | ✔ |
 
-We got lots of questions on integrating surge protection and EMI.
+We got lots of questions to integrate surge protection and EMI. Although ViCase G2 is larger than ViCase G1, yet its total desk space is smaller due to integration of surge protection and power distribtion.
 
 # Available Standards by time of shipping {#standards}
 
