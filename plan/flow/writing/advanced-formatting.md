@@ -317,6 +317,8 @@ readiness:                                                      # Readiness of A
 
 ### Step 3: Insert Table with Liquid Include
 
+Place this markdown code in the location of your article where you want to show the table. Note that the "table id" need to match up character for character with the corresponding table is of your YML table. Note further that in the YML table the *table id* must end with a colon, whereas in the include it must **not** have a colon.
+
 ```liquid
 {% raw %}{% include table id="table-vicase-vs-macpro" %}{% endraw %}
 ```
@@ -362,6 +364,8 @@ Developing tables with useful content and explessive layout is a lot of work. Li
 ## Reference for all Table Styles {#ref-table-styles}
 
 There are four table styles suited for different data types
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
 |  Table Style | Data Type             | 
 |-------------:|:----------------------|
