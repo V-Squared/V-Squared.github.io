@@ -255,30 +255,23 @@
 
   .article-group-header {
 
-    > div {
-      padding-top: 15px;
-      font-size: 14px;
-      cursor: pointer;
-      color: #A5A5A5;
-      border-bottom: 1px solid #D4D4D4;
-      padding: 5px 15px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -o-user-select: none;
-      user-select: none;
 
-      &:focus {
-        outline:none;
-      }
+     > a {
+       padding: 5px 15px;
+       padding-top: 15px;
+       font-size: 14px;
+       cursor: pointer;
+       border-bottom: 1px solid #D4D4D4;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -o-user-select: none;
+       user-select: none;
+       color:#A5A5A5;
 
-      > a {
-        color:#A5A5A5;
-
-        &:hover {
-          text-decoration: none;
-        }
-      }
-    }
+       &:hover {
+         text-decoration: none;
+       }
+     }
 
     &:hover > a {
       background: transparent !important;

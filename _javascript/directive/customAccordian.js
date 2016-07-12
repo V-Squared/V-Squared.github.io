@@ -23,6 +23,8 @@ function accordianController ($scope,$attrs,accordianConfig) {
 
   this.groups = [];
 
+  this.$id = $scope.$id;
+
   this.closeOther = closeOther;
   this.addGroup = addGroup;
   this.removeGroup = removeGroup;
@@ -74,10 +76,6 @@ function v2AccordianGroup () {
 
     accordianCtrl.addGroup(vm);
 
-    if(attrs.isOpened == '') {
-      vm.isOpen = true;
-    }
-
     scope.$watch('v2Group.isOpen',function(val) {
       element.toggleClass(vm.openClass,!!val);
       if (val) {
@@ -91,11 +89,19 @@ function v2AccordianGroup () {
   }
 }
 
-accordianGroupController.$inject = ['$scope'];
+accordianGroupController.$inject = ['$scope','$attrs'];
 
-function accordianGroupController ($scope) {
+function accordianGroupController ($scope,$attrs) {
+  // Create a id so every controller id is different for the
+  // groups array
+  this.$id = $scope.$id;
+
   this.isOpen = this.isOpen || false;
   this.openClass = this.openClass || "panel-open";
+
+  if($attrs.isOpened == '') {
+    this.isOpen = true;
+  }
 
   this.toggleOpen = toggleOpen;
 
