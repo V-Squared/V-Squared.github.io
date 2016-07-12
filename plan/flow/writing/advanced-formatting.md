@@ -235,7 +235,7 @@ table-style-no-head:
 ---
 
 
-# Table of Contents {#table-of-contents}
+# Adding Table of Contents {#table-of-contents}
 
 ## Manual versus Automatic ToC {#manual-vs-automatic}
 
