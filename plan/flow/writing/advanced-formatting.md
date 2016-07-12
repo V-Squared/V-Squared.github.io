@@ -600,10 +600,10 @@ There are five table styles suited for different data types
 
 # SlideShow {#slide}
 
-The SlideShow like the others, in a include. you include the slideshow with ```{% raw %}{% include slideshow id="slideshow1" %}{% endraw %}``` with an id that is referencing the config in the front matter which is :
+The SlideShow like the others, it's in a include. you include the slideshow with ```{% raw %}{% include slideshow id="slideshow1" %}{% endraw %}``` with an id that is referencing the config in the front matter which is :
 
 ```yml
-slideshow:
+slideshow1:
   slides:
     - img: /images/placeholder_800x400_1.jpg
       title: Title 1
@@ -619,8 +619,8 @@ slideshow:
 All the slide is inside the slides object. The properties are:
 
 - img: Url to the image
-- title: The <h1> title of the slide
-- description: The <p> description of the slide
+- title: The ```<h1>``` title of the slide
+- description: The ```<p>``` description of the slide
 
 ## Example {#slide-example}
 
