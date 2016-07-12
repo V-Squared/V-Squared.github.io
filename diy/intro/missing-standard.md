@@ -1,6 +1,7 @@
 ---
 layout: page
-title: The Missing PC Standard
+title: >
+   V²: The Missing PC Standard
 subtitle: White Paper on benefits of the new PC Standard and comparison to current standards
 abstract: >
    This white paper compares the new *PC standard* V² Modular PC to the current All-In-One, Desktop and Mini PC standards, respectively pointing out the lack thereof. The reason of being for the new PC standard becomes obvious as it fills a gap not covered by the current standards. 
@@ -60,7 +61,7 @@ readiness:
    - is-complete
    - is-complete
    - is-complete
-   - is-active
+   - is-complete
 
 table-symptoms-missing-standards:
    style: [twin-head,twin-blue]
