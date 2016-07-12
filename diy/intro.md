@@ -7,7 +7,9 @@ issueNo: 138
 articleBar: 'no'
 readiness:
    - is-complete
-   - is-active
+   - is-complete
+   - is-complete
+   - is-complete
 ---
 
 {% include content-navigation.html type="article" %}
