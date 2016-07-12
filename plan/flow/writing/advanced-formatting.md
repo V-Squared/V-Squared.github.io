@@ -43,7 +43,7 @@ contents:
       - name: Table Styles
         url: ref-table-styles
   - name: Reference
-    url: #reference
+    url: reference
     subitems:
       - name: Tools
         url: ref-tools
