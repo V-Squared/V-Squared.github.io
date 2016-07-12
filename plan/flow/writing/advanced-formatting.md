@@ -183,6 +183,15 @@ table-style-twin-head:
      - data: [Feature 2,―,✓]
        color: [tp,rd,gn]
 
+table-style-twin-head-desc:
+   style: [twin-head,twin-blue]
+   name: Style Twin Headings
+   desc: Ideal for Term and Definition
+   head: [Term, Definition]
+   rows:
+     - data: [Term 1, Definition 1]
+     - data: [Term 2, Definition 2]
+
 table-style-row-head:
    style: [row-head,row-blue]
    name: Style Row Heading
@@ -530,16 +539,17 @@ Developing tables with useful content and explessive layout is a lot of work. Li
 
 ## Reference for all Table Styles {#ref-table-styles}
 
-There are four table styles suited for different data types
+There are five table styles suited for different data types
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
-|  Table Style | Data Type             | 
-|-------------:|:----------------------|
-|  Column Head | Standard table        |
-|    Twin Head | Feature Comparison    |
-|     Row Head | Terms and Description |
-|      No Head | List of Things        |
+|          Table Style | Data Type             | 
+|---------------------:|:----------------------|
+|          Column Head | Standard table        |
+|            Twin Head | Feature Comparison    |
+|Twin Head Description | Terms and Description |
+|             Row Head | Item Lists            |
+|              No Head | List of Things        |
 
 
 ### Column Head  
@@ -553,6 +563,10 @@ There are four table styles suited for different data types
 {% include table id="table-style-twin-head" %}
 
     style: [twin-head,twin-blue]
+
+### Twin Head Description
+
+{% include table id="table-style-twin-head-desc" %}
 
 ### Row Head
 
