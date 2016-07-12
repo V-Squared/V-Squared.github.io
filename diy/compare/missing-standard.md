@@ -272,14 +272,14 @@ Standardized and published workflow on creating, publishing, improving and maint
 
 ## Contribution Standards {#contribution-standards}
 
-The standard below ensure that the V² Standard documents are presented in a consistent manner:
+The standards below ensure that the V² Standard documents are presented in a consistent manner:
 
 {:.uk-table.twin-head-desc.twin-blue}
 
 | Contribution Standards | Description |
 |-----------------------:|:-------------|
 |      V² Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
-|        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected on file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
+|        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected one file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
 |         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide](https://v-squared.github.io/plan/flow/writing/style-guide/) |
 |                 V² Art | Visual Style Guides for Illustrations. Workflows on creating Photos, Snapshots, Pixel, Vexctor and Interactive Illustrations. |
 |          V² Formatting | Tutorials and references on styling and formatting articles on V². Read more → [Basic Article Formatting](https://v-squared.github.io/plan/flow/writing/basic-formatting/) and [Advanced Article Formatting](https://v-squared.github.io/plan/flow/writing/advanced-formatting/) |
@@ -317,7 +317,7 @@ A V²PC is modular, giving the maker, retailer and user greater flexibility in c
 
 ### Shorten Development Time & Risks
 
-Every computer manufcturer knows that development costs and risks of an All-In-One PC are significantly higher when compared to a desktop. V² Modular PC standards apply the exact same modular design and manufacturing methods of desktop PCs to Mini and All-In-One PCs.
+Every computer manufacturer knows that development costs and risks of an All-In-One PC are significantly higher when compared to a desktop. V² Modular PC standards apply the exact same modular design and manufacturing methods of desktop PCs to Mini and All-In-One PCs.
 
 ### Reduced Inventory
 
