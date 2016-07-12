@@ -41,10 +41,14 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
-| Focus on which Computer type | Entry to Mid Range PC | Workstation PC |
+|--------:|:---:|:----:|
+| Focus on Computer type | Entry to Mid Range PC | Workstation PC |
 | Market Focus | Consumer | Freelance / Contractor / Professional |
 | Sales and Marketing Platform | Crowd Funding | V² Community Promotion |
+| Product Range | DIY PC Case | DIY PC Case & Ready Built PC |
+| ViCase Generation | G1 | G2 |
+
+
 
 
 # Power {#power}
@@ -52,13 +56,15 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
+|--------:|:---:|:----:|
 | Max Power | 180 W | 300 W |
-| External Brick + Pico ATX | Yes | Yes |
-| External Brik + Nano ATX | No | Yes |
-| Internal Fanless PSU | No | Yes |
-| Flex ATX | No | Yes |
-| Build in Power Distribution | No | Yes |
+| External Brick + Pico ATX | ✔ | ✔ |
+| External Brik + Nano ATX | ➖ | ✔ |
+| Internal Fanless PSU | ➖ | ✔ |
+| Flex ATX | ➖ | ✔ |
+| Build in Power Distribution | ➖ | ✔ |
+
+Within one year of using ViCase G1 in our office 75% of pico ATX power supplies failed, even we already used the best brands available, which still were only third tier brands. No first or second tier PSU manufacturer offered pico ATX power supplies. As such we changed the design to accommodate Flex ATX power supplies and industrial passive nano ATX power supplies. Both are available as Gold versions with efficiency of better than 90%, long term warranty and from first tier brands.
 
 
 # Performance {#performance}
@@ -66,45 +72,51 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
+|--------:|:---:|:----:|
 | Max CPU | i7-4790 | i7-6700 |
-| Single Bracket GPU Low Profile | Yes | Yes |
-| Double Bracket GPU Low Profile | No | Yes |
+| Single Bracket GPU Low Profile | ✔ | ✔ |
+| Double Bracket GPU Low Profile | ➖ | ✔ |
 
+Most customer wanted faster GPUs. G2 delivers.
 
 # Disks {#disks}
 
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
+|--------:|:---:|:----:|
 | maximum number of Disks | 6 | 3 |
-| mSATA support | Yes | No |
-| NVME support | No | Yes |
+| mSATA support | ✔ | ➖ |
+| NVME support | ➖ | ✔ |
 | maximum data rate | 600 MB/s | 4000 MB/s |
 
+Customer feedback showed little interest in many disks and mSATA, but lots of interests in M2 NVME.
 
 # Safety {#safety}
 
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
-| Kensington Lock | Yes | Yes |
-| Surge Protection | No | Yes |
-| EMI Protection | No | Yes |
-| User replaceable Fuse | No | Yes |
+|--------:|:---:|:----:|
+| Kensington Lock | ✔ | ✔ |
+| Surge Protection | ➖ | ✔ |
+| EMI Protection | ➖ | ✔ |
+| User replaceable Fuse | ➖ | ✔ |
 
+We got lots of questions on integrating surge protection and EMI.
 
 # Available Standards by time of shipping {#standards}
 
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
-|V²picoATX-PSU | No | Yes |
-|V²nanoATX-PSU | No | Yes |
-|V²FlexATX-PSU | No | Yes |
+|--------:|:---:|:----:|
+|V²picoATX-PSU | ➖ | ✔ |
+|V²nanoATX-PSU | ➖ | ✔ |
+|V²FlexATX-PSU | ➖ | ✔ |
+
+We are starting to publish V² standards. We begin with the missing power supply standards, as these provides the biggest synergies for users, power supply makers and V²Case developers.
+
 
  
 # Case Features {#case-features}
@@ -112,13 +124,15 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
-| CNC Cut Aluminum, sand blasted, anodized | Yes | No |
-| Logo Customization | No | Yes |
-| Square Shape | No | Yes |
-| Logo upright in 4 mounting directions | No | Yes |
-| Spare Parts | No | Yes |
-| 3 Chamber Airflow | No | Yes |
+|--------:|:---:|:----:|
+| CNC Cut Aluminum, sand blasted, anodized | ✔ | ✔ |
+| Logo Customization | ➖ | ✔ |
+| Square Shape | ➖ | ✔ |
+| Logo upright in 4 mounting directions | ➖ | ✔ |
+| Spare Parts | ➖ | ✔ |
+| 3 Chamber Airflow | ➖ | ✔ |
+
+We were able to add all features that were requested by the community to the 2nd generation ViCase.
 
 
 # Accessories {#accessories}
@@ -126,16 +140,18 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
+|--------:|:---:|:----:|
 | ViCase Access | Plastic | Aluminum |
-| ViCase Access Includeded | No | Yes |
-| Included ViCase Stand | No | Yes |
-| Included ViCase VESA | No | Yes |
-| Mounting Option ViCase Access to ViCase Stand | No | Yes |
-| Arduino Mini Pro compatible | No | Yes |
-| ViCase Chroma | No | Yes | 
-| Ultra Low Fan Speed Option | No | Yes |
-| 3 Pin Fan Support with Fan Speed Regulation | No | Yes |
+| ViCase Access Includeded | ➖ | ✔ |
+| Included ViCase Feet | ➖ | ✔ |
+| Included ViCase VESA | ➖ | ✔ |
+| Mounting Option ViCase Access to ViCase Stand | ➖ | ✔ |
+| Arduino Mini Pro compatible | ➖ | ✔ |
+| ViCase Chroma | ➖ | ✔ | 
+| Ultra Low Fan Speed Option | ➖ | ✔ |
+| 3 Pin Fan Support with Fan Speed Regulation | ➖ | ✔ |
+
+The system for G2 is greatly expanded.
 
 
 # Portability {#portability}
@@ -143,12 +159,12 @@ contents:
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | 1G | 2G |
-|:--------|:---:|:----:|
-| Small Size | Yes | Yes |
-| Easy inspection boarding airplane | No | Yes |
-| Integrated PSU and Power Distribtion | No | Yes |
+|--------:|:---:|:----:|
+| Small Size | ✔ | ✔ |
+| Easy inspection boarding airplane | ➖ | ✔ |
+| Integrated PSU and Power Distribtion | ➖ | ✔ |
 
-
+Portability was very important to community members.
 
 # Wishlist for ViCase G3 {#wishlist-g3}
 
