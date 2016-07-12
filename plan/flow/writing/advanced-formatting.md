@@ -23,6 +23,8 @@ contents:
         url: polish-code
       - name: Apply Styling
         url: apply-styling
+      - name: Use Graphic Symbols
+        url: use-graphic-symbols
   - name: Super Tables
     url: super-table-formatting
     subitems:
@@ -308,7 +310,7 @@ The easiest way is to use → [Markdown Tables Generator](http://www.tablesgener
 Please refer → [Reference for all Table Styles](#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
 
 
-## Use Graphic Symbols
+## Use Graphic Symbols {#use-graphic-symbols}
 
 ```markdown
 {:.uk-table.twin-head.twin-blue}
