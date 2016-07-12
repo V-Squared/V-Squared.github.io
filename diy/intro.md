@@ -1,33 +1,13 @@
 ---
 layout: page
-title: Compare
-subtitle: Comparison Reviews.
-abstract: See how ViPC stacks up against competing workstation PCs, mini PCs, and custom PCs. Comparing different computers can be tiring and confusing, so we made a shelf of articles that has all of the information you need right in front of you, headache free.
+title: Introduction to V² Modular Workstation PC
+subtitle: Features, Comparison Reviews and White Papers
+abstract: Learn about the unique features of ViPC and how they can increase your productivity. See how ViPC stacks up against competing workstation PCs, mini PCs, and custom PCs. Finally white papers explain the technical background.
 issueNo: 138
+articleBar: 'no'
 readiness:
    - is-complete
    - is-active
 ---
 
-*These will be links*
-
-Workstation Comparison
-Custom PC Comparison
-Mac Mini Comparison
-Vicase Generations
-
-
-
-# Staying up to date
-
-Computer manufacturers are constantly coming out with new models of their products. This can be difficult to keep up with, making it hard to find all of the best options when puchasing a computer. 
-
-# Making your Life Easier
-
-Workstation comparisons aren't common, and finding the best one for your needs can be difficult. We put the specifications of all popular workstation computers in one article so you can easily compare them side by side and choose which is best. ViPC has a range of configurations to choose from, so find the one you want and compare it with others on the market.
-
-# Vicase Generations
-
-![vicase-overview-1](https://cloud.githubusercontent.com/assets/16950279/16326887/88e78456-397f-11e6-9221-aa67d7b3a454.jpg)
-
-ViCase and ViPC are generational, with many iterations planned from your requests and ideas. Our generations article is aimed to give an overview of the changes ViCase goes through and were we started with it. This article will be contiously updated with new models.
+{% include content-navigation.html type="book" %}
