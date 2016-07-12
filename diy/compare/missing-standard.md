@@ -162,7 +162,7 @@ Set of standards that cover all parts needed to build a modular Mini PC.
 
 Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management.
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 |              Standard | Description |
 |----------------------:|:-------------:|
@@ -180,7 +180,7 @@ Set of standards that were not important at time of creation of the original set
 
 Set of standards that expand the Modular PC Standard to build modular All-In-One PCs.
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 |           Standard | Description |
 |-------------------:|:-------------:|
@@ -226,7 +226,7 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 Developing standards means to coordinate a lot of work by many contributors over a very long period of time. We have contributed a complete board (section) of our web site by the name [V²Plan](https://v-squared.github.io/plan/) to this purpose. Below is a list of the key documents to get you started:
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
 |-----------------------:|:-------------:|
@@ -242,7 +242,7 @@ For a complete overview → [V²Plan](https://v-squared.github.io/plan/).
 
 Standardized and published workflow on creating, publishing, improving and maintaining the V² Modular PC standard documents including their supporting design files.
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
 |-----------------------:|:-------------:|
@@ -261,7 +261,7 @@ Standardized and published workflow on creating, publishing, improving and maint
 
 The standard below ensure that the V² Standard documents are presented in a consistent manner:
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head-desc.twin-blue}
 
 | Contribution Standards | Description |
 |-----------------------:|:-------------:|
