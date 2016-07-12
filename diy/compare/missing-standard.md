@@ -150,7 +150,7 @@ V² Modular PC is actively developed by its community. It resides on [https://v-
 {:.uk-table.twin-head-desc.twin-blue}
 
 |                Standard | Description |
-|------------------------:|-------------:|
+|------------------------:|:-------------|
 |    Modular PC Standards | Set of standards that cover all parts needed to build a modular Mini PC. |
 | Supporting PC Standards | Set of standards that were not important at time of creation of the original set of ATX standards, yet became important until today. E.g. Airflow or Noise Management. |
 |      Modular All-In-One | Set of standards that expand the Modular PC Standard to build modular All-In-One PCs. |
@@ -173,7 +173,7 @@ Set of standards that were not important at time of creation of the original set
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Standard | Description |
-|----------------------:|-------------:|
+|----------------------:|:-------------|
 | V² Airflow Management | Standardized V² Airflow design is integrated with V²Case design, providing maximum thermal design power versus minimum case size and generated noise. |
 |   V² Noise Management | Design Guides to develop airflow with reduced noise footprint. Creation of 5 noise classes making it easy for the buyer to gauge loudness of a PC when buying. |
 |        V² Dust Filter | Standardized filter design that are quick and easy to clean. Integrated with V²Case design. |
@@ -191,7 +191,7 @@ Set of standards that expand the Modular PC Standard to build modular All-In-One
 {:.uk-table.twin-head-desc.twin-blue}
 
 |           Standard | Description |
-|-------------------:|-------------:|
+|-------------------:|:-------------|
 |           V²Access | Remote power on switch and status LED to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
 |       V²USB-Access | Simple remote USB Ports to a Modular PC for easy access when the Modular PC is placed behind the display. PCB mounting pattern, case specifications, case mounting pattern, cable specs, connector pin outs, circuit diagram. |
 |             V²Feet | Standardized feet to V²Case. Allows placement of ports in left, up and right direction. |
@@ -237,7 +237,7 @@ Developing standards means to coordinate a lot of work by many contributors over
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
-|-----------------------:|-------------:|
+|-----------------------:|:-------------|
 |          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guides for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
 |            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map](https://v-squared.github.io/plan/road-map/)|
 |              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard](https://v-squared.github.io/plan/dashboard/) |
@@ -253,7 +253,7 @@ Standardized and published workflow on creating, publishing, improving and maint
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
-|-----------------------:|-------------:|
+|-----------------------:|:-------------|
 |          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute](https://v-squared.github.io/plan/contribute/)|
 |               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile](https://v-squared.github.io/plan/agile/)|
 |    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles](https://v-squared.github.io/plan/flow/writing/)|
@@ -272,7 +272,7 @@ The standard below ensure that the V² Standard documents are presented in a con
 {:.uk-table.twin-head-desc.twin-blue}
 
 | Contribution Standards | Description |
-|-----------------------:|-------------:|
+|-----------------------:|:-------------|
 |      V² Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
 |        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected on file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
 |         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide](https://v-squared.github.io/plan/flow/writing/style-guide/) |
