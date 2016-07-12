@@ -7,11 +7,10 @@
 <collapse-bar id="article-col" class="article-col">
 
   <div style="margin-top: 38px;"></div>
-  <div class="article-bar">
     <h3 class="padding">{{ my_page.menu }}</h3>
     <p class="padding">{{ my_page.desc }}</p>
 
-    <ul data-uk-sticky="{top:71,media: '(min-width: 640px)'  }" style="z-index:10"
+    <ul data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'  }" style="z-index:10"
         class="article-nav uk-nav" v2-accordian>
 
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
@@ -57,7 +56,6 @@
       {% endfor %}
 
     </ul>
-  </div>
 </collapse-bar>
 
 {% endif %}
