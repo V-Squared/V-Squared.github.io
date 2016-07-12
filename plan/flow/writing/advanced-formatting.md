@@ -42,6 +42,11 @@ contents:
         url: ref-background-colors
       - name: Table Styles
         url: ref-table-styles
+  - name: SlideShow
+    url: slide
+    subitems:
+      - name: Example
+        url: slide-example
   - name: Reference
     url: reference
     subitems:
@@ -231,7 +236,17 @@ table-style-no-head:
        color: [tp, tp, tp, tp]
      - data: [ ∅  ,  ∆ ,  ❤  ,  ❢ ] 
        color: [tp, tp, tp, tp]
-
+slideshow1:
+  slides:
+    - img: /images/placeholder_800x400_1.jpg
+      title: Title 1
+      desc: This is a description 1
+    - img: /images/placeholder_800x400_2.jpg
+      title: Title 2
+      desc: This is a description 2
+    - img: /images/placeholder_800x400_3.jpg
+      title: Title 3
+      desc: This is a description 3
 ---
 
 
@@ -583,6 +598,33 @@ There are five table styles suited for different data types
 
     style: [no-head,no-blue]
 
+# SlideShow {#slide}
+
+The SlideShow like the others, in a include. you include the slideshow with ```{% raw %}{% include slideshow id="slideshow1" %}{% endraw %}``` with an id that is referencing the config in the front matter which is :
+
+```yml
+slideshow:
+  slides:
+    - img: /images/placeholder_800x400_1.jpg
+      title: Title 1
+      desc: This is a description 1
+    - img: /images/placeholder_800x400_2.jpg
+      title: Title 2
+      desc: This is a description 2
+    - img: /images/placeholder_800x400_3.jpg
+      title: Title 3
+      desc: This is a description 3
+```
+
+All the slide is inside the slides object. The properties are:
+
+- img: Url to the image
+- title: The <h1> title of the slide
+- description: The <p> description of the slide
+
+## Example {#slide-example}
+
+{% include slideshow id="slideshow1" %}
 
 # Reference {#reference}
 

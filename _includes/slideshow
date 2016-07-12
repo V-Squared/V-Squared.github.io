@@ -1,0 +1,30 @@
+{% if include.id %}
+{% assign slideshow = page.[include.id] %}
+{% else %}
+{% assign slideshow = page.slideshow %}
+{% endif %}
+
+<div class="uk-slidenav-position" data-uk-slideshow="{animation: 'swipe'}">
+   <ul class="uk-slideshow">
+     {% for slide in slideshow.slides %}
+     <li>
+       <img src="{{slide.img}}" />
+       {% if slide.title or slideshow.desc %}
+       <div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom">
+        {% if slide.title %}<h1 style="margin-top:0">{{slide.title}}</h1>{% endif %}
+        {% if slide.desc %}<p>{{slide.desc}}</p>{% endif %}
+       </div>
+       {% endif %}
+     </li>
+     {% endfor %}
+   </ul>
+   <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"
+     style="rgba(255,255,255,0.4)"></a>
+   <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"
+      style="rgba(255,255,255,0.4)"></a>
+   <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+    {% for slide in slideshow.slides %}
+    <li data-uk-slideshow-item="{{forloop.index0}}"><a href=""></a></li>
+    {% endfor %}
+  </ul>
+</div>
