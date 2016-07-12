@@ -3,7 +3,7 @@ layout: page
 title: The Missing PC Standard
 subtitle: White Paper on benefits of the new PC Standard and comparison to current standards
 abstract: >
-   This white paper compares the new *PC standard* V² Modular PC to the current All-In-One, Desktop and Mini PC standards, respectively pointing out the lack thereof. In that comparison the reason of being for the new PC standard becomes obvious as it fills a gap not covered by the current standards. 
+   This white paper compares the new *PC standard* V² Modular PC to the current All-In-One, Desktop and Mini PC standards, respectively pointing out the lack thereof. The reason of being for the new PC standard becomes obvious as it fills a gap not covered by the current standards. 
 issueNo: 209
 contents:
    - name: Solving Problems
@@ -138,7 +138,7 @@ The solution is obvious: Develop, publish and market the missing standards. This
 
 ### Problem 2: ATX has no Active Development
 
-The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening, at the very least a visitor would not know how and where to contribute to. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
+The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening, at the very least a visitor would not know how and where to contribute to. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
 
 
 ### Solution 2: V² Community Development Platform
@@ -262,7 +262,7 @@ Standardized and published workflow on creating, publishing, improving and maint
 |          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute](https://v-squared.github.io/plan/contribute/)|
 |               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile](https://v-squared.github.io/plan/agile/)|
 |    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles](https://v-squared.github.io/plan/flow/writing/)|
-|             V²CAM.Flow | V²Case Trailblazer Product Cases are manufactured via CNC cut. We found that there exists no standard on how to go effectively from CAD → CAM → CNC. As such handing over a CNC project to the CNC shop is inefficient. V²CAM.Flow is an attempt to solve this problem for us and possibly also for the CNC industry. Read more → [V²CAM.Flow](https://v-squared.github.io/plan/flow/mechanical/cad-cam-cnc/)|
+|             V²CAM.Flow | V²Case Trailblazer Product Cases are manufactured via CNC cut. We found that there is no standard on how to go effectively from CAD → CAM → CNC. As such handing over a CNC project to the CNC shop is inefficient. V²CAM.Flow is an attempt to solve this problem for us and possibly also for the CNC industry. Read more → [V²CAM.Flow](https://v-squared.github.io/plan/flow/mechanical/cad-cam-cnc/)|
 |      Standard Creation | Workflow on creating a V² Standard Document with all supporting technical files.|
 |     Release Management | Workflow on publishing a new release of a V²Standard including promotion.|
 |     Version Management | Workflow, specs, tutorials and tools on version management of V² Standards.|
@@ -281,7 +281,7 @@ The standards below ensure that the V² Standard documents are presented in a co
 |      V² Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
 |        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected one file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
 |         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide](https://v-squared.github.io/plan/flow/writing/style-guide/) |
-|                 V² Art | Visual Style Guides for Illustrations. Workflows on creating Photos, Snapshots, Pixel, Vexctor and Interactive Illustrations. |
+|                 V² Art | Visual Style Guides for Illustrations. Workflows on creating Photos, Snapshots, Pixel, Vector and Interactive Illustrations. |
 |          V² Formatting | Tutorials and references on styling and formatting articles on V². Read more → [Basic Article Formatting](https://v-squared.github.io/plan/flow/writing/basic-formatting/) and [Advanced Article Formatting](https://v-squared.github.io/plan/flow/writing/advanced-formatting/) |
 |  V² Layout Style Guide | Consistent use of colors and text styles |
 
@@ -331,8 +331,8 @@ Computer waste with all their hazardeous materials is one of the ecological prob
 
 ## Grand Conclusion {#grand-conclusion}
 
-A Mini or All-In-One PC build by V² Modular PC standards offers significant benefits to Manufcturers, Dealer and User. In summer 2016 the second generation of products is available for purchase with the launch of the V² Community Campaign. All Modular PC standards will be published by summer 2017, ready for the launch of the V² OEM Campaign. Today anyone can contribute respectively take influennce to the development of the standard. This way you can be certain that by the time of launch the feature that you need will be included.
+A Mini or All-In-One PC build by V² Modular PC standards offers significant benefits to Manufcturers, Dealer and User. In summer 2016 the second generation of products is available for purchase with the launch of the V² Community Campaign. All Modular PC standards will be published by summer 2017, ready for the launch of the V² OEM Campaign. Today anyone can contribute respectively take influence to the development of the standard. This way you can be certain that by the time of launch the feature that you need will be included.
 
-The facts that V² Modular PC has already been 5 years in development, the availability of shipping real products, a website with detailed mission, road map and contribition workflows and last but no least the active development on the [V² Github Organization](https://github.com/V-Squared/V-Squared.github.io) all indicates that the V² Modular PC is coming and will have the impact you can expact with its rich features, open and modular standards and low costs.
+The facts that V² Modular PC has already been 5 years in development, the availability of shipping real products, a website with detailed mission, road map and contribition workflows and last but no least the active development on the [V² Github Organization](https://github.com/V-Squared/V-Squared.github.io) all indicates that the V² Modular PC is coming and will have the impact you can expect with its rich features, open and modular standards and low costs.
 
 
