@@ -29,6 +29,8 @@ contents:
      url: accessories
    - name: Portability
      url: portability
+   - name: Wishlist ViCase G3
+     url: wishlist-g3
 ---
 
 
@@ -148,7 +150,7 @@ contents:
 
 
 
-# Wishlist for ViCase G3
+# Wishlist for ViCase G3 {#wishlist-g3}
 
 ## Support for Full Height Desktop Cards
 
