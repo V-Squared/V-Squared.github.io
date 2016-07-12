@@ -32,7 +32,7 @@ contents:
         url: user-story
       - name: Key Features
         url: super-tables-features
-      - name: How it Works
+     gi - name: How it Works
         url: how-it-works
       - name: Images in Tables
         url: images-in-tables
