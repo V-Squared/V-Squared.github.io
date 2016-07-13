@@ -58,16 +58,16 @@
           url: /agile/developing/adding-scrum/
         - menu: Adding Dashboard to GitHub
           url: /agile/developing/dashboard/
-        - menu: Developing V²Plan
+        - menu: Developing V²Agile
           url: /agile/developing/developing/
-        - menu: Adapting V²Plan
+        - menu: Adapting V²Agile
           url: /agile/developing/adapting/
     - menu: Reference
       url: /agile/reference/
       group:
-        - menu: Features of V²Plan
+        - menu: Features of V²Agile
           url: /agile/reference/features/
-        - menu: V² Plan Reference
+        - menu: V² Agile Reference
           url: /agile/reference/reference/
 - menu: Flow
   url: /flow/
