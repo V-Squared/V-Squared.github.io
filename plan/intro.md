@@ -47,10 +47,14 @@ When completed V²Flow will include complete workflows for writing articles, cre
 
 A generic Agile Development and Toyota Production System that we use to get the job done in V². Key features:
 
-1. Full GitHub Issues Integration
-2. Cross Repository Management suitable for small to very large GitHub Origanizations
-3. Visualization of Progress in Road Maps and Kanban Boards
-4. Dashboard provides Weekly Sprint Overview with 3 weeks look ahead and history of all completed sprints
-5. Consistent documentation with interactive Info-graphics to ease learning
+  1. Full GitHub Issues Integration
+  2. Cross Repository Management suitable for small to very large GitHub Origanizations
+  3. Visualization of Progress in Road Maps and Kanban Boards
+  4. Dashboard provides Weekly Sprint Overview with 3 weeks look ahead and history of all completed sprints
+  5. Consistent documentation with interactive Info-graphics to ease learning
+  6. Ongoing development in the best spirit of [Eating your own dog food])https://en.wikipedia.org/wiki/Eating_your_own_dog_food), as in we use it to manage ourselves
+  7. Detailed and consistent documentation. Reducing your time to train new staff.
+  8. Consistent integration of V²Agile with V²Flow and GitHub Flow
+  9. Easy adaption to other GitHub Organizations. Licensed under CC-BY
 
-V²Agile System can be easily adapted for other GitHub Organizations. It is Open Source and Licensed under CC-By. For more information please see → [Introduction to V²Agile System](/plan/agile/).
+For more information please see → [Introduction to V²Agile System](/plan/agile/).
