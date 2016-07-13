@@ -49,6 +49,8 @@ V² is a *Standard Organization* and as such we have development going on in par
 
 GitHub's key management tool is GitHub Issues. When properly used it works very well. We optimized the structure of V² Plan's 7 Levels so that we can manage 4 Levels with GitHub Issues:
 
+{:.uk-table.twin-head.twin-blue}
+
 | V² Plan Level | GitHub Issues Tool |
 |--------------:|:-------------------|
 | 7-V²Tasks | Tasks in GitHub Issues |
@@ -64,6 +66,8 @@ For more information → V²Plan Reference Manual
 <font color="grey">??? Take the top 3 levels of Pyramid Illustrations. Move Table content to tooltips with links to specific sections in Reference Manual???</font>
 
 The top 3 levels of our V²PLan Architecture have no equivalent GitHub tool. As such we are in the process to develop them:
+
+{:.uk-table.twin-head.twin-blue}
 
 | V² Plan Level | Tool |
 |--------------:|:-------------------|
