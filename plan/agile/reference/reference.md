@@ -1,8 +1,9 @@
 ---
 layout: page
-title: V² Plan Reference
-subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to Agile Development.
-abstract: The Reference Manual to V²Plan serves two purposes&#58; <strong>1)</strong> The theoretical look behind the scenes shows the Architecture of V²Plan with occasional goodies such as an explanation why we made particular choices. This background information will help you to better remember the V²Agile Workflows. <strong>2)</strong> A place to quickly look up information.
+title: V² Agile Reference
+subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Agile.
+abstract: >
+  The Reference Manual to V²Agile serves two purposes: <strong>1)</strong> The theoretical look behind the scenes shows the Architecture of V²Plan with occasional goodies such as an explanation why we made particular choices. This background information will help you to better remember the V²Agile Workflows. <strong>2)</strong> A place to quickly look up information.
 issueNo: 75
 contents:
   - name: Labels
@@ -31,6 +32,8 @@ readiness:
 *???Draw this Image same style as the puzzle in the V² Home Page. Hover over Puzzle piece will show the tool tip with the content from the table below. ???*
 
 We have several User Manual on how to work within V²Plan. They are very hands on and their read is highly recommended. This Article however is a more theoretical look behind the scenes. It shows you the Architecture of V² Plan and sometimes adds the thinking on why we made particular choices. This background information will help you to better remember the workflows as described in other manuals:
+
+{:.uk-table.twin-head.twin-blue}
 
 | Manual | Content
 |---------:|:----------------|
@@ -148,6 +151,8 @@ Each development or production system and each tool come with their own terminol
 ![](http://comps.canstockphoto.com/can-stock-photo_csp21560771.jpg)
 *??? Create Icons for Item. We can use in many places in all Manuals to add visuals. We can use the same tool tip on SVG. We can even link to the table with more text information ???*
 
+{:.uk-table.twin-head.twin-blue}
+
 | V² Term | V² Use | Agile-DS / Toyota-PS Equivalent|
 |------------:|:---------|:-------------------|
 |True North | Whenever presented with choices we pick the one that brings us closest to our final goal *True North* | The *Toyota Production System* heavily uses *True North* this way.|
@@ -164,6 +169,8 @@ Each development or production system and each tool come with their own terminol
 ## Roles
 ![](http://www.infochimps.com/wp-content/themes/infochimps/images/roles-conf-table.png)
 *??? Find free svg silhouettes and rebuild this image. A twist would be to use personified Phoenix. Or just add one Phoenix sitting in one chair. ???*
+
+{:.uk-table.twin-head.twin-blue}
 
 | V² Roles  | Traditional Agile Equivalent|
 |------------:|:-------------------|
@@ -186,6 +193,8 @@ For more information → [V²Roles & Comunication](???) ???
 *??? My Illustration with the same Call Outs, but with different Tool Tips. Each Tool Tip has same title, but the content is about which tool is used and where the data is stored. Say Cards in Waffle, etc ... ???*
 
 **Tip:** *In this section we look at how the elements of V²Plan are stored and manipulated.  We will not discuss the workflow itself. This is discussed →  [V² Agile Manual](https://github.com/V-Squared/v2-Plan/wiki/v2-Agile-Manual) ???.*
+
+{:.uk-table.twin-head.twin-blue}
 
 | Data | Tools | Places |
 |-------:|:--------:|:--------:|
@@ -427,7 +436,8 @@ Each *Project Repository* has its own gh-pages web site. For consistency and sim
 ### Project Repository
 All Projects that are not the organization web site are Project repositories. Your Project Repositories will differ of course. For our reference and possibly your inspiration, here is a list of our current *Project Repositories*:
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head.twin-blue}
+
 | Repository | Purpose |
 |------------:|:-------------------|
 | v2-Tabs | Angular Tabs that can be selected and scrolled toward with a deep URL using hashtag. Compatible with ng-repeat. |
