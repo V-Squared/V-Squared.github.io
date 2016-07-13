@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Features of V²Plan
-subtitle: Key Features and Specs of V²Plan.
-abstract: <strong>If you are evaluating V²Plan</strong> this list of features shall quickly show you what V²Plan can and can not do. <strong>While developing V²Plan</strong> this is one of our guides what to develop. The availability of Features is listed → V²Plan Development. User Stories are in → V²Agile Workflow on GitHub and → V²Sprint Workflow on GitHub.
+title: Features of V²Agile
+subtitle: Key Features and Specs of V²Agile.
+abstract: <strong>If you are evaluating V²Agile</strong> this list of features shall quickly show you what V²Agile can and can not do. <strong>While developing V²Agile</strong> this is one of our guides what to develop. The availability of Features is listed → V²Agile Development. User Stories are in → V²Agile Workflow on GitHub and → V²Sprint Workflow on GitHub.
 issueNo: 65
 contents: 
   - name: Eating our own Dog Foot
@@ -14,7 +14,7 @@ contents:
 ---
 
 # Eating our own Dog Foot <a name="dog-foot"></a>
-We needed a System to efficiently manage development and production using Agile and Toyota Production System. All our stuff is on GitHub and we heavily use GitHub Issues and GitHub Flow. Thus we wanted a system that tightly integrates with them, yet goes beyond the capabilities of the GitHub tools. We could not find it. This is why we build V²Plan System. We hope that it makes live easier for contributors to V² and also that other Organizations on GitHub might find it useful. As always don't be shy to let us know what you think, report bugs or ideas using GitHub Issues.
+We needed a System to efficiently manage development and production using Agile and Toyota Production System. All our stuff is on GitHub and we heavily use GitHub Issues and GitHub Flow. Thus we wanted a system that tightly integrates with them, yet goes beyond the capabilities of the GitHub tools. We could not find it. This is why we build V²Agile System. We hope that it makes live easier for contributors to V² and also that other Organizations on GitHub might find it useful. As always don't be shy to let us know what you think, report bugs or ideas using GitHub Issues.
 
 
 # Methods <a name="methods"></a>
@@ -28,8 +28,8 @@ We needed a System to efficiently manage development and production using Agile 
 7. **Add Missing Tools:** While we use all available GitHub Tools to manage our projects we added missing tools for:  **1)** Kanban (Scrum) Boards, **2)** Gantt Charts, **3)** Road Maps, **4)** Dashboard
 8. **Making the Plan easy to understand:** The best way to reach our target in an effective way on time is to deliver easy to find answers to the following questions: **1)** Where are we going? **2)** What work needs to be done? **3)** how to track if we are on time? 
 9. **Easy Documentation:** Easy accessible and nice to read documentation increases the odds that contributors work towards the same goal delivering work that is compatible to each other and that their *Pull Request* are easy to integrate.
-10. **Visual and Visible Progress:** Seeing that you or your colleagues made progress is motivating and as such we added lots of visual progress indicators to the *V² Plan Workflow*.
-11. **Easy to Contribute:** The success of *V² Initiative* depends on *Contribution*. As such it is essential for our success to make contribution easy. The Architecture in V²Plan makes it easy to make **1)** Feature Requests / Bug Reports, **2)** Contribute Work and **3)** Get involved  with Management.
+10. **Visual and Visible Progress:** Seeing that you or your colleagues made progress is motivating and as such we added lots of visual progress indicators to the *V² Agile Workflow*.
+11. **Easy to Contribute:** The success of *V² Initiative* depends on *Contribution*. As such it is essential for our success to make contribution easy. The Architecture in V²Agile makes it easy to make **1)** Feature Requests / Bug Reports, **2)** Contribute Work and **3)** Get involved  with Management.
 12. **Clean Access Privileges:** Architecture and workflow is designed for clean and strict access privilege management, yet allowing the contributor to work unhindered.
 
 
@@ -39,7 +39,7 @@ We needed a System to efficiently manage development and production using Agile 
 ## Not everyone needs Cross Repo Management
 
 In fact most GitHub Organization will work well without it. This may be the reason why 
-GitHub has efficient tools to manage development within a repository. It has however no tools whatsoever to coordinate development across repositories. If you are interesting to adapt V²Plan for your Organization, please read → Adapting V²Plan. It also includes a simplified version for this case.
+GitHub has efficient tools to manage development within a repository. It has however no tools whatsoever to coordinate development across repositories. If you are interesting to adapt V²Agile for your Organization, please read → Adapting V²Agile. It also includes a simplified version for this case.
 
 ## V² needs Cross Repo Management
 V² is a *Standard Organization* and as such we have development going on in parallel in many repositories where development within a repository has dependencies to development within other repositories. Consequently we need management tools to this end. This chapter is an introduction to these tools.
