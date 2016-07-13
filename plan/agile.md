@@ -3,7 +3,7 @@ layout: page
 title: V²Agile Index
 subtitle: A generic Agile Development and Toyota Production System for GitHub Organizations
 abstract: >
-  ** Key Features:**
+  **Key Features:**
   
   1. Full GitHub Issues Integration
   2. Cross Repository Management suitable for small to very large GitHub Origanizations
@@ -17,10 +17,10 @@ abstract: >
 issueNo: 54
 visualURL: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 readiness:
-   - is-complete
-   - is-complete
-   - is-complete
-   - is-complete
+  - is-complete
+  - is-complete
+  - is-complete
+  - is-complete
 ---
 
 
