@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Style Guide
-subtitle: Set of standards on writing and designing articles for V².
+title: Writing Style Guide
+subtitle: How to write structured articles that are fast and easy to read.
 abstract: > 
-  A style guide establishes and enforces style to improve communication. To do that, it ensures consistency within a document and across multiple documents and enforces best practice in usage and in language composition, visual composition, orthography and typography. Since we publish technical articles this style guide is also concerned about the best practice in ethics (such as authorship, research ethics, and disclosure), pedagogy (such as exposition and clarity), and compliance (technical and regulatory).
+  Our style guide helps the author to write articles that are easy and fast to read for you: the reader. It takes the inexperienced author by the hand with ready to use templates. Instead the experienced author uses the style guide as reference to look up specifics on how we write at V² to provide consistent articles. Last but not least we ensure politeness through an etiquette including proper attribution.
 issueNo: 178
 readiness:
    - is-active
