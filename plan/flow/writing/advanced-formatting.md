@@ -556,7 +556,7 @@ Developing tables with useful content and explessive layout is a lot of work. Li
 
 There are five table styles suited for different data types
 
-{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+{:.uk-table.twin-head.twin-blue}
 
 |          Table Style | Data Type             | 
 |---------------------:|:----------------------|
