@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Advanced Article Formatting
-subtitle: Geek's Guide on Formatting Articles on V² 
-abstract: Your toolbox to make your articles easier to read and write even if they have complex content. Examples on powerful formatting that assists the reader in quickly ingest complex information. We also show how to keep your kramdown code legible for yourself.
+subtitle: Expert's guide on formatting articles on V². 
+abstract: We give you a tools to add that extra touch making your articles stand out and simply be more fun to read. We show examples of *Super Tables*, *Feature Slideshows*, and *Table of Contents*. All of which are assisting the reader to ingest your information faster. We also show you how to keep your kramdown source code legible.
 issueNo: 204
 contents:
   - name: Table of Contents
