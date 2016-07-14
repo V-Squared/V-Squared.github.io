@@ -59,8 +59,6 @@ We have selected 4 CPUs covering the range from lowest cost to most powerful. We
 ## Assign CPUs to Use Cases
 To make picking a CPU easier the V²Configurator simply asks you about your Field of Application and Main Use Case and then picks the right CPU for you.
 
-## Advice
-Short advice which CPU to choose for which purpose
 
 
 # CPU Comparison
@@ -80,12 +78,13 @@ Short advice which CPU to choose for which purpose
 | L3 Cache     | 4MB       | 6MB      | 8MB            | 8MB                  |
 | Overclocking | No        | No       | No             | Yes                  |
 | CPU Socket   | 1151      | 1151     | 1151           | 1151                 |
-| Power TDP    | 65        | 65       | 65             | 91                   |
-| Max Memory   | 32        | 32       | 64             | 64                   |
-| CPU Bench    |           |          |                |                      |
+| Power TDP    |   51      | 65       | 65             | 91                   |
+| Max Memory   | 64        | 64       | 64             | 64                   |
+| CPU Bench    |5800       |7050      |10000           |11000                 |
 | GPU Bench    |           |          |                |                      |
-| RAID Support |           |          |                |                      |
-
+| RAID Support |     ?     |    Yes   |     Yes        |      Yes             |
+| Max Res      |  4K@60hz  |  4K@60hz |   4K@60hz      |       4K@60hz        |
+| Price        |    147    |  230     |     300        |           344        |
 
 ## CPU Features explained
 
