@@ -9,10 +9,96 @@ readiness:
    - is-active
 ---
 
+# BTN ToC
 
-(Structured Writing)
 
-[TOC]
+
+    Introduction
+        Who is this Article for
+        Purpose of Structured Writing
+        Processes of Structured Writing
+        Where Structured Writing Fits In
+        But one link in a chain
+    Structure
+        Purpose of Structure
+        Structured Writing vs Markup Structure
+        When to apply Markup
+            Pro: While Writing
+            Beginner: Delegate Markup
+    Writing for the Web
+        Reduce Reading Cost
+        Space on the Web is Free
+        Formatting for Mobile
+    Elements of Structure
+        Jumbotron
+        Workflow & Readiness
+            4 Major Stages in Workflow
+        Heading & Paragraphs
+            Headings
+            Paragraphs
+            Blank Lines
+        Table of Contents
+            Purpose
+            Shortening Heading
+            Only two Levels
+            Automated vs Manual ToC
+        Blocks
+            Tips, Warnings & Errors
+            Source Code Blocks
+            Art Placeholders
+        Lists
+            Usage
+            Rules
+            Simple List Example
+            Workflow as List Example
+            Definition Lists
+        Tables
+        Horizontal Rules
+        Emphasis
+            Level 1
+            Level 2
+        Special Characters
+        Footnotes
+        Attribution Box
+    V² Article Template
+    Stories vs Papers
+        Stories are Remembered
+        Papers are Referenced
+        When to use What
+        Features of Stories vs Papers
+    Style, Tone, Attitude & Etiquette
+        Style
+        Tone
+        Attitude
+        Etiquette
+    Grammar
+        Acronyms
+        Numbers
+        Pronouns referring to companies:
+        Titles / Heading 1
+        Subtitles / Subheadings
+        Time
+    Punctuation
+        Commas
+        Period
+        Semicolon
+    Capitalization
+        Company Names
+        Domain names
+        Titles / Headings / Subtitles
+    Emphasis
+    Attribution
+        Intro
+        Giving Attribution
+    Conclusion
+    Reference
+        Commonly used Terms & Acronyms
+        V-Squared Trademarks
+        Village Tronic Trademarks
+        Common Trademarks
+        Special Thanks
+
+
 
 
 # Introduction
