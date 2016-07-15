@@ -2,7 +2,7 @@
 layout: page
 title: CPU
 subtitle: How to choose the CPU.
-abstract: Description of different CPU options ranging from entry level to high end. Looks over specifications, benchmarks, and recommendations for each processor. 
+abstract: Description of different CPU options ranging from entry level to high end. Covers  specifications, benchmarks, and recommendations for each processor. 
 issueNo: 137
 readiness:
    - is-active
@@ -29,7 +29,7 @@ readiness:
 # Introduction
 
 ## The problem this article solves
-There are a huge number of CPUs out there. They all have different performance and cost. You need to know what performance you need for your application. And to complicate matters, nowadays CPUs are not only about CPU performance, they also can integrate the GPU and the RAID controller. Next you need to pick the right motherboard that matches the capabilities of the CPU.
+There are a huge number of CPUs out there. Each one varies in performance, size, and cost. There are also other elements to take into consideration, such as motherboard socket, integrated GPUs and RAID controllers, the types of applications you plan to use on your computer, and many other factors. This article goes through these issues.
 
 ## How this Article solves the problem
 This Article is part of three community projects, all designed to simplify building DIY PCs
@@ -47,9 +47,9 @@ Yes! Learning how to choose components for a DIY computer is time consuming. Thi
 
 This Article is providing choices of CPUs divided into three performance classes:
 
-1. **Entry Level:** Total cost of Computer: $600+
-2. **Mid Range:** Total cost of Computer: $900+
-3. **High End:** Total cost of Computer: $1200+
+1. **Entry Level:** Total cost of Computer: $700+
+2. **Mid Range:** Total cost of Computer: $1100+
+3. **High End:** Total cost of Computer: $1800+
 
 
 
@@ -71,20 +71,20 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 |--------------|-----------|----------|----------------|----------------------|
 | Model►Name   | Intel i3  | Intel i5 | Intel i7       | Intel i7             |
 | Model►Series | 6300      | 6600     | 6700           | 6700k                |
-| Generation   | Skylake   | Skylake  | Skylake        | Skylake              |
-| # of Cores   | 2         | 4        | 8              | 8                    |
-| Clock Speed  | 3.8       | 3.3      | 3.4            | 4.0                  |
-| L2 Cache     | 2x256KB   | 4x256KB  | 4x256KB        | 4x256KB              |
-| L3 Cache     | 4MB       | 6MB      | 8MB            | 8MB                  |
-| Overclocking | No        | No       | No             | Yes                  |
-| CPU Socket   | 1151      | 1151     | 1151           | 1151                 |
-| Power TDP    |   51      | 65       | 65             | 91                   |
-| Max Memory   | 64        | 64       | 64             | 64                   |
-| CPU Bench    |5800       |7050      |10000           |11000                 |
-| GPU Bench    |           |          |                |                      |
-| RAID Support |     ?     |    Yes   |     Yes        |      Yes             |
-| Max Res      |  4K@60hz  |  4K@60hz |   4K@60hz      |       4K@60hz        |
-| Price        |    147    |  230     |     300        |           344        |
+| Model►Series | Skylake   | Skylake  | Skylake        | Skylake              |
+|Model►# of Cores  | 2         | 4        | 8              | 8                    |
+|Perf►Clock  | 3.8       | 3.3      | 3.4            | 4.0                  |
+| Perf►L2 Cache     | 2x256KB   | 4x256KB  | 4x256KB        | 4x256KB              |
+| Perf►L3 Cache     | 4MB       | 6MB      | 8MB            | 8MB                  |
+| Perf►Overclocking | No        | No       | No             | Yes                  |
+| Misc►Socket   | 1151      | 1151     | 1151           | 1151                 |
+| Misc►Power TDP    |   51      | 65       | 65             | 91                   |
+| Mem►Max Memory   | 64        | 64       | 64             | 64                   |
+| Perf►CPU Bench    |5800       |7050      |10000           |11000                 |
+| Perf►GPU Bench    |           |          |                |                      |
+| Disk►RAID5 |     ?     |    Yes   |     Yes        |      Yes             |
+| Perf►Max Resolution|  4K@60hz  |  4K@60hz |   4K@60hz      |       4K@60hz      |
+| Price        |    $147    |  $230     |     $300        |           $344        |
 
 ## CPU Features explained
 
@@ -102,24 +102,20 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 |Perf►L3 Cache|Slower than L2 cache, but faster than DDR memory. More is better|
 |Perf►CPU Bench|Rating in www.cpubenchmark.net|
 |Perf►GPU Bench|Rating in http://www.videocardbenchmark.net/|
-|Perf►Quick Video|Acceleration for conversion of video for online sharing video editing|
 |Perf►Max Resolution|Max Resolution of Display connected to Motherboard|
 |Perf►Overclocking| Does the vendor allow overclocking? (Yes|No)|
 |Misc►Socket|Name of Socket. Make sure to use a Motherboard with same socket|
 |Misc►Power TDP|Maximum Thermal Design Power aka TDP. Make sure to use a CPU cooler that can handle the power|
-|Misc►Boxed Cooler|Is a cooler included when buying a CPU. When building a value PC, this cooler will be OK. If you want to build a high end or very silent PC, check out ViCase-Cooler options|
 |Mem►Max Size|Max Size of Memory|
-|Mem►Type|DDR3 or DDR4|
 |Mem►Speed|Max Clock Speed Speed of Memory in MHz|
-|Disk►Hybrid Disk|Speed up HDD by caching data on the SSD. Makes your HDD faster|
 |Disk►RAID5|Requires at least 3 Disks. Makes your HDD significantly faster and the same time makes your data more safe. Even when one disk can fails you will still have all data.|
 
 ### List of CPUs (with Tag Lines)
 
-- [i3-6300] $147  - Intel - EntryRange
-- [i5-6600] $230   - Intel - Fast Mid Range
-- [i7-6700] $300  - Intel - High End
-- [i7-6700K] $344  - Intel - Extreme
+- [i3-6300](https://www.amazon.com/Intel-i3-6300-Processor-LGA1151-BX80662I36300/dp/B015VPX3G6/ref=sr_1_2?) $147  - Intel - EntryRange
+- [i5-6600](https://www.amazon.com/Intel-I5-6600-FC-LGA14C-Processor-BX80662I56600/dp/B0136JONRM/ref=sr_1_fkmr0_1?) $230   - Intel - Fast Mid Range
+- [i7-6700](https://www.amazon.com/Intel-I7-6700-FC-LGA14C-Processor-BX80662I76700/dp/B0136JONG8/ref=sr_1_3?) $300  - Intel - High End
+- [i7-6700K](https://www.amazon.com/Intel-Boxed-I7-6700K-Processor-BX80662I76700K/dp/B012M8LXQW/ref=sr_1_2?) $344  - Intel - Extreme
 
 ### CPU Benchmarks
 
@@ -132,23 +128,7 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 |i7-6700|10000 |
 |i7-6700K|11000|
 
-
-## Advice for choosing a CPU
-
-### Intel 6300 i3
-Entry level i-series from Intel. Two cores but uses Intel hyper-threading, making two virtual cores for a total of 4. High base clock speed and strong enough for non-CPU heavy gaming, photo editing, or light 3D-modeling. 
-
-### Intel 6600 i5
-This is the latest generation of Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often get higher performance for your money by investing into a PCIe Add In Card of the type corresponding to your application. The i5-6500 CPU comes with the newly released LGA 1151 socket with the key benefit to support DDR4. DDR4 memory clock starts today at 2133 MHz, versus 1600 MHz of DDR3. Yet you will not see today faster memory transfer rates in real life. This is because the CAS timing is more relaxed as with DDR3 memory. Surely this will change in the future. However, there is one benefit that you can enjoy instantly. DDR4 will allow in an ITX motherboard 32 GB, whereas DDR3 will max out at 16 GB!
-
-### Intel 6700 i7
-High end consumer model that supports hyper-threading; the Intel i7 series has 4 physical cores but this technology also has 4 virtual cores, giving 8 core performance. This is extremely valuable for CPU intensive applications, such as 3d model rendering. Compared the the i5 series, hyper-threading is the only real advantage when choosing the i7 model. Not a processor suited for gamers as 8 cores isn't necessary for games, but a worthwhile purchase for professional work.
-
-### Intel 6700k i7
-Ultimate consumer CPU. Higher base clock speed as the 6700 with an unlocked core, allowing the user to overclock the processor. We do not recommend overclocking to everyone as it can shorten the lifespan of the CPU, increase power consumption, and cause potential lock-ups with the system, but overclocking can be a great way to increase performance for applications that depend on clock speed.
-
-
-
+- Numbers taken from www.cpubenchmark.net
 
 # About Intel CPU Sockets
 
@@ -172,6 +152,19 @@ Ultimate consumer CPU. Higher base clock speed as the 6700 with an unlocked core
 - https://en.wikipedia.org/wiki/LGA_1150
 - https://en.wikipedia.org/wiki/LGA_1151
 
+## Advice for choosing a CPU
+
+### Intel 6300 i3
+Entry level i-series from Intel. Two cores but uses Intel hyper-threading, making two virtual cores for a total of 4. High base clock speed and strong enough for non-CPU heavy gaming, photo editing, or light 3D-modeling. 
+
+### Intel 6600 i5
+This is the latest generation of Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often get higher performance for your money by investing into a PCIe Add In Card of the type corresponding to your application. The i5-6500 CPU comes with the newly released LGA 1151 socket with the key benefit to support DDR4. DDR4 memory clock starts today at 2133 MHz, versus 1600 MHz of DDR3. Yet you will not see today faster memory transfer rates in real life. This is because the CAS timing is more relaxed as with DDR3 memory. Surely this will change in the future. However, there is one benefit that you can enjoy instantly. DDR4 will allow in an ITX motherboard 32 GB, whereas DDR3 will max out at 16 GB!
+
+### Intel 6700 i7
+High end consumer model that supports hyper-threading; the Intel i7 series has 4 physical cores but this technology also has 4 virtual cores, giving 8 core performance. This is extremely valuable for CPU intensive applications, such as 3d model rendering. Compared the the i5 series, hyper-threading is the only real advantage when choosing the i7 model. Not a processor suited for gamers as 8 cores isn't necessary for games, but a worthwhile purchase for professional work.
+
+### Intel 6700k i7
+Ultimate consumer CPU. Higher base clock speed as the 6700 with an unlocked core, allowing the user to overclock the processor. We do not recommend overclocking to everyone as it can shorten the lifespan of the CPU, increase power consumption, and cause potential lock-ups with the system, but overclocking can be a great way to increase performance for applications that depend on clock speed.
 
 
 # Where to find more Information
