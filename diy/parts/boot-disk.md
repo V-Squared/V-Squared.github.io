@@ -45,6 +45,8 @@ Unfortunately not. The latest M2 and NVME will not always boot. Due to the impor
 ## SATA3 vs NVME-M.2 vs NVME-PCIe
 Nowadays SSDs are faster than SATA 3. In response the industry developed M2 Modules and NVME PCIe Add In Cards. There are also NVME 2.5" disks, but they are not easy to connect. Here is a brief overview.
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 |Feature                  |SATA3 SSD 2.5" | M2 Module  | PCIe NVME   |
 |------------------------:|:-------------:|:----------:|:-----------:|
 |Theoretical Max Speed    | 0.65 GBps     | 4 GBps     | 4 GBps      |
