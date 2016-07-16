@@ -65,6 +65,8 @@ Short advice which motherboard to choose for which purpose
 
 ## Comparison Table
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | MoBo Feature        |Entry Level|High End Model|
 |:--------------------|:-------:|:-------:|
 | MoBo►Name           |[Gigabyte H170N](https://www.amazon.com/Gigabyte-LGA1151-Mini-ITX-Motherboard-GA-H170N-WIFI/dp/B015CQ8D9Q/ref=sr_1_6?)|[Gigabyte Z170N](https://www.amazon.com/Gigabyte-LGA1151-Mini-ITX-Motherboards-GA-Z170N-Gaming/dp/B014W2000Q/ref=sr_1_4?)|
@@ -99,6 +101,8 @@ Short advice which motherboard to choose for which purpose
 
 
 ## Motherboard Features explained
+
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | MoBo Feature | Feature explained |
 |--------------------:|:------------------|
