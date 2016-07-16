@@ -2,7 +2,7 @@
 layout: page
 title: Boot Disk
 subtitle: How to choose the Boot Disk.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: Learn about the importance of your boot disk and what the best option is for you. We go over several different types of disks that are recommended for using as a boot disk.
 issueNo: 161
 readiness:
    - is-complete
