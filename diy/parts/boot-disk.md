@@ -88,6 +88,8 @@ You can stripe SATA SSD in RAID 0 to double the data rate or mirror the disks fo
 
 # Comparison Table
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | Disk       | Read Speed | Write Speed | Read IOPS  | Write IOPS  |
 |-----------:|:----------:|:-----------:|:----------:|:-----------:|
 |Average HDD        | 150 MB/s | 150 MB/s | 0.1K     | 0.1K        |
