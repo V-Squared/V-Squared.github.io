@@ -74,6 +74,8 @@ Short advice which Memory to choose for which purpose
 ## DDR3 vs DDR4
 These are the key differences
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | Memory Type:        |DDR3       |DDR4     |
 |:--------------------|:-------:  |:-------:|
 |Clock Speed(MHz)     |1600       |2133     |
@@ -87,6 +89,8 @@ Please note that DDR3 is at the end of its life cycle. This means it is very mat
  
 ## Memory speed with and without overclocking
 Recent CPUs all have the same standard memory clock speeds:
+
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | Memory Type:        |DDR3       |DDR4     |
 |:--------------------|:-------:  |:-------:|
@@ -106,6 +110,8 @@ Each Memory Module is 64 Bit. Today's CPUs have a 128 Bit memory connection. For
 
 ## Memory Comparison Table
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | Memory Feature          |DDR3       |DDR4     |
 |:--------------------    |:-------:  |:-------:|
 |Speed(MHz)               |1600       |2133     |
@@ -121,6 +127,8 @@ Each Memory Module is 64 Bit. Today's CPUs have a 128 Bit memory connection. For
 
 
 ## Memory Features explained
+
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | Memory Feature          |Feature explained|
 |:--------------          |:-------:        |
@@ -175,6 +183,8 @@ DDR4 is the future. Immediate benefits are that a DDR4 Mini-ITX system supports 
 ## Always use two Memory Modules
 This is the most important thing to remember from this Article: Two Memory Modules are twice as fast than one!
 ## Recommended Memory Size
+
+{:.uk-table.uk-table-hover.table-header-row-column}
 
 | Performance Level | Minimum Memory Size |
 |------------------:|:--------------------|
