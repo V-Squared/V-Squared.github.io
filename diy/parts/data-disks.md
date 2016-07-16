@@ -28,6 +28,8 @@ Yes! Learning how to choose components for a DIY computer is time consuming. Thi
 ## Comparison Table
 ## Data Disk Comparison Table
 
+{:.uk-table.uk-table-hover.table-header-row-column}
+
 | Disk Feature | WD Blue      | WD Blue SSHD    | WD Black   | WD Red     | Samsung 850 EVO | Samsung 850 EVO |
 |--------------|--------------|-----------------|------------|------------|-----------------|-----------------|
 | Type         | HDD          | SSHD            | HDD        | HDD        | SSD             | mSATA           |
