@@ -2,7 +2,7 @@
 layout: page
 title: Data Disks
 subtitle: How to choose Data Disks.
-abstract: Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met. Lorem Ipsum dolar sit at met.
+abstract: Secondary storage drives that hold songs, videos, and documents. Data drives tend to value storage over speed, giving plenty of room to hold data.
 issueNo: 162
 readiness:
    - is-complete
