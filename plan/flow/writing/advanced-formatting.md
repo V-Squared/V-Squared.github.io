@@ -226,6 +226,12 @@ table-style-no-head:
    rows:
      - data: [←, ↑, →, ↓]
        color: [tp, tp, tp, tp]
+     - data: [  ⇤  , ⤒ ,  ⇥ , ⤓   ]  
+       color: [tp, tp, tp, tp]
+     - data: [   ↤ , ↥ ,   ↦ , ↧  ]   
+       color: [tp, tp, tp, tp]
+     - data: [  ➴ , ➵ ,   ➶ ,    ➽    ]
+       color: [tp, tp, tp, tp]
      - data: [ ☐ , ☑  ,  ☒  ,   ☓   ]
        color: [tp, tp, tp, tp] 
      - data: [ ✔ , ✘  ,  ➖ , ✚  ]
