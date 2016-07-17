@@ -9,26 +9,34 @@ readiness:
    - is-active
 ---
 
+
+{Structured Writing}
+
 # BTN ToC
-
-
 
     Introduction
         Who is this Article for
         Purpose of Structured Writing
-        Processes of Structured Writing
         Where Structured Writing Fits In
         But one link in a chain
+    Writing for Modern Media
+        V² Reader's Survey
+        V² Author's Survey
+        Kramdown to the Rescue
+        Reduce Reading Cost
+        Space on the Web is Free
+        Responsive Design
+    Methods of Structured Writing
+        Overview Structured Writing
+        ToC Structured Writing Methods
+        Details Structured Writing
     Structure
         Purpose of Structure
         Structured Writing vs Markup Structure
         When to apply Markup
             Pro: While Writing
             Beginner: Delegate Markup
-    Writing for the Web
-        Reduce Reading Cost
-        Space on the Web is Free
-        Formatting for Mobile
+        Elements of Structure
     Elements of Structure
         Jumbotron
         Workflow & Readiness
@@ -61,11 +69,6 @@ readiness:
         Footnotes
         Attribution Box
     V² Article Template
-    Stories vs Papers
-        Stories are Remembered
-        Papers are Referenced
-        When to use What
-        Features of Stories vs Papers
     Style, Tone, Attitude & Etiquette
         Style
         Tone
@@ -86,7 +89,7 @@ readiness:
         Company Names
         Domain names
         Titles / Headings / Subtitles
-    Emphasis
+    Emphasis
     Attribution
         Intro
         Giving Attribution
@@ -97,15 +100,15 @@ readiness:
         Village Tronic Trademarks
         Common Trademarks
         Special Thanks
-
-
-
-
+    Article Brief
+        Audience
+        Targets
+        
 # Introduction
 
 ## Who is this Article for
 
-This article is mandatory for all editors of V²Site. As for contributing authors, you are welcome to read and follow this style guide for structured writing in case you you enjoy it. In doing so you will make your editor's job more easy. If however, you dread reading and following a style guide then simply ignore it. We want your expertise. In such case trust you competent V² editor to apply this style guide to your article. That's exactly what the editor is there for :-).
+This article is mandatory for all V²Core Team Authors, V² Senior Editors, and V²Shop Authors. As for contributing authors, you are welcome to read and follow this style guide for structured writing in case you enjoy it. In doing so you will make your editor's job more easy. If however, you dread reading and following a style guide then simply ignore it. We want your expertise. In such case trust you competent V² editor to apply this style guide to your article. That's exactly what the editor is there for :-).
 
 ## Purpose of Structured Writing
 
@@ -114,57 +117,152 @@ As authors we are here to serve the reader:
 - We strive to inform and educate the reader in a fun and memorable style.
 - We structure our articles consistently to make scanning and navigating fast.
 
-## Processes of Structured Writing
 
-This article provides you (the author) the processes to deliver quality articles:
 
-- Write clearly by using words the audience understands.
-- Compose short and simple sentences.
-- Understand the audience and speak directly to the reader.
-- Talk to the reader like to your best friend: Use active voice, present tense, and the imperative mood. 
-- Remove unnecessary repetition, jargon, and passive voice.
-- Lift quality by process of: write, review (ideally via editor), and repeat.
-- On important articles write in a team of author, editor, producer, and publisher.
-- Use the V² Article Template to provide a familiar and smooth reading flow.
+
+
 
 ## Where Structured Writing Fits In
 
-In order to provide the reader a wonderful experience the structured writing is but one of nine processes:
+In order to provide the reader a wonderful experience the structured writing is but one of many processes:
 
-|                  Article | Purpose                                             |
-|-------------------------:|:----------------------------------------------------|
-|    [Writing Workflow][1] | Creative, effective, quality Writing on Demand      |
-|            [Teamwork][2] | Who is doing what, when, and why.                   |
-|  [Structured Writing][3] | How to write structured, easy to read articles.     |
-|      [Markup Writing][4] | How to mark up the article's structure.             |
-| [Appetizing Articles][5] | How to add the extra appeal.                        | 
-|     [Adding Articles][6] | How to add articles & groups to V²Site.             |
-| [Publishing Articles][7] | Creating Success by Generating Traffic.             |
-|  [Producing Articles][8] | Agile Project Management for Articles.              |
-| [V² Article Template][9] | Give yourself a running start on your next Article. |
+{:.uk-table.twin-head.twin-blue}
 
+|                  Article | Purpose                                                 |
+|-------------------------:|:--------------------------------------------------------|
+|    [Solving Problems][0] | Writer's, Editor's and Reader's stories before and after.|
+|    [Writing Workflow][1] | Creative, effective, quality Writing on Demand.         |
+|            [Teamwork][2] | Who is doing what, when, and why.                       |
+|  [Structured Writing][3] | How to write structured, easy to read articles.         |
+|     [Mardown Writing][4] | How to mark up the article's structure.                 |
+|       [Mardown Tools][5] | Tools and their use to reveal the magic of markdown.    |
+| [Appetizing Articles][6] | How to add the extra appeal.                            | 
+|     [Adding Articles][7] | How to add articles & groups to V²Site.                 |
+| [Publishing Articles][8] | Creating Success by Generating Traffic.                 |
+|  [Producing Articles][9] | Agile Project Management for Articles.                  |
+| [V² Article Template][10] | Give yourself a running start on your next Article.    |
+|  [V² Issue Template][11] | Manage article with companion issue.                    |
+|   [Preflight Checks][12] | Various quality checks matching various releases types. |
+|    [Art for Writing][13] | Increase attractiveness and memorability.               |
+|     [Markup Styling][14] | Specs for CSS programmer.                               |
+|     [Business Model][15] | Return of Investment of writing for V²Core and V²Shop.  |
+
+[0]: https://v-squared.github.io/plan/flow/writing/solve-problems/
 [1]: https://v-squared.github.io/plan/flow/writing/workflow/
 [2]: https://v-squared.github.io/plan/flow/writing/teamwork/
 [3]: https://v-squared.github.io/plan/flow/writing/structured/
-[4]: https://v-squared.github.io/plan/flow/writing/markup/
-[5]: https://v-squared.github.io/plan/flow/writing/appetizing/
-[6]: https://v-squared.github.io/plan/flow/writing/adding-articles/
-[7]: https://v-squared.github.io/plan/flow/writing/publishing/
-[8]: https://v-squared.github.io/plan/flow/writing/producing/
-[9]: https://v-squared.github.io/plan/flow/writing/template/
+[4]: https://v-squared.github.io/plan/flow/writing/markdown-markup/
+[5]: https://v-squared.github.io/plan/flow/writing/markdown-tools/
+[6]: https://v-squared.github.io/plan/flow/writing/appetizing/
+[7]: https://v-squared.github.io/plan/flow/writing/adding-articles/
+[8]: https://v-squared.github.io/plan/flow/writing/publishing/
+[9]: https://v-squared.github.io/plan/flow/writing/producing/
+[10]: https://v-squared.github.io/plan/flow/writing/template-article/
+[11]: https://v-squared.github.io/plan/flow/writing/template-issue/
+[12]: https://v-squared.github.io/plan/flow/writing/preflight/
+[13]: https://v-squared.github.io/plan/flow/writing/art-for-writing/
+[14]: https://v-squared.github.io/plan/flow/writing/styling/
+[15]: https://v-squared.github.io/plan/flow/writing/business/
 
 ## But one link in a chain
 
 You all know the saying that a chain is only as strong as its weakest link. Same holds true for structured writing. This analogy delivers you two important understandings:
 
 1. Bad writing is enough to fail an article.
-2. Good writing is necessary for the successes, yet not sufficient. All other links in the chain of producing a successful article need to be equally as strong.
+2. Good writing is necessary for the successes, yet not sufficient. All other links in the chain of producing a successful article need to be equally as strong. If — as a writer — you care the success of your writing, then you need to keep a close eye on the production work of the article. It is best to work directly with the producer towards the common goal of success.
+
+# Writing for Modern Media
+
+## V² Reader's Survey
+
+We asked out readers what document format they wanted:
+
+| How many need |  Reader's Requested Document Format |
+|:---:|:-------------------------------------|
+| 70% | Mobile Phone & Tablet: All features usable. Legibility remains high. Fast to use. |
+| 60% | Desktop PC with Big Screen: Increased usability making use of extra space. |
+| 10% | Optional PDF documents. Used for offline reading and filing away for reference. |
+
+**Note:** Each reader could tick each document format. As such each format can range from 0% ... 100%.
+
+## V² Author's Survey
+
+We asked our authors & editors to what features are important to them:
+
+???
+
+
+## Kramdown to the Rescue 
+
+__Kramdown Overview__
+
+![Kramdown Overview](http://kramdown.gettalong.org/overview.png)
+
+
+## Reduce Reading Cost
+
+## Space on the Web is Free
+
+Forget style guides for prints. They save printing cost over the expense of reading cost. But on the web printing cost is free. This allows us to give full priority to reduce reading cost.
+
+## Responsive Design
+
+1. Why it is important.
+2. How it works
+3. Our writing system removes all work for the writer and editor.
+
+
+# Methods of Structured Writing
+
+## Overview Structured Writing
+
+This article is much more than just a style guide. It provides you (the author) hands on methods on how to deliver quality structured writing:
+
+## ToC Structured Writing Methods
+
+This is the most important essence of this Article. It is also the longest part. As such we have dedicated an extra Table of Contents in form of a table that gives you the purpose to each method. We hope this will ease your learning curve. It is not only important to understand each method, but in addition to see how the method in combination create an improved article that is better than only the sum of improvements per method.
+
+{:.uk-table.twin-head.twin-blue}
+
+| Method | Purpose |
+|---------:|:-----------|
+| Article Brief | Define target as: Purpose, audience, message, and call-to-action. |
+| Strip Off-Targets | Continuously review and delete that which is not on target. |
+| Three Narrative Types | Choose specifically and render differently 3 ways to tell. |
+| Story Telling | Help your readers remember the key messages of *Article Brief*. |
+| Building References | How to present lots of details so to be fast to lookup. |
+| Inspire Understanding | Create eureka moments the reader will cherish. |
+| Emphasis | Point out to the reader what is important to remember. |
+| Where to go from here? | Guide the reader to the next steps on his journey. |
+| Related Products | Present useful products related to *Article Target*. |
+| Prepare for Edit | Increase productivity for yourself and your editor. |
+| Writing Workflow | Slice the writing project into manageable, delegate-able pieces. | 
+| Simple, Light & Positive | How to write so to achieve maximum impact. |
+| Structured Writing Elements | Listing and purpose of all structured writing elements. |
+| Good Writing Flow | Rules & Preflight to write so that reading flows naturally. |
+| Good Table of Contents | Rules & Preflight to make readers love and use the ToC. |
+| Good Grammar | Making grammar easy via structured look up examples. |
+| Introduction & Conclusion | Ease the reader into the subject and assist his memories on leaving. |
+| Emo Art | Dramatically increase fun, scanning speed and memorability. |
+| Alert Boxes | Specially styled blocks for: Tip, Warning, Problem, and Summary Blocks. |
+
+
+## Details Structured Writing
 
 
 
+__Three Narrative Types__
 
+{:.uk-table.twin-head.twin-blue}
 
+| Feature | Story | Reference | Understanding |
+|---------:|:--------:|:-----------:|:-------------:|
+| Purpose | Make reader remember. | Show fast to lookup details. | Make reader understand. |
+| Narrative Person | Writer, reader, or hero | Not applicable  | 
+| Content Type | Copy | Tables / lists / info-graphics | Copy / info-graphics |
+| Heading Icon † | Story | Reference | Understanding |
 
+† The Icon is shown in front of the header ??? Once we have the icon we will replace the text with icon in table.
 
 # Structure
 
@@ -190,16 +288,16 @@ The seasoned author writes the markup while writing the article. In fact this is
 
 Say you just found this guide to structured writing. Read it thoroughly and write your article accordingly. Ignore the markup at this time. Format the text using common sense. Ideally at this point you submit the article to an editor familiar with V²Flow.Writing. He will apply the markdown formatting and edit your text according to this style guide. If you are working alone then apply markup as a second step. This way you slice your learning into smaller, more manageable pieces.
 
+## Elements of Structure
+
+| Element | Purpose |
+|--------:|:--------|
+| Jumbotron | Contains: Title graphics, title, subtitle and abstract. All of which will also be shown in *Index Cards* on *Index Pages*. |
+| Readiness | Illustrate readiness of an article in 4 stages:<br>**Create:** Write Article Brief and Outline while getting community feedback.<br>**Develop:** Fill 
+
 Note: We only explain purpose and logic of structure here. On how to apply markup to structure read → [Markup Writing][4].
 
 
-# Writing for the Web
-
-## Reduce Reading Cost
-
-## Space on the Web is Free
-
-## Formatting for Mobile
 
 
 # Elements of Structure
@@ -302,11 +400,15 @@ Here’s how you can find the best fruit:
 
 ### Level 1
 
+{:.uk-table.twin-head.twin-blue}
+
 | Name | Example |
 |-----:|:--------|
 
 
 ### Level 2
+
+{:.uk-table.twin-head.twin-blue}
 
 | Name | Example |
 |-----:|:--------|
@@ -314,6 +416,8 @@ Here’s how you can find the best fruit:
 
 
 ## Special Characters
+
+{:.uk-table.twin-head.twin-blue}
 
 | Char | KD † | Name | Usage |
 |:----:|:----:|:-----:|:---------------|
@@ -361,20 +465,6 @@ For more details → ??? (Attribution Box in Markup Writing) [HC]
 
 
 
-# Stories vs Papers
-
-## Stories are Remembered
-
-## Papers are Referenced
-
-## When to use What
-
-This is your complete guide: *Stories are remembered, papers are referenced!* Whenever you need the reader to remember something, tell it as a story. Whenever the reader will want to reference to your information, present it as a paper.
-
-## Features of Stories vs Papers
-
-| Feature | Story | Paper |
-|---------:|:--------:|:-----------:|
 
 
 # Style, Tone, Attitude & Etiquette
@@ -390,7 +480,12 @@ We want our audience to know a V² article or story when they read it. Here are 
 
 ## Tone
 
- We want our content to have personality. It shouldn’t ever be boring or stagnant. At V², we’re awesome, fun people! And our writing should reflect this. So, enjoy yourself! Keep things informative, but don’t be afraid to be light-hearted. After all, who wants to read something stuffy?   Always present content in such a way that the user can easily relate to it. Therefore, casual, conversational, easy-to-understand copy is a must.   
+
+We want our content to have personality. It shouldn’t ever be boring or stagnant. At V², we’re awesome, fun people! And our writing should reflect this. So, enjoy yourself! Keep things informative, but don’t be afraid to be light-hearted. After all, who wants to read something stuffy? 
+
+Always present content in such a way that the user can easily relate to it. Therefore, casual, conversational, easy-to-understand copy is a must. 
+
+
 
 ## Attitude
 
@@ -399,7 +494,6 @@ Our attitude is always positive and helpful, not matter the circumstances. We al
 ## Etiquette
 
 We’ll play by the “rules” on social media, too. Keep your posts respectful, polished, and conversational, and always edit for content and grammar. Social media moves fast, but how we represent our brand, ideas, and products will stick around for a long time. On Twitter, use your best judgment to fit the character count; for example, symbols instead of spelled-out words are OK. 
-
 
 # Grammar
 
@@ -494,7 +588,9 @@ Always lower case. Examples: [villagetronic.com](https://www.villagetronic.com) 
 
 
 
-  
+
+
+
 # Emphasis
 
 # Attribution
@@ -553,3 +649,15 @@ For this article our special thanks goes to Wikipedia, HubSpot, and Buffer for p
 - [Buffer Style Guide](???) [TC]
 
 
+-----------------------------------------
+
+# Article Brief
+
+## Audience
+
+- V²Core Team Authors, V² Senior Editors, V²Shop Authors
+
+## Targets
+
+1. Provide methods to produce quality writing
+2. Provide reference for Grammar, Punctuation, Capitalization, Attribution
