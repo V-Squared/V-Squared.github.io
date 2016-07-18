@@ -96,7 +96,7 @@ Go to the place where you want to add the article, then identify:
 
 ## Find where to edit {#where-to-edit}
 
-![](./adding-articles/where-to-edit.png)
+![](../adding-articles/where-to-edit.png)
 
 1. Remember *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
 2. Remember where to place: Under "Style Guide"
