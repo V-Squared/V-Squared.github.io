@@ -89,6 +89,8 @@
           url: /flow/publishing/basic-formatting/
         - menu: Advanced Formatting
           url: /flow/publishing/advanced-formatting/
+        - menu: Article Template
+          url: /flow/publishing/template-article/
     - menu: Mechanical Design
       url: /flow/mechanical/
       group:
