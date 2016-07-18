@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Advanced Article Formatting
-subtitle: Expert's guide on formatting articles on V². 
+title: Appetizing Articles
+subtitle: How to add the extra appeal.
 abstract: We give you a tools to add that extra touch making your articles stand out and simply be more fun to read. We show examples of *Super Tables*, *Feature Slideshows*, and *Table of Contents*. All of which are assisting the reader to ingest your information faster. We also show you how to keep your kramdown source code legible.
 issueNo: 204
 contents:
@@ -369,7 +369,7 @@ Please note the first line. This is how you apply the style. **Note:** It is imp
 
 ### More Styles ...
 
-Please refer → [Reference for all Table Styles](https://v-squared.github.io/plan/flow/writing/advanced-formatting/#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
+Please refer → [Reference for all Table Styles](#ref-table-styles) for a list, examples and use cases of four table styles. These styles can be used for both *Advanced Table Formatting* and *Super Table Formatting*.
 
 
 ## Use Graphic Symbols {#use-graphic-symbols}
@@ -400,7 +400,7 @@ Please refer → [Reference for all Table Styles](https://v-squared.github.io/pl
 
 ### More Graphic Symbols
 
-Please refer to → [Graphic Symbols we use in tables](https://v-squared.github.io/plan/flow/writing/advanced-formatting/#graphic-symbols) for a list of useful symbols.
+Please refer to → [Graphic Symbols we use in tables](#graphic-symbols) for a list of useful symbols.
 
 
 # Super Table Formatting {#super-table-formatting}
