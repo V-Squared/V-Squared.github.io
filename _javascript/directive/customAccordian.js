@@ -1,4 +1,4 @@
-angular.module('v2Accordian',['ngAnimate','ui.bootstrap'])
+angular.module('v2Accordian',['ngAnimate','ui.bootstrap.collapse'])
 .constant('v2AccordionConfig', {
   closeOther: true
 })
@@ -121,7 +121,7 @@ function v2AccordianHeading () {
   };
 
   return directive;
-
+  
   function accordianHeadingLink (scope,element,attrs,groupCtrl) {
 
     element.on('click',toggleOpen);

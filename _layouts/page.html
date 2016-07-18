@@ -56,8 +56,8 @@ layout: default
             {% if navurl contains my_page.url %}
 {% if my_page.subitems or my_page.groups %}
             <md-button toggle-collapse-bar="article-col" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
             {% endif %}
             {% endif %}
@@ -102,8 +102,8 @@ layout: default
           <div>
             {% if page.contents %}
             <md-button hide show-gt-sm toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
-              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="icons/format-horizontal-align-right.svg"></md-icon>
+              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
             </md-button>
             {% endif %}
           </div>
