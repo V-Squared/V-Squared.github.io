@@ -85,10 +85,10 @@
           url: /flow/publishing/style-guide/
         - menu: Adding Articles
           url: /flow/publishing/adding-articles/
-        - menu: Basic Formatting
-          url: /flow/publishing/basic-formatting/
-        - menu: Advanced Formatting
-          url: /flow/publishing/advanced-formatting/
+        - menu: Markdown Writing
+          url: /flow/publishing/markdown-markup/
+        - menu: Appetizing Articles
+          url: /flow/publishing/appetizing/
         - menu: Article Template
           url: /flow/publishing/template-article/
     - menu: Mechanical Design
