@@ -477,7 +477,12 @@ md-content {
     margin-bottom: 4px;
   }
 
-  ul>li>ul {
+
+
+  ul>li>ul,
+  ol>li>ul,
+  ul>li>ol,
+  ol>li>ol{
     margin-left: 15px;
   }
 }
