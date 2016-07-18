@@ -77,6 +77,8 @@
     - menu: Writing Articles
       url: /flow/writing/
       group: 
+        - menu: Intro V²Flow.Publishing
+          url: /flow/writing/intro/
         - menu: How-To Task-Templates
           url: /flow/writing/how-to/
         - menu: Style Guide
