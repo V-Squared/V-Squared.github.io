@@ -7,6 +7,7 @@ abstract: >
 issueNo: 213
 readiness:
   - is-complete
+  - is-complete
   - is-active
 ---
 
