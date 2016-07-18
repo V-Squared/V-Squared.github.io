@@ -198,6 +198,8 @@ We asked our readers what document format they wanted:
 
 We asked our authors & editors what document formats they want us to support natively:
 
+{:.uk-table.twin-head.twin-blue}
+
 | Feature | Usage |
 |--------:|:------|
 | Markdown | Once a writer starts using markdown, he typically uses it during his entire writing workflow. It is compatible to all writing tools, enabling the author to keep using his favorites apps. |
