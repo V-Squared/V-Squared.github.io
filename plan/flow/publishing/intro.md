@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intro V².Flow.Publishing
+title: Intro V²Flow.Publishing
 subtitle: Increase efficiency and quality for writing, publishing, and contribution.
 abstract: >
   A comprehensive article series offering a new solution to the complex problems of workflows for writing, publishing and contribution. It comes complete with the necessary templates, apps, tutorials, and documentation. Our emphasis was on speed, joy, clarity and friendlyness of contribution.
