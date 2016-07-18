@@ -130,14 +130,11 @@ If you wonder why that is than remember the costs of printing and sharing conten
 ??? formatting does not take in V²Site
 
 1. __Printing Costs:__ 
-
-   1. A single sheet double page brochure project was > $ 1,000 US. Print quantity almost did not matter.
-
+    1. A single sheet double page brochure project was > $ 1,000 US. Print quantity almost did not matter.
 3. __Sharing Costs:__
-
-   1. A mailing list project to 3000 customers was > $ 6,000 US.
-   2. 4th cover page on MacWorld Germany with a reach of 50,000 readers was about $ 5,000 US
-   3. Fair sized booth on a computer show to spread your brochures: > $ 10,000 US
+    1. A mailing list project to 3000 customers was > $ 6,000 US.
+    2. 4th cover page on MacWorld Germany with a reach of 50,000 readers was about $ 5,000 US
+    3. Fair sized booth on a computer show to spread your brochures: > $ 10,000 US
 
 
 ## Reader's Time is new Limit
