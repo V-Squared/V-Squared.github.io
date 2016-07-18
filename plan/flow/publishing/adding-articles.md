@@ -80,7 +80,7 @@ Go to the place where you want to add the article, then identify:
 
 ## Get ready to edit book-bar.yaml {#edit-article-yml}
 
-![](/plan/flow/writing/adding-articles/book-bar-yml.png)
+![](/plan/flow/publishing/adding-articles/book-bar-yml.png)
 
 1. Go to [V² > V-Squared.github.io > _data](https://github.com/V-Squared/V-Squared.github.io/tree/master/_data)
    - Note: Make sure it is in the Master Branch
@@ -96,7 +96,7 @@ Go to the place where you want to add the article, then identify:
 
 ## Find where to edit {#where-to-edit}
 
-![](../adding-articles/where-to-edit.png)
+![](/plan/flow/publishing/adding-articles/where-to-edit.png)
 
 1. Remember *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
 2. Remember where to place: Under "Style Guide"
@@ -108,21 +108,21 @@ Go to the place where you want to add the article, then identify:
 
 ### Duplicate Entry {#duplicate-entry}
 
-![](/plan/flow/writing/adding-articles/duplicate-entry.png)
+![](/plan/flow/publishing/adding-articles/duplicate-entry.png)
 
 Duplicate an entry of same type as we need.
 
 
 ### Edit Entry {#edit-entry}
 
-![](/plan/flow/writing/adding-articles/edit-entry.png)
+![](/plan/flow/publishing/adding-articles/edit-entry.png)
 
 Edit the duplicate to match the article we want to create.
 
 
 ### Commit your Change {#commit-your-change}
 
-![](/plan/flow/writing/adding-articles/commit-book-bar.png)
+![](/plan/flow/publishing/adding-articles/commit-book-bar.png)
 
 1. Enter Commit Message
 2. Press Button *Commit Changes*
@@ -133,7 +133,7 @@ Edit the duplicate to match the article we want to create.
 
 ## Create new Issue {#create-new-issue}
 
-![](/plan/flow/writing/adding-articles/new-issue.png)
+![](/plan/flow/publishing/adding-articles/new-issue.png)
 
 1. Go to Issues of [V-Squared/V-Squared.github.io](https://github.com/V-Squared/V-Squared.github.io/issues)
 2. Click button: "New issue"
@@ -141,7 +141,7 @@ Edit the duplicate to match the article we want to create.
 
 ## Add Content to Article Issue {#content-article-issue}
 
-![](/plan/flow/writing/adding-articles/add-content-issue.png)
+![](/plan/flow/publishing/adding-articles/add-content-issue.png)
 
 
 1. Paste the *Path* into the *Title* field
@@ -179,7 +179,7 @@ Edit the duplicate to match the article we want to create.
 ## Note Issue Number {#note-issue-no}
 
 
-![](/plan/flow/writing/adding-articles/note-issue-number.png)
+![](/plan/flow/publishing/adding-articles/note-issue-number.png)
 
 In this case the *Issue Number* is 185. You need it later to link the *Issue* to the *Article*.
 
@@ -189,7 +189,7 @@ In this case the *Issue Number* is 185. You need it later to link the *Issue* to
 
 ## Create File {#create-file}
 
-![](/plan/flow/writing/adding-articles/new-file.png)
+![](/plan/flow/publishing/adding-articles/new-file.png)
 
 1. Remember *Path*: V² > Plan > Flow > Writing Articles > Adding Articles
 2. Go to corresponding folder in <>Code: [V-Squared.github.io/plan/flow/writing/](https://github.com/V-Squared/V-Squared.github.io/tree/master/plan/flow/writing)
@@ -197,7 +197,7 @@ In this case the *Issue Number* is 185. You need it later to link the *Issue* to
 
 ## Add Content {#add-content}
 
-![](/plan/flow/writing/adding-articles/add-content.png)
+![](/plan/flow/publishing/adding-articles/add-content.png)
 
 
 1. Enter file name: "adding-articles.md"
@@ -228,7 +228,7 @@ readiness:
 
 # Check the Added Article {#check-article}
 
-![](/plan/flow/writing/adding-articles/check-article.png)
+![](/plan/flow/publishing/adding-articles/check-article.png)
 
 1. Reload the Article Page
 2. The added article should show up in Article Navigation Bar
@@ -241,14 +241,14 @@ If the Issue is not yet linked to the Article yet, you can link it like so:
 
 ## Hovering V²-Flow-Button {#hovering-v2-flow-button}
 
-![](/plan/flow/writing/adding-articles/hover-v2-flow-button.png)
+![](/plan/flow/publishing/adding-articles/hover-v2-flow-button.png)
 
 Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
 
 
 ## Clicking V²-Flow-Button {#clicking-v2-flow-button}
 
-![](/plan/flow/writing/adding-articles/click-v2-flow-button.png)
+![](/plan/flow/publishing/adding-articles/click-v2-flow-button.png)
 
 1. On click the Floating Action Menu of the V²-Flow-Button is shown. Select: "Edit Article".
 2. Click the "Edit Article" Button
@@ -257,7 +257,7 @@ Hovering shows you the Tooltip to the V²-Flow-Button with link to its help.
 
 ## Linking the Issue {#linking-the-issue}
 
-![](/plan/flow/writing/adding-articles/add-issueNo.png)
+![](/plan/flow/publishing/adding-articles/add-issueNo.png)
 
 1. Enter the Issue Number to the property: "issueNo:**
    *Note 1:* See above on how to find the value of the issue number 
