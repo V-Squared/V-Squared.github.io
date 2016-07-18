@@ -64,6 +64,7 @@ Any single person, team or organization who wish to increase quality of writing,
 
 For V² Senior Editors, Writers, Producers and Publishers this article series is a must read. For junior staff and contributing writers these articles are optional. 
 
+If you are managing a team of writers and publishers in a place without documented style guides and workflows this article series could be your nirvana.
 
 ## The Complete Article Series
 
@@ -129,8 +130,11 @@ If you wonder why that is than remember the costs of printing and sharing conten
 ??? formatting does not take in V²Site
 
 1. __Printing Costs:__ 
+
    1. A single sheet double page brochure project was > $ 1,000 US. Print quantity almost did not matter.
-2. __Sharing Costs:__
+
+3. __Sharing Costs:__
+
    1. A mailing list project to 3000 customers was > $ 6,000 US.
    2. 4th cover page on MacWorld Germany with a reach of 50,000 readers was about $ 5,000 US
    3. Fair sized booth on a computer show to spread your brochures: > $ 10,000 US
@@ -201,39 +205,42 @@ In order to deliver a quality mobile phone experience for a developer web site w
 __Need for new Style Guides__
 We scoured the internet and did not find a modern style that has taken into account all above changes. As such we are now developing one.
 
+__Need for a new workflows__
+In order to achieve the benefits and features we were looking for we needed to let go of the trusted HTML centric workflow and create a new series of workflows centered around kramdown. We even needed to create a corresponding new mashup of apps, services, and template. This big one time effort paid off, when the new kramdown workflow started working, see below:
+
 __Kramdown Publishing Works__
-This is our third attempt to create efficient and effective writing and publishing workflows. This time it really works. We reduced costs, increased speed and increased contribution. Our new website looks clean and modern and works on all screen sizes.
+This is our third attempt to create efficient and effective writing and publishing workflows. This time it really worked. We reduced costs, increased speed and increased contribution. Our new website looks clean and modern and works on all screen sizes.
 
 
-# Modern File Formats
+# Modern Formats
 
 ## V² Reader's Survey
 
-We asked our readers what document format they wanted:
+We asked our readers what format they wanted to see our new website to support:
 
 {:.uk-table.twin-head.twin-blue}
 
 | How many need |  Reader's Requested Document Format |
 |:---:|:-------------------------------------|
-| 70% | Mobile Phone & Tablet: All features usable. Legibility remains high. Fast to use. |
-| 60% | Desktop PC with Big Screen: Increased usability making use of extra space. |
-| 10% | Optional PDF documents. Used for offline reading and filing away for reference. |
+| 70% | __Mobile Phone & Tablet:__ All features usable. Legibility remains high. Fast to use. |
+| 60% | __Desktop PC with Big Screen:__ Increased usability by making use of extra space. |
+| 10% | Optional PDF documents for our standard section only. Used for offline reading and filing away for reference. |
 
-**Note:** Each reader could tick each document format. As such each format can range from 0% ... 100%.
+**Note:** Each reader could tick all offered formats. As such each format can range from 0% ... 100%.
 
 ## V² Author's Survey
 
-We asked our authors & editors what document formats they want us to support natively:
+We asked our authors & editors what formats they want us to support natively:
 
 {:.uk-table.twin-head.twin-blue}
 
 | Feature | Usage |
 |--------:|:------|
-| Markdown | Once a writer starts using markdown, he typically uses it during his entire writing workflow. It is compatible to all writing tools, enabling the author to keep using his favorites apps. |
+| Markdown | Once a writer starts using markdown, he typically uses it during his entire writing workflow from beginning to end. It is compatible to all writing tools, enabling the author to keep using his favorite apps. |
 | GFM | GitHub Flavored Markdown is used in GitHub issues. Once you learned to master its power, you want to keep using it during the writing workflow. |
 | Kramdown Input | It has significant feature upgrades over GFM. Without these publishing a web site would be crippled. |
 | HTML Input | Occasionally even Kramdown can not do everything. HTML extends the capabilities sufficiently. Kramdown is powerful enough that only sparingly we need to fall back to HTML. |
-| Kramdown & HTML Output | One of our targets is that our articles are quoted or copied with attribution to V²Site. Availability of our articles in both kramdown and HTML will simplify republishing. |
+| Kramdown & HTML Output | One of our targets is that our articles are quoted or copied with attribution to V²Site. Availability of our articles in both kramdown and HTML will simplify republishing. HTML code need to be of high quality to allow easy styling by third party sites.|
 | PDF Output | Especially for standards our readers have requested PDF version of the standard article for two reasons: 1) To read them offline 2) To archive them.
 
 
@@ -241,11 +248,16 @@ We asked our authors & editors what document formats they want us to support nat
 
 ## Kramdown to the Rescue
 
-We tried both Google Drive and Joomla to develop a workflow that somehow supports all file formats as requested by the V² reader and writer. We tried hard and failed. What you see now is our third attempt, which is successful. The key ingredient to make it happen is *Kramdown*. We describe its use and central function in this section:
+We tried both Google Drive and Joomla to develop a workflow that somehow supports all file formats as requested by the V² reader and writer and the same time is fast and fun to use. We tried hard and failed. What you see now is our third attempt, which is successful. The key ingredient to make it happen is *Kramdown*. We describe its use and central function in this section:
 
-??? [HC]: Consider to only keep a simmered down version here and to move all of it to the workflow article ???
 
-__Kramdown Overview__
+## Kramdown Overview
+
+For those not familiar with kramdown, it is a super set of markdown by supporting:
+
+- [Original Markdownl](http://daringfireball.net/projects/markdown/syntax) Easy to read and write markup language.
+- [GFM aka GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) GitHub added features to reference people, issues and commits. 
+- [Kramdown](http://kramdown.gettalong.org/syntax.html) It adds important features lacking in Markdown.
 
 ![Kramdown Overview](http://kramdown.gettalong.org/overview.png)
 
@@ -253,31 +265,32 @@ As you can see in the info-graphics above: All requested formats are available i
 
 {:.uk-table.twin-head.twin-blue}
 
-| Input Format | Dir | Workflow Stage, Purpose & Benefit |
-|-------------:|:---:|:--------|
+|       Format | Dir | Workflow Stage, Purpose & Benefit |
+|-------------:|:---:|:----------------------------------|
 | Markdown | ➜☐ | __Stage:__ Creation<br>__Purpose:__ Brainstorming, Creating Outline<br>__Benefit:__ Compatible with any writing and management app. Magic of markdown.|
-| GFM † | ➜☐ | __Stages:__ Creation, Develop, Beta<br>__Purpose:__ GFM † → GitHub Flavored Markdown, used in GitHub Issues.<br>__Benefits:__ Rich discussions with powerful referencing |
-| HTML | ➜☐ |  __Stages:__ ??? <br>__Purpose:__ ??? <br>__Benefits:__ ??? |
-| Kramdown | ➜☐ |  __Stages:__ ??? <br>__Purpose:__ ??? <br>__Benefits:__ ??? |
-| Kramdown | ☐➜ |  __Stages:__ ??? <br>__Purpose:__ ??? <br>__Benefits:__ ??? |
-| PDF | ☐➜ |  __Stages:__ ??? <br>__Purpose:__ ??? <br>__Benefits:__ ??? |
-| HTML | ☐➜ |  __Stages:__ ??? <br>__Purpose:__ ??? <br>__Benefits:__ ??? |
-
-__How does Kramdown save time?__
-
-__How is the quality of the source code?__
-One one word: __Great!__ 
-
+| GFM † | ➜☐ | __Stages:__ Creation, Develop, Beta<br>__Purpose:__ GFM † → GitHub Flavored Markdown, used in GitHub Issues.<br>__Benefits:__ Rich discussions with powerful referencing. |
+| HTML | ➜☐ |  __Stages:__ Develop <br>__Purpose:__ Add features Kramdown lacks.<br>__Benefits:__ No need to give up features. |
+| Kramdown | ➜☐ |  __Stages:__ Develop, Beta, Make <br>__Purpose:__ Markup language used to structure our articles. <br>__Benefits:__ Much faster and easier to write and edit than HTML. |
+| Kramdown | ☐➜ |  __Stages:__ Develop, Beta, Make <br>__Purpose:__ Output of writing. Input to Jekyll / GitHub Pages. <br>__Benefits:__ Much faster and easier to edit than HTML. |
+| PDF | ☐➜ |  __Stages:__ Make <br>__Purpose:__ Give developers piece of mind in the standard section. <br>__Benefits:__ Developers are used to standard documents being PDF files. They want to have the standard tucked away on their drive for permanent reference. |
+| HTML | ☐➜ |  __Stages:__ Make <br>__Purpose:__ Export HTML for purpose of re-publishing on other sites. <br>__Benefits:__ Be compliant to the standardized HTML workflow.  |
 
 __What's in the Box?__
-In above diagram and table we symbolized input as: ➜☐ and output as: ☐➜. The box after or before the arrow symbolizes the Kramdown publishing process. Two tools are used: The kramdown compatible editor: *Classeur* and the *Kramdown* aware *V²Site* publishing engine.
+In above diagram and table we symbolized input as: ➜☐ and output as: ☐➜. The box after or before the arrow symbolizes the Kramdown publishing process. Two tools are used: The kramdown compatible editor: *Classeur* and the *Kramdown* aware *V²Site* publishing engine, which is based on GitHub Pages, Jekyll, Liquid, our custom V²Template and our custom AngularJS code.
+
+__How is the quality of the source code?__
+One one word: __Great!__ As for kramdown source code it is as good as your style. That said, kramdown does not give you much rope to hang yourself. And in terms of HTML generated from kramdown it is as good as hand coded and optimized HTML. Easy and clean to apply styles or do further manual edits.
+
  
+## Kramdown vs Alternatives
 
 __Kramdown vs HTML Publishing__
 
 When publishing HTML documents nowadays you would be using a Content Management System (CMS) such as Wordpress, Joomla, or Dropal. We published for a long time in Joomla. Joomla has a very nice feature *Front End Editing*. What it does is that after logging in you can browse the web site just like any visitor. But when you find a spot to improve you click the front end edit button and you are right in the HTML article. 
 
-This is great, except that for the important fact that our richly formatted articles are made of significantly more HTML markup than *Copy*. In other words: You are spending a lot of time to find the place to edit. On V²Site we also have the front end edit button as part of the *V²Flow* button. We publish our articles directly in kramdown source code. That means 90% is copy and only 10% is markup. In other words: Editing is fast and fluid. 
+This is great, except that for the important fact that our richly formatted articles are made of significantly more HTML markup than *Copy*. In other words: You are spending a lot of time to find the place to edit. 
+
+In comparison on V²Site we also have the front end edit button as part of the *V²Flow* button. We publish our articles directly in kramdown source code. That means 90% is copy and only 10% is markup. In other words: Editing is fast and fluid. 
 
 As a consequence we walked away from HTML publishing to Kramdown Publishing.
 
@@ -287,45 +300,54 @@ We hosted our developer site on Google Docs for quite a while. It was a mixed bl
 
 As a consequence we walked away from Google Docs Publishing towards Kramdown Publishing.
 
+__Kramdown vs WYSIWYG tools__
+
+There are three big advantages that stand out:
+
+__1) Stay in the zone:__ Once you are used to write in markdown you will be more focused when writing versus using a WYSIWYG editor where you need to use keyboard short cuts or mouse clicks to apply your formatting. Somehow it is like constantly shifting gears, ripping you out of the flow. Whereas when typing in markdown you will only feel a constant uninterrupted flow of writing. 
+
+__2) Less conflicts / faster debugging:__ You may think that working with source code nowadays is antiquated. But the fact is that when you build a complex web site you will have conflicts. And when resolving conflicts you will have to look at the source code anyway. Debugging goes much easier when you work with clean and slender handwritten source code versus garbled and convoluted source code from a WYSIWYG editor. 
+
+And we have much less conflicts since working with hand written kramdown vs HTML generated by the WYSIWYG editor of Joomla.
+
+__3) Markdown is coming:__ Twitter, WordPress and GitHub all use Markdown. It simply jives with the writer's / programmer's mindset.
 
 
 
-# Holistic Solution
-
-
-
-## Writing in Markdown
-
-__Writer stays in the zone__
-
-__Compatible with any app.__
-
-
-## Publishing in Kramdown
-
-## Issues to Develop Content
-
-
-# Conclusion Modern & Structured Writing
+# Conclusion
 
 ## Unlearn Traditional Style Guides
 
-You must forget style guides for print. They are concerned about reducing the distribution limit for the writer and at the same time the available content limit for the reader by means of creating a more compact layout. Since this served both writer and reader the traditional style guides made sense for everyone and were widely accepted.
+You must forget style guides for print. They are concerned about reducing the distribution limit for the writer and at the same time the available content limit for the reader by means of creating a more compact layout. Since this served both writer and reader the traditional style guides made sense for everyone and were widely accepted. But it no holds true in a time for publishing cost is zero and the reader is overwhelmed with great content.
 
-## Develop New Style Guides
-The industries of print and computer underwent an unparalleled, revolutionary change just the last decade and there is no sign for the speed of change to slow down. In fact we expect the pace to continue to pick up. We searched yet have not found one new style guide ready for modern writing and publishing. As such we
+## The New Style Guide
 
-## Develop New Publishing Flow
+The new era of free publishing cost and overwhelming amount of content needs new style guides that focus on reducing the reading cost. Reading cost is how fast a reader can scan a document or navigate it. How fast can he ingest its content? How well is it written, how clear is it structured?
+
+We searched yet have not found one new style guide ready for modern writing and publishing. As such part of this article series are new style guides, templates and preflight checks adjusted to the new era.
+
+## The New Publishing Flow
+
+The new publishing flow switches from HTML centric to Kramdown. As a consequence writer, editor and contributor work in one language only. Kramdown is significantly easier to read and edit than HTML. Even a contributor not being aware of HTML or Kramdown will be capable of editing a kramdown source file by simply looking at it and apply common sense.
+
+Combine this with the custom template and mashup of V²Site and V²Flow you end up with more speed, ease of use and more involvement by your community. Last but not least work is more intuitive and fun, which leads to increased productivity and creativity.
+
+## Complete Solution
+
+V²Flow.Publishing is a complete solution, covering the entire ground from understanding, style guides, workflow, references, documentation, templates and preflight checks including tutorials on how to use key apps.
 
 ## Grand Conclusion
 
-The last decade saw dramatic changes in the publishing and computer industry which invalidated long standing and proven style guides and workflows. Good style guides and workflow are the foundation of good structured writing. 
+The last decade saw dramatic changes in the publishing and computer industry which invalidated long standing and proven style guides and workflows.
 
-And good structured structured writing is one important element in the chain of creating a successful article. Bad writing will make the article fail. But on top of it you also need a workflow that makes all remaining links in the  chain of a successful article equally strong. 
+V²Flow.Publishing starts with a clean slate. It provides updated style guides and workflows matching the requirements of the new era. It comes with complete and consistent documentation to easy the learning curve, or respectively reducing the workload of the senior staff when training junior staff.
 
-This article is all about increasing the strengths of the structured writing link. It is embedded into an article series that is freshly written and consequently adapted for the modern world — of publishing and computer — as of 2016.
+By switching from HTML centric workflow to kramdown writer, editor and contributor enjoy the increased legibility and simplicity of edits as well as staying in the zone of writing.
 
-Last but  not least this article is merely a style guide. It also delivers the underlying understanding that lead to the development of the style guide. And best of all: This is not a long, stuffy list of rules. Instead it is a set of processes that you can follow, easily and step by step. In doing so you will turn yourself into a skillful, successful writer. 
+Last but not least article templates, workflow templates and preflight checks speed up work and help to keep quality on a consistent high level. 
+
+
+
 
 
 
