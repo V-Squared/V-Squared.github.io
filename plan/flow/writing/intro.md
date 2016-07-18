@@ -127,8 +127,6 @@ __Distribution Cost *WAS* expensive:__
 
 If you wonder why that is than remember the costs of printing and sharing content:
 
-??? formatting does not take in V²Site
-
 1. __Printing Costs:__ 
     1. A single sheet double page brochure project was > $ 1,000 US. Print quantity almost did not matter.
 3. __Sharing Costs:__
