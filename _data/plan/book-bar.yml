@@ -74,21 +74,21 @@
   desc: >
     Workflows on contributing to V² in ready to use quality.
   subitems:
-    - menu: Writing Articles
-      url: /flow/writing/
+    - menu: Publishing
+      url: /flow/publishing/
       group: 
-        - menu: Intro V²Flow.Publishing
-          url: /flow/writing/intro/
+        - menu: Intro
+          url: /flow/publishing/intro/
         - menu: How-To Task-Templates
-          url: /flow/writing/how-to/
+          url: /flow/publishing/how-to/
         - menu: Style Guide
-          url: /flow/writing/style-guide/
+          url: /flow/publishing/style-guide/
         - menu: Adding Articles
-          url: /flow/writing/adding-articles/
+          url: /flow/publishing/adding-articles/
         - menu: Basic Formatting
-          url: /flow/writing/basic-formatting/
+          url: /flow/publishing/basic-formatting/
         - menu: Advanced Formatting
-          url: /flow/writing/advanced-formatting/
+          url: /flow/publishing/advanced-formatting/
     - menu: Mechanical Design
       url: /flow/mechanical/
       group:
