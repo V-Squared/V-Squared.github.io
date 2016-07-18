@@ -453,9 +453,10 @@ md-content {
 
   h1 {
     color:#777;
-    font-family: Roboto-Thin;
+    font-family: Roboto-Thin, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:30px;
-    margin-top:60px;
+    margin-top: -10px;
+    padding-top:70px;
     margin-bottom: 15px;
     border-bottom:1px #e5e5e5 solid;
   }
@@ -463,14 +464,16 @@ md-content {
   h2 {
     font-size: 22px !important;
     color: #777;
-    margin-top:38px;
+    margin-top: -32px;
+    padding-top:70px;
     margin-bottom:7px;
   }
 
   h3 {
     font-size: 18px !important;
     color: #777;
-    margin-top: 27px;
+    margin-top: -43px;
+    padding-top: 70px;
     margin-bottom: 4px;
   }
 
