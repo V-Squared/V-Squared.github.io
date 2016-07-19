@@ -91,6 +91,8 @@
           url: /flow/publishing/appetizing/
         - menu: Article Template
           url: /flow/publishing/template-article/
+        - menu: Repeated Mistakes
+          url: /flow/publishing/mistakes/  
     - menu: Mechanical Design
       url: /flow/mechanical/
       group:
