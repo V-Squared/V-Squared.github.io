@@ -27,6 +27,8 @@ contents:
 
 # Hubert {#hubert}
 
+{:.uk-table.twin-head.twin-blue}
+
 | Do | Do Not / Comment  |
 |------------------:|:--------------------------------|
 | built for speed | build for speed |
@@ -52,6 +54,8 @@ This section is a compilation of above frequently made mistakes to discuss with 
 
 Below's table is a listing of terms that we propose to append to the list of terms in the style guide.
 
+
+{:.uk-table.twin-head.twin-blue}
 
 | ☐ † | Proposed Term | Comment |
 |:---:|------------------:|:--------------------------------|
