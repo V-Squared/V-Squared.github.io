@@ -3,13 +3,15 @@ layout: page
 title: Intro V²Flow.Publishing
 subtitle: Increase efficiency and quality metrics for writing, publishing, and contribution.
 abstract: >
-  A comprehensive article series offering new solutions to the complex problems of workflows for writing, publishing and contribution. It comes complete with the necessary templates, apps, tutorials, and documentation. Our emphasis was on speed, joy, clarity and friendliness of contribution.
+  A introduction article and white paper to new solutions to the complex problems of workflows for writing, publishing, and contribution named V²Flow.Publishing. It is a FOSS project, including a comprehensive article series offering the necessary templates, tutorials, style guides, preflight checks and documentation. Of course we include a complete working software mashup too. Our emphasis was on speed, joy, clarity and friendliness of contribution.
 issueNo: 213
 readiness:
   - is-complete
   - is-complete
   - is-active
 ---
+
+
 
 
 
