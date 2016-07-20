@@ -104,3 +104,8 @@
           url: /flow/mechanical/how-to/
         - menu: Nc Codes
           url: /flow/mechanical/nc-codes/
+    - menu: Art
+      url: /flow/art/
+      group:
+        - menu: Image Quality by Design
+          url: /flow/art/image-quality/
