@@ -5,7 +5,7 @@ subtitle: How to choose the CPU.
 abstract: Description of different CPU options ranging from entry level to high end. Covers  specifications, benchmarks, and recommendations for each processor. 
 issueNo: 137
 readiness:
-   - is-active
+   - develop-active
 ---
 
 # Table of Contents
@@ -44,6 +44,10 @@ Yes! Learning how to choose components for a DIY computer is time consuming. Thi
 # How this Article works
 ## CPU Classes
 
+    **Photo Placement**
+        - three vicases side by side, horizontal stack
+        - one with a single "$", another with "$$", another with "$$$"
+
 This Article is providing choices of CPUs divided into three performance classes:
 
 1. **Entry Level:** Total cost of Computer: $700+
@@ -53,10 +57,10 @@ This Article is providing choices of CPUs divided into three performance classes
 
 
 ## Side by side comparison
-We have selected 4 CPUs covering the range from lowest cost to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
+We have selected four CPUs covering the range from lowest cost to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
 
 ## Assign CPUs to Use Cases
-To make picking a CPU easier the V²Configurator simply asks you about your Field of Application and Main Use Case and then picks the right CPU for you.
+To make picking a CPU easier the V²Configurator simply asks you about your field of application and Main Use Case and then picks the right CPU for you.
 
 
 
@@ -133,6 +137,11 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 
 ## Overview
 
+    **Photo Placement**
+        -four images, horizontal stack
+        -Intel socket images, (1156, sandy bridge, haswell, skylake)
+
+
 {:.uk-table.uk-table-hover.table-header-row-column}
 
 |Feature       | LGA 1156     |LGA 1155       | LGA 1150    | LGA 1151 |
@@ -141,7 +150,7 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 |Introduced    | 2009         |2011           |2013         |2015  |
 |USB           | USB 2        | USB 2         | USB 3       | USB 3 |
 |PCIe          | PCIe 2       | PCIe 2        | PCIe 3      | PCIe 3 |
-|Mem           | DDR3         |DDR3           |DDR3         | DDR4 |
+|Mem           | DDR3         |DDR3           | DDR3        | DDR4 |
 |SATA          | SATA 2       | SATA 3        | SATA 3      | SATA 3 |
 
 
@@ -152,6 +161,11 @@ To make picking a CPU easier the V²Configurator simply asks you about your Fiel
 - https://en.wikipedia.org/wiki/LGA_1151
 
 ## Advice for choosing a CPU
+
+    **Photo Placement**
+        -Pheonix shopping, choosing CPU
+        -Several CPUs in a store isle on the shelf
+        
 
 ### Intel 6300 i3
 Entry level i-series from Intel. Two cores but uses Intel hyper-threading, making two virtual cores for a total of 4. High base clock speed and strong enough for non-CPU heavy gaming, photo editing, or light 3D-modeling. 
