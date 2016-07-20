@@ -34,12 +34,11 @@ There are a huge number of CPUs out there. Each one varies in performance, size,
 ## How this Article solves the problem
 This Article is part of three community projects, all designed to simplify building DIY PCs
 
-- **ViCase:** Indiegogo Project. A DIY Mini and All-IN-One Computer Case System
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
 ## Is there an easier way
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your Field of Application, say e.g. Photography and then pick the Main Use and the Configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. Photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
 
 
 # How this Article works
