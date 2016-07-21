@@ -5,8 +5,7 @@ subtitle: How to choose the Motherboard.
 abstract: Motherboard comparison page. Go over the different models offered in our configurator and determine which fits your needs best. 
 issueNo: 164
 readiness:
-   - is-complete
-   - is-active
+   - develop-active
 ---
 
 # Introduction
