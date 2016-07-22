@@ -20,14 +20,14 @@ There are a huge number of CPUs out there. Each one varies in performance, size,
 
 ## How this Article solves the problem
 
-This Article is part of three community projects, all designed to simplify building DIY PCs
+This Article is part of two community projects, all designed to simplify building DIY PCs
 
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
 ## Is there an easier way
 
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. Photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
 
 
 # How this Article works
@@ -50,8 +50,7 @@ This Article is providing choices of CPUs divided into three performance classes
 We have selected four CPUs covering the range from lowest cost to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
 
 ## Assign CPUs to Use Cases
-To make picking a CPU easier the V²Configurator simply asks you about your field of application and Main Use Case and then picks the right CPU for you.
-
+To make picking a CPU easier the V²Configurator simply asks you about your field of application and main use case and then picks the right CPU for you.
 
 
 # CPU Comparison
@@ -95,7 +94,7 @@ To make picking a CPU easier the V²Configurator simply asks you about your fiel
 |Perf►CPU Bench|Rating in www.cpubenchmark.net|
 |Perf►GPU Bench|Rating in http://www.videocardbenchmark.net/|
 |Perf►Max Resolution|Max Resolution of Display connected to Motherboard|
-|Perf►Overclocking| Does the vendor allow overclocking? (Yes|No)|
+|Perf►Overclocking| Does the vendor allow overclocking?)|
 |Misc►Socket|Name of Socket. Make sure to use a Motherboard with same socket|
 |Misc►Power TDP|Maximum Thermal Design Power aka TDP. Make sure to use a CPU cooler that can handle the power|
 |Mem►Max Size|Max Size of Memory|
