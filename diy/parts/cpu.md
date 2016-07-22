@@ -1,214 +1,168 @@
 ---
 layout: page
-title: CPU
-subtitle: How to choose the CPU.
-abstract: Description of different CPU options ranging from entry level to high end. Covers  specifications, benchmarks, and recommendations for each processor. 
-issueNo: 137
+title: Boot Disk
+subtitle: How to choose the Boot Disk.
+abstract: Learn about the importance of your boot disk and what the best option is for you. We go over several different types of disks that are recommended for using as a boot disk.
+issueNo: 161
 readiness:
    - develop-active
 ---
 
 # Table of Contents
+[TOC]
 
-    Introduction
-        The problem this article solves
-        How this Article solves the problem
-        Is there an easier way
-    How this Article works
-	CPU Classes
-        Side by side comparison
-        Assign CPUs to Use Cases
-        Advice
-    CPU Comparison
-        CPU Comparison Table
-        Advice for choosing a CPU
-        CPU Features explained
-    About Intel CPU Sockets
-    Where to find more Information
 
 # Introduction
 
-## The problem this article solves
+## The Problem this Article solves
 
-There are a huge number of CPUs out there. Each one varies in performance, size, and cost. There are also other elements to take into consideration, such as motherboard socket, integrated GPUs and RAID controllers, the types of applications you plan to use on your computer, and many other factors. This article goes through these issues.
+When building your custom PC you need to choose your Boot Disk. You get your pick out of 3 physical disk interfaces, several mechanical form factors, storage technologies and of course lots of brands and capacities. This Article sorts it all out and helps you to find the right Boot Disk for your computer.
 
 ## How this Article solves the problem
 
 This Article is part of three community projects, all designed to simplify building DIY PCs
 
+- **ViCase:** Indiegogo Project. A DIY Mini and All-IN-One Computer Case System
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
-## Is there an easier way
+## Is there an easier way?
 
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. Photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
-
-
-# How this Article works
-
-## CPU Classes
-
-    **Photo Placement**
-        - three vicases side by side, horizontal stack
-        - one with a single "$", another with "$$", another with "$$$"
-
-This Article is providing choices of CPUs divided into three performance classes:
-
-1. **Entry Level:** Total cost of Computer: $700+
-2. **Mid Range:** Total cost of Computer: $1100+
-3. **High End:** Total cost of Computer: $1800+
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your Field of Application, say e.g. Photography and then pick the Main Use and the Configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
 
 
+# Understanding Disk Technologies for Boot Disk
 
-## Side by side comparison
-We have selected four CPUs covering the range from lowest cost to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
+## SSD vs HDD for Boot Disk
 
-## Assign CPUs to Use Cases
-To make picking a CPU easier the V²Configurator simply asks you about your field of application and Main Use Case and then picks the right CPU for you.
+In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article → [How to choose your Data Disks](https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/How-to-choose-the-Data-Disks) or → [V²Configurator](http://v-squared.github.io/v2-Configurator/)►6. PC Parts►Data Disk (Single). 
 
+## Why it is important that the Boot-Disk is fast?
 
+1. The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. Faster Boot Disk will make your PC feel to you much faster.
+2. Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower.
 
-# CPU Comparison
+## Can't every disk boot?
 
-## CPU Comparison Table
+Unfortunately not. The latest M2 and NVME will not always boot. Due to the importance of the Boot Disk to be the fastest Disk in your system, we made the extra effort to build every configuration so that the fastest disk is always the Boot-Disk.
+
+## SATA3 vs NVME-M.2 vs NVME-PCIe
+
+Nowadays SSDs are faster than SATA 3. In response the industry developed M2 Modules and NVME PCIe Add In Cards. There are also NVME 2.5" disks, but they are not easy to connect. Here is a brief overview.
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
-| CPU Feature  | Entry CPU | Mid CPU  | High CPU Value | High CPU Performance |
-|--------------|-----------|----------|----------------|----------------------|
-| Model►Name   | Intel i3  | Intel i5 | Intel i7       | Intel i7             |
-| Model►Series | 6300      | 6600     | 6700           | 6700k                |
-| Model►Series | Skylake   | Skylake  | Skylake        | Skylake              |
-|Model►# of Cores  | 2         | 4        | 8              | 8                    |
-|Perf►Clock  | 3.7       | 3.3      | 3.4            | 4.0                  |
-| Perf►L2 Cache     | 2x256KB   | 4x256KB  | 4x256KB        | 4x256KB              |
-| Perf►L3 Cache     | 4MB       | 6MB      | 8MB            | 8MB                  |
-| Perf►Overclocking | No        | No       | No             | Yes                  |
-| Misc►Socket   | 1151      | 1151     | 1151           | 1151                 |
-| Misc►Power TDP    |   51      | 65       | 65             | 91                   |
-| Mem►Max Memory   | 64        | 64       | 64             | 64                   |
-| Perf►CPU Bench    |5500       |7050      |10000           |11000                 |
-| Perf►GPU Bench    |           |          |                |                      |
-| Disk►RAID5 |     ?     |    Yes   |     Yes        |      Yes             |
-| Perf►Max Resolution|  4K@60hz  |  4K@60hz |   4K@60hz      |       4K@60hz      |
-| Price        |    $119    |  $230     |     $300        |           $344        |
+|Feature                  |SATA3 SSD 2.5" | M2 Module  | PCIe NVME   |
+|------------------------:|:-------------:|:----------:|:-----------:|
+|Theoretical Max Speed    | 0.65 GBps     | 4 GBps     | 4 GBps      |
+|Practical Max Speed      | 0.65 GBps     | 2.5 GBps   | 2.5 GBps    |
+|Motherboard Compatibility| every         | Z170       | Z170        |
+|Boot in BIOS Mode        | Yes           | No         | No          |
+|Boot in UEFI Mode        | Yes           | Yes        | Yes         |
+|Win Support out of box   | 7, 8, 10      | 10         | 10          |
+|Ubuntu Support           | since ever    | 14.04 LTS +| 14.04 LTS + |
+|Speed @ 100% workload    | 100%          | 50%        | 100%        |
 
-## CPU Features explained
+Conclusion: Today M2 and PCIe NVME can be 300% faster than your SATA SSD. But you need latest OS and latest motherboard in order for it to be easy to install and so that booting from these disks is supported out of the box. Also care during installation need to be taken to use the Disk in UEFI Mode. These disks are trouble to install and are more expensive, but they give you a 300% performance increase, which can be very significant, depending on your Application. Please also note that M2 modules quickly overheat and throttle down the speed. This is OK for typical consumer use, such a loading a game, but this is not OK in server or professional applications. In such cases choose the PCIe NVME. They have a large heat sink integrated and do not have a problem of overheating. 
 
-{:.uk-table.uk-table-hover.table-header-row-column}
+We have mitigated the M2 overheating problem somewhat, by a) choosing a module that runs cooler and b) offering a heat sink to cool the IC that is getting hot.
 
-| CPU Feature | Feature explained |
-|--------------------:|:------------------|
-|Model►Name|Model Name of the CPU. It is easy to find exactly this CPU in any online shop searching the Model Name|
-|Model►Brand|Brand of CPU. Make sure the Motherboard you choose is for the same brand|
-|Model►Series|Series of CPU|
-|Model►Core Name|Name of the Core. Useful if you want to search for similar CPUs in your favorite online shop|
-|Model►# of Cores|More cores of the same Model will be faster, but also use more power|
-|Perf►Clock|Maximum clock speed by factory settings|
-|Perf►L2 Cache|Extremely fast memory. More of it is better|
-|Perf►L3 Cache|Slower than L2 cache, but faster than DDR memory. More is better|
-|Perf►CPU Bench|Rating in www.cpubenchmark.net|
-|Perf►GPU Bench|Rating in http://www.videocardbenchmark.net/|
-|Perf►Max Resolution|Max Resolution of Display connected to Motherboard|
-|Perf►Overclocking| Does the vendor allow overclocking? (Yes|No)|
-|Misc►Socket|Name of Socket. Make sure to use a Motherboard with same socket|
-|Misc►Power TDP|Maximum Thermal Design Power aka TDP. Make sure to use a CPU cooler that can handle the power|
-|Mem►Max Size|Max Size of Memory|
-|Mem►Speed|Max Clock Speed Speed of Memory in MHz|
-|Disk►RAID5|Requires at least 3 Disks. Makes your HDD significantly faster and the same time makes your data more safe. Even when one disk can fails you will still have all data.|
+## What about NVME 2.5" Disks?
 
-### List of CPUs (with Tag Lines)
+Simply put, they forgot to standardize the cables to connect to a motherboard. Wherever we looked, people avoided using these drives in use cases requiring direct connection to a motherboard. In such case simply use the PCIe Add In Card version.
 
-- [i3-6100](https://www.amazon.com/Intel-BX80662I36100-i3-6100-Cache-Processor/dp/B015VPX2EO/ref=sr_1_1?) $119  - Intel - EntryRange
-- [i5-6600](https://www.amazon.com/Intel-I5-6600-FC-LGA14C-Processor-BX80662I56600/dp/B0136JONRM/ref=sr_1_fkmr0_1?) $230   - Intel - Fast Mid Range
-- [i7-6700](https://www.amazon.com/Intel-I7-6700-FC-LGA14C-Processor-BX80662I76700/dp/B0136JONG8/ref=sr_1_3?) $300  - Intel - High End
-- [i7-6700K](https://www.amazon.com/Intel-Boxed-I7-6700K-Processor-BX80662I76700K/dp/B012M8LXQW/ref=sr_1_2?) $344  - Intel - Extreme
+## What about mSATA?
 
-### CPU Benchmarks
+We build systems with mSATA. But they have two problems: a) They run significantly more hot than the 2.5" counterparts and b) mSATA to SATA adapter are finicky. Instead we choose to offer plenty of 2.5" bays to make your life easy and simply use 2.5" SSD disks. Cheaper, easier to buy, run cooler and better brands available.
+
+## What about SSD SATA RAID 
+
+You can stripe SATA SSD in RAID 0 to double the data rate or mirror the disks for higher availability. You need an Intel Motherboard that supports RAID. Only high end motherboards have this feature. 
+
+
+
+
+
+# Choice of Boot Disk
+
+- SATA3 2.5" SSD 120GB-$50 - Kingston - SSDNow V300 Series - SV300S37A/120G
+- SATA3 2.5" SSD 250GB-$96 - Samsung - 850 EVO- MZ-75E250B/AM
+- SATA RAID 0 SSD 500 GB $192 - 2x Samsung - 850 EVO- MZ-75E250B/AM
+- SATA RAID 1 SSD 250 GB $192 - 2x Samsung - 850 EVO- MZ-75E250B/AM
+- SATA3 2.5" SSD 500GB- $173 - Samsung - 850 EVO - MZ-7KE512BW
+- SATA3 2.5" SSD 1TB- $366 - Samsung - 850 EVO - MZ-75E1T0B/AM
+- NVME M.2 SSD 256 GB - $200 -  Samsung - 950 Pro - MZ-V5P256BW
+- NVME M.2 SSD  512 GB - $350 -  Samsung - 950 Pro - MZ-V5P512BW
+- NVME PCIe SSD 400 GB - $ 370 - Intel - 750 - SSDPEDMW400G4X1
+- NVME PCIe SSD 800 GB - $ 700 - Intel - 750 - SSDPEDMW800G4X1
+
+
+# Comparison Table
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 
-|CPU Name         |Benchmark|
-|----------------:|:--------|
-|i3-6100|5500|
-|i5-6600|7050|
-|i7-6700|10000 |
-|i7-6700K|11000|
+| Disk       | Read Speed | Write Speed | Read IOPS  | Write IOPS  |
+|-----------:|:----------:|:-----------:|:----------:|:-----------:|
+|Average HDD        | 150 MB/s | 150 MB/s | 0.1K     | 0.1K        |
+|SATA3 2.5" SSD 120GB| 450 MB/s | 450 MB/s | 85K      | 55K         |
+|SATA3 2.5" SSD 250GB| 540 MB/s | 520 MB/s | 197K     | 88K         |
+|SATA RAID 0 SSD 500 GB| 1000 MB/s| 1000 MB/s| 350k   | 140k        |
+|SATA RAID 1 SSD 250 GB| 540 MB/s | 520 MB/s | 197K   | 88K         |
+|SATA3 2.5" SSD 500GB| 540 MB/s | 520 MB/s | 98k      | 90K         |
+|SATA3 2.5" SSD 1TB |  540 MB/s | 520 MB/s | 98k      | 90K         |
+|NVME M.2 SSD 256GB | 2.2 GB/s | 900 MB/s | 270k     | 85K         |
+|NVME M.2 SSD 512GB | 2.5 GB/s | 1.5 GB/s | 300k     | 110K        |
+|NVME PCIe SSD 400GB| 2.2 GB/s | 900 MB/s | 430k     | 230k        |
+|NVME PCIe SSD 800GB| 2.1 GB/s | 800 MB/s | 420k     | 210k        |
 
-- Numbers taken from www.cpubenchmark.net
+## Choice / Links / Reasoning
 
-# About Intel CPU Sockets
-
-## Overview
-
-    **Photo Placement**
-        -four images, horizontal stack
-        -Intel socket images, (1156, sandy bridge, haswell, skylake)
-
-
-{:.uk-table.uk-table-hover.table-header-row-column}
-
-|Feature       | LGA 1156     |LGA 1155       | LGA 1150    | LGA 1151 |
-|-------------:|:-------------|:---------------|:------------|:--------------------|
-|Pin Number    | 1156         |1155           | 1150        |1151   |
-|Introduced    | 2009         |2011           |2013         |2015  |
-|USB           | USB 2        | USB 2         | USB 3       | USB 3 |
-|PCIe          | PCIe 2       | PCIe 2        | PCIe 3      | PCIe 3 |
-|Mem           | DDR3         |DDR3           | DDR3        | DDR4 |
-|SATA          | SATA 2       | SATA 3        | SATA 3      | SATA 3 |
+- [SATA3 2.5" SSD 120GB](http://www.newegg.com/Product/Product.aspx?Item=N82E16820721107&cm_re=SV300S37A%2f120G-_-20-721-107-_-Product) The cheapest one in NewEgg
+- [SATA3 2.5" SSD 250GB](http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241) Common choice, good value, high speed, from SSD Leader Samsung
+- [SATA RAID 0 SSD 500 GB](http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241) Twice the speed. Works only in High End Motherboard.
+- [SATA RAID 1 SSD 250 GB](http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241) Redundant Boot Disk for high reliability. Works only in High End Motherboard.
+- [SATA3 2.5" SSD 500GB](http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02DV8166) Common choice, good value, high speed, from SSD Leader Samsung. The most common one in NewEgg.
+- [SATA3 2.5" SSD 1TB](http://www.newegg.com/Product/Product.aspx?Item=9SIA12K2GN1593) Common choice, good value, high speed, from SSD Leader Samsung. The most common one in NewEgg.
+- [NVME M.2 SSD 256 GB](http://www.newegg.com/Product/Product.aspx?Item=N82E16820147466) Newest, fastest M2 from SSD leader Samsung. 3 x faster than SATA 3
+- [NVME M.2 SSD 512 GB](http://www.newegg.com/Product/Product.aspx?Item=N82E16820147467) Newest, fastest M2 from SSD leader Samsung 4 x faster than SATA 3
+- [NVME PCIe SSD 400 GB](http://www.newegg.com/Product/Product.aspx?Item=N82E16820167359) Best value server grade SSD. Extremely fast for Database or Web Server Apps.
+- [NVME PCIe SSD 800 GB](http://www.newegg.com/Product/Product.aspx?Item=N82E16820167361) Best value server grade SSD. Extremely fast for Database or Web Server Apps.
 
 
-## Reference on Intel CPU Sockets
-- https://en.wikipedia.org/wiki/LGA_1156
-- https://en.wikipedia.org/wiki/LGA_1155
-- https://en.wikipedia.org/wiki/LGA_1150
-- https://en.wikipedia.org/wiki/LGA_1151
+# Advice
 
-## Advice for choosing a CPU
+## SSD vs HDD for Boot Disk
 
-    **Photo Placement**
-        -Pheonix shopping, choosing CPU
-        -Several CPUs in a store isle on the shelf
-        
+In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article ???How to choose your Data Disk???
 
-### Intel 6100 i3
+## Why a fast Boot-Disk is so important?
 
-Entry level i-series from Intel. Two cores but uses Intel hyper-threading, making two virtual cores for a total of 4. High base clock speed and strong enough for non-CPU heavy gaming, photo editing, or light 3D-modeling. 
+1. The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. Faster Boot Disk will make your PC feel to you much faster.
+2. Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower.
 
-### Intel 6600 i5
+## Entry Level and Mid Range
 
-This is the latest generation of Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often get higher performance for your money by investing into a PCIe Add In Card of the type corresponding to your application. 
+Choose SATA 3 SSD for Entry Level and Mid Range PC configurations. They are low cost, fast, easy top install and compatible to all OS and Motherboards. If you are upgrading from a PC with an HDD you are in for a treat. Even the entry level SSD nowadays is 10 x faster the the best Desktop HDD from yesteryear. 
 
-### Intel 6700 i7
+## High End
 
-High end consumer model that supports hyper-threading; the Intel i7 series has 4 physical cores but this technology also has 4 virtual cores, giving 8 core performance. This is extremely valuable for CPU intensive applications, such as 3d model rendering. Compared the the i5 series, hyper-threading is the only real advantage when choosing the i7 model. Not a processor suited for gamers as 8 cores isn't necessary for games, but a worthwhile purchase for professional work.
+You have two choices for higher performance of SATA3 SSD: 1) RAID 0 of two SATA3 SSD. This will double the speed and capacity. Alternatively choose NVME M.2. For twice the cost you get about 300 ... 400% speed increase over SSD or 150 ... 200% of speed over RAID0 SSD. Bear in mind that this only works well with latest high end motherboards and latest OS and requires extra care during installation. When the time comes we will provide a How-To Video on YouTube.
 
-### Intel 6700k i7
+## High Performance Server
 
-Ultimate consumer CPU. Higher base clock speed as the 6700 with an unlocked core, allowing the user to overclock the processor. We do not recommend overclocking to everyone as it can shorten the lifespan of the CPU, increase power consumption, and cause potential lock-ups with the system, but overclocking can be a great way to increase performance for applications that depend on clock speed.
+Consumer M.2 modules overheat when loaded with the workload of a server and they also do not support that kind of workload. This is where the 750 Series from Intel fits in. In terms of IO Operations even faster than NVME M.2 modules and designed for the heavy load in a Server. In case you want to build a system with even more reliability, you can choose SSD RAID 1 for a redundant boot disk and choose the NVME-PCIe as Data Disk.
 
+## Recommendations on capacities
 
-# Where to find more Information
+For a regular PC running Windows 10 or Ubuntu and a bunch of Apps 120 GB will be fine. If your budget is not too tight for $50 US more you get 250 GB and have some room to grow. If you store a lot of Photos / Movies / Songs you will need more space. However, for these data a slower HDD will do in most cases and gives you more space for your money. For more information → Data Disk.
 
-## Newegg CPU Section
-This is a great way to start: [Power Search: Processors - Desktops](http://www.newegg.com/Product/PowerSearch.aspx?SubCategory=343&N=100007671&IsNodeId=1)
+# Reference
 
-## CPU Benchmarks
-- http://www.cpubenchmark.net/
-- Use Google search engine to find the benchmark you are looking for
-
-## GPU Benchmarks
-- http://videocardbenchmark.net/
-- Use Google search engine to find the benchmark you are looking for
-
-## CPU Data Sheet
-- Search in Google for "Data Sheet" + CPU Model
-- Pick the link based on: http://ark.intel.com/products/
-- Example: [Data Sheet Intel® Core™ i7-6700K Processor](Intel® Core™ i7-6700K Processor )
-
-
-
-
-
-
+- http://www.samsung.com/us/computer/ssd-evo
+- http://www.samsung.com/us/computer/ssd-pro
+- http://www.pcworld.com/article/2904340/intel-750-series-ssd-review-storage-so-fast-only-the-highest-end-pcs-can-keep-up.html
+- http://www.pcworld.com/article/2899351/everything-you-need-to-know-about-nvme.html
+- https://en.wikipedia.org/wiki/SATA_Express#U.2
+- https://en.wikipedia.org/wiki/NVM_Express
+ 
 
