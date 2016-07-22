@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Boot Disk
@@ -5,49 +6,42 @@ subtitle: How to choose the Boot Disk.
 abstract: Learn about the importance of your boot disk and what the best option is for you. We go over several different types of disks that are recommended for using as a boot disk.
 issueNo: 161
 readiness:
-   - is-complete
-   - is-active
+   - develop-active
 ---
 
 # Table of Contents
 [TOC]
 
 
-
-
 # Introduction
 
 ## The Problem this Article solves
 
-When building your custom PC you need to choose your Boot Disk. You get your pick out of 3 physical disk interfaces, several mechanical form factors, storage technologies and of course lots of brands and capacities. This Article sorts it all out and helps you to find the right Boot Disk for your computer.
+When building your custom PC you need to choose your boot disk. You get your pick out of 3 physical disk interfaces, several mechanical form factors, storage technologies and of course lots of brands and capacities. This Article sorts it all out and helps you to find the right boot disk for your computer.
 
 ## How this Article solves the problem
 
-This Article is part of three community projects, all designed to simplify building DIY PCs
+This Article is part of two community projects, all designed to simplify building DIY PCs
 
-- **ViCase:** Indiegogo Project. A DIY Mini and All-IN-One Computer Case System
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
 ## Is there an easier way?
 
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your Field of Application, say e.g. Photography and then pick the Main Use and the Configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your field of application, e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
 
 
 # Understanding Disk Technologies for Boot Disk
 
 ## SSD vs HDD for Boot Disk
 
-In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article → [How to choose your Data Disks](https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/How-to-choose-the-Data-Disks) or → [V²Configurator](http://v-squared.github.io/v2-Configurator/)►6. PC Parts►Data Disk (Single). 
+In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article → [How to choose your Data Disks](https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/How-to-choose-the-Data-Disks) or → [V²Configurator](http://v-squared.github.io/v2-Configurator/)►6. PC Parts►Data Disk (Single). 
 
 ## Why it is important that the Boot-Disk is fast?
 
 1. The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. Faster Boot Disk will make your PC feel to you much faster.
 2. Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower.
 
-## Can't every disk boot?
-
-Unfortunately not. The latest M2 and NVME will not always boot. Due to the importance of the Boot Disk to be the fastest Disk in your system, we made the extra effort to build every configuration so that the fastest disk is always the Boot-Disk.
 
 ## SATA3 vs NVME-M.2 vs NVME-PCIe
 
@@ -59,14 +53,14 @@ Nowadays SSDs are faster than SATA 3. In response the industry developed M2 Modu
 |------------------------:|:-------------:|:----------:|:-----------:|
 |Theoretical Max Speed    | 0.65 GBps     | 4 GBps     | 4 GBps      |
 |Practical Max Speed      | 0.65 GBps     | 2.5 GBps   | 2.5 GBps    |
-|Motherboard Compatibility| every         | Z170       | Z170        |
-|Boot in BIOS Mode        | Yes           | No         | No          |
+|Motherboard Compatibility| every         | B150       | B150        |
+|Boot in BIOS Mode        | Yes           | Yes         | Yes          |
 |Boot in UEFI Mode        | Yes           | Yes        | Yes         |
 |Win Support out of box   | 7, 8, 10      | 10         | 10          |
 |Ubuntu Support           | since ever    | 14.04 LTS +| 14.04 LTS + |
 |Speed @ 100% workload    | 100%          | 50%        | 100%        |
 
-Conclusion: Today M2 and PCIe NVME can be 300% faster than your SATA SSD. But you need latest OS and latest motherboard in order for it to be easy to install and so that booting from these disks is supported out of the box. Also care during installation need to be taken to use the Disk in UEFI Mode. These disks are trouble to install and are more expensive, but they give you a 300% performance increase, which can be very significant, depending on your Application. Please also note that M2 modules quickly overheat and throttle down the speed. This is OK for typical consumer use, such a loading a game, but this is not OK in server or professional applications. In such cases choose the PCIe NVME. They have a large heat sink integrated and do not have a problem of overheating. 
+Conclusion: Today M2 and PCIe NVME can be 300% faster than your SATA SSD. But you need latest OS and latest motherboard in order for it to be easy to install and so that booting from these disks is supported out of the box. Also care during installation need to be taken to use the Disk in UEFI Mode. These disks are trouble to install and are more expensive, but they give you a 300% performance increase, which can be very significant, depending on your application. Please also note that M2 modules quickly overheat and throttle down the speed. This is OK for typical consumer use, such a loading a game, but this is not OK in server or professional applications. In such cases choose the PCIe NVME. They have a large heat sink integrated and do not have a problem of overheating. 
 
 We have mitigated the M2 overheating problem somewhat, by a) choosing a module that runs cooler and b) offering a heat sink to cool the IC that is getting hot.
 
@@ -84,15 +78,13 @@ You can stripe SATA SSD in RAID 0 to double the data rate or mirror the disks fo
 
 
 
-
-
 # Choice of Boot Disk
 
-- SATA3 2.5" SSD 120GB-$50 - Kingston - SSDNow V300 Series - SV300S37A/120G
-- SATA3 2.5" SSD 250GB-$96 - Samsung - 850 EVO- MZ-75E250B/AM
-- SATA RAID 0 SSD 500 GB $192 - 2x Samsung - 850 EVO- MZ-75E250B/AM
-- SATA RAID 1 SSD 250 GB $192 - 2x Samsung - 850 EVO- MZ-75E250B/AM
-- SATA3 2.5" SSD 500GB- $173 - Samsung - 850 EVO - MZ-7KE512BW
+- SATA3 2.5" SSD 120GB-$45 - Kingston - SSDNow V300 Series - SV300S37A/120G
+- SATA3 2.5" SSD 250GB-$90 - Samsung - 850 EVO- MZ-75E250B/AM
+- SATA RAID 0 SSD 500 GB $320 - 2x Samsung - 850 EVO- MZ-75E250B/AM
+- SATA RAID 1 SSD 250 GB $180 - 2x Samsung - 850 EVO- MZ-75E250B/AM
+- SATA3 2.5" SSD 500GB- $160 - Samsung - 850 EVO - MZ-7KE512BW
 - SATA3 2.5" SSD 1TB- $366 - Samsung - 850 EVO - MZ-75E1T0B/AM
 - NVME M.2 SSD 256 GB - $200 -  Samsung - 950 Pro - MZ-V5P256BW
 - NVME M.2 SSD  512 GB - $350 -  Samsung - 950 Pro - MZ-V5P512BW
@@ -136,12 +128,12 @@ You can stripe SATA SSD in RAID 0 to double the data rate or mirror the disks fo
 
 ## SSD vs HDD for Boot Disk
 
-In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article ???How to choose your Data Disk???
+In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $40 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast.
 
 ## Why a fast Boot-Disk is so important?
 
-1. The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. Faster Boot Disk will make your PC feel to you much faster.
-2. Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower.
+1. The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. A faster boot disk will make your PC feel like you just bought it, making boot time and loading applications take a matter of seconds.
+2. Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your boot disk is not the fastest disk, by default your Apps will run slower.
 
 ## Entry Level and Mid Range
 
@@ -159,7 +151,7 @@ Consumer M.2 modules overheat when loaded with the workload of a server and they
 
 For a regular PC running Windows 10 or Ubuntu and a bunch of Apps 120 GB will be fine. If your budget is not too tight for $50 US more you get 250 GB and have some room to grow. If you store a lot of Photos / Movies / Songs you will need more space. However, for these data a slower HDD will do in most cases and gives you more space for your money. For more information → Data Disk.
 
-# Reference
+# References
 
 - http://www.samsung.com/us/computer/ssd-evo
 - http://www.samsung.com/us/computer/ssd-pro
