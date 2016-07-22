@@ -12,18 +12,7 @@ readiness:
 
 ## Table of Contents
 
-    Introduction
-        The problem this article solves
-        How this Article solves the problem
-        Is there an easier way
-    How this Article works
-        Classes of Motherboards
-        Side by side comparison
-        Assign Motherboards to Use Cases
-    Motherboard Comparison
-        Comparison Table
-        Motherboard Features explained
-
+[TOC]
 
 ## The problem this article solves
 
@@ -31,18 +20,16 @@ There are a huge number of motherboard out there, each with a very long list of 
 
 ## How this Article solves the problem
 
-This Article is part of three community projects, all designed to simplify building DIY PCs
+This Article is part of two community projects, all designed to simplify building DIY PCs
 
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
 ## Is there an easier way
-
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your field of application, e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your field of application, e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
 
 
 # How this Article works
-
 ## Classes of Motherboards
 
         **Image Placeholder text**
@@ -59,11 +46,9 @@ This Article is providing choices of Motherboards for the two performance classe
 
 
 ## Side by side comparison
-
 We have selected two Motherboards for you covering the range from everyday computing to extreme performance. We put them into one table for most convenient side by side comparison. All features are explained in another table.
 
 ## Assign Motherboards to Use Cases
-
 To make picking a Motherboard easier the V²Configurator simply asks you about your Use Case and your performance class and picks the right motherboard for you.
 
 
@@ -141,7 +126,6 @@ To make picking a Motherboard easier the V²Configurator simply asks you about y
 | Display►Resolution | If shows UHD you can drive a 4K Display without a GPU card |
 
 # Advice
-
 ## Entry Level Motherboard
 
 The Asus B150I ITX motherboard is the perfect consumer level board for everyday users. With high end features included such as HDMI 1.4 (4k support), USB type C port, M.2 slot for PCIe NVME drives, built-in AC wifi, and fully customize able RGB lighting, it has everything you need. This motherboard does not support overclocking, so this would be ideal for someone who wants to leave their computer without tinkering. This will easily handle computer configurations with an i7 CPU (not unlocked) and graphics card, making this the most sense to purchase.
@@ -167,4 +151,4 @@ Motherboards are the nervous system of the computer; without them, none of the c
 
 - [MSI MB Page](https://us.msi.com/Motherboard/Z170I-GAMING-PRO-AC.html#hero-overview)
 - [ASUS MB Page](https://www.asus.com/us/Motherboards/B150I-PRO-GAMING-WIFI-AURA/)
-- 
+
