@@ -2,7 +2,7 @@
 layout: page
 title: Parts
 subtitle: Choosing & Understanding Workstation PC Parts.
-abstract: Know-how articles about every piece of hardware within a Workstation PC. Get a better idea on how each component affects performance and how to choose the the right one for you.
+abstract: Know-how articles about every piece of hardware within a Workstation PC. Get a better idea on how each component affects performance and how to choose the right one for you.
 issueNo: 160
 readiness:
    - is-complete
