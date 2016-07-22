@@ -26,21 +26,29 @@ readiness:
 
 
 ## The problem this article solves
+
 There are a huge number of motherboard out there, each with a very long list of features. To make matters worse, you will connect a lot of other components into the Motherboard, all of which have a long list of features themselves. And of course not all Motherboards are compatible with all parts. So if later you want to use a certain part and the motherboard you have picked does not support it, then you are buggered.
 
 ## How this Article solves the problem
+
 This Article is part of three community projects, all designed to simplify building DIY PCs
 
-- **ViCase:** Indiegogo Project. A DIY Mini and All-IN-One Computer Case System
 - **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
 - **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
 
 ## Is there an easier way
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your Field of Application, say e.g. Photography and then pick the Main Use and the Configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
+
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the Wizard. Pick your field of application, e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your Use Case and Performance class.
 
 
 # How this Article works
+
 ## Classes of Motherboards
+
+        **Image Placeholder text**
+        - Two images side by side, photos of motherboard
+        -One is a average looking motherboard with a clock filled to 8 hours
+        -Second is fancy motherboard with clock filled to 24 hours
 
 This Article is providing choices of Motherboards for the two performance classes:
 
@@ -51,42 +59,47 @@ This Article is providing choices of Motherboards for the two performance classe
 
 
 ## Side by side comparison
-We have selected 2 Motherboards for you covering the range from everyday computing to extreme performance. We put them into one table for most convenient side by side comparison. All features are explained in another table.
+
+We have selected two Motherboards for you covering the range from everyday computing to extreme performance. We put them into one table for most convenient side by side comparison. All features are explained in another table.
 
 ## Assign Motherboards to Use Cases
-To make picking a Motherboard easier the V²Configurator simply asks you about your Use Case and your performance class and picks the right motherboard for you.
 
-## Advice
-Short advice which motherboard to choose for which purpose
+To make picking a Motherboard easier the V²Configurator simply asks you about your Use Case and your performance class and picks the right motherboard for you.
 
 
 # Motherboard Comparison
 
 ## Comparison Table
 
+
+        **Image Placeholder text**
+        - Two images side by side, photos of motherboard. Horizontal stack
+        -Image 1 is Asus B150I
+        -Image two is MSI Z170I
+
 {:.uk-table.uk-table-hover.table-header-row-column}
 
 | MoBo Feature        |Entry Level|High End Model|
 |:--------------------|:-------:|:-------:|
-| MoBo►Name           |[Gigabyte H170N](https://www.amazon.com/Gigabyte-LGA1151-Mini-ITX-Motherboard-GA-H170N-WIFI/dp/B015CQ8D9Q/ref=sr_1_6?)|[Gigabyte Z170N](https://www.amazon.com/Gigabyte-LGA1151-Mini-ITX-Motherboards-GA-Z170N-Gaming/dp/B014W2000Q/ref=sr_1_4?)|
-| MoBo►Brand          |Gigabyte	|Gigabyte|
+| MoBo►Name           |[Asus B150I Pro](http://www.newegg.com/Product/Product.aspx?item=N82E16813132720)|[MSI Z170I Pro AC](http://www.newegg.com/Product/Product.aspx?Item=N82E16813130880&cm_re=intel_itx_1151-_-13-130-880-_-Product)|
+| MoBo►Brand          |Asus	|MSI|
 | MoBo►Form Factor    |Mini-ITX |Mini-ITX |
-| MoBo►Chip           |H170N|Z170N (1)|
-| MoBo►Price          | \$120     | \$155     |
+| MoBo►Chip           |B150I|Z170N (1)|
+| MoBo►Price          | \$125     | \$180     |
 | CPU►intel/AMD       |Intel    |Intel    |
 | CPU►Socket Name     |Intel 1151 |Intel 1151 (2)|
 | CPU►Overclock       |No       |Yes       |
 | Disk►SSD Cache (3)  |Yes       |Yes       |
 | Disk►RAID5          |Yes       |Yes       |
-| Disk►Qty SATA Ports |2        |2        |
+| Disk►Qty SATA Ports |4        |4        |
 | Disk►NVME►M.2       | Yes       | Yes       |
 | Mem►Max size        |32 GB    |32 GB    |
 | Mem►Type            |DDR4     |DDR4     |
 | Mem►Speed           |2133 MHz |3200 MHz |
 | I/O►WiFi Lan (4)    |Yes       |Yes       |
 | I/O►mPCIe socket    |Yes      |Yes       |
-| I/O►Qty USB 2 ports |0        |0        |
-| I/O►Qty USB 3 ports |5        |5        |
+| I/O►Qty USB 2 ports |2        |3        |
+| I/O►Qty USB 3 ports |3        |4        |
 | Display►Digital Ports|2       |2        |
 | Display►Resolution (5)|4K@60Hz |4K@60Hz|
 
@@ -94,7 +107,7 @@ Short advice which motherboard to choose for which purpose
 - (2) All current intel Desktop CPU use this socket from entry level to high end
 - (3) Accelerate your HD with your SSD (very useful)
 - (4) The mPCIe socket is occupied with included WLan module
-- (5) 1080p = 1920 x 1080. UHD Is one form of 4K Display resolution of 3940x2160 pixels size. This is the common format of 4K displays. There is a slightly bigger one used in Cinema. The ASRock Z170-ITX/ac can drive that one too!
+- (5) 1080p = 1920 x 1080. UHD Is one form of 4K Display resolution of 3940x2160 pixels size. This is the common format of 4K displays. There is a slightly bigger one used in Cinema. 
 
 
 
@@ -128,13 +141,30 @@ Short advice which motherboard to choose for which purpose
 | Display►Resolution | If shows UHD you can drive a 4K Display without a GPU card |
 
 # Advice
+
 ## Entry Level Motherboard
 
-The Gigabyte H170N has all of the features any typical user would want with a motherboard; built-in AC Wifi, USB 3 ports + USB type-C, PCI-e Gen3 M.2 connector for NVME drives, plenty of SATA ports, and high quality components. This motherboard does not support overclocking, so this would be ideal for someone who wants to leave their computer without tinkering. 
+The Asus B150I ITX motherboard is the perfect consumer level board for everyday users. With high end features included such as HDMI 1.4 (4k support), USB type C port, M.2 slot for PCIe NVME drives, built-in AC wifi, and fully customize able RGB lighting, it has everything you need. This motherboard does not support overclocking, so this would be ideal for someone who wants to leave their computer without tinkering. This will easily handle computer configurations with an i7 CPU (not unlocked) and graphics card, making this the most sense to purchase.
 
 
 ## High End Motherboard
-Choose this board if you are looking for ultimate performance. Lets break it down into sections: 1) Disks: Very high performing RAID 5 Controller. We use this in the high end configurations to give you very large Data Disks at speed levels similar to SSD and security even beyond. 2) NVME-M2: This port is 600% faster than SATA 3. A dramatic improvement. 3) 32 GB DDR4. You can use more memory and it is 40% faster than DDR3. 4) New CPU Socket 1151: It gives you all these cool features and makes your board future proof. 5) Integrated 4K Display support: Connect the latest 4K display without the need to add a GPU card. 6) Built-in WiFi. 7) If you are looking for the fastest PC possible, choose this board with confidence. ViCase comes  with the matching CPU cooling solution, so you can run even the biggest CPU at 100% load all the time without thermal throttling.  The V²Configurator has high end configurations to turn all these extras into a much faster computer for you.
+
+Choose this board if you are looking for ultimate performance. The MSI Z170I Gaming Pro AC has all of the features you could ask for in a motherboard, not skimping out on anything. On top of the features our consumer level board has, this board supports overclocking for even greater performance, USB 3.1 ports, Intel AC wireless, dedicated USB audio port for less interference, and SATA express for incredibly fast data speeds. This option is recommended for those looking to utilize the most out of their ViPC, future-proofing your motherboard for many years to come. 
+
+
+# Concluding thoughts
+
+
+        **Image Placeholder text**
+        - Person sitting down in "thinking pose"
+
+
+Motherboards are the nervous system of the computer; without them, none of the components could communicate or work together. It's easy to save money in the early stages when buying a motherboard, but for many experienced builders, the motherboard is the last piece of hardware to upgrade. The boards we offer not only support new technologies, but are built to last the lifetime of your device. 
 
 
 
+## References
+
+- [MSI MB Page](https://us.msi.com/Motherboard/Z170I-GAMING-PRO-AC.html#hero-overview)
+- [ASUS MB Page](https://www.asus.com/us/Motherboards/B150I-PRO-GAMING-WIFI-AURA/)
+- 
