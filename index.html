@@ -141,12 +141,13 @@ cta:
 
   {% include feature-row id="cta" align="center" background="#2196F3" class="call-to-action" %}
 
-  <uib-tabset id="tab1" class="portfolio" justified>
+  <!-- ************************** -->
+  <!--          Portfolio         -->
+  <!-- ************************** -->
+
+
+  <uib-tabset id="big-picture" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
-      
-      <button uib-tab-previous layout="column" layout-align="center center" no-gap>
-        <div>&lt;</div>
-      </button>
 
       <div class="uk-container uk-container-center">
         <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em></p>
@@ -171,23 +172,10 @@ cta:
                 <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="progress__last" ng-class="repository.progress[3]"></div>
               </div>
             </figure>
-            <!--<div class="uk-progress" ng-if="repository.progress">
-<div class="uk-progress-bar" ng-style="{width: repository.progress + '%'}"></div>
-</div>
-<div class="uk-progress-overlay" ng-if="repository.progress">
-<div>Create</div>
-<div>Develop</div>
-<div>Beta</div>
-<div>Make</div>
-</div>-->
 
           </div>
         </div>
       </div>
-      
-      <button uib-tab-next layout="column" layout-align="center center" no-gap>
-        <div>&gt;</div>
-      </button>button>
 
     </uib-tab>
   </uib-tabset>

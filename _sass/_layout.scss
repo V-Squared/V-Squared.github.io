@@ -560,7 +560,6 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
 
   div {
     border-left: 2px solid rgba(0, 0, 0, 0.2);
-    background:transparent;
     opacity: 0.3;
     background: #DFE3E4;
   }
@@ -570,11 +569,11 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   }
 
   .is-complete {
-    background:#1976D2;
+    background:#1976D2 !important;
     opacity: 1;
   }
   .is-active {
-    background:#FFAB40;
+    background:#FFAB40 !important;
     opacity: 1;
   }
 }

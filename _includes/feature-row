@@ -17,7 +17,7 @@
 {% endif %}
 
 {% if type == 'default' %}
-<div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
+<div class="feature-section{% if include.class %} {{include.class}}{% endif %}"
      id="{{include.id}}"
      {% if include.background %}style="background: {{include.background}}"{% endif %}>
   <div class="uk-container uk-container-center">
