@@ -639,6 +639,7 @@ All the slide is inside the slides object. The properties are:
 - [Unicode Character / Symbols](https://www.materialui.co/unicode-characters)
 - [Material Design Colors](https://www.materialui.co/unicode-characters)
 - [YML Lint](http://www.yamllint.com/) (Verify syntax of front matter YML)
+- [kramdown syntax](http://kramdown.gettalong.org/syntax.htm)
 
 ## Symbols used in Tables {#graphic-symbols}
 
