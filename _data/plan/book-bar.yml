@@ -93,6 +93,8 @@
           url: /flow/publishing/template-article/
         - menu: Frequently Made Mistakes
           url: /flow/publishing/mistakes/  
+        - menu: Classeur Manual
+          url: /flow/publishing/classeur-manual/  
     - menu: Mechanical Design
       url: /flow/mechanical/
       group:
