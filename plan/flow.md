@@ -9,5 +9,3 @@ issueNo: 183
 readiness:
    - is-active
 ---
-
-{% include slideshow %}

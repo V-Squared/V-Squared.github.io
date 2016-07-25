@@ -2,12 +2,10 @@
  * angular-ui-bootstrap
  * http://angular-ui.github.io/bootstrap/
 
- * Version: 1.3.3 - 2016-05-22
+ * Version: 2.0.0 - 2016-07-19
  * License: MIT
  */
-
-angular.module("ui.bootstrap.tpls", ["uib/template/carousel/carousel.html","uib/template/carousel/slide.html"]);
-angular.module("ui.bootstrap.carousel", ["ui.bootstrap.tpls"])
+angular.module('ui.bootstrap.carousel', [])
 
 .controller('UibCarouselController', ['$scope', '$element', '$interval', '$timeout', '$animate', function($scope, $element, $interval, $timeout, $animate) {
   var self = this,
@@ -154,6 +152,13 @@ angular.module("ui.bootstrap.carousel", ["ui.bootstrap.tpls"])
     }
   };
 
+  self.$postLink = function postLink() {
+    $element.addClass('carousel');
+
+    $element.on('mouseenter', $scope.pause);
+    $element.on('mouseleave', $scope.play);
+  }
+
   $scope.$on('$destroy', function() {
     destroyed = true;
     resetTimer();
@@ -289,9 +294,9 @@ angular.module("ui.bootstrap.carousel", ["ui.bootstrap.tpls"])
 .directive('uibCarousel', function() {
   return {
     transclude: true,
-    replace: true,
     controller: 'UibCarouselController',
     controllerAs: 'carousel',
+    restrict: 'EA',
     templateUrl: function(element, attrs) {
       return attrs.templateUrl || 'uib/template/carousel/carousel.html';
     },
@@ -305,11 +310,12 @@ angular.module("ui.bootstrap.carousel", ["ui.bootstrap.tpls"])
   };
 })
 
-.directive('uibSlide', function() {
+.directive('uibSlide', ['$animate', function($animate) {
   return {
     require: '^uibCarousel',
+    restrict: 'EA',
     transclude: true,
-    replace: true,
+    replace:true,
     templateUrl: function(element, attrs) {
       return attrs.templateUrl || 'uib/template/carousel/slide.html';
     },
@@ -318,14 +324,25 @@ angular.module("ui.bootstrap.carousel", ["ui.bootstrap.tpls"])
       index: '=?'
     },
     link: function (scope, element, attrs, carouselCtrl) {
+      element.addClass('item');
       carouselCtrl.addSlide(scope, element);
+
+      // if first item in slides, set the slideshow height
+      if(carouselCtrl.slides.length == 1) {
+        carouselCtrl.height = element[0].clientHeight + "px";
+      }
+
       //when the scope is destroyed then remove the slide from the current slides array
       scope.$on('$destroy', function() {
         carouselCtrl.removeSlide(scope);
       });
+
+      scope.$watch('active', function(active) {
+        $animate[active ? 'addClass' : 'removeClass'](element, 'active');
+      });
     }
   };
-})
+}])
 
 .animation('.item', ['$animateCss',
 function($animateCss) {
@@ -376,34 +393,5 @@ function($animateCss) {
       done();
     }
   };
-}]);
-
-angular.module("uib/template/carousel/carousel.html", []).run(["$templateCache", function($templateCache) {
-  $templateCache.put("uib/template/carousel/carousel.html",
-    "<div ng-mouseenter=\"pause()\" ng-mouseleave=\"play()\" class=\"carousel\" ng-swipe-right=\"prev()\" ng-swipe-left=\"next()\">\n" +
-    "  <div class=\"carousel-inner\" ng-transclude></div>\n" +
-    "  <a role=\"button\" href class=\"left carousel-control\" ng-click=\"prev()\" ng-class=\"{ disabled: isPrevDisabled() }\" ng-show=\"slides.length > 1\">\n" +
-    "    <span aria-hidden=\"true\" class=\"glyphicon glyphicon-chevron-left\"></span>\n" +
-    "    <span class=\"sr-only\">previous</span>\n" +
-    "  </a>\n" +
-    "  <a role=\"button\" href class=\"right carousel-control\" ng-click=\"next()\" ng-class=\"{ disabled: isNextDisabled() }\" ng-show=\"slides.length > 1\">\n" +
-    "    <span aria-hidden=\"true\" class=\"glyphicon glyphicon-chevron-right\"></span>\n" +
-    "    <span class=\"sr-only\">next</span>\n" +
-    "  </a>\n" +
-    "  <ol class=\"carousel-indicators\" ng-show=\"slides.length > 1\">\n" +
-    "    <li ng-repeat=\"slide in slides | orderBy:indexOfSlide track by $index\" ng-class=\"{ active: isActive(slide) }\" ng-click=\"select(slide)\">\n" +
-    "      <span class=\"sr-only\">slide {{ $index + 1 }} of {{ slides.length }}<span ng-if=\"isActive(slide)\">, currently active</span></span>\n" +
-    "    </li>\n" +
-    "  </ol>\n" +
-    "</div>\n" +
-    "");
-}]);
-
-angular.module("uib/template/carousel/slide.html", []).run(["$templateCache", function($templateCache) {
-  $templateCache.put("uib/template/carousel/slide.html",
-    "<div ng-class=\"{\n" +
-    "    'active': active\n" +
-    "  }\" class=\"item text-center\" ng-transclude></div>\n" +
-    "");
 }]);
 angular.module('ui.bootstrap.carousel').run(function() {!angular.$$csp().noInlineStyle && !angular.$$uibCarouselCss && angular.element(document).find('head').prepend('<style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style>'); angular.$$uibCarouselCss = true; });

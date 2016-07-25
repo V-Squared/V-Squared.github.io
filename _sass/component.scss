@@ -2,8 +2,35 @@
 * UIKIT slideShow
 */
 
-.uk-slidenav {
-  &:visited {
-    color:rgba(255,255,255,0.4);
+.v2-slideshow {
+
+  .v2-slideshow-inner {
+    margin:0;
+    position: relative;
+    overflow: hidden;
+    .v2-slide {
+      list-style: none;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+  }
+
+  .v2-slidenav {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+
+    &.v2-slide-next {
+      right:20%;
+    }
+
+    &.v2-slide.prev {
+      left:20%;
+    }
+
+    &:visited {
+      color:rgba(255,255,255,0.4);
+    }
   }
 }
