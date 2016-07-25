@@ -10,3 +10,22 @@ readiness:
 ---
 
 
+# Setting Up Classeur
+
+## Top Level Settings
+
+
+
+
+
+
+# Remaining Mysteries
+
+## Menu > Zen Mode
+I could not figure out what it does. I tried off, used Classeur for a while, then I tried it on and used it again. I could see no difference.
+
+## Export Pandoc TOC
+I found no way to export the TOC. Since we need to export the ToC, this would have been useful. We are now using HTML export and manually copy paste the ToC from the HTML source. A bit crude and a pain to describe in a manual, but works.
+
+
+# Improvement Ideas
