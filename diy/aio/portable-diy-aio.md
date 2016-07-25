@@ -33,64 +33,88 @@ readiness:
 
 # Features
 
-__Simple & Elegant__ x
+__Simple & Elegant__
 
 ![](/diy/aio/portable-diy-aio/v2-diy-aio-front-view.jpg)
 
 This is front view of the DIY All-in-One with the keyboard placed in the shelf.
 
-__Grip__ x
+__Grip__
 
 ![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 I used the very first Mac which came with a carry grip. I have missed the grip every since on all my subsequent computers. This one is placed in the center of gravity with a nice smooth shape to not cut into your fingers.
 
-__Carrying via Hand Grip__ x
+__Carrying via Hand Grip__
+
+![](/diy/aio/portable-diy-aio/carry-via-grip.jpg)
 
 The carry grip is sufficient for short distances, say from your work room to the living room. For reference, this is a 1.8 m tall person carrying an All-in-One with 28" display.
 
 
-__Carrying via Shoulder Strap__ x
+__Carrying via Shoulder Strap__
+
+![](/diy/aio/portable-diy-aio/carry-via-strap.jpg)
 
 You can use a shoulder strap for longer walks.
 
-__Single Cable Connection__ x
+__Single Cable Connection__only-one-cable.jpg)
+
+![](/diy/aio/portable-diy-aio/
 
 Changing your location is so fast, because you only need to handle this one power cable.
 
-__Microphone & Speaker__ x
+__Microphone & Speaker__
+
+![](/diy/aio/portable-diy-aio/speaker-and-microphone.jpg)
 
 Placement of your speaker and microphone behind your display. They are connected with cables through the cable break outs as shown below.
 
-__Shelf for Mouse & Utensils__ x
+__Shelf for Mouse & Utensils__
+
+![](/diy/aio/portable-diy-aio/shelf-with-utensils.jpg)
 
 The integrated shelf can carry your mouse, pens, eraser, and so forth.
 
-__Keyboard in Shelf__ x
+__Keyboard in Shelf__
+
+![](/diy/aio/portable-diy-aio/shelf-with-keyboard.jpg)
 
 It also fits a full size keyboard, keeping your desk free for other tasks or stores your keyboard when carrying your workstation. And cat owners will find their PC still sleeping in the morning :-).
 
 __Quiet Airflow__
 
+![](/diy/aio/portable-diy-aio/airflow.jpg)
+
 The CPU cooler sucks in cold air (blue arrow), leading to very efficient and quiet cooling. The hot air exhausts through the two grills on the side (red arrow). This is a simple airflow, yet more efficient and quiet than that of common desktop cases.
 
-__Power On, Status LED & USB__ x
+__Power On, Status LED & USB__
+
+![](/diy/aio/portable-diy-aio/power-status-usb.jpg)
 
 The round thing is where you power on / off your PC, check its status LEDs or plug in other temporary USB devices.
 
-__Headset Hook__ x
+__Headset Hook__
+
+![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 When not in use this hook keeps your headset of your desk.
 
-__Display Tilt__ x
+__Display Tilt__
+
+![](/diy/aio/portable-diy-aio/titl-display.jpg)
 
 You can adjust the display tilt at the time when you mount your display.
 
-__Easy Access to IO__ x
+__Easy Access to IO__
+
+![](/diy/aio/portable-diy-aio/easy-access.jpg)
 
 We placed the IO panel facing upwards. This gives you easy access to it. Yet cable mess is reduced to a minimum as all cables can enter into the two holes left and right to the IO panel.
 
-__Hidden Cables__ x 
+__Hidden Cables__
+
+![](/diy/aio/portable-diy-aio/hidden-cables.jpg)
 
 All cables are inside the cover and hidden from sight. This gets cables out of the way when carrying your workstation and also keeps the cosmetic appearance clean.
 
