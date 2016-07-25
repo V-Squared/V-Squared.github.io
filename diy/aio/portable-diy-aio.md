@@ -7,7 +7,7 @@ issueNo: 217
 contents:
   - name: User Stories
     url: user-stories
-    subitem:
+    subitems:
       - name: Photographer
         url: photographer
       - name: Older People
@@ -18,7 +18,7 @@ contents:
     url: benefits-of-portable-aio
   - name: How to make it Happen
     url: how-to-make-it-happen
-    subitem:
+    subitems:
       - name: Hibernation
         url: hibernation
       - name: Single Cable Only
@@ -33,19 +33,19 @@ contents:
     url: cutting
   - name: Drilling
     url: drilling
-    subitem:
+    subitems:
       - name: Drill Templates
         url: drill-templates
   - name: Assembly & Wiring
     url: assembly--wiring
-    subitem:
+    subitems:
       - name: DC GND Wiring
         url: dc-gnd-wiring
   - name: Season to your liking
     url: season-to-your-liking
   - name: Shopping
     url: shopping
-    subitem:
+    subitems:
       - name: Shopping List Mechanical Parts
         url: shopping-list-mechanical-parts
       - name: Parts you may already have
