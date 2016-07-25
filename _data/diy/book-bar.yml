@@ -66,6 +66,8 @@
   url: /aio/
   desc: How to Build an All-In-One Workstation. 
   subitems:
+    - menu: Truly Portable DIY AiO
+      url: /aio/portable-diy-aio/
 - menu: Fixing
   url: /fixing/
   desc: How to Fix Your Workstation PC. 
