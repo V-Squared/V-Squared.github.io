@@ -3,7 +3,69 @@ layout: page
 title: Truly Portable DIY AiO
 subtitle: DIY Project to build a portable All-in-One from scratch.
 abstract: 
-issueNo: 
+issueNo: 217
+contents:
+  - name: User Stories
+    url: user-stories
+    subitem:
+      - name: Photographer
+        url: photographer
+      - name: Older People
+        url: older-people
+      - name: Powerful & Portable
+        url: powerful--portable
+  - name: Benefits of Portable AiO
+    url: benefits-of-portable-aio
+  - name: How to make it Happen
+    url: how-to-make-it-happen
+    subitem:
+      - name: Hibernation
+        url: hibernation
+      - name: Single Cable Only
+        url: single-cable-only
+      - name: WiFi replaces Cables
+        url: wifi-replaces-cables
+      - name: Everything on the Grip
+        url: everything-on-the-grip
+  - name: Features
+    url: features
+  - name: Cutting
+    url: cutting
+  - name: Drilling
+    url: drilling
+    subitem:
+      - name: Drill Templates
+        url: drill-templates
+  - name: Assembly & Wiring
+    url: assembly--wiring
+    subitem:
+      - name: DC GND Wiring
+        url: dc-gnd-wiring
+  - name: Season to your liking
+    url: season-to-your-liking
+  - name: Shopping
+    url: shopping
+    subitem:
+      - name: Shopping List Mechanical Parts
+        url: shopping-list-mechanical-parts
+      - name: Parts you may already have
+        url: parts-you-may-already-have
+      - name: Tools & Glue
+        url: tools--glue
+      - name: Cut List
+        url: cut-list
+      - name: Amazon Shopping List
+        url: amazon-shopping-list
+  - name: Parts Definitions
+    url: parts-definitions
+  - name: Please by through provided links
+    url: please-by-through-provided-links
+  - name: Reference
+    url: reference
+  - name: Sort In
+    url: sort-in
+  - name: Questions to Tom
+    url: questions-to-tom
 readiness:
   - is complete 
   - is-active
@@ -43,7 +105,7 @@ __Grip__
 
 ![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
-I used the very first Mac which came with a carry grip. I have missed the grip every since on all my subsequent computers. This one is placed in the center of gravity with a nice smooth shape to not cut into your fingers.
+I used the very first Mac which came with a carry grip. I have missed the grip ever since on all my subsequent computers. This one is placed in the center of gravity with a nice smooth shape to not cut into your fingers.
 
 __Carrying via Hand Grip__
 
