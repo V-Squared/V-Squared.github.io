@@ -58,9 +58,9 @@ __Carrying via Shoulder Strap__
 
 You can use a shoulder strap for longer walks.
 
-__Single Cable Connection__only-one-cable.jpg)
+__Single Cable Connection__
 
-![](/diy/aio/portable-diy-aio/
+![](/diy/aio/portable-diy-aio/only-one-cable.jpg)
 
 Changing your location is so fast, because you only need to handle this one power cable.
 
