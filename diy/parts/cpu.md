@@ -1,8 +1,8 @@
 ---
 layout: page
 title: CPU
-subtitle: How to choose the CPU.
-abstract: Description of different CPU options ranging from entry level to high end. Covers  specifications, benchmarks, and recommendations for each processor. 
+subtitle: How to choose your CPU.
+abstract: Descriptions of the available CPU options, ranging from entry level to high end. Covers the specifications, benchmarks, and recommendations for each processor. 
 issueNo: 137
 readiness:
    - develop-active
@@ -16,18 +16,18 @@ readiness:
 
 ## The problem this article solves
 
-There are a huge number of CPUs out there. Each one varies in performance, size, and cost. There are also other elements to take into consideration, such as motherboard socket, integrated GPUs and RAID controllers, the types of applications you plan to use on your computer, and many other factors. This article goes through these issues.
+There are a huge number of CPUs out there. Each one varies in performance, size, and cost. There are also other elements to take into consideration, such as motherboard socket, integrated GPUs and RAID controllers, the types of applications you plan to use on your computer, and many other factors. This article helps you sort through these issues.
 
-## How this Article solves the problem
+## How this article solves the problem
 
-This Article is part of two community projects, all designed to simplify building DIY PCs
+This article is part of two community projects, both designed to simplify building DIY PCs.
 
-- **V²Configurator:** GitHub Project. The Configurator assists you when configuration your PC
-- **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator
+- **V²Configurator:** GitHub Project. The Configurator assists you with the configuration of your PC.
+- **This Article Series:** In depth Know How. In case you want to tune Ready Made Configurations of the V² Configurator.
 
 ## Is there an easier way
 
-Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. photography and then pick the main use and the configurator will custom build a complete computer for you, optimized for your use case and performance class.
+Yes! Learning how to choose components for a DIY computer is time consuming. This is why we created a shortcut for you. Go to the V²Configurator and open the wizard. Pick your field of application,  e.g. photography, and then pick the main use. The configurator will then custom build a complete computer for you, optimized for your use case and performance class.
 
 
 # How this Article works
@@ -38,7 +38,7 @@ Yes! Learning how to choose components for a DIY computer is time consuming. Thi
         - three vicases side by side, horizontal stack
         - one with a single "$", another with "$$", another with "$$$"
 
-This Article is providing choices of CPUs divided into three performance classes:
+This Article examines the available choices of CPUs, divided into three performance classes:
 
 1. **Entry Level:** Total cost of Computer: $700+
 2. **Mid Range:** Total cost of Computer: $1100+
@@ -47,10 +47,10 @@ This Article is providing choices of CPUs divided into three performance classes
 
 
 ## Side by side comparison
-We have selected four CPUs covering the range from lowest cost to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
+We have selected four CPUs covering the range from most affordable to most powerful. We put them into one table for easy side by side comparison. All features are explained in another table.
 
 ## Assign CPUs to Use Cases
-To make picking a CPU easier the V²Configurator simply asks you about your field of application and main use case and then picks the right CPU for you.
+To make picking a CPU easier, the V²Configurator simply asks you about your field of application and main use case and then recommends the right CPU for you.
 
 
 # CPU Comparison
@@ -99,7 +99,7 @@ To make picking a CPU easier the V²Configurator simply asks you about your fiel
 |Misc►Power TDP|Maximum Thermal Design Power aka TDP. Make sure to use a CPU cooler that can handle the power|
 |Mem►Max Size|Max Size of Memory|
 |Mem►Speed|Max Clock Speed Speed of Memory in MHz|
-|Disk►RAID5|Requires at least 3 Disks. Makes your HDD significantly faster and the same time makes your data more safe. Even when one disk can fails you will still have all data.|
+|Disk►RAID5|Requires at least 3 Disks. Makes your HDD significantly faster and at the same time makes your data more secure. Even when one disk can fails you will still have all data.|
 
 ### List of CPUs (with Tag Lines)
 
