@@ -5,17 +5,13 @@ subtitle: DIY Project to build a portable All-in-One from scratch.
 abstract: 
 issueNo: 217
 contents:
-  - name: User Stories
-    url: user-stories
+  - name: Purpose of Portable AiO
+    url: purpose-of-portable-aio
     subitems:
-      - name: Photographer
-        url: photographer
-      - name: Older People
-        url: older-people
-      - name: Powerful & Portable
-        url: powerful--portable
-  - name: Benefits of Portable AiO
-    url: benefits-of-portable-aio
+      - name: Portable vs Chained to Desk
+        url: portable-vs-chained-to-desk
+      - name: Portable vs Laptop
+        url: portable-vs-laptop
   - name: How to make it Happen
     url: how-to-make-it-happen
     subitems:
@@ -23,26 +19,29 @@ contents:
         url: hibernation
       - name: Single Cable Only
         url: single-cable-only
-      - name: WiFi replaces Cables
-        url: wifi-replaces-cables
+      - name: Wireless Mouse & Keyboard
+        url: wireless-mouse--keyboard
       - name: Everything on the Grip
         url: everything-on-the-grip
   - name: Features
     url: features
-  - name: Cutting
-    url: cutting
-  - name: Drilling
-    url: drilling
+  - name: Making
+    url: making
     subitems:
-      - name: Drill Templates
-        url: drill-templates
-  - name: Assembly & Wiring
-    url: assembly--wiring
-    subitems:
-      - name: DC GND Wiring
-        url: dc-gnd-wiring
-  - name: Season to your liking
-    url: season-to-your-liking
+      - name: Shopping List
+        url: shopping-list
+      - name: Drawings
+        url: drawings
+      - name: Cutting
+        url: cutting
+      - name: Drilling
+        url: drilling
+      - name: Painting
+        url: painting
+      - name: Assembly
+        url: assembly
+      - name: Wiring
+        url: wiring
   - name: Shopping
     url: shopping
     subitems:
@@ -58,30 +57,21 @@ contents:
         url: amazon-shopping-list
   - name: Parts Definitions
     url: parts-definitions
-  - name: Please by through provided links
-    url: please-by-through-provided-links
+  - name: Please buy through provided links
+    url: please-buy-through-provided-links
   - name: Reference
     url: reference
-  - name: Sort In
-    url: sort-in
-  - name: Questions to Tom
-    url: questions-to-tom
 readiness:
   - is complete 
   - is-active
 ---
 
 
+# Purpose of Portable AiO
 
-# User Stories
+## Portable vs Chained to Desk
 
-## Photographer
-
-## Older People
-
-## Powerful & Portable
-
-# Benefits of Portable AiO
+## Portable vs Laptop
 
 # How to make it Happen
 
@@ -89,7 +79,7 @@ readiness:
 
 ## Single Cable Only
 
-## WiFi replaces Cables
+## Wireless Mouse & Keyboard
 
 ## Everything on the Grip
 
@@ -97,97 +87,120 @@ readiness:
 
 __Simple & Elegant__
 
-![](/diy/aio/portable-diy-aio/v2-diy-aio-front-view.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-diy-aio-front-view.jpg)
 
 This is front view of the DIY All-in-One with the keyboard placed in the shelf.
 
 __Grip__
 
-![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 I used the very first Mac which came with a carry grip. I have missed the grip ever since on all my subsequent computers. This one is placed in the center of gravity with a nice smooth shape to not cut into your fingers.
 
 __Carrying via Hand Grip__
 
-![](/diy/aio/portable-diy-aio/carry-via-grip.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/carry-via-grip.jpg)
 
 The carry grip is sufficient for short distances, say from your work room to the living room. For reference, this is a 1.8 m tall person carrying an All-in-One with 28" display.
 
 
 __Carrying via Shoulder Strap__
 
-![](/diy/aio/portable-diy-aio/carry-via-strap.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/carry-via-strap.jpg)
 
 You can use a shoulder strap for longer walks.
 
 __Single Cable Connection__
 
-![](/diy/aio/portable-diy-aio/only-one-cable.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/only-one-cable.jpg)
 
 Changing your location is so fast, because you only need to handle this one power cable.
 
 __Microphone & Speaker__
 
-![](/diy/aio/portable-diy-aio/speaker-and-microphone.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/speaker-and-microphone.jpg)
 
 Placement of your speaker and microphone behind your display. They are connected with cables through the cable break outs as shown below.
 
 __Shelf for Mouse & Utensils__
 
-![](/diy/aio/portable-diy-aio/shelf-with-utensils.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/shelf-with-utensils.jpg)
 
 The integrated shelf can carry your mouse, pens, eraser, and so forth.
 
 __Keyboard in Shelf__
 
-![](/diy/aio/portable-diy-aio/shelf-with-keyboard.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/shelf-with-keyboard.jpg)
 
 It also fits a full size keyboard, keeping your desk free for other tasks or stores your keyboard when carrying your workstation. And cat owners will find their PC still sleeping in the morning :-).
 
 __Quiet Airflow__
 
-![](/diy/aio/portable-diy-aio/airflow.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/airflow.jpg)
 
 The CPU cooler sucks in cold air (blue arrow), leading to very efficient and quiet cooling. The hot air exhausts through the two grills on the side (red arrow). This is a simple airflow, yet more efficient and quiet than that of common desktop cases.
 
 __Power On, Status LED & USB__
 
-![](/diy/aio/portable-diy-aio/power-status-usb.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/power-status-usb.jpg)
 
 The round thing is where you power on / off your PC, check its status LEDs or plug in other temporary USB devices.
 
 __Headset Hook__
 
-![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 When not in use this hook keeps your headset of your desk.
 
 __Display Tilt__
 
-![](/diy/aio/portable-diy-aio/titl-display.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/titl-display.jpg)
 
 You can adjust the display tilt at the time when you mount your display.
 
 __Easy Access to IO__
 
-![](/diy/aio/portable-diy-aio/easy-access.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/easy-access.jpg)
 
 We placed the IO panel facing upwards. This gives you easy access to it. Yet cable mess is reduced to a minimum as all cables can enter into the two holes left and right to the IO panel.
 
 __Hidden Cables__
 
-![](/diy/aio/portable-diy-aio/hidden-cables.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/hidden-cables.jpg)
 
 All cables are inside the cover and hidden from sight. This gets cables out of the way when carrying your workstation and also keeps the cosmetic appearance clean.
 
 
 
+# Making
 
-# Cutting
+## Shopping List
 
-# Drilling
+All shopping related information is in the chapter → [Shopping](#shopping)
 
-## Drill Templates
+## Drawings
+
+### Schematics
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
+
+style: [col-head,col-blue]
+
+|     PDF        |     SVG        |     PNG        |     DXF        |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+| [Schematic][1] | [Schematic][2] | [Schematic][3] | [Schematic][4] | 
+
+[1]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.pdf
+[2]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.svg
+[3]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png
+[4]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.dxf
+
+## Cutting
+
+
+## Drilling
+
+### Drill Templates
 
 __Drilling with Templates__
 
@@ -204,24 +217,33 @@ __Power Supplies__
 
 __Hand Grip__
 
-
-
-# Assembly & Wiring
-
-
-
-
-## DC GND Wiring
-
-- The Grounding cable of the HDPLEX AC-DC PSU is screwed in between two 10 mm Brass spacer
-   - one spacer is male-female, other space is male-male. Ring terminal goes in between their mating
-   - ATX cable of DC-DC PSU plugs into motherboard and connects DC GND
-   - DC Ground is connected to mounting holes of motherboard
-   - Motherboard is connected with M3 screws to spacer, one of which is connected to GND of AC-DC PSU 
-
-# Season to your liking
+## Painting
 
 This is the joy of DIY. Express yourself. Like to have a natural Oak computer. This is your chance. Or you prefer a screaming red punk version? Or simply black? After you cut, drilled, and sanded your wood parts you can paint them any color you want. If you choose a solid color then first apply wood filler. Sand thereafter and apply the solid color, polish with a fine sand grain like 1000, spray paint again, polish again and finally apply a spray lacquer.
+
+## Assembly
+
+## Wiring
+
+
+
+
+### DC GND Wiring
+
+__Actual Wiring__
+
+The Grounding cable of the HDPLEX AC-DC PSU is screwed in between two 10 mm Brass spacer. One spacer is male-female, other space is male-male. Ring terminal goes in between their mating.
+
+__How DC GND is Connected to AC Earth__
+
+1. ATX cable of DC-DC PSU plugs into motherboard and connects DC GND of PSU to DC GND of motherboard
+2. DC Ground of motherboard is connected to mounting holes of motherboard
+3. Motherboard is connected with M3 screws to spacer, one of which is connected to GND of AC-DC PSU
+4. AC-DC PSU earth wire should be connected to AC Earth prong of the AC cable
+5. The Earth prong of the AC power outlet is connected to Ground, as in hammer a steel pole into the ground.
+6. All connector shells of the motherboard are connected to DGND of the motherboard. Thanks to our wiring it is connected to Earth which will assist in dissipating Electro Static Discharges (ESD) and thus avoid crashes of your commuter or premature aging of computer parts.
+
+
 
 # Shopping
 
@@ -312,28 +334,10 @@ __Pay attention to the grain!__ See snap shots and see description in the cut li
 | 11 | Cable Exits | Especially for Display Power and Display Signal |
 
 
-# Please by through provided links
+# Please buy through provided links
 
 # Reference
 - https://en.wikipedia.org/wiki/IEC_60320#C14
 
-# Sort In
 
-- Portability increases Productivity
-- More Portable that a Notebook (surprisingly)
-   - Make a Movie comparing both side by side?
-- Benefits of Big Displays
-   - Old People
-   - 4K for Photography
-- Benefits of Keyboard Shelf
-   - No wake up via cats / cleaning lady
-
-# Questions to Tom
-- Finalize Shopping List
-  - Check for consistency
-  - add all links
-- Agree we make printable drill template instead of laser mark (deadline). Do you have printer?
-   - same for cutting / hand grip
- - Can go shopping today. If you want to do laser marking, we need details on brackets
- - Agreed we keep 3/4" pine wood, however change screws for VESA bracket from wood to M4 
 
