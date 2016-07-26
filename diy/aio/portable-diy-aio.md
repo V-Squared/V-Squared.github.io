@@ -184,7 +184,7 @@ All shopping related information is in the chapter → [Shopping](#shopping)
 
 ![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
 
-style: [col-head,col-blue]
+{:.uk-table.col-head.col-blue}
 
 |     PDF        |     SVG        |     PNG        |     DXF        |
 |:--------------:|:--------------:|:--------------:|:--------------:|
