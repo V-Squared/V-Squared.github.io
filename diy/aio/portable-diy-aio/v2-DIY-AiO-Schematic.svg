@@ -16,6 +16,8 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="v2-DIY-AiO-Schematic.svg">
+  <title
+     id="title4561">V2 DIY All-In-One Schematic</title>
   <defs
      id="defs10517" />
   <sodipodi:namedview
@@ -23,11 +25,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1614.4409"
-     inkscape:cy="1297.6053"
+     inkscape:zoom="0.4369056"
+     inkscape:cx="1365.0487"
+     inkscape:cy="1191.8833"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,8 +50,45 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title>V2 DIY All-In-One Schematic</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Village Tronic</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2016.07.26</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC-BY</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>https://v-squared.github.io/</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Hubert Chen, Michael Lin, Tom Caswelch, Bobby Caswelch</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>DIY All-in-One PC Schematic</dc:description>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
