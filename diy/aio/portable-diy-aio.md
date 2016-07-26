@@ -57,10 +57,26 @@ contents:
         url: amazon-shopping-list
   - name: Parts Definitions
     url: parts-definitions
-  - name: Please buy through provided links
-    url: please-buy-through-provided-links
+  - name: Complete Kit G2
+    url: complete-kit-g2
+    subitems:
+      - name: Added Features
+        url: added-features
+      - name: Design VÂ² DIY AiO G2
+        url: design-vÂ²-diy-aio-g2
+  - name: Support Us
+    url: support-us
+    subitems:
+      - name: Write a comment
+        url: write-a-comment
+      - name: Buying through above Shopping List
+        url: buying-through-above-shopping-list
+      - name: Spread the Word
+        url: spread-the-word
   - name: Reference
     url: reference
+  - name: Sort In
+    url: sort-in
 readiness:
   - is complete 
   - is-active
@@ -184,7 +200,7 @@ All shopping related information is in the chapter → [Shopping](#shopping)
 
 ![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
 
-{:.uk-table.col-head.col-blue}
+style: [col-head,col-blue]
 
 |     PDF        |     SVG        |     PNG        |     DXF        |
 |:--------------:|:--------------:|:--------------:|:--------------:|
@@ -195,27 +211,63 @@ All shopping related information is in the chapter → [Shopping](#shopping)
 [3]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png
 [4]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.dxf
 
+
+### Mobo & Disk Drill Template
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png)
+
+style: [col-head,col-blue]
+
+|          SVG        |          PNG        |
+|:-------------------:|:-------------------:|
+| [Drill Template][5] | [Drill Template][6] |
+
+[5]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.svg
+[6]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png
+
+
 ## Cutting
 
+- Total need to cut 4 pcs
+- Pay attention to the direction of the grain. It is marked in the drawing.
+- Corner cuts are 45°
 
 ## Drilling
 
 ### Drill Templates
 
-__Drilling with Templates__
+__Using the Drill Template for Mobo & Disk__
 
 1. __Print the templates 1:1.__ You may need to adjust your print settings to do so.
-2. __Verify Scale:__ Check with a ruler in both x and y directions if the marks are really 10 cm apart. If not, then you need to adjust your print settings and print again until you have a true to scale print. This is important so that your drill holes match the mounting holes of your devices.
+2. __Verify Scale:__ Check with a ruler if the 100 mm marks are really 100 mm apart. If not, then you need to adjust your print settings and print again until you have a true to scale print. This is important so that your drill holes that match the mounting holes of your devices. Another way to check is to place your motherboard onto the template. The outline and drill holes must match up!
 3. __Place in final position:__ The drill template shows the parts in true to scale size. Place your drill template so that the parts are in the final position you want. Fix it with tape. You can mark your hole position with the respective marking tool or you can simply drill through the template and toss it afterwards.
 4. __Use waste board:__ You need to drill through. Place a board you do not care about under your work sheet. This way you drill into that one and not your beloved table.
 5. __Drill from mounting side:__ Depending your skill and whether you are using a drill press or not your holes will be more or less orthogonal. This will be less of a problem in terms of your drill holes match up with the position of your mounting holes if you drill from the mounting side.
-6. __De-burr:__ I use a 10 mm HSS metal drill bit with my hand to cut off any burrs. Especially on your drill exit side.
+6. __De-burr:__  Use a 10 mm HSS metal drill bit with your hand to cut off any burrs. Especially on your drill exit side.
 
-__HDD & Motherboard__
 
 __Power Supplies__
 
+1. Place the power supplies onto the back board into their final position
+2. Mark the drill holes with the awl
+3. Remove the power supplies and drill 2 mm holes about 10 mm deep
+
 __Hand Grip__
+
+1. Mark the Center Holes
+2. Use the 25 mm bit to drill the holes
+3. Use the wood saw to cut the connection between the two holes
+4. Smooth the inside edges with the wood file
+5. Repeat the process with sand paper. Start with 90, then 180, then 360, then 600 until smooth
+
+__VESA Bracket__
+
+1. Place the VESA bracket onto the front side of the Back Board.
+2. Align top edge of the VESA bracket to the connecting line between the top motherboard screw holes
+3. Center the bracket
+4. Mark holes with awl
+5. Drill holes from the mounting side 5 mm Ø
+6. De-burr from both sides
 
 ## Painting
 
@@ -223,10 +275,13 @@ This is the joy of DIY. Express yourself. Like to have a natural Oak computer. T
 
 ## Assembly
 
+### Mounting Side Board
+
+1. Place first Side Board on Base Board. Fix it with 2 L-brackets. Each L-brackets use 4 pcs of 4 mm Ø wood screws, pan head, 15 mm long.
+2. Repeat process for second Side Board.
+3. Repeat Process for Back Board. Back board is connected with two L-brackets each to the Left Side, Base Board and Right Side
+
 ## Wiring
-
-
-
 
 ### DC GND Wiring
 
@@ -334,10 +389,58 @@ __Pay attention to the grain!__ See snap shots and see description in the cut li
 | 11 | Cable Exits | Especially for Display Power and Display Signal |
 
 
-# Please buy through provided links
+# Complete Kit G2
+
+If five people write in the comments that they want to buy a complete kit we will put it into production. 
+
+## Added Features
+
+- Complete wood case.
+- Air filter is snap in. Easy to take out, clean and put back
+- Support for Low Profile PCI Express Cards, such as GTX 750 or K1200
+- Lacquer Finish
+- Several Wood Types / Colors to choose from
+
+## Design V² DIY AiO G2
+
+- __IO Panel:__ 0.3 mm Stainless Steel. Wire Cut. 
+- __Sides:__ Same as now, but full height. Cut out for airflow with router. Snap in for air filter / grill.
+- __Top:__ Wood. Cut out for airflow with router. Snap in for air filter / grill.
+
+
+# Support Us
+
+## Write a comment
+
+Tell us what you think. Is this a cool idea for you? Any improvement ideas? Something similar you like to see from us? Your feedback helps us to zero in to what you want.
+
+## Buying through above Shopping List
+
+You are support us when you buy your parts via the links in the above shopping list. It is the same price for you than if your buy it through another link. But if you use the link in our shopping list we earn a little money, which helps us to develop other solutions and products for you or to answer your questions to this article.
+
+## Spread the Word
+
+If you like this DIY All-in-One PC then send its link to your friends! 
 
 # Reference
 - https://en.wikipedia.org/wiki/IEC_60320#C14
+
+# Sort In
+
+- Portability increases Productivity
+- More Portable that a Notebook (surprisingly)
+   - Make a Movie comparing both side by side?
+- Benefits of Big Displays
+   - Old People
+   - 4K for Photography
+- Benefits of Keyboard Shelf
+   - No wake up via cats / cleaning lady
+
+
+
+
+
+
 
 
 
