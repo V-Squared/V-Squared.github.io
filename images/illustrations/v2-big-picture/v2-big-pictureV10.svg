@@ -265,7 +265,7 @@
        originx="-238.33399"
        originy="0.50029184" />
     <sodipodi:guide
-       position="-188.33399,160.50029"
+       position="-188.33399,160.50029"`
        orientation="0,1"
        id="guide4142" />
     <sodipodi:guide
@@ -293,7 +293,7 @@
      id="layer1"
      transform="translate(-238.33399,-249.36471)">
     <image
-       sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\blueprint.jpg"
+       sodipodi:absref="./blueprint.jpg"
        xlink:href=".\blueprint.jpg"
        y="362.36224"
        x="320"
@@ -304,7 +304,7 @@
        clip-path="url(#clipPath5873)" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\google-analytics-roadmap-ecommerce.jpg"
-       xlink:href=".\google-analytics-roadmap-ecommerce.jpg"
+       xlink:href="./google-analytics-roadmap-ecommerce.jpg"
        y="732.36224"
        x="-924"
        id="image5855"
@@ -316,7 +316,7 @@
        style="opacity:0.95" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\web_application.png"
-       xlink:href=".\web_application.png"
+       xlink:href="./web_application.png"
        y="658.36224"
        x="580"
        id="image5840"
@@ -327,7 +327,7 @@
        style="opacity:0.95" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\v-home-team.jpg"
-       xlink:href=".\v-home-team.jpg"
+       xlink:href="./v-home-team.jpg"
        y="864.36224"
        x="446"
        id="image5825"
@@ -338,7 +338,7 @@
        style="opacity:0.9" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\v2System.jpg"
-       xlink:href=".\v2System.jpg"
+       xlink:href="./v2System.jpg"
        y="432.36224"
        x="130"
        id="image5810"
@@ -349,7 +349,7 @@
        style="opacity:0.95" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\Video-Editing-ViDock-34.jpg"
-       xlink:href=".\Video-Editing-ViDock-34.jpg"
+       xlink:href="./Video-Editing-ViDock-34.jpg"
        y="494.36224"
        x="592"
        id="image5795"
@@ -360,7 +360,7 @@
        style="opacity:0.9" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\boxesofcompu.jpg"
-       xlink:href=".\boxesofcompu.jpg"
+       xlink:href="./boxesofcompu.jpg"
        y="242.36223"
        x="538"
        id="image5780"
@@ -371,7 +371,7 @@
        style="opacity:0.9" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\ViCase-Easy-Assembly.jpg"
-       xlink:href=".\ViCase-Easy-Assembly.jpg"
+       xlink:href="./ViCase-Easy-Assembly.jpg"
        y="245.13643"
        x="-860"
        id="image5765"
@@ -383,7 +383,7 @@
        style="opacity:0.9" />
     <image
        sodipodi:absref="C:\Users\EpicB\Desktop\workstation\.\ViCase-All-In-One.jpg"
-       xlink:href=".\ViCase-All-In-One.jpg"
+       xlink:href="./ViCase-All-In-One.jpg"
        y="230.36223"
        x="-747.25"
        id="image5708"
