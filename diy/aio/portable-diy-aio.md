@@ -5,24 +5,10 @@ subtitle: DIY Project to build a portable All-in-One from scratch.
 abstract: 
 issueNo: 217
 contents:
-  - name: Purpose of Portable AiO
-    url: purpose-of-portable-aio
-    subitems:
-      - name: Portable vs Chained to Desk
-        url: portable-vs-chained-to-desk
-      - name: Portable vs Laptop
-        url: portable-vs-laptop
-  - name: How to make it Happen
-    url: how-to-make-it-happen
-    subitems:
-      - name: Hibernation
-        url: hibernation
-      - name: Single Cable Only
-        url: single-cable-only
-      - name: Wireless Mouse & Keyboard
-        url: wireless-mouse--keyboard
-      - name: Everything on the Grip
-        url: everything-on-the-grip
+  - name: Portable AiO Magic
+    url: portable-aio-magic
+  - name: 3 Tricks make it Happen
+    url: tricks-make-it-happen
   - name: Features
     url: features
   - name: Making
@@ -42,6 +28,8 @@ contents:
         url: assembly
       - name: Wiring
         url: wiring
+      - name: Cover
+        url: cover
   - name: Shopping
     url: shopping
     subitems:
@@ -75,29 +63,28 @@ contents:
         url: spread-the-word
   - name: Reference
     url: reference
-  - name: Sort In
-    url: sort-in
 readiness:
   - is complete 
   - is-active
 ---
 
 
-# Purpose of Portable AiO
+# Portable AiO Magic
 
-## Portable vs Chained to Desk
+### Clean Desk
 
-## Portable vs Laptop
+### Big Screen
 
-# How to make it Happen
+### Quick To Change Location
 
-## Hibernation
+### Full Desktop
 
-## Single Cable Only
 
-## Wireless Mouse & Keyboard
+# 3 Tricks make it Happen
 
-## Everything on the Grip
+1. __Hibernation & Resume :__ Instantly freeze your computer. Move to a new location. Resume where you left off.
+2. __Single Cable Only:__ Only one cable to unplug before you move. Only one cable to plug in. Simply. Fast.
+3. __Everything on the Grip:__ Grab you workstation and go! No packaging, no cable organizing. Just go!
 
 # Features
 
@@ -182,7 +169,7 @@ We placed the IO panel facing upwards. This gives you easy access to it. Yet cab
 
 __Hidden Cables__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/hidden-cables.jpg)
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/hidden-cables-b.jpg)
 
 All cables are inside the cover and hidden from sight. This gets cables out of the way when carrying your workstation and also keeps the cosmetic appearance clean.
 
@@ -226,6 +213,20 @@ All shopping related information is in the chapter → [Shopping](#shopping)
 [5]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.svg
 [6]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png
 
+### Laser Cut Cover
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover-540p.png)
+
+{:.uk-table.col-head.col-blue}
+
+|     PDF    |     SVG    |     PNG    |     DXF     |
+|:----------:|:----------:|:----------:|:-----------:|
+| [Cover][7] | [Cover][8] | [Cover][9] | [Cover][10] | 
+
+[7]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.pdf
+[8]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.svg
+[9]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.png
+[10]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.dxf
 
 ## Cutting
 
@@ -278,11 +279,31 @@ This is the joy of DIY. Express yourself. Like to have a natural Oak computer. T
 
 ### Mounting Side Board
 
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-brackets-boards.jpg)
+
 1. Place first Side Board on Base Board. Fix it with 2 L-brackets. Each L-brackets use 4 pcs of 4 mm Ø wood screws, pan head, 15 mm long.
 2. Repeat process for second Side Board.
 3. Repeat Process for Back Board. Back board is connected with two L-brackets each to the Left Side, Base Board and Right Side
 
 ## Wiring
+
+### Mounting AC Cable Socket
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-conduit-strap.jpg)
+
+Our solution to mount the AC Y-Cable is unconventional, yet effective and safe. Use a conduit strap like in the picture above. If you can not find one of the right size you can easily cut one from a used soda can (Coke can).
+
+### Overview Placement Electronics
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-electronics-placement.jpg)
+ 
+ You parts and arrangement may vary. But the idea is always the same. Place the parts where is place and so that the wiring is convenient. Fix the parts with wood screws Ø 4 mm and length of 15 mm. Pre drilling is not needed.
+
+### Detail Placement Electronics
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-electronics-details.jpg)
+
+A more detailed view.
 
 ### DC GND Wiring
 
@@ -299,6 +320,10 @@ __How DC GND is Connected to AC Earth__
 5. The Earth prong of the AC power outlet is connected to Ground, as in hammer a steel pole into the ground.
 6. All connector shells of the motherboard are connected to DGND of the motherboard. Thanks to our wiring it is connected to Earth which will assist in dissipating Electro Static Discharges (ESD) and thus avoid crashes of your commuter or premature aging of computer parts.
 
+
+## Cover
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-lasercut-cover.jpg)
 
 
 # Shopping
@@ -425,19 +450,5 @@ If you like this DIY All-in-One PC then send its link to your friends!
 
 # Reference
 - https://en.wikipedia.org/wiki/IEC_60320#C14
-
-# Sort In
-
-- Portability increases Productivity
-- More Portable that a Notebook (surprisingly)
-   - Make a Movie comparing both side by side?
-- Benefits of Big Displays
-   - Old People
-   - 4K for Photography
-- Benefits of Keyboard Shelf
-   - No wake up via cats / cleaning lady
-
-
-
 
 
