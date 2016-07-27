@@ -95,7 +95,7 @@
           url: /flow/publishing/mistakes/  
         - menu: Classeur Manual
           url: /flow/publishing/classeur-manual/  
-    - menu: Mechanical Design
+    - menu: CAM
       url: /flow/mechanical/
       group:
         - menu: Choosing CAM Software
