@@ -13,4 +13,4 @@ readiness:
   - is-complete
 ---
 
-{% include content-navigation.html type="book" %}
+{% include content-navigation.html type="article" %}
