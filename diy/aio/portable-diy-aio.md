@@ -5,17 +5,25 @@ subtitle: DIY Project to build a portable All-in-One from scratch.
 abstract: 
 issueNo: 217
 contents:
-  - name: Portable AiO Magic
-    url: portable-aio-magic
-  - name: 3 Tricks make it Happen
-    url: tricks-make-it-happen
+  - name: Introduction
+    url: introduction
+    subitems:
+      - name: Portable AiO Magic
+        url: portable-aio-magic
+      - name: How quick is it?
+        url: how-quick-is-it
+      - name: 3 Tricks
+        url: tricks
   - name: Features
     url: features
+    subitems:
+      - name: Key Features
+        url: key-features
+      - name: Feature Slideshow
+        url: feature-slideshow
   - name: Making
     url: making
     subitems:
-      - name: Shopping List
-        url: shopping-list
       - name: Drawings
         url: drawings
       - name: Cutting
@@ -33,60 +41,92 @@ contents:
   - name: Shopping
     url: shopping
     subitems:
-      - name: Shopping List Mechanical Parts
-        url: shopping-list-mechanical-parts
-      - name: Parts you may already have
-        url: parts-you-may-already-have
-      - name: Tools & Glue
-        url: tools--glue
-      - name: Cut List
-        url: cut-list
-      - name: Amazon Shopping List
-        url: amazon-shopping-list
-  - name: Parts Definitions
-    url: parts-definitions
-  - name: Complete Kit G2
-    url: complete-kit-g2
+      - name: Shopping Mechanicals
+        url: shopping-mechanicals
+      - name: Shopping Electronics
+        url: shopping-electronics
+      - name: Parts you may have
+        url: parts-you-may-have
+  - name: Learning for ViCase-Stand
+    url: learning-for-vicase-stand
     subitems:
-      - name: Added Features
-        url: added-features
-      - name: Design VÂ² DIY AiO G2
-        url: design-vÂ²-diy-aio-g2
-  - name: Support Us
-    url: support-us
+      - name: Confirmed Change List
+        url: confirmed-change-list
+      - name: Features to Discuss
+        url: features-to-discuss
+      - name: Awaited Learning
+        url: awaited-learning
+  - name: Misc Learning
+    url: misc-learning
     subitems:
-      - name: Write a comment
-        url: write-a-comment
-      - name: Buying through above Shopping List
-        url: buying-through-above-shopping-list
-      - name: Spread the Word
-        url: spread-the-word
+      - name: Lasercut Cardboard
+        url: lasercut-cardboard
+      - name: Referral Income
+        url: referral-income
+      - name: New way to get traffic
+        url: new-way-to-get-traffic
   - name: Reference
     url: reference
 readiness:
   - is complete 
+  - is-complete
   - is-active
 ---
 
 
-# Portable AiO Magic
+# Introduction
 
-### Clean Desk
+## Portable AiO Magic
 
-### Big Screen
+__Quick To Change Location:__ We wanted to be able to quickly change where we work. Once you have the freedom to do so you will be surprised how often you actually want to: Be it to quickly switch who to work with, bring your your computer to the balcony when there is good weather, and many more ...
 
-### Quick To Change Location
+__Full Desktop:__ We could have used a Laptop. But we wanted a full desktop with all its benefits, such as higher value for money, easier upgradeability, longer service life, higher performance.
 
-### Full Desktop
+__Big Screen:__ The big 28" screen of an All-in-One is simply more productive tool than the small 13" screen of a laptop.
+
+__Clean Desk:__ This is a mere side effect, but one we love all the same: Our desk looks much cleaner!
+
+__Personal Favorites:__
+
+-   __Me:__ Work side by side with team member. I switch location each time I switch team. Several times a day.
+-   __Son:__ Use the computer in the bed. Way more fun than his tablet :-)
+-   __Wife:__ Bring her PC to the kitchen when cooking to chat with friends and watch movies.
 
 
-# 3 Tricks make it Happen
+## How quick is it?
+
+In under one minute you could relocate from a to b, e.g. from the work room to the balcony and be working again:
+
+1. You get the urge to work in another place.
+2. Smile, simply stop working, and hibernate you PC.
+3. Place mouse and keyboard into keyboard shelf.
+4. Unplug the power cable.
+5. Grab your workstation and carry it from a to b.
+6. Plug in the power cable.
+7. Wake up your PC and take out mouse and keyboard from the shelf.
+8. Continue working with a smile.
+
+## 3 Tricks
 
 1. __Hibernation & Resume :__ Instantly freeze your computer. Move to a new location. Resume where you left off.
 2. __Single Cable Only:__ Only one cable to unplug before you move. Only one cable to plug in. Simply. Fast.
 3. __Everything on the Grip:__ Grab you workstation and go! No packaging, no cable organizing. Just go!
 
 # Features
+
+## Key Features
+
+- Elegant
+- Portable
+- Practical
+- Organized
+- Full Desktop
+- GPU Support
+- Integrated
+- Modular Big Screen
+
+
+## Feature Slideshow
 
 __Simple & Elegant__
 
@@ -177,10 +217,6 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 
 # Making
 
-## Shopping List
-
-All shopping related information is in the chapter → [Shopping](#shopping)
-
 ## Drawings
 
 ### Schematics
@@ -227,6 +263,34 @@ All shopping related information is in the chapter → [Shopping](#shopping)
 [8]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.svg
 [9]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.png
 [10]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.dxf
+
+
+### Call Outs
+
+![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
+
+{:.uk-table.col-head.col-blue}
+
+| # | Name | Function |
+|:--:|-----:|:-------------|
+| 1 | Nice Corner | 45° cut with hand saw, smooth corners with file and sand paper. |
+| 2 | Hand Grip | Drill two 25 Ø mm holes, cut connection with hand saw, smooth inside with wood file and sand paper. |
+| 3 | Strap Hole | Drill 20 mm holes. Deburr with sand paper. Connect shoulder strap with carabiner. |
+| 4 | VESA Wall Mount | Connects Display to Base Board. Align top of VESA mount with top of motherboard. Drill from mounting side. Use M5 metal screws |
+| 5 | Mini ITX | PC Motherboard. Drill holes using drill template. Drill from mounting side. Use M3 screws plus 20 mm female-female brass spacer. |
+| 6 | Cable Break Out | Especially for Display Power and Display Signal Cables. Drill 10 mm hole with center 10 mm of edge. Cut open with hand saw. Deburr with sand paper. |
+| 7 | 2.5" Disks | Drill 4 mm Ø holes using drill template. Drill from mounting side. Fix drives with M3. Use rubber grommets between Back-Board and disks. |
+| 8 | Grain | Direction of Grain. Choose your wood so that its grain direction is identical to the one in this schematic. |
+| 9 | Back Board | Holding Display, Motherboard, Disks, Power Supply. 1" nominal wood as in 3/4" real thickness. Equivalent 19 mm. |
+| 10 | Placement Left | Where to place Left-Side-Board onto Base-Board. |
+| 11 | Placement Right | Where to place Right-Side-Board onto Base-Board. |
+| 12 | Placement Back | Where to place Back-Side-Board onto Base-Board. | 
+| 13 | Base Board | Base / Foot of case |
+| 14 | Cable Exit Thingy | 20 mm Ø hole for cable of the Power On / Status LED / USB Port thingy. |
+| 15 | Left Side Board | Connects Base Board to Back Board |
+| 16 | Right Side Board | Connects Base Board to Back Board |
+| 17 | Socket of Y-Cable | C14 Socket of AC Y Cable. (We did not draw the cable) |
+
 
 ## Cutting
 
@@ -328,7 +392,7 @@ __How DC GND is Connected to AC Earth__
 
 # Shopping
 
-## Shopping List Mechanical Parts
+## Shopping Mechanicals
 
 - [Wood Shelving / Common Board Pin Wood actual 0.75" x 11.25](http://www.lowes.com/pd/Pine-Board/1000070173)  (minimum 4 feet long)
 - [Brass Spacer, threaded M3, hex shape, height 25 mm or 1 inch](https://www.amazon.com/Brass-Threaded-Spacer-25mm/dp/B013G1H6HO/)
@@ -347,7 +411,24 @@ __How DC GND is Connected to AC Earth__
 - Lacquer Spray Can, fast dry, transparent
 - Black Grill / Mosquito Net
 
-## Parts you may already have
+## Shopping Electronics
+
+- 1 x [Intel i3 6100](https://www.amazon.com/dp/B015VPX2EO/) $125
+- 1 x [Asus B150 Mini ITX WiFi](https://www.amazon.com/dp/B01AZ7N31A/) $125
+- 2 x [Kingston 4 GB DDR4 memory](https://www.amazon.com/dp/B00TY6A56U/) $54
+- 1 x [Samsung 850 EVO 250 GB](https://www.amazon.com/dp/B00OAJ412U/) $92
+- Windows 10 
+- 1 x [Brass Spacer, threaded M3, hex shape, height 25 mm or 1 inch](https://www.amazon.com/Brass-Threaded-Spacer-25mm/dp/B013G1H6HO/)
+- 1 x [HDPLEX 160W AC-DC](http://www.hd-plex.com/HDPLEX-Internal-160W-AC-DC-Adapter-with-Active-PFC-and-19VDC-Output.html) $55
+- 1 x [HDPLEX 160W DC-DC](http://www.hd-plex.com/HDPLEX-160W-DC-ATX-Power-Supply-16V-24V-Wide-Range-Voltage-Input.html) $35
+- 1 x [C14 - C13 Y Splitter](https://www.amazon.com/dp/B00UKUDEN0/) $7
+- 1 x [Computer Extension Cord C14 C13 4ft](https://www.amazon.com/dp/B000067RRX/) $3
+- 1 x [Spacer / Screw Assortment](https://www.amazon.com/dp/B018C19KJ0/) $12
+
+
+
+## Parts you may have
+
 - HSS Metal Drill Bits: 
    - 1.5 mm Ø (drill holes in hard wood profile for thin nails to avoid splicing the wood)
    - 3 mm Ø (drill holes for M3 screws, core holes for W5 screws to avoid splicing wood)
@@ -368,87 +449,62 @@ __How DC GND is Connected to AC Earth__
    - 40 mm (Connecting Boards: 1) Base to Side 2) Side to Back
 - Wood screws, 4 mm Ø, Pan Head or better Flat Head, PH2 or PZ2, black
    - 10 mm (screw card board housing to base board)
-
-## Tools & Glue
 - Wood file
 - Sand paper: 90, 180, 360, 600
    - try to find linen based versus paper based, not critical but better for sanding hand grip.
 - Wood glue
-- Wood Filler / Wood Paste
-
-## Cut List
-__Pay attention to the grain!__ See snap shots and see description in the cut list. If your grain goes the other way, it could be that your All-in-One will break apart while carrying. You do not want that. Coming back to the beginning. Pay attention to the grain :-)
-
-- Floor Board: 300 x 300 mm (natural width, cut to 300 mm length, cut need 90° precisely)
-   - grain follow long side
-- Base Board: 300 x 550 mm (natural width, cut to 550 mm length, cut need 90° precisely)
-   - grain follow short side
-
-## Amazon Shopping List
-
-- 1 x [Intel i3 6100](https://www.amazon.com/dp/B015VPX2EO/) $125
-- 1 x [Asus B150 Mini ITX WiFi](https://www.amazon.com/dp/B01AZ7N31A/) $125
-- 2 x [Kingston 4 GB DDR4 memory](https://www.amazon.com/dp/B00TY6A56U/) $54
-- 1 x [Samsung 850 EVO 250 GB](https://www.amazon.com/dp/B00OAJ412U/) $92
-- Windows 10 
-- [Brass Spacer, threaded M3, hex shape, height 25 mm or 1 inch](https://www.amazon.com/Brass-Threaded-Spacer-25mm/dp/B013G1H6HO/)
-- [HDPLEX 160W AC-DC](http://www.hd-plex.com/HDPLEX-Internal-160W-AC-DC-Adapter-with-Active-PFC-and-19VDC-Output.html) $55
-- [HDPLEX 160W DC-DC](http://www.hd-plex.com/HDPLEX-160W-DC-ATX-Power-Supply-16V-24V-Wide-Range-Voltage-Input.html) $35
-- 1 x [ ] [C14 - C13 Y Splitter](https://www.amazon.com/dp/B00UKUDEN0/) $7
-- 1 x [ ] [Computer Extension Cord C14 C13 4ft](https://www.amazon.com/dp/B000067RRX/) $3
-- 1 x [ ] [Spacer / Screw Assortment](https://www.amazon.com/dp/B018C19KJ0/) $12
-
-# Parts Definitions
-
-| # | Name | Function |
-|:--:|-----:|:-------------|
-| 1 | Back Board | Holding Display, Motherboard, Disks, Power Supply |
-| 2 | Base Board | Base / Foot of case |
-| 3 | Side Board | Connects Base Board to Back Board |
-| 4 | Socket of Y-Cable | C14 Socket of AC Y Cable. (We did not draw the cable) |
-| 5 | AC Socket of PSU | C14 Socket of AC Input Cable of Power Supply Unit (We did not draw the cable) |
-| 6 | VESA Display Mount | Connects Display to Base Board |
-| 7 | Conduit Strap | Mounting C14 sockets to Base Board |
-| 8 | Reopen able cable tie | Organize all cables within the case |
-| 9 | Bracket for Remote Switch | |
-| 10 | Remote Switch | Status LEDs, Power On Switch, USB ports |
-| 11 | Cable Exits | Especially for Display Power and Display Signal |
+- Wood filler / wood paste
 
 
-# Complete Kit G2
+# Learning for ViCase-Stand
 
-If five people write in the comments that they want to buy a complete kit we will put it into production. 
+## Confirmed Change List
 
-## Added Features
+__Headset Holder:__ Proofed very useful. We are adding one to the current ViCase-Stand design. The idea is to use the same snap fit mounting mechanism as for the foot.
 
-- Complete wood case.
-- Air filter is snap in. Easy to take out, clean and put back
-- Support for Low Profile PCI Express Cards, such as GTX 750 or K1200
-- Lacquer Finish
-- Several Wood Types / Colors to choose from
+__Display Tilt:__ Allows for tilt adjustment during use.
 
-## Design V² DIY AiO G2
+__Shoulder Strap:__ We are adding holes for it. They are close to edge so there is no need to use a carabiner.
 
-- __IO Panel:__ 0.3 mm Stainless Steel. Wire Cut. 
-- __Sides:__ Same as now, but full height. Cut out for airflow with router. Snap in for air filter / grill.
-- __Top:__ Wood. Cut out for airflow with router. Snap in for air filter / grill.
+__Mounting ViCase Access:__ We will add a simple solution. Need to be snap fit or magnetic fit now considering the new quick assembly paradigm.
+
+## Features to Discuss
+
+__Shelf Bottom:__ Using V² DIY AiO will show if we need it or not. Current ViCase-Stand design has no shelf bottom. Is that acceptable? Should we offer an accessory of a pencil holder that is glued with double faced tape behind display? 
+
+__Mouse Holder:__ Currently not included. Is it OK to offer an accessory of a mouse holder that is glued with double faced tape behind display? 
+
+__Cable Cover:__ Covering all cable improved the cosmetics. Current ViCase-Stand design cleans up the cables but leaves them out in the open. How about we include a lasercut plastic cover than snap fits over the cable management area? Same design method like the cardboard cover, but made of black plastic. Useful or overkill?
+
+__Microphone Holder:__ Should we include it? Any simple design idea? 
+
+__Loudspeaker:__ We need to see how to design it in. No idea yet. Can we find a speaker bar that can be glued to the Display?
 
 
-# Support Us
+## Awaited Learning
 
-## Write a comment
 
-Tell us what you think. Is this a cool idea for you? Any improvement ideas? Something similar you like to see from us? Your feedback helps us to zero in to what you want.
+__Portable Solidworks Workstation:__ We are getting ready to visit factories for ViCase production. A portable Solidworks Workstation is a big help. This is an interesting additional early sample experience further informing design details for real world use for ViCase.
 
-## Buying through above Shopping List
+# Misc Learning
 
-You are support us when you buy your parts via the links in the above shopping list. It is the same price for you than if your buy it through another link. But if you use the link in our shopping list we earn a little money, which helps us to develop other solutions and products for you or to answer your questions to this article.
+## Lasercut Cardboard
 
-## Spread the Word
+Will this be an efficient way to quickly and with low cost make custom product and shipping boxes?
 
-If you like this DIY All-in-One PC then send its link to your friends! 
+## Referral Income
+
+We figured out a second revenue income stream: Put our DIY articles on [Instructables](http://www.instructables.com/) and add shopping lists to amazon and newegg with links using their referral system so to earn the referral fee on a joint checking account. We can split income according to ratio of work invested.
+
+## New way to get traffic
+
+Articles on [Instructables](http://www.instructables.com/) should also bring us traffic to the web site. It is one more avenue for the _Publisher_ of a V²Article to create traffic for it.
 
 # Reference
 - https://en.wikipedia.org/wiki/IEC_60320#C14
+
+
+
+
 
 
