@@ -425,11 +425,15 @@ __How DC GND is Connected to AC Earth__
 - 1 x [Samsung 850 EVO 250 GB](https://www.amazon.com/dp/B00OAJ412U/) $92
 - Windows 10 
 - 1 x [Brass Spacer, threaded M3, hex shape, height 25 mm or 1 inch](https://www.amazon.com/Brass-Threaded-Spacer-25mm/dp/B013G1H6HO/)
-- 1 x [HDPLEX 160W AC-DC](http://www.hd-plex.com/HDPLEX-Internal-160W-AC-DC-Adapter-with-Active-PFC-and-19VDC-Output.html) $55
-- 1 x [HDPLEX 160W DC-DC](http://www.hd-plex.com/HDPLEX-160W-DC-ATX-Power-Supply-16V-24V-Wide-Range-Voltage-Input.html) $35
+- 1 x [HDPLEX 160W AC-DC Power Supply](http://www.hd-plex.com/HDPLEX-Internal-160W-AC-DC-Adapter-with-Active-PFC-and-19VDC-Output.html) $55
+- 1 x [HDPLEX 160W DC-DC Power Supply](http://www.hd-plex.com/HDPLEX-160W-DC-ATX-Power-Supply-16V-24V-Wide-Range-Voltage-Input.html) $35
 - 1 x [C14 - C13 Y Splitter](https://www.amazon.com/dp/B00UKUDEN0/) $7
 - 1 x [Computer Extension Cord C14 C13 4ft](https://www.amazon.com/dp/B000067RRX/) $3
-- 1 x [Spacer / Screw Assortment](https://www.amazon.com/dp/B018C19KJ0/) $12
+- 1 set [Spacer / Screw Assortment](https://www.amazon.com/dp/B018C19KJ0/) $12
+- 1 set [Adjustable Cable Holder](https://www.amazon.com/dp/B00WW6ZFTQ/)
+- 1 x [Power Switch & Status LEDs](https://www.amazon.com/dp/B00LQAUIKA/)
+- 1 x [Speaker Bar](https://www.amazon.com/usb-speaker-bar/dp/B01B6197JG/)
+- 1 x [Goose Neck Microphone](https://www.amazon.com/goose-mic/dp/B00UZY2YQE/)
 
 
 
