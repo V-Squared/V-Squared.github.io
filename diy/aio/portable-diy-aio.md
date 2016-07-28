@@ -26,6 +26,8 @@ contents:
     subitems:
       - name: Drawings
         url: drawings
+      - name: Call Outs
+        url: call-outs
       - name: Cutting
         url: cutting
       - name: Drilling
@@ -265,7 +267,7 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 [10]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.dxf
 
 
-### Call Outs
+## Call Outs
 
 ![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
 
@@ -294,9 +296,9 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 
 ## Cutting
 
-- Total need to cut 4 pcs
+- Total need to cut 4 pcs. Big cuts can be made in home depot or equivalent shop.
 - Pay attention to the direction of the grain. It is marked in the drawing.
-- Corner cuts are 45°
+- Corner cuts are 45° made with hand saw.
 
 ## Drilling
 
@@ -502,8 +504,6 @@ Articles on [Instructables](http://www.instructables.com/) should also bring us 
 
 # Reference
 - https://en.wikipedia.org/wiki/IEC_60320#C14
-
-
 
 
 
