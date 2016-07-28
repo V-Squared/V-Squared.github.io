@@ -2,7 +2,7 @@
 layout: page
 title: Truly Portable DIY AiO
 subtitle: DIY Project to build a portable All-in-One from scratch.
-abstract: 
+abstract: This is an in-house project to build a fully functional truly portable All-in-One PCs by our various teams. The goal is to completely experience the truly portable All-in-One form factor before our golden sample becomes available. Using this new form factor for real in different teams will inform us on fine tuning details on our ViCase-Stand design befor taping it out to production. This is a fully functionl All-in-One PC design with the unique feature of being truly portable. We shared it here in case someone finds it useful. You can give feedback or request features by pressing the flow button and open the Article Issue, then simply post us a comment.
 issueNo: 217
 contents:
   - name: Introduction
