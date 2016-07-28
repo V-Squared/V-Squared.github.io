@@ -82,18 +82,18 @@ readiness:
 
 ## Portable AiO Magic
 
-__Quick To Change Location:__ We wanted to be able to quickly change where we work. Once you have the freedom to do so you will be surprised how often you actually want to: Be it to quickly switch who to work with, bring your your computer to the balcony when there is good weather, and many more ...
+__Quick To Change Location:__ We wanted to be able to quickly change where we work. Once you have the freedom to do so you will be surprised how often you actually want to: Be it to quickly switch who to work with, or to work on the balcony on a sunny day, and more ...
 
 __Full Desktop:__ We could have used a Laptop. But we wanted a full desktop with all its benefits, such as higher value for money, easier upgradeability, longer service life, higher performance.
 
-__Big Screen:__ The big 28" screen of an All-in-One is simply more productive tool than the small 13" screen of a laptop.
+__Big Screen:__ The big 28" screen of an All-in-One is simply a more productive tool than the small 13" screen of a laptop.
 
 __Clean Desk:__ This is a mere side effect, but one we love all the same: Our desk looks much cleaner!
 
 __Personal Favorites:__
 
 -   __Me:__ Work side by side with team member. I switch location each time I switch team. Several times a day.
--   __Son:__ Use the computer in the bed. Way more fun than his tablet :-)
+-   __Son:__ Use the computer in the bed placed on his drawing board. Way more fun than his tablet :-)
 -   __Wife:__ Bring her PC to the kitchen when cooking to chat with friends and watch movies.
 
 
@@ -502,7 +502,7 @@ Will this be an efficient way to quickly and with low cost make custom product a
 
 ## Referral Income
 
-We figured out a second revenue income stream: Put our DIY articles on [Instructables](http://www.instructables.com/) and add shopping lists to amazon and newegg with links using their referral system so to earn the referral fee on a joint checking account. We can split income according to ratio of work invested.
+We figured out a second revenue income stream for V²: Put our DIY articles on [Instructables](http://www.instructables.com/) and add shopping lists including links to amazon and newegg using their referral system so to earn the referral fee on a joint checking account. We can split income according to ratio of work invested.
 
 ## New way to get traffic
 
