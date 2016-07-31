@@ -8,6 +8,79 @@ issueNo: 218
 readiness:
    - is-complete
    - is-active
+contents:
+  - name: Using this Manual
+    url: using-this-manual
+    subitems:
+      - name: User Manual Style
+        url: user-manual-style
+  - name: Introduction
+    url: introduction
+    subitems:
+      - name: What it Does
+        url: what-it-does
+      - name: Capabilities
+        url: capabilities
+      - name: Classeur Project
+        url: classeur-project
+  - name: Understanding Classeur
+    url: understanding-classeur
+    subitems:
+      - name: 4 Screens for 4 Modes
+        url: screens-for-4-modes
+      - name: Dashboard Screen
+        url: dashboard-screen
+      - name: Settings Screen
+        url: settings-screen
+      - name: Writing Screen
+        url: writing-screen
+      - name: Preference Screen
+        url: preference-screen
+  - name: Setting Up
+    url: setting-up
+    subitems:
+      - name: Preview & Preferences
+        url: preview--preferences
+      - name: Table of Contents
+        url: table-of-contents
+  - name: Managing Documents
+    url: managing-documents
+  - name: Writing
+    url: writing
+    subitems:
+      - name: Markdown Intro
+        url: markdown-intro
+      - name: Zen Mode
+        url: zen-mode
+  - name: Publishing
+    url: publishing
+    subitems:
+      - name: Publishing Power
+        url: publishing-power
+      - name: GitHub Pages Publishing
+        url: github-pages-publishing
+      - name: Create ToC
+        url: create-toc
+      - name: Push to GitHub
+        url: push-to-github
+      - name: Creating Classeur Account
+        url: creating-classeur-account
+      - name: Connect to GitHub
+        url: connect-to-github
+  - name: Remaining Mysteries
+    url: remaining-mysteries
+    subitems:
+      - name: Export Pandoc TOC
+        url: export-pandoc-toc
+  - name: Modes
+    url: modes
+  - name: Improvement Ideas
+    url: improvement-ideas
+    subitems:
+      - name: Setup Classeur
+        url: setup-classeur
+  - name: Sort In
+    url: sort-in
 ---
 
 [TOC]
@@ -18,17 +91,39 @@ readiness:
 
 This manual is structured in the order a new user will explore and use Classeur:
 
-1. Familiarizing
-2. Setting Up
-3. Managing Documents
-4. Writing
-5. Publishing
+1. [Introduction](#introduction) Key purpose and list of capabilities.
+2. [Understanding Classeur](#understanding-classeur)
+3. [Setting Up](#setting-up) Configuring Classeur for your use.
+4. [Managing Documents](#managing-documents)
+5. Writing
+6. Publishing
 
-# Familiarizing
+# Introduction
 
-## Strengths
+## What it Does
 
-Many authors find writing in markdown more productive than using other authoring tools. Classeur is a powerful markdown writing environment with integrated preview, collaboration and publishing. It works in browser and as such is cross platform. It is still in development, but we found it good enough for production and frankly we have not found an alternative. It lacks documentation, which is what we are trying to fix here.
+### Markdown WYSIWYG
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/intro-classeur.png)
+
+Many authors find writing in markdown more productive than using other authoring tools. In the past it came at the loss of WYSIWYG. Classeur now offer the best of both worlds: The zen style focus and speed of writing in markdown and the intuitive review power of WYSIWYG. 
+
+The snapshot above was taken when I wrote this Classeur Manual in Classeur:
+
+- __Left Pane:__ Markdown Source Code. This is where you write.
+- __Middle Pane:__ Live Preview. WYSIWYG. This is where you review.
+- __Right Pane:__ Live Table of Contents (ToC). This is where you navigate.
+
+### Single Click Publish
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-single-click.png)
+
+With a single click you can publish your writing. Provided you linked your blog / server accordingly.
+
+### Collaboration
+
+It promises interesting collaboration features. I will document them after I figured out how to use them.
+
 
 ## Capabilities
 
@@ -47,6 +142,7 @@ Many authors find writing in markdown more productive than using other authoring
 | Export | ✔ | Exceptional Export functionality: Markdown, Plain & styled HTML, PDF, RTF, OpenOffice, Word, EPUB, LaTex, and many more through PanDoc. |
 | Cross Platform | ✔ | Runs in browser! |
 | Offline Editing | ✔ | Firefox Version available. Windows coming soon |
+| User Manual | ⚠ |  This [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) is a community project. It is not complete yet.
 | Zen Mode | ⚠ | Nice in use. But complex to turn on. Only work without Preview & ToC. Scheduled to be fixed soon. |
 | Table of Contents | ⚠ | Usable, but with bugs requiring workaround.  |
 | GitHub Push / Pull | ⚠ | Push is implemented, Pull is not. |
@@ -54,22 +150,62 @@ Many authors find writing in markdown more productive than using other authoring
 | Share & Collaboration | ? | Sounds very useful. Not explored yet. |
 | Publish | ? | Supports: Blogger, Dropbox, GitHub, Tumblr, Wordpress. I will write about them in time. |
 
-## Finding your Way
+### Using in Production
+
+We found Classeur to be complete & stable enough to use it in our production. As you can see in above capabilities list it lacks important features and has bugs. But frankly we have not found a better alternative. It is an open source project on GitHub with friendly and responsive developers. As such we are contributing what we can to fix any open issues.
+
+__Bottom Line:__  We work much faster and have more fun at work with Classeur than without! As such it is highly recommended for anyone implementing a markdown based publishing workflow.
+
+## Classeur Project
+
+- [Classeur > Home](http://classeur.io/) Home Page of Markdown IDE
+- [Classeur > App](https://app.classeur.io/) Classeur in browser app
+- [Classeur > Support](https://github.com/classeur/classeur/issues) GitHub Issues of Classeur
+- [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) Community Manual of Classeur
+
+
+# Understanding Classeur
+
+## 4 Screens for 4 Modes
+
+Classeur has three screens. Each optimized for:
+
+1. __Dashboard:__ Explorer for your Articles.
+2. __Settings:__ Global configurations for Classeur and its connected services.
+3. __Writing:__  Get your writing and publishing done.
+4. __Writing > Preferences:__ Sub-screen of Writing to adjust your preferences.
+
+## Dashboard Screen
+
+This is the heart of Classeur Navigation. From hear you can go to anywhere. This is also your landing page after closing a *Writing Screen* or *Settings Screen*. This is important to understand to not get lost. Say you go to the *Settings Screen* from within the *Writing Screen* and you close the *Settings Screen*. You will not return to the *Writing Screen* but to this *Dashboard Screen*.
+
+## Settings Screen
+
+### App
+
+### User
+
+### Blogs
+
+### Trash
+
+## Writing Screen
+
+## Preference Screen
 
 # Setting Up
 
 ## Preview & Preferences
 
-## Table of Contents
+### Open Menu
 
-# Managing Documents
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/open-menu.png)
 
-
-
-## Top Level Settings
+### Adjust Preferences
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/set-up-top-level.png)
 
+All changes are instant (except for Zen Mode). See below for more details:
 
 {:.uk-table.twin-head.twin-blue}
 
@@ -82,6 +218,14 @@ Many authors find writing in markdown more productive than using other authoring
 | Button Bar | Quasi WYSIWYG formatting toolbar. Very useful to beginners. |
 | Zen Mode | Dims the UI to let you focus during writing. → [Zen Mode](#zen-mode).|
 | Scroll Sync | Synchronizes scrolling of preview pane with the writing pane. If you use *Side Preview* you will want this one to be on! |
+
+## Table of Contents
+
+# Managing Documents
+
+
+
+
 
 
 # Writing
@@ -108,6 +252,21 @@ Zen is about you being in the *Zone* as in writing so focused that you forget an
 ### Limitations
 
 I am using Classeur over any other text editor because I need the productivity of Live Preview and Live Table of Contents when typing markdown. Ironically turning on these functions turns off Zen Mode. I am contacting the authors to learn if I may have misunderstood the concept or if they will enable Zen Mode during writing with Preview / ToC enabled?
+
+
+
+## Current Preview Limitations
+
+### We really like Classeur Preview!
+
+In this section we are going to list limitations of Classeur's preview. Before doing so we want you to know that as it is the preview function is more than usable in production. In fact we enjoy using Classeur. We are a picky bunch, we do not say this very often. Having said that it is important to understand Classeur's preview limitations and the available workarounds:
+
+### No Style Sheets
+
+### No Relative Links for Images
+
+### No Permalinks for Headings
+
 
 # Publishing
 
@@ -154,6 +313,17 @@ If you have documented your workflow and like to share it help others than use t
 
 ## Push to GitHub
 
+## Creating Classeur Account
+
+### Open Publishing Preferences
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-menu-publish.png)
+
+
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/
+
+
 ## Connect to GitHub
 
 
@@ -189,6 +359,7 @@ Report to Classeur
 - Life ToC also respect heading depth
 - Create simple document H1, H2, H3 to reproduce
 - Show how configured ToC
+
 
 
 
