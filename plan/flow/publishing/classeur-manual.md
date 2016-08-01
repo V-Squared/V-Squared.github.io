@@ -3,7 +3,7 @@ layout: page
 title: Classeur User Manual
 subtitle: Community Manual to the Markdown Editor Classeur
 abstract: >
-  Classeur is a wonderful markdown editor. This Classeur User Manual is our contribution to the Classeur community. As always, this article is open to anyone. Click the V²Flow button, next click "Edit Article", make changes and commit.
+  Classeur is the leading markdown IDE. This Classeur User Manual is our contribution to the Classeur community. As always, anyone can contribute. Click the V²Flow button, next click "Edit Article". You can add a comment to the issue of this article or you can edit this article directly, resulting in a pull request.
 issueNo: 218
 readiness:
    - is-complete
@@ -12,8 +12,12 @@ contents:
   - name: Using this Manual
     url: using-this-manual
     subitems:
-      - name: User Manual Style
-        url: user-manual-style
+      - name: User Manual Structure
+        url: user-manual-structure
+      - name: Tutorials
+        url: tutorials
+      - name: Passes
+        url: passes
   - name: Introduction
     url: introduction
     subitems:
@@ -26,25 +30,40 @@ contents:
   - name: Understanding Classeur
     url: understanding-classeur
     subitems:
-      - name: 4 Screens for 4 Modes
-        url: screens-for-4-modes
-      - name: Dashboard Screen
-        url: dashboard-screen
+      - name: Organizing your Articles
+        url: organizing-your-articles
+      - name: 3 Screens for 3 Modes
+        url: screens-for-3-modes
+      - name: Exploring Screen
+        url: exploring-screen
       - name: Settings Screen
         url: settings-screen
       - name: Writing Screen
         url: writing-screen
-      - name: Preference Screen
-        url: preference-screen
+      - name: Writing-Menu Screen
+        url: writing-menu-screen
   - name: Setting Up
     url: setting-up
     subitems:
-      - name: Preview & Preferences
-        url: preview--preferences
-      - name: Table of Contents
-        url: table-of-contents
-  - name: Managing Documents
-    url: managing-documents
+      - name: Writing Screen Preferences
+        url: writing-screen-preferences
+      - name: ToC Depth Settings
+        url: toc-depth-settings
+      - name: Tutorial Create Account
+        url: tutorial-create-account
+      - name: Tutorial Link Host
+        url: tutorial-link-host
+  - name: Tutorial Managing Documents
+    url: tutorial-managing-documents
+    subitems:
+      - name: Selecting Binder
+        url: selecting-binder
+      - name: Searching Articles
+        url: searching-articles
+      - name: Moving Articles
+        url: moving-articles
+      - name: Open Article
+        url: open-article
   - name: Writing
     url: writing
     subitems:
@@ -52,6 +71,14 @@ contents:
         url: markdown-intro
       - name: Zen Mode
         url: zen-mode
+      - name: ToC, Navigation & Scrolling
+        url: toc-navigation--scrolling
+      - name: Suggested Window Setup
+        url: suggested-window-setup
+      - name: Current Preview Limitations
+        url: current-preview-limitations
+      - name: Tutorial Writing
+        url: tutorial-writing
   - name: Publishing
     url: publishing
     subitems:
@@ -65,8 +92,10 @@ contents:
         url: push-to-github
       - name: Creating Classeur Account
         url: creating-classeur-account
-      - name: Connect to GitHub
-        url: connect-to-github
+      - name: Tutorial Export ToC
+        url: tutorial-export-toc
+      - name: Tutorial Publishing
+        url: tutorial-publishing
   - name: Remaining Mysteries
     url: remaining-mysteries
     subitems:
@@ -74,29 +103,52 @@ contents:
         url: export-pandoc-toc
   - name: Modes
     url: modes
-  - name: Improvement Ideas
-    url: improvement-ideas
+  - name: Improvements
+    url: improvements
     subitems:
       - name: Setup Classeur
         url: setup-classeur
-  - name: Sort In
-    url: sort-in
+      - name: Related Open Issues
+        url: related-open-issues
+  - name: Terms
+    url: terms
 ---
 
-[TOC]
+
+
+
 
 # Using this Manual
 
-## User Manual Style
+## User Manual Structure
 
 This manual is structured in the order a new user will explore and use Classeur:
 
 1. [Introduction](#introduction) Key purpose and list of capabilities.
-2. [Understanding Classeur](#understanding-classeur)
-3. [Setting Up](#setting-up) Configuring Classeur for your use.
-4. [Managing Documents](#managing-documents)
-5. Writing
-6. Publishing
+2. [Understanding Classeur](#understanding-classeur) Grasping Classeur's philosophy speeds up your learning.
+3. [Setting Up](#setting-up) Configuring Classeur so it works for you.
+4. [Managing Documents](#managing-documents) 1) Create or find an Article. 2) Group articles in folders and binders.
+5. [Writing](#writing) Write your articles in markdown with powerful WYSIWYG tools.
+6. [Publishing](#publishing) Post your articles on your blog or website directly from within Classeur.
+7. [Improvements](#improvements) No app is perfect. Here we record improvement ideas and check their progress.
+8. [Terms](#terms) Definition of terms used in this manual.
+
+## Tutorials
+
+Our tutorials will walk you through the entire workflow from configuration to publishing.
+
+- [Tutorial Create Account](#tutorial-create-account)
+- [Tutorial Link Host](#tutorial-link-host)
+- [Tutorial Managing Documents](#tutorial-managing-documents)
+- [Tutorial Writing](#tutorial-writing)
+- [Tutorial Export ToC](#tutorial-export-toc)
+- [Tutorial Publishing](#tutorial-publishing)
+
+## Passes
+
+__First pass is better than nothing:__ I am writing this manual to help out the Classeur team because at this time they do not have one. This also means I have no reference information other than the working App itself. In order to make it easier for you to memorize I am explaining the philosophy and underlying principles of Classeur. I also needed to make up a few item names so I can refer to them without the need to add too many screen shots. Without having a chance to talk to the author or having access to his documentation there is a chance that I got it wrong.  In such cases please accept my sincere apologies. 
+
+__Second pass makes it nice:__ You can easily give feedback with the V²Flow Button via the Article Issue or edit this Article directly. I am also hoping in the future to have the opportunity to directly talk to the author of Classeur to deliver his philosophy and gestalt truthfully in the first pass of any future writing, saving both of us the time of correcting mistakes.
 
 # Introduction
 
@@ -106,7 +158,7 @@ This manual is structured in the order a new user will explore and use Classeur:
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/intro-classeur.png)
 
-Many authors find writing in markdown more productive than using other authoring tools. In the past it came at the loss of WYSIWYG. Classeur now offer the best of both worlds: The zen style focus and speed of writing in markdown and the intuitive review power of WYSIWYG. 
+Many authors find writing in markdown more productive than using other authoring tools. In the past it came at the loss of WYSIWYG. Classeur now offers the best of both worlds: The zen style focus and speed of writing in markdown and the intuitive review power of WYSIWYG. 
 
 The snapshot above was taken when I wrote this Classeur Manual in Classeur:
 
@@ -120,9 +172,17 @@ The snapshot above was taken when I wrote this Classeur Manual in Classeur:
 
 With a single click you can publish your writing. Provided you linked your blog / server accordingly.
 
+### Integrated Workflow
+
+During writing you will go through the process of incubation, writing, editing, and publishing. Classeur supports you through this entire workflow.
+
+### Integrated Article Management
+
+When writing on a larger body of work (blog, website or intranet server) you will end up writing on several articles simultaneously prior to publishing. Classeur offer you a complete documentation management system, enabling you to build the same navigation structure during your development matching the one used in production.
+
 ### Collaboration
 
-It promises interesting collaboration features. I will document them after I figured out how to use them.
+It promises interesting collaboration features. I will document them after I figured out how to use them. 
 
 
 ## Capabilities
@@ -147,6 +207,7 @@ It promises interesting collaboration features. I will document them after I fig
 | Table of Contents | ⚠ | Usable, but with bugs requiring workaround.  |
 | GitHub Push / Pull | ⚠ | Push is implemented, Pull is not. |
 | Image Preview | ⚠ | Works with absolute URL, but not with relative. |
+| Kramdown | ⚠ | Some features are supported, such as *Definition List* while other features are not supported, such as *Header ID*. I will ask the authors about this after more pressing matters are settled. |
 | Share & Collaboration | ? | Sounds very useful. Not explored yet. |
 | Publish | ? | Supports: Blogger, Dropbox, GitHub, Tumblr, Wordpress. I will write about them in time. |
 
@@ -166,42 +227,123 @@ __Bottom Line:__  We work much faster and have more fun at work with Classeur th
 
 # Understanding Classeur
 
-## 4 Screens for 4 Modes
+## Organizing your Articles
 
-Classeur has three screens. Each optimized for:
+Classeur organizes your documents in just the same way as you would file them in the physical world:
 
-1. __Dashboard:__ Explorer for your Articles.
-2. __Settings:__ Global configurations for Classeur and its connected services.
+1. Folders group Articles
+2. Binders group Folders
+
+### Folders
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/folders.png)
+
+(??? I need to make a new snap shot after I reorganized my folders and binders)
+
+### Binders
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/binders.png)
+
+
+## 3 Screens for 3 Modes
+
+When creating articles you will be in one of three work modes: 
+
+1. __Exploring:__ Explore and manage your Articles: 1) Create or find an Article. 2) Group articles in folders and binders.
+2. __Settings:__ Global configurations for Classeur and its connected services. Make Classeur work for you.
 3. __Writing:__  Get your writing and publishing done.
-4. __Writing > Preferences:__ Sub-screen of Writing to adjust your preferences.
+   - __Writing-Menu:__ Sub-screen of Writing containing all editor's menu functions.
 
-## Dashboard Screen
+Classeur is supporting your work modes by offering an optimized screen for each work mode, putting the tools you need in each mode at your fingertips. Below we look at each screen and its key elements. This will give you an overview where things are and how they are related in the context of your writing workflow. 
 
-This is the heart of Classeur Navigation. From hear you can go to anywhere. This is also your landing page after closing a *Writing Screen* or *Settings Screen*. This is important to understand to not get lost. Say you go to the *Settings Screen* from within the *Writing Screen* and you close the *Settings Screen*. You will not return to the *Writing Screen* but to this *Dashboard Screen*.
+## Exploring Screen
+
+__Classeur Navigation:__ This is the heart of Classeur navigation. From hear you can go to anywhere. This is also your landing page after closing a *Writing Screen* or *Settings Screen*. This is important to understand to not get lost. Say you go to the *Settings Screen* from within the *Writing Screen* and you close the *Settings Screen*. You will not return to the *Writing Screen* but to this *Dashboard Screen*.
+
+__Article Management:__ You can do all the things that a file explorer offers in your OS: Finding, moving, deleting, renaming of articles aka documents aka files. 
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-exploring.png)
+
+
+1. Current Binder.
+2. Change Binder Icon.
+3. Login Account.
+4. Explaining value of Classeur Premium.
+5. Go to *Settings Screen*.
+6. List of Recent Articles.
+7. Find Articles.
+8. Add a new folder.
+9. Folders of this binder.
+10. Filter list of articles. Handy if you have a lot in one folder.
+11. Create a new article.
+12. Filtered list of all articles in this folder .
+13. Pick sorting order of article list.
+14. 1) Choose sharing option of article 2) Rename Article, 3) Delete Article.
+15. Click article name to open it in the *Writing Screen*.
+16. Article handle. Used to drag and drop the article to folder tabs.
+
+__Tip:__ These screenshots are made of a configured Classeur app in order to show you Classeur's power but also to give you a vision as to where you want to go. When you open Classeur for the first time on your PC it will look more empty. Have no worries. In the tutorials we will walk you through on how to get from there to here.
 
 ## Settings Screen
 
-### App
+This is the place where you configure Classeur so to work for you:
 
-### User
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-settings.png)
 
-### Blogs
+1. Title of *Settings Screen*
+2. Close *Settings Screen* and return to *Explorer Screen*
+3. Global settings for Classeur
+4. Your Classeur User Account
+5. Manage, add and pick your host to upload articles. Supported: Blogger, GitHub, WordPress and Zendesk.
+6. Recently deleted articles
+7. Link to Privacy Policy article
+8. Link to Terms
+9. Classeur keeps you logged in until you *Sign Out*.
+10. Link to Classeur on Twitter
+11. Link to Classeur on Facebook
+12. Link to Classeur on GitHub
 
-### Trash
 
 ## Writing Screen
 
-## Preference Screen
+Finally this is the screen where you get all your writing done.
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing.png)
+
+1. Tab Name. On first load it shows you the document name. On reload it shows "Classeur". We hope in the future it always shows you the document name → [Document Name lost in tab on reload #150](https://github.com/classeur/classeur/issues/150)
+2. Your documents URL. You can bookmark the link to this article.
+3. Markdown editor pane.
+4. Side Preview pane delivering live rendering of your markdown source code. You can turn Side Preview off.
+5. Side Bar pane, in this snap showing ToC. Side Bar can be turned off.
+6. Status bar showing statistics of your document. It can be turned off.
+7. Buttons to configure options of Side Bar: 1) Markdown Help, 2) Table of Contents, 3) Discussions 4) History. 
+8. Vertical Menu Bar. Clever idea to save vertical space so you can see more of your text.
+9. Close *Writing Screen* and return to *Explorer Screen*.
+10. Open the *Writing-Menu Screen*. For more details see below.
+11. Preview. Distraction free final rendering of your markdown article.
+12. Upload or Synchronize button. In this case showing the upload button. Once configured you can push your writing to your production server / blog platform with a single click. 
+
+
+## Writing-Menu Screen
+
+This sub-screen of the *Writing Screen* contains all editor's menu functions. This screen is revealed when you click on the vertical menu button. This Classeur's clever way to save vertical space, which is always a good thing for an editor.
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing-menu.png)
+
+1. Press __Menu__ button to unfold the *Writing-Menu Screen*. Press again to return to writing.
+2. The __Writing-Menu Screen__ containing below adjustment buttons, requester and screens:
+3. __Stay on this article menu entries:__ Click opens a requester on topic. Close requester returns to here.
+4. __Make a copy__ button instantly does so and you will continue writing in a copy of this article.
+5. __Settings__ leaves article and opens *Settings Screen*.
+6. __Writing Screen Preferences__ configures your *Writing Screen*.
+
 
 # Setting Up
 
-## Preview & Preferences
+## Writing Screen Preferences
 
-### Open Menu
-
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/open-menu.png)
-
-### Adjust Preferences
+1. Open [Writing-Menu Screen](#writing-menu-screen)
+2. Adjust the *Writing Screen Preferences*. See below table for more details:
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/set-up-top-level.png)
 
@@ -219,12 +361,108 @@ All changes are instant (except for Zen Mode). See below for more details:
 | Zen Mode | Dims the UI to let you focus during writing. → [Zen Mode](#zen-mode).|
 | Scroll Sync | Synchronizes scrolling of preview pane with the writing pane. If you use *Side Preview* you will want this one to be on! |
 
-## Table of Contents
+## ToC Depth Settings
 
-# Managing Documents
+This setting adjusts how many levels are shown in the Inline ToC (Table of Contents):
+
+1. Open Menu > Properties
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/menu-properties.png)
+2. Enter Key: ext:markdown:tocdepth and set value: 2
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/file-properties.png)
+3. Click OK
+
+__Note:__ You can choose values from 1 ... 6. Tests have shown that most online readers find one level too coarse and 3 levels too detailed. This is different than in print media where 3 ... 4 levels are standard.
+
+## Tutorial Create Account
+
+1. Go to *Explorer Screen*, e.g. by clicking  →  [https://app.classeur.io/](https://app.classeur.io/)
+2. Click "SIGN I WITH GOOGLE"
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/account-sign-in.png)
+3. Follow the instructions
+
+## Tutorial Link Host
+
+1. Go to your →  [Settings Screen](https://app.classeur.io/#!/settings).
+   - If you are on the *Explorer Screen* click the gear icon ⚙
+2. Click the Blog Tab:
+3. Click the *LINK BLOG* button
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/account-link-blog.png)
+4. Select the platform. In our case GitHub.
+5. Fill out the *Link Blog Requester*
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-settings-blog-link-blog-2.png)
+6. Click OK
+7. Authorize Application via GitHub
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-authorization.png)
+   - For safety reasons compare 1 ... 4 for authenticity.
+8. Confirm GitHub password:
+   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-confirm-pw.png)
+9. Your Linked Host is now listed in Setting > Blogs
+   -  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-linked-blog.png)
 
 
+# Tutorial Managing Documents
 
+To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. Or simply click →  [https://app.classeur.io/](https://app.classeur.io/) or type it into your browser's URL field.
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-exploring.png)
+
+
+1. Current Binder.
+2. Change Binder Icon.
+3. Login Account.
+4. Explaining value of Classeur Premium.
+5. Go to *Settings Screen*.
+6. List of Recent Articles.
+7. Find Articles.
+8. Add a new folder.
+9. Folders of this binder.
+10. Filter list of articles. Handy if you have a lot in one folder.
+11. Create a new article.
+12. Filtered list of all articles in this folder .
+13. Pick sorting order of article list.
+14. 1) Choose sharing option of article 2) Rename Article, 3) Delete Article.
+15. Click article name to open it in the *Writing Screen*.
+16. Article handle. Used to drag and drop the article to folder tabs.
+
+## Selecting Binder
+
+1. Click the *Change Binder Icon*
+2. Click the binder in which you want to work. You will return to the *Explorer Screen* with folders shown of the newly selected binder.
+
+## Searching Articles
+
+### Browse Recent Articles
+
+1. Click the recent folder with the dour o'clock icon: 🕓.
+2. Browse the list of recent articles.
+3. You can narrow down the list by typing a filter.
+
+### Article Search Field
+
+1. Click the search folder with the magnifier icon: 🔎.
+2. Enter your search phrase.
+3. Browse the list of search results articles.
+
+## Moving Articles
+
+### Moving within a Binder
+
+1. Locate the article using any of the methods described above.
+2. Click onto the *Article handle* and then drag the article to its new folder tab.
+
+### Moving between Binders
+
+1. Navigate to your target binder.
+   1. Click the *Change Binder Icon*.
+   2. Click the binder which you want to move the article to.
+2. Open the tab: "Search".
+3. Find the Article you want to move to this binder.
+4. Drag the article using its handle into the target folder of this binder.
+
+## Open Article
+
+1. Locate the article using any of the methods described above
+2. Single click the article. It will open the *Writing Screen*.
 
 
 
@@ -232,7 +470,7 @@ All changes are instant (except for Zen Mode). See below for more details:
 
 ## Markdown Intro
 
-Classeur is a markdown editor. If you are not familiar with markdown you will want to read its introduction article → ???
+Classeur is a markdown editor. If you are not familiar with markdown you will want to read this introduction article → ???
 
 ## Zen Mode
 
@@ -242,19 +480,66 @@ Zen is about you being in the *Zone* as in writing so focused that you forget an
 
 ### Turning on Zen Mode:
 
-1.Click Menu, enable the "Zen Mode" button 
+1. Click Menu, enable the "Zen Mode" button 
 2. Turn off Side Preview (if it is on, Zen Mode is disabled)
 3. Turn off Side Bar (if it is on, Zen Mode is disabled)
 4. Start typing without using the mouse
 5. Wait for 5 seconds (during which you can type or not after you began typing)
 6. Zen Mode will turn on automatically, by fading out the UI
 
+__Note:__ We created an issue to request that turning on Zen Mode becomes a single click. [Zen Mode: Trigger as soon as user begins typing #146](https://github.com/classeur/classeur/issues/146)
+
 ### Limitations
 
-I am using Classeur over any other text editor because I need the productivity of Live Preview and Live Table of Contents when typing markdown. Ironically turning on these functions turns off Zen Mode. I am contacting the authors to learn if I may have misunderstood the concept or if they will enable Zen Mode during writing with Preview / ToC enabled?
+Currently Zen Mode does not work when Preview, and / or Side Bar is enabled. 
+
+__Note:__ We created the issue → [Zen Mode: Trigger as soon as user begins typing #146](https://github.com/classeur/classeur/issues/146) and hope the authors will remove this limitation soon.
+
+## ToC, Navigation & Scrolling
+
+### Inline ToC
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/ToC-inline.png)
+
+You can insert a Table of Contents (ToC) anywhere within your document with the ```[TOC]``` command.
+
+__Note 1:__ For the  ```[TOC]``` command to be recognized by Classeur it needs a leading empty line and to be the first command in that line. 
+
+__Note 2:__ You need to insert the Inline ToC for HTML ToC export to work.
+
+### Side Bar ToC
+
+### Navigation by ToC
+
+When writing long articles you will want to use your Table of Contents (ToC) for two purpose:
+
+1. Inspect the 
+
+### Navigation by Folding
+
+### Scroll Sync Trick
+
+In → [Preview & Preferences](#preview--preferences) you enabled Scroll Sync.  It means that when you scroll one pane the other pane scrolls accordingly. This works mostly as expected. But sometimes a line of source code expands to much more in the preview pane. In such case scrolling the left pane leads to accelerated scrolling of the right pane. If that is not desired, simply move your cursor to hover over the right pane and use your scroll wheel for a more controlled scrolling experience.
 
 
 
+## Suggested Window Setup
+
+This is my setup. As always your mileage may vary :-)
+
+- __Two 1080p Displays:__
+   - __Left:__ *Writing*. I am sitting in front of this one.
+   - __Right:__ *Reference* as in research and final review. Placed to right hand side more far away. This is OK as I only use it fro reference and not for work.
+- __Left Window Tabs:__ (Writing)
+   - __Classeur Article:__ This is where I write the article
+   - __Appetizing Articles:__ My reference for more fancy formatting
+   - __ToC Converter:__ Tool to convert HTML ToC to YAML ToC
+   - __HTML Export Page:__ Export generated from Classeur for ToC
+   - __HTML Source:__ HTML Source Code of previous page
+- __Right Window Setup:__ (Reference)
+   - __Article Blog Page:__ In our case the published article on V²Site
+   - __Article Issue:__ Linked issue to this article. Out todo lists.
+   - __All sorts of Research:__ Various tabs containing research to my writing
 ## Current Preview Limitations
 
 ### We really like Classeur Preview!
@@ -267,6 +552,9 @@ In this section we are going to list limitations of Classeur's preview. Before d
 
 ### No Permalinks for Headings
 
+## Tutorial Writing
+
+__Note:__ I will write it if later after going through the editing process of the first pass.
 
 # Publishing
 
@@ -305,6 +593,10 @@ If you have documented your workflow and like to share it help others than use t
 
 ## Create ToC
 
+### Verify has Inline ToC
+
+You only can export your ToC (Table of Contents) if you have inserted an → [Inline ToC](#inline-toc) in the first place.
+
 ### Export HTML ToC
 
 ### HTML ToC → YAML or JSON
@@ -324,9 +616,13 @@ If you have documented your workflow and like to share it help others than use t
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/
 
 
-## Connect to GitHub
 
 
+## Tutorial Export ToC
+
+## Tutorial Publishing
+
+__Note:__ I will write it if later after going through the editing process of the first pass.
 
 # Remaining Mysteries
 
@@ -338,12 +634,23 @@ I found no way to export the TOC. Since we need to export the ToC, this would ha
 
 
 
-# Improvement Ideas
+# Improvements
 
 ## Setup Classeur
 
 - Sections to get titles: This way is easier to refer to a section in the manual
 - 
+## Related Open Issues
+- [Connection with Github - update file on Github #114](https://github.com/classeur/classeur/issues/114)
+
+
+# Terms
+
+Screen
+: User interface page on a specific topic. E.g. Explorer Screen, Settings Screen, Writing Screen, etc.
+
+Term 2
+: Definition 2
 
 # Sort In
 
