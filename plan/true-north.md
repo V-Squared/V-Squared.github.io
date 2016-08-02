@@ -30,7 +30,7 @@ readiness:
 True North is our vision which we are working towards. To not get lost in the middle we created the V²Agile System. In the below Tree Diagram you can see how and where True North fits in:
 
 <v2-switcher>
-  <div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #2196f3;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
+  <div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #CCC;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
     <svg style="max-width:380px;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
       <style>
         #overlay-path path {

@@ -589,3 +589,12 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
 width:auto;
 max-height:80vh;
 }
+@media (max-width:425px) {
+  .page-content .uk-container {
+    padding:0 5px;
+  }
+  .page-content md-content,
+  .page-content .article-jumbotron-container{
+    padding:10px !important;
+  }
+}
