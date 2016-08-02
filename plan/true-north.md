@@ -30,83 +30,110 @@ readiness:
 True North is our vision which we are working towards. To not get lost in the middle we created the V²Agile System. In the below Tree Diagram you can see how and where True North fits in:
 
 <v2-switcher>
-<div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #2196f3;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
-<svg style="max-width:380px;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
-<style>
-#overlay-path path {
-  stroke-opacity: 0;
-  fill:#FFF;
-  fill-opacity:0;
-  cursor:pointer;
-}
-#overlay-path path:hover,
-#overlay-path path.active{
-stroke-opacity: 1;
-}
-</style>
- <g fill-rule="evenodd" transform="translate(2.1545 1.9903)">
-  <path fill="#e62916" d="m0.015361 0.011049 281.35-0.011049l18.467 43.986h-299.84z"/>
-  <path fill="#f29106" d="m0 50.03h257.54l30.555 2.0146 14.774-1.6788 16.788 40.628-25.183 8.0585-57.417-5.0365h-237.05z"/>
-  <path fill="#fcd402" d="m0 100.4h234.37l60.438 6.3796 27.197-9.0658 15.781 38.949-36.599 16.117-87.972-8.0585h-213.37z"/>
-  <path fill="#1ba13e" d="m0.10943 150.83h210.83l90.696 9.0221 39.887-15.195 14.72 35.139-47.485 25.642-119.19-10.447h-189.46z"/>
-  <path fill="#2daee5" d="m0.10943 200.69h187.09l122.04 14.245 49.859-26.117 15.195 33.714-58.881 37.988-148.63-15.67h-166.67z"/>
-  <path fill="#2b54a3" d="m0.10943 251.02h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z"/>
-  <path fill="#842e89" d="m0.10943 300.88h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z"/>
- </g>
- <path d="m283.37 2.2946-161.92 344.74 209.88 23.75z" fill-opacity=".28980" fill-rule="evenodd" fill="#fff"/>
- <g font-size="40px" transform="translate(2.1545 1.9903)" font-family="Roboto" fill="#fff">
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="34.919998" x="2.6861525"><tspan y="34.919998" x="2.6861525">1</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="85.285385" x="2.6861525" line-height="125%"><tspan y="85.285385" x="2.6861525">2</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="136.32231" x="2.6861525"><tspan y="136.32231" x="2.6861525">3</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="186.6877" x="2.6861525" line-height="125%"><tspan y="186.6877" x="2.6861525">4</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="237.05309" x="2.6861525"><tspan y="237.05309" x="2.6861525">5</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="287.41846" x="2.6861525" line-height="125%"><tspan y="287.41846" x="2.6861525">6</tspan></text>
-  <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="336.44077" x="2.6861525"><tspan y="336.44077" x="2.6861525">7</tspan></text>
-  <g font-weight="500">
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="20.062267" x="27.503845"><tspan font-size="20px" y="20.062267" x="27.503845" fill="#ffffff">True North</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="71.09919" x="27.503845" line-height="125%"><tspan font-size="20px" y="71.09919" x="27.503845" fill="#ffffff">Road Map</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="122.80765" x="27.503845"><tspan font-size="20px" y="122.80765" x="27.503845" fill="#ffffff">Campaign</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="172.5015" x="27.503845" line-height="125%"><tspan font-size="20px" y="172.5015" x="27.503845" fill="#ffffff">Milestone</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="222.86688" x="27.503845"><tspan font-size="20px" y="222.86688" x="27.503845" fill="#ffffff">Sprint</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="273.23227" x="27.503845" line-height="125%"><tspan font-size="20px" y="273.23227" x="27.503845" fill="#ffffff">Issue</tspan></text>
-   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="322.25458" x="27.503845"><tspan font-size="20px" y="322.25458" x="27.503845" fill="#ffffff">Task</tspan></text>
-  </g>
- </g>
- <g stroke-width="4" fill="none" transform="translate(2.1545 1.9903)">
-  <g id="overlay-path" stroke-linejoin="round">
-   <path v2-switch-item="0" d="m-0.27498 301.36h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z" stroke="#00ff2f"/>
-   <path v2-switch-item="1" d="m-0.31269 251.96h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z" stroke="#ffaf00"/>
-   <path v2-switch-item="2" d="m-0.32114 201.69h187.09l122.04 14.245 49.859-26.117 15.195 33.714-58.881 37.988-148.63-15.67h-166.67z" stroke="#ff6200"/>
-   <path v2-switch-item="3" d="m-0.34371 151.83h210.83l90.696 9.0221 39.887-15.195 14.72 35.139-47.485 25.642-119.19-10.447h-189.46z" stroke="#ff00a1"/>
-   <path v2-switch-item="4" d="m-0.99949 101.37h234.37l60.438 6.3796 27.197-9.0658 15.781 38.949-36.599 16.117-87.972-8.0585h-213.37z" stroke="#0232fc"/>
-   <path v2-switch-item="5" d="m-1.0037 51.027h257.53l30.555 2.0146 14.774-1.6788 16.788 40.628-25.183 8.0585-57.417-5.0365h-237.05z" stroke="#068ef2"/>
-   <path v2-switch-item="6" d="m-0.99907-0.98555 283.09-0.0058 19.25 45.991-302.27-0.011z" stroke="#16dbe6"/>
-  </g>
- </g>
-</svg>
-
-<v2-switch-text>
-Task: Actual work to be completed.
-</v2-switch-text>
-<v2-switch-text>
-Issue: Group of Tasks to be worked down, guided by User Story.
-</v2-switch-text>
-<v2-switch-text>
-Sprint: What Issues to work down in this week.
-</v2-switch-text>
-<v2-switch-text>
-Milestone: How each Milestone is completed via a bucket of Issues.
-</v2-switch-text>
-<v2-switch-text>
-Campaign: How each Campaign moves to True North via group of Milestones.
-</v2-switch-text>
-<v2-switch-text>
-Road Map: How to reach True North via consecutive Campaigns.
-</v2-switch-text>
-<v2-switch-text>
-True North: Where we want to be.
-</v2-switch-text>
-</div>
+  <div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #2196f3;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
+    <svg style="max-width:380px;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
+      <style>
+        #overlay-path path {
+        stroke-opacity: 0;
+        fill:#FFF;
+        fill-opacity:0;
+          cursor:pointer;
+        }
+        #overlay-path path:hover,
+        #overlay-path path.active{
+          stroke-opacity: 1;
+        }
+      </style>
+      <g fill-rule="evenodd" transform="translate(2.1545 1.9903)">
+        <path fill="#e62916" d="m0.015361 0.011049 281.35-0.011049l18.467 43.986h-299.84z"/>
+        <path fill="#f29106" d="m0 50.03h257.54l30.555 2.0146 14.774-1.6788 16.788 40.628-25.183 8.0585-57.417-5.0365h-237.05z"/>
+        <path fill="#fcd402" d="m0 100.4h234.37l60.438 6.3796 27.197-9.0658 15.781 38.949-36.599 16.117-87.972-8.0585h-213.37z"/>
+        <path fill="#1ba13e" d="m0.10943 150.83h210.83l90.696 9.0221 39.887-15.195 14.72 35.139-47.485 25.642-119.19-10.447h-189.46z"/>
+        <path fill="#2daee5" d="m0.10943 200.69h187.09l122.04 14.245 49.859-26.117 15.195 33.714-58.881 37.988-148.63-15.67h-166.67z"/>
+        <path fill="#2b54a3" d="m0.10943 251.02h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z"/>
+        <path fill="#842e89" d="m0.10943 300.88h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z"/>
+      </g>
+      <path d="m283.37 2.2946-161.92 344.74 209.88 23.75z" fill-opacity=".28980" fill-rule="evenodd" fill="#fff"/>
+      <g font-size="40px" transform="translate(2.1545 1.9903)" font-family="Roboto" fill="#fff">
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="34.919998" x="2.6861525">
+          <tspan y="34.919998" x="2.6861525">1</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="85.285385" x="2.6861525" line-height="125%">
+          <tspan y="85.285385" x="2.6861525">2</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="136.32231" x="2.6861525">
+          <tspan y="136.32231" x="2.6861525">3</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="186.6877" x="2.6861525" line-height="125%">
+          <tspan y="186.6877" x="2.6861525">4</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="237.05309" x="2.6861525">
+          <tspan y="237.05309" x="2.6861525">5</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="287.41846" x="2.6861525" line-height="125%">
+          <tspan y="287.41846" x="2.6861525">6</tspan>
+        </text>
+        <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="336.44077" x="2.6861525">
+          <tspan y="336.44077" x="2.6861525">7</tspan>
+        </text>
+        <g font-weight="500">
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="20.062267" x="27.503845">
+            <tspan font-size="20px" y="20.062267" x="27.503845" fill="#ffffff">True North</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="71.09919" x="27.503845" line-height="125%">
+            <tspan font-size="20px" y="71.09919" x="27.503845" fill="#ffffff">Road Map</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="122.80765" x="27.503845">
+            <tspan font-size="20px" y="122.80765" x="27.503845" fill="#ffffff">Campaign</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="172.5015" x="27.503845" line-height="125%">
+            <tspan font-size="20px" y="172.5015" x="27.503845" fill="#ffffff">Milestone</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="222.86688" x="27.503845">
+            <tspan font-size="20px" y="222.86688" x="27.503845" fill="#ffffff">Sprint</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="273.23227" x="27.503845" line-height="125%">
+            <tspan font-size="20px" y="273.23227" x="27.503845" fill="#ffffff">Issue</tspan>
+          </text>
+          <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="322.25458" x="27.503845">
+            <tspan font-size="20px" y="322.25458" x="27.503845" fill="#ffffff">Task</tspan>
+          </text>
+        </g>
+      </g>
+      <g stroke-width="4" fill="none" transform="translate(2.1545 1.9903)">
+        <g id="overlay-path" stroke-linejoin="round">
+          <path v2-switch-item="6" d="m-0.27498 301.36h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z" stroke="#00ff2f"/>
+          <path v2-switch-item="5" d="m-0.31269 251.96h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z" stroke="#ffaf00"/>
+          <path v2-switch-item="4" d="m-0.32114 201.69h187.09l122.04 14.245 49.859-26.117 15.195 33.714-58.881 37.988-148.63-15.67h-166.67z" stroke="#ff6200"/>
+          <path v2-switch-item="3" d="m-0.34371 151.83h210.83l90.696 9.0221 39.887-15.195 14.72 35.139-47.485 25.642-119.19-10.447h-189.46z" stroke="#ff00a1"/>
+          <path v2-switch-item="2" d="m-0.99949 101.37h234.37l60.438 6.3796 27.197-9.0658 15.781 38.949-36.599 16.117-87.972-8.0585h-213.37z" stroke="#0232fc"/>
+          <path v2-switch-item="1" d="m-1.0037 51.027h257.53l30.555 2.0146 14.774-1.6788 16.788 40.628-25.183 8.0585-57.417-5.0365h-237.05z" stroke="#068ef2"/>
+          <path v2-switch-item="0" d="m-0.99907-0.98555 283.09-0.0058 19.25 45.991-302.27-0.011z" stroke="#16dbe6"/>
+        </g>
+      </g>
+    </svg>
+    <v2-switch-text>
+      True North: Where we want to be. <span style="color:red; font-weight:bold">You are here!</span><br>Click a level to see its callout.
+    </v2-switch-text>
+    <v2-switch-text>
+      Road Map: How to reach True North via consecutive Campaigns.
+    </v2-switch-text>
+    <v2-switch-text>
+      Campaign: How each Campaign moves to True North via group of Milestones.
+    </v2-switch-text>
+    <v2-switch-text>
+      Milestone: How each Milestone is completed via a bucket of Issues.
+    </v2-switch-text>
+    <v2-switch-text>
+      Sprint: What Issues to work down in this week.
+    </v2-switch-text>
+    <v2-switch-text>
+      Issue: Group of Tasks to be worked down, guided by User Story.
+    </v2-switch-text>
+    <v2-switch-text>
+      Task: Actual work to be completed.
+    </v2-switch-text>
+  </div>
 </v2-switcher>
 
 - [V²Agile System](https://v-squared.github.io/plan/agile/) shows how each task works towards True North via 7 Layer hierarchy:
