@@ -476,7 +476,7 @@ Classeur is a markdown editor. If you are not familiar with markdown you will wa
 
 ### Benefits of Zen Mode
 
-Zen is about you being in the *Zone* as in writing so focused that you forget anything else but your writing. Classeur assists you in entering the *Zone* via the *Zen Mode* which will fade the Classeur UI so all what is left for you to see: Is your writing!
+Zen is about you being in the *Zone* as in writing so focused that you forget anything else but your writing. Classeur assists you in entering the *Zone* via the *Zen Mode* which will fade the Classeur UI so all that is left for you to see: Is your writing!
 
 ### Turning on Zen Mode:
 
@@ -511,7 +511,7 @@ __Note 2:__ You need to insert the Inline ToC for HTML ToC export to work.
 
 ### Navigation by ToC
 
-When writing long articles you will want to use your Table of Contents (ToC) for two purpose:
+When writing long articles you will want to use your Table of Contents (ToC) for two purposes:
 
 1. Inspect the 
 
@@ -529,7 +529,7 @@ This is my setup. As always your mileage may vary :-)
 
 - __Two 1080p Displays:__
    - __Left:__ *Writing*. I am sitting in front of this one.
-   - __Right:__ *Reference* as in research and final review. Placed to right hand side more far away. This is OK as I only use it fro reference and not for work.
+   - __Right:__ *Reference* as in research and final review. Placed to right hand side further away. This is OK as I only use it for reference and not for work.
 - __Left Window Tabs:__ (Writing)
    - __Classeur Article:__ This is where I write the article
    - __Appetizing Articles:__ My reference for more fancy formatting
@@ -538,13 +538,13 @@ This is my setup. As always your mileage may vary :-)
    - __HTML Source:__ HTML Source Code of previous page
 - __Right Window Setup:__ (Reference)
    - __Article Blog Page:__ In our case the published article on V²Site
-   - __Article Issue:__ Linked issue to this article. Out todo lists.
+   - __Article Issue:__ Linked issue to this article. Our todo lists.
    - __All sorts of Research:__ Various tabs containing research to my writing
 ## Current Preview Limitations
 
 ### We really like Classeur Preview!
 
-In this section we are going to list limitations of Classeur's preview. Before doing so we want you to know that as it is the preview function is more than usable in production. In fact we enjoy using Classeur. We are a picky bunch, we do not say this very often. Having said that it is important to understand Classeur's preview limitations and the available workarounds:
+In this section we are going to list limitations of Classeur's preview. Before doing so we want you to know that as it is the preview function is more than usable in production. In fact we enjoy using Classeur. We are a picky bunch, we do not say this very often. Having said that, it is important to understand Classeur's preview limitations and the available workarounds:
 
 ### No Style Sheets
 
@@ -560,7 +560,7 @@ __Note:__ I will write it if later after going through the editing process of th
 
 ## Publishing Power
 
-Publishing workflows vary wildly. Classeur is very flexible in this regard. It supports a large verity of publishing platforms and data formats.
+Publishing workflows vary wildly. Classeur is very flexible in this regard. It supports a large variety of publishing platforms and data formats.
 
 __Integrated direct upload:__
 
@@ -583,11 +583,11 @@ __Export Data Formats:__
 - LaTex
 - And many more through [PanDoc](http://pandoc.org/).
 
-As such it also gives you enough rope to hang yourself. There are simply too many possible workflows to document them all here. Instead we are documenting but one, in the hope that you can use above list of capabilities in combination with the fully described workflow below to create your own publishing workflow.
+As such it also gives you enough rope to hang yourself. There are simply too many possible workflows to document them all here. Instead we are documenting but one, in the hope that you can use the above list of capabilities in combination with the fully described workflow below to create your own publishing workflow.
 
-__Note:__ You should be able to use most of the workflow for your purposes. E.g. it is likely that your publishing system will require a Table of Contents. We show you how to create in the most common formats: HTML, JSON and YAML. We also show you how to link Classeur to GitHub. Once you see how you can link one platform it shall be easy to link to the others.
+__Note:__ You should be able to use most of the workflow for your purposes. E.g., it is likely that your publishing system will require a Table of Contents. We show you how to create in the most common formats: HTML, JSON and YAML. We also show you how to link Classeur to GitHub. Once you see how you can link one platform it shall be easy to link to the others.
 
-If you have documented your workflow and like to share it help others than use the V²Flow button to create a fork of this article, add  your workflow and make a pull request so to share it with others.
+If you have documented your workflow and would like to share it to help others, then use the V²Flow button to create a fork of this article, add  your workflow and make a pull request so to share it with others.
 
 ## GitHub Pages Publishing
 
@@ -622,12 +622,12 @@ You only can export your ToC (Table of Contents) if you have inserted an → [In
 
 ## Tutorial Publishing
 
-__Note:__ I will write it if later after going through the editing process of the first pass.
+__Note:__ I will write it later after going through the editing process of the first pass.
 
 # Remaining Mysteries
 
 ## Export Pandoc TOC
-I found no way to export the TOC. Since we need to export the ToC, this would have been useful. We are now using HTML export and manually copy paste the ToC from the HTML source. A bit crude and a pain to describe in a manual, but works.
+I found no way to export the TOC. Since we need to export the ToC, this would have been useful. We are now using HTML export and manually copy paste the ToC from the HTML source. A bit crude and a pain to describe in a manual, but it works.
 
 # Modes
 
