@@ -178,11 +178,11 @@ During writing you will go through the process of incubation, writing, editing, 
 
 ### Integrated Article Management
 
-When writing on a larger body of work (blog, website or intranet server) you will end up writing on several articles simultaneously prior to publishing. Classeur offer you a complete documentation management system, enabling you to build the same navigation structure during your development matching the one used in production.
+When writing on a larger body of work (blog, website or intranet server) you will end up writing on several articles simultaneously prior to publishing. Classeur offers you a complete documentation management system, enabling you to build with the same navigation structure during your development as the one used in production.
 
 ### Collaboration
 
-It promises interesting collaboration features. I will document them after I figured out how to use them. 
+It promises interesting collaboration features. I will document them after I have figured out how to use them. 
 
 
 ## Capabilities
@@ -193,17 +193,17 @@ It promises interesting collaboration features. I will document them after I fig
 |---------:|:--:|:------------|
 | Cost | ✔ | Free for 100 files, $3 / month for unlimited files, also has enterprise edition. |
 | Customization | ✔ | Rich with intuitive UI. |
-| Speed | ✔ | Fast. Complex documents on a PC with Celeron work smooth. |
-| Reliability | ✔ | Never lost any writing. Good enough to use in production. It's bugs can be worked around. |
+| Speed | ✔ | Fast. Complex documents on a PC with Celeron work smoothly. |
+| Reliability | ✔ | Never lost any writing. Good enough to use in production. Its bugs can be worked around. |
 | Support | ✔ | You can search and open [GitHub > Classeur > Issues](https://github.com/classeur/classeur/issues). As of July 2016 they reply swiftly.
-| Markdown Editor | ✔ | Works nice. With lots of useful features for beginners & pros. |
+| Markdown Editor | ✔ | Works well. With lots of useful features for beginners & pros. |
 | Markdown Preview | ✔ | Works very well. |
-| Managing Documents |✔ | Very intuitive UI. Works well and smooth | 
+| Managing Documents |✔ | Very intuitive UI. Works well and smooth. | 
 | Export | ✔ | Exceptional Export functionality: Markdown, Plain & styled HTML, PDF, RTF, OpenOffice, Word, EPUB, LaTex, and many more through PanDoc. |
 | Cross Platform | ✔ | Runs in browser! |
 | Offline Editing | ✔ | Firefox Version available. Windows coming soon |
 | User Manual | ⚠ |  This [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) is a community project. It is not complete yet.
-| Zen Mode | ⚠ | Nice in use. But complex to turn on. Only work without Preview & ToC. Scheduled to be fixed soon. |
+| Zen Mode | ⚠ | Nice to use. But complex to turn on. Only works without Preview & ToC. Scheduled to be fixed soon. |
 | Table of Contents | ⚠ | Usable, but with bugs requiring workaround.  |
 | GitHub Push / Pull | ⚠ | Push is implemented, Pull is not. |
 | Image Preview | ⚠ | Works with absolute URL, but not with relative. |
@@ -213,7 +213,7 @@ It promises interesting collaboration features. I will document them after I fig
 
 ### Using in Production
 
-We found Classeur to be complete & stable enough to use it in our production. As you can see in above capabilities list it lacks important features and has bugs. But frankly we have not found a better alternative. It is an open source project on GitHub with friendly and responsive developers. As such we are contributing what we can to fix any open issues.
+We have found Classeur to be complete & stable enough to use it in our production flow. As you can see in the capabilities list above, it lacks some important features and has bugs. But frankly we have not found a better alternative. It is an open source project on GitHub with friendly and responsive developers. As such we are contributing what we can to fix any open issues.
 
 __Bottom Line:__  We work much faster and have more fun at work with Classeur than without! As such it is highly recommended for anyone implementing a markdown based publishing workflow.
 
@@ -254,11 +254,11 @@ When creating articles you will be in one of three work modes:
 3. __Writing:__  Get your writing and publishing done.
    - __Writing-Menu:__ Sub-screen of Writing containing all editor's menu functions.
 
-Classeur is supporting your work modes by offering an optimized screen for each work mode, putting the tools you need in each mode at your fingertips. Below we look at each screen and its key elements. This will give you an overview where things are and how they are related in the context of your writing workflow. 
+Classeur is supporting your work modes by offering an optimized screen for each work mode, putting the tools you need in each mode at your fingertips. Below we look at each screen and its key elements. This will give you an overview of where things are and how they are related in the context of your writing workflow. 
 
 ## Exploring Screen
 
-__Classeur Navigation:__ This is the heart of Classeur navigation. From hear you can go to anywhere. This is also your landing page after closing a *Writing Screen* or *Settings Screen*. This is important to understand to not get lost. Say you go to the *Settings Screen* from within the *Writing Screen* and you close the *Settings Screen*. You will not return to the *Writing Screen* but to this *Dashboard Screen*.
+__Classeur Navigation:__ This is the heart of Classeur navigation. From here you can go anywhere. This is also your landing page after closing a *Writing Screen* or *Settings Screen*. This is important to understand to avoid getting lost. Say you go to the *Settings Screen* from within the *Writing Screen* and you close the *Settings Screen*. You will not return to the *Writing Screen* but to this *Dashboard Screen*.
 
 __Article Management:__ You can do all the things that a file explorer offers in your OS: Finding, moving, deleting, renaming of articles aka documents aka files. 
 
@@ -282,11 +282,11 @@ __Article Management:__ You can do all the things that a file explorer offers in
 15. Click article name to open it in the *Writing Screen*.
 16. Article handle. Used to drag and drop the article to folder tabs.
 
-__Tip:__ These screenshots are made of a configured Classeur app in order to show you Classeur's power but also to give you a vision as to where you want to go. When you open Classeur for the first time on your PC it will look more empty. Have no worries. In the tutorials we will walk you through on how to get from there to here.
+__Tip:__ These screenshots are made of a configured Classeur app in order to show you Classeur's power and also to give you a vision as to where you want to go. When you open Classeur for the first time on your PC it will look more empty. Have no worries. In the tutorials we will walk you through on how to get from there to here.
 
 ## Settings Screen
 
-This is the place where you configure Classeur so to work for you:
+This is the place where you configure Classeur so it will work for you:
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-settings.png)
 
@@ -311,7 +311,7 @@ Finally this is the screen where you get all your writing done.
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing.png)
 
 1. Tab Name. On first load it shows you the document name. On reload it shows "Classeur". We hope in the future it always shows you the document name → [Document Name lost in tab on reload #150](https://github.com/classeur/classeur/issues/150)
-2. Your documents URL. You can bookmark the link to this article.
+2. Your document's URL. You can bookmark the link to this article.
 3. Markdown editor pane.
 4. Side Preview pane delivering live rendering of your markdown source code. You can turn Side Preview off.
 5. Side Bar pane, in this snap showing ToC. Side Bar can be turned off.
@@ -326,7 +326,7 @@ Finally this is the screen where you get all your writing done.
 
 ## Writing-Menu Screen
 
-This sub-screen of the *Writing Screen* contains all editor's menu functions. This screen is revealed when you click on the vertical menu button. This Classeur's clever way to save vertical space, which is always a good thing for an editor.
+This sub-screen of the *Writing Screen* contains all editor's menu functions. This screen is revealed when you click on the vertical menu button. This is Classeur's clever way to save vertical space, which is always a good thing for an editor.
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing-menu.png)
 
@@ -356,7 +356,7 @@ All changes are instant (except for Zen Mode). See below for more details:
 | Zoom | Global font size for all Classeur Windows. 
 | Side Preview | Real time "what you see is what you get" (WYSIWYG). Most useful. |
 | Side Bar | A third pane right to *Side Preview* offering 4 options: Help, Table of Contents (ToC), Discussions, History |
-| Status Bar | Delivers documents statistics. We turn it on when needed and off otherwise for benefit of more writing space. |
+| Status Bar | Delivers document's statistics. We turn it on when needed and off otherwise for benefit of more writing space. |
 | Button Bar | Quasi WYSIWYG formatting toolbar. Very useful to beginners. |
 | Zen Mode | Dims the UI to let you focus during writing. → [Zen Mode](#zen-mode).|
 | Scroll Sync | Synchronizes scrolling of preview pane with the writing pane. If you use *Side Preview* you will want this one to be on! |
@@ -433,7 +433,7 @@ To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. 
 
 ### Browse Recent Articles
 
-1. Click the recent folder with the dour o'clock icon: 🕓.
+1. Click the recent folder with the four o'clock icon: 🕓.
 2. Browse the list of recent articles.
 3. You can narrow down the list by typing a filter.
 
@@ -666,6 +666,7 @@ Report to Classeur
 - Life ToC also respect heading depth
 - Create simple document H1, H2, H3 to reproduce
 - Show how configured ToC
+
 
 
 
