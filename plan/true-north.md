@@ -29,10 +29,9 @@ readiness:
 
 True North is our vision which we are working towards. To not get lost in the middle we created the V²Agile System. In the below Tree Diagram you can see how and where True North fits in:
 
-
-<div class="svg">
 <v2-switcher>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
+<div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #2196f3;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
+<svg style="max-width:380px;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
 <style>
 #overlay-path path {
   stroke-opacity: 0;
@@ -73,7 +72,7 @@ stroke-opacity: 1;
    <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="322.25458" x="27.503845"><tspan font-size="20px" y="322.25458" x="27.503845" fill="#ffffff">Task</tspan></text>
   </g>
  </g>
- <g stroke-width="2" fill="none" transform="translate(2.1545 1.9903)">
+ <g stroke-width="4" fill="none" transform="translate(2.1545 1.9903)">
   <g id="overlay-path" stroke-linejoin="round">
    <path v2-switch-item="0" d="m-0.27498 301.36h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z" stroke="#00ff2f"/>
    <path v2-switch-item="1" d="m-0.31269 251.96h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z" stroke="#ffaf00"/>
@@ -107,8 +106,8 @@ Road Map: How to reach True North via consecutive Campaigns.
 <v2-switch-text>
 True North: Where we want to be.
 </v2-switch-text>
-</v2-switcher>
 </div>
+</v2-switcher>
 
 - [V²Agile System](https://v-squared.github.io/plan/agile/) shows how each task works towards True North via 7 Layer hierarchy:
    - [True North Article](https://v-squared.github.io/plan/true-north/) (Vision)
