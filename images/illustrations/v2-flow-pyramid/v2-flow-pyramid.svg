@@ -1,0 +1,32 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="369.26" viewBox="0 0 408.95477 369.26227" width="408.95" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <g fill-rule="evenodd">
+  <path d="m0.33577 0h281.04l18.467 43.986h-299.51z" fill="#e62916"/>
+  <path d="m0 50.03h257.54l30.555 2.0146 14.774-1.6788 16.788 40.628-25.183 8.0585-57.417-5.0365h-236.72z" fill="#f29106"/>
+  <path d="m0 100.4h234.37l60.438 6.3796 27.197-9.0658 15.781 38.949-36.599 16.117-87.972-8.0585h-212.54z" fill="#fcd402"/>
+  <path d="m0.10943 150.83h210.83l90.696 9.0221 39.887-15.195 14.72 35.139-47.485 25.642-119.19-10.447h-189.46z" fill="#1ba13e"/>
+  <path d="m0.10943 200.69h187.09l122.04 14.245 49.859-26.117 15.195 33.714-58.881 37.988-148.63-15.67h-166.67z" fill="#2daee5"/>
+  <path d="m0.10943 251.02h163.35l151.95 17.095 61.256-37.038 14.72 34.664-68.378 48.435-180.44-18.994h-142.45z" fill="#2b54a3"/>
+  <path d="m0.10943 300.88h140.08l183.77 22.318 71.227-48.909 13.771 33.714-79.3 61.256-210.83-24.217h-118.71z" fill="#842e89"/>
+ </g>
+ <path d="m281.22 0.3043-161.92 344.74 209.88 23.75z" fill-opacity=".28980" fill-rule="evenodd" fill="#fff"/>
+ <g font-size="40px" font-family="Roboto" fill="#ffffff">
+  <g>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="34.919998" x="2.6861525"><tspan x="2.6861525" y="34.919998">1</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="85.285385" x="2.6861525" xml:space="preserve"><tspan y="85.285385" x="2.6861525">2</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="136.32231" x="2.6861525"><tspan x="2.6861525" y="136.32231">3</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="186.6877" x="2.6861525" xml:space="preserve"><tspan y="186.6877" x="2.6861525">4</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="237.05309" x="2.6861525"><tspan x="2.6861525" y="237.05309">5</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="287.41846" x="2.6861525" xml:space="preserve"><tspan y="287.41846" x="2.6861525">6</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="336.44077" x="2.6861525"><tspan x="2.6861525" y="336.44077">7</tspan></text>
+  </g>
+  <g font-weight="500">
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="20.062267" x="27.503845"><tspan font-size="20px" y="20.062267" x="27.503845" fill="#ffffff">True North</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="71.09919" x="27.503845" xml:space="preserve"><tspan font-size="20px" y="71.09919" x="27.503845" fill="#ffffff">Road Map</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="122.80765" x="27.503845"><tspan font-size="20px" y="122.80765" x="27.503845" fill="#ffffff">Campaign</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="172.5015" x="27.503845" xml:space="preserve"><tspan font-size="20px" y="172.5015" x="27.503845" fill="#ffffff">Milestone</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="222.86688" x="27.503845"><tspan font-size="20px" y="222.86688" x="27.503845" fill="#ffffff">Sprint</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="273.23227" x="27.503845" xml:space="preserve"><tspan font-size="20px" y="273.23227" x="27.503845" fill="#ffffff">Issue</tspan></text>
+   <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="322.25458" x="27.503845"><tspan font-size="20px" y="322.25458" x="27.503845" fill="#ffffff">Task</tspan></text>
+  </g>
+ </g>
+</svg>
