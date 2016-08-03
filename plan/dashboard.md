@@ -6,6 +6,7 @@ subtitle: Complete overview of our current development convenient in one place.
 abstract: >
    We develop in [Agile Sprints](https://v-squared.github.io/plan/system/sprint-workflow/). This dashboard shows all our Scrum Boards and a History of each Sprint Target. Convenient for the **Contributor** to find the next work to do and for the **V²Reader** to get an overview what we are working on. Please note that the Scrum Boards are public and visible to anyone. Also anyone can enter comments to any issue on the Scrum Board. Ideal to add a *Feature Request* or to *Report a Bug*.
 issueNo: 94
+visualURL: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/titles/dashboard/dashboard-raw-960x320.jpg
 contents:
    - name: Scrum Boards
      url: scrum-boards
