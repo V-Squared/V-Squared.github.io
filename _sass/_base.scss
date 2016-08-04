@@ -167,7 +167,6 @@ p {
   line-height: 1.7em;
 }
 
-
 /**
 * Wrapper
 */
@@ -442,6 +441,9 @@ table.twin-blue {
 
 [layout=row][layout-gap] > *:not(:last-child) {
   margin-right: 20px;
+}
+[layout=row][layout-feature] > *:not(:last-child) {
+  margin-right: 80px;
 }
 
 md-toolbar[md-transparent] {

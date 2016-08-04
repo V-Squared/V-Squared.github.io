@@ -122,7 +122,7 @@ var switchText = {
   },
   controller: switchTextController,
   transclude:true,
-  template: "<md-card><md-card-content ng-transclude></md-card-content></md-card>"
+  template: "<div ng-transclude></div>"
 };
 
 function switchTextController ($scope,$element) {
