@@ -92,12 +92,12 @@ $mute: #DFE3E4;
   width: 150px;
   z-index: 99;
   position: absolute;
-  right: 0;
+  left: 0;
   margin: 0;
-  border-top-right-radius: 10px;
   height: 10px;
-  
-  div:last-child {
-    border-top-right-radius: 10px;
+
+  div {
+    background: #FFF;
+    opacity:1;
   }
 }
