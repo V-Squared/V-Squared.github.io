@@ -5,6 +5,7 @@ subtitle: How V² Modular Open Mini PC will improve your life, how we can make i
 abstract: >
   V²Plan serves two user groups. The first group is users and contributors of V². The second group is GitHub users who are looking for an Agile Project Management and Toyota Production System to add to their GitHub Organization. 
 issueNo: 195
+visualURL: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/titles/plan/plan-960x320.jpg
 contents:
    - name: Next Campaigns
      url: next-campaigns
