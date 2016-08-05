@@ -238,51 +238,6 @@
 .post-content {
   //padding: $spacing-unit 0;
 
-  .content-navigation {
-    padding:8px;
-
-    > div {
-      padding:8px;
-    }
-
-    md-card {
-      margin: 0;
-      height: 100%;
-      border-radius: 10px;
-      transition: all .2s cubic-bezier(.55,0,.55,.2);
-
-      &:hover {
-        box-shadow: 0 9px 11px -5px rgba(0,0,0,.2),0 18px 28px 2px rgba(0,0,0,.14),0 7px 34px 6px rgba(0,0,0,.12);
-        -webkit-transform: translate3D(0,-5px,0);
-        transform: translate3D(0,-5px,0);
-      }
-
-      a{
-        position: relative;
-        &:hover {
-          text-decoration: none;
-        }
-        * {
-          color:rgba(0,0,0,0.87);
-        }
-      }
-    }
-    md-card-subtitle {
-      font-size: 17px;
-      display: block;
-      margin-bottom: 12.5px;
-    }
-    md-card-description {
-      line-height: 1.7em;
-      font-size:16px;
-      display: block;
-      color:rgba(0,0,0,0.6) !important;
-    }
-    md-card .md-headline {
-      font-size:25px;
-    }
-  }
-
   h2 {
     font-size: 32px;
 

@@ -121,28 +121,20 @@
 
   {% if sitePage.url == bookUrl %}
 
-  <div flex-xs="100" flex-sm="50" flex-gt-sm="33">
-    <md-card class="md-whiteframe-9dp">
-      <a href="{{site.baseurl}}{{bookUrl}}" flex>
-        <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
-            <div flex class="{{sitePage.readiness[0]}}"></div>
-            <div flex class="{{sitePage.readiness[1]}}"></div>
-            <div flex class="{{sitePage.readiness[2]}}"></div>
-            <div flex class="{{sitePage.readiness[3]}}"></div>
-          </div>
-        {% if sitePage.visualURL %}<img src="{{sitePage.visualURL}}" class="md-card-image">{% endif %}
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">{{sitePage.title}}</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          <md-card-subtitle>
-            {{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>"}}
-          </md-card-subtitle>
-        </md-card-content>
-      </a>
-    </md-card>
+  <div md-ink-ripple layout="column" flex-sm="100" flex-md="50" flex-gt-md="33" class="metro-card{% if sitePage.color %} {{sitePage.color}}{% endif %}">
+    <a flex href="{{site.baseurl}}/{{sitePage.url}}">
+    {% if sitePage.visualURL %}
+    <div class="card-image">
+      <img src="{{sitePage.visualURL}}" />
+    </div>
+    {% endif %}
+    <div class="card-heading">
+      <h1>{{sitePage.title}}</h1>
+      {% if sitePage.subtitle %}
+        <p>{{sitePage.subtitle}}</p>
+      {% endif %}
+    </div>
+    </a>
   </div>
 
   {% endif %}

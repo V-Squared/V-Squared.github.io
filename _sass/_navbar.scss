@@ -178,7 +178,7 @@
 .sub-breadcrumb {
   margin:0;
 
-  padding-bottom: 15px;
+  padding: 20px;
 
   li {
 
@@ -199,6 +199,10 @@
       }   
     }
   }
+}
+
+#embed-toc {
+  padding: 0 20px;
 }
 
 .article-col {
@@ -332,5 +336,42 @@
 
   @media (min-width:768px) {
     display: none;
+  }
+}
+
+.content-navigation {
+  
+  .metro-card {
+
+    background-color:#3F51B5;
+    min-height:360px;
+    position: relative;
+
+    a:hover {
+      text-decoration: none;
+    }
+    .card-image {
+      position:relative;
+      margin: 20px 20px 0 20px;
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+    .card-heading {
+      padding: 20px;
+      * {
+        color:#FFF;
+      }
+      h1 {
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:24px;
+        margin:0;
+        padding:0;
+        border:0;
+        color:#FFF;
+      }
+    }
   }
 }

@@ -14,7 +14,7 @@ abstract: >
   8. Consistent integration of V²Agile with V²Flow and GitHub Flow <br>
   9. Easy adaption to other GitHub Organizations. Licensed under CC-BY <br>
 issueNo: 54
-visualURL: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
+color: blue-grey
 readiness:
   - is-complete
   - is-complete
