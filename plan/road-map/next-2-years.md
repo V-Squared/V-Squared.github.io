@@ -19,6 +19,8 @@ readiness:
 
 # Compact List of Campaigns {#compact-list}
 
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/illustrations/v2-road-map/v2-road-map-2016-next.png)
+
 {:.uk-table.uk-table-hover.table-header-row-column}
 
 | # | Name | Tag line |
