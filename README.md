@@ -12,4 +12,4 @@ This Repository is the home page of the V² Organization. You can find it → ht
 Like with all Projects on V², we use the GitHub Flow. THat is: 1) Fork this repository 2) Create a feature branch 3) Add your improvement 4) Make a pull request 5) We merge your pull request into this Home Page
 
 # License
-Creative Commons v4 or MIT
+→ [LICENSE](LICENSE.md)
