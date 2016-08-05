@@ -31,7 +31,7 @@
   {% if page.url == groupUrl %}
 
   <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if page.color %} {{page.color}}{% endif %}">
+       class="metro-card{% if page.color %} {{page.color}}-300{% endif %}">
     <a flex href="{{site.baseurl}}{{groupUrl}}">
       <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div flex class="{{page.readiness[0]}}"></div>
@@ -78,7 +78,7 @@
   {% if sitePage.url == subitemUrl %}
 
   <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if sitePage.color %} {{sitePage.color}}{% endif %}">
+       class="metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
     <a flex href="{{site.baseurl}}{{subitemUrl}}">
       <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div flex class="{{sitePage.readiness[0]}}"></div>
@@ -120,7 +120,7 @@
   {% if sitePage.url == bookUrl %}
 
   <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if sitePage.color %} {{sitePage.color}}{% endif %}">
+       class="metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
     <a flex href="{{site.baseurl}}{{bookUrl}}">
       <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div flex class="{{sitePage.readiness[0]}}"></div>
