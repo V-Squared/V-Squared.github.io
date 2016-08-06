@@ -14,7 +14,8 @@ abstract: >
   8. Consistent integration of V²Agile with V²Flow and GitHub Flow <br>
   9. Easy adaption to other GitHub Organizations. Licensed under CC-BY <br>
 issueNo: 54
-color: blue-grey
+visualURL: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/titles/milestones/milestones
+color: green
 readiness:
   - is-complete
   - is-complete
