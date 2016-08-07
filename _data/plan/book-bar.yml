@@ -8,8 +8,8 @@
   desc: >
     How to reach True North via consecutive Campaigns.
   subitems:
-    - menu: How it Works
-      url: /road-map/how-it-works/
+    - menu: Overview Road Map
+      url: /road-map/overview/
     - menu: 2011-2021
       url: /road-map/2011-2021/
     - menu: Next 2 Years
