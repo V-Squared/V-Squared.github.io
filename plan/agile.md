@@ -1,9 +1,9 @@
 ---
 layout: page
-title: V²Agile Index
+title: Agile
 subtitle: A generic Agile Development and Toyota Production System for GitHub Organizations
 abstract: >
-  **Key Features:** <br>
+  **Key Features of V²Agile:** <br>
   1. Full GitHub Issues Integration <br>
   2. Cross Repository Management suitable for small to very large GitHub Origanizations <br>
   3. Visualization of Progress in Road Maps and Kanban Boards <br>
