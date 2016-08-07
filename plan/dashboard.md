@@ -23,6 +23,8 @@ readiness:
 
 # Where Dashboard Fits
 
+We manage our Sprints via this *Dashboard*. The interactive graph *V² Agile Layer Model* below shows where Sprint (Dashboard) fits in. Click on each layer to learn how it works.
+
 <v2-switcher>
   <div style="background: #EDEDED;padding: 10px;padding-top: 15px;text-align: center;border: 5px solid #CCC;margin-top: 20px;margin-bottom: 40px;border-radius: 20px;">
     <svg style="max-width:380px;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 411.94098 372.76812">
@@ -107,13 +109,13 @@ readiness:
       </g>
     </svg>
     <v2-switch-text>
-      Sprint: What Issues to work down in this week.
+      Sprint: What Issues to work down in this week. <span style="color:red; font-weight:bold">You are here!</span><br> Click a level to see its call out.
     </v2-switch-text>
     <v2-switch-text>
       True North: Where we want to be. 
     </v2-switch-text>
     <v2-switch-text>
-      Road Map: How to reach True North via consecutive Campaigns. <span style="color:red; font-weight:bold">You are here!</span><br> Click a level to see its call out.
+      Road Map: How to reach True North via consecutive Campaigns.
     </v2-switch-text>
     <v2-switch-text>
       Campaign: How each Campaign moves to True North via groups of Milestones.
