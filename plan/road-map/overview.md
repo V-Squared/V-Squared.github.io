@@ -14,7 +14,7 @@ contents:
       - name: The Big Journey Metaphor
         url: the-big-journey-metaphor
       - name: V² Works the Same
-        url: v²-works-the-same
+        url: v-works-the-same
   - name: Big Overview
     url: big-overview
   - name: Next 2 Years
