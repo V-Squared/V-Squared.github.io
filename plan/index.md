@@ -1,6 +1,6 @@
 ---
 layout: page
-title: V² Plan Book Index
+title: V² Plan
 issueNo: 91
 articleBar: 'no'
 index: true
