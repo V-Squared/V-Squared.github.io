@@ -24,8 +24,16 @@ readiness:
 
 ### Kramdown
 
+# Quick Reference Below
+
+Most of times a quick reference is all you need. And as the name promises, it is much faster than the full reference. In this spirit you will find below
+If you are looking for the full Syntax
+
+This is cool
 
 # Markdown Elements
+
+
 
 ## Story Heading
 
