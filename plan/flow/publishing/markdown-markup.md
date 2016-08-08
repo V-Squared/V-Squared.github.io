@@ -8,3 +8,53 @@ readiness:
    - is-active
 ---
 
+
+
+# Magic of Markdown
+
+## Staying in the Zone
+
+## Markdown vs Markup
+
+## Markdown Dialects
+
+### Original Markdown
+
+### GitHub Flavored Markdown
+
+### Kramdown
+
+
+# Markdown Elements
+
+## Story Heading
+
+## Understanding Heading
+
+## Reference Heading
+
+## Article Jumbotron
+### Purpose of Article Jumbotron
+→ See Structured Writing ???
+## Headings
+
+### Heading Outline
+
+### Heading vs ToC
+
+### Heading Types
+
+## Lists
+
+## Tables
+
+## Notes
+
+## Footnotes
+
+## Definition Lists
+
+
+
+
+
