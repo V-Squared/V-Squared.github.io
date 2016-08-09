@@ -40,7 +40,7 @@ readiness:
 
 The power of community editing has been proven by [wikipedia](https://www.wikipedia.org/). V² applies this method (quite possibly for the first time) to standards and products. Editing an article, reporting a bug or providing an idea is all accessible with just one mouse click / tab on the V²Flow Button. 
 
-V²Flow gives you even more functions at your fingertips: you can see what we are working on and contribute as needed. Get direct access to the corresponding GitHub Reppository. Take the pulse of our community projects.
+V²Flow gives you even more functions at your fingertips: you can see what we are working on and contribute as needed. Get direct access to the corresponding GitHub Repository. Take the pulse of our community projects.
 
 Once completed, V²Flow will include complete workflows for writing articles, creating artwork, designing PCBs, designing computer cases, and creating PC configurations.
 
