@@ -15,11 +15,11 @@ readiness:
 
 ## Staying in the Zone
 
-Markdown, once you're comfortable with its syntax and capabilities, enables you, the author, to write in an environment as free as possible from distractions and train-of-thought interrupting actions that can pull you out of "the zone". 
+Once you're comfortable with its syntax and capabilities Markdown enables you, the author, to write in an environment as free as possible from distractions which disrupt your train-of-thought and pull you out of "the zone". The goal is to maximize your creative potential by minimizing interruptions.
 
 ## Markdown vs Markup
 
-Markdown and Markup may sound like polar opposites, but the reality is that their relationship is more like parent/child. The purpose for both is to facilitate the formatting of documents. Editors of print publications used to physically go through text and annotate (mark up) to indicate where the printers should employ, for example, **bold** or *italic* text. Markup has become the generic term for a language that is used as a shorthand to describe these types of formatting. Markdown, which was initially created by Mark Gruber of Daring Fireball, is one of several specific markup languages, each of which have their own simple syntax. Markdown is the markup language of choice for such sites as [Stack Exchange](http://stackexchange.com/) , [GitHub](https://github.com/), and [reddit](https://www.reddit.com/).
+Markdown and Markup may sound like polar opposites, but the reality is that their relationship is more like parent/child. The purpose for both is to facilitate the formatting of web documents. Editors of print publications used to physically go through text and annotate (mark up) to indicate where the printers should employ, for example, **bold** or *italic* text. Markup has become the generic term for a language that is used as a shorthand to describe these types of formatting. Markdown, which was initially created by Mark Gruber of Daring Fireball, is one of several specific markup languages, each of which have their own simple syntax. Markdown is the markup language of choice for such sites as [Stack Exchange](http://stackexchange.com/) , [GitHub](https://github.com/), and [reddit](https://www.reddit.com/).
 
 Markdown also enables the administrators of web sites to allow users fairly wide latitude in formatting their own submissions, comments, etc. while limiting the site's vulnerabilities to incursions such as Cross Site Security (XXS) attacks.
 
@@ -56,7 +56,7 @@ For those occasions when you need more details, you can find them in the → [kr
 
 ## Giving an Outline
 
-When writing long text you will need to structure it in order to not get lost and to navigate it. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
+When writing long text you will need to structure it in order to avoid getting lost and to enhance navigation. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
 
 ## We only use 3 Levels
 
@@ -71,7 +71,8 @@ Almost as important as Heading 1. The captain of headings.
 
 ### Header 3
 
-This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
+The commander of headings. This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
+
 ```
 And below this is how above source code renders. ??? Note: On final publishing this part need to be removed from the TOC ???
 
