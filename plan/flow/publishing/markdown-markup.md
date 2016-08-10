@@ -1,6 +1,3 @@
-
-
-
 ---
 layout: page
 title: Markdown Writing
