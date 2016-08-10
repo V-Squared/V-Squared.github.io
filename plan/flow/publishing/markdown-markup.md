@@ -59,7 +59,7 @@ When writing long text you will need to structure it in order to avoid getting l
 
 ## We only use 3 Levels
 
-```
+```markdown
 # Header 1
 
 This is the topmost and most prominent level. This is the admiral of headings.
@@ -102,7 +102,7 @@ You get two types of lists to structure your information:
 
 ## Examples
 
-```
+```markdown
 
 __Shopping List:__
 
