@@ -1,3 +1,6 @@
+
+
+
 ---
 layout: page
 title: Markdown Writing
@@ -14,23 +17,24 @@ readiness:
 
 ## Staying in the Zone
 
-Once you're comfortable with its syntax and capabilities Markdown enables you, the author, to write in an environment as free as possible from distractions which disrupt your train-of-thought and pull you out of "the zone". The goal is to maximize your creative potential by minimizing interruptions.
+Markdown, once you're comfortable with its syntax and capabilities, enables you, the author, to write in an environment as free as possible from distractions and train-of-thought interrupting actions that can pull you out of "the zone". 
 
 ## Markdown vs Markup
 
-Markdown and Markup may sound like polar opposites, but the reality is that their relationship is more like parent/child. The purpose for both is to facilitate the formatting of web documents. Editors of print publications used to physically go through text and annotate (mark up) to indicate where the printers should employ, for example, **bold** or *italic* text. Markup has become the generic term for a language that is used as a shorthand to describe these types of formatting. Markdown, which was initially created by Mark Gruber of Daring Fireball, is one of several specific markup languages, each of which have their own simple syntax. Markdown is the markup language of choice for such sites as [Stack Exchange](http://stackexchange.com/) , [GitHub](https://github.com/), and [reddit](https://www.reddit.com/).
+Markdown and Markup may sound like polar opposites, but the reality is that their relationship is more like parent/child. The purpose for both is to facilitate the formatting of documents. Editors of print publications used to physically go through text and annotate (mark up) to indicate where the printers should employ, for example, **bold** or *italic* text. Markup has become the generic term for a language that is used as a shorthand to describe these types of formatting. Markdown, which was initially created by Mark Gruber of Daring Fireball, is one of several specific markup languages, each of which have their own simple syntax. Markdown is the markup language of choice for such sites as [Stack Exchange](http://stackexchange.com/) , [GitHub](https://github.com/), and [reddit](https://www.reddit.com/).
 
 Markdown also enables the administrators of web sites to allow users fairly wide latitude in formatting their own submissions, comments, etc. while limiting the site's vulnerabilities to incursions such as Cross Site Security (XXS) attacks.
 
 ## Markdown Dialects
 
-Other dialects of Markdown include Maruku, PHP Markdown Extra and Pandoc. 
+Other dialects of Markdown include [MultiMarkdown](https://en.wikipedia.org/wiki/MultiMarkdown) , [Markdown Extra](https://en.wikipedia.org/wiki/Markdown_Extra)  and [Pandoc](https://en.wikipedia.org/wiki/Pandoc) . 
+
 
 ### Original Markdown
 
 John Gruber's overarching goal in creating Markdown was to create a tool that would make it "easy to read, write, and edit prose" for the web. He drew the distinction between HTML as a *publishing* format and Markdown as a *writing* format. As a consequence, he limited Markdown's formatting syntax to issues that can be addressed in plain text. 
 
-For any markup that is not covered by the Markdown syntax, you can simply embed HTML tags directly in the text. The only restriction to this is that block-level HTML elements (&lt;form&gt;, &lt;p&gt;, &lt;section&gt;, etc.) must be separated from surrounding content by blank lines, and the start and end tags of the block should not be indented with either tabs or spaces.
+For any markup that is not covered by the Markdown syntax, you can simply embed HTML tags directly in the text. The only restriction to this is that block-level HTML elements must be separated from surrounding content by blank lines, and the start and end tags of the block should not be indented with either tabs or spaces.
 
 ### GitHub Flavored Markdown
 
@@ -50,16 +54,39 @@ Most of the time, a quick reference is all you will need. And as the name promis
 
 For those occasions when you need more details, you can find them in the → [kramdown Syntax](http://kramdown.gettalong.org/syntax.html).
 
+# kramdown elements
+
+
+----------
+
+
+# Paragraphs
+
+Consecutive lines of text are considered to be one paragraph. A blank line separates a paragraph from the following block-level element. 
+
+> You can also insert an explicit line break  
+in a paragraph by using two spaces  
+or two backslashes //
+at the end of a line.
+
+You can also insert an explicit line break  
+in a paragraph by using two spaces  
+or two backslashes
+at the end of a line.
+
 
 # Headers
 
+
 ## Giving an Outline
 
-When writing long text you will need to structure it in order to avoid getting lost and to enhance navigation. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
+When writing long sections of text you will need to structure it in order to not get your readers lost and to help them navigate it. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
+
+A header must always be preceded by a blank line except at the beginning of the document.
 
 ## We only use 3 Levels
 
-```markdown
+```
 # Header 1
 
 This is the topmost and most prominent level. This is the admiral of headings.
@@ -70,25 +97,66 @@ Almost as important as Heading 1. The captain of headings.
 
 ### Header 3
 
-The commander of headings. This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
-
+This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
 ```
 And below this is how above source code renders. ??? Note: On final publishing this part need to be removed from the TOC ???
 
 ---
-# Heading 1
+# Header 1
 
 This is the topmost and most prominent level. This is the admiral of headings.
 
-## Heading 2
+## Header 2
 
-Almost as important. The captain of headings.
+Almost as important. The ship's captain of headings.
 
-### Heading 3
+### Header 3
 
 This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
 
----
+
+
+# Blockquotes
+
+Blockquotes allow you to define and highlight long quotations. They are initiated with the > marker followed by an optional space; all subsequent lines that are also started with the blockquote marker belong to the blockquote. You can use any block-level elements inside a blockquote.
+
+> A sample blockquote.
+>  
+>  >You can also nest blockquotes
+>   
+>   ### You can use headers within a blockquote
+>     
+>    This is the last line of the blockquote
+
+
+
+
+
+# Code Blocks
+
+Code blocks allow you to display sections or snippets of code without that code being parsed. Begin each line of a code block with four spaces or a tab.
+
+	<body>
+	Content of the document......
+	</body>
+
+Alternatively, kramdown lets you delimit code blocks without indenting by beginning and ending the block with a line of three or more tildes.
+
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+~~~
+
+# Horizontal Rules
+For those times when you really have to draw a line in the sand. Start the line with three or more underscores.
+
+___
+
+----------
 
 
 # Lists
@@ -97,25 +165,25 @@ This is still way more important than a paragraph, yet no longer important enoug
 
 You get two types of lists to structure your information:
 
-- Unordered list (Such as this one, each line item is equal).
+- Unordered list (Such as this one, each line item being equal).
 - Ordered list (Recognizable by enumeration)
 
 ## Examples
 
-```markdown
+```
 
 __Shopping List:__
 
-- Dairy products
-  - Cheese
-  - Milk
-  - Yoghurt
-  - Ice Cream
-- Meat
-  - Steak
-    - Sirloin
-    - Filet
-  - Lamb chops
+- Vegetables
+  - Cucumber
+  - Tomatoes
+  - Spinach
+  - Corn
++ Wine
+  - Reds
+    - Merlot
+    - Shiraz
+  * Whites
 
 __Reading this Article:__
 
@@ -128,16 +196,16 @@ __Reading this Article:__
 
 __Shopping List:__
 
-- Dairy products
-  - Cheese
-  - Milk
-  - Yoghurt
-  - Ice Cream
-- Meat
-  - Steak
-    - Sirloin
-    - Filet
-  - Ground Meat
+- Vegetables
+  - Cucumber
+  - Tomatoes
+  - Spinach
+  - Corn
++ Wine
+  - Reds
+    - Merlot
+    - Shiraz
+  * Whites
 
 __Reading this Article:__
 
@@ -147,20 +215,22 @@ __Reading this Article:__
 
 ---
 
-# Tables
-
-
-
-# Notes
-
-
-
-# Footnotes
-
-
 
 # Definition Lists
 
+For when you need to assign definitions to one or more terms.
 
 
+# Tables
 
+When you need to display simple tabular data.
+
+> |Cats| Dogs |
+|--|--|
+|  Singapura| Beagle |
+|Siamese|Collie|
+
+|Cats| Dogs |
+|--|--|
+|  Singapura| Beagle |
+|Siamese|Collie|
