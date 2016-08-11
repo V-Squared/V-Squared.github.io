@@ -14,7 +14,7 @@ readiness:
 
 ## Staying in the Zone
 
-Markdown, once you're comfortable with its syntax and capabilities, enables you, the author, to write in an environment as free as possible from distractions and train-of-thought interrupting actions that can pull you out of "the zone". 
+Once you're comfortable with its syntax and capabilities, Markdown enables you, the author, to write in an environment as free as possible from distractions and train-of-thought interrupting actions that can pull you out of "The Zone". 
 
 ## Markdown vs Markup
 
