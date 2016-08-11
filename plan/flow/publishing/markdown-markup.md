@@ -2,8 +2,7 @@
 layout: page
 title: Markdown Writing
 subtitle: How to mark up the article’s structure.
-abstract: >
-  This is the companion to the Article Template. Whereas the Article Template only presents all structured elements, this article adds additional information and for each structured element shows the markdown source code.
+abstract: This is the companion to the Article Template. Whereas the Article Template only presents all structured elements, this article adds additional information and for each structured element shows the markdown source code.
 issueNo: 205
 readiness:
    - is-active
@@ -62,10 +61,10 @@ For those occasions when you need more details, you can find them in the → [kr
 
 Consecutive lines of text are considered to be one paragraph. A blank line separates a paragraph from the following block-level element. 
 
-> You can also insert an explicit line break  
-in a paragraph by using two spaces  
-or two backslashes //
-at the end of a line.
+	You can also insert an explicit line break  
+	in a paragraph by using two spaces␣␣
+	or two backslashes \\
+	at the end of a line.
 
 You can also insert an explicit line break  
 in a paragraph by using two spaces  
@@ -78,28 +77,30 @@ at the end of a line.
 
 ## Giving an Outline
 
-When writing long sections of text you will need to structure it in order to not get your readers lost and to help them navigate it. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
+When writing long sections of text you will need to structure it to avoid getting your readers lost and to help them navigate. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
 
 A header must always be preceded by a blank line except at the beginning of the document.
 
 ## We only use 3 Levels
 
-```
-# Header 1
+	# Header 1
+	
+	This is the topmost and most prominent level: the admiral of headings.
+	
+	## Header 2
+	
+	Almost as important as Heading 1. The captain of headings.
+	
+	### Header 3
+	This is still way more important than a paragraph, yet no longer important
+	enough to be listed in the table of contents in our default setting of 2
+	levels. We chose this setting after consultation with our readers revealed 
+	that 3 or more levels are too detailed and one level only was too coarse.
 
-This is the topmost and most prominent level. This is the admiral of headings.
 
-## Header 2
+----------
 
-Almost as important as Heading 1. The captain of headings.
 
-### Header 3
-
-This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
-```
-And below this is how above source code renders. ??? Note: On final publishing this part need to be removed from the TOC ???
-
----
 # Header 1
 
 This is the topmost and most prominent level. This is the admiral of headings.
@@ -117,6 +118,15 @@ This is still way more important than a paragraph, yet no longer important enoug
 # Blockquotes
 
 Blockquotes allow you to define and highlight long quotations. They are initiated with the > marker followed by an optional space; all subsequent lines that are also started with the blockquote marker belong to the blockquote. You can use any block-level elements inside a blockquote.
+
+	> A sample blockquote.
+	>  
+	>  >You can also nest blockquotes
+	>   
+	>   ### You can use headers within a blockquote
+	>     
+	>    This is the last line of the blockquote
+
 
 > A sample blockquote.
 >  
@@ -151,6 +161,11 @@ Alternatively, kramdown lets you delimit code blocks without indenting by beginn
 
 # Horizontal Rules
 For those times when you really have to draw a line in the sand. Start the line with three or more underscores.
+
+~~~
+	___
+	__________
+~~~
 
 ___
 
@@ -223,12 +238,25 @@ For when you need to assign definitions to one or more terms.
 
 When you need to display simple tabular data.
 
-> |Cats| Dogs |
-|--|--|
-|  Singapura| Beagle |
-|Siamese|Collie|
+	|Cats| Dogs |
+	|--|--|
+	|Singapura| Beagle |
+	|Siamese|Collie|
 
 |Cats| Dogs |
 |--|--|
 |  Singapura| Beagle |
 |Siamese|Collie|
+
+
+# HTML elements
+
+
+
+# Block Attributes
+
+
+
+# Extensions
+
+
