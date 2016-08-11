@@ -92,6 +92,7 @@ A header must always be preceded by a blank line except at the beginning of the 
 	Almost as important as Heading 1. The captain of headings.
 	
 	### Header 3
+	
 	This is still way more important than a paragraph, yet no longer important
 	enough to be listed in the table of contents in our default setting of 2
 	levels. We chose this setting after consultation with our readers revealed 
