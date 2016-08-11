@@ -11,107 +11,28 @@ readiness:
 contents:
   - name: Using this Manual
     url: using-this-manual
-    subitems:
-      - name: User Manual Structure
-        url: user-manual-structure
-      - name: Tutorials
-        url: tutorials
-      - name: Passes
-        url: passes
   - name: Introduction
     url: introduction
-    subitems:
-      - name: What it Does
-        url: what-it-does
-      - name: Capabilities
-        url: capabilities
-      - name: Classeur Project
-        url: classeur-project
   - name: Understanding Classeur
     url: understanding-classeur
-    subitems:
-      - name: Organizing your Articles
-        url: organizing-your-articles
-      - name: 3 Screens for 3 Modes
-        url: screens-for-3-modes
-      - name: Exploring Screen
-        url: exploring-screen
-      - name: Settings Screen
-        url: settings-screen
-      - name: Writing Screen
-        url: writing-screen
-      - name: Writing-Menu Screen
-        url: writing-menu-screen
   - name: Setting Up
     url: setting-up
-    subitems:
-      - name: Writing Screen Preferences
-        url: writing-screen-preferences
-      - name: ToC Depth Settings
-        url: toc-depth-settings
-      - name: Tutorial Create Account
-        url: tutorial-create-account
-      - name: Tutorial Link Host
-        url: tutorial-link-host
   - name: Tutorial Managing Documents
     url: tutorial-managing-documents
-    subitems:
-      - name: Selecting Binder
-        url: selecting-binder
-      - name: Searching Articles
-        url: searching-articles
-      - name: Moving Articles
-        url: moving-articles
-      - name: Open Article
-        url: open-article
   - name: Writing
     url: writing
-    subitems:
-      - name: Markdown Intro
-        url: markdown-intro
-      - name: Zen Mode
-        url: zen-mode
-      - name: ToC, Navigation & Scrolling
-        url: toc-navigation--scrolling
-      - name: Suggested Window Setup
-        url: suggested-window-setup
-      - name: Current Preview Limitations
-        url: current-preview-limitations
-      - name: Tutorial Writing
-        url: tutorial-writing
   - name: Publishing
     url: publishing
-    subitems:
-      - name: Publishing Power
-        url: publishing-power
-      - name: GitHub Pages Publishing
-        url: github-pages-publishing
-      - name: Create ToC
-        url: create-toc
-      - name: Push to GitHub
-        url: push-to-github
-      - name: Creating Classeur Account
-        url: creating-classeur-account
-      - name: Tutorial Export ToC
-        url: tutorial-export-toc
-      - name: Tutorial Publishing
-        url: tutorial-publishing
   - name: Remaining Mysteries
     url: remaining-mysteries
-    subitems:
-      - name: Export Pandoc TOC
-        url: export-pandoc-toc
   - name: Modes
     url: modes
   - name: Improvements
     url: improvements
-    subitems:
-      - name: Setup Classeur
-        url: setup-classeur
-      - name: Related Open Issues
-        url: related-open-issues
   - name: Terms
     url: terms
+  - name: Sort In
+    url: sort-in
 ---
 
 
@@ -119,6 +40,10 @@ contents:
 
 
 # Using this Manual
+
+  - [User Manual Structure](#user-manual-structure)
+  - [Tutorials](#tutorials)
+  - [Passes](#passes)
 
 ## User Manual Structure
 
@@ -151,6 +76,12 @@ __First pass is better than nothing:__ I am writing this manual to help out the 
 __Second pass makes it nice:__ You can easily give feedback with the V²Flow Button via the Article Issue or edit this Article directly. I am also hoping in the future to have the opportunity to directly talk to the author of Classeur to deliver his philosophy and gestalt truthfully in the first pass of any future writing, saving both of us the time of correcting mistakes.
 
 # Introduction
+
+  - [What it Does](#what-it-does)
+  - [Capabilities](#capabilities)
+  - [Classeur Project](#classeur-project)
+
+
 
 ## What it Does
 
@@ -226,6 +157,13 @@ __Bottom Line:__  We work much faster and have more fun at work with Classeur th
 
 
 # Understanding Classeur
+
+  - [Organizing your Articles](#organizing-your-articles)
+  - [3 Screens for 3 Modes](#3-screens-for-3-modes)
+  - [Exploring Screen](#exploring-screen)
+  - [Settings Screen](#settings-screen)
+  - [Writing Screen](#writing-screen)
+  - [Writing-Menu Screen](#writing-menu-screen)
 
 ## Organizing your Articles
 
@@ -340,6 +278,11 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
 
 # Setting Up
 
+  - [Writing Screen Preferences](#writing-screen-preferences)
+  - [ToC Depth Settings](#toc-depth-settings)
+  - [Tutorial Create Account](#tutorial-create-account)
+  - [Tutorial Link Host](#tutorial-link-host)
+
 ## Writing Screen Preferences
 
 1. Open [Writing-Menu Screen](#writing-menu-screen)
@@ -401,6 +344,11 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
 
 
 # Tutorial Managing Documents
+
+  - [Selecting Binder](#selecting-binder)
+  - [Searching Articles](#searching-articles)
+  - [Moving Articles](#moving-articles)
+  - [Open Article](#open-article)
 
 To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. Or simply click →  [https://app.classeur.io/](https://app.classeur.io/) or type it into your browser's URL field.
 
@@ -467,6 +415,13 @@ To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. 
 
 
 # Writing
+
+  - [Markdown Intro](#markdown-intro)
+  - [Zen Mode](#zen-mode)
+  - [ToC, Navigation & Scrolling](#toc-navigation-scrolling)
+  - [Suggested Window Setup](#suggested-window-setup)
+  - [Current Preview Limitations](#current-preview-limitations)
+  - [Tutorial Writing](#tutorial-writing)
 
 ## Markdown Intro
 
@@ -558,6 +513,14 @@ __Note:__ I will write it if later after going through the editing process of th
 
 # Publishing
 
+  - [Publishing Power](#publishing-power)
+  - [GitHub Pages Publishing](#github-pages-publishing)
+  - [Create ToC](#create-toc)
+  - [Push to GitHub](#push-to-github)
+  - [Creating Classeur Account](#creating-classeur-account)
+  - [Tutorial Export ToC](#tutorial-export-toc)
+  - [Tutorial Publishing](#tutorial-publishing)
+
 ## Publishing Power
 
 Publishing workflows vary wildly. Classeur is very flexible in this regard. It supports a large variety of publishing platforms and data formats.
@@ -626,6 +589,8 @@ __Note:__ I will write it later after going through the editing process of the f
 
 # Remaining Mysteries
 
+  - [Export Pandoc TOC](#export-pandoc-toc)
+
 ## Export Pandoc TOC
 I found no way to export the TOC. Since we need to export the ToC, this would have been useful. We are now using HTML export and manually copy paste the ToC from the HTML source. A bit crude and a pain to describe in a manual, but it works.
 
@@ -636,10 +601,13 @@ I found no way to export the TOC. Since we need to export the ToC, this would ha
 
 # Improvements
 
+  - [Setup Classeur](#setup-classeur)
+  - [Related Open Issues](#related-open-issues)
+
 ## Setup Classeur
 
 - Sections to get titles: This way is easier to refer to a section in the manual
-- 
+
 ## Related Open Issues
 - [Connection with Github - update file on Github #114](https://github.com/classeur/classeur/issues/114)
 
@@ -666,6 +634,8 @@ Report to Classeur
 - Life ToC also respect heading depth
 - Create simple document H1, H2, H3 to reproduce
 - Show how configured ToC
+
+
 
 
 
