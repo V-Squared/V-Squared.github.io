@@ -281,7 +281,7 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
 5. __Settings__ leaves article and opens *Settings Screen*.
 6. __Writing Screen Preferences__ configures your *Writing Screen*.
 
-{% highlight shell %}
+
 
 # Setting Up
 
@@ -292,7 +292,7 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
   - [Tutorial Create Account](#tutorial-create-account)
   - [Tutorial Link Host](#tutorial-link-host)
 
-{% endhighlight %}
+
 
 ## Writing Screen Preferences
 
