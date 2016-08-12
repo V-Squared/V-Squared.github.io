@@ -72,22 +72,31 @@ The double backslash causes a hardbreak within the paragraph.
 
 ## Rendered
 
-This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.
-
-This is the second paragraph. Notice how it is written and rendered both with spacing between the paragraphs.
-
-This is the third paragraph.\\
-The double backslash causes a hardbreak within the paragraph.
-
-
-# Headers
+<div class="v2-frame">
+  <p>This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.</p>
+  <p>This is the second paragraph. Notice how it is written and rendered both with spacing between the paragraphs.</p>
+  <p>This is the third paragraph.<br />
+The double backslash causes a hardbreak within the paragraph.</p>
+</div>
 
 
-## Usage
+# Headings
 
-When writing long sections of text you will need to structure it to avoid getting your readers lost and to help them navigate. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
+When writing long text you will need to guide the reader to avoid he is getting lost. You help the reader with __headings__.
 
-A header must always be preceded by a blank line except at the beginning of the document.
+In turn headings guide readers with three functions:
+
+1. __Structure:__ Headers are hierarchical, that is all children headings belong to the same topic as their parent heading.
+2. __Overview:__  The headings are utilized by the writer to automatically generate the *Table of Contents*, which contains all headings of the document, but without its copy. As such the *Table of Contents* is a complete, yet succinct representation of the whole article. 
+3. __Navigation:__ And this is the cool part of *Table of Contents*. Clicking a heading will scroll the document to it, so that you can read all its related copy without the need to scour for it.
+
+
+{:.v2-note}
+
+ 1. A heading must always be preceded by a blank line except at the beginning of the document.
+ 2. A heading must always be followed by blank line (not required in markdown).
+ 3. The higher the heading hierarchy the shorter it should be written!
+ 4. How to automatically generate the table of contents is explained in → [Appetizing Articles / Automatic ToC](https://v-squared.github.io/plan/flow/publishing/appetizing/#automatic-toc).
 
 ## Markdown Code
 
