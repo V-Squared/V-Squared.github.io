@@ -407,13 +407,11 @@ md-content {
   background: transparent;
 
   h1 {
-    color:#777;
-    font-family: Roboto-Thin, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size:30px;
-    margin-top: -10px;
-    padding-top:70px;
-    margin-bottom: 15px;
-    border-bottom:1px #e5e5e5 solid;
+    color: #777;
+    font-size: 40px;
+    margin: -10px -20px 15px -20px;
+    padding: 70px 20px 20px 5px;
+    border-bottom: 1px solid #D4D4D4;
   }
 
   h2 {
