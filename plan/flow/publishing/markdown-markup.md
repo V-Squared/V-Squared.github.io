@@ -194,6 +194,10 @@ For those times when you really have to draw a line in the sand. Start the line 
 
 ```
 ---
+
+or
+
+-------------------------------------------
 ```
 
 {:.v2-note.info}
@@ -204,6 +208,8 @@ You can use any number of dashes, as long as they are at least three. This way y
 
 <div class="v2-frame">
   <hr>
+  <p>or</p>
+  <hr>
 </div>
 
 # Lists
@@ -213,7 +219,7 @@ You get two types of lists to structure your information:
 - Unordered list (Such as this one, each line item being equal).
 - Ordered list (Recognizable by enumeration)
 
-## Examples
+## Example Code
 
 ```
 
