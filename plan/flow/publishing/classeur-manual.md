@@ -41,6 +41,8 @@ contents:
 
 # Using this Manual
 
+{:.v2-toc}
+
   - [User Manual Structure](#user-manual-structure)
   - [Tutorials](#tutorials)
   - [Passes](#passes)
@@ -76,6 +78,8 @@ __First pass is better than nothing:__ I am writing this manual to help out the 
 __Second pass makes it nice:__ You can easily give feedback with the V²Flow Button via the Article Issue or edit this Article directly. I am also hoping in the future to have the opportunity to directly talk to the author of Classeur to deliver his philosophy and gestalt truthfully in the first pass of any future writing, saving both of us the time of correcting mistakes.
 
 # Introduction
+
+{:.v2-toc}
 
   - [What it Does](#what-it-does)
   - [Capabilities](#capabilities)
@@ -157,6 +161,8 @@ __Bottom Line:__  We work much faster and have more fun at work with Classeur th
 
 
 # Understanding Classeur
+
+{:.v2-toc}
 
   - [Organizing your Articles](#organizing-your-articles)
   - [3 Screens for 3 Modes](#3-screens-for-3-modes)
@@ -275,16 +281,18 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
 5. __Settings__ leaves article and opens *Settings Screen*.
 6. __Writing Screen Preferences__ configures your *Writing Screen*.
 
-<div>
+{% highlight shell %}
 
 # Setting Up
+
+{:.v2-toc}
 
   - [Writing Screen Preferences](#writing-screen-preferences)
   - [ToC Depth Settings](#toc-depth-settings)
   - [Tutorial Create Account](#tutorial-create-account)
   - [Tutorial Link Host](#tutorial-link-host)
 
-</div>
+{% endhighlight %}
 
 ## Writing Screen Preferences
 
@@ -347,6 +355,8 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
 
 
 # Tutorial Managing Documents
+
+{:.v2-toc}
 
   - [Selecting Binder](#selecting-binder)
   - [Searching Articles](#searching-articles)
@@ -418,6 +428,8 @@ To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. 
 
 
 # Writing
+
+{:.v2-toc}
 
   - [Markdown Intro](#markdown-intro)
   - [Zen Mode](#zen-mode)
@@ -516,6 +528,8 @@ __Note:__ I will write it if later after going through the editing process of th
 
 # Publishing
 
+{:.v2-toc}
+
   - [Publishing Power](#publishing-power)
   - [GitHub Pages Publishing](#github-pages-publishing)
   - [Create ToC](#create-toc)
@@ -591,6 +605,8 @@ You only can export your ToC (Table of Contents) if you have inserted an → [In
 __Note:__ I will write it later after going through the editing process of the first pass.
 
 # Remaining Mysteries
+
+{:.v2-toc}
 
   - [Export Pandoc TOC](#export-pandoc-toc)
 
