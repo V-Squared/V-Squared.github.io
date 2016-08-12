@@ -45,6 +45,23 @@
 
     angular.element(document).ready(function() {
       angular.bootstrap(document, ['site']);
+
+      var articleContent = document.getElementById("article-content");
+
+      var imgs = articleContent.getElementsByTagName("img");
+
+
+      for(var i = 0; i < imgs.length; i++) {
+        console.log(imgs[i]);
+        if (imgs[i].parentNode.nodeName == "P") {
+          var imgSt = imgs[i].parentNode.style;
+
+          imgSt.marginLeft = "-20px";
+          imgSt.marginRight = "-20px";
+          imgSt.backgroundColor = "#999";
+          imgSt.padding = "20px";
+        }
+      }
     });
 
   </script>
