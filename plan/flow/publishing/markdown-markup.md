@@ -193,11 +193,13 @@ For those times when you really have to draw a line in the sand. Start the line 
 ## Example Code
 
 ```
+
 ---
 
 or
 
 -------------------------------------------
+
 ```
 
 {:.v2-note.info}
@@ -207,22 +209,20 @@ You can use any number of dashes, as long as they are at least three. This way y
 ## Example Rendered
 
 <div class="v2-frame">
+  <br>
   <hr>
   <p>or</p>
   <hr>
+  <br>
 </div>
 
-# Lists
+# Unordered Lists
 
-You get two types of lists to structure your information:
-
-- Unordered list (Such as this one, each line item being equal).
-- Ordered list (Recognizable by enumeration)
+An unordered list presents hierarchical information in a visually structured, easy to read fashion.
 
 ## Example Code
 
 ```
-
 __Shopping List:__
 
 - Vegetables
@@ -230,41 +230,59 @@ __Shopping List:__
   - Tomatoes
   - Spinach
   - Corn
-+ Wine
+- Wine
   - Reds
     - Merlot
     - Shiraz
-  * Whites
-
-__Reading this Article:__
-
-1. Read it top to bottom
-2. Read it again and scratch your head: "What were they smoking?"
-3. If you need to read a third time, then curse!
-
+  - Whites
+    - Zinfandel
 ```
----
 
-__Shopping List:__
+## Example Rendered
 
-- Vegetables
-  - Cucumber
-  - Tomatoes
-  - Spinach
-  - Corn
-+ Wine
-  - Reds
-    - Merlot
-    - Shiraz
-  * Whites
+<div class="v2-frame">
+<p><strong>Shopping List:</strong></p>
+
+<ul>
+  <li>Vegetables
+    <ul>
+      <li>Cucumber</li>
+      <li>Tomatoes</li>
+      <li>Spinach</li>
+      <li>Corn</li>
+    </ul>
+  </li>
+  <li>Wine
+    <ul>
+      <li>Reds
+        <ul>
+          <li>Merlot</li>
+          <li>Shiraz</li>
+        </ul>
+      </li>
+      <li>Whites</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+
+
+
+# Ordered Lists
 
 __Reading this Article:__
 
 1. Read it top to bottom
 2. Read it again and scratch your head: "What were they smoking?"
 3. If you need to read a third time, then curse!
+4. 
 
----
+__Reading this Article:__
+
+1. Read it top to bottom
+2. Read it again and scratch your head: "What were they smoking?"
+3. If you need to read a third time, then curse!
 
 
 # Definition Lists
