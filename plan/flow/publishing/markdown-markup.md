@@ -39,11 +39,12 @@ GitHub Flavored Markdown adds some custom function features to the basic Markdow
 
 ### kramdown
 
-kramdown is a free MIT-licensed Ruby library for parsing and converting a superset of Markdown. kramdown syntax is based on Markdown's syntax, with enhanced features that are available in several other Markdown implementations. For the most part, Markdown documents should parse cleanly with kramdown. The [kramdown Syntax](http://kramdown.gettalong.org/syntax.html) documents all instances where the kramdown syntax differs from that of Markdown.
+kramdown is a super-set of Markdown, adding enhanced features. For the most part, Markdown documents should parse cleanly with kramdown. Our articles use kramdown as we take advantage of its added formatting power. Since it is backwards compatible to markdown your writing workflow can begin using any markdown tools and end with publishing your article in V²Publishing using kramdown.
+
 
 # Quick Reference Below
 
-Most of the time, a quick reference is all you will need. And as the name promises, it is much faster than searching through the full reference. In this spirit you will find below each kramdown element explained in 3 steps:
+Most of the time, a quick reference is all you will need. And as the name promises, it is much faster than searching through the full reference. In this spirit you will find below each kramdown element briefly explained and the shown to you  explained in 3 steps:
 
 1. Description
 2. Functionality
@@ -51,25 +52,32 @@ Most of the time, a quick reference is all you will need. And as the name promis
 
 For those occasions when you need more details, you can find them in the → [kramdown Syntax](http://kramdown.gettalong.org/syntax.html).
 
-# kramdown elements
 
-
-----------
 
 
 # Paragraphs
 
-Consecutive lines of text are considered to be one paragraph. A blank line separates a paragraph from the following block-level element. 
+Consecutive lines of text are considered to be one paragraph. A blank line separates a paragraph from what follows below.
 
-	You can also insert an explicit line break  
-	in a paragraph by using two spaces␣␣
-	or two backslashes \\
-	at the end of a line.
+## Markdown Code
 
-You can also insert an explicit line break  
-in a paragraph by using two spaces  
-or two backslashes
-at the end of a line.
+```
+This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.
+
+This is the second paragraph. Notice how it is written and rendered both with spacing between the paragraphs.
+
+This is the third paragraph.\\
+The double backslash causes a hardbreak within the paragraph.
+```
+
+## Rendered
+
+This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.
+
+This is the second paragraph. Notice how it is written and rendered both with spacing between the paragraphs.
+
+This is the third paragraph.\\
+The double backslash causes a hardbreak within the paragraph.
 
 
 # Headers
@@ -270,5 +278,7 @@ When you need to display simple tabular data.
 
 
 # Extensions
+
+
 
 
