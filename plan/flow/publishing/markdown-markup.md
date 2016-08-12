@@ -44,11 +44,11 @@ kramdown is a super-set of Markdown, adding enhanced features. For the most part
 
 # Quick Reference Below
 
-Most of the time, a quick reference is all you will need. And as the name promises, it is much faster than searching through the full reference. In this spirit you will find below each kramdown element briefly explained and the shown to you  explained in 3 steps:
+Most of the time, a quick reference is all you will need. And as the name promises, it is much faster than searching through the full reference. In our case the quick reference is also more intuitive, as we also show how it will look in the finished article via the *Example Rendered*. In this spirit you will find below each kramdown element briefly explained and the shown to you  explained in 3 steps:
 
-1. Description
-2. Functionality
-3. Example
+1. __Purpose:__ Why to use it (paragraph directly under the element's heading).
+2. __Example Code:__ How to use it.
+3. __Example Rendered:__ How it looks.
 
 For those occasions when you need more details, you can find them in the → [kramdown Syntax](http://kramdown.gettalong.org/syntax.html).
 
@@ -59,7 +59,7 @@ For those occasions when you need more details, you can find them in the → [kr
 
 Consecutive lines of text are considered to be one paragraph. A blank line separates a paragraph from what follows below.
 
-## Markdown Code
+## Example Code
 
 ```
 This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.
@@ -70,7 +70,7 @@ This is the third paragraph.\\
 The double backslash causes a hardbreak within the paragraph.
 ```
 
-## Rendered
+## Example Rendered
 
 <div class="v2-frame">
   <p>This is the first paragraph. I am rattling on and on to make it long enough that your browser will cause a softbreak, that is a linebreak at the right edge of your browser width.</p>
@@ -91,14 +91,14 @@ In turn headings guide readers with three functions:
 3. __Navigation:__ And this is the cool part of *Table of Contents*. Clicking a heading will scroll the document to it, so that you can read all its related copy without the need to scour for it.
 
 
-{:.v2-note}
+{:.v2-note.info}
 
  1. A heading must always be preceded by a blank line except at the beginning of the document.
  2. A heading must always be followed by blank line (not required in markdown).
  3. The higher the heading hierarchy the shorter it should be written!
  4. How to automatically generate the table of contents is explained in → [Appetizing Articles / Automatic ToC](https://v-squared.github.io/plan/flow/publishing/appetizing/#automatic-toc).
 
-## Markdown Code
+## Example Code
 
 ```
 # Header 1
@@ -115,7 +115,7 @@ This is still way more important than a paragraph, yet no longer important enoug
 ```
 
 
-## Rendered
+## Example Rendered
 
 <div class="v2-frame">
 	<h1 id="header-1">Header 1</h1>
@@ -133,7 +133,7 @@ This is still way more important than a paragraph, yet no longer important enoug
 
 Blockquotes allow you to define and highlight long quotations. They are initiated with the > marker followed by an optional space; all subsequent lines that are also started with the blockquote marker belong to the blockquote. You can use any block-level elements inside a blockquote.
 
-## Markdown Code
+## Example Code
 
 ```
 > A sample blockquote.
@@ -145,7 +145,7 @@ Blockquotes allow you to define and highlight long quotations. They are initiate
 >    This is the last line of the blockquote
 ```
 
-## Rendered
+## Example Rendered
 
 <div class="v2-frame">
 	<blockquote>
@@ -163,11 +163,9 @@ Blockquotes allow you to define and highlight long quotations. They are initiate
 
 # Code Blocks
 
-## Usage
-
 Code blocks allow you to display sections or snippets of source code without that code being parsed (meaning executed). There are many redundant ways to show code blocks. For simplicity we use only the most simple and robust way as shown in the example below:
 
-## Markdown Code
+## Example Code
 
 ```
 <body>
@@ -175,7 +173,7 @@ Content of the document......
 </body>
 ```
 
-## Rendered
+## Example Rendered
 
 <div class="v2-frame">
 	<pre>
@@ -189,21 +187,26 @@ Content of the document......
 
 
 # Horizontal Rules
+
 For those times when you really have to draw a line in the sand. Start the line with three or more underscores.
 
-~~~
-	___
-	__________
-~~~
+## Example Code
 
-___
+```
+---
+```
 
-----------
+{:.v2-note.info}
 
+You can use any number of dashes, as long as they are at least three. This way you can make the rule more visible in your markdown source.
+
+## Example Rendered
+
+<div class="v2-frame">
+  <hr>
+</div>
 
 # Lists
-
-## Structure your Info
 
 You get two types of lists to structure your information:
 
