@@ -75,60 +75,50 @@ at the end of a line.
 # Headers
 
 
-## Giving an Outline
+## Usage
 
 When writing long sections of text you will need to structure it to avoid getting your readers lost and to help them navigate. This is best managed by the use of headers. Navigation is accomplished by repeating the headers in the table of contents and linking them to their occurrence in the text. The table of contents to the right is such an example. Click on an entry and the page will scroll to it.
 
 A header must always be preceded by a blank line except at the beginning of the document.
 
-## We only use 3 Levels
+## Markdown Code
 
-	# Header 1
-	
-	This is the topmost and most prominent level: the admiral of headings.
-	
-	## Header 2
-	
-	Almost as important as Heading 1. The captain of headings.
-	
-	### Header 3
-	
-	This is still way more important than a paragraph, yet no longer important
-	enough to be listed in the table of contents in our default setting of 2
-	levels. We chose this setting after consultation with our readers revealed 
-	that 3 or more levels are too detailed and one level only was too coarse.
-
-
-----------
-
-
+```
 # Header 1
 
-This is the topmost and most prominent level. This is the admiral of headings.
-
+This is the topmost and most prominent level: the admiral of headings.
+	
 ## Header 2
-
-Almost as important. The ship's captain of headings.
-
+	
+Almost as important as Heading 1. The captain of headings.
+	
 ### Header 3
+	
+This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse
+```
 
-This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.
 
+## Rendered
+
+<div class="v2-frame">
+	<h1 id="header-1">Header 1</h1>
+	<p>This is the topmost and most prominent level. This is the admiral of headings.</p>
+	<h2 id="header-2">Header 2</h2>
+	<p>Almost as important. The ship’s captain of headings.</p>
+	<h3 id="header-3">Header 3</h3>
+	<p>This is still way more important than a paragraph, yet no longer important enough to be listed in the table of contents in our default setting of 2 levels. We chose this setting after consultation with our readers revealed that 3 or more levels are too detailed and one level only was too coarse.</p>
+</div>
 
 
 # Blockquotes
 
+## Usage
+
 Blockquotes allow you to define and highlight long quotations. They are initiated with the > marker followed by an optional space; all subsequent lines that are also started with the blockquote marker belong to the blockquote. You can use any block-level elements inside a blockquote.
 
-	> A sample blockquote.
-	>  
-	>  >You can also nest blockquotes
-	>   
-	>   ### You can use headers within a blockquote
-	>     
-	>    This is the last line of the blockquote
+## Markdown Code
 
-
+```
 > A sample blockquote.
 >  
 >  >You can also nest blockquotes
@@ -136,29 +126,50 @@ Blockquotes allow you to define and highlight long quotations. They are initiate
 >   ### You can use headers within a blockquote
 >     
 >    This is the last line of the blockquote
+```
 
+## Rendered
+
+<div class="v2-frame">
+	<blockquote>
+  	<p>A sample blockquote.</p>
+  	<blockquote>
+  	  <p>You can also nest blockquotes</p>
+  	</blockquote>
+  	<p>### You can use headers within a blockquote</p>
+  	<p>This is the last line of the blockquote</p>
+	</blockquote>
+</div>
 
 
 
 
 # Code Blocks
 
-Code blocks allow you to display sections or snippets of code without that code being parsed. Begin each line of a code block with four spaces or a tab.
+## Usage
 
-	<body>
-	Content of the document......
-	</body>
+Code blocks allow you to display sections or snippets of source code without that code being parsed (meaning executed). There are many redundant ways to show code blocks. For simplicity we use only the most simple and robust way as shown in the example below:
 
-Alternatively, kramdown lets you delimit code blocks without indenting by beginning and ending the block with a line of three or more tildes.
+## Markdown Code
 
-~~~
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
-~~~
+```
+<body>
+Content of the document......
+</body>
+```
+
+## Rendered
+
+<div class="v2-frame">
+	<pre>
+  	<code>
+    	&lt;body&gt;
+      	Content of the document......
+    	&lt;/body&gt;
+		</code>
+	</pre>
+</div>
+
 
 # Horizontal Rules
 For those times when you really have to draw a line in the sand. Start the line with three or more underscores.
