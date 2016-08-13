@@ -145,7 +145,7 @@ code {
   font-size: 15px;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #F5F5F5;
+  color: #b0bec5;
 }
 
 code {
@@ -164,10 +164,19 @@ pre {
 }
 
 .v2-frame {
-  background: #F5F5F5;
+  background: #BBDEFB;
   border-radius: 3px;
-  border: 1px solid #D4D4D4;
+  border: 2px solid #0D47A1;
   padding: 8px 12px;
+  color: #0D47A1 !important;
+
+  hr,h1,blockquote {
+    border-color:#0D47A1 !important;
+  }
+
+  * {
+    color: #0D47A1 !important;
+  }
 }
 
 p {
