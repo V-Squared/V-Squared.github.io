@@ -38,8 +38,13 @@ contents:
 
 
 
+{:.v2-chapter}
 
 # Using this Manual
+
+{:.v2-abstract}
+
+Understanding the basic structure of this manual, how to take a shortcut with tutorials and how to contribute in its development.
 
 {:.v2-toc}
 
@@ -77,12 +82,24 @@ __First pass is better than nothing:__ I am writing this manual to help out the 
 
 __Second pass makes it nice:__ You can easily give feedback with the V²Flow Button via the Article Issue or edit this Article directly. I am also hoping in the future to have the opportunity to directly talk to the author of Classeur to deliver his philosophy and gestalt truthfully in the first pass of any future writing, saving both of us the time of correcting mistakes.
 
-# Introduction
+{:.v2-chapter}
+
+# Markdown IDE
+
+{:.v2-abstract}
+
+To our knowledge Classeur is the first Markdown IDE which deliver you a complete integrated workflow from idea inception to publication of a finished post, article or book. Automating all steps in-between.
 
 {:.v2-toc}
 
   - [What it Does](#what-it-does)
+    - [Markdown WYSIWYG](#markdown-wysiwyg)
+    - [Single Click Publish](#single-click-publish)
+    - [Integrated Workflow](#integrated-workflow)
+    - [Integrated Article Management](#integrated-article-management)
+    - [Collaboration](#collaboration)
   - [Capabilities](#capabilities)
+    - [Using in Production](#using-in-production)
   - [Classeur Project](#classeur-project)
 
 
@@ -159,12 +176,19 @@ __Bottom Line:__  We work much faster and have more fun at work with Classeur th
 - [Classeur > Support](https://github.com/classeur/classeur/issues) GitHub Issues of Classeur
 - [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) Community Manual of Classeur
 
+{:.v2-chapter}
 
 # Understanding Classeur
+
+{:.v2-abstract}
+
+The Markdown IDE Classeur is very powerful. Remembering all its functions and how find your way around will be much easier after you understand its principle ideas:
 
 {:.v2-toc}
 
   - [Organizing your Articles](#organizing-your-articles)
+    - [Folders](#folders)
+    - [Binders](#binders)
   - [3 Screens for 3 Modes](#3-screens-for-3-modes)
   - [Exploring Screen](#exploring-screen)
   - [Settings Screen](#settings-screen)
@@ -282,6 +306,7 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
 6. __Writing Screen Preferences__ configures your *Writing Screen*.
 
 
+{:.v2-chapter}
 
 # Setting Up
 
@@ -354,13 +379,19 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
    -  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-linked-blog.png)
 
 
+{:.v2-chapter}
+
 # Tutorial Managing Documents
 
 {:.v2-toc}
 
   - [Selecting Binder](#selecting-binder)
   - [Searching Articles](#searching-articles)
+    - [Browse Recent Articles](#browse-recent-articles)
+    - [Article Search Field](#article-search-field)
   - [Moving Articles](#moving-articles)
+    - [Moving within a Binder](#moving-within-a-binder)
+    - [Moving between Binders](#moving-between-binders)
   - [Open Article](#open-article)
 
 To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. Or simply click →  [https://app.classeur.io/](https://app.classeur.io/) or type it into your browser's URL field.
@@ -426,6 +457,7 @@ To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. 
 2. Single click the article. It will open the *Writing Screen*.
 
 
+{:.v2-chapter}
 
 # Writing
 
@@ -433,9 +465,21 @@ To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. 
 
   - [Markdown Intro](#markdown-intro)
   - [Zen Mode](#zen-mode)
+    - [Benefits of Zen Mode](#benefits-of-zen-mode)
+    - [Turning on Zen Mode:](#turning-on-zen-mode)
+    - [Limitations](#limitations)
   - [ToC, Navigation & Scrolling](#toc-navigation-scrolling)
+    - [Inline ToC](#inline-toc)
+    - [Side Bar ToC](#side-bar-toc)
+    - [Navigation by ToC](#navigation-by-toc)
+    - [Navigation by Folding](#navigation-by-folding)
+    - [Scroll Sync Trick](#scroll-sync-trick)
   - [Suggested Window Setup](#suggested-window-setup)
   - [Current Preview Limitations](#current-preview-limitations)
+    - [We really like Classeur Preview!](#we-really-like-classeur-preview)
+    - [No Style Sheets](#no-style-sheets)
+    - [No Relative Links for Images](#no-relative-links-for-images)
+    - [No Permalinks for Headings](#no-permalinks-for-headings)
   - [Tutorial Writing](#tutorial-writing)
 
 ## Markdown Intro
@@ -526,6 +570,8 @@ In this section we are going to list limitations of Classeur's preview. Before d
 
 __Note:__ I will write it if later after going through the editing process of the first pass.
 
+{:.v2-chapter}
+
 # Publishing
 
 {:.v2-toc}
@@ -533,8 +579,13 @@ __Note:__ I will write it if later after going through the editing process of th
   - [Publishing Power](#publishing-power)
   - [GitHub Pages Publishing](#github-pages-publishing)
   - [Create ToC](#create-toc)
+    - [Verify has Inline ToC](#verify-has-inline-toc)
+    - [Export HTML ToC](#export-html-toc)
+    - [HTML ToC → YAML or JSON](#html-toc-yaml-or-json)
+    - [Add ToC to Front Matter](#add-toc-to-front-matter)
   - [Push to GitHub](#push-to-github)
   - [Creating Classeur Account](#creating-classeur-account)
+    - [Open Publishing Preferences](#open-publishing-preferences)
   - [Tutorial Export ToC](#tutorial-export-toc)
   - [Tutorial Publishing](#tutorial-publishing)
 
@@ -604,6 +655,8 @@ You only can export your ToC (Table of Contents) if you have inserted an → [In
 
 __Note:__ I will write it later after going through the editing process of the first pass.
 
+{:.v2-chapter}
+
 # Remaining Mysteries
 
 {:.v2-toc}
@@ -613,10 +666,14 @@ __Note:__ I will write it later after going through the editing process of the f
 ## Export Pandoc TOC
 I found no way to export the TOC. Since we need to export the ToC, this would have been useful. We are now using HTML export and manually copy paste the ToC from the HTML source. A bit crude and a pain to describe in a manual, but it works.
 
+
+{:.v2-chapter}
+
 # Modes
 
 
 
+{:.v2-chapter}
 
 # Improvements
 
@@ -630,6 +687,7 @@ I found no way to export the TOC. Since we need to export the ToC, this would ha
 ## Related Open Issues
 - [Connection with Github - update file on Github #114](https://github.com/classeur/classeur/issues/114)
 
+{:.v2-chapter}
 
 # Terms
 
@@ -638,6 +696,8 @@ Screen
 
 Term 2
 : Definition 2
+
+{:.v2-chapter}
 
 # Sort In
 
