@@ -125,6 +125,12 @@ For those to whom the above chapters were too much prose – here come the hardc
 
 # Comparison
 
+## About the Comparison
+
+We loved Google Docs and Joomla when we used them. For their intended design target they both work great. By no means we want to say with the below comparison that V²Publishing is superior to Google Docs and / or Joomla in the sense of a generic user. The opposite is the case: For general use they will both be vastly superior to V²Publishing.
+
+But we are not a general user. We are developers, business owners and members of non profit organization and we are looking for very specific requirements to reduce our workload and increase our productivity in collaborative writing. The below comparison is for those specific features we cared about:
+
 ## Reader Experience
 
 {:.uk-table.twin-head.twin-blue}
