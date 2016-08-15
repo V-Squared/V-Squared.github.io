@@ -5,6 +5,52 @@ subtitle: Increase efficiency and quality metrics for writing, publishing, and c
 abstract: >
   A complete publishing solutions to the complex problems of workflows for writing, publishing, and contribution, named V²Flow.Publishing. It is a FOSS project, including a comprehensive article series offering the necessary templates, tutorials, style guides, preflight checks and documentation. Of course we include a complete working software mashup too. Our emphasis was on speed, joy, clarity and friendliness of contribution. Ideal for Small Business, Software Developers, Non Profit and Standard Organizations.
 issueNo: 213
+contents:
+  - name: Intro
+    url: intro
+  - name: Key Features
+    url: key-features
+    subitems:
+      - name: Speed
+        url: speed
+      - name: Joy
+        url: joy
+      - name: Clarity
+        url: clarity
+      - name: Contribution Friendly
+        url: contribution-friendly
+      - name: Open and Free
+        url: open-and-free
+      - name: Secure
+        url: secure
+  - name: Technical Benefits
+    url: technical-benefits
+  - name: Comparison
+    url: comparison
+    subitems:
+      - name: Reader Experience
+        url: reader-experience
+      - name: Author Experience
+        url: author-experience
+      - name: Administration
+        url: administration
+      - name: Design & Development
+        url: design-development
+  - name: Who is V² Publishing for?
+    url: who-is-v²-publishing-for
+    subitems:
+      - name: Software Developer on GitHub
+        url: software-developer-on-github
+      - name: Non Profit Organizations
+        url: non-profit-organizations
+      - name: Small Business
+        url: small-business
+  - name: V² Publishing Building Blocks
+    url: v²-publishing-building-blocks
+  - name: The Complete Article Series
+    url: the-complete-article-series
+  - name: Grand Conclusion
+    url: grand-conclusion
 readiness:
   - is-complete
   - is-complete
@@ -81,6 +127,8 @@ For those to whom the above chapters were too much prose – here come the hardc
 
 ## Reader Experience
 
+{:.uk-table.twin-head.twin-blue}
+
 | Feature | Google Drive | Joomla | V²Publishing |
 |------------:|:-----------------:|:-------------------:|:------------------:|
 | Full Mobile Browsing | ➖ | ➖ | ✔ |
@@ -93,6 +141,8 @@ For those to whom the above chapters were too much prose – here come the hardc
 | Interactive Graphics |   ➖ | ✔ | ✔ |
 
 ## Author Experience
+
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | Google Drive | Joomla | V²Publishing |
 |------------:|:-----------------:|:-------------------:|:------------------:|
@@ -110,6 +160,8 @@ For those to whom the above chapters were too much prose – here come the hardc
 
 ## Administration
 
+{:.uk-table.twin-head.twin-blue}
+
 | Feature | Google Drive | Joomla | V²Publishing |
 |------------:|:-----------------:|:-------------------:|:------------------:|
 | Organization Ownership |   ➖ | ✔ | ✔ |
@@ -120,6 +172,8 @@ For those to whom the above chapters were too much prose – here come the hardc
 | Responsiveness to Bugs |   $0 | ~ $75 / month | $0 |
 
 ## Design & Development
+
+{:.uk-table.twin-head.twin-blue}
 
 | Feature | Google Drive | Joomla | V²Publishing |
 |------------:|:-----------------:|:-------------------:|:------------------:|
@@ -150,6 +204,8 @@ V²Publishing has a small server footprint, is easy to backup and is very safe. 
 
 
 # V² Publishing Building Blocks
+
+{:.uk-table.twin-head.twin-blue}
 
 | Block | Function |
 |:---------:|:------------|
