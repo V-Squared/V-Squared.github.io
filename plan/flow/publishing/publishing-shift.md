@@ -5,6 +5,55 @@ subtitle: Understanding the change in publishing to set correct targets for your
 abstract: >
   The constant and rapid ongoing revolution in publishing has accumulated so big changes that traditional publishing workflows and tools have become misleading, plain wrong, or inefficient. Understanding these changes is paramount to even set correct targets for your publishing system. In turn only correct targets will guide you to make the best choices for workflow and tools.
 issueNo: 223
+contents:
+  - name: Understanding Change
+    url: understanding-change
+    subitems:
+      - name: Limit of old days was Content
+        url: limit-of-old-days-was-content
+      - name: Cost as Spam Filter
+        url: cost-as-spam-filter
+      - name: Reader’s Time is new Limit
+        url: readers-time-is-new-limit
+      - name: Writer’s time is other new Limit
+        url: writers-time-is-other-new-limit
+      - name: Mobile Support
+        url: mobile-support
+      - name: Dramatically Increased Contribution
+        url: dramatically-increased-contribution
+      - name: What does this all mean?
+        url: what-does-this-all-mean
+  - name: Modern Formats
+    url: modern-formats
+    subitems:
+      - name: V² Readers’ Survey
+        url: v²-readers-survey
+      - name: V² Authors’ Survey
+        url: v²-authors-survey
+  - name: Modern Publishing
+    url: modern-publishing
+    subitems:
+      - name: kramdown to the Rescue
+        url: kramdown-to-the-rescue
+      - name: kramdown Overview
+        url: kramdown-overview
+      - name: kramdown vs Alternatives
+        url: kramdown-vs-alternatives
+  - name: Updated Publishing Targets
+    url: updated-publishing-targets
+    subitems:
+      - name: Fast to Read Style Guides
+        url: fast-to-read-style-guides
+      - name: Faster Publishing Flow
+        url: faster-publishing-flow
+      - name: Fast Community Contribution
+        url: fast-community-contribution
+      - name: Separation Format vs. Style
+        url: separation-format-vs-style
+      - name: One Markup Language!
+        url: one-markup-language
+  - name: Conclusion
+    url: conclusion
 readiness:
   - is-complete
   - is-complete
