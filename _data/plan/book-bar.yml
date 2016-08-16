@@ -79,6 +79,8 @@
           url: /flow/publishing/intro/
         - menu: How-To Task-Templates
           url: /flow/publishing/how-to/
+        - menu: Publishing Paradigm Shift
+          url: /flow/publishing/publishing-shift/
         - menu: Style Guide
           url: /flow/publishing/style-guide/
         - menu: Adding Articles
