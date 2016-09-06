@@ -206,6 +206,32 @@ slideshow1:
       desc: This is a description 3
 ---
 
+# Table of Contents
+
+- [Adding Table of Contents](#table-of-contents)
+  - [Manual versus Automatic ToC](#manual-vs-automatic)
+  - [Manual ToC](#manual-toc)
+  - [Automatic ToC](#automatic-toc)
+- [Advanced Table Formatting](#advanced-table-formatting)
+  - [Overview](#overview-advanced-tables)
+  - [Polish Table Source Code](#polish-code)
+  - [Apply Styling](#apply-styling)
+  - [Use Graphic Symbols](#use-graphic-symbols)
+- [Super Table Formatting](#super-table-formatting)
+  - [User Story](#user-story)
+  - [Key Features](#super-tables-features)
+  - [How it works](#how-it-works)
+  - [Images in Tables](#images-in-tables)
+  - [Workflow for Complex Tables](#workflow-tables)
+  - [Reference of all Background Colors](#ref-background-colors)
+  - [Reference for all Table Styles](#ref-table-styles)
+- [SlideShow](#slide)
+  - [Example](#slide-example)
+- [Reference](#reference)
+  - [Tools](#ref-tools)
+  - [Symbols used in Tables](#graphic-symbols)
+
+
 
 # Adding Table of Contents {#table-of-contents}
 
