@@ -204,32 +204,61 @@ slideshow1:
     - img: /images/placeholder_800x400_3.jpg
       title: Title 3
       desc: This is a description 3
+
+contents:
+  - name: Adding Table of Contents
+    url: table-of-contents
+    subitems:
+      - name: Manual versus Automatic ToC
+        url: manual-vs-automatic
+      - name: Manual ToC
+        url: manual-toc
+      - name: Automatic ToC
+        url: automatic-toc
+  - name: Advanced Table Formatting
+    url: advanced-table-formatting
+    subitems:
+      - name: Overview
+        url: overview-advanced-tables
+      - name: Polish Table Source Code
+        url: polish-code
+      - name: Apply Styling
+        url: apply-styling
+      - name: Use Graphic Symbols
+        url: use-graphic-symbols
+  - name: Super Table Formatting
+    url: super-table-formatting
+    subitems:
+      - name: User Story
+        url: user-story
+      - name: Key Features
+        url: super-tables-features
+      - name: How it works
+        url: how-it-works
+      - name: Images in Tables
+        url: images-in-tables
+      - name: Workflow for Complex Tables
+        url: workflow-tables
+      - name: Reference of all Background Colors
+        url: ref-background-colors
+      - name: Reference for all Table Styles
+        url: ref-table-styles
+  - name: SlideShow
+    url: slide
+    subitems:
+      - name: Example
+        url: slide-example
+  - name: Reference
+    url: reference
+    subitems:
+      - name: Tools
+        url: ref-tools
+      - name: Symbols used in Tables
+        url: graphic-symbols
+
+
 ---
 
-# Table of Contents
-
-- [Adding Table of Contents](#table-of-contents)
-  - [Manual versus Automatic ToC](#manual-vs-automatic)
-  - [Manual ToC](#manual-toc)
-  - [Automatic ToC](#automatic-toc)
-- [Advanced Table Formatting](#advanced-table-formatting)
-  - [Overview](#overview-advanced-tables)
-  - [Polish Table Source Code](#polish-code)
-  - [Apply Styling](#apply-styling)
-  - [Use Graphic Symbols](#use-graphic-symbols)
-- [Super Table Formatting](#super-table-formatting)
-  - [User Story](#user-story)
-  - [Key Features](#super-tables-features)
-  - [How it works](#how-it-works)
-  - [Images in Tables](#images-in-tables)
-  - [Workflow for Complex Tables](#workflow-tables)
-  - [Reference of all Background Colors](#ref-background-colors)
-  - [Reference for all Table Styles](#ref-table-styles)
-- [SlideShow](#slide)
-  - [Example](#slide-example)
-- [Reference](#reference)
-  - [Tools](#ref-tools)
-  - [Symbols used in Tables](#graphic-symbols)
 
 
 
