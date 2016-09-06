@@ -4,56 +4,7 @@ title: Appetizing Articles
 subtitle: How to add the extra appeal.
 abstract: We give you a tools to add that extra touch making your articles stand out and simply be more fun to read. We show examples of *Super Tables*, *Feature Slideshows*, and *Table of Contents*. All of which are assisting the reader to ingest your information faster. We also show you how to keep your kramdown source code legible.
 issueNo: 204
-contents:
-  - name: Table of Contents
-    url: table-of-contents
-    subitems:
-    - name: Manual vs Automatic
-      url: manual-vs-automatic
-    - name: Manual ToC
-      url: manual-toc
-    - name: Automatic ToC
-      url: automatic-toc
-  - name: Advanced Tables
-    url: advanced-table-formatting
-    subitems:
-      - name: Overview
-        url: overview-advanced-tables
-      - name: Polish Table
-        url: polish-code
-      - name: Apply Styling
-        url: apply-styling
-      - name: Use Graphic Symbols
-        url: use-graphic-symbols
-  - name: Super Tables
-    url: super-table-formatting
-    subitems:
-      - name: User Story
-        url: user-story
-      - name: Key Features
-        url: super-tables-features
-      - name: How it Works
-        url: how-it-works
-      - name: Images in Tables
-        url: images-in-tables
-      - name: Workflow Complex Tables
-        url: workflow-tables
-      - name: Background Colors
-        url: ref-background-colors
-      - name: Table Styles
-        url: ref-table-styles
-  - name: SlideShow
-    url: slide
-    subitems:
-      - name: Example
-        url: slide-example
-  - name: Reference
-    url: reference
-    subitems:
-      - name: Tools
-        url: ref-tools
-      - name: Symbols used in Tables
-        url: graphic-symbols
+
 readiness:
    - is-complete
    - is-complete
@@ -644,4 +595,6 @@ All the slide is inside the slides object. The properties are:
 ## Symbols used in Tables {#graphic-symbols}
 
 {% include table id="table-style-no-head" %}
+
+
 
