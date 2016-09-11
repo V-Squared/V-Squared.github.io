@@ -21,8 +21,9 @@
         <li md-ink-ripple>
           <a href="#" v2-tooltip="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC" class="{% if page.url == '/product' %}uk-active{% endif %}">Standards</a>
         </li>
-        <li md-ink-ripple>
-          <a href="#" v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
+        <li md-ink-ripple class="{% if page.url contains '/products/ %}uk-active{% endif %}">
+          <a href="/products/"
+             v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow">Products</a>
         </li>
         <li md-ink-ripple>
           <a href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost" class="{% if page.url == '/v2-Marketing' %}uk-active{% endif %}">Makers</a>

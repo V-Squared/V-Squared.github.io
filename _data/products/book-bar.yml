@@ -1,0 +1,7 @@
+- menu: ViStand
+  url: /vistand/
+  subitems:
+    - menu: Intro
+      url:  /vistand/intro/
+    - menu: Features
+      url: /vistand/features/
