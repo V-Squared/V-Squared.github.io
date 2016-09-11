@@ -50,25 +50,29 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 ViStand is all about recycling computer parts you already own. As such we made it compatible with any VESA computer mount. See below for but a few examples:
 
 
- ## HideIt Alienware
+## HideIt Alienware
 
 Designed specifically for the Alienware Alpha or Steam
+  
   ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png)
 
 ## HideIt MacMini
 
 Designed specifically for one Mac mini model. 
+ 
  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png)
 
 ## Intel NUC
 
 Intel® NUC Kits include a VESA mount bracket.
+ 
  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png)
 
 ## ViCase Bracket
 
 VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png)
+
+ ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png)
 
 
 # Universal VESA Computer Mount
@@ -85,13 +89,15 @@ While ViStand is compatible with any VESA Computer Mount, you may choose our com
 ## Optimized for Cooling
 
 {6-way-airflow} ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png)
+
+ ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png)
 
 
 ## Fasten your Seat Belt!
 
 Adjustable elastic cord secures your valuable device gently but firmly. 
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png)
+
+ ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png)
 
 
 ## Mac mini
@@ -143,6 +149,7 @@ ViStand conveniently holds and organizes a ridiculous number of accessories for 
 
 
 # Trademarks & Copyrights
+
 ViStand™, ViMount™, ViCase™, V², V-Squared,  V²Stand™, V²Mount™, V²Case™, Modular All-in-One™, Mobile Docking Workstation™, ViMount 6-Way Airflow™, 3-Chamber Airflow™, are trademarks of V-Squared and Village Tronic.
 
 Intel®, NUC®, are trademarks of Intel. Mac Mini® is a trademark of Apple®.
