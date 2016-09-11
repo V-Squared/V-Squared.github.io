@@ -86,9 +86,9 @@ While ViStand is compatible with any VESA Computer Mount, you may choose our com
  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png)
 
 
-## Optimized for Cooling
+## Optimized for Cooling {#six-way-airflow}
 
-{6-way-airflow} ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.
+ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.
 
  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png)
 
@@ -121,7 +121,7 @@ Whatever your tablet size, the ViMount holds it securely. And when you upgrade i
 
 ## Alienware Alpha
 
-Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware's performance, thanks to the [ViMount 6-Way Airflow™](#6-way-airflow). ??? Fix the link!
+Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware's performance, thanks to the [ViMount 6-Way Airflow™](#six-way-airflow). ??? Fix the link!
 
  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png)
 
