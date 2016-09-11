@@ -65,8 +65,8 @@
       <li>
         <a href="#" class="{% if page.url == '/product' %}uk-active{% endif %}">Standard</a>
       </li>
-      <li>
-        <a href="#" class="{% if page.url == '/maker' %}uk-active{% endif %}">Products</a>
+      <li class="{% if page.url contains '/products/' %}uk-active{% endif %}">
+        <a href="/products/">Products</a>
       </li>
       <li>
         <a href="#" class="{% if page.url == '/makers' %}uk-active{% endif %}">Makers</a>
