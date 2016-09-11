@@ -1,0 +1,23 @@
+$toc-fontsize:  13px;
+
+.v2-toc {
+  margin: 0;
+  list-style: none;
+  border-left: 5px solid $brand-color;
+  padding: 5px $spacing-unit / 2;
+
+  li > a {
+    font-size: $toc-fontsize;
+    color: $gray-700;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    padding: 5px $spacing-unit / 2;
+    margin-left: 5px;
+    > li > a {
+      font-weight: normal;
+    }
+  }
+}

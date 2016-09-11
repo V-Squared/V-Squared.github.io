@@ -4,74 +4,53 @@
 @charset "utf-8";
 
 
-@font-face {
-    font-family: Roboto;
-    src: url('../fonts/Roboto-Light.ttf');
-}
-
-@font-face {
-    font-family: Roboto-Thin;
-    src: url('../fonts/Roboto-Thin.ttf');
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: Roboto;;
-}
-
-img {
-    max-width:100%;
-    height:auto;
-}
-
-// Our variables
-$base-font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     25px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: #D4D4D4;
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+
 @import
-        "base",
-        "layout",
-        "animation",
-        "syntax-highlighting",
-        "navbar",
-        "portfolio",
-        "progress-bar",
-        "feature-section",
-        "component"
-;
+  "utils/variable",
+  "utils/mixins",
+  "utils/functions";
+
+@import
+  "vendor/angular-material",
+  "vendor/uikit.min",
+  "vendor/progress-bar";
+
+@import
+  "base/animation",
+  "base/base",
+  "base/reset",
+  "base/typography",
+  "base/syntax-highlighting";
+
+@import
+  "layout/board-bar",
+  "layout/jumbo",
+  "layout/book-bar",
+  "layout/article-bar",
+  "layout/article",
+  "layout/content-nav",
+  "layout/footer",
+  "layout/grid";
+
+@import
+  "components/button",
+  "components/table",
+  "components/accordian",
+  "components/article-jumbo",
+  "components/offcanvas",
+  "components/cards",
+  "components/progress-bar",
+  "components/breadcrumb",
+  "components/feature-section",
+  "components/frame",
+  "components/tooltip",
+  "components/slideshow",
+  "components/svg",
+  "components/table-of-contents",
+  "components/tabs",
+  "components/vertical-tabs",
+  "components/protfolio";
+
+@import "pages/home";

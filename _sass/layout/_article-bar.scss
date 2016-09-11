@@ -1,0 +1,66 @@
+#article-bar {
+  //border-right: 1px solid #BBB;
+  width: 230px;
+
+  > .v2-bookinfo {
+    padding: 0 $spacing-unit / 2;
+
+    > p {
+      color: $gray-color;
+      font-size:12px;
+    }
+
+  }
+}
+
+.article-nav {    
+
+  // consider the sticky navbar and margin-top
+  max-height: calc(100vh - 89px);
+  overflow-y:auto;
+
+  ul {
+    padding-left: 0;
+  }
+
+  li:not(.article-group-header) {
+    position: relative;
+
+    a {
+      padding: 8px $spacing-unit / 2;
+      font-size: 15px;
+      color: $gray-700;
+    }
+
+    &:hover,&.uk-active {
+
+      > a {
+        background: $gray-200;
+        color:#000;
+      }
+
+    }
+  }
+
+  > li.article-group-header {
+
+
+   > a {
+     padding: 5px $spacing-unit / 2;
+     font-size: 14px;
+     cursor: pointer;
+     border-bottom: 1px solid $gray-400;
+     user-select: none;
+     color: $gray-color;
+
+     &:hover {
+       text-decoration: none;
+     }
+
+
+     > .article-group-foldicon {
+      color: $gray-color;
+     }
+   }
+}
+}

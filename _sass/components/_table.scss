@@ -1,0 +1,143 @@
+/**
+* Table
+*/
+
+// Basic style
+
+table {
+  margin-top:0;
+
+  thead th, tr td {
+    text-align: center;
+    padding: 8px 8px;
+  }
+
+  tfoot td {
+    text-align: left !important;
+    color:#42A5F5;
+    font-style: normal;
+    font-size:13px;
+  }
+}
+
+
+/*
+* Table Layout
+*/
+
+table.twin-head {
+  thead th:first-child {
+    width:20%;
+    text-align: right;
+  }
+  tr td:first-child {
+    text-align: right;
+  }
+}
+
+
+
+table.twin-head-desc {
+  @extend .twin-head;
+
+  tr td:last-child {
+    text-align: left;
+  }
+}
+
+
+
+/*
+* Colors
+*/
+
+// Blue
+
+.no-blue {
+  tbody tr {
+    border-bottom: 2px solid #2196F3;
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    td {
+      background: #E3F2FD;
+    }
+  }
+}
+
+table.row-blue {
+  @extend .no-blue;
+
+  tbody tr td:first-child {
+    background: #BBDEFB;
+  }
+}
+
+table.col-blue {
+  @extend .no-blue;
+
+  thead > tr {
+    background: #64B5F6;
+    color:#FFF;
+  }
+}
+
+
+table.twin-blue {
+  @extend .row-blue;
+  @extend .col-blue;
+}
+
+.table-caption {
+  margin:0;
+  padding:0 10px 0 10px;
+  background: $brand-secondary;
+  color:#FFF;
+}
+.table-head {
+  padding-top: 10px;
+}
+.table-desc {
+  color:#0D47A1;
+  line-height: 1em;
+}
+
+/*
+* Colors
+*/
+
+table {
+
+  // Gray
+
+  .ly {background: #FAFAFA !important;}
+  .gy {background: #F5F5F5 !important;}
+  .dy {background: #E0E0E0 !important;}
+
+  // Yellow
+
+  .lw {background: #FFFDE7 !important;}
+  .yw {background: #FFF9C4 !important;}
+  .dw {background: #FFF59D !important;}
+
+  // Green
+
+  .ln {background: #F1F8E9 !important;}
+  .gn {background: #DCEDC8 !important;}
+  .dn {background: #C5E1A5 !important;}
+
+  // Red
+
+  .ld {background: #ffebee !important;}
+  .rd { background: #ffcdd2 !important;}
+  .dd {background: #ef9a9a !important;}
+
+  // Others
+
+  .or {background: #FFE082 !important;}
+  .bl {background: #BBDEFB !important;}
+  .pp {background: #CE93D8 !important;}
+  .bk {background: #BDBDBD !important;}
+  .wt {background: #FFF !important;}
+}

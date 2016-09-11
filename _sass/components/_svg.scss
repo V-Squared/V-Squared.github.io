@@ -1,0 +1,28 @@
+.svg-container {
+  text-align: center;
+  padding-top: 15pt;
+}
+
+#side-edit {
+  svg {
+    fill:#747474;
+  }
+}
+#edit-menu path:first-child {
+  fill:#757575;
+}
+
+#board-menu svg {
+  transform: rotate(90deg);
+}
+
+#article-license {
+  circle {
+    fill:transparent;
+  }
+}
+#edit-article-status {
+  path:last-child {
+    fill:transparent !important;
+  }
+}

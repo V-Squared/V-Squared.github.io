@@ -1,0 +1,61 @@
+.jumbotron.article-jumbotron {
+  //padding:40px 50px 15px 50px;
+  padding:0;
+  background: $brand-secondary;
+  position: relative;
+
+  .status-bar {
+    background: $brand-400;
+
+    svg path {
+      fill: $brand-700 !important;
+    }
+  }
+
+
+  .article-jumbotron-container {
+    position: relative;
+    padding:20px;
+
+    @include media-query($on-mobile) {
+      padding:10px;
+    }
+  }
+
+  .article-title {
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size:45px;
+    font-family: Roboto-Thin;
+  }
+
+  .article-desc {
+    padding-top: 10px;
+    font-size: 21px;
+    color: $brand-900;
+  }
+
+  .article-abstract {
+    padding-top: 10px;
+    font-size:15px;
+  }
+
+  * {
+    color:#F3F0F0;
+  }
+
+  a {
+    color: $brand-700;
+    font-weight: bold;
+  }
+}
+#edit-fab {
+  position: absolute;
+  right: 15px;
+  z-index:9999999 !important;
+}
+.fab-help {
+  padding-left: 16px;
+  width:192px;
+  box-sizing: border-box;
+}

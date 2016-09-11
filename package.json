@@ -1,0 +1,33 @@
+{
+  "name": "v-squared.github.io",
+  "version": "1.0.0",
+  "description": "This Repository is the home page of the V² Organization. You can find it → https://V-Squared.github.io. What we do as an organization is described there. If you have question to what we do, post an issue in this repository, we will reply.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-sanitize": "^1.5.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-Squared/V-Squared.github.io.git"
+  },
+  "author": "Lukas Chen",
+  "license": "CC-By",
+  "bugs": {
+    "url": "https://github.com/V-Squared/V-Squared.github.io/issues"
+  },
+  "homepage": "https://v-squared.github.io"
+}

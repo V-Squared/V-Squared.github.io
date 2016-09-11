@@ -1,0 +1,24 @@
+[layout=column][layout-gap] > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+[layout=row][layout-gap] > *:not(:last-child) {
+  margin-right: 20px;
+}
+[layout=row][layout-feature] > *:not(:last-child) {
+  margin-right: 80px;
+}
+
+.grid-footnote {
+  color:#888;
+  font-size:9pt;
+  margin:0;
+}
+
+@include media-query($on-mobile) {
+  .page-content {
+    > .uk-container {
+      padding:0 5px;
+    }
+  }
+}

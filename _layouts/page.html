@@ -18,234 +18,25 @@ layout: default
 
 <div class="post">
 
-  <div layout="row"  layout-sm="column" no-gap>
+  <div layout="row" layout-sm="column" no-gap>
     {% if articleBar == 'yes' %}
+
     {% include article-bar.html nav=bookbar board=boardUrl %}
+
     {% endif %}
-    <div flex class="article md-whiteframe-5dp" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %}>
-      <div class="jumbotron article-jumbotron">
-        {% if page.visualURL %}
-        <div style="padding-top:10px;padding-bottom:10px;background:#FFF">
-        <img src="{{ page.visualURL }}-title.jpg" style="width:100%;">
-        </div>
-        {% endif %}
+    <div flex class="article md-whiteframe-5dp"  {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
 
-        <div layout="row" layout-align="space-between none" no-gap class="status-bar">
-          <div>
-            {% for my_page in bookbar %}
-            {% if navurl contains my_page.url %}
-{% if my_page.subitems or my_page.groups %}
-            <md-button toggle-collapse-bar="article-col" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-            </md-button>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-          </div>
-          <div layout="row" layout-align="none center">
-            
-            {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-            {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-            {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-            
-            {% for i in (1..forLoopMaxInt) %}
-              {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-              {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-              {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-            {% endfor %}
-            
-            {% capture next_prepender %}{% endcapture %}
-            
-            <md-button hide show-gt-xs v2-tooltip="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing" class="md-icon-button" aria-label="Toggle Copy Article Path"
-                       clipboard text="'{{pagePath}}'">
-              <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
-            </md-button>
-            <md-button hide show-gt-xs v2-tooltip="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing
-" class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
-              <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
-            </md-button>
-            <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;z-index:99;">
-              <div flex mouseover-tooltip="true" v2-tooltip="<h3>Create</h3>Creating concepts and specs while getting community feedback. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to contribute. Or post ideas / bugs in Article-Issue. (Orange = work ongoing | Blue = done)" class="{{page.readiness[0]}}"></div>
-              <div flex mouseover-tooltip="true" v2-tooltip="<h3>Develop</h3>Develop to the point that the team of author and editors believe it is done. (Orange = work ongoing | Blue = done). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to get involved" class="{{page.readiness[1]}}"></div>
-              <div flex mouseover-tooltip="true" v2-tooltip="<h3>Beta</h3>Beta testing. (Orange = by Core Team | Blue = by Community). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to report an Issue or create a Pull Request" class="{{page.readiness[2]}}"></div>
-              <div flex mouseover-tooltip="true" v2-tooltip="<h3>Make</h3>In Production. (Blue = One time production effort like publishing Article | Orange = Ongoing production effort like manufacturing products. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to give feedback or get involved in development of next version)" class="{{page.readiness[3]}}"></div>
-            </div>
-            <md-button mouseover-tooltip="true" v2-tooltip="<h3>Article License</h3>This article is licensed under → <a href='https://creativecommons.org/licenses/by/4.0/'>Creative-Commons-By</a>"
-                       id="article-license" class="md-icon-button"
-                       aria-label="License For This Article"
-                       href="https://creativecommons.org/licenses/by/4.0/" target="_blank" >
-              <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon>
-            </md-button>
-          </div>
+      {% include article-jumbo/article-jumbo.html %}
 
-          <div>
-            {% if page.contents %}
-            <md-button hide show-gt-sm toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
-              <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
-              <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-            </md-button>
-            {% endif %}
-          </div>
-        </div>
-
-        <div class="article-jumbotron-container" style="padding:20px;">
-
-          <h1 class="article-title">{{ page.title }}</h1>
-
-          {% if page.subtitle %}
-          <!--Remove the <p> because markdownify generate empty <p>-->
-          <p class="article-desc">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-          {% endif %}
-
-          <!--Remove the <p> because markdownify generate empty <p>-->
-          {% if page.abstract %}<p>{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
-
-          <ol class="uk-breadcrumb sub-breadcrumb">
-            <li><a href="/">V²</a></li>
-
-            <li><a href="{{ site.baseurl }}/{{boardUrl}}/">{{boardName}}</a></li>
-            {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-            {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-            {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-            {% for i in (1..forLoopMaxInt) %}
-            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-
-            {% for breadcrumb_page in bookbar %}
-
-            {% capture breadcrumb_pageUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_page.url}}{% endcapture %}
-
-            {% if current_breadcrumb_url == breadcrumb_pageUrl or
-            current_breadcrumb_md_url == breadcrumb_pageUrl %}
-            {% assign j = forLoopMaxInt | plus: 0 %}
-
-            <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}{{breadcrumb_pageUrl}}">{{breadcrumb_page.menu}}</a>
-            </li>
-
-            {% endif %}
-
-            {% for breadcrumb_sub in breadcrumb_page.subitems %}
-
-            {% capture breadcrumb_subUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_sub.url}}{% endcapture %}
-
-            {% if current_breadcrumb_url == breadcrumb_subUrl or
-            current_breadcrumb_md_url == breadcrumb_subUrl %}
-            <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}{{breadcrumb_subUrl}}">{{breadcrumb_sub.menu}}</a>
-            </li>
-
-            {% endif %}
-
-            {% for breadcrumb_group in breadcrumb_sub.group %}
-
-            {% capture breadcrumb_groupUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_group.url}}{% endcapture %}
-
-            {% if current_breadcrumb_url == breadcrumb_groupUrl or
-            current_breadcrumb_md_url == breadcrumb_groupUrl %}
-
-            <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{{breadcrumb_group.menu}}</a>
-            </li>
-
-            {% endif %}
-
-            {% endfor %}
-
-            {% endfor %}
-
-            {% endfor %}
-            {% endfor %}
-          </ol>
-
-          <md-menu>
-
-            <md-button mouseover-tooltip="true" v2-tooltip="<h3>V²-Flow-Button</h3>Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>More</a>" style="{% if page.visualURL %}top: -75px;right:40px;{% else %}bottom: -35px;{% endif %}" class="md-fab edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
-                       target="_blank">
-              <md-icon md-menu-origin md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
-            </md-button>
-
-            <md-menu-content width="6">
-              <div layout="row" no-gap>
-                <div flex>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/V-Squared.github.io/edit/master/{{page.path}}" target="_blank">
-                      <md-icon id="edit-menu" md-svg-icon="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg" md-menu-align-target></md-icon>
-                      Edit Article
-                    </md-button>
-                  </md-menu-item>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/v-squared.github.io/issues/{{page.issueNo}}" target="_blank">
-                      <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg" md-menu-align-target></md-icon>
-                      Article Issue
-                    </md-button>
-                  </md-menu-item>
-                  <p class="fab-help">Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href="https://github.com/V-Squared/V-Squared.github.io/issues/147">More</a></p>
-                </div>
-                <div flex>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/V-Squared.github.io" target="_blank">
-                      <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/repo.svg"></md-icon>
-                      Repo
-                    </md-button>
-                  </md-menu-item>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/V-Squared.github.io/graphs" target="_blank">
-                      <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/graph.svg"></md-icon>
-                      Graphs
-                    </md-button>
-                  </md-menu-item>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/V-Squared.github.io/pulse" target="_blank">
-                      <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/pulse.svg"></md-icon>
-                      Pulse
-                    </md-button>
-                  </md-menu-item>
-                  <md-menu-item>
-                    <md-button target="_blank" href="{{site.baseurl}}/plan/dashboard/">
-                      <md-icon id="board-menu" md-svg-icon="{{site.baseurl}}/icons/ic_menu_24px.svg"></md-icon>
-                      Dashboard
-                    </md-button>
-                  </md-menu-item>
-                  <md-menu-item>
-                    <md-button href="https://github.com/V-Squared/V-Squared.github.io/labels/m.board.plan" target="_blank">
-                      <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg"></md-icon>
-                      Issues
-                    </md-button>
-                  </md-menu-item>
-                </div>
-              </div>
-            </md-menu-content>
-
-          </md-menu>
-
-        </div>
-
-      </div>
       <div layout="row" no-gap>
 
         <!--Article-->
 
         <md-content flex class="post-content">
 
+          {% include embed-toc.html %}
 
-          {% if page.contents %}
-
-          <div id="embed-toc">
-          <h1 hide-gt-md>Table of Contents</h1>
-
-          <ul class="uk-nav uk-nav-toc" hide-gt-md>
-            {% for content in page.contents %}
-            <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
-            {% endfor %}
-          </ul>
-          </div>
-
-          {% endif %}
-
-          <div id="article-content" style="padding:20px;">
+          <div id="article-content">
             {{content}}
           </div>
         </md-content>
@@ -253,8 +44,9 @@ layout: default
       </div>
     </div>
 
-  {% include contents-bar.html %}
 
-    </div>
+    {% include contents-bar.html %}
 
   </div>
+
+</div>

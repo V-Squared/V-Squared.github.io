@@ -1,0 +1,17 @@
+.article {
+  background:#FFF;
+  z-index:99;
+  max-width: 900px;
+
+  .article-content {
+    padding:20px;
+
+    @include media-query($on-mobile) {
+      padding:10px;
+    }
+  }
+}
+
+#article-content {
+	padding: $spacing-unit;
+}

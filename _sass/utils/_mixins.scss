@@ -1,0 +1,47 @@
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+@mixin flip () {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+@mixin rotate-90() {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+@mixin remove-typo-margin (){
+  h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin:0;
+  }
+}
+@mixin make-typo-white () {
+  h1,h2,h3,h4,h5,h6,p,li,hr,button {
+    color:#FFF;
+  }
+  a {
+    color:#FFF;
+
+    &:hover {
+      color:#E5E5E5;
+      text-decoration: none;
+    }
+  }
+}
+.rotate-90 {
+  @include rotate-90;
+}

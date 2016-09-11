@@ -1,4 +1,4 @@
-$complete: #039be5;
+$complete: $brand-color;
 $active: #FF8000;
 $mute: #DFE3E4;
 
@@ -86,18 +86,4 @@ $mute: #DFE3E4;
 }
 .progress--large {
   font-size: 2em;
-}
-
-.card-progress-bar {
-  width: 150px;
-  z-index: 99;
-  position: absolute;
-  left: 0;
-  margin: 0;
-  height: 10px;
-
-  div {
-    background: #FFF;
-    opacity:1;
-  }
 }

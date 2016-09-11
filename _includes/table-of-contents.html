@@ -1,0 +1,18 @@
+<ul class="uk-nav v2-toc">
+  {% for content in page.contents %}
+  <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a>
+
+    {% if content.subitems %}
+
+    <ul>
+      {% for subitem in content.subitems %}
+      <li><a href="#{{subitem.url}}" du-smooth-scroll>{{subitem.name}}</a></li>
+      {% endfor %}
+    </ul>
+
+    {% endif %}
+
+  </li>
+
+  {% endfor %}
+</ul>

@@ -1,100 +1,98 @@
 {% assign navurl = page.url | remove: 'index.html'%}
 {% capture baseurl %}{{ site.baseurl }}/{% endcapture %}
 
-<div data-uk-sticky class="uk-navbar uk-navbar-attached sub-navbar md-primary">
+<div data-uk-sticky class="uk-navbar uk-navbar-attached v2-bookbar md-primary">
   <div class="uk-container uk-container-center">
-
-    <div layout="row" hide-gt-sm layout-align="none center">
-      <md-button href="#book-bar-nav" data-uk-offcanvas class="md-icon-button uk-navbar-toggle" aria-label="Toggle Navigation Bar" hide-gt-md>
+    <div class="v2-bookbar-nav">
+      <div layout="row" hide-gt-sm layout-align="none center" class="v2-bookbar-nav-xs">
+      <md-button href="#book-bar-nav" data-uk-offcanvas class="md-icon-button v2-bookbar-toggle" aria-label="Toggle Navigation Bar" hide-gt-md>
         <md-icon md-svg-src="{{site.baseurl}}/icons/ic_menu_24px.svg"></md-icon>
       </md-button>
-
-      <h3>Books & Articles</h3>
+      <h3 class="v2-bookbar-title">Books & Articles</h3>
     </div>
-
-    <ul class="uk-navbar-nav sub-navbar-nav" hide show-gt-sm>
-      
+    <ul class="uk-navbar-nav v2-bookbar-nav-md" hide show-gt-sm>
       {% capture introUrl %}/{{include.board}}/{% endcapture %}
-      
       <li md-ink-ripple class="{% if navurl == introUrl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}/" class="md-tab">Index</a></li>
-
       {% for my_page in include.nav %}
-      <li md-ink-ripple class="{% if navurl contains my_page.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab">{{ my_page.menu }}</a></li>
+      <li md-ink-ripple class="{% if navurl contains my_page.url %}uk-active{% endif %}">
+        <a href=" {{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab">{{ my_page.menu }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
+</div>
 </div>
 
 {% assign navurl = page.url | remove: 'index.html' %}
 <div id="book-bar-nav" class="uk-offcanvas">
   <div class="uk-offcanvas-bar md-whiteframe-z2">
-    
+
     <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" v2-accordian>
       {% for my_page in include.nav %}
 
       <!--Added v2-accordian in case there is a accordian under this one -->
       <li class="{% if navurl contains my_page.url %}uk-active{% endif %}"
-          {% if my_page.subitems %}v2-accordian-group{% endif %}
-          {% if navurl contains my_page.url and my_page.subitems %}is-opened{% endif %}>
-        <a href="{% unless my_page.subitems %}{{site.baseurl}}/{{include.board}}{{my_page.url}}{% endunless %}"
-           {% if my_page.subitems %}v2-accordian-heading{% endif %}>
-          {% if my_page.subitems %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
-                   md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
-          {{my_page.menu}}</a>
-        {% if my_page.subitems %}
+      {% if my_page.subitems %}v2-accordian-group{% endif %}
+      {% if navurl contains my_page.url and my_page.subitems %}is-opened{% endif %}>
+      <a href="{% unless my_page.subitems %}{{site.baseurl}}/{{include.board}}{{my_page.url}}{% endunless %}"
+      {% if my_page.subitems %}v2-accordian-heading{% endif %}>
+      {% if my_page.subitems %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
+      md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
+      {{my_page.menu}}</a>
+      {% if my_page.subitems %}
 
-        <div uib-collapse="!v2Group.isOpen">
+      <div uib-collapse="!v2Group.isOpen">
         <ul class="uk-nav-sub" v2-accordian>
-          
+
           {% capture introUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
           
           <li class="{% if navurl == introUrl %}uk-active{% endif %}">
             <a href="{{site.baseurl}}/{{include.board}}{{my_page.url}}">Index</a>
           </li>
-        
+
           {% for subitem in my_page.subitems %}
 
           {% capture subitemUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
-            <li {% if subitem.group %}v2-accordian-group{% endif %}
-                {% if navurl contains subitemUrl and subitem.group %}is-opened{% endif %}
-                class="{% if navurl == subitemUrl %}uk-active{% endif %}">
-              <a {% if subitem.group %}v2-accordian-heading{% else %}href="{{site.baseurl}}{{subitemUrl}}"{% endif %}>
-                {% if subitem.group %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
-                         md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
-                {{subitem.menu}}
-              </a>
-              {% if subitem.group %}
-              <ul uib-collapse="!v2Group.isOpen">
-                {% capture groupIntroUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
+          <li {% if subitem.group %}v2-accordian-group{% endif %}
+          {% if navurl contains subitemUrl and subitem.group %}is-opened{% endif %}
+          class="{% if navurl == subitemUrl %}uk-active{% endif %}">
+          <a {% if subitem.group %}v2-accordian-heading{% else %}href="{{site.baseurl}}{{subitemUrl}}"{% endif %}>
+            {% if subitem.group %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
+            md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
+            {{subitem.menu}}
+          </a>
+          {% if subitem.group %}
+          <ul uib-collapse="!v2Group.isOpen">
+            {% capture groupIntroUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
-                <li class="{% if navurl == groupIntroUrl %}uk-active{% endif %}">
-                  <a href="{{site.baseurl}}{{groupIntroUrl}}">Index</a>
-                </li>
-
-                {% for group in subitem.group %}
-
-                {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
-
-                <li class="{% if navurl == groupUrl %}uk-active{% endif %}">
-                  <a href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
-                </li>
-
-                {% endfor %}
-              </ul>
-              {% endif %}
+            <li class="{% if navurl == groupIntroUrl %}uk-active{% endif %}">
+              <a href="{{site.baseurl}}{{groupIntroUrl}}">Index</a>
             </li>
 
-          {% endfor %}
+            {% for group in subitem.group %}
 
-          
-        </ul>
-          </div>
-        
-        {% endif %}
-      </li>
+            {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
 
-      {% endfor %}
-    </ul>
-  </div>
+            <li class="{% if navurl == groupUrl %}uk-active{% endif %}">
+              <a href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
+            </li>
+
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+
+        {% endfor %}
+
+
+      </ul>
+    </div>
+
+    {% endif %}
+  </li>
+
+  {% endfor %}
+</ul>
+</div>
 </div>

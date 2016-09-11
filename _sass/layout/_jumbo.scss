@@ -1,0 +1,14 @@
+.jumbotron {
+  @include remove-typo-margin;
+  @include make-typo-white;
+  background: $brand-color;
+  padding: $spacing-unit 0 ($spacing-unit / 2) 0;
+
+  h1 {
+    font-size:45px;
+  }
+
+  p {
+    font-size:16px;
+  }
+}

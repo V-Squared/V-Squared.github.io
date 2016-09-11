@@ -1,0 +1,17 @@
+{
+  "undef": true,
+  "unused": true,
+  "globals": { "angular": false, "require": false },
+  "jasmine": true,
+  "strict": true,
+  "noempty": true,
+  "nomen": true,
+  "eqeqeq": true,
+  "jquery": true,
+  "browser": true,
+  "bitwise": true,
+  "curly": true,
+  "validthis": true,
+  "nonew": true,
+  "forin": true
+}

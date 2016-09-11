@@ -15,8 +15,11 @@ url: "https://v-squared.github.io/" # the base hostname & protocol for your site
 twitter_username: villagevidock
 github_username:  v-squared
 include: ["_pages","_javascript"]
-exclude: ["node_modules"]
+exclude: ["node_modules",".idea"]
 permalink: pretty
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-autoprefixer

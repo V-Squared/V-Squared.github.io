@@ -6,8 +6,6 @@
   <title>{% if page.title %}{{ page.title | escape }} | V Squared {% else %}{{ site.title | escape }} | V Squared{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/uikit.min.css" | prepend: site.baseurl }}" >
-  <link rel="stylesheet" href="{{ "/css/angular-material.min.css" | prepend: site.baseurl }}" />
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -15,14 +13,19 @@
 
   <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/jquery.min.js"></script>
   <script data-require="angular.js@1.5.x" src="{{site.baseurl}}/_javascript/dependencies/angular.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-animate.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-aria.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/_javascript/dependencies/angular-material.min.js"></script>
+
 
   <script>
     angular.module('site',
       [
-        'ngSanitize','ngAnimate',
-        'duScroll','v2.tooltip','ui.bootstrap.collapse',
-        'ui.bootstrap.tabs','ui.bootstrap.carousel','ngMaterial','ngAria','ngStorage','angular-clipboard','v2Accordian','v2.switcher'],
-            function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider) {
+      'ngSanitize','ngAnimate',
+      'duScroll','v2.tooltip','ui.bootstrap.collapse',
+      'ui.bootstrap.tabs','ui.bootstrap.carousel','ngMaterial','ngAria','ngStorage','angular-clipboard','v2Accordian','v2.switcher'],
+      function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider) {
       //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
       $interpolateProvider.startSymbol('[[');
@@ -30,17 +33,17 @@
 
       $mdThemingProvider.theme('default').primaryPalette('blue').accentPalette('orange');
     })
-     .run(["$templateCache",function($templateCache) {
+    .run(["$templateCache",function($templateCache) {
 
        // Slideshow Template
        $templateCache.put("uib/template/carousel/carousel.html",
-           "<ul class=\"v2-slideshow-inner\" ng-style=\"{ height: height }\" ng-transclude></ul>\n<a href=\"\" class=\"v2-slidenav v2-slide-prev\" ng-click=\"prev()\">Prev</a>\n<a href=\"\" class=\"v2-slidenav v2-slide-next\" ng-click=\"next()\">Next</a>\n<ul class=\"uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center\">\n  <li ng-repeat=\"slide in slides | orderBy:indexOfSlide track by $index\" ng-class=\"{active: isActive(slide)}\" ng-click=\"select(slide)\">\n    <a href=\"\"></a>\n  </li>\n</ul>"
-       );
+         "<ul class=\"v2-slideshow-inner\" ng-style=\"{ height: height }\" ng-transclude></ul>\n<a href=\"\" class=\"v2-slidenav v2-slide-prev\" ng-click=\"prev()\">Prev</a>\n<a href=\"\" class=\"v2-slidenav v2-slide-next\" ng-click=\"next()\">Next</a>\n<ul class=\"uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center\">\n  <li ng-repeat=\"slide in slides | orderBy:indexOfSlide track by $index\" ng-class=\"{active: isActive(slide)}\" ng-click=\"select(slide)\">\n    <a href=\"\"></a>\n  </li>\n</ul>"
+         );
 
        // Slideshow item template
        $templateCache.put("uib/template/carousel/slide.html",
-            "<li class=\"slide\" ng-transclude></li>"
-       );
+        "<li class=\"slide\" ng-transclude></li>"
+        );
      }]);
 
     angular.element(document).ready(function() {
@@ -52,7 +55,6 @@
 
 
       for(var i = 0; i < imgs.length; i++) {
-        console.log(imgs[i]);
         if (imgs[i].parentNode.nodeName == "P") {
           var imgSt = imgs[i].parentNode.style;
 

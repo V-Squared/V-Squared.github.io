@@ -1,0 +1,29 @@
+.sub-breadcrumb {
+  margin:0;
+
+  padding-top:20px;
+
+  > li {
+
+    &:nth-child(n+2):before {
+      font-family: FontAwesome;
+      content: "\f105";
+      color:#444;
+    }
+
+    > a {
+      font-size:13px;
+      // Use !important hack because I have a :visited
+      // event on every <a> and apperantly you can't use
+      // RGBA in :visited
+      color: rgba(255,255,255,0.5) !important;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background:transparent;
+        color: rgba(255,255,255,1) !important;
+      }
+
+    }
+  }
+}

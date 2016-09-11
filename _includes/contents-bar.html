@@ -2,29 +2,11 @@
 <collapse-bar type="Mid" id="article-toc">
 
   <div style="margin-top: 38px;"></div>
-  
-  <h2 class="padding">Contents</h2>
+
+  <h2 class="v2-content-heading">Contents</h2>
 
   <div data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'}">
-
-    <ul class="uk-nav uk-nav-toc">
-      {% for content in page.contents %}
-      <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a>
-      
-      {% if content.subitems %}
-      
-      <ul>
-        {% for subitem in content.subitems %}
-        <li><a href="#{{subitem.url}}" du-smooth-scroll>{{subitem.name}}</a></li>
-        {% endfor %}
-      </ul>
-      
-      {% endif %}
-      
-      </li>
-      
-      {% endfor %}
-      </ul>
+    {% include table-of-contents.html %}
   </div>
 </collapse-bar>
 {% endif %}

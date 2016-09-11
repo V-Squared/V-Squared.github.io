@@ -1,0 +1,107 @@
+// Our variables
+$base-font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$spacing-unit:     30px;
+
+// Width of the content area
+$content-width:    1400px;
+
+$on-mobile:        600px;
+$on-tablet:        960px;
+$on-laptop:        1280px;
+
+/*
+ * Colors
+ * These colors come from [Martial design](https://material.google.com/)
+ */
+
+// Primary
+
+$brand-50: #E3F2FD;
+$brand-100: #BBDEFB;
+$brand-200: #90CAF9;
+$brand-secondary: #64B5F6;
+$brand-400: #42A5F5;
+$brand-color: #2196F3;
+$brand-600: #1E88E5;
+$brand-700: #1976D2;
+$brand-800: #1565C0;
+$brand-900: #0D47A1;
+
+// Accent
+
+$brand-accent-100: #FFD180;
+$brand-accent:     #FFAB40;
+$brand-accent-400: #FF9100;
+$brand-accent-700: #FF6D00;
+
+// Gray
+
+$gray-200:   #EEEEEE;
+$gray-400:   #BDBDBD;
+$gray-color: #9E9E9E;
+$gray-700:   #616161;
+
+$heading-color: #777;
+$text-color:       #111;
+
+$gray-color-light: #D4D4D4;
+$gray-color-dark:  darken($gray-color, 25%);
+
+// Background Color
+$background-color: #f5f5f5;
+$background-gray:  #EBEFF2;
+$background-black: #2D384A;
+
+
+/********/
+// Material design class colors
+/*********/
+
+.red {background-color: #F44336 !important;}
+.pink {background-color: #E91E63 !important;}
+.purple {background-color: #9C27B0 !important;}
+.deep-purple {background-color: #673AB7 !important;}
+.indigo {background-color: #3F51B5 !important;}
+.blue {background-color: #2196F3 !important;}
+.light-blue {background-color: #03A9F4 !important;}
+.cyan {background-color: #00BCD4 !important;}
+.teal {background-color: #009688 !important;}
+.green {background-color: #4CAF50 !important;  }
+.light-green {background-color: #8BC34A !important;}
+.lime {background-color: #CDDC39 !important;}
+.yellow {background-color: #FFEB3B !important;}
+.amber {background-color: #FFC107 !important;}
+.orange {background-color: #FF9800 !important;}
+.deep-orange {background-color:#FF5722 !important;}
+.brown {background-color: #795548 !important;}
+.gray {background-color: #9E9E9E !important;}
+.blue-gray {background-color: #607D8B !important;}
+
+/*********/
+// 300's
+/*********/
+
+.red-300 {background-color: #e57373 !important;}
+.pink-300 {background-color: #F06292 !important;}
+.purple-300 {background-color: #BA68C8 !important;}
+.deep-purple-300 {background-color: #9575CD !important;}
+.indigo-300 {background-color: #7986CB !important;}
+.blue-300 {background-color: #64B5F6 !important;}
+.light-blue-300 {background-color: #4FC3F7 !important;}
+.cyan-300 {background-color: #4DD0E1 !important;}
+.teal-300 {background-color: #4DB6AC !important;}
+.green-300 {background-color: #81C784 !important;}
+.light-green-300 {background-color: #AED581 !important;}
+.lime-300 {background-color: #DCE775 !important;}
+.yellow-300 {background-color: #FFF176 !important;}
+.amber-300 {background-color: #FFD54F !important;}
+.orange-300 {background-color: #FFB74D !important;}
+.deep-orange-300 {background-color: #FF8A65 !important;}
+.brown-300 {background-color: #A1887F !important;}
+.gray-300 {background-color: #E0E0E0 !important;}
+.blue-gray-300 {background-color: #90A4AE !important;}

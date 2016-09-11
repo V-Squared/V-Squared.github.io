@@ -1,0 +1,57 @@
+/* 
+  UIKIT reset 
+*/
+
+.uk-nav li:hover > a {
+  background: transparent;
+}
+
+/*
+ Angular material reset
+ */
+
+ md-icon {
+  color:  inherit !important;
+ }
+
+md-menu-divider {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 1px;
+  min-height: 1px;
+  max-height: 1px;
+  width: 100%;
+}
+
+md-toolbar[md-transparent] {
+  background: transparent;
+}
+
+md-sidenav {
+  z-index:1000;
+}
+
+md-backdrop.md-sidenav-backdrop {
+  z-index:999;
+}
+
+md-backdrop {
+  z-index:99999 !important;
+}
+
+md-menu-content {
+  display:none;
+}
+
+.md-open-menu-container {
+  z-index:999999 !important;
+}
+
+.md-open-menu-container md-menu-content {
+  display:inherit;
+}
+.collapse-group {
+   position: absolute;
+   z-index:9999;
+   width:100%;
+ }

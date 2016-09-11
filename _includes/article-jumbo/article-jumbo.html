@@ -1,0 +1,29 @@
+<div class="jumbotron article-jumbotron">
+  {% if page.visualURL %}
+  <div style="padding-top:10px;padding-bottom:10px;background:#FFF">
+    <img src="{{ page.visualURL }}-title.jpg" style="width:100%;">
+  </div>
+  {% endif %}
+
+  {% include article-jumbo/status-bar.html %}
+
+  <div class="article-jumbotron-container">
+
+    <h1 class="article-title">{{ page.title }}</h1>
+
+    {% if page.subtitle %}
+    <!--Remove the <p> because markdownify generate empty <p>-->
+    <p class="article-desc">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    <!--Remove the <p> because markdownify generate empty <p>-->
+    {% if page.abstract %}<p>{{ page.abstract | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+
+
+    {% include article-jumbo/breadcrumb.html %}
+
+    {% include article-jumbo/edit-fab.html %}
+
+  </div>
+
+</div>

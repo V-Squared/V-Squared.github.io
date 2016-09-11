@@ -1,0 +1,45 @@
+#home-introduction {
+  background: url('https://raw.githubusercontent.com/V-Squared/v2-Art/master/ViCase-Campaign/v2-Team/_IGP7092.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150pt 0;
+  color:#FFF;
+  h1,h2 {
+    color:#FFF;
+  }
+}
+#section-seperator {
+  border-bottom:1px solid #037CB7;
+}
+.svg > svg {
+  width:auto;
+  max-height:80vh;
+}
+.jumbotron {
+
+  .jumbo-tagline {
+    color: #888;
+  }
+
+  .article-desc {
+    font-size: 21px;
+    color:#aaa;
+  }
+
+  .jumbotron-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    .title-logo {
+      padding-right:15px;
+      margin-right:0;
+      margin-left:0;
+      width: 100px;
+    }
+
+    .title-text > * {
+      text-align: left;
+      margin:0;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<md-menu>
+
+  <md-button mouseover-tooltip="true"
+             v2-tooltip="<h3>V²-Flow-Button</h3>Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>More</a>"
+             style="{% if page.visualURL %}top: -75px;right:40px;{% else %}bottom: -35px;{% endif %}" class="md-fab" id="edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
+             target="_blank">
+    <md-icon md-menu-origin md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
+  </md-button>
+
+  <md-menu-content width="6">
+    <div layout="row" no-gap>
+      <div flex>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/V-Squared.github.io/edit/master/{{page.path}}" target="_blank">
+            <md-icon id="edit-menu" md-svg-icon="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg" md-menu-align-target></md-icon>
+            Edit Article
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/v-squared.github.io/issues/{{page.issueNo}}" target="_blank">
+            <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg" md-menu-align-target></md-icon>
+            Article Issue
+          </md-button>
+        </md-menu-item>
+        <p class="fab-help">Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href="https://github.com/V-Squared/V-Squared.github.io/issues/147">More</a></p>
+      </div>
+      <div flex>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/V-Squared.github.io" target="_blank">
+            <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/repo.svg"></md-icon>
+            Repo
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/V-Squared.github.io/graphs" target="_blank">
+            <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/graph.svg"></md-icon>
+            Graphs
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/V-Squared.github.io/pulse" target="_blank">
+            <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/pulse.svg"></md-icon>
+            Pulse
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button target="_blank" href="{{site.baseurl}}/plan/dashboard/">
+            <md-icon id="board-menu" md-svg-icon="{{site.baseurl}}/icons/ic_menu_24px.svg"></md-icon>
+            Dashboard
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button href="https://github.com/V-Squared/V-Squared.github.io/labels/m.board.plan" target="_blank">
+            <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg"></md-icon>
+            Issues
+          </md-button>
+        </md-menu-item>
+      </div>
+    </div>
+  </md-menu-content>
+
+</md-menu>

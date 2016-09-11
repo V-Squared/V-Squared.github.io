@@ -1,0 +1,8 @@
+  {
+  "name": "v-squared.github.io",
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160909133806",
+    "angular-animate": "registry:dt/angular-animate#1.5.0+20160709061515"
+  }
+}

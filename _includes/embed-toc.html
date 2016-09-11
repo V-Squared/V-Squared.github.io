@@ -1,0 +1,13 @@
+{% if page.contents %}
+
+<div id="embed-toc">
+  <h1 hide-gt-md>Table of Contents</h1>
+
+  <ul class="uk-nav uk-nav-toc" hide-gt-md>
+    {% for content in page.contents %}
+    <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endif %}

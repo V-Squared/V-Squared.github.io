@@ -1,0 +1,47 @@
+ul.uk-nav-sub {
+  padding-left:30px;
+}
+md-content {
+  background: transparent;
+
+  h1 {
+    color: $heading-color;
+    font-size: 45px;
+    margin: -10px -30px 30px -30px;
+    padding: 100px 30px 5px 30px;
+    border-bottom: 1px solid $gray-400;
+  }
+
+  h2 {
+    font-size: 24px !important;
+    color: $heading-color;
+    margin-top: -32px;
+    padding-top:70px;
+    margin-bottom:7px;
+  }
+
+  h3 {
+    font-size: 20px !important;
+    color: $heading-color;
+    margin-top: -43px;
+    padding-top: 70px;
+    margin-bottom: 4px;
+  }
+
+  img {
+    border: 3px solid #666;
+  }
+
+
+
+  ul>li>ul,
+  ol>li>ul,
+  ul>li>ol,
+  ol>li>ol{
+    margin-left: 15px;
+  }
+
+  .footnote {
+
+  }
+}
