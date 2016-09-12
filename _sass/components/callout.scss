@@ -1,0 +1,20 @@
+.callout-container {
+  display: block;
+  position: relative;
+}
+.callout {
+  position: absolute;
+  background-color: $brand-accent;
+  opacity: 0.6;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+  }
+}
