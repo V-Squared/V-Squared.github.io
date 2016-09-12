@@ -12,7 +12,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 
-  &:hover {
+  &:hover,&.active {
     opacity: 1;
     width: 25px;
     height: 25px;
