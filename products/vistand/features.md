@@ -13,16 +13,31 @@ readiness:
 This All-in-One looks so cool that no one will ever guess that you built it from your computer components.
 
 
-<v2-switcher class="callout-container">
+<v2-switcher>
+	<div class="callout-container">
   <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png">
-  <div v2-switch-item="0" class="callout" style="top: 6px;left: 423px;"></div>
-  <div v2-switch-item="1" class="callout" style="top: 200px;left: 200px;"></div>
+  <div v2-switch-item="0" class="callout" style="top: 2%;left: 52%;"></div>
+  <div v2-switch-item="1" class="callout" style="top: 5%;left: 42%;"></div>
+  <div v2-switch-item="2" class="callout" style="top: 71%;left: 55%;"></div>
+  <div v2-switch-item="3" class="callout" style="top: 71%;left: 67%;"></div>
+  <div v2-switch-item="4" class="callout" style="top: 32%;left: 49%;"></div>
+  </div>
   <v2-switch-text>
-    Text 1 !!!
+    <strong>Webcam</strong> ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and ViStand Naked to see in more detail just how ViStand helps keep your desk free of cable clutter.
   </v2-switch-text>
   <v2-switch-text>
-    It's over 9000 !!!
+    <strong>Microphone</strong> If you own a webcam it probably has a built-in microphone. But if all you need is a microphone, you can use a lapel type mic with a specialized display clip. The Audio Technica ATR4650 Mic is a great example.
   </v2-switch-text>
+  <v2-switch-text>
+  	<strong>Parked Keyboard</strong> The space occupied by your keyboard is perhaps the most valuable real estate on your desktop. Reclaim that space to draw, write, or doodle by parking your keyboard in ViStand’s convenient shelf.
+  </v2-switch-text>
+  <v2-switch-text>
+  	<strong>Parked Headset</strong> Headsets are great in a conference or for gaming, but otherwise they can get in the way. The ViStand headset holder gets them out of the way. Barely visible, yet within easy reach when you get a call.
+  </v2-switch-text>
+  <v2-switch-text>
+  	<strong>VESA Displays 22" … 32"</strong> ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.
+  </v2-switch-text>
+
 </v2-switcher>
 
 
