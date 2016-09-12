@@ -6,7 +6,7 @@
   position: absolute;
   background-color: $brand-accent;
   opacity: 0.6;
-  border-radius: 100%;
+  border-radius: 50%;
   width: 15px;
   height: 15px;
   cursor: pointer;
@@ -16,4 +16,7 @@
     opacity: 1;
     transform: scale(1.7,1.7);
   }
+}
+.callout-text  {
+  padding-top: ($spacing-unit / 2) / 2;
 }

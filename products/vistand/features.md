@@ -22,6 +22,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   <div v2-switch-item="3" class="callout" style="top: 71%;left: 67%;"></div>
   <div v2-switch-item="4" class="callout" style="top: 32%;left: 49%;"></div>
   </div>
+  <div class="callout-text">
   <v2-switch-text>
     <strong>Webcam</strong> ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and ViStand Naked to see in more detail just how ViStand helps keep your desk free of cable clutter.
   </v2-switch-text>
@@ -37,6 +38,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   <v2-switch-text>
   	<strong>VESA Displays 22" … 32"</strong> ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.
   </v2-switch-text>
+  </div>
 
 </v2-switcher>
 
