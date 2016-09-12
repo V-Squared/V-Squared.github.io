@@ -15,7 +15,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
 
 <v2-switcher class="callout-container">
   <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png">
-  <div v2-switch-item="0" class="callout" style="top: 100px;left: 100px;"></div>
+  <div v2-switch-item="0" class="callout" style="top: 6px;left: 423px;"></div>
   <div v2-switch-item="1" class="callout" style="top: 200px;left: 200px;"></div>
   <v2-switch-text>
     Text 1 !!!
