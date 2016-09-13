@@ -141,8 +141,8 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
 <v2-switcher>
 <div class="callout-container">
   <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
-  <div class="callout" style="top: 42%;left: 38%;" v2-switch-item="0"></div>
-  <div class="callout" style="top: 37%;left: 45%;" v2-switch-item="1"></div>
+  <div class="callout" style="top: 42%;left: 40%;" v2-switch-item="0"></div>
+  <div class="callout" style="top: 37%;left: 47%;" v2-switch-item="1"></div>
   <div class="callout" style="top: 44%;left: 71%;" v2-switch-item="2"></div>
   <div class="callout" style="top: 32%;left: 64%;" v2-switch-item="3"></div>
   <div class="callout" style="top: 16%;left: 57%;" v2-switch-item="4"></div>
