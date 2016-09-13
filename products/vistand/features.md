@@ -17,7 +17,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
 	<div class="callout-container">
   <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png">
   <div v2-switch-item="0" class="callout" style="top: 2%;left: 52%;"></div>
-  <div v2-switch-item="1" class="callout" style="top: 5%;left: 42%;"></div>
+  <div v2-switch-item="1" class="callout" style="top: 7%;left: 41%;"></div>
   <div v2-switch-item="2" class="callout" style="top: 71%;left: 55%;"></div>
   <div v2-switch-item="3" class="callout" style="top: 71%;left: 67%;"></div>
   <div v2-switch-item="4" class="callout" style="top: 32%;left: 49%;"></div>
