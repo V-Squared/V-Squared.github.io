@@ -101,7 +101,7 @@ Real world solution to hide and secure all your cables, extensions, and adapters
   <div class="callout" style="top: 3%;left: 54%;" v2-switch-item="3"></div>
   <div class="callout" style="top: 53%;left: 36%;" v2-switch-item="4"></div>
   <div class="callout" style="top: 37%;left: 63%;" v2-switch-item="5"></div>
-  <div class="callout" style="top: 53%;left: 54%;" v2-switch-item="6"></div>
+  <div class="callout" style="top: 50%;left: 52%;" v2-switch-item="6"></div>
   <div class="callout" style="top: 34%;left: 40%;" v2-switch-item="7"></div>
 </div>
 <div class="callout-text">
