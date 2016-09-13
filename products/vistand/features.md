@@ -86,14 +86,51 @@ Going vertical is the secret! Elevate all your computer parts off the desktop an
     </v2-switch-text>
   </div>
 </v2-switcher>
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-elevating-parts/vistand-modular-all-in-one-raw.png)
 
 
 # ViStand Organizes Cable Clutter
 
 Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk!
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png)
+<v2-switcher>
+<div class="callout-container">
+  <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png">
+  <div class="callout" style="top: 90%;left: 63%;" v2-switch-item="0"></div>
+  <div class="callout" style="top: 30%;left: 84%;" v2-switch-item="1"></div>
+  <div class="callout" style="top: 61%;left: 42%;" v2-switch-item="2"></div>
+  <div class="callout" style="top: 3%;left: 54%;" v2-switch-item="3"></div>
+  <div class="callout" style="top: 53%;left: 36%;" v2-switch-item="4"></div>
+  <div class="callout" style="top: 37%;left: 63%;" v2-switch-item="5"></div>
+  <div class="callout" style="top: 53%;left: 54%;" v2-switch-item="6"></div>
+  <div class="callout" style="top: 34%;left: 40%;" v2-switch-item="7"></div>
+</div>
+<div class="callout-text">
+  <v2-switch-text>
+    <strong>Only One Cable</strong> ViStand reduces your cable clutter to one power cable running from your desk to the wall. Your work space is clean and productive, and relocating your All-in-One is a breeze: 1. Hibernate 2. Unplug 3. Carry.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>The Mess you do not See</strong> All the cable ends you see here are of course connected to complete cables, that are tied up and secured to the ViStand back panel.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Extension Cord</strong> Ever noticed how the computer setup looked so much nicer in the brochure than on your desk? It drove us mad! One big culprit is the extension cord. To ensure your new ViStand All-in-One looks great in real life on your desk, we tamed the extension cord by tying it up to the back panel.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>WebCam & Mic Cables</strong> In case you use discrete A/V devices, you can tie up their cables securely to ViStand, as always via releasable cable ties using the mounting hole grid in the back panel.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Headset Holder doubles as Cord Holder</strong> When on the move, you can coil up and hang your power cord onto the headset holder.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>All your PC Cables Tied up Nicely</strong> A computer setup comes with a ton of cabling. ViStand consolidates them all behind the back panel. There is even space for a speaker sound bar, a USB hub or a USB 3 notebook docking station / USB type C adapter.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Power Adapter</strong> Some Mini Computers (like this Alienware Alpha) and all Notebooks come with a power adapter. You already know the refrain: Tie it up to ViStand!
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Back Panel with Mounting Hole Grid</strong> This may strike you as a case of the computer looking much better in the brochure than in flesh and blood on your desk. We guarantee that yours will actually look as slick. The key component is the one you cannot see: the back panel with mounting hole grid, to which you strap all your cables and adapters with releasable cable ties. You can see the panel here → <a href="#vistand-naked">ViStand Naked</a>.
+  </v2-switch-text>
+</div>
+</v2-switcher>
 
 
 
