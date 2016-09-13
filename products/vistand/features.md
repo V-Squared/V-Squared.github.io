@@ -47,6 +47,45 @@ This All-in-One looks so cool that no one will ever guess that you built it from
 
 Going vertical is the secret! Elevate all your computer parts off the desktop and mount them to the ViStand.
 
+<v2-switcher>
+  <div class="callout-container">
+    <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-elevating-parts/vistand-modular-all-in-one-raw.png">
+    <div class="callout" v2-switch-item="0"></div>
+    <div class="callout" v2-switch-item="1"></div>
+    <div class="callout" v2-switch-item="2"></div>
+    <div class="callout" v2-switch-item="3"></div>
+    <div class="callout" v2-switch-item="4"></div>
+    <div class="callout" v2-switch-item="5"></div>
+    <div class="callout" v2-switch-item="6"></div>
+    <div class="callout" v2-switch-item="7"></div>
+  </div>
+  <div class="callout-text">
+    <v2-switch-text>
+      <strong>ViStand</strong>
+    </v2-switch-text>
+    <v2-switcch-text>
+      <strong>Keyboard Shelf</strong> Integrated into ViStand, just under and behind your display, is the keyboard shelf that will receive and hold your keyboard when you need to free up desktop space.
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>Headset Holder</strong> While you’re clearing off your desk space, here’s a convenient spot to hang your headset. Never in the way, always within reach.
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>Tilt Hinge</strong> Allows you to adjust and hold the tilt of your screen to optimal ergonomic angle or to avoid reflections of ceiling lights. Since ViStand supports such a wide range of display sizes and weights, the torque resistance of the hinge is adjustable to match your display size!
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>Sound Bar Speaker</strong> If your display has no integrated speakers then ViStand provides space to mount a sound bar. Perfectly hidden behind your display, yet optimal placement for best acoustics.
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>VESA Computer Mount</strong> ViStand is compatible with any VESA Computer Mount, supporting both the 75 mm and 100 mm mounting patterns. In this example we chose ViMount – the companion product which has the benefits of matching the materials, style, and design of ViStand. More importantly, it can securely hold any Mini-PC, notebook, tablet or phablet. For more on that see below …
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>Computer</strong> Your computer is mounted with a VESA Computer Mount to the ViStand. In this example it is a Mac mini. But by either choosing the right VESA Mount or by using ViMount you can mount any Mini-PC, notebook, tablet or phablet to ViStand.
+    </v2-switcch-text>
+    <v2-switcch-text>
+      <strong>Carry Grip</strong> Made of 20 mm wide, soft yet strong nylon belting, that conforms to the contours of your hand. Combine this with its placement at the center of gravity of your ViStand All-in-One and it makes carrying your All-in-One as comfortable as possible. Ideal to quickly change location, such as from work desk to meeting room, from kids’ room to living room, or to bring to a LAN party.
+    </v2-switcch-text>
+  </div>
+</v2-switcher>
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-elevating-parts/vistand-modular-all-in-one-raw.png)
 
 
