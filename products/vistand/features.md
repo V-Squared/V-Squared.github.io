@@ -43,7 +43,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
 </v2-switcher>
 
 
-# ViStand Elevates Your Parts
+# ViStand is Uplifting
 
 Going vertical is the secret! Elevate all your computer parts off the desktop and mount them to the ViStand.
 
@@ -138,7 +138,33 @@ Real world solution to hide and secure all your cables, extensions, and adapters
 
 ViStand with ViMount used as a Mobile Docking Station is designed to streamline the docking process.
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png)
+<v2-switcher>
+<div class="callout-container">
+  <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
+  <div class="callout" style="top: 42%;left: 38%;" v2-switch-item="0"></div>
+  <div class="callout" style="top: 37%;left: 45%;" v2-switch-item="1"></div>
+  <div class="callout" style="top: 44%;left: 71%;" v2-switch-item="2"></div>
+  <div class="callout" style="top: 32%;left: 64%;" v2-switch-item="3"></div>
+  <div class="callout" style="top: 16%;left: 57%;" v2-switch-item="4"></div>
+</div>
+<div class="callout-text">
+  <v2-switch-text>
+    <strong>Cables at the Ready</strong> We hated fishing for cables when docking our notebooks, or worse yet climbing under the table to pick up the bastard that dropped. Never again. Secure your cables to ViStand right opposite the ports they will be plugged into.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Ready Cable Holder</strong> ViMount comes with an aluminum custom made releasable cable holder for this purpose.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Ready at both Ends</strong> Most notebooks come with ports on both sides. Consequently ViStand lets you secure your cables on both sides too!
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>Secure your Computer</strong> The smaller your ultrabook or even tablet or phablet gets, the bigger and stronger in proportion become the cables. To make sure your valuable computer does not slip out of the holder, the ViMount lets you lock it down with an elastic cord.
+  </v2-switch-text>
+  <v2-switch-text>
+    <strong>World’s first Mobile VESA Mount</strong> To our knowledge the ViMount is the first VESA mount mastering the challenge to hold any mobile device, ranging from the diminutive 6" phablet to a monster 17" gaming notebook. For more → <a href="#universal-vesa-computer-mount">Universal VESA Computer Mount</a>
+  </v2-switch-text>
+</div>
+</v2-switcher>
 
 
 # ViStand Naked
