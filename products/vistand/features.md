@@ -24,7 +24,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   </div>
   <div class="callout-text">
   <v2-switch-text>
-    <strong>Webcam</strong> ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and ViStand Naked to see in more detail just how ViStand helps keep your desk free of cable clutter.
+    <strong>Webcam</strong> ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and The ViStand Design to see in more detail just how ViStand helps keep your desk free of cable clutter.
   </v2-switch-text>
   <v2-switch-text>
     <strong>Microphone</strong> If you own a webcam it probably has a built-in microphone. But if all you need is a microphone, you can use a lapel type mic with a specialized display clip. The Audio Technica ATR4650 Mic is a great example.
@@ -61,7 +61,7 @@ Going vertical is the secret! Elevate all your computer parts off the desktop an
   </div>
   <div class="callout-text">
     <v2-switch-text>
-      <strong>ViStand</strong>
+      <strong>ViStand</strong> Although ViStand can carry over 10 computer items and even more cables, it is very diminutive in size and you may have a hard time to make it out in this picture. See → <a href="#the-vistand-design">The ViStand Design</a>.
     </v2-switch-text>
     <v2-switch-text>
       <strong>Keyboard Shelf</strong> Integrated into ViStand, just under and behind your display, is the keyboard shelf that will receive and hold your keyboard when you need to free up desktop space.
@@ -127,7 +127,7 @@ Real world solution to hide and secure all your cables, extensions, and adapters
     <strong>Power Adapter</strong> Some Mini Computers (like this Alienware Alpha) and all Notebooks come with a power adapter. You already know the refrain: Tie it up to ViStand!
   </v2-switch-text>
   <v2-switch-text>
-    <strong>Back Panel with Mounting Hole Grid</strong> This may strike you as a case of the computer looking much better in the brochure than in flesh and blood on your desk. We guarantee that yours will actually look as slick. The key component is the one you cannot see: the back panel with mounting hole grid, to which you strap all your cables and adapters with releasable cable ties. You can see the panel here → <a href="#vistand-naked">ViStand Naked</a>.
+    <strong>Back Panel with Mounting Hole Grid</strong> This may strike you as a case of the computer looking much better in the brochure than in flesh and blood on your desk. We guarantee that yours will actually look as slick. The key component is the one you cannot see: the back panel with mounting hole grid, to which you strap all your cables and adapters with releasable cable ties. You can see the panel here → <a href="#the-vistand-design">The ViStand Design</a>.
   </v2-switch-text>
 </div>
 </v2-switcher>
@@ -167,9 +167,9 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
 </v2-switcher>
 
 
-# ViStand Naked
+# The ViStand Design
 
-A view of ViStand with all included parts assembled. You will never use ViStand without third party parts, but for the first time here you actually can see the product. We designed ViStand so well, that in use it actually disappears. A real marketing problem!
+A view of ViStand with all included parts assembled. You will never use ViStand without third party components, but for the first time here you actually can see the product. We designed ViStand so well, that in use it actually disappears. A real marketing problem!
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-front-raw.png)
 
