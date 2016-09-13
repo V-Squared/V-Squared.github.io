@@ -55,8 +55,8 @@ Going vertical is the secret! Elevate all your computer parts off the desktop an
     <div class="callout" style="top: 63%; left: 66%" v2-switch-item="2"></div>
     <div class="callout" style="top: 42%; left: 50%" v2-switch-item="3"></div>
     <div class="callout" style="top: 63%; left: 51%" v2-switch-item="4"></div>
-    <div class="callout" style="top: 30%; left: 52%" v2-switch-item="5"></div>
-    <div class="callout" style="top: 43%; left: 57%" v2-switch-item="6"></div>
+    <div class="callout" style="top: 45%;left: 61%;" v2-switch-item="5"></div>
+    <div class="callout" style="top: 29%;left: 55%;" v2-switch-item="6"></div>
     <div class="callout" style="top: 14%; left: 52%" v2-switch-item="7"></div>
   </div>
   <div class="callout-text">
@@ -141,11 +141,11 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
 <v2-switcher>
 <div class="callout-container">
   <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
-  <div class="callout" style="top: 42%;left: 40%;" v2-switch-item="0"></div>
-  <div class="callout" style="top: 37%;left: 47%;" v2-switch-item="1"></div>
-  <div class="callout" style="top: 44%;left: 71%;" v2-switch-item="2"></div>
-  <div class="callout" style="top: 32%;left: 64%;" v2-switch-item="3"></div>
-  <div class="callout" style="top: 16%;left: 57%;" v2-switch-item="4"></div>
+  <div class="callout" style="top: 42%;left: 40%;" v2-switch-item="1"></div>
+  <div class="callout" style="top: 37%;left: 47%;" v2-switch-item="2"></div>
+  <div class="callout" style="top: 44%;left: 71%;" v2-switch-item="3"></div>
+  <div class="callout" style="top: 32%;left: 64%;" v2-switch-item="4"></div>
+  <div class="callout" style="top: 16%;left: 57%;" v2-switch-item="0"></div>
 </div>
 <div class="callout-text">
   <v2-switch-text>
