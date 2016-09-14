@@ -9,6 +9,10 @@
 
   .feature-row > div:first-child {
     margin-right: 80px;
+
+    @include media-query($on-tablet) {
+      margin-right:0;
+    }
   }
 
   h1 {
