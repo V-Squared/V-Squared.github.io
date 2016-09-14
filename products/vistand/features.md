@@ -256,7 +256,7 @@ While ViStand is compatible with any VESA Computer Mount, you may choose our com
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
-         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the <a href="#six-way-airflow">ViMount 6-Way Airflow™</a>. ??? Fix the link!</p>
+         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the <a href="#six-way-airflow">ViMount 6-Way Airflow™</a>.</p>
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
@@ -296,59 +296,6 @@ While ViStand is compatible with any VESA Computer Mount, you may choose our com
   </div>
 </div>
 </v2-switcher>
-
-## Made for each other ...
-
-... in both styling and materials.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png)
-
-
-## Optimized for Cooling {#six-way-airflow}
-
-ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png)
-
-
-## Fasten your Seat Belt!
-
-Adjustable elastic cord secures your valuable device gently but firmly. 
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png)
-
-
-## Mac mini
-
-ViMount is compatible with any version. Even better, if Apple comes out with a new shape it still will work with your old ViMount.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-macmini-raw.png)
-
-
-## Laptop
-
-Whatever your laptop size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several notebooks (or tablets), of varying sizes, which all will work when using this as a shared mobile workstation.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-notebook-raw.png)
-
-## Tablet
-
-Whatever your tablet size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several tablets (or notebooks), of varying sizes, which all will work when using this as a shared mobile workstation.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-tablet-raw.png)
-
-## Alienware Alpha
-
-Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware's performance, thanks to the [ViMount 6-Way Airflow™](#six-way-airflow). ??? Fix the link!
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png)
-
-
-## Intel NUC
-
-Even the NUC's ultra small package is held securely in ViMount, when using with 75 mm VESA spacing. You may want to secure it with the elastic cord.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png)
 
 
 
