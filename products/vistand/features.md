@@ -251,7 +251,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
-         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the <a href="#six-way-airflow">ViMount 6-Way Airflow™</a>.</p>
+         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the ViMount 6-Way Airflow™ described above ( &#8618; "Optimized for Cooling").</p>
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
