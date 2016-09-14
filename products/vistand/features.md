@@ -184,9 +184,11 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png">
+        <p>Designed specifically for the Alienware Alpha or Steam</p>
       </v2-switch-text>
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png">
+        <p>Designed specifically for one Mac mini model.</p>
       </v2-switch-text>
     </div>
     <div flex-gt-sm="50">
