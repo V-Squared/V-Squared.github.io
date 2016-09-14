@@ -226,6 +226,77 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 While ViStand is compatible with any VESA Computer Mount, you may choose our companion product – ViMount – because of its free airflow and compatibility with just about any small computer or device.
 
+<v2-switcher>
+<div class="feature-section vertical-tab-section">
+  <div layout="column" layout-gt-sm="row" class="feature-row">
+    <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png">
+        <p class="caption-text">… in both styling and materials.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png">
+        <p class="caption-text">ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png">
+        <p class="caption-text">Adjustable elastic cord secures your valuable device gently but firmly.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-macmini-raw.png">
+        <p class="caption-text">ViMount is compatible with any version. Even better, if Apple comes out with a new shape it still will work with your old ViMount.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-notebook-raw.png">
+        <p class="caption-text">Whatever your laptop size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several notebooks (or tablets), of varying sizes, which all will work when using this as a shared mobile workstation.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-tablet-raw.png">
+        <p class="caption-text">Whatever your tablet size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several tablets (or notebooks), of varying sizes, which all will work when using this as a shared mobile workstation.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
+         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the <a href="#six-way-airflow">ViMount 6-Way Airflow™</a>. ??? Fix the link!</p>
+      </v2-switch-text>
+      <v2-switch-text>
+         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
+         <p class="caption-text">Even the NUC’s ultra small package is held securely in ViMount, when using with 75 mm VESA spacing. You may want to secure it with the elastic cord.</p>
+      </v2-switch-text>
+    </div>
+    <div flex-gt-sm="50">
+      <h1>Universal VESA Computer Mount</h1>
+      <p>While ViStand is compatible with any VESA Computer Mount, you may choose our companion product – ViMount – because of its free airflow and compatibility with just about any small computer or device.</p>
+      <div class="vertical-tabs">
+      <div class="tab-item" v2-switch-item="0">
+        Made for each other …
+      </div>
+      <div class="tab-item" v2-switch-item="1">
+        Optimized for Cooling
+      </div>
+      <div class="tab-item" v2-switch-item="2">
+        Fasten your Seat Belt!
+      </div>
+      <div class="tab-item" v2-switch-item="3">
+        Mac mini
+      </div>
+      <div class="tab-item" v2-switch-item="4">
+        Laptop
+      </div>
+      <div class="tab-item" v2-switch-item="5">
+        Tablet
+      </div>
+      <div class="tab-item" v2-switch-item="6">
+         Alienware Alpha
+       </div>
+       <div class="tab-item" v2-switch-item="7">
+        Intel NUC
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+</v2-switcher>
+
 ## Made for each other ...
 
 ... in both styling and materials.
