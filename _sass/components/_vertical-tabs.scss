@@ -1,0 +1,40 @@
+$blue-gray: #EEF4FC;
+
+.vertical-tabs {
+  margin-top: $spacing-unit / 2;
+
+  > .tab-item {
+    background: $blue-gray;
+    color: rgba(0,0,0,0.87);
+    padding: 10px;
+    position: relative;
+    margin-bottom: $spacing-unit / 2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &::after {
+      right: 100%;
+      top: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      transition: border-right-color 0.3s ease;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(33, 150, 243, 0);
+      border-right-color: $blue-gray;
+      border-width: 22px;
+      margin-top: -22px;
+    }
+
+    &:hover, &.active {
+      background: $brand-color;
+      color: #FFF;
+
+      &::after {
+        border-right-color: $brand-color;
+      }
+    }
+  }
+}

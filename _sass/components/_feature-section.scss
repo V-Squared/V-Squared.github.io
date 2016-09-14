@@ -3,11 +3,18 @@
   padding: 70px 0;
   background: #FFF;
 
-  div[layout=row].feature-row > div:first-child {
+  &.article-feature {
+    padding:0;
+  }
+
+  .feature-row > div:first-child {
     margin-right: 80px;
   }
 
   h1 {
+    padding: 0;
+    margin:0;
+    border: none;
     padding-bottom: $spacing-unit;
     font-size:34px;
   }

@@ -24,7 +24,7 @@ layout: default
     {% include article-bar.html nav=bookbar board=boardUrl %}
 
     {% endif %}
-    <div flex class="article md-whiteframe-5dp"  {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
+    <div flex class="article md-whiteframe-5dp"  {% if articleBar == 'no' or page.feature %}style="max-width:inherit"{% endif %} >
 
       {% include article-jumbo/article-jumbo.html %}
 
