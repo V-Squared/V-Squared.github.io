@@ -23,7 +23,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   <div v2-switch-item="3" class="callout" style="top: 71%;left: 55%;"></div>
   <div v2-switch-item="4" class="callout" style="top: 71%;left: 67%;"></div>
   </div>
-  <div class="callout-text">
+  <div class="caption-text">
   <v2-switch-text>
     <strong>VESA Displays 22" … 32"</strong> ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.
   </v2-switch-text>
@@ -60,7 +60,7 @@ Going vertical is the secret! Elevate all your computer parts off the desktop an
     <div class="callout" style="top: 29%;left: 55%;" v2-switch-item="6"></div>
     <div class="callout" style="top: 14%; left: 52%" v2-switch-item="7"></div>
   </div>
-  <div class="callout-text">
+  <div class="caption-text">
     <v2-switch-text>
       <strong>ViStand</strong> Although ViStand can carry over 10 computer items and even more cables, it is very diminutive in size and you may have a hard time to make it out in this picture. See → <a href="#the-vistand-design">The ViStand Design</a>.
     </v2-switch-text>
@@ -105,7 +105,7 @@ Real world solution to hide and secure all your cables, extensions, and adapters
   <div class="callout" style="top: 50%;left: 52%;" v2-switch-item="6"></div>
   <div class="callout" style="top: 34%;left: 40%;" v2-switch-item="7"></div>
 </div>
-<div class="callout-text">
+<div class="caption-text">
   <v2-switch-text>
     <strong>Only One Cable</strong> ViStand reduces your cable clutter to one power cable running from your desk to the wall. Your work space is clean and productive, and relocating your All-in-One is a breeze: 1. Hibernate 2. Unplug 3. Carry.
   </v2-switch-text>
@@ -148,7 +148,7 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
   <div class="callout" style="top: 44%;left: 71%;" v2-switch-item="3"></div>
   <div class="callout" style="top: 32%;left: 64%;" v2-switch-item="4"></div>
 </div>
-<div class="callout-text">
+<div class="caption-text">
   <v2-switch-text>
     <strong>World’s first Mobile VESA Mount</strong> To our knowledge the ViMount is the first VESA mount mastering the challenge to hold any mobile device, ranging from the diminutive 6" phablet to a monster 17" gaming notebook. For more → <a href="#universal-vesa-computer-mount">Universal VESA Computer Mount</a>
   </v2-switch-text>
@@ -179,16 +179,16 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 # Any VESA Computer Mount
 
 <v2-switcher>
-<div class="feature-section">
+<div class="feature-section vertical-tab-section">
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png">
-        <p>Designed specifically for the Alienware Alpha or Steam</p>
+        <p class="caption-text">Designed specifically for the Alienware Alpha or Steam</p>
       </v2-switch-text>
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png">
-        <p>Designed specifically for one Mac mini model.</p>
+        <p class="caption-text">Designed specifically for one Mac mini model.</p>
       </v2-switch-text>
     </div>
     <div flex-gt-sm="50">

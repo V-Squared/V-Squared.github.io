@@ -45,7 +45,6 @@ md-content {
   }
 
 
-
   ul>li>ul,
   ol>li>ul,
   ul>li>ol,
@@ -56,4 +55,8 @@ md-content {
   .footnote {
 
   }
+}
+
+.caption-text {
+  margin-top: ($spacing-unit / 2) / 2 !important;
 }

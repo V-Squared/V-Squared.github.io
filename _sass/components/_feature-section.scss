@@ -7,6 +7,15 @@
     padding:0;
   }
 
+  &.vertical-tab-section {
+    h1 {
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: inherit;
+    }
+  }
+
   .feature-row > div:first-child {
     margin-right: 80px;
 
