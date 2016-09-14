@@ -221,11 +221,6 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 </v2-switcher>
 
 
-
-# Universal VESA Computer Mount
-
-While ViStand is compatible with any VESA Computer Mount, you may choose our companion product – ViMount – because of its free airflow and compatibility with just about any small computer or device.
-
 <v2-switcher>
 <div class="feature-section vertical-tab-section">
   <div layout="column" layout-gt-sm="row" class="feature-row">
