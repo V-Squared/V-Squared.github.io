@@ -176,7 +176,6 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-rear-raw.png)
 
-# Any VESA Computer Mount
 
 <v2-switcher>
 <div class="feature-section vertical-tab-section">
@@ -190,6 +189,14 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png">
         <p class="caption-text">Designed specifically for one Mac mini model.</p>
       </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png">
+        <p class="caption-text">Intel® NUC Kits include a VESA mount bracket.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png">
+        <p class="caption-text">VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.</p>
+      </v2-switch-text>
     </div>
     <div flex-gt-sm="50">
       <h1>Any VESA Computer Mount</h1>
@@ -201,36 +208,18 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
       <div class="tab-item" v2-switch-item="1">
         HideIt MacMini
       </div>
+      <div class="tab-item" v2-switch-item="2">
+        Intel NUC
+      </div>
+      <div class="tab-item" v2-switch-item="3">
+        ViCase Bracket
+      </div>
       </div>
     </div>
   </div>
 </div>
 </v2-switcher>
 
-
-## HideIt Alienware
-
-Designed specifically for the Alienware Alpha or Steam
-  
-  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png)
-
-## HideIt MacMini
-
-Designed specifically for one Mac mini model. 
- 
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png)
-
-## Intel NUC
-
-Intel® NUC Kits include a VESA mount bracket.
- 
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png)
-
-## ViCase Bracket
-
-VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.
-
- ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png)
 
 
 # Universal VESA Computer Mount
