@@ -25,7 +25,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   </div>
   <div class="caption-text">
   <v2-switch-text>
-    <strong>VESA Displays 22" … 32"</strong> ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.
+    <strong>VESA Displays 22" … 34"</strong> ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.
   </v2-switch-text>
   <v2-switch-text>
     <strong>Webcam</strong> ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and The ViStand Design to see in more detail just how ViStand helps keep your desk free of cable clutter.
@@ -251,7 +251,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
-         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the ViMount 6-Way Airflow™ described above ( &#8618; "Optimized for Cooling").</p>
+         <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the ViMount 6-Way Airflow™ described above → "Optimized for Cooling".</p>
       </v2-switch-text>
       <v2-switch-text>
          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
@@ -259,7 +259,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
       </v2-switch-text>
     </div>
     <div flex-gt-sm="50">
-      <h1>Universal VESA Computer Mount</h1>
+      <h1 id="universal-vesa-computer-mount">Universal VESA Computer Mount</h1>
       <p>While ViStand is compatible with any VESA Computer Mount, you may choose our companion product – ViMount – because of its free airflow and compatibility with just about any small computer or device.</p>
       <div class="vertical-tabs">
       <div class="tab-item" v2-switch-item="0">
@@ -294,24 +294,14 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 
 
-# ViStand Display Adjustments
-
-- 3 Height positions
-- 3 Angle position
-- Show in a slide show of 6 images just how you can adjust the display
-- Title & copy gives information on height and angles
-
-# Efficient Accessory Holder
-
-ViStand conveniently holds and organizes a ridiculous number of accessories for your Modular All-in-One PC or Mobile Docking Station. We said it before — but we feel it bears repeating — every accessory that the ViStand holds for you is less clutter on your desktop.
 
 
 
 
 # Trademarks & Copyrights
 
-ViStand™, ViMount™, ViCase™, V², V-Squared,  V²Stand™, V²Mount™, V²Case™, Modular All-in-One™, Mobile Docking Workstation™, ViMount 6-Way Airflow™, 3-Chamber Airflow™, are trademarks of V-Squared and Village Tronic.
+ViStand™, ViMount™, ViCase™, V², V-Squared, V²Stand™, V²Mount™, V²Case™, Modular All-in-One™, Mobile Docking Workstation™, ViMount 6-Way Airflow™, 3-Chamber Airflow™, Dual Display All-inOne™, Modular Desktop All-in-One™, V² Trailblazer Products™, Upgrading versus Upbuying™, You Fix It™, Cow in a Thunderstorm™ are trademarks of V-Squared and Village Tronic.
+
+IFIXIT™ is a trademark of <a href="https://www.ifixit.com/">IFIXIT</a>
 
 Intel®, NUC®, are trademarks of Intel. Mac Mini® is a trademark of Apple®.
-
-
