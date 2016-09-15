@@ -4,7 +4,7 @@ title: ViStand™ Introduction
 subtitle: Introduction to Modular All-in-One Converter™ & Mobile Docking Station™
 abstract: >
    This is the community development product page of ViStand. Anyone with a GitHub account can make an improvement suggestion, either by making a comment in the accompanying GitHub issue or by making a pull request. Both are done by simply clicking the V²Flow Button – the editor’s pencil within an orange circle.
-issueNo: 
+issueNo: 224
 readiness:
    - is-complete
    - is-active
@@ -111,7 +111,7 @@ ViStand is the missing component to make the Modular All-in-One a reality for yo
 - [Display Freedom](#display-freedom) No need to make compromises when choosing your display!
 - [Modular Desktop All-in-One](#modular-desktop-all-in-one) Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.
 - [Sleek & Stylish](#sleek--stylish)Clean minimalist design with maximum utility & upgradeability.
-- [Mobile Docking Workstation™](#mobile-docking-workstation™)Go with your mobile where no mobile has gone before: Do real work comfortably!
+- [Mobile Docking Workstation™](#mobile-docking-workstation™) Go with your mobile where no mobile has gone before: Do real work comfortably!
 - [Portable Workstation](#portable-workstation) When a mobile device is not enough but you need portability!
 - [ViStand grows with You ...](#vistand-grows-with-you-...) ... as your needs or budget increases you simply upgrading versus upbuying.
 - [You Fix It™](#you-fix-it™) Repair, don't repurchase! Both your wallet and the planet will thank you!
@@ -182,14 +182,14 @@ You can choose virtually any VESA compatible monitor for your ViStand Modular Al
 
 # Modular Desktop All-in-One
 
-We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 16 core XEON CPU and a GTX 1080 or Quadro 4000. 
+ViStand enables you to go where no All-in-One has gone before: Extreme Designer Workstations!
 
 ``Begin Art Brief: Slideshow``
 
 - __Product Line:__ ViStand 
 - __Binder Path:__ /art/vistand/
 - __Type:__ Slideshow
-- __Story:__ We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 16 core XEON CPU and a GTX 1080 or Quadro 4000. 
+- __Story:__ We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 24 core XEON CPU and a GTX 1080 or Quadro 4000. 
 - __Group Path:__ /art/vistand/modular-desktop/
 - __Slides:__ 
    - Slide 1 Title: __Ever seen a Desktop Configuration this clean?__ 
@@ -233,7 +233,8 @@ Simply beautiful from all angles.
 
 ``Art Brief: Begin Slideshow emulating 360° view``
 
-Image description: 
+*Image description:*
+
    - 34" inch curved + Alienware + no headphone, one cable running off the table, 60 cm deep table
    - 8 images, all taken with 45° angles.
    - full cabling, but all cables black, they will not show much features
@@ -247,28 +248,46 @@ Image description:
 
 Go with your mobile where no mobile has gone before: Do real work comfortably!
 
+``Begin Art Brief: Slideshow``
+
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Slideshow
+- __Story:__
+   - __Story 1:__ Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for  just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.
+   - __Story 2:__ Schools and Universities have Computer Lab. Mostly they are All-in-Ones. Some of the students already have more powerful notebooks than those All-in-Ones. Providing a Mobile Docking Workstation is a Win-Win for both: The student can use his more powerful Notebook and the school can save a lot of money.
+- __Group Path:__ /art/vistand/mobile-docking/
+- __Slides:__ 
+   - Slide 1 Title: __Insert Portable__ 
+      - *Slide Copy:* Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Phoenix inserting notebook with the beak.
+      - *File Name:* insert-portable-raw.png
+      - Image Processing* ???
+   - Slide 2 Title: __Secure Portable__ 
+      - *Slide Copy:* Fasten the elastic rope to secure your valuable computer (optional).
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - 32" display, ViMount, Notebook
+         - Elastic Cord 3mm
+      - *File Name:* secure-portable-raw.png
+      - Image Processing* ???
+   - Slide 3 Title: __Quick Plugging in Cables__ 
+      - *Slide Copy:* ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Show the cable bouquet on same side as connectors of notebook
+      - *File Name:* quick-plug-cables-raw.png
+      - Image Processing* ???
+   - Slide 4 Title: __Enjoy your ergonomic Workstation__ 
+      - *Slide Copy:* Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Phoenix in front of workstation
+      - *File Name:* enjoy-mobile-workstation-raw.png
+      - Image Processing* ???
+
+``End Art Brief``
 
 
-```
-Begin Slideshow
-```
-1. **Insert Portable**
-   - Easy to insert. Virtually any ultrabook, tablet, or gaming laptop fits.
-   - *Image:* Phoenix inserting with beak
-2. **Secure Portable**
-   -  Fasten the elastic rope to secure your valuable computer (optional).
-3. **Quick Plugging in Cables**
-   - ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible. 
-   - *Image:* Show the cable bouquet on same side as connectors of notebook
-4. **Enjoy your ergonomic Workstation**
-   - *Image:* Phoenix in front of workstation
-``` 
-End Slideshow
-```
-
-Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for  just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.
-
-Example School Portable Lab
 
 
 
@@ -277,11 +296,12 @@ Example School Portable Lab
 
 Unchain your Desktop!
 
-```
-Art Brief
+``Begin Art Brief Photo``
+
 - Image
 - Violet Walking with ViStand AiO
-```
+
+``End Art Brief``
 
 There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get *Agile* and illustrate the point with a *User Story*: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.
 
@@ -293,14 +313,29 @@ There are moments where just portable is not enough. When you need the power of 
 ... as your needs or budget increases you simply upgrade versus upbuying.
 
 
-New idea: Time Line: 
-2016: Bought ViStand Modular All-in-One
-2020: Replaced the Mini PC with latest and greatest
-2022: Upgraded 24" Display to 34" curved
-2024: Replaced the Mini PC with latest and greatest
- ...
+``Begin Art Brief Image``
 
-The basic idea is, that in the interval where you would have upgraded the entire All-in-One you now only need to upgrade half. And keep in mind that thanks to further modularity, you can keep upgrading other components, such as webcam or speaker at really low cost when you need it.
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Image
+- __Story:__ The basic idea is, that in the interval where you would have upgraded the entire All-in-One you now only need to upgrade half. And keep in mind that thanks to further modularity, you can keep upgrading other components, such as webcam or speaker at really low cost when you need it.
+- __Image Folder Path:__ /art/vistand/grows-with-you/
+- __Image:__
+   - Image Title: __???__ 
+      - *Image Copy:* ???
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - Use below text and render it in 3D real view. Blue color.
+         - 2016: Buy ViStand Modular All-in-One
+         - 2020: First Upgrade Mini PC
+         - 2022: Upgrade 24" Display to 34"
+         - 2024: Second Upgrade Mini PC
+         -  ...
+      - *File Name:* grows-with-you-raw.png
+      - Image Processing* 540p
+
+``End Art Brief`
+
 
 
 
@@ -308,15 +343,27 @@ The basic idea is, that in the interval where you would have upgraded the entire
 
 Repair, don't repurchase! Both your wallet and the planet will thank you! Compared to the traditional All-in-One: The death of a single module is **not** the death of the entire computer.
 
-- Story: Making your ViStand Modular All-in-One easy to repair was a core design imperative. From conception through design, beta-testing and after sales support, our focus is on making repairs easy for you. This is head and shoulders above traditional All-in-Ones which sometimes leave the impression that the makers went out of their way to limit your repair options.
-- *Image Description:*
-   - single image
-   - 1x2 up
-   - left: good, explosion 6 modules → Chassis, Display, Speaker, Webcam, Power Supply
-   - right, bad, →  Monolithic, Pick a generic looking All in One
-- *Image Copy:* With traditional AiO designs the failure of any component, large or small, can render the machine either less productive or entirely toast. Even if repair is technically an option, it may be expensive and require you to leave your computer at a repair center, while you lose productivity and profits. <br>We embrace the philosophy of [iFixit](https://www.ifixit.com/) – wherever possible, we want you to be able to effect repairs and replace components on your own. 
+``Begin Art Brief``
 
-{Story Slideshow}
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Image
+- __Story:__ Making your ViStand Modular All-in-One easy to repair was a core design imperative. From conception through design, beta-testing and after sales support, our focus is on making repairs easy for you. This is head and shoulders above traditional All-in-Ones which sometimes leave the impression that the makers went out of their way to limit your repair options.
+- __Image Folder Path:__ /art/vistand/you-fix-it/
+- __Image:__
+   - Image Title: __Designed for Easy Repair__ 
+      - *Image Copy:* With traditional AiO designs the failure of any component, large or small, can render the machine either less productive or entirely toast. Even if repair is technically an option, it may be expensive and require you to leave your computer at a repair center, while you lose productivity and profits. <br>We embrace the philosophy of [iFixit](https://www.ifixit.com/) – wherever possible, we want you to be able to effect repairs and replace components on your own. 
+      - *Image* {optional inserted image if available}
+      - *Image Description:*
+         - single image
+         - 1x2 up
+         - left: good, explosion 6 modules → Chassis, Display, Speaker, Webcam, Power, Computer
+         - *hard titles:* Good: Modular {green} | Bad: Monolithic {red}
+      - *File Name:* designed-for-repair-raw.png
+      - Image Processing* 540p. Add hard titles as per description.
+
+``End Art Brief``
+
 
 
 
@@ -343,7 +390,9 @@ Proven ways to reduce pain and strain while working with tablets and notebooks.
 	      - Right = Bad:
 	         - Side view of user with notebook at Desk. User is slouching. Red line shows that.  
       - *Folder Name:* /art/vistand/enhance-comfort
-      - *File Name:* free_of_headache-raw.png
+      - *File Names:* 
+         - free_of_headache-good-raw.png
+         - free_of_headache-bad-raw.png
       - Image Processing* ???
    - Slide 2 Title: __Comfortable Wrists__ 
       - *Slide Copy:* Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.
@@ -356,7 +405,9 @@ Proven ways to reduce pain and strain while working with tablets and notebooks.
 	      - Right = Bad:
 	         - Top view user using full notebook with integrated touch pad. Small red movement area overlay. 
       - *Folder Name:* /art/vistand/enhance-comfort
-      - *File Name:* comfortable_wrists-raw.png
+      - *File Names:*
+         - comfortable_wrists-good-raw.png
+         - comfortable_wrists-bad-raw.png
       - Image Processing* ???
    - Slide 3 Title: __More Energy__ 
       - *Slide Copy:* A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!
@@ -368,7 +419,9 @@ Proven ways to reduce pain and strain while working with tablets and notebooks.
 	      - Right = Bad:
 	         - Notebook with with 12" screen size. Red size overlay. Inside says: 100%. Overlay done in image processing.
       - *Folder Name:* /art/vistand/enhance-comfort
-      - *File Name:* more_energy-raw.png
+      - *File Names:* more_energy-raw.png
+         - more_energy-good-raw.png
+         - more_energy-bad-raw.png
       - Image Processing* ???
 
 ``End Art Brief``
@@ -388,6 +441,8 @@ Proven ways to reduce pain and strain while working with tablets and notebooks.
 
 - Illustration for "Enhance Comfort" http://www.3dconnexion.com/
    - ![](http://www.3dconnexion.com/uploads/tx_icccegreybox/24_ebook_reduce_pain.jpg)
+
+
 
 # References
 
@@ -446,14 +501,23 @@ In our case we use slideshow because each slideshow is about one feature. The sl
 
 ### Image
 
-``Begin Art Brief``
-- __Folder Name:__ /???/
-- __File Name:__ ???-raw.png
+``Begin Art Brief Image``
+
+- __Product Line:__ ??? {Binder: ViStand, ViMount, ViAiO}
+- __Binder Path:__ /art/???/
 - __Type:__ Image
-- __Image Description:__
-   - ???
-   - ???
-- __Image Processing__
+- __Story:__ ???
+- __Image Folder Path:__ ??? {Folder, grouping all image variation files}
+- __Image:__
+   - Image Title: __???__ 
+      - *Image Copy:* ???
+      - *Image* {optional inserted image if available}
+      - *Image Description:* ???
+         - ???
+         - ???
+      - *File Name:* ???-raw.png
+      - Image Processing* ???
+
 ``End Art Brief``
 
 ### Slideshow
@@ -610,6 +674,12 @@ Going vertical is the secret. Elevate your computer off the desktop and mount it
 - BC: Quick review of structure
 - HC & GI fill in structure
 - BC & TC review art briefs
-- TC polishes the text to American political correct, can be done after friday
+- TC polishes the text to American political correct, can be done after Friday
 
+## After Guilin
+
+- Replace Solidworks Man with outline man in Enhance comfort
+- Implement Story 2 of Mobile Docking Workstation
+- → → Use Case Notebook + Docking Station ← ←
+- The story in "You Fix It" is very good, but up until now not used. How to use it?
 
