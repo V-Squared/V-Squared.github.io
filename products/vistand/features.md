@@ -228,16 +228,16 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png">
-        <p class="caption-text">… in both styling and materials.</p>
-      </v2-switch-text>
-      <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png">
         <p class="caption-text">ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.</p>
       </v2-switch-text>
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png">
         <p class="caption-text">Adjustable elastic cord secures your valuable device gently but firmly.</p>
+      </v2-switch-text>
+      <v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png">
+        <p class="caption-text">… in both styling and materials.</p>
       </v2-switch-text>
       <v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-macmini-raw.png">
@@ -265,13 +265,13 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
       <p>While ViStand is compatible with any VESA Computer Mount, you may choose our companion product – ViMount – because of its free airflow and compatibility with just about any small computer or device.</p>
       <div class="vertical-tabs">
       <div class="tab-item" v2-switch-item="0">
-        Made for each other …
-      </div>
-      <div class="tab-item" v2-switch-item="1">
         Optimized for Cooling
       </div>
-      <div class="tab-item" v2-switch-item="2">
+      <div class="tab-item" v2-switch-item="1">
         Fasten your Seat Belt!
+      </div>
+      <div class="tab-item" v2-switch-item="2">
+        Made for each other …
       </div>
       <div class="tab-item" v2-switch-item="3">
         Mac mini
