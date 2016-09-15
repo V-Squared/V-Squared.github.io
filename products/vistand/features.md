@@ -5,6 +5,8 @@ subtitle: Features of Modular All-in-One Converter & Mobile Docking Station
 abstract: 
 issueNo: 
 readiness:
+   - is-complete
+   - is-complete
    - is-active
 feature: true
 ---
