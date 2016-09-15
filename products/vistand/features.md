@@ -2,8 +2,9 @@
 layout: page
 title: ViStand Features
 subtitle: Features of Modular All-in-One Converter & Mobile Docking Station
-abstract: 
-issueNo: 
+abstract: >
+   This is the community development product page of ViStand Features. Anyone with a GitHub account can make an improvement suggestion, either by making a comment in the accompanying GitHub issue or by making a pull request. Both are done by simply clicking the V²Flow Button – the editor’s pencil within an orange circle.
+issueNo: 225
 readiness:
    - is-complete
    - is-complete
