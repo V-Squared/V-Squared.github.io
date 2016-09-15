@@ -2,7 +2,8 @@
 layout: page
 title: ViStand™ Introduction
 subtitle: Introduction to Modular All-in-One Converter™ & Mobile Docking Station™
-abstract: This is the community development product page of ViStand. Anyone with a GitHub account can make an improvement suggestion. Either by making a comment in the accompanying GitHub issue or by making a pull request. Both simply done by click the V²Flow Button, the orange pencil to the right.
+abstract: >
+   This is the community development product page of ViStand. Anyone with a GitHub account can make an improvement suggestion, either by making a comment in the accompanying GitHub issue or by making a pull request. Both are done by simply clicking the V²Flow Button – the editor’s pencil within an orange circle.
 issueNo: 
 readiness:
    - is-complete
@@ -181,26 +182,25 @@ You can choose virtually any VESA compatible monitor for your ViStand Modular Al
 
 # Modular Desktop All-in-One
 
-We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: A 16 core XEON CPU and a GTX 1080 or Quadro 4000 simply demand a desktop PC. 
+We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 16 core XEON CPU and a GTX 1080 or Quadro 4000. 
 
 ``Begin Art Brief: Slideshow``
 
-- __Binder Name:__ /art/How Modular Desktop All-in-One/
-- __Type:__ Slideshow
-- __Story:__ ???
 - __Product Line:__ ViStand 
-- __Group Name:__ /art/vistand/How Modular Desktop All-in-One works/
+- __Binder Path:__ /art/vistand/
+- __Type:__ Slideshow
+- __Story:__ We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 16 core XEON CPU and a GTX 1080 or Quadro 4000. 
+- __Group Path:__ /art/vistand/modular-desktop/
 - __Slides:__ 
    - Slide 1 Title: __Ever seen a Desktop Configuration this clean?__ 
-      - *Slide Copy:*This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000.
+      - *Slide Copy:* This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000.
       - *Image* {optional inserted image if available}
       - *Image Description:* 
 	      - Dual 32" Dell on dual ViStands
 	      - Black keyboard & mouse & 3D mouse & graphics tablet
 	      - Simple table with 4 legs. We show the room floor, demonstrating that there is no desktop standing 
 	      - under the table.
-      - *Folder Name:* ???
-      - *File Name:* ???-raw.png
+      - *File Name:* clean-desktop-config-raw.png
       - Image Processing* ???
    - Slide 2 Title: __It even looks great from Behind__ 
       - *Slide Copy:* ???
@@ -210,20 +210,10 @@ We take the Modular All-in-One with all its benefits and extend it to include a 
 	      - Dual 32" Dell on dual ViStands
 	      - Small Desktop Case, placed behind the two displays and between them, standing on the table top
 	      - Use orange cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
-      - *Folder Name:* ???
-      - *File Name:* ???-raw.png
+      - *File Name:* great-from-behind-raw.png
       - Image Processing* ???
-   - Slide 3 Title: __Looks elegant even from the side__ 
-      - *Slide Copy:* ???
-      - *Image* {optional inserted image if available}
-      - *Image Description:* 
-      - Side view. Since we use a thin desktop case, placed touching the display it looks skinny
-      - keyboard parked
-      - *Folder Name:* ???
-      - *File Name:* ???-raw.png
-      - Image Processing* ???
-   - Slide 4 Title: __This is how ViStand tames Cable Mess__ 
-      - *Slide Copy:* ???
+   - Slide 3 Title: __ViStand tames Cable Mess__ 
+      - *Slide Copy:* Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!
       - *Image* {optional inserted image if available}
       - *Image Description:* 
 	      - *Camera:* Rear view
@@ -232,10 +222,10 @@ We take the Modular All-in-One with all its benefits and extend it to include a 
 	      - Use red cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
 	      - Headset Holder
       - *Folder Name:* ???
-      - *File Name:* ???-raw.png
+      - *File Name:* desktop-no-cable-mess-raw.png
       - Image Processing* ???
-   - Slide 3 Title: __???__ 
-      - *Slide Copy:* ???
+ - Slide 4 Title: __Beautiful from all Sides__ 
+      - *Slide Copy:* This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.  
       - *Image* {optional inserted image if available}
       - *Image Description:* ???
          - ???
@@ -248,48 +238,7 @@ We take the Modular All-in-One with all its benefits and extend it to include a 
 ``End Art Brief``
 
 
-``Begin Art Brief: Slideshow``
 
-
-1.  Slide Title: __Ever seen a Desktop Configuration this clean?__
-   - *Slide Copy:* This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000.
-   - *Image Name:*
-   - *Image Description:* 
-      - Dual 32" Dell on dual ViStands
-      - Black keyboard & mouse & 3D mouse & graphics tablet
-      - Simple table with 4 legs. We show the room floor, demonstrating that there is no desktop standing under the table.
-   - *Image Processing:*
-
-2.  Slide Title: __It even looks great from Behind__
-   - *Slide Copy:* 
-   - *Image Name:*
-   - *Image Description:* 
-      - *Camera:* Rear view
-      - Dual 32" Dell on dual ViStands
-      - Small Desktop Case, placed behind the two displays and between them, standing on the table top
-      - Use orange cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
-   - *Image Processing:*
-3.  Slide Title: __Looks elegant even from the side__
-   - *Slide Copy:*
-   - *Image Name:*
-   - *Image Description:*
-      - Side view. Since we use a thin desktop case, placed touching the display it looks skinny
-      - keyboard parked
-   - *Image Processing:*
-4.  Slide Title: __This is how ViStand tames Cable Mess__
-   - *Slide Copy:* 
-   - *Image Name:*
-   - *Image Description:* 
-      - *Camera:* Rear view
-      - Dual 32" Dell on dual ViStands
-      - Small Desktop Case, placed behind the two displays and between them, standing on the table top
-      - Use red cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
-      - Headset Holder
-
-
-
-
-``End Art Brief``
 
 # Sleek & Stylish
 
@@ -524,11 +473,11 @@ In our case we use slideshow because each slideshow is about one feature. The sl
 
 ``Begin Art Brief: Slideshow``
 
-- __Binder Name:__ /???/
+- __Product Line:__ ??? {Binder: ViStand, ViMount, ViAiO}
+- __Binder Path:__ /art/???/
 - __Type:__ Slideshow
 - __Story:__ ???
-- __Product Line: ??? {Binder}
-- __Group Name: ??? {Group, grouping all images of a slideshow}
+- __Group Path:__ ??? {Group, grouping all images of a slideshow}
 - __Slides:__ {Folder}
    - Slide 1 Title: __???__ 
       - *Slide Copy:* ???
@@ -536,7 +485,6 @@ In our case we use slideshow because each slideshow is about one feature. The sl
       - *Image Description:* ???
          - ???
          - ???
-      - *Folder Name:* ???
       - *File Name:* ???-raw.png
       - Image Processing* ???
    - Slide 2 Title: __???__ 
@@ -545,7 +493,6 @@ In our case we use slideshow because each slideshow is about one feature. The sl
       - *Image Description:* ???
          - ???
          - ???
-      - *Folder Name:* ???
       - *File Name:* ???-raw.png
       - Image Processing* ???
    - Slide 3 Title: __???__ 
@@ -554,7 +501,6 @@ In our case we use slideshow because each slideshow is about one feature. The sl
       - *Image Description:* ???
          - ???
          - ???
-      - *Folder Name:* ???
       - *File Name:* ???-raw.png
       - Image Processing* ???
 
