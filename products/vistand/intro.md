@@ -1,10 +1,11 @@
 ---
 layout: page
-title: ViStand Introduction
-subtitle: Introduction to Modular All-in-One Converter & Mobile Docking Station
-abstract: 
+title: ViStand™ Introduction
+subtitle: Introduction to Modular All-in-One Converter™ & Mobile Docking Station™
+abstract: This is the community development product page of ViStand. Anyone with a GitHub account can make an improvement suggestion. Either by making a comment in the accompanying GitHub issue or by making a pull request. Both simply done by click the V²Flow Button, the orange pencil to the right.
 issueNo: 
 readiness:
+   - is-complete
    - is-active
 ---
 
@@ -180,7 +181,7 @@ You can choose virtually any VESA compatible monitor for your ViStand Modular Al
 
 # Modular Desktop All-in-One
 
-We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide.
+We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: A 16 core XEON CPU and a GTX 1080 or Quadro 4000 simply demand a desktop PC. 
 
 ``Begin Art Brief: Slideshow``
 
@@ -233,8 +234,16 @@ We take the Modular All-in-One with all its benefits and extend it to include a 
       - *Folder Name:* ???
       - *File Name:* ???-raw.png
       - Image Processing* ???
+   - Slide 3 Title: __???__ 
+      - *Slide Copy:* ???
+      - *Image* {optional inserted image if available}
+      - *Image Description:* ???
+         - ???
+         - ???
+      - *Folder Name:* ???
+      - *File Name:* ???-raw.png
+      - Image Processing* ???
 
-A 16 core XEON CPU and a GTX 1080 or Quadro 4000 simply demand a desktop PC. 
 
 ``End Art Brief``
 
@@ -277,7 +286,7 @@ A 16 core XEON CPU and a GTX 1080 or Quadro 4000 simply demand a desktop PC.
       - Use red cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
       - Headset Holder
 
-A 16 core XEON CPU and a GTX 1080 or Quadro 4000 simply demand a desktop PC. 
+
 
 
 ``End Art Brief``
