@@ -201,38 +201,25 @@ We take the Modular All-in-One with all its benefits and extend it to include a 
 	      - Simple table with 4 legs. We show the room floor, demonstrating that there is no desktop standing 
 	      - under the table.
       - *File Name:* clean-desktop-config-raw.png
-      - Image Processing* ???
-   - Slide 2 Title: __It even looks great from Behind__ 
-      - *Slide Copy:* ???
-      - *Image* {optional inserted image if available}
-      - *Image Description:*   
-	      - *Camera:* Rear view
-	      - Dual 32" Dell on dual ViStands
-	      - Small Desktop Case, placed behind the two displays and between them, standing on the table top
-	      - Use orange cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
-      - *File Name:* great-from-behind-raw.png
-      - Image Processing* ???
-   - Slide 3 Title: __ViStand tames Cable Mess__ 
+      - Image Processing* 540 squared. 
+   - Slide 2 Title: __ViStand tames Cable Mess__ 
       - *Slide Copy:* Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!
       - *Image* {optional inserted image if available}
       - *Image Description:* 
 	      - *Camera:* Rear view
 	      - Dual 32" Dell on dual ViStands
 	      - Small Desktop Case, placed behind the two displays and between them, standing on the table top
-	      - Use red cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
+	      - Use orange cables to wire all cabling. They are tied up to both ViStand back panel. No cable touches the ground.
 	      - Headset Holder
-      - *Folder Name:* ???
+	      - *Camera View:* Standard view from behind.
       - *File Name:* desktop-no-cable-mess-raw.png
-      - Image Processing* ???
- - Slide 4 Title: __Beautiful from all Sides__ 
+      - Image Processing* 540 squared. 
+ - Slide 3 Title: __Beautiful from all Sides__ 
       - *Slide Copy:* This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.  
       - *Image* {optional inserted image if available}
-      - *Image Description:* ???
-         - ???
-         - ???
-      - *Folder Name:* ???
-      - *File Name:* ???-raw.png
-      - Image Processing* ???
+      - *Image Description:* Same as previous pictures. Orange cables are colored black. No need to render separately in SolidWorks. Will be done in image processing.
+      - *File Name:* desktop-beautiful-behind-raw.png
+      - Image Processing* 540 squared. Change orange cables to black cables.
 
 
 ``End Art Brief``
