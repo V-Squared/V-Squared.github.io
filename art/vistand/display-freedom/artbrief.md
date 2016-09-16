@@ -1,0 +1,51 @@
+- __Binder Folder:__ /art/vistand/
+- __Type:__ Tabs
+- __Story:__ A traditional All-in-One will always limit your choices for the display(s). The ViStand Modular All-in-One frees you to choose any display (4k, 120 Hz, IPS), including the one you already own. And, unlike with a traditional AiO, if your needs change, so can your monitor. Don't replace an entire computer when you just need to upgrade one component! || Visualization Idea: Each tab is one special display, with title & subtitle explaining its usefulness. The image simply showing ViStand + Display + Keyboard & Mouse. || Type = Tabs.
+- __Section Copy:__ A traditional All-in-One will always limit your choices for the display(s). The ViStand Modular All-in-One frees you to choose any display (4k, 120 Hz, IPS), including the one you already own. 
+- __Product Line:__ ViStand
+- __Group Name:__ Display Freedom
+- __Group Folder:__ /art/vistand/display-freedom/
+- __Tabs:__
+   - Tab 1 Title: __34" Curved__ 
+      - *Tab Copy:* This display simply looks awesome and works very well for both work and fun. It is also the largest All-in-One option. Unbelievably, it is even portable thanks to the large grip of ViStand.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - *Content:* 60 cm deep wide table, 34" curved display, black mouse & keyboard.
+         - *Camera Position:* Mostly front, little to right. High enough to clearly show the curve strongly!
+      - *Folder Name:* /art/vistand/display-freedom/34-curved/
+      - *File Name:* 34-curved-raw.png
+      - *Image Processing* 540p | add "34" curved" into the display
+   - Tab 2 Title: __22"__ 
+      - *Tab Copy:* The smallest display supported by ViStand Modular All-in-One is great if you are on a budget or if portability is paramount.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Violet walking in the par with the ViStand Modular All-in-One
+      - *Folder Name:* /art/vistand/display-freedom/22-inch/
+      - *File Name:* 22-inch-raw.png
+      - *Image Processing* 540p | add "120Hz" into the display
+   - Tab 3 Title: __120 Hz__ 
+      - *Tab Copy:* High frame rate is everything for serious gamers. With ViStand Modular All-in-One you can double the frame rate versus a traditional All-in-One.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - *Content:* 60 cm deep wide table, 28" flat display, game mouse & game keyboard.
+         - *Camera Position:* Mostly front, little to right. High enough to clearly show the curve strongly!
+      - *Folder Name:* /art/vistand/display-freedom/120-hz/
+      - *File Name:* 120-hz-raw.png
+      - *Image Processing* 540p | add "22-inch" into the display
+   - Tab 4 Title: __Dual 4K__ 
+      - *Tab Copy:* A Dual 4K workstation is the pinnacle of productivity for designers, photographers, videographers, programmers, and engineers.
+      - *Image* {optional inserted image if available}
+      - *Image Description:*
+         - *Content:* 60 cm deep wide table, dual 32" displays, black mouse & keyboard, 3D mouse, graphics tablet.
+         - *Camera Position:* Standard
+      - *Folder Name:* /art/vistand/display-freedom/dual-4k/
+      - *File Name:* dual-4k-raw.png
+      - *Image Processing* 540p | add "Dual 4K" into the display
+   - Tab 5 Title: __29" Ultra Wide__ 
+      - *Tab Copy:* The sweet spot display for cost efficient immersive gaming: at 1080p the resolution can be handled with mid range GPUs, yet the ultra wide aspect ratio delivers the immersive game experience and wow factor! At about $300 US the displays are quite affordable, too! 
+      - *Image* {optional inserted image if available}
+      - *Image Description:* ???
+         - *Content:* 60 cm deep wide table, 29", Game keyboard, game mouse.
+         - *Camera Position:* Standard
+      - *Folder Name:* /art/vistand/display-freedom/29-inch/
+      - *File Name:* 29-inch-raw.png
+      - *Image Processing* 540p | add "29-inch ultra wide" into the display | Game in screen shot
