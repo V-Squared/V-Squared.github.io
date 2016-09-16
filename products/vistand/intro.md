@@ -77,16 +77,16 @@ ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source 
 
 You can choose virtually any VESA compatible monitor for your ViStand Modular All-in-One.
 
-<!--    [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md) -->
-- [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md)
+<!--    [Art Brief > Display Freedom](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md) -->
+- [Art Brief > Display Freedom](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md)
 
 
 # Modular Desktop All-in-One
 
 ViStand enables you to go where no All-in-One has gone before: Extreme Designer Workstations!
 
-<!--    [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
-- [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md)
+<!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
+- [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md)
 
 
 
@@ -97,8 +97,8 @@ ViStand enables you to go where no All-in-One has gone before: Extreme Designer 
 
 Simply beautiful from all angles.
 
-<!--    [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
-- [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md)
+<!--    [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
+- [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md)
 
 
 
