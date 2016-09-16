@@ -35,7 +35,7 @@ title: test
           <div class="tab-item" v2-switch-item="1">
             Conquer Cable Chaos
           </div>    
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="2">
             Beautiful from all Sides
           </div>          
         </div>
@@ -127,7 +127,7 @@ title: test
           <div class="tab-item" v2-switch-item="1">
             ViStand tames Cable Mess
           </div>     
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="2">
             Beautiful from all Sides
           </div>           
         </div>
@@ -185,22 +185,22 @@ title: test
           <div class="tab-item" v2-switch-item="1">
             Front Right
           </div>    
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="2">
             Right
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="3">
             Rear Right
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="4">
             Rear
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="5">
             Rear Left
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="6">
             Left
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="7">
             Front Left
           </div>        
         </div>
@@ -242,10 +242,10 @@ title: test
           <div class="tab-item" v2-switch-item="1">
             Secure Portable
           </div>     
-           <div class="tab-item" v2-switch-item="1">
+           <div class="tab-item" v2-switch-item="2">
             Quick Plugging in Cables
           </div>  
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="3">
             Enjoy your ergonomic Workstation
           </div>  
         </div>
@@ -283,7 +283,7 @@ title: test
           <div class="tab-item" v2-switch-item="1">
             Comfortable Wrists
           </div>   
-          <div class="tab-item" v2-switch-item="1">
+          <div class="tab-item" v2-switch-item="3">
             More Energy
           </div>        
         </div>
