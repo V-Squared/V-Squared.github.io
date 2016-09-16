@@ -1,0 +1,14 @@
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Photo
+- __Story:__ There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get *Agile* and illustrate the point with a *User Story*: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.
+- __Image Folder Path:__ /art/vistand/portable-workstation/
+- __Image:__
+   - Image Title: __A complete Desktop Easy to Carry__ 
+      - *Image Copy:* 
+         - There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get *Agile* and illustrate the point with a *User Story*: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - Photo of video that we shot for ViCase campaign movie. Violet walking in the park carrying ViStand plus ViCase plus Dispaly plus keyboard parked.
+      - *File Name:* portable-workstation-raw.png
+      - Image Processing* 540p

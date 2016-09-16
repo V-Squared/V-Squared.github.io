@@ -1,0 +1,18 @@
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Image
+- __Story:__ The basic idea is, that in the interval where you would have upgraded the entire All-in-One you now only need to upgrade half. And keep in mind that thanks to further modularity, you can keep upgrading other components, such as webcam or speaker at really low cost when you need it.
+- __Image Folder Path:__ /art/vistand/grows-with-you/
+- __Image:__
+   - Image Title: __???__ 
+      - *Image Copy:* ???
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - Use below text and render it in 3D real view. Blue color.
+         - 2016: Buy ViStand Modular All-in-One
+         - 2020: First Upgrade Mini PC
+         - 2022: Upgrade 24" Display to 34"
+         - 2024: Second Upgrade Mini PC
+         -  ...
+      - *File Name:* grows-with-you-raw.png
+      - Image Processing* 540p
