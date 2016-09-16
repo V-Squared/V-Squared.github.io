@@ -25,7 +25,7 @@ title: test
         </v2-switch-text>        
       </div>
       <div flex-gt-sm="50">
-        <h1 id="universal-vesa-computer-mount">How it works</h1>
+        <h1 id="how-it-works">How it works</h1>
         <p>Transform your computer into a Modular All-in-One with ViStand.</p>
         <div class="vertical-tabs">
           <div class="tab-item" v2-switch-item="0">
@@ -42,6 +42,7 @@ title: test
     </div>
   </div>
 </v2-switcher>
+
 
 <!-- Tabs for section "Display Freedom" in ViStand Introduction -->
 
@@ -71,7 +72,7 @@ title: test
         </v2-switch-text>
       </div>
       <div flex-gt-sm="50">
-        <h1 id="universal-vesa-computer-mount">Display Freedom</h1>
+        <h1 id="display-freedom">Display Freedom</h1>
         <p>A traditional All-in-One will always limit your choices for the display(s). The ViStand Modular All-in-One frees you to choose any display (4k, 120 Hz, IPS), including the one you already own. And, unlike with a traditional AiO, if your needs change, so can your monitor. Don't replace an entire computer when you just need to upgrade one component!</p>
         <div class="vertical-tabs">
           <div class="tab-item" v2-switch-item="0">
@@ -95,6 +96,7 @@ title: test
   </div>
 </v2-switcher>
 
+
 <!-- Tabs for section Modular Desktop All-in-One -->
 
 <v2-switcher>
@@ -102,7 +104,7 @@ title: test
     <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
-          <img src="ihttps://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config-raw.png">
           <p class="caption-text">This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000.</p>
         </v2-switch-text>
         <v2-switch-text>
@@ -115,7 +117,7 @@ title: test
         </v2-switch-text>       
       </div>
       <div flex-gt-sm="50">
-        <h1 id="universal-vesa-computer-mount">Modular Desktop All-in-One</h1>
+        <h1 id="modular-desktop-all-in-one">Modular Desktop All-in-One</h1>
         <p>We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 24 core XEON CPU and a GTX 1080 or Quadro 4000.</p>
         <div class="vertical-tabs">
           <div class="tab-item" v2-switch-item="0">
@@ -132,3 +134,77 @@ title: test
     </div>
   </div>
 </v2-switcher>
+
+<!-- Tabs for section Sleek and stylish -->
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-1-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-2-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v360-3-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-4-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-5-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-6-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-7-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>  
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-8-raw.png">
+          <p class="caption-text"></p>
+        </v2-switch-text>        
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="sleek-and-stylish">Sleek & Stylish</h1>
+        <p>Simply beautiful from all angles.</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Front
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Front Right
+          </div>    
+          <div class="tab-item" v2-switch-item="1">
+            Right
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Rear Right
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Rear
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Rear Left
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Left
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Front Left
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
+
