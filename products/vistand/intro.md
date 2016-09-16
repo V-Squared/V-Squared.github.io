@@ -49,8 +49,8 @@ Add several pictures that are simply beautiful.
 
 Transform your computer into a Modular All-in-One with ViStand.
 
-<!--    [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md) -->
-- [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md)
+<!--    [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/how-it-works/artbrief.md) -->
+- [Art Brief > How it Works](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/how-it-works/artbrief.md)
 
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/products/vistand-32-inch-aio-right/vistand-32-inch-aio-slide.jpg)
