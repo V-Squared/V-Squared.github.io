@@ -208,3 +208,47 @@ title: test
   </div>
 </v2-switcher>
 
+<!-- Tabs for section Mobile Docking Workstation -->
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable-raw.png">
+          <p class="caption-text">Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/secure-portable-raw.png">
+          <p class="caption-text">Fasten the elastic rope to secure your valuable computer (optional).</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/quick-plug-cables-raw.png">
+          <p class="caption-text">ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/enjoy-mobile-workstation-raw.png">
+          <p class="caption-text">Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.</p>
+        </v2-switch-text>     
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="mobile-docking-workstation">Mobile Docking Workstation</h1>
+        <p>Schools and Universities have Computer Lab. Mostly they are All-in-Ones. Some of the students already have more powerful notebooks than those All-in-Ones. Providing a Mobile Docking Workstation is a Win-Win for both: The student can use his more powerful Notebook and the school can save a lot of money.</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Insert Portable
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Secure Portable
+          </div>     
+           <div class="tab-item" v2-switch-item="1">
+            Quick Plugging in Cables
+          </div>  
+          <div class="tab-item" v2-switch-item="1">
+            Enjoy your ergonomic Workstation
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
