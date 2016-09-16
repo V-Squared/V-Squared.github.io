@@ -10,6 +10,7 @@
       - *Slide Copy:* Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.
       - *Image* {optional inserted image if available}
       - *Image Description:* Phoenix inserting notebook with the beak.
+      - *Folder Name:* /art/vistand/mobile-docking/insert-portable/
       - *File Name:* insert-portable-raw.png
       - Image Processing* ???
    - Slide 2 Title: __Secure Portable__ 
@@ -18,17 +19,20 @@
       - *Image Description:* 
          - 32" display, ViMount, Notebook
          - Elastic Cord 3mm
+      - *Folder Name:* /art/vistand/mobile-docking/secure-portable/
       - *File Name:* secure-portable-raw.png
       - Image Processing* ???
    - Slide 3 Title: __Quick Plugging in Cables__ 
       - *Slide Copy:* ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible
       - *Image* {optional inserted image if available}
       - *Image Description:* Show the cable bouquet on same side as connectors of notebook
+      - *Folder Name:* /art/vistand/mobile-docking/quick-plug-cables/
       - *File Name:* quick-plug-cables-raw.png
       - Image Processing* ???
    - Slide 4 Title: __Enjoy your ergonomic Workstation__ 
       - *Slide Copy:* Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.
       - *Image* {optional inserted image if available}
       - *Image Description:* Phoenix in front of workstation
+      - *Folder Name:* /art/vistand/mobile-docking/enjoy-mobile-workstation/
       - *File Name:* enjoy-mobile-workstation-raw.png
       - Image Processing* ???
