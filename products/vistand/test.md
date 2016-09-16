@@ -4,8 +4,6 @@ feature: true
 title: test
 ---
 
-# hello
-
 <!-- Tabs for section How it works -->
 
 <v2-switcher>
