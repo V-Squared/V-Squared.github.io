@@ -81,13 +81,11 @@ ViStand is the missing component to make the Modular All-in-One a reality for yo
 
 ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.
 
-# Display Freedom
 
-You can choose virtually any VESA compatible monitor for your ViStand Modular All-in-One.
-
-<!--    [Art Brief > Display Freedom](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md) -->
 
 <!-- Tabs for section "Display Freedom" in ViStand Introduction -->
+
+<!--    [Art Brief > Display Freedom](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md) -->
 
 <v2-switcher>
   <div class="feature-section vertical-tab-section">
@@ -141,13 +139,12 @@ You can choose virtually any VESA compatible monitor for your ViStand Modular Al
 
 
 
-# Modular Desktop All-in-One
 
-ViStand enables you to go where no All-in-One has gone before: Extreme Designer Workstations!
 
-<!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
 
 <!-- Tabs for section Modular Desktop All-in-One -->
+
+<!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
 
 <v2-switcher>
   <div class="feature-section vertical-tab-section">
@@ -190,13 +187,11 @@ ViStand enables you to go where no All-in-One has gone before: Extreme Designer 
 
 
 
-# Sleek & Stylish
 
-Simply beautiful from all angles.
-
-<!--    [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
 
 <!-- Tabs for section Sleek and stylish -->
+
+<!--    [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
 
 <v2-switcher>
   <div class="feature-section vertical-tab-section">
@@ -271,9 +266,7 @@ Simply beautiful from all angles.
 
 
 
-# Mobile Docking Workstation™
 
-Go with your mobile where no mobile has gone before: Do real work comfortably!
 
 <!--    [Art Brief > Mobile Docking](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/mobile-docking/artbrief.md) -->
 
@@ -331,6 +324,9 @@ Unchain your Desktop!
 
 <!--    [Art Brief > Portable Workstation](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/portable-workstation/artbrief.md) -->
 
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg)
+
+There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get Agile and illustrate the point with a User Story: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.
 
 
 
@@ -340,8 +336,8 @@ Unchain your Desktop!
 ... as your needs or budget increases you simply upgrade versus upbuying.
 
 <!--    [Art Brief > ViStand grows with You](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/grows-with-you/artbrief.md) -->
-- [Art Brief > ViStand grows with You](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/grows-with-you/artbrief.md)
 
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png)
 
 
 # You Fix It™
@@ -349,17 +345,56 @@ Unchain your Desktop!
 Repair, don't repurchase! Both your wallet and the planet will thank you! Compared to the traditional All-in-One: The death of a single module is **not** the death of the entire computer.
 
 <!--    [Art Brief > You Fix It](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/you-fix-it/artbrief.md) -->
-- [Art Brief > You Fix It](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/you-fix-it/artbrief.md)
+
+https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/you-fix-it/designed-for-repair-raw.png
+
+With traditional AiO designs the failure of any component, large or small, can render the machine either less productive or entirely toast. Even if repair is technically an option, it may be expensive and require you to leave your computer at a repair center, while you lose productivity and profits. 
+We embrace the philosophy of iFixit – wherever possible, we want you to be able to effect repairs and replace components on your own.
 
 
 
 
-# Enhance Comfort
 
-Proven ways to reduce pain and strain while working with tablets and notebooks.
 
 <!--    [Art Brief > Enhance Comfort](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/enhance-comfort/artbrief.md) -->
-- [Art Brief > Enhance Comfort](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/enhance-comfort/artbrief.md)
+
+<!-- Tabs for section Enhance Comfort -->
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png">
+          <p class="caption-text">Raise your Display to eye level, so to keep your head & spine straight without slouching. This greatly reduces muscle tensions, which in turn avoids shoulder pain and headache.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable-wrists/comfortable-wrists-good-raw.png">
+          <p class="caption-text">Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more-energy/more_energy-good-raw.png">
+          <p class="caption-text">A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!</p>
+        </v2-switch-text>       
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="enhance-comfort">Enhance Comfort</h1>
+        <p>Laptops and tablets provide a convenient, portable platform for users, but are not ergonomically‐ideal for long‐term use.  ViStand offers a comfortable solution to this problem.</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Free of Headache
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Comfortable Wrists
+          </div>   
+          <div class="tab-item" v2-switch-item="3">
+            More Energy
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
 
 
 
