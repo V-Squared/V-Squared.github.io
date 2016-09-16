@@ -224,7 +224,7 @@ title: test
           <p class="caption-text">Fasten the elastic rope to secure your valuable computer (optional).</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/quick-plug-cables-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
           <p class="caption-text">ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible.</p>
         </v2-switch-text>
         <v2-switch-text>
