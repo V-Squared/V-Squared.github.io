@@ -281,8 +281,7 @@ title: test
           </div>
           <div class="tab-item" v2-switch-item="1">
             Comfortable Wrists
-          </div>    
-          </div>
+          </div>   
           <div class="tab-item" v2-switch-item="1">
             More Energy
           </div>        
