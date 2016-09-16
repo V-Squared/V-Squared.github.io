@@ -10,6 +10,35 @@ title: test
     <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
+          <img src="img1">
+          <p class="caption-text">My text 1</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="img2">
+          <p class="caption-text">My text 2</p>
+        </v2-switch-text>        
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="universal-vesa-computer-mount">Title</h1>
+        <p>Section text</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Tab title 1
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Tab title 2
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png">
           <p class="caption-text">Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="">Features</a>.</p>
         </v2-switch-text>
