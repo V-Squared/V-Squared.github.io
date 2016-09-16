@@ -252,3 +252,42 @@ title: test
     </div>
   </div>
 </v2-switcher>
+
+<!-- Tabs for section Enhance Comfort -->
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/free_of_headache-raw.png">
+          <p class="caption-text">Raise your Display to eye level, so to keep your head & spine straight without slouching. This greatly reduces muscle tensions, which in turn avoids shoulder pain and headache.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable_wrists-raw.png">
+          <p class="caption-text">Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more_energy-raw.png">
+          <p class="caption-text">A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!</p>
+        </v2-switch-text>       
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="enhance-comfort">Enhance Comfort</h1>
+        <p>Laptops and tablets provide a convenient, portable platform for users, but are not ergonomically‐ideal for long‐term use.  ViStand offers a comfortable solution to this problem.</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Free of Headache
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Comfortable Wrists
+          </div>    
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            More Energy
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
