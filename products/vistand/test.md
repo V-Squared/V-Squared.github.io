@@ -15,7 +15,7 @@ title: test
           <p class="caption-text">Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="">Features</a>.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.jpg">
           <p class="caption-text">A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.</p>
         </v2-switch-text>        
         <v2-switch-text>
