@@ -122,7 +122,7 @@ title: test
         <p>We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 24 core XEON CPU and a GTX 1080 or Quadro 4000.</p>
         <div class="vertical-tabs">
           <div class="tab-item" v2-switch-item="0">
-            Ever seen a Desktop Configuration this clean?
+            Ever seen a Desktop this clean?
           </div>
           <div class="tab-item" v2-switch-item="1">
             ViStand tames Cable Mess
