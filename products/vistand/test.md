@@ -46,8 +46,7 @@ title: test
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-raw.png">
           <p class="caption-text">A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.</p>
         </v2-switch-text>        
-      </div>
-      <v2-switch-text>
+        <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-raw.png">
           <p class="caption-text">This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.</p>
         </v2-switch-text>        
