@@ -48,6 +48,7 @@ Add several pictures that are simply beautiful.
 # How it Works
 
 Transform your computer into a Modular All-in-One with ViStand.
+
 <!--    [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md) -->
 - [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md)
 
