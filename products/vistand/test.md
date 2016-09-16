@@ -15,11 +15,11 @@ title: test
           <p class="caption-text">Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="">Features</a>.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.png">
           <p class="caption-text">A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.</p>
         </v2-switch-text>        
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-540p.png">
           <p class="caption-text">This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.</p>
         </v2-switch-text>        
       </div>
@@ -259,15 +259,15 @@ title: test
     <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/free_of_headache/free_of_headache-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png">
           <p class="caption-text">Raise your Display to eye level, so to keep your head & spine straight without slouching. This greatly reduces muscle tensions, which in turn avoids shoulder pain and headache.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable_wrists/comfortable_wrists-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable_wrists/comfortable_wrists-good-raw.png">
           <p class="caption-text">Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more_energy/more_energy-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more_energy/more_energy-good-raw.png">
           <p class="caption-text">A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!</p>
         </v2-switch-text>       
       </div>
