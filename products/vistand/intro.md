@@ -387,7 +387,7 @@ We embrace the philosophy of iFixit – wherever possible, we want you to be abl
           <div class="tab-item" v2-switch-item="1">
             Comfortable Wrists
           </div>   
-          <div class="tab-item" v2-switch-item="3">
+          <div class="tab-item" v2-switch-item="2">
             More Energy
           </div>        
         </div>
