@@ -1,5 +1,6 @@
 ---
 layout: page
+feature: true
 title: test
 ---
 
