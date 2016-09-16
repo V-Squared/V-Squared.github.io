@@ -51,7 +51,7 @@ title: test
     <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png"> 
           <p class="caption-text">This display simply looks awesome and works very well for both work and fun. It is also the largest All-in-One option. Unbelievably, it is even portable thanks to the large grip of ViStand.</p>
         </v2-switch-text>
         <v2-switch-text>
