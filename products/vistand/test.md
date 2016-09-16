@@ -54,7 +54,7 @@ title: test
           <p class="caption-text">This display simply looks awesome and works very well for both work and fun. It is also the largest All-in-One option. Unbelievably, it is even portable thanks to the large grip of ViStand.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg">
           <p class="caption-text">The smallest display supported by ViStand Modular All-in-One is great if you are on a budget or if portability is paramount.</p>
         </v2-switch-text>
         <v2-switch-text>
