@@ -64,7 +64,7 @@ title: test
           <p class="caption-text">High frame rate is everything for serious gamers. With ViStand Modular All-in-One you can double the frame rate versus a traditional All-in-One.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/dual-4k-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/dual-4k/dual-4k-raw.png">
           <p class="caption-text">A Dual 4K workstation is the pinnacle of productivity for designers, photographers, videographers, programmers, and engineers.</p>
         </v2-switch-text>
         <v2-switch-text>
