@@ -233,7 +233,7 @@ title: test
       </div>
       <div flex-gt-sm="50">
         <h1 id="mobile-docking-workstation">Mobile Docking Workstation</h1>
-        <p>Schools and Universities have Computer Lab. Mostly they are All-in-Ones. Some of the students already have more powerful notebooks than those All-in-Ones. Providing a Mobile Docking Workstation is a Win-Win for both: The student can use his more powerful Notebook and the school can save a lot of money.</p>
+        <p>Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.</p>
         <div class="vertical-tabs">
           <div class="tab-item" v2-switch-item="0">
             Insert Portable
