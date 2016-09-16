@@ -48,61 +48,14 @@ Add several pictures that are simply beautiful.
 # How it Works
 
 Transform your computer into a Modular All-in-One with ViStand.
+<!--    [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md) -->
+- [Art Brief > How it Works](https://V-Squared.github.io/art/vistand/how-it-works/artbrief.md)
 
-``Begin Art Brief: Slideshow``
+
+![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/products/vistand-32-inch-aio-right/vistand-32-inch-aio-slide.jpg)
 
 
-- __Binder Name:__ /art/how-it-works/
-- __Type:__ Slideshow
-- __Story:__ Three tricks: 1. ViStand is Uplifting! 2. Conquer Cable Chaos! 3. Beautiful from all Sides
-- __Product Line:__ ViStand
-- __Group:__ /art/vistand/how-it-works/
-- __Slides:__
-- Slide 1 Title: __ViStand is Uplifting!__
-   - *Slide Copy:* Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → [Features > ViStand is Uplifting](#???) ???
-   - *Image:*
-      - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/products/vistand-32-inch-aio-right/vistand-32-inch-aio-slide.jpg) 
-      - *Image Description:* 
-         - *Revisions:*
-            - *v1* Dell 32"
-            - *v2* Curved Screen, side view flat on
-            - *v3* Dell 32", similar to v1, side view slight 3D, add the single cable running off table
-               - ViStand AiO on table, almost full on side view
-               - ViStand + 34" + ViMount + Alienware Alpha (no elastic cord) + keyboard parked headset parked
-         - not showing: Alienware brick, extension cord, loudspeaker, cable ties
-         - Single cable black running off table
-         - Display is slightly tilted up
-         - Changes to last version:
-            - Reduce table depth to 60 cm
-            - Remove Mic
-            - Increase camera position: 1. Show curve of display, 2. close gap between display & keyboard. 
-      - *Image processing:*
-          - __Add Call Outs:__ Big enough to be legible on the mobile. Use white space left & right.
-             - __Left:__ Your Display, Your Keyboard, Your Webcam
-             - __Right:__ ViStand, Your Computer, Your Headset, One Cable
-                - __Your Computer has three options:__ Notebook, Mini-PC, Tablet
-      - *Folder Name:*  /art/vistand/how-it-works/uplifting/
-      - *File Name:* vistand-uplifting-raw.png
-   - Slide 2 Title: __Conquer Cable Chaos__ 
-      - *Slide Copy:* A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.
-      - *Image* ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png)
-      - *Image Description:* 
-         - __v1:__ 34" Curved, Dell Alienware, Alienware Brick, Webcam, Black keyboard in shelf, show all cables in orange color, running one cable off the table in orange.
-         - __v2:__ In Image processing change the red into orange.
-      - *Folder Name:* /art/vistand/how-it-works/conquer-cables/
-      - *File Name:* conquer-cables-raw.png
-      - Image Processing* Change the red into orange from v1 → v2
-   - Slide 3 Title: __Beautiful from all Sides__ 
-      - *Slide Copy:* This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.
-      - *Image* 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png)
-       - *Image Description:* Same picture as above, but cables are naturally black.
-      - *Folder Name:* /art/vistand/how-it-works/beautiful-all-sides/
-      - *File Name:* beautiful-all-sides-raw.png
-      - Image Processing*
-         - Change the colors to black. If can not be done looking natural, it need to be done in Solidworks.
 
-``End Art Brief``
 
 # Modular All-in-One™ 
 
@@ -155,8 +108,8 @@ You can choose virtually any VESA compatible monitor for your ViStand Modular Al
       - *Image Description:* 
          - *Content:* 60 cm deep wide table, 28" flat display, game mouse & game keyboard.
          - *Camera Position:* Mostly front, little to right. High enough to clearly show the curve strongly!
-      - *Folder Name:* /art/vistand/display-freedom/22-inch/
-      - *File Name:* 22-inch-raw.png
+      - *Folder Name:* /art/vistand/display-freedom/120-hz/
+      - *File Name:* 120-hz-raw.png
       - *Image Processing* 540p | add "22-inch" into the display
    - Tab 4 Title: __Dual 4K__ 
       - *Tab Copy:* A Dual 4K workstation is the pinnacle of productivity for designers, photographers, videographers, programmers, and engineers.
