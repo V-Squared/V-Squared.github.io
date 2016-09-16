@@ -16,7 +16,7 @@ title: test
         <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch-raw.png">
           <p class="caption-text">The smallest display supported by ViStand Modular All-in-One is great if you are on a budget or if portability is paramount.</p>
-        <v2-switch-text>
+        </v2-switch-text>
         <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/120-hz/120-hz-raw.png">
           <p class="caption-text">High frame rate is everything for serious gamers. With ViStand Modular All-in-One you can double the frame rate versus a traditional All-in-One.</p>
@@ -49,6 +49,35 @@ title: test
           <div class="tab-item" v2-switch-item="4">
             29" Ultra Wide
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</v2-switcher>
+
+<v2-switcher>
+  <div class="feature-section vertical-tab-section">
+    <div layout="column" layout-gt-sm="row" class="feature-row">
+      <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png">
+          <p class="caption-text">ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.</p>
+        </v2-switch-text>
+        <v2-switch-text>
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png">
+          <p class="caption-text">Adjustable elastic cord secures your valuable device gently but firmly.</p>
+        </v2-switch-text>        
+      </div>
+      <div flex-gt-sm="50">
+        <h1 id="universal-vesa-computer-mount">Test</h1>
+        <p>Section text</p>
+        <div class="vertical-tabs">
+          <div class="tab-item" v2-switch-item="0">
+            Optimized for Cooling
+          </div>
+          <div class="tab-item" v2-switch-item="1">
+            Fasten your Seat Belt!
+          </div>          
         </div>
       </div>
     </div>
