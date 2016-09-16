@@ -143,35 +143,35 @@ title: test
     <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-1-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-2-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-2-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v360-3-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/v360-3-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-4-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-4-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-5-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-5-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-6-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-7-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/360-8-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>        
       </div>
