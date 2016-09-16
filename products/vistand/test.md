@@ -151,7 +151,7 @@ title: test
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/v360-3-raw.png">
+          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-3-raw.png">
           <p class="caption-text"></p>
         </v2-switch-text>  
         <v2-switch-text>
