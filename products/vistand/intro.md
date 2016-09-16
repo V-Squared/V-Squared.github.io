@@ -64,10 +64,10 @@ ViStand is the missing component to make the Modular All-in-One a reality for yo
 
 - [Display Freedom](#display-freedom) No need to make compromises when choosing your display!
 - [Modular Desktop All-in-One](#modular-desktop-all-in-one) Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.
-- [Sleek & Stylish](#sleek--stylish)Clean minimalist design with maximum utility & upgradeability.
+- [Sleek & Stylish](#sleek--stylish) Clean minimalist design with maximum utility & upgradeability.
 - [Mobile Docking Workstation™](#mobile-docking-workstation™) Go with your mobile where no mobile has gone before: Do real work comfortably!
 - [Portable Workstation](#portable-workstation) When a mobile device is not enough but you need portability!
-- [ViStand grows with You ...](#vistand-grows-with-you-...) ... as your needs or budget increases you simply upgrading versus upbuying.
+- [ViStand grows with You](#vistand-grows-with-you-...) as your needs or budget increases you simply upgrading versus upbuying.
 - [You Fix It™](#you-fix-it™) Repair, don't repurchase! Both your wallet and the planet will thank you!
 - [Enhance Comfort](#enhance-comfort) Proven ways to reduce pain and strain while working with tablets and notebooks.
 
@@ -102,52 +102,12 @@ Simply beautiful from all angles.
 
 
 
-
-
 # Mobile Docking Workstation™
 
 Go with your mobile where no mobile has gone before: Do real work comfortably!
 
-``Begin Art Brief: Slideshow``
-
-- __Product Line:__ ViStand
-- __Binder Path:__ /art/vistand/
-- __Type:__ Slideshow
-- __Story:__
-   - __Story 1:__ Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for  just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.
-   - __Story 2:__ Schools and Universities have Computer Lab. Mostly they are All-in-Ones. Some of the students already have more powerful notebooks than those All-in-Ones. Providing a Mobile Docking Workstation is a Win-Win for both: The student can use his more powerful Notebook and the school can save a lot of money.
-- __Group Path:__ /art/vistand/mobile-docking/
-- __Slides:__ 
-   - Slide 1 Title: __Insert Portable__ 
-      - *Slide Copy:* Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.
-      - *Image* {optional inserted image if available}
-      - *Image Description:* Phoenix inserting notebook with the beak.
-      - *File Name:* insert-portable-raw.png
-      - Image Processing* ???
-   - Slide 2 Title: __Secure Portable__ 
-      - *Slide Copy:* Fasten the elastic rope to secure your valuable computer (optional).
-      - *Image* {optional inserted image if available}
-      - *Image Description:* 
-         - 32" display, ViMount, Notebook
-         - Elastic Cord 3mm
-      - *File Name:* secure-portable-raw.png
-      - Image Processing* ???
-   - Slide 3 Title: __Quick Plugging in Cables__ 
-      - *Slide Copy:* ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible
-      - *Image* {optional inserted image if available}
-      - *Image Description:* Show the cable bouquet on same side as connectors of notebook
-      - *File Name:* quick-plug-cables-raw.png
-      - Image Processing* ???
-   - Slide 4 Title: __Enjoy your ergonomic Workstation__ 
-      - *Slide Copy:* Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.
-      - *Image* {optional inserted image if available}
-      - *Image Description:* Phoenix in front of workstation
-      - *File Name:* enjoy-mobile-workstation-raw.png
-      - Image Processing* ???
-
-``End Art Brief``
-
-
+<!--    [Art Brief > Mobile Docking](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/mobile-docking/artbrief.md) -->
+- [Art Brief > Mobile Docking](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/mobile-docking/artbrief.md)
 
 
 
@@ -156,15 +116,8 @@ Go with your mobile where no mobile has gone before: Do real work comfortably!
 
 Unchain your Desktop!
 
-``Begin Art Brief Photo``
-
-- Image
-- Violet Walking with ViStand AiO
-
-``End Art Brief``
-
-There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get *Agile* and illustrate the point with a *User Story*: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.
-
+<!--    [Art Brief > Portable Workstation](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/portable-workstation/artbrief.md) -->
+- [Art Brief > Portable Workstation](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/portable-workstation/artbrief.md)
 
 
 
@@ -172,30 +125,8 @@ There are moments where just portable is not enough. When you need the power of 
 
 ... as your needs or budget increases you simply upgrade versus upbuying.
 
-
-``Begin Art Brief Image``
-
-- __Product Line:__ ViStand
-- __Binder Path:__ /art/vistand/
-- __Type:__ Image
-- __Story:__ The basic idea is, that in the interval where you would have upgraded the entire All-in-One you now only need to upgrade half. And keep in mind that thanks to further modularity, you can keep upgrading other components, such as webcam or speaker at really low cost when you need it.
-- __Image Folder Path:__ /art/vistand/grows-with-you/
-- __Image:__
-   - Image Title: __???__ 
-      - *Image Copy:* ???
-      - *Image* {optional inserted image if available}
-      - *Image Description:* 
-         - Use below text and render it in 3D real view. Blue color.
-         - 2016: Buy ViStand Modular All-in-One
-         - 2020: First Upgrade Mini PC
-         - 2022: Upgrade 24" Display to 34"
-         - 2024: Second Upgrade Mini PC
-         -  ...
-      - *File Name:* grows-with-you-raw.png
-      - Image Processing* 540p
-
-``End Art Brief`
-
+<!--    [Art Brief > ViStand grows with You](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/grows-with-you/artbrief.md) -->
+- [Art Brief > ViStand grows with You](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/grows-with-you/artbrief.md)
 
 
 
