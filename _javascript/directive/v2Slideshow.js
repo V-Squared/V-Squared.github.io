@@ -2,7 +2,7 @@ angular.module("app",["v2Slideshow"]);
 
 var v2SlideshowCompoonent = {
   bindings: {
-    currentIndex: "="
+    currentIndex: "?="
   },
   transclude:true,
   controller: v2SlideshowCtrl,
@@ -15,6 +15,7 @@ function v2SlideshowCtrl ($scope,$element,v2SlideshowSetting) {
 
   $this.slides = [];
   $this.currentIndex = $this.currentIndex || 0;
+  console.log($this);
   $this.direction = "left";
   $this.settings = v2SlideshowSetting;
   
