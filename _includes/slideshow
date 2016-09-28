@@ -4,8 +4,26 @@
 {% assign slideshow = page.slideshow %}
 {% endif %}
 
-<div ng-init="currentIndex = 0">
-<v2-slideshow style="height:400px;width:800px">
+<v2-caption-slideshow>
 
-    </v2-slideshow>
-    </div>
+<v2-slideshow style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}100%{% endif %};
+  height:0px" current-index="capslide.isOpen">
+  {% for slide in slideshow.slides %}
+  <v2-slide>
+      <img src="{{slide.img}}">
+  </v2-slide>
+  {% endfor %}
+</v2-slideshow>
+
+<v2-switcher is-open="capslide.isOpen">
+{% for slide in slideshow.slides %}
+<v2-switch-text>
+<h3>{{slide.title}}</h3>
+{% if slide.desc %}
+<p>{{slide.desc}}</p>
+{% endif %}
+</v2-switch-text>
+{% endfor %}
+</v2-switcher>
+
+</v2-caption-slideshow>

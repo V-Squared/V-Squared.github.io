@@ -1,7 +1,7 @@
 {
   "undef": true,
   "unused": true,
-  "globals": { "angular": false, "require": false },
+  "globals": { "angular": false, "require": false, "TweenMax": false },
   "jasmine": true,
   "strict": true,
   "noempty": true,

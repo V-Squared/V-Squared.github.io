@@ -8,6 +8,24 @@ issueNo: 224
 readiness:
    - is-complete
    - is-active
+seek-stylish:
+  slides:
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
+      title: Front
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-2-raw.png
+      title: Front Right
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-3-raw.png
+      title: Right
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-4-raw.png
+      title: Rear Right
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-5-raw.png
+      title: Rear
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png
+      title: Rear Left
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png
+      title: Left
+    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png
+      title: Front Left
 ---
 
 
@@ -36,7 +54,7 @@ A clean desk looks great and simply makes you feel more productive and creative.
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
         <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png">
-          <p class="caption-text">Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="">Features</a>.</p>
+          <p class="caption-text">Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="/products/vistand/features/">Features</a>.</p>
         </v2-switch-text>
         <v2-switch-text>
           <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.jpg">
@@ -192,6 +210,11 @@ ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source 
 <!-- Tabs for section Sleek and stylish -->
 
 <!--    [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
+
+<div class="feature-section">
+    <h1>Seek & Stylish</h1>
+    {% include slideshow id="seek-stylish" %}
+</div>
 
 <v2-switcher>
   <div class="feature-section vertical-tab-section">

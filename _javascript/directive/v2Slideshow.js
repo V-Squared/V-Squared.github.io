@@ -1,39 +1,37 @@
-angular.module("app",["v2Slideshow"]);
-
 var v2SlideshowCompoonent = {
   bindings: {
-    currentIndex: "?="
+    currentIndex: "=?"
   },
   transclude:true,
   controller: v2SlideshowCtrl,
-  template: "<div ng-class=\"::$ctrl.settings.slideshowInnerClass\" ng-transclude></div>\r\n<a ng-class=\"::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavLeftClass]\"\r\n   ng-click=\"$ctrl.previous()\"\r\n   ng-bind-html=\"::$ctrl.settings.slideNavLeftContent\"></a>\r\n<a ng-class=\"::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavRightClass]\"\r\n   ng-click=\"$ctrl.next()\"\r\n   ng-bind-html=\"::$ctrl.settings.slideNavRightContent\"></a>\r\n<ol ng-class=\"::$ctrl.settings.dotNavClass\">\r\n  <li ng-repeat=\"slide in ::$ctrl.slides track by $index\" ng-class=\"{ active: $ctrl.isCurrentSlideIndex($index) }\" ng-click=\"$ctrl.select($index)\">\r\n    <a href=\"#\"></a>\r\n  </li>\r\n</ol>"
+  template: "<div ng-class=\"::$ctrl.settings.slideshowInnerClass\" ng-transclude></div>\r\n<a ng-class=\"::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavLeftClass]\"\r\n   ng-click=\"$ctrl.previous()\"\r\n><md-icon md-svg-src=\"{{::$ctrl.settings.slideNavLeftSvgPath}}\"></md-icon></md-icon></a>\r\n<a ng-class=\"::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavRightClass]\"\r\n   ng-click=\"$ctrl.next()\"\r\n   ><md-icon md-svg-src=\"{{::$ctrl.settings.slideNavRightSvgPath}}\"></md-icon></a>\r\n<ol ng-class=\"::$ctrl.settings.dotNavClass\">\r\n  <li ng-repeat=\"slide in ::$ctrl.slides track by $index\" ng-class=\"{ active: $ctrl.isCurrentSlideIndex($index) }\" ng-click=\"$ctrl.select($index)\"></li>\r\n</ol>"
 };
 
-v2SlideshowCtrl.$inject = ["$scope","$element","v2SlideshowSetting"];
-function v2SlideshowCtrl ($scope,$element,v2SlideshowSetting) {
+v2SlideshowCtrl.$inject = ["$scope","$sce","$window","$element","v2SlideshowSetting"];
+function v2SlideshowCtrl ($scope,$sce,$window,$element,v2SlideshowSetting) {
   var $this = this;
 
+
+
   $this.slides = [];
-  $this.currentIndex = $this.currentIndex || 0;
-  console.log($this);
   $this.direction = "left";
   $this.settings = v2SlideshowSetting;
-  
+
   $this.addSlide = addSlide;
   $this.select = select;
   $this.previous = previous;
   $this.next = next;
   $this.isCurrentSlideIndex = isCurrentSlideIndex;
   $this.findSlideIndex = findSlideIndex;
-  
+
   function addSlide (slide) {
     $this.slides.push(slide);
-    
+
     if($this.slides.length === 1) {
       $this.select(0);
     }
   }
-  
+
   function select (slideIndex) {
     if ($this.previousSlide) {
       $this.previousSlide.active = false;
@@ -46,7 +44,7 @@ function v2SlideshowCtrl ($scope,$element,v2SlideshowSetting) {
       $this.previousSlide = slide;
     }
   }
-  
+
   function previous () {
     var index = $this.currentIndex > 0 ? $this.currentIndex - 1 : $this.slides.length - 1;
     $this.select(index);
@@ -60,8 +58,8 @@ function v2SlideshowCtrl ($scope,$element,v2SlideshowSetting) {
   function isCurrentSlideIndex (index) {
     return $this.currentIndex === index;
   }
-  
-  function findSlideIndex () {
+
+  function findSlideIndex (slide) {
     for(var i = 0; i < $this.slides.length; i++) {
       if($this.slides[i] === slide) {
         return i;
@@ -72,9 +70,35 @@ function v2SlideshowCtrl ($scope,$element,v2SlideshowSetting) {
   // LINK
 
   $this.$postLink = function postLink () {
-    console.log($this.settings);
     $element.addClass($this.settings.slideshowClass);
+
+    resize();
+
+    angular.element($window).bind('resize',function() {
+      $scope.$apply(resize);
+    });
+  };
+
+  function resize () {
+    var elementWidth = $element[0].clientWidth;
+    var elementHeight = elementWidth / 16 * 9;
+    $element[0].style.height = elementHeight + "px";
   }
+}
+
+function v2CaptionSlideshow() {
+  var directive = {
+    restrict: "E",
+    scope: true,
+    controller: v2CaptionSlideshowController,
+    controllerAs: "capslide"
+  };
+
+  return directive;
+}
+
+function v2CaptionSlideshowController() {
+  this.isOpen = 0;
 }
 
 function v2SlideshowSetting () {
@@ -84,8 +108,8 @@ function v2SlideshowSetting () {
     slideNavClass: "carousel-control",
     slideNavLeftClass: "left",
     slideNavRightClass: "right",
-    slideNavLeftContent: "<span class='glyphicon glyphicon-chevron-left'></span>",
-    slideNavRightContent: "<span class='glyphicon glyphicon-chevron-right'></span>",
+    slideNavleftSvgPath: "/icons/carousel-left.svg",
+    slideNavRightSvgPath: "/icons/carousel-right.svg",
     dotNavClass: "carousel-indicators"
   };
 
@@ -95,12 +119,13 @@ function v2SlideshowSetting () {
 
   this.$get = function() {
     return configs;
-  }
+  };
 }
 
 angular
   .module("v2Slideshow",["ngSanitize","v2Slide"])
   .component("v2Slideshow",v2SlideshowCompoonent)
+  .directive("v2CaptionSlideshow",v2CaptionSlideshow)
   .provider("v2SlideshowSetting",v2SlideshowSetting);
 
 
@@ -131,16 +156,31 @@ function v2SlideCtrl ($scope, $animate, $element, $transclude) {
     });
 
     $scope.$watch("$ctrl.active", function(val) {
-      if(val) {
-        $element.data("direction", $this.slideshow.direction);
-      }
+      $element.data("direction", $this.slideshow.direction);
       //this.$element.toggleClass("ng-hide",!val);
       if(!val) {
         $animate.addClass($element,"ng-hide");
       } else {
         $animate.removeClass($element,"ng-hide");
       }
-    })
+    });
+
+    /*if($this.slideshow.findSlideIndex($this) === 0) {
+      console.log("What");
+      resize();
+
+      angular.element($window).bind("resize",function() {
+        $scope.$apply(function() {
+          resize();
+        });
+      });
+
+      function resize () {
+        var image = $element[0].getElementsByTagName("img")[0];
+        console.log(imageHeight);
+        $this.slideshow.setHeight(imageHeight);
+      }
+    }*/
   };
 }
 
@@ -153,8 +193,9 @@ function v2SlideAnimate () {
   function beforeAddClass (element,className,done) {
     if(className == 'ng-hide') {
       var parentWidth = element[0].offsetWidth;
+      var animateWidth = element.data("direction") === "left" ? -parentWidth : parentWidth;
 
-      TweenMax.to(element, 0.6, {left: -parentWidth, onComplete: done});
+      TweenMax.to(element, 0.6, {left: animateWidth, onComplete: done});
     } else {
       done();
     }
@@ -165,10 +206,9 @@ function v2SlideAnimate () {
       element.removeClass("ng-hide");
 
       var parentWidth = element[0].offsetWidth;
+      var animateWidth = element.data("direction") === "left" ? parentWidth : -parentWidth;
 
-      console.log(parentWidth);
-
-      TweenMax.set(element, {left: parentWidth});
+      TweenMax.set(element, {left: animateWidth});
       TweenMax.to(element, 0.6, {left: 0, onComplete: done});
     } else {
       done();

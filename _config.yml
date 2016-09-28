@@ -15,7 +15,7 @@ url: "https://v-squared.github.io/" # the base hostname & protocol for your site
 twitter_username: villagevidock
 github_username:  v-squared
 include: ["_pages","_javascript"]
-exclude: ["node_modules",".idea"]
+exclude: ["node_modules",".idea",".jshintrc"]
 permalink: pretty
 
 # Build settings

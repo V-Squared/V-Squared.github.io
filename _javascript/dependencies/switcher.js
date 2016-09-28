@@ -22,7 +22,6 @@ function swithercontroller ($scope,$element) {
   $ctrl.select = select;
 
   function addText (text) {
-    console.log("ADD TEXT!!");
     $ctrl.texts.push({
       text: text,
       index: text.index
@@ -33,20 +32,17 @@ function swithercontroller ($scope,$element) {
     $ctrl.items.push({
       item: item,
       index: index
-    })
+    });
   }
 
   function select (index) {
     if(previousIndex != undefined) {
-      console.log("previousIndex:",previousIndex);
       var previousTextActive = $ctrl.texts[previousIndex],
         previousItemActive = findItemIndex(previousIndex);
 
-      console.log("previousItemActive:",previousItemActive);
 
       if(previousTextActive) {
         previousTextActive.text.active = false;
-        console.log(previousTextActive);
       }
       if(previousItemActive) {
         previousItemActive.item.active = false;
@@ -55,13 +51,11 @@ function swithercontroller ($scope,$element) {
 
     var selectedText = $ctrl.texts[index],
       selectedItem = findItemIndex(index);
-
-    console.log($ctrl.items);
-
+    
     if (selectedText) {
-      console.log("This Index:",index);
       selectedText.text.active = true;
-      selectedItem.item.active = true;
+      if(selectedItem)
+        selectedItem.item.active = true;
       previousIndex = index;
     }
   }
