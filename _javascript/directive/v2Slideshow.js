@@ -72,11 +72,15 @@ function v2SlideshowCtrl ($scope,$sce,$window,$element,v2SlideshowSetting) {
   $this.$postLink = function postLink () {
     $element.addClass($this.settings.slideshowClass);
 
-    resize();
+    $element.ready(ready);
 
-    angular.element($window).bind('resize',function() {
-      $scope.$apply(resize);
-    });
+    function ready() {
+      resize();
+
+      angular.element($window).bind('resize',function() {
+        $scope.$apply(resize);
+      });
+    }
   };
 
   function resize () {

@@ -181,7 +181,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 
 <v2-switcher>
-<div class="feature-section vertical-tab-section">
+<div class="feature-section vertical-interact-section">
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
@@ -225,7 +225,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 
 <v2-switcher>
-<div class="feature-section vertical-tab-section">
+<div class="feature-section vertical-interact-section">
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
