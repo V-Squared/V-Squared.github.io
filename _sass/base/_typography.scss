@@ -24,6 +24,10 @@ md-content {
     }
   }
 
+  .subtitle {
+    font-size: 20px;
+  }
+
   h2 {
     font-size: 24px !important;
     color: $heading-color;
@@ -42,6 +46,7 @@ md-content {
 
   img {
     border: 3px solid #666;
+    margin-bottom: $spacing-unit / 2;
   }
 
 
@@ -55,8 +60,4 @@ md-content {
   .footnote {
 
   }
-}
-
-.caption-text {
-  margin-top: ($spacing-unit / 2) / 2 !important;
 }
