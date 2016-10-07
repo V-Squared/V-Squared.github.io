@@ -102,7 +102,7 @@ enhance-comfort:
   <div class="uk-container uk-container-center">
   <v2-caption-slideshow>
   <v2-switcher is-open="capslide.isOpen">
-  <div layout="column" layout-gt-md="row" class="feature-row">
+  <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
     <md-tabs md-dynamic-height md-selected="capslide.isOpen">
       <md-tab label="Uplifting">
