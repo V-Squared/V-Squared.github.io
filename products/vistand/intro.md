@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: feature
 title: ViStand™ Introduction
 subtitle: Introduction to Modular All-in-One Converter™ & Mobile Docking Station™
 abstract: >
    This is the community development product page of ViStand. Anyone with a GitHub account can make an improvement suggestion, either by making a comment in the accompanying GitHub issue or by making a pull request. Both are done by simply clicking the V²Flow Button – the editor’s pencil within an orange circle.
 issueNo: 224
-feature: true
 readiness:
    - is-complete
    - is-active
@@ -32,21 +31,13 @@ display-freedom:
 seek-stylish:
   slides:
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
-      title: Front
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-2-raw.png
-      title: Front Right
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-3-raw.png
-      title: Right
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-4-raw.png
-      title: Rear Right
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-5-raw.png
-      title: Rear
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png
-      title: Rear Left
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png
-      title: Left
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png
-      title: Front Left
 modular-desktop:
   slides:
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
@@ -90,6 +81,8 @@ enhance-comfort:
 
 <div class="feature-section article-feature">
 
+<div class="uk-container uk-container-center">
+
 <h1>Clean Desk</h1>
 
 <p class="subtitle">Feel better and more creative!</p>
@@ -102,44 +95,49 @@ enhance-comfort:
 
 </div>
 
+</div>
+
 <!-- Tabs for section How it works -->
-  <div class="feature-section article-feature feature-gray vertical-interact-section">
-  <v2-switcher>
-    <div layout="column" layout-gt-md="row" class="feature-row">
+<div class="feature-section article-feature feature-gray vertical-interact-section">
+  <div class="uk-container uk-container-center">
+  <v2-caption-slideshow>
+  <v2-switcher is-open="capslide.isOpen">
+  <div layout="column" layout-gt-md="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
+    <md-tabs md-dynamic-height md-selected="capslide.isOpen">
+      <md-tab label="Uplifting">
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png">
+      </md-tab>
+      <md-tab label="Conquer Cables">
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.jpg">
+      </md-tab>
+      <md-tab label="Beautiful">
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-540p.png">
+      </md-tab>
+    </md-tabs>
+    </div>
+    <div flex-gt-sm="50">
+        <h1 id="how-it-works">How it works</h1>
+        <p>Transform your computer into a Modular All-in-One with ViStand.</p>
+
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png">
           <p>Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="/products/vistand/features/">Features</a>.</p>
         </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.jpg">
           <p>A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.</p>
-        </v2-switch-text>        
+        </v2-switch-text>
         <v2-switch-text>
-          <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-540p.png">
           <p>This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.</p>
-        </v2-switch-text>        
-      </div>
-      <div flex-gt-sm="50">
-        <h1 id="how-it-works">How it works</h1>
-        <p>Transform your computer into a Modular All-in-One with ViStand.</p>
-        <div class="vertical-tabs">
-          <div class="tab-item" v2-switch-item="0">
-            ViStand is Uplifting!
-          </div>
-          <div class="tab-item" v2-switch-item="1">
-            Conquer Cable Chaos
-          </div>    
-          <div class="tab-item" v2-switch-item="2">
-            Beautiful from all Sides
-          </div>
-        </div>
-      </div>
-    </div>
-    </v2-switcher>
+        </v2-switch-text>
   </div>
-
+  </div>
+  </v2-switcher>
+  </v2-caption-slideshow>
+</div>
+</div>
 <div class="feature-section article-feature feature-black">
+
+<div class="uk-container uk-container-center">
 
 <h1>Modular All-in-One™</h1>
 
@@ -159,6 +157,7 @@ enhance-comfort:
 <p>ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.</p>
 
 </div>
+</div>
 
 
 <!-- Tabs for section "Display Freedom" in ViStand Introduction -->
@@ -167,6 +166,7 @@ enhance-comfort:
 
 
 <div class="feature-section feature-gray article-feature vertical-interact-section">
+<div class="uk-container uk-container-center">
   <div layout="column" layout-gt-md="row" class="feature-row">
     <div flex-gt-sm="50" flex-order-gt-md="0" flex-order="1">
       {% include slideshow id="display-freedom" %}
@@ -175,6 +175,7 @@ enhance-comfort:
       <h1 id="display-freedom">Display Freedom</h1>
       <p>A traditional All-in-One will always limit your choices for the display(s). The ViStand Modular All-in-One frees you to choose any display (4k, 120 Hz, IPS), including the one you already own. And, unlike with a traditional AiO, if your needs change, so can your monitor. Don't replace an entire computer when you just need to upgrade one component!</p>
     </div>
+  </div>
   </div>
 </div>
 
@@ -185,18 +186,20 @@ enhance-comfort:
 <!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
 
 <div class="feature-section article-feature">
+<div class="uk-container uk-container-center">
   <h1 id="modular-desktop-all-in-one">Modular Desktop All-in-One</h1>
   <p>We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 24 core XEON CPU and a GTX 1080 or Quadro 4000.</p>
   {% include slideshow id="modular-desktop" %}
+
+  </div>
 </div>
-
-
 
 <!-- Tabs for section Modular Desktop All-in-One -->
 
 <!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
 
   <div class="feature-section article-feature vertical-interact-section feature-black">
+  <div class="uk-container uk-container-center">
   <v2-switcher>
     <div layout="column" layout-gt-md="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
@@ -230,6 +233,7 @@ enhance-comfort:
       </div>
     </div>
     </v2-switcher>
+    </div>
   </div>
 
 
@@ -239,9 +243,11 @@ enhance-comfort:
 <!--    [Art Brief > 360 View](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/360-view/artbrief.md) -->
 
 <div class="feature-section article-feature feature-gray">
+<div class="uk-container uk-container-center">
     <h1 id="sleek-and-stylish">Sleek & Stylish</h1>
     <p>Simply beautiful from all angles.</p>
     {% include slideshow id="seek-stylish" %}
+    </div>
 </div>
 
 
@@ -250,6 +256,7 @@ enhance-comfort:
 <!-- Tabs for section Mobile Docking Workstation -->
 
 <div class="feature-section article-feature vertical-interact-section">
+<div class="uk-container uk-container-center">
 <div layout="column" layout-gt-md="row" class="feature-row">
     <div flex-gt-md="50" flex-order-gt-md="0" flex-order="1">
         {% include slideshow id="mobile-docking" %}
@@ -259,10 +266,12 @@ enhance-comfort:
         <p>Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.</p>
     </div>
     </div>
+    </div>
 </div>
 
 
 <div class="feature-section article-feature feature-blue">
+<div class="uk-container uk-container-center">
 <h1 id="portable-workstation">Portable Workstation</h1>
 <p>Unchain your Desktop</p>
 <!--    [Art Brief > Portable Workstation](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/portable-workstation/artbrief.md) -->
@@ -271,9 +280,10 @@ enhance-comfort:
 
 <p>There are moments where just portable is not enough. When you need the power of a desktop and the ergonomics of a big screen and a full sized keyboard. Yet you want portability too. Your notebook does not deliver, and your desktop chains you to the desk. Yet you want the productivity boost of portability, especially when working in teams. This is where the ViStand Portable Workstation is breaking new ground (or rather old ground, if you remember the first Mac). Let's get Agile and illustrate the point with a User Story: You just finished the new thing and are called to a meeting. You hibernate your portable workstation, drop your mouse into your pocket and park your keyboard in ViStand and then simply carry your workstation by its grip! When you arrive, plug in power, wake up your PC and place keyboard and mouse on the table. Within a minute you changed your location and are ready to continue on a full fledged workstation.</p>
 </div>
+</div>
 
 <div class="feature-section article-feature">
-
+<div class="uk-container uk-container-center">
 <h1 id="vistand-grows-with-you-...">ViStand grows with You ...</h1>
 
 <p>... as your needs or budget increases you simply upgrade versus upbuying.</p>
@@ -283,8 +293,10 @@ enhance-comfort:
 <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png">
 
 </div>
+</div>
 
 <div class="feature-section article-feature">
+<div class="uk-container uk-container-center">
 <h1>You Fix It™</h1>
 
 <p>Repair, don't repurchase! Both your wallet and the planet will thank you! Compared to the traditional All-in-One: The death of a single module is **not** the death of the entire computer.</p>
@@ -296,24 +308,30 @@ enhance-comfort:
 <p>With traditional AiO designs the failure of any component, large or small, can render the machine either less productive or entirely toast. Even if repair is technically an option, it may be expensive and require you to leave your computer at a repair center, while you lose productivity and profits. 
 We embrace the philosophy of iFixit – wherever possible, we want you to be able to effect repairs and replace components on your own.</p>
 
+</div>
+</div>
+
 
 <!--    [Art Brief > Enhance Comfort](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/enhance-comfort/artbrief.md) -->
 
 <!-- Tabs for section Enhance Comfort -->
 
 <div class="feature-section article-feature vertical-interact-section">
+<div class="uk-container uk-container-center">
  <div layout="column" layout-gt-md="row" class="feature-row">
    <div flex-gt-md="50" flex-order-gt-md="0" flex-order="1">
      {% include slideshow id="enhance-comfort" %}
    </div>
    <div flex-gt-md="50">
      <h1 id="enhance-comfort">Enhance Comfort</h1>
-             <p>Laptops and tablets provide a convenient, portable platform for users, but are not ergonomically‐ideal for long‐term use.  ViStand offers a comfortable solution to this problem.</p>
+        <p>Laptops and tablets provide a convenient, portable platform for users, but are not ergonomically‐ideal for long‐term use.  ViStand offers a comfortable solution to this problem.</p>
    </div>
+ </div>
  </div>
 </div>
 
   <div class="feature-section article-feature vertical-interact-section">
+  <div class="uk-container uk-container-center">
   <v2-switcher>
     <div layout="column" layout-gt-md="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
@@ -347,4 +365,5 @@ We embrace the philosophy of iFixit – wherever possible, we want you to be abl
       </div>
     </div>
     </v2-switcher>
+    </div>
   </div>

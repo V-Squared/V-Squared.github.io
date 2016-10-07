@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for board in site.data.board-bar %}
+  {% if page.url contains board.url %}
+    {% assign boardName = board.menu %}
+    {% assign boardUrl = board.url | remove: "/" %}
+    {% assign bookbar = site.data.[boardUrl].book-bar %}
+  {% endif %}
+{% endfor %}
+
+<div class="feature-content content-body">
+  {% include article-jumbo/article-jumbo.html %}
+	<md-content flex class="post-content">
+ {{ content }}
+ </md-content>
+</div>

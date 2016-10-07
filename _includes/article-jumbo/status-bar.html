@@ -1,4 +1,8 @@
-<div layout="row" layout-align="space-between none" no-gap class="status-bar">
+<div class="status-bar">
+{% if page.layout == "feature" %}
+<div class="uk-container uk-container-center">
+{% endif %}
+<div layout="row" layout-align="space-between none" no-gap>
   <div>
     {% for my_page in bookbar %}
     {% if navurl contains my_page.url %}
@@ -55,4 +59,8 @@
     </md-button>
     {% endif %}
   </div>
+  </div>
+  {% if page.layout == "feature" %}
+</div>
+{% endif %}
 </div>

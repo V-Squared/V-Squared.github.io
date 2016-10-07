@@ -15,7 +15,13 @@
 
   .article-jumbotron-container {
     position: relative;
-    padding:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &:not(.uk-container) {
+      padding-left:20px;
+      padding-right:20px;
+    }
 
     @include media-query($on-mobile) {
       padding:10px;

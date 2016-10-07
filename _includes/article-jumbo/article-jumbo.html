@@ -1,4 +1,4 @@
-<div class="jumbotron article-jumbotron">
+<div class="jumbotron article-jumbotron" {% if page.layout == "feature" %}style="padding:0;"{% endif %}>
   {% if page.visualURL %}
   <div style="padding-top:10px;padding-bottom:10px;background:#FFF">
     <img src="{{ page.visualURL }}-title.jpg" style="width:100%;">
@@ -7,7 +7,7 @@
 
   {% include article-jumbo/status-bar.html %}
 
-  <div class="article-jumbotron-container">
+  <div class="article-jumbotron-container {% if page.layout == "feature" %}uk-container uk-container-center{% endif %}">
 
     <h1 class="article-title">{{ page.title }}</h1>
 
