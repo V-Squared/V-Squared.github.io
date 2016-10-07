@@ -118,7 +118,7 @@ enhance-comfort:
     </div>
     <div flex-gt-sm="50">
         <h1 id="how-it-works">How it works</h1>
-        <p>Transform your computer into a Modular All-in-One with ViStand.</p>
+        <p class="subtitle">Transform your computer into a Modular All-in-One with ViStand.</p>
 
         <v2-switch-text>
           <p>Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → <a href="/products/vistand/features/">Features</a>.</p>
