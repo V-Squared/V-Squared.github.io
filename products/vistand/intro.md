@@ -139,7 +139,7 @@ enhance-comfort:
 
 <div class="uk-container uk-container-center">
 
-<div v2-switcher toggle-content layout="column" layout-gt-md="row" class="feature-row">
+<div v2-switcher toggle-content layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" class="card-tab-background"
       style="
       background-image:
@@ -229,7 +229,7 @@ enhance-comfort:
           Proven ways to reduce pain and strain while working with tablets and notebooks.
         </md-card-content>
       </md-card>
-      
+            
     </div>
     <div flex-gt-sm="50">
       <h1>ViStand Overview</h1>
