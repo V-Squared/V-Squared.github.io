@@ -10,9 +10,7 @@ var v2SlideshowCompoonent = {
 v2SlideshowCtrl.$inject = ["$scope","$sce","$window","$element","v2SlideshowSetting"];
 function v2SlideshowCtrl ($scope,$sce,$window,$element,v2SlideshowSetting) {
   var $this = this;
-
-
-
+  
   $this.slides = [];
   $this.direction = "left";
   $this.settings = v2SlideshowSetting;
@@ -90,18 +88,18 @@ function v2SlideshowCtrl ($scope,$sce,$window,$element,v2SlideshowSetting) {
   }
 }
 
-function v2CaptionSlideshow() {
+function v2Caption() {
   var directive = {
     restrict: "E",
     scope: true,
-    controller: v2CaptionSlideshowController,
-    controllerAs: "capslide"
+    controller: v2CaptionController,
+    controllerAs: "cap"
   };
 
   return directive;
 }
 
-function v2CaptionSlideshowController() {
+function v2CaptionController() {
   this.isOpen = 0;
 }
 
@@ -129,7 +127,7 @@ function v2SlideshowSetting () {
 angular
   .module("v2Slideshow",["ngSanitize","v2Slide"])
   .component("v2Slideshow",v2SlideshowCompoonent)
-  .directive("v2CaptionSlideshow",v2CaptionSlideshow)
+  .directive("v2Caption",v2Caption)
   .provider("v2SlideshowSetting",v2SlideshowSetting);
 
 

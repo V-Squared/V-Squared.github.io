@@ -4,10 +4,10 @@
 {% assign slideshow = page.slideshow %}
 {% endif %}
 
-<v2-caption-slideshow>
+<v2-caption>
 
-<v2-slideshow style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}100%{% endif %};
-  height:0px" current-index="capslide.isOpen">
+<v2-slideshow style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}960px{% endif %};
+  height:0px" current-index="cap.isOpen">
   {% for slide in slideshow.slides %}
   <v2-slide>
       <img src="{{slide.img}}">
@@ -15,7 +15,7 @@
   {% endfor %}
 </v2-slideshow>
 
-<v2-switcher is-open="capslide.isOpen">
+<v2-switcher is-open="cap.isOpen">
 {% for slide in slideshow.slides %}
 <v2-switch-text>
 <h3>{{slide.title}}</h3>
@@ -26,4 +26,4 @@
 {% endfor %}
 </v2-switcher>
 
-</v2-caption-slideshow>
+</v2-caption>

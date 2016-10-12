@@ -100,11 +100,11 @@ enhance-comfort:
 <!-- Tabs for section How it works -->
 <div class="feature-section article-feature feature-gray vertical-interact-section">
   <div class="uk-container uk-container-center">
-  <v2-caption-slideshow>
-  <v2-switcher is-open="capslide.isOpen">
+  <v2-caption>
+  <v2-switcher is-open="cap.isOpen">
   <div layout="column" layout-gt-sm="row" class="feature-row">
       <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
-    <md-tabs md-dynamic-height md-selected="capslide.isOpen">
+    <md-tabs md-dynamic-height md-selected="cap.isOpen">
       <md-tab label="Uplifting">
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png">
       </md-tab>
@@ -132,29 +132,159 @@ enhance-comfort:
   </div>
   </div>
   </v2-switcher>
-  </v2-caption-slideshow>
+  </v2-caption>
 </div>
 </div>
-<div class="feature-section article-feature feature-black">
+<div class="feature-section article-feature feature-black vertical-interact-section">
 
 <div class="uk-container uk-container-center">
 
-<h1>Modular All-in-One™</h1>
+<div v2-switcher toggle-content layout="column" layout-gt-md="row" class="feature-row">
+    <div flex-gt-sm="50" class="card-tab-background"
+      style="
+      background-image:
+        linear-gradient(
+        rgba(45, 56, 74, 0.6),
+        rgba(45, 56, 74, 0.6)
+      ),
+      url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png')">
 
-<p>ViStand is the missing component to make the Modular All-in-One a reality for you, in a way that you can keep using all PC components that you already own! It merges the best features of the traditional All-in-One with the modularity of the traditional desktop:</p>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Display Freedom</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          No need to make compromises when choosing your display!
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Modular Desktop All-in-One</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Sleek & Stylish</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Clean minimalist design with maximum utility & upgradeability.
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Mobile Docking Workstation™</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Go with your mobile where no mobile has gone before: Do real work comfortably!
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Portable Workstation</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          When a mobile device is not enough but you need portability!
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">ViStand grows with You</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          as your needs or budget increases you simply upgrading versus upbuying.
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">You Fix It™</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Repair, don't repurchase! Both your wallet and the planet will thank you!
+        </md-card-content>
+      </md-card>
+      <md-card v2-switch-text>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Enhance Comfort</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Proven ways to reduce pain and strain while working with tablets and notebooks.
+        </md-card-content>
+      </md-card>
+      
+    </div>
+    <div flex-gt-sm="50">
+      <h1>ViStand Overview</h1>
 
-<ul>
-  <li><a href="#display-freedom">Display Freedom</a> No need to make compromises when choosing your display!</li>
-  <li><a href="#modular-desktop-all-in-one">Modular Desktop All-in-One</a> Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.</li>
-  <li><a href="#sleek-stylish">Sleek & Stylish</a> Clean minimalist design with maximum utility & upgradeability.</li>
-  <li><a href="#mobile-docking-workstation™">Mobile Docking Workstation™</a> Go with your mobile where no mobile has gone before: Do real work comfortably!</li>
-  <li><a href="#portable-workstation">Portable Workstation</a> When a mobile device is not enough but you need portability!</li>
-  <li><a href="#vistand-grows-with-you-...">ViStand grows with You</a> as your needs or budget increases you simply upgrading versus upbuying.</li>
-  <li><a href="#you-fix-it™">You Fix It™</a> Repair, don't repurchase! Both your wallet and the planet will thank you!</li>
-  <li><a href="#enhance-comfort">Enhance Comfort</a> Proven ways to reduce pain and strain while working with tablets and notebooks.</li>
-</ul>
+      <p>ViStand is the missing component to make the Modular All-in-One™ a reality for you, in a way that you can keep using all PC components that you already own! It merges the best features of the traditional All-in-One with the modularity of the traditional desktop:</p>
 
-<p>ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.</p>
+      <div class="card-tabs">
+        <div class="card-tab">
+          <h3 v2-switch-item>Display Freedom</h3>
+          <p>A traditional All-in-One will always limit your choices for the display(s).</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>Modular Desktop All-in-One</h3>
+          <p>We take the Modular All-in-One with all its benefits</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>Sleek & Stylish</h3>
+          <p>Simply beautiful from all angles.</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>Mobile Docking Workstation™</h3>
+          <p>We take the Modular All-in-One with all its benefits</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>Portable Workstation</h3>
+          <p>Unchain your Desktop</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>ViStand grows with You</h3>
+          <p>... as your needs or budget increases you simply upgrade versus upbuying.</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>You Fix It™</h3>
+          <p>Repair, don't repurchase!</p>
+        </div>
+        <div class="card-tab">
+          <h3 v2-switch-item>Enhance Comfort</h3>
+          <p>Laptops and tablets are not ergonomically‐ideal for long‐term use. ViStand offers a comfortable solution to this problem</p>
+        </div>
+      </div>
+
+      <!-- <ul>
+        <li><a href="#display-freedom">Display Freedom</a> No need to make compromises when choosing your display!</li>
+        <li><a href="#modular-desktop-all-in-one">Modular Desktop All-in-One</a> Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.</li>
+        <li><a href="#sleek-stylish">Sleek & Stylish</a> Clean minimalist design with maximum utility & upgradeability.</li>
+        <li><a href="#mobile-docking-workstation™">Mobile Docking Workstation™</a> Go with your mobile where no mobile has gone before: Do real work comfortably!</li>
+        <li><a href="#portable-workstation">Portable Workstation</a> When a mobile device is not enough but you need portability!</li>
+        <li><a href="#vistand-grows-with-you-...">ViStand grows with You</a> as your needs or budget increases you simply upgrading versus upbuying.</li>
+        <li><a href="#you-fix-it™">You Fix It™</a> Repair, don't repurchase! Both your wallet and the planet will thank you!</li>
+        <li><a href="#enhance-comfort">Enhance Comfort</a> Proven ways to reduce pain and strain while working with tablets and notebooks.</li>
+      </ul>
+      
+      <p>ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.</p> -->
+    </div>
+</div>
 
 </div>
 </div>

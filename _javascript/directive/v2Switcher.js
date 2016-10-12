@@ -1,13 +1,29 @@
-var switcher = {
-  bindings: {
-    "isOpen": "<?"
-  },
-  controller: swithercontroller,
-  transclude:true,
-  template: '<div ng-transclude></div>'
-};
+function switcher () {
 
-function swithercontroller ($scope,$element) {
+  var switcher = {
+    restrict: "EA",
+    scope: true,
+    bindToController: {
+      "isOpen": "<?"
+    },
+    controller: switherController,
+    controllerAs: "$switcher",
+    link: switcherLink
+  };
+
+  function switcherLink (scope, element, attrs, $switcher) {
+    element.addClass("switcher");
+    scope.$watch("$switcher.isOpen",$switcher.select);
+
+    if(attrs.toggleText != null) {
+       
+    }
+  }
+
+  return switcher;
+}
+
+function switherController () {
   var $ctrl = this;
 
   $ctrl.texts = [];
@@ -36,10 +52,9 @@ function swithercontroller ($scope,$element) {
   }
 
   function select (index) {
-    if(previousIndex != undefined) {
+    if(previousIndex !== undefined) {
       var previousTextActive = $ctrl.texts[previousIndex],
         previousItemActive = findItemIndex(previousIndex);
-
 
       if(previousTextActive) {
         previousTextActive.text.active = false;
@@ -54,10 +69,12 @@ function swithercontroller ($scope,$element) {
     
     if (selectedText) {
       selectedText.text.active = true;
-      if(selectedItem)
-        selectedItem.item.active = true;
-      previousIndex = index;
     }
+    if(selectedItem) {
+      selectedItem.item.active = true;
+    }
+
+    previousIndex = index;
   }
 
   function findItemIndex (index) {
@@ -67,28 +84,21 @@ function swithercontroller ($scope,$element) {
       }
     }
   }
-
-  $ctrl.$postLink = function () {
-    $element.addClass("switcher");
-    $scope.$watch('$ctrl.isOpen',select);
-  };
 }
 
-swithercontroller.$inject = ["$scope","$element"];
-
 function switchItem () {
-  var directive = {
+  var switchItem = {
     restrict: "A",
     require: "^v2Switcher",
-    scope:true,
+    scope: true,
     link: switchItemLink
   };
-  return directive;
+  return switchItem;
 
-  function switchItemLink(scope,element,attrs,ctrl) {
-    var index = scope.$eval(attrs.v2SwitchItem);
+  function switchItemLink(scope, element, attrs, $switcher) {
+    scope.index = scope.$eval(attrs.v2SwitchItem) || $switcher.items.length;
 
-    ctrl.addItem(scope,index);
+    $switcher.addItem(scope,scope.index);
 
     scope.active = false;
 
@@ -96,13 +106,13 @@ function switchItem () {
 
     function handleClick () {
       scope.$apply(function() {
-        ctrl.select(index);
+        $switcher.select(scope.index);
       });
     }
 
-    scope.$watch('active',function(value) {
+    scope.$watch('active', function(value) {
       if(value) {
-        element.addClass('active')
+        element.addClass('active');
       } else {
         element.removeClass("active");
       }
@@ -110,32 +120,30 @@ function switchItem () {
   }
 }
 
-var switchText = {
-  require: {
-    switcher: "^v2Switcher"
-  },
-  controller: switchTextController,
-  transclude:true,
-  template: "<div ng-transclude></div>"
-};
-
-function switchTextController ($scope,$element) {
-  this.$onInit = function onInit () {
-    this.switcher.addText(this);
+function switchContent () {
+  var switchContent = {
+    restrict: "EA",
+    scope: true,
+    require: "^v2Switcher",
+    link: switchContentLink
   };
+  return switchContent;
 
-  this.$postLink = function () {
-    $scope.$watch("$ctrl.active",function(newVal) {
+  function switchContentLink (scope,element,attrs,$switcher) {
+    $switcher.addText(scope);
+
+    scope.$watch("active", toggleElement);
+
+    function toggleElement (newVal) {
       var display = !!newVal ? 'block' : 'none';
-      $element.css('display',display);
-    })
+      element.css("display", display);
+    }
   }
-}
 
-switchTextController.$inject = ["$scope","$element"];
+}
 
 angular
   .module("v2.switcher",[])
-  .component("v2Switcher",switcher)
+  .directive("v2Switcher",switcher)
   .directive("v2SwitchItem",switchItem)
-  .component("v2SwitchText",switchText);
+  .directive("v2SwitchText",switchContent);
