@@ -157,11 +157,8 @@ enhance-comfort:
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!
+          ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop
         </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#vistand-overview" class="md-primary">Learn More</md-button>
-        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png" class="md-card-image">
@@ -174,7 +171,7 @@ enhance-comfort:
           Choose the display that best suits your needs and budget!
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#display-freedom" class="md-primary">Learn More</md-button>
+          <md-button href="#display-freedom" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -188,7 +185,7 @@ enhance-comfort:
           Expand your options for all component categories.
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#modular-desktop-all-in-one" class="md-primary">Learn More</md-button>
+          <md-button href="#modular-desktop-all-in-one" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -202,7 +199,7 @@ enhance-comfort:
           Minimalist design + upgradeability = maximum utility.
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#sleek-and-stylish" class="md-primary">Learn More</md-button>
+          <md-button href="#sleek-and-stylish" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -216,7 +213,7 @@ enhance-comfort:
           Do real work comfortably with improved ergonomics!
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#mobile-docking-workstation" class="md-primary">Learn More</md-button>
+          <md-button href="#mobile-docking-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -230,7 +227,7 @@ enhance-comfort:
           When a mobile device is not enough but you need portability!
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#portable-workstation" class="md-primary">Learn More</md-button>
+          <md-button href="#portable-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -244,7 +241,7 @@ enhance-comfort:
           Double or triple your Return On Investment!
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#vistand-grows-with-you" class="md-primary">Learn More</md-button>
+          <md-button href="#vistand-grows-with-you" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -258,7 +255,7 @@ enhance-comfort:
          Both your wallet and the planet will thank you!
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#you-fix-it" class="md-primary">Learn More</md-button>
+          <md-button href="#you-fix-it" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
@@ -272,20 +269,18 @@ enhance-comfort:
           ViStand provides the solution to reducing pain, strain, & fatigue.
         </md-card-content>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#enhance-comfort" class="md-primary">Learn More</md-button>
+          <md-button href="#enhance-comfort" class="md-primary" du-smooth-scroll>Learn More</md-button>
         </md-card-actions>
       </md-card>
             
     </div>
     <div flex-gt-sm="50">
-      <h1 id="vistand-overview">ViStand Overview</h1>
-
-      <p>ViStand is the missing component to make the Modular All-in-One™ a reality for you, in a way that you can keep using all PC components that you already own! It merges the best features of the traditional All-in-One with the modularity of the traditional desktop:</p>
+      <h1 style="margin-left: 30px;" id="vistand-overview">ViStand Overview</h1>
 
       <div class="card-tabs">
         <div class="card-tab">
           <h3 v2-switch-item>Overview</h3>
-          <p>ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop</p>
+          <p>Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Display Freedom</h3>
@@ -419,7 +414,7 @@ enhance-comfort:
     </v2-switcher>
     </div>
   </div>
-  
+
 -->
 
 <!-- Tabs for section Sleek and stylish -->
