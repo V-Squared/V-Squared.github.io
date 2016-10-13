@@ -49,3 +49,12 @@ $card-padding: 20px;
 		}
 	}
 }
+.md-card-image {
+	border-width: 0;
+	border-color: none;
+	margin-bottom: 0;
+}
+
+md-card-actions {
+	padding: 8px;
+}

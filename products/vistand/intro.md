@@ -150,46 +150,77 @@ enhance-comfort:
       url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png')">
 
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png" class="md-card-image">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Overview</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#vistand-overview" class="md-primary">Learn More</md-button>
+        </md-card-actions>
+      </md-card>
+      <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Display Freedom</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          No need to make compromises when choosing your display!
+          Choose the display that best suits your needs and budget!
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#display-freedom" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Modular Desktop All-in-One</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.
+          Expand your options for all component categories.
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#modular-desktop-all-in-one" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Sleek & Stylish</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Clean minimalist design with maximum utility & upgradeability.
+          Minimalist design + upgradeability = maximum utility.
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#sleek-and-stylish" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Mobile Docking Workstation™</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Go with your mobile where no mobile has gone before: Do real work comfortably!
+          Do real work comfortably with improved ergonomics!
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#mobile-docking-workstation" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Portable Workstation</span>
@@ -198,52 +229,71 @@ enhance-comfort:
         <md-card-content>
           When a mobile device is not enough but you need portability!
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#portable-workstation" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">ViStand grows with You</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          as your needs or budget increases you simply upgrading versus upbuying.
+          Double or triple your Return On Investment!
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#vistand-grows-with-you" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/you-fix-it/designed-for-repair-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">You Fix It™</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Repair, don't repurchase! Both your wallet and the planet will thank you!
+         Both your wallet and the planet will thank you!
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#you-fix-it" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
       <md-card v2-switch-text>
+        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png" class="md-card-image">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Enhance Comfort</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-content>
-          Proven ways to reduce pain and strain while working with tablets and notebooks.
+          ViStand provides the solution to reducing pain, strain, & fatigue.
         </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button href="#enhance-comfort" class="md-primary">Learn More</md-button>
+        </md-card-actions>
       </md-card>
             
     </div>
     <div flex-gt-sm="50">
-      <h1>ViStand Overview</h1>
+      <h1 id="vistand-overview">ViStand Overview</h1>
 
       <p>ViStand is the missing component to make the Modular All-in-One™ a reality for you, in a way that you can keep using all PC components that you already own! It merges the best features of the traditional All-in-One with the modularity of the traditional desktop:</p>
 
       <div class="card-tabs">
         <div class="card-tab">
+          <h3 v2-switch-item>Overview</h3>
+          <p>ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop</p>
+        </div>
+        <div class="card-tab">
           <h3 v2-switch-item>Display Freedom</h3>
-          <p>A traditional All-in-One will always limit your choices for the display(s).</p>
+          <p>Traditional AiO designs limit your options for displays.</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Modular Desktop All-in-One</h3>
-          <p>We take the Modular All-in-One with all its benefits</p>
+          <p>The Modular All-in-One has numerous benefits!</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Sleek & Stylish</h3>
@@ -251,23 +301,23 @@ enhance-comfort:
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Mobile Docking Workstation™</h3>
-          <p>We take the Modular All-in-One with all its benefits</p>
+          <p>Expanding the concept of the All-in-One.</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Portable Workstation</h3>
-          <p>Unchain your Desktop</p>
+          <p>Unchain your desktop!</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>ViStand grows with You</h3>
-          <p>... as your needs or budget increases you simply upgrade versus upbuying.</p>
+          <p>…as your budget or requirements increase, upgrade only the critical components.</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>You Fix It™</h3>
-          <p>Repair, don't repurchase!</p>
+          <p>Modularity Rocks! Repair, don’t Repurchase!</p>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Enhance Comfort</h3>
-          <p>Laptops and tablets are not ergonomically‐ideal for long‐term use. ViStand offers a comfortable solution to this problem</p>
+          <p>Laptops and tablets are not ergonomically ideal for long work sessions.</p>
         </div>
       </div>
 
@@ -324,9 +374,13 @@ enhance-comfort:
   </div>
 </div>
 
+
+
 <!-- Tabs for section Modular Desktop All-in-One -->
 
 <!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
+
+<!--
 
   <div class="feature-section article-feature vertical-interact-section feature-black">
   <div class="uk-container uk-container-center">
@@ -365,8 +419,8 @@ enhance-comfort:
     </v2-switcher>
     </div>
   </div>
-
-
+  
+-->
 
 <!-- Tabs for section Sleek and stylish -->
 
@@ -383,7 +437,7 @@ enhance-comfort:
 
 <!--    [Art Brief > Mobile Docking](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/mobile-docking/artbrief.md) -->
 
-<!-- Tabs for section Mobile Docking Workstation -->
+<!-- Tabs for section Mobile Docking Workstation™ -->
 
 <div class="feature-section article-feature vertical-interact-section">
 <div class="uk-container uk-container-center">
@@ -392,7 +446,7 @@ enhance-comfort:
         {% include slideshow id="mobile-docking" %}
     </div>
     <div flex-gt-md="50">
-        <h1 id="mobile-docking-workstation">Mobile Docking Workstation</h1>
+        <h1 id="mobile-docking-workstation">Mobile Docking Workstation™</h1>
         <p>Your portable (be it a notebook or tablet) is great on the go. But when working on your desk you're living with some compromises regarding screen size, keyboard size, desktop ergonomics, and style. The ViStand lets you create an elegant workstation where you can dock your portable in style while increasing your productivity, comfort, and health. A 22" display, mouse and keyboard are available for just $100. There is really no reason to strain yourself and limit your work speed on a small display and keyboard. Most Android tablets and iPads support external displays and keyboards too.</p>
     </div>
     </div>
@@ -414,7 +468,7 @@ enhance-comfort:
 
 <div class="feature-section article-feature">
 <div class="uk-container uk-container-center">
-<h1 id="vistand-grows-with-you-...">ViStand grows with You ...</h1>
+<h1 id="vistand-grows-with-you">ViStand grows with You ...</h1>
 
 <p>... as your needs or budget increases you simply upgrade versus upbuying.</p>
 
@@ -427,7 +481,7 @@ enhance-comfort:
 
 <div class="feature-section article-feature">
 <div class="uk-container uk-container-center">
-<h1>You Fix It™</h1>
+<h1 id="you-fix-it">You Fix It™</h1>
 
 <p>Repair, don't repurchase! Both your wallet and the planet will thank you! Compared to the traditional All-in-One: The death of a single module is **not** the death of the entire computer.</p>
 

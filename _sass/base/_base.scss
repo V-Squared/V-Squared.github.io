@@ -204,3 +204,13 @@ p {
 svg {
   fill: currentColor;
 }
+
+/**
+* Buttons
+*/
+
+.md-button {
+  > * {
+    color: currentColor !important;
+  }
+}
