@@ -13,6 +13,14 @@ layout: default
 <div class="feature-content content-body">
   {% include article-jumbo/article-jumbo.html %}
 	<md-content flex class="post-content">
- {{ content }}
- </md-content>
+   {{ content }}
+  </md-content>
 </div>
+
+{% if page.backTop %}
+	<md-button aria-label="Back To Top" id="back-top" class="md-primary md-fab" href="{{page.backTop}}" du-smooth-scroll>
+		<md-icon>
+			{% include icons/ic_expand_less_black_24px.svg %}
+		</md-icon>
+	</md-button>
+{% endif %}

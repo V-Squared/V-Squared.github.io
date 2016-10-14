@@ -8,6 +8,7 @@ issueNo: 224
 readiness:
    - is-complete
    - is-active
+backTop: "#vistand-overview"
 display-freedom:
   slides:
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png
