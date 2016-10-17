@@ -40,6 +40,10 @@
 			position: absolute;
 			right: calc(50% + 5px);
 			top: 0;
+
+			@include media-query ($on-tablet) {
+				max-width: 400px;
+			}
   	}
 
   }
