@@ -149,130 +149,6 @@ enhance-comfort:
         rgba(45, 56, 74, 0.6)
       ),
       url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png')">
-
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Overview</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop
-        </md-card-content>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Display Freedom</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          Choose the display that best suits your needs and budget!
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#display-freedom" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Modular Desktop All-in-One</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          Expand your options for all component categories.
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#modular-desktop-all-in-one" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Sleek & Stylish</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          Minimalist design + upgradeability = maximum utility.
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#sleek-and-stylish" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Mobile Docking Workstation™</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          Do real work comfortably with improved ergonomics!
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#mobile-docking-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Portable Workstation</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          When a mobile device is not enough but you need portability!
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#portable-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">ViStand grows with You</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          Double or triple your Return On Investment!
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#vistand-grows-with-you" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/you-fix-it/designed-for-repair-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">You Fix It™</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-         Both your wallet and the planet will thank you!
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#you-fix-it" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
-      <md-card v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png" class="md-card-image">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Enhance Comfort</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          ViStand provides the solution to reducing pain, strain, & fatigue.
-        </md-card-content>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button href="#enhance-comfort" class="md-primary" du-smooth-scroll>Learn More</md-button>
-        </md-card-actions>
-      </md-card>
             
     </div>
     <div flex-gt-sm="50">
@@ -282,38 +158,161 @@ enhance-comfort:
         <div class="card-tab">
           <h3 v2-switch-item>Overview</h3>
           <p>Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Overview</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop
+            </md-card-content>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Display Freedom</h3>
           <p>Traditional AiO designs limit your options for displays.</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Display Freedom</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              Choose the display that best suits your needs and budget!
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#display-freedom" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Modular Desktop All-in-One</h3>
           <p>The Modular All-in-One has numerous benefits!</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Modular Desktop All-in-One</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              Expand your options for all component categories.
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#modular-desktop-all-in-one" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Sleek & Stylish</h3>
           <p>Simply beautiful from all angles.</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Sleek & Stylish</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              Minimalist design + upgradeability = maximum utility.
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#sleek-and-stylish" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Mobile Docking Workstation™</h3>
           <p>Expanding the concept of the All-in-One.</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Mobile Docking Workstation™</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              Do real work comfortably with improved ergonomics!
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#mobile-docking-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Portable Workstation</h3>
           <p>Unchain your desktop!</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Portable Workstation</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              When a mobile device is not enough but you need portability!
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#portable-workstation" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>ViStand grows with You</h3>
           <p>…as your budget or requirements increase, upgrade only the critical components.</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">ViStand grows with You</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              Double or triple your Return On Investment!
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#vistand-grows-with-you" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>You Fix It™</h3>
           <p>Modularity Rocks! Repair, don’t Repurchase!</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/you-fix-it/designed-for-repair-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">You Fix It™</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+             Both your wallet and the planet will thank you!
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#you-fix-it" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
         <div class="card-tab">
           <h3 v2-switch-item>Enhance Comfort</h3>
           <p>Laptops and tablets are not ergonomically ideal for long work sessions.</p>
+          <md-card v2-switch-text class="not-white">
+            <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png" class="md-card-image">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Enhance Comfort</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              ViStand provides the solution to reducing pain, strain, & fatigue.
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button href="#enhance-comfort" class="md-primary" du-smooth-scroll>Learn More</md-button>
+            </md-card-actions>
+          </md-card>
         </div>
       </div>
 

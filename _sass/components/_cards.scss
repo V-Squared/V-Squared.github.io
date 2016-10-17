@@ -55,6 +55,9 @@ $card-padding: 20px;
 	margin-bottom: 0;
 }
 
-md-card-actions {
-	padding: 8px;
+md-card {
+	md-card-actions {
+		padding: 8px;
+		margin: 0;
+	}
 }

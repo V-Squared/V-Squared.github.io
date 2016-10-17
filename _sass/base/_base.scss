@@ -214,3 +214,11 @@ svg {
     color: currentColor !important;
   }
 }
+
+/**
+* Not White
+*/
+
+.not-white * {
+  color: $text-color !important;
+}

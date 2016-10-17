@@ -21,6 +21,9 @@
   }
 
   &.vertical-interact-section {
+    > .uk-container {
+      position: relative;
+    }
     h1 {
       padding-bottom: 5px;
     }

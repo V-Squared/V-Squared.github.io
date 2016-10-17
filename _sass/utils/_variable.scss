@@ -47,8 +47,8 @@ $gray-color: #9E9E9E;
 $gray-600:  #757575;
 $gray-700:   #616161;
 
-$heading-color: #777;
-$text-color:       #111;
+$heading-color: rgba(0,0,0,0.54);
+$text-color:    rgba(0,0,0,0.87);
 
 $gray-color-light: #D4D4D4;
 $gray-color-dark:  darken($gray-color, 25%);
