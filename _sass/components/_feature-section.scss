@@ -1,6 +1,9 @@
 .feature-section {
   padding: ($spacing-unit * 3) 0;
-  background: #FFF;
+
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &:not(.article-feature) {
     @include remove-typo-margin;

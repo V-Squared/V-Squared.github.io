@@ -44,6 +44,14 @@
 			@include media-query ($on-laptop) {
 				max-width: 400px;
 			}
+
+			@include media-query ($on-tablet) {
+				position: static;
+				background: transparent;
+				> img {
+					display: none;
+				}
+			}
   	}
 
   }

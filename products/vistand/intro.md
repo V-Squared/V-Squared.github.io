@@ -136,19 +136,17 @@ enhance-comfort:
   </v2-caption>
 </div>
 </div>
-<div class="feature-section article-feature feature-black vertical-interact-section">
+<div class="feature-section article-feature feature-black vertical-interact-section" style="
+      background-image: linear-gradient(
+        rgba(45, 56, 74, 0.6),
+        rgba(45, 56, 74, 0.6)
+      ),
+      url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png')">
 
 <div class="uk-container uk-container-center">
 
 <div v2-switcher toggle-content layout="column" layout-gt-sm="row" class="feature-row">
-    <div flex-gt-sm="50" class="card-tab-background"
-      style="
-      background-image:
-        linear-gradient(
-        rgba(45, 56, 74, 0.6),
-        rgba(45, 56, 74, 0.6)
-      ),
-      url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png')">
+    <div flex-gt-sm="50" class="card-tab-background">
             
     </div>
     <div flex-gt-sm="50">
