@@ -17,6 +17,7 @@
 			padding: 0;
 			cursor: pointer;
 			position: relative;
+			font-weight: bold;
 
 			&:hover::before, &.active::before {
 				content: url(/icons/ic_arrow_forward_black_24px.svg);
@@ -48,6 +49,9 @@
 			@include media-query ($on-tablet) {
 				position: static;
 				background: transparent;
+				box-shadow: none;
+				width: 100%;
+				display: block;
 				> img {
 					display: none;
 				}
