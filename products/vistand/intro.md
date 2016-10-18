@@ -138,8 +138,8 @@ enhance-comfort:
 </div>
 <div class="feature-section article-feature feature-black vertical-interact-section" style="
       background-image: linear-gradient(
-        rgba(45, 56, 74, 0.6),
-        rgba(45, 56, 74, 0.6)
+        rgba(45, 56, 74, 0.8),
+        rgba(45, 56, 74, 0.8)
       ),
       url('https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png')">
 
