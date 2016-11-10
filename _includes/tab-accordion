@@ -59,7 +59,12 @@
         <h3 class="card-title" v2-accordian-heading>{{item.name}}</h3>
         <p>{{item.desc}}</p>
         <v2-collapse uib-collapse="!$group.isOpen">
-          <p style="margin-top: 15px;">{{item.content}}</p>
+          <div style="margin-top: 15px;">
+            {% if item.img %}
+            <img src="{{item.img}}" />
+            {% endif %}
+            <p>{{item.content}}</p>
+          </div>
         </v2-collapse>
       </v2-accordian-group>
       {% endfor %}
