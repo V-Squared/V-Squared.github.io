@@ -30,7 +30,7 @@ vistand-overview:
       content: Expand your options for all component categories.
     - name: Sleek & Stylish
       desc: Simply beautiful from all angles
-      href: 'sleek-and-stylish'
+      href: '#sleek-and-stylish'
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
       content: Minimalist design + upgradeability = maximum utility.
     - name: Mobile Docking Workstation™
