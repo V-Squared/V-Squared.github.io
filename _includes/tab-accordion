@@ -9,16 +9,16 @@
   rgba(45, 56, 74, 0.8)
   ),
   url('{{tabAccordian.background-img}}')">
-  <div class="tab-accordian-tab">
   <div class="uk-container uk-container-center">
       <div layout="column" layout-gt-sm="row" class="feature-row">
         <div flex-gt-sm="50" class="card-tab-background">
         </div>
         <div flex-gt-sm="50">
-          <h1 style="margin-left: 30px;" id="{{include.id}}">{{tabAccordian.name}}</h1>
+          <h1 id="{{include.id}}">{{tabAccordian.name}}</h1>
           {% if tabAccordian.desc %}
           <p>{{tabAccordian.desc}}</p>
           {% endif %}
+            <div class="tab-accordian-tab">
           <div class="card-tabs" v2-switcher>
             {% for item in tabAccordian.items %}
             <div class="card-tab card">
@@ -49,30 +49,29 @@
             </div>
             {% endfor %}
           </div>
+          </div>
+          <div class="tab-accordian-accordian">
+            <v2-accordian>
+            {% for item in tabAccordian.items %}
+            <v2-accordian-group class="card-accordian card">
+              <h3 class="card-title" v2-accordian-heading>{{item.name}}</h3>
+              <p>{{item.desc}}</p>
+              <v2-collapse uib-collapse="!$group.isOpen">
+                <div style="margin-top: 15px;">
+                  {% if item.img %}
+                  <img src="{{item.img}}" style="border: 3px solid #212121;margin-bottom: 5px;" />
+                  {% endif %}
+                  <p>{{item.content}}</p>
+                  {% if item.href %}
+                  <md-button class="md-primary" href="{{item.href}}" style="color: #64B5F6;font-weight: bold;">Read More</md-button>
+                  {% endif %}
+                </div>
+              </v2-collapse>
+            </v2-accordian-group>
+            {% endfor %}
+            </v2-accordian>
+            </div>
         </div>
       </div>
   </div>
-  </div>
-  <div class="tab-accordian-accordian">
-    <h1 style="margin-left: 15px;" id="{{include.id}}">{{tabAccordian.name}}</h1>
-    {% if tabAccordian.desc %}
-    <p>{{tabAccordian.desc}}</p>
-    {% endif %}
-    <v2-accordian>
-    {% for item in tabAccordian.items %}
-    <v2-accordian-group class="card-accordian card">
-      <h3 class="card-title" v2-accordian-heading>{{item.name}}</h3>
-      <p>{{item.desc}}</p>
-      <v2-collapse uib-collapse="!$group.isOpen">
-        <div style="margin-top: 15px;">
-          {% if item.img %}
-          <img src="{{item.img}}" style="border: 3px solid #212121;" />
-          {% endif %}
-          <p>{{item.content}}</p>
-        </div>
-      </v2-collapse>
-    </v2-accordian-group>
-    {% endfor %}
-    </v2-accordian>
-    </div>
 </div>
