@@ -33,7 +33,7 @@
            href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}
         >
           {% if subitem.group %}
-          <md-icon ng-class="{ 'rotate-90': v2Group.isOpen }"
+          <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
                   class="article-group-foldicon"
                   md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>
           {% endif %}
@@ -41,7 +41,7 @@
           </a>
 
         {% if subitem.group %}
-          <div uib-collapse="!v2Group.isOpen">
+          <div uib-collapse="!$group.isOpen">
             <ul>
               <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
                 <a href="{{site.baseurl}}{{subitemUrl}}">Index</a>

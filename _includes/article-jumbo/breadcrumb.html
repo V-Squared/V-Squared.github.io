@@ -10,8 +10,6 @@
   {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
   {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
 
-  {{ current_breadcrumb_md_url }}
-
   {% for breadcrumb_page in bookbar %}
 
   {% capture breadcrumb_pageUrl %}{{site.baseurl}}/{{boardUrl}}{{breadcrumb_page.url}}{% endcapture %}

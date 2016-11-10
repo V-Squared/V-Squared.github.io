@@ -1,0 +1,11 @@
+<div ng-class="::$ctrl.settings.slideshowInnerClass" ng-transclude></div>
+  <a ng-class="::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavLeftClass]" ng-click="$ctrl.previous()">
+    <md-icon md-svg-src="{{::$ctrl.settings.slideNavLeftSvgPath}}"></md-icon>
+  </a>
+  <a ng-class="::[$ctrl.settings.slideNavClass,$ctrl.settings.slideNavRightClass]" ng-click="$ctrl.next()" >
+    <md-icon md-svg-src="{{::$ctrl.settings.slideNavRightSvgPath}}"></md-icon>
+  </a>
+  <ol ng-class="::$ctrl.settings.dotNavClass">
+    <li ng-repeat="slide in ::$ctrl.slides track by $index" ng-class="{ active: $ctrl.isCurrentSlideIndex($index) }"
+        ng-click="$ctrl.select($index)"></li>
+  </ol>

@@ -1,4 +1,6 @@
 .feature-section {
+  position: relative;
+  
   padding: ($spacing-unit * 3) 0;
 
   background-color: #FFF;
@@ -56,6 +58,10 @@
 
   p {
     //line-height: 2em;
+  }
+
+  h3 {
+    font-size: 16px !important;
   }
 }
 .call-to-action {

@@ -296,11 +296,6 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 </v2-switcher>
 
 
-
-
-
-
-
 # Trademarks & Copyrights
 
 ViStand™, ViMount™, ViCase™, V², V-Squared, V²Stand™, V²Mount™, V²Case™, Modular All-in-One™, Mobile Docking Workstation™, ViMount 6-Way Airflow™, 3-Chamber Airflow™, Dual Display All-inOne™, Modular Desktop All-in-One™, V² Trailblazer Products™, Upgrading versus Upbuying™, You Fix It™, Cow in a Thunderstorm™ are trademarks of V-Squared and Village Tronic.

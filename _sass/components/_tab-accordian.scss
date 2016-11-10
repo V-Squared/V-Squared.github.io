@@ -1,0 +1,130 @@
+.tab-accordian {
+	.card-title {
+		font-size: 16px !important;
+		color: $brand-secondary;
+		margin: 0;
+		padding: 0;
+		cursor: pointer;
+		position: relative;
+		font-weight: bold;
+	}
+
+	.card {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+/**
+* Tabs
+*/
+
+.tab-accordian-tab {
+	@include media-query($on-tablet) {
+		display: none;
+	}
+}
+
+.card-tab-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-right: 10px !important;
+}
+
+.card-tabs {
+	margin-left: $spacing-unit;
+  > .card-tab {
+  	
+		> h3:hover::before, h3.active::before  {	
+			content: url(/icons/ic_arrow_forward_black_24px.svg);
+			position: absolute;
+			left: -$spacing-unit;
+			width: 24px;
+			height: 24px;
+			display: inline-block;
+			fill: $brand-secondary;
+		}
+
+		> p {
+			font-size: 14px;
+			margin-bottom: 0;
+			color: rgba(255,255,255,0.875);
+		}
+
+		> md-card {
+			max-width: 500px;
+			position: absolute;
+			right: calc(50% + 5px);
+			top: 90px;
+
+			@include media-query ($on-laptop) {
+				max-width: 400px;
+			}
+
+			@include media-query ($on-tablet) {
+				position: static;
+				background: transparent;
+				box-shadow: none;
+				width: 100%;
+				display: block;
+				> img {
+					display: none;
+				}
+			}
+  	}
+
+  }
+}
+
+/**
+* Accordian
+*/
+
+.tab-accordian-accordian {
+	display: none;
+
+	@include media-query($on-tablet) {
+		display: block;
+	}
+}
+
+.card-accordian {
+	@include remove-typo-margin;
+	padding: 0 $spacing-unit / 2;
+
+	border-bottom: 1px solid rgba(0, 0, 0, 0.875);
+
+	&:first-child {
+		border-top: 1px solid rgba(0, 0, 0, 0.875);
+	}
+
+	> h3 {
+		color: $brand-400;
+		font-weight: bold;
+	}
+
+	> p {
+		color: $gray-600;
+	}
+
+	> v2-collapse {
+		padding-left: $spacing-unit / 2;
+		padding-right: $spacing-unit / 2;
+	}
+}
+
+.feature-black {
+	.card-accordian {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+		&:first-child {
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+		}
+
+		p {
+			color: rgba(255, 255, 255, 0.875);
+		}
+	}
+}

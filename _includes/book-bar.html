@@ -36,12 +36,12 @@
       {% if navurl contains my_page.url and my_page.subitems %}is-opened{% endif %}>
       <a href="{% unless my_page.subitems %}{{site.baseurl}}/{{include.board}}{{my_page.url}}{% endunless %}"
       {% if my_page.subitems %}v2-accordian-heading{% endif %}>
-      {% if my_page.subitems %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
+      {% if my_page.subitems %}<md-icon ng-class="{ 'rotate-90':$group.isOpen }"
       md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
       {{my_page.menu}}</a>
       {% if my_page.subitems %}
 
-      <div uib-collapse="!v2Group.isOpen">
+      <div uib-collapse="!$group.isOpen">
         <ul class="uk-nav-sub" v2-accordian>
 
           {% capture introUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
@@ -58,12 +58,13 @@
           {% if navurl contains subitemUrl and subitem.group %}is-opened{% endif %}
           class="{% if navurl == subitemUrl %}uk-active{% endif %}">
           <a {% if subitem.group %}v2-accordian-heading{% else %}href="{{site.baseurl}}{{subitemUrl}}"{% endif %}>
-            {% if subitem.group %}<md-icon ng-class="{ 'rotate-90':v2Group.isOpen }"
+            {% if subitem.group %}<md-icon ng-class="{ 'rotate-90':$group.isOpen }"
             md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>{% endif %}
             {{subitem.menu}}
           </a>
           {% if subitem.group %}
-          <ul uib-collapse="!v2Group.isOpen">
+            [[]]
+          <ul uib-collapse="!$group.isOpen">
             {% capture groupIntroUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
             <li class="{% if navurl == groupIntroUrl %}uk-active{% endif %}">

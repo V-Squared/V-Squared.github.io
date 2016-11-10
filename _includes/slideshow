@@ -7,7 +7,7 @@
 <v2-caption>
 
 <v2-slideshow style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}960px{% endif %};
-  height:0px" current-index="cap.isOpen">
+  height:0px">
   {% for slide in slideshow.slides %}
   <v2-slide>
       <img src="{{slide.img}}">

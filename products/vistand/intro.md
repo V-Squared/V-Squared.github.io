@@ -9,6 +9,55 @@ readiness:
    - is-complete
    - is-active
 backTop: "#vistand-overview"
+vistand-overview:
+  name: ViStand Overview
+  background-img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
+  background-color: black
+  items:
+    - name: Overview
+      desc: Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png
+      content: ViStand makes the Modular All-in-One™ a reality. Using PC components that you already own, it combines the best features of a traditional AiO with the modularity of the classic desktop
+    - name: Display Freedom
+      desc: Traditional AiO designs limit your options for displays.
+      href: '#display-freedom'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png
+      content: Choose the display that best suits your needs and budget!
+    - name: Modular Desktop All-in-One
+      desc: The Modular All-in-One has numerous benefits!
+      href: '#modular-desktop-all-in-one'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
+      content: Expand your options for all component categories.
+    - name: Sleek & Stylish
+      desc: Simply beautiful from all angles
+      href: 'sleek-and-stylish'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
+      content: Minimalist design + upgradeability = maximum utility.
+    - name: Mobile Docking Workstation™
+      desc: Expanding the concept of the All-in-One.
+      href: '#mobile-docking-workstation'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
+      content: Do real work comfortably with improved ergonomics!
+    - name: Portable Workstation
+      desc: Unchain your desktop!
+      href: '#portable-workstation'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/22-inch/22-inch.jpg
+      content: When a mobile device is not enough but you need portability!
+    - name: ViStand grows with You
+      desc: …as your budget or requirements increase, upgrade only the critical components.
+      href: '#vistand-grows-with-you'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/grows-with-you/grows-with-you-raw.png
+      content: Double or triple your Return On Investment!
+    - name: You Fix It™
+      desc: Modularity Rocks! Repair, don’t Repurchase!
+      href: '#you-fix-it'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/you-fix-it/designed-for-repair-raw.png
+      content: Both your wallet and the planet will thank you!
+    - name: Enhance Comfort
+      desc: Laptops and tablets are not ergonomically ideal for long work sessions.
+      href: '#enhance-comfort'
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png
+      content: ViStand provides the solution to reducing pain, strain, & fatigue.
 display-freedom:
   slides:
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png
@@ -136,7 +185,10 @@ enhance-comfort:
   </v2-caption>
 </div>
 </div>
-<div class="feature-section article-feature feature-black vertical-interact-section" style="
+
+{% include tab-accordion id="vistand-overview" %}
+
+<!-- <div class="feature-section article-feature feature-black vertical-interact-section" style="
       background-image: linear-gradient(
         rgba(45, 56, 74, 0.8),
         rgba(45, 56, 74, 0.8)
@@ -314,7 +366,7 @@ enhance-comfort:
         </div>
       </div>
 
-      <!-- <ul>
+      <ul>
         <li><a href="#display-freedom">Display Freedom</a> No need to make compromises when choosing your display!</li>
         <li><a href="#modular-desktop-all-in-one">Modular Desktop All-in-One</a> Go where no All-in-One has gone before: Up to 24 core Xeon and Quadro 4000 / GTX 1080.</li>
         <li><a href="#sleek-stylish">Sleek & Stylish</a> Clean minimalist design with maximum utility & upgradeability.</li>
@@ -325,12 +377,12 @@ enhance-comfort:
         <li><a href="#enhance-comfort">Enhance Comfort</a> Proven ways to reduce pain and strain while working with tablets and notebooks.</li>
       </ul>
       
-      <p>ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.</p> -->
+      <p>ViStand is the first shipping V² Trailblazer Product™ by the V² Open Source Standards Organization. Our mission is to develop missing bleeding edge technologies, make them available to you via Trailblazer products for community scrutiny and then publish the know how and the missing standards in open source on our V² site at zero licensing cost.</p>
     </div>
 </div>
 
 </div>
-</div>
+</div> -->
 
 
 <!-- Tabs for section "Display Freedom" in ViStand Introduction -->
