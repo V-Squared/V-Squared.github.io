@@ -559,7 +559,7 @@ We embrace the philosophy of iFixit – wherever possible, we want you to be abl
  </div>
 </div>
 
-  <div class="feature-section article-feature vertical-interact-section">
+<!--  <div class="feature-section article-feature vertical-interact-section">
   <div class="uk-container uk-container-center">
   <v2-switcher>
     <div layout="column" layout-gt-md="row" class="feature-row">
@@ -595,4 +595,4 @@ We embrace the philosophy of iFixit – wherever possible, we want you to be abl
     </div>
     </v2-switcher>
     </div>
-  </div>
+  </div>-->
