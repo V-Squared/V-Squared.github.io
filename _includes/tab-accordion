@@ -26,7 +26,7 @@
               {% if item.desc %}
               <p>{{item.desc}}</p>
               {% endif %}
-              <md-card v2-switch-text class="not-white">
+              <md-card v2-switch-text class="not-white" style="border: 3px solid #212121;">
                 {% if item.img %}
                 <img src="{{item.img}}" class="md-card-image">
                 {% endif %}
@@ -53,20 +53,26 @@
       </div>
   </div>
   </div>
-  <v2-accordian class="tab-accordian-accordian">
-      {% for item in tabAccordian.items %}
-      <v2-accordian-group class="card-accordian card">
-        <h3 class="card-title" v2-accordian-heading>{{item.name}}</h3>
-        <p>{{item.desc}}</p>
-        <v2-collapse uib-collapse="!$group.isOpen">
-          <div style="margin-top: 15px;">
-            {% if item.img %}
-            <img src="{{item.img}}" />
-            {% endif %}
-            <p>{{item.content}}</p>
-          </div>
-        </v2-collapse>
-      </v2-accordian-group>
-      {% endfor %}
+  <div class="tab-accordian-accordian">
+    <h1 style="margin-left: 15px;" id="{{include.id}}">{{tabAccordian.name}}</h1>
+    {% if tabAccordian.desc %}
+    <p>{{tabAccordian.desc}}</p>
+    {% endif %}
+    <v2-accordian>
+    {% for item in tabAccordian.items %}
+    <v2-accordian-group class="card-accordian card">
+      <h3 class="card-title" v2-accordian-heading>{{item.name}}</h3>
+      <p>{{item.desc}}</p>
+      <v2-collapse uib-collapse="!$group.isOpen">
+        <div style="margin-top: 15px;">
+          {% if item.img %}
+          <img src="{{item.img}}" style="border: 3px solid #212121;" />
+          {% endif %}
+          <p>{{item.content}}</p>
+        </div>
+      </v2-collapse>
+    </v2-accordian-group>
+    {% endfor %}
     </v2-accordian>
+    </div>
 </div>
