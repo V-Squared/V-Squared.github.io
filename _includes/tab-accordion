@@ -63,7 +63,7 @@
                   {% endif %}
                   <p>{{item.content}}</p>
                   {% if item.href %}
-                  <md-button class="md-primary" href="{{item.href}}" style="color: #64B5F6;font-weight: bold;">Read More</md-button>
+                  <md-button class="md-primary" href="{{item.href}}" style="color: #64B5F6;font-weight: bold;" du-smooth-scroll>Read More</md-button>
                   {% endif %}
                 </div>
               </v2-collapse>

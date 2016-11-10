@@ -57,7 +57,7 @@
 			max-width: 500px;
 			position: absolute;
 			right: calc(50% + 5px);
-			top: 90px;
+			top: 0;
 
 			@include media-query ($on-laptop) {
 				max-width: 400px;
