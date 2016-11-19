@@ -13,7 +13,7 @@ vistand-overview:
   name: ViStand Overview
   background-img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
   background-color: black
-  items:
+  tab-accordian:
     - name: Overview
       desc: Don’t be limited to the configurations offered by traditional All-in-Ones. Build your Dream Machine!
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png
@@ -58,8 +58,26 @@ vistand-overview:
       href: '#enhance-comfort'
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png
       content: ViStand provides the solution to reducing pain, strain, & fatigue.
+how-it-works:
+  title: How it Works
+  desc: Transform your computer into a Modular All-in-One with ViStand.
+  background-color: gray
+  tabs:
+    - title: Uplifting
+      desc: Going vertical is the secret! Elevate all your computer components and accessories off the desktop and mount them to the ViStand. As a bonus they are hidden out of sight, too! For more details → [Features](/products/vistand/features/)
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/uplifting/vistand-uplifting-raw.png
+    - title: Conquer Cables
+      desc: A real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The cables here are highlighted for illustration purposes only.
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/conquer-cables/conquer-cables-540p.jpg
+    - title: Beautiful
+      desc: This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall.
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/how-it-works/beautiful-all-sides/beautiful-all-sides-540p.png
 display-freedom:
-  slides:
+  title: Display Freedom
+  desc: A traditional All-in-One will always limit your choices for the display(s). The ViStand Modular All-in-One frees you to choose any display (4k, 120 Hz, IPS), including the one you already own. And, unlike with a traditional AiO, if your needs change, so can your monitor. Don't replace an entire computer when you just need to upgrade one component!
+  background-color: gray
+  direction: left
+  slideshow:
     - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/display-freedom/34-curved/34-curved-raw.png
       title: '34" Curved'
       desc: This display simply looks awesome and works very well for both work and fun. It is also the largest All-in-One option. Unbelievably, it is even portable thanks to the large grip of ViStand.
@@ -148,7 +166,7 @@ enhance-comfort:
 </div>
 
 <!-- Tabs for section How it works -->
-<div class="feature-section article-feature feature-gray vertical-interact-section">
+<!-- <div class="feature-section article-feature feature-gray vertical-interact-section">
   <div class="uk-container uk-container-center">
   <v2-caption>
   <v2-switcher is-open="cap.isOpen">
@@ -184,9 +202,11 @@ enhance-comfort:
   </v2-switcher>
   </v2-caption>
 </div>
-</div>
+</div> -->
 
-{% include tab-accordion id="vistand-overview" %}
+{% include tabs-section id="how-it-works" %}
+
+{% include tab-accordion-section id="vistand-overview" %}
 
 <!-- <div class="feature-section article-feature feature-black vertical-interact-section" style="
       background-image: linear-gradient(
@@ -390,11 +410,11 @@ enhance-comfort:
 <!--    [Art Brief > Display Freedom](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/display-freedom/artbrief.md) -->
 
 
-<div class="feature-section feature-gray article-feature vertical-interact-section">
+<!-- <div class="feature-section feature-gray article-feature vertical-interact-section">
 <div class="uk-container uk-container-center">
   <div layout="column" layout-gt-md="row" class="feature-row">
     <div flex-gt-sm="50" flex-order-gt-md="0" flex-order="1">
-      {% include slideshow id="display-freedom" %}
+      
     </div>
     <div flex-gt-sm="50">
       <h1 id="display-freedom">Display Freedom</h1>
@@ -402,7 +422,9 @@ enhance-comfort:
     </div>
   </div>
   </div>
-</div>
+</div> -->
+
+{% include slideshow-section id="display-freedom" %}
 
 
 

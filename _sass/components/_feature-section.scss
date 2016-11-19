@@ -37,11 +37,25 @@
     }
   }
 
-  .feature-row > div:first-child {
-    margin-right: 80px;
+  .feature-row {
+    &.feature-right {
+      > div:first-child {
+        margin-right: 0
+      }
+      > div:nth-child(2) {
+        margin-right: 80px;
+        
+        @include media-query($on-tablet) {
+          margin-right:0;
+        }
+      }
+    }
+    > div:first-child {
+      margin-right: 80px;
 
-    @include media-query($on-tablet) {
-      margin-right:0;
+      @include media-query($on-tablet) {
+        margin-right:0;
+      }
     }
   }
 

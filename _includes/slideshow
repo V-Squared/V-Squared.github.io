@@ -1,14 +1,16 @@
 {% if include.id %}
-{% assign slideshow = page.[include.id] %}
+{% assign slides = page.[include.id] %}
 {% else %}
-{% assign slideshow = page.slideshow %}
+{% assign slides = include.data %}
 {% endif %}
 
 <v2-caption>
 
-<v2-slideshow style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}960px{% endif %};
+{{slides}}
+
+<v2-slideshow style="max-width:{% if slides.width %}{{slides.width}}px{% else %}960px{% endif %};
   height:0px">
-  {% for slide in slideshow.slides %}
+  {% for slide in slides %}
   <v2-slide>
       <img src="{{slide.img}}">
   </v2-slide>
@@ -16,7 +18,7 @@
 </v2-slideshow>
 
 <v2-switcher is-open="cap.isOpen">
-{% for slide in slideshow.slides %}
+{% for slide in slides %}
 <v2-switch-text>
 <h3>{{slide.title}}</h3>
 {% if slide.desc %}

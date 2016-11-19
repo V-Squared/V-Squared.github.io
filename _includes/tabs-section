@@ -1,0 +1,59 @@
+{% if include.id %}
+{% assign tabs = page.[include.id] %}
+{% else %}
+{% assign tabs = page.tabs %}
+{% endif %}
+
+<div class="feature-section article-feature {% if tabs.background-color %}feature-{{tabs.background-color}} {% endif %}vertical-interact-section" {% if tabs.background-img %} style="
+  background-image: linear-gradient(
+  rgba(45, 56, 74, 0.8),
+  rgba(45, 56, 74, 0.8)
+  ),
+  url('{{tabs.background-img}}')" {% endif %}>
+  <div class="uk-container uk-container-center" ng-init="isOpen = 0;" child-scope>
+    <div layout="column" layout-gt-sm="row" class="feature-row {% if tabs.direction == 'right' %}feature-right{% else %}feature-left{% endif %}">
+      <div flex-gt-sm="50" flex-order="1" flex-order-gt-sm="{% if tabs.direction == 'right' %}2{% else %}0{% endif %}">
+        <md-tabs md-dynamic-height md-selected="isOpen">
+          {% for tab in tabs.tabs %}
+          <md-tab label="{{tab.title}}">
+            {% if tab.img %}
+              <img src="{{tab.img}}">
+            {% endif %}
+            {% if tab.content %}
+              <p>{{tab.content}}</p>
+            {% endif %}
+          </md-tab>
+          {% endfor %}
+        </md-tabs>
+
+      <!--TODO: Fix this hack-->
+      <v2-switcher is-open="isOpen" class="item-desc item-desc-sm">
+        {% for tab in tabs.tabs %}
+          <v2-switch-text>
+            {% if tab.desc %}
+              <p>{{tab.desc}}</p>
+            {% endif %}
+          </v2-switch-text>
+        {% endfor %}
+      </v2-switcher>
+      <!--End Hack-->
+      </div>
+      <div flex-gt-sm="50" flex-order="0" flex-order-gt-sm="1">
+        <h1 id="{{include.id}}">{{tabs.title}}</h1>
+        {% if tabs.desc %}<p class="subtitle">{{tabs.desc}}</p>{% endif %}
+        
+        <!--TODO: Fix this hack-->
+        <v2-switcher is-open="isOpen" class="item-desc item-desc-lg">
+          {% for tab in tabs.tabs %}
+            <v2-switch-text>
+              {% if tab.desc %}
+                <p>{{tab.desc}}</p>
+              {% endif %}
+            </v2-switch-text>
+          {% endfor %}
+        </v2-switcher>
+        <!--End Hack-->
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,23 @@ readiness:
    - is-complete
    - is-active
 feature: true
+any-vesa-computer-mount:
+  title: Any VESA Computer Mount
+  desc: ViStand is all about recycling computer parts you already own. As such we made it compatible with any VESA computer mount. See below for but a few examples
+  direction: right
+  vertical-tabs:
+    - title: HideIt Alienware
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png
+      desc: Designed specifically for the Alienware Alpha or Steam
+    - title: HideIt MacMini
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png
+      desc: Designed specifically for one Mac mini model.
+    - title: Intel NUC
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png
+      desc: Intel® NUC Kits include a VESA mount bracket.
+    - title: ViCase Bracket
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png
+      desc: VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.
 ---
 
 # ViStand™ Modular All-in-One
@@ -179,6 +196,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-rear-raw.png)
 
+{% include vertical-tabs-section id="any-vesa-computer-mount" %}
 
 <v2-switcher>
 <div class="feature-section vertical-interact-section">

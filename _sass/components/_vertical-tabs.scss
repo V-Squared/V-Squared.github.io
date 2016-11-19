@@ -38,3 +38,19 @@ $blue-gray: #EEF4FC;
     }
   }
 }
+
+.item-desc {
+  &.item-desc-sm {
+    display: none;
+  }
+
+  @include media-query($on-tablet) {
+    &.item-desc-lg {
+      display: none;
+    }
+
+    &.item-desc-sm {
+      display: block;
+    }
+  }
+}
