@@ -1,0 +1,29 @@
+{% if include.id %}
+{% assign callouts = page.[include.id] %}
+{% else %}
+{% assign callouts = page.callouts %}
+{% endif %}
+
+<div class="feature-section article-feature {% if tabs.background-color %}feature-{{tabs.background-color}} {% endif %}" {% if tabs.background-img %} style="
+background-image: linear-gradient(
+rgba(45, 56, 74, 0.8),
+rgba(45, 56, 74, 0.8)
+),
+url('{{tabs.background-img}}')" {% endif %}>
+<div class="uk-container uk-container-center" v2-switcher>
+  <div class="callout-container">
+    <img src="{{callouts.img}}">
+
+    {% for callout in callouts.callouts %}
+      <div v2-switch-item class="callout" style="top: {{callout.y}}%;left: {{callout.x}}%;"></div>
+    {% endfor %}
+  </div>
+  <div class="caption-text">
+    {% for callout in callouts.callouts %}
+      <v2-switch-text>
+        {{callout.content}}
+      </v2-switch-text>
+    {% endfor %}
+  </div>
+</div>
+</div>
