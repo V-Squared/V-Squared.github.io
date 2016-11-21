@@ -1,6 +1,11 @@
 .callout-container {
   display: block;
   position: relative;
+  max-width: $on-laptop;
+
+  > img {
+    margin-bottom: 0;
+  }
 }
 .callout {
   position: absolute;

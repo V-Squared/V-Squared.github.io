@@ -4,20 +4,18 @@
 {% assign slides = include.data %}
 {% endif %}
 
-<v2-caption>
+<div child-scope ng-init="isOpen = 0;">
 
-{{slides}}
-
-<v2-slideshow style="max-width:{% if slides.width %}{{slides.width}}px{% else %}960px{% endif %};
+<v2-slideshow current-index="isOpen" style="max-width:{% if slides.width %}{{slides.width}}px{% else %}960px{% endif %};
   height:0px">
   {% for slide in slides %}
   <v2-slide>
-      <img src="{{slide.img}}">
+    <img src="{{slide.img}}">
   </v2-slide>
   {% endfor %}
 </v2-slideshow>
 
-<v2-switcher is-open="cap.isOpen">
+<v2-switcher is-open="isOpen">
 {% for slide in slides %}
 <v2-switch-text>
 <h3>{{slide.title}}</h3>
@@ -28,4 +26,4 @@
 {% endfor %}
 </v2-switcher>
 
-</v2-caption>
+</div>

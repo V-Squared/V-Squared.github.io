@@ -97,51 +97,47 @@ display-freedom:
         yet the ultra wide aspect ratio delivers the immersive game experience and wow factor!
         At about $300 US the displays are quite affordable, too!
 seek-stylish:
-  slides:
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-2-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-3-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-4-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-5-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-2-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-3-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-4-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-5-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png
 modular-desktop:
-  slides:
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
-      title: Ever seen a Desktop this clean?
-      desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-no-cable-mess/desktop-no-cable-mess-raw.png
-      title: ViStand tames Cable Mess
-      desc: "Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!"
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
-      title: Beautiful from all Sides
-      desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
+    title: Ever seen a Desktop this clean?
+    desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-no-cable-mess/desktop-no-cable-mess-raw.png
+    title: ViStand tames Cable Mess
+    desc: "Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!"
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
+    title: Beautiful from all Sides
+    desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
 mobile-docking:
-  slides:
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
-      title: Insert Portable
-      desc: Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/secure-portable/secure-portable-raw.png
-      title: Secure Portable
-      desc: Fasten the elastic rope to secure your valuable computer (optional).
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png
-      title: Quick Plugging in Cables
-      desc: ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible.
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/enjoy-mobile-workstation/enjoy-mobile-workstation-raw.png
-      title: Enjoy your ergonomic Workstation
-      desc: Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
+    title: Insert Portable
+    desc: Easy to insert. Virtually any ultrabook, tablet, phablet, or gaming laptop fits.
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/secure-portable/secure-portable-raw.png
+    title: Secure Portable
+    desc: Fasten the elastic rope to secure your valuable computer (optional).
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png
+    title: Quick Plugging in Cables
+    desc: ViMount comes with a special cable management device that places your cables hanging right in front of your computer ports, making them easily accessible.
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/enjoy-mobile-workstation/enjoy-mobile-workstation-raw.png
+    title: Enjoy your ergonomic Workstation
+    desc: Do real work on your mobile with the same comfort of a desktop workstation, yet without the pain of maintaining and synchronizing two computers.
 enhance-comfort:
-  slides:
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png
-      title: Free of Headache
-      desc: Raise your Display to eye level, so to keep your head & spine straight without slouching. This greatly reduces muscle tensions, which in turn avoids shoulder pain and headache.
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable-wrists/comfortable-wrists-good-raw.png
-      title: Comfortable Wrists
-      desc: Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.
-    - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more-energy/more_energy-good-raw.png
-      title: More Energy
-      desc: A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/no-headache/no-headache-good-raw.png
+    title: Free of Headache
+    desc: Raise your Display to eye level, so to keep your head & spine straight without slouching. This greatly reduces muscle tensions, which in turn avoids shoulder pain and headache.
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/comfortable-wrists/comfortable-wrists-good-raw.png
+    title: Comfortable Wrists
+    desc: Use a real keyboard and mouse. In this case larger is simply better, because your fingers do not need to work so precisely, which simply is more relaxing. Working tense on an small keyboards and touch pads over an extended period of time will cause wrist pain.
+  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/enhance-comfort/more-energy/more_energy-good-raw.png
+    title: More Energy
+    desc: A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!
 ---
 
 

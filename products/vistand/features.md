@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: feature
 title: ViStand Features
 subtitle: Features of Modular All-in-One Converter & Mobile Docking Station
 abstract: >
@@ -10,6 +10,26 @@ readiness:
    - is-complete
    - is-active
 feature: true
+vistand-modular-all-in-One:
+  title: ViStand™ Modular All-in-One
+  desc: This All-in-One looks so cool that no one will ever guess that you built it from your computer components.
+  img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png
+  callouts:
+    - content: '**VESA Displays 22" … 34"** ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.'
+      x: 49
+      y: 32
+    - content: '**Webcam** ViStand is all about recycling computer parts you already have. Say you own a display without a webcam. Simply purchase and place a webcam on your display. The webcam itself is not a ViStand feature. However, hiding and organizing its cable is. Explore ViStand Organizes Cable Clutter and The ViStand Design to see in more detail just how ViStand helps keep your desk free of cable clutter.'
+      x: 52
+      y: 2
+    - content: '**Microphone** If you own a webcam it probably has a built-in microphone. But if all you need is a microphone, you can use a lapel type mic with a specialized display clip. The Audio Technica ATR4650 Mic is a great example.'
+      x: 41
+      y: 7
+    - content: '**Parked Keyboard** The space occupied by your keyboard is perhaps the most valuable real estate on your desktop. Reclaim that space to draw, write, or doodle by parking your keyboard in ViStand’s convenient shelf.'
+      x: 55
+      y: 71
+    - content: '**Parked Headset** Headsets are great in a conference or for gaming, but otherwise they can get in the way. The ViStand headset holder gets them out of the way. Barely visible, yet within easy reach when you get a call.'
+      x: 67
+      y: 71
 any-vesa-computer-mount:
   title: Any VESA Computer Mount
   desc: ViStand is all about recycling computer parts you already own. As such we made it compatible with any VESA computer mount. See below for but a few examples
@@ -29,7 +49,11 @@ any-vesa-computer-mount:
       desc: VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.
 ---
 
-# ViStand™ Modular All-in-One
+
+{% include callouts-section id="vistand-modular-all-in-One" %}
+
+
+<!-- # ViStand™ Modular All-in-One
 
 This All-in-One looks so cool that no one will ever guess that you built it from your computer components.
 
@@ -61,7 +85,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
   </v2-switch-text>
   </div>
 
-</v2-switcher>
+</v2-switcher> -->
 
 
 # ViStand is Uplifting

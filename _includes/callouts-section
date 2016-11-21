@@ -11,6 +11,8 @@ rgba(45, 56, 74, 0.8)
 ),
 url('{{tabs.background-img}}')" {% endif %}>
 <div class="uk-container uk-container-center" v2-switcher>
+  <h1 id="{{include.id}}">{{callouts.title}}</h1>
+  <p>{{callouts.desc | markdownify | remove: "<p>" | remove: "</p>" }}</p>
   <div class="callout-container">
     <img src="{{callouts.img}}">
 
@@ -21,7 +23,7 @@ url('{{tabs.background-img}}')" {% endif %}>
   <div class="caption-text">
     {% for callout in callouts.callouts %}
       <v2-switch-text>
-        {{callout.content}}
+        {{callout.content | markdownify | remove: "<p>" | remove: "</p>"}}
       </v2-switch-text>
     {% endfor %}
   </div>
