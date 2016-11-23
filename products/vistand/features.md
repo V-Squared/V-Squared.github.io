@@ -50,7 +50,7 @@ any-vesa-computer-mount:
 ---
 
 
-{% include callouts-section id="vistand-modular-all-in-One" %}
+{% include feature-sections/callouts-section id="vistand-modular-all-in-One" %}
 
 
 <!-- # ViStand™ Modular All-in-One
@@ -220,7 +220,7 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
 
 ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-rear-raw.png)
 
-{% include vertical-tabs-section id="any-vesa-computer-mount" %}
+{% include feature-sections/vertical-tabs-section id="any-vesa-computer-mount" %}
 
 <v2-switcher>
 <div class="feature-section vertical-interact-section">

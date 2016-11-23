@@ -105,16 +105,28 @@ seek-stylish:
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-6-raw.png
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-7-raw.png
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-8-raw.png
+# modular-desktop:
+#  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
+#     title: Ever seen a Desktop this clean?
+#     desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
+#  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-no-cable-mess/desktop-no-cable-mess-raw.png
+#    title: ViStand tames Cable Mess
+#    desc: "Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!"
+#  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
+#    title: Beautiful from all Sides
+#    desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
 modular-desktop:
-  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
-    title: Ever seen a Desktop this clean?
-    desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
-  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-no-cable-mess/desktop-no-cable-mess-raw.png
-    title: ViStand tames Cable Mess
-    desc: "Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!"
-  - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
-    title: Beautiful from all Sides
-    desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
+  slideshow:
+    - title: Ever seen a Desktop this clean?
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
+      desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
+    - title: ViStand tames Cable Mess
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-no-cable-mess/desktop-no-cable-mess-raw.png
+      desc: "Real world solution to hide and secure all your cables, extensions, and adapters, leaving you with only a single cable running off your desk! The orange coloring is for illustration purpose only!"
+    - title: Beautiful from all Sides
+      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
+      desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
+
 mobile-docking:
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
     title: Insert Portable
@@ -200,9 +212,9 @@ enhance-comfort:
 </div>
 </div> -->
 
-{% include tabs-section id="how-it-works" %}
+{% include feature-sections/tabs-section id="how-it-works" %}
 
-{% include tab-accordion-section id="vistand-overview" %}
+{% include feature-sections/tab-accordion-section id="vistand-overview" %}
 
 <!-- <div class="feature-section article-feature feature-black vertical-interact-section" style="
       background-image: linear-gradient(
@@ -420,7 +432,7 @@ enhance-comfort:
   </div>
 </div> -->
 
-{% include slideshow-section id="display-freedom" %}
+{% include feature-sections/slideshow-section id="display-freedom" %}
 
 
 
@@ -428,14 +440,16 @@ enhance-comfort:
 
 <!--    [Art Brief > Modular Desktop](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/vistand/modular-desktop/artbrief.md) -->
 
-<div class="feature-section article-feature">
+<!--<div class="feature-section article-feature">
 <div class="uk-container uk-container-center">
   <h1 id="modular-desktop-all-in-one">Modular Desktop All-in-One</h1>
   <p>We take the Modular All-in-One with all its benefits and extend it to include a configuration with the performance only a desktop can provide: Up to 24 core XEON CPU and a GTX 1080 or Quadro 4000.</p>
   {% include slideshow id="modular-desktop" %}
 
   </div>
-</div>
+</div>-->
+
+{% include feature-sections/full-slideshow id="modular-desktop" %}
 
 
 

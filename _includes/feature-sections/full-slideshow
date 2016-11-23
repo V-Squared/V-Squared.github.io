@@ -1,0 +1,38 @@
+{% if include.id %}
+{% assign slideshow = page.[include.id] %}
+{% else %}
+{% assign slideshow = page.slideshow %}
+{% endif %}
+
+<div class="feature-section full-slideshow {% if slideshow.background-color0 %}feature-{{slideshow.background-color}} {% else %}feature-gray {% endif %}article-feature vertical-interact-section" {% if slideshow.background-img %} style="
+  background-image: linear-gradient(
+  rgba(45, 56, 74, 0.8),
+  rgba(45, 56, 74, 0.8)
+  ),
+  url('{{slideshow.background-img}}')" {% endif %}>
+  <div layout="column" layout-gt-md="row" class="feature-row" ng-init="isOpen = 0;" child-scope>
+    <div flex-gt-sm="50" flex-order="1" flex-order-gt-md="{% if slideshow.direction == 'right' %}2{% else %}0{% endif %}" class="full-slideshow-slides-column">
+      <v2-slideshow current-index="isOpen" style="max-width:{% if slideshow.width %}{{slideshow.width}}px{% else %}960px{% endif %};
+        height:0px" class="full-slideshow-slides">
+        {% for slide in slideshow.slideshow %}
+        <v2-slide>
+          <img class="full-slideshow-img" src="{{slide.img}}">
+        </v2-slide>
+        {% endfor %}
+      </v2-slideshow>
+    </div>
+    <div flex-gt-sm="50" flex-order="0" flex-order-gt-md="1" layout="column" layout-align="center center"
+         class="full-slideshow-content-column">
+      <v2-switcher is-open="isOpen" class="full-slideshow-content">
+        {% for slide in slideshow.slideshow %}
+        <v2-switch-text>
+          <h1>{{slide.title}}</h1>
+          {% if slide.desc %}
+          <p>{{slide.desc | markdownify | remove: "<p>"| remove: "</p>" }}</p>
+          {% endif %}
+        </v2-switch-text>
+        {% endfor %}
+      </v2-switcher>
+    </div>
+  </div>
+</div>

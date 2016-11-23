@@ -1,0 +1,22 @@
+.full-slideshow {
+  padding:0;
+
+  .full-slideshow-slides-column {
+    margin-right: 0 !important;
+
+    > .full-slideshow-slides {
+      .full-slideshow-img {
+        border: 0;
+        margin:0;
+      }
+    }
+  }
+
+  .full-slideshow-content-column {
+    margin-left: 0 !important;
+
+    > .full-slideshow-content {
+      padding: 0 50px;
+    }
+  }
+}
