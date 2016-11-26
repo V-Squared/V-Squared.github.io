@@ -116,7 +116,8 @@ seek-stylish:
 #    title: Beautiful from all Sides
 #    desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
 modular-desktop:
-  slideshow:
+  background-color: gray
+  full-slideshow:
     - title: Ever seen a Desktop this clean?
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/clean-desktop-config/clean-desktop-config-raw.png
       desc: "This ViStand configuration delivers you the best of both worlds: The elegance of an All-in-One paired with the ultimate performance and modularity of the desktop. And it can go where no All-in-One has gone before: 12 core Xeon CPU and a GTX 1080 or Quadro 4000."
@@ -126,6 +127,14 @@ modular-desktop:
     - title: Beautiful from all Sides
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
       desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
+test:
+  text-slideshow:
+    - title: hello
+      desc: test
+      img: http://www.netgear.com/images/Orbi/Router.jpg
+    - title: the meaning of life
+      desc: Hello
+      img: http://www.planwallpaper.com/static/images/wallpapers-hd-8000-8331-hd-wallpapers.jpg
 
 mobile-docking:
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
@@ -449,7 +458,7 @@ enhance-comfort:
   </div>
 </div>-->
 
-{% include feature-sections/full-slideshow id="modular-desktop" %}
+{% include feature-sections/full-slideshow-section id="modular-desktop" %}
 
 
 
@@ -498,6 +507,8 @@ enhance-comfort:
   </div>
 
 -->
+
+{% include feature-sections/text-slideshow-section id="test" %}
 
 <!-- Tabs for section Sleek and stylish -->
 

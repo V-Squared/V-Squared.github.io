@@ -3,7 +3,9 @@ var template = require("./slideshow.template.html");
 
 export const slideshowComponent = {
   bindings: {
-    currentIndex: "=?"
+    currentIndex: "=?",
+    aspectWidth: "@?",
+    aspectHeight: "@?"
   },
   transclude: true,
   template,

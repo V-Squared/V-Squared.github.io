@@ -4,7 +4,7 @@
 {% assign slideshow = page.slideshow %}
 {% endif %}
 
-<div class="feature-section {% if slideshow.background-color0 %}feature-{{slideshow.background-color}} {% endif %}article-feature vertical-interact-section" {% if slideshow.background-img %} style="
+<div class="feature-section {% if slideshow.background-color %}feature-{{slideshow.background-color}} {% endif %}article-feature vertical-interact-section" {% if slideshow.background-img %} style="
   background-image: linear-gradient(
   rgba(45, 56, 74, 0.8),
   rgba(45, 56, 74, 0.8)

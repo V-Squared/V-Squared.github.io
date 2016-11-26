@@ -1,0 +1,29 @@
+.text-in-slideshow {
+
+  > .text-slideshow {
+
+    .text-slideshow-slide {
+      position: relative;
+
+      > .text-slideshow-img {
+        margin:0;
+        border:0;
+      }
+
+      > .text-slideshow-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+
+        > .text-slideshow-slide-content {
+          padding-top:20px;
+          padding-left:20px;
+        }
+      }
+    }
+  }
+}

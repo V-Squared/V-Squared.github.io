@@ -1,0 +1,33 @@
+{% if include.id %}
+{% assign textSlideshow = page.[include.id] %}
+{% else %}
+{% assign textSlideshow = page.text-slideshow %}
+{% endif %}
+
+<div class="text-in-slideshow feature-section {% if textSlideshow.background-color %}feature-{{textSlideshow.background-color}} {% endif %}article-feature" {% if textSlideshow.background-img %} style="
+background-image: linear-gradient(
+  rgba(45, 56, 74, 0.8),
+  rgba(45, 56, 74, 0.8)
+  ),
+  url('{{textSlideshow.background-img}}')" {% endif %}>
+  <v2-slideshow class="text-slideshow" aspect-width="" aspect-height="">
+  {% for slide in textSlideshow.text-slideshow %}
+  <v2-slide>
+    <div class="text-slideshow-slide" layout="column" layout-align="center center">
+    <img src="{{slide.img}}" class="text-slideshow-img">
+    {% if slide.title || slide.desc %}
+    <div class="text-slideshow-content">
+      <div class="text-slideshow-slide-content">
+      {% if slide.title %}<h1>{{slide.title}}</h1>{% endif %}
+
+      {% if slide.desc %}
+      <p>{{slide.desc | markdownify | remove: "<p>" | remove: "</p>"}}</p>
+      {% endif %}
+      </div>
+    </div>
+    </div>
+    {% endif %}
+  </v2-slide>
+  {% endfor %}
+</v2-slideshow>
+</div>
