@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://v-squared.github.io/" # the base hostname & protocol for your site
 twitter_username: villagevidock
 github_username:  v-squared
-include: ["_pages"]
+include: ["_pages","_javascript"]
 exclude: ["node_modules",".idea",".jshintrc"]
 permalink: pretty
 

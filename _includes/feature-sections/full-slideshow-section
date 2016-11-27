@@ -4,7 +4,7 @@
 {% assign fullSlideshow = page.full-slideshow %}
 {% endif %}
 
-<div class="feature-section full-slideshow {% if fullSlideshow.background-color0 %}feature-{{fullSlideshow.background-color}} {% endif %}article-feature vertical-interact-section" {% if fullSlideshow.background-img %} style="
+<div class="feature-section full-slideshow-section {% if fullSlideshow.background-color0 %}feature-{{fullSlideshow.background-color}} {% endif %}article-feature vertical-interact-section" {% if fullSlideshow.background-img %} style="
   background-image: linear-gradient(
   rgba(45, 56, 74, 0.8),
   rgba(45, 56, 74, 0.8)
@@ -14,7 +14,7 @@
     <div flex-gt-sm="50" flex-order="1" flex-order-gt-md="{% if slideshow.direction == 'right' %}2{% else %}0{% endif %}" class="full-slideshow-slides-column">
       <v2-slideshow current-index="isOpen" style="max-width:{% if fullSlideshow.width %}{{fullSlideshow.width}}px{% else %}960px{% endif %};
         height:0px" class="full-slideshow-slides">
-        {% for slide in fullSlideshow.ful-slideshow %}
+        {% for slide in fullSlideshow.full-slideshow %}
         <v2-slide>
           <img class="full-slideshow-img" src="{{slide.img}}">
         </v2-slide>
@@ -29,7 +29,7 @@
           <h1>{{slide.title}}</h1>
           {% if slide.desc %}
           <p>{{slide.desc | markdownify | remove: "<p>"| remove: "</p>" }}</p>
-          {% endif %}l
+          {% endif %}
         </v2-switch-text>
         {% endfor %}
       </v2-switcher>

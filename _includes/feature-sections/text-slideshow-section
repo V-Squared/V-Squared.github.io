@@ -4,26 +4,24 @@
 {% assign textSlideshow = page.text-slideshow %}
 {% endif %}
 
-<div class="text-in-slideshow feature-section {% if textSlideshow.background-color %}feature-{{textSlideshow.background-color}} {% endif %}article-feature" {% if textSlideshow.background-img %} style="
+<div class="text-in-slideshow-section feature-section {% if textSlideshow.background-color %}feature-{{textSlideshow.background-color}} {% endif %}article-feature" {% if textSlideshow.background-img %} style="
 background-image: linear-gradient(
   rgba(45, 56, 74, 0.8),
   rgba(45, 56, 74, 0.8)
   ),
   url('{{textSlideshow.background-img}}')" {% endif %}>
-  <v2-slideshow class="text-slideshow" aspect-width="" aspect-height="">
+  <v2-slideshow class="text-slideshow" {% if textSlideshow.aspect-ratio %}aspect-ratio="{{textSlideshow.aspect-ratio}}"{% endif %}>
   {% for slide in textSlideshow.text-slideshow %}
   <v2-slide>
-    <div class="text-slideshow-slide" layout="column" layout-align="center center">
+    <div class="text-slideshow-slide">
     <img src="{{slide.img}}" class="text-slideshow-img">
     {% if slide.title || slide.desc %}
-    <div class="text-slideshow-content">
-      <div class="text-slideshow-slide-content">
+    <div class="text-slideshow-content theme-{% if slide.theme == 'dark'%}dark{% else %}light{% endif %}">
       {% if slide.title %}<h1>{{slide.title}}</h1>{% endif %}
 
       {% if slide.desc %}
       <p>{{slide.desc | markdownify | remove: "<p>" | remove: "</p>"}}</p>
       {% endif %}
-      </div>
     </div>
     </div>
     {% endif %}

@@ -1,0 +1,15 @@
+{% if include.id %}
+{% assign testimonials = page.[include.id] %}
+{% else %}
+{% assign testimonials = page.text-slideshow %}
+{% endif %}
+
+<div class="testimonials-section feature-section feature-section {% if textSlideshow.background-color %}feature-{{textSlideshow.background-color}}{% endif %}">
+  <div class="uk-container uk-container-center">
+    <div class="testimonials">
+      <blockquote class="testimonials-text md-headline testimonials-text">
+        Bruce Wayne is Batman!
+      </blockquote>
+    </div>
+  </div>
+</div>

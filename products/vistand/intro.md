@@ -127,14 +127,6 @@ modular-desktop:
     - title: Beautiful from all Sides
       img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/modular-desktop/desktop-beautiful-behind/desktop-beautiful-behind-raw.png
       desc: "This is how the rear of your ViStand Modular All-in-One computer looks with real world colors. It is clean enough that you can put your beautiful workstation in the middle of the room, viewable from all sides, versus squeezed against the wall."
-test:
-  text-slideshow:
-    - title: hello
-      desc: test
-      img: http://www.netgear.com/images/Orbi/Router.jpg
-    - title: the meaning of life
-      desc: Hello
-      img: http://www.planwallpaper.com/static/images/wallpapers-hd-8000-8331-hd-wallpapers.jpg
 
 mobile-docking:
   - img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/mobile-docking/insert-portable/insert-portable-raw.png
@@ -507,8 +499,6 @@ enhance-comfort:
   </div>
 
 -->
-
-{% include feature-sections/text-slideshow-section id="test" %}
 
 <!-- Tabs for section Sleek and stylish -->
 

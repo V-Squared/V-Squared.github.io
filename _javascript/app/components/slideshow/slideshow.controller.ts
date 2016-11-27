@@ -4,6 +4,7 @@ import { ISlide } from "./slide/slide.directive.ts";
 export interface ISlideshowController extends ng.IController {
   slides: ISlide[];
   currentIndex: number;
+  aspectRatio: number;
   direction: string;
   settings:  ISlideshowConfig;
   previousSlide: ISlide;
@@ -15,17 +16,19 @@ export interface ISlideshowController extends ng.IController {
 }
 
 export class SlideshowController implements ISlideshowController {
-  static $inject = ["$scope", "$element", "v2SlideshowSetting"];
+  static $inject = ["$scope", "$element", "$attrs", "v2SlideshowSetting"];
 
   slides: ISlide[];
   currentIndex: number;
+  aspectRatio: number;
   direction: string;
   settings: ISlideshowConfig;
   previousSlide: ISlide;
 
-  constructor(public $scope: ng.IScope, private $element: ng.IAugmentedJQuery, v2SlideshowSetting: ISlideshowConfig) {
+  constructor(public $scope: ng.IScope, private $element: ng.IAugmentedJQuery, $attrs: ng.IAttributes, v2SlideshowSetting: ISlideshowConfig) {
     this.slides = [];
     this.currentIndex = this.currentIndex || 0;
+    this.aspectRatio = $attrs["aspectRatio"] || 1.77777777777778; // 16:9
     this.direction = "left";
     this.settings = v2SlideshowSetting;
   }
@@ -87,7 +90,7 @@ export class SlideshowController implements ISlideshowController {
   private resize(): void {
     var elementWidth = this.$element[0].clientWidth;
     // set elementHeight 16:9 based of the width
-    var elementHeight = elementWidth / 16 * 9;
+    var elementHeight = elementWidth / this.aspectRatio;
     this.$element[0].style.height = elementHeight + "px";
   }
 
