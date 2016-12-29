@@ -1,0 +1,25 @@
+.feature-jumbo {
+  padding: $spacing-unit * 4 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .jumbo-content {
+    /*position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);*/
+
+    > .jumbo-title {
+      font-size: $display-3-font-size-base;
+    }
+    > .jumbo-subtitle {
+      font-size: $subhead-font-size-base;
+    }
+
+    > * {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.875);
+    }
+  }
+}

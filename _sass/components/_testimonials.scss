@@ -1,5 +1,19 @@
 .testimonials {
-  > .testimonials-text {
+  > .testimonials-texts {
+    > .testimonials-text {
+      text-align: center;
+      line-height: 36px;
+      max-width: $on-tablet;
+      margin: 0 auto;
+      border-left: 0;
 
+      > svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    > .testimonials-tabs {
+
+    }
   }
 }

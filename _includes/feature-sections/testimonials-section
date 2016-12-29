@@ -7,9 +7,12 @@
 <div class="testimonials-section feature-section feature-section {% if textSlideshow.background-color %}feature-{{textSlideshow.background-color}}{% endif %}">
   <div class="uk-container uk-container-center">
     <div class="testimonials">
-      <blockquote class="testimonials-text md-headline testimonials-text">
-        Bruce Wayne is Batman!
-      </blockquote>
+      <div class="testimonials-texts">
+        <blockquote class="testimonials-text md-headline">
+          {% include icons/ic_format_quote_black_24px.svg %}
+          Wasn't sure where to compliment. I just wanted to say I am so happy to be your customer. You make my life so easy, thanks for your great service.
+        </blockquote>
+      </div>
     </div>
   </div>
 </div>

@@ -9,6 +9,14 @@ readiness:
    - is-complete
    - is-active
 backTop: "#vistand-overview"
+visualURL: http://www.netgear.com/images/Orbi/Banner.jpg
+works-with-any-computer:
+  title: Works with Any Computer
+  desc: Spicy jalapeno bacon ipsum dolor amet meatloaf kielbasa bacon, capicola shank salami ball tip t-bone. T-bone andouille pig beef ribs landjaeger drumstick venison tongue
+  vertical-tabs:
+    - title: Tablet
+      desc: Good
+      img: http://shushi168.com/data/out/193/37281782-random-image.png
 vistand-overview:
   name: ViStand Overview
   background-img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/360-view/v1/360-1-raw.png
@@ -153,6 +161,9 @@ enhance-comfort:
     desc: A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!
 ---
 
+{% include feature-sections/jumbotron %}
+
+{% include feature-sections/vertical-tabs-section id="works-with-any-computer" %}
 
 <!--    [Art Brief > Note: Title Images](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/visMaterial Themetand/titles/artbrief.md) -->
 

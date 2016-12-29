@@ -4,21 +4,10 @@
 {% assign verticalTabs = page.vertical-tabs %}
 {% endif %}
 
-<div class="feature-section vertical-interact-section">
+<div class="feature-section vertical-interact-section {% if verticalTabs.background-color %}feature-{{verticalTabs.background-color}}{% endif %}">
+  <div class="uk-container uk-container-center">
   <div layout="column" layout-gt-sm="row" class="feature-row {% if verticalTabs.direction == 'right' %}feature-right{% else %}feature-left{% endif %}" v2-switcher>
     <div flex-gt-sm="50" flex-order="1" flex-order-gt-sm="{% if verticalTabs.direction == 'right' %}2{% else %}0{% endif %}">
-      {% for tab in verticalTabs.vertical-tabs %}
-        <v2-switch-text>
-          {% if tab.img %}
-            <img src="{{tab.img}}">
-          {% endif %}
-          {% if tab.desc %}
-            <p class="caption-text">{{tab.desc}}</p>
-          {% endif %}
-        </v2-switch-text>
-      {% endfor %}
-    </div>
-    <div flex-gt-sm="50" flex-order="0" flex-order-gt-sm="1">
       <h1 id="{{include.id}}">{{verticalTabs.title}}</h1>
       {% if verticalTabs.desc %}
         <p>{{verticalTabs.desc}}</p>
@@ -31,5 +20,18 @@
       {% endfor %}
       </div>
     </div>
+    <div flex-gt-sm="50" flex-order="0">
+      {% for tab in verticalTabs.vertical-tabs %}
+      <v2-switch-text>
+        {% if tab.img %}
+        <img src="{{tab.img}}">
+        {% endif %}
+        {% if tab.desc %}
+        <p class="caption-text">{{tab.desc}}</p>
+        {% endif %}
+      </v2-switch-text>
+      {% endfor %}
+    </div>
   </div>
+    </div>
 </div>

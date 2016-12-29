@@ -1,0 +1,18 @@
+{% if include.id %}
+{% assign title = page[include.id].title %}
+{% assign subtitle = page[include.id].subtitle %}
+{% assign visual = page[include.id].visualURL %}
+{% else %}
+{% assign title = page.title %}
+{% assign subtitle = page.subtitle %}
+{% assign visual = page.visualURL %}
+{% endif %}
+
+<div class="feature-section feature-jumbo" {% if visual %}style="background-image: url('{{visual}}')"{% endif %}>
+  <div class="uk-container uk-container-center" layout="column" layout-align="center center">
+    <div class="jumbo-content">
+      <h1 class="jumbo-title md-display-3">{{ title }}</h1>
+      <p class="jumbo-subtitle md-subhead">{{ subtitle }}</p>
+    </div>
+  </div>
+</div>
