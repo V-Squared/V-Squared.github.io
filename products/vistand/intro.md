@@ -9,7 +9,6 @@ readiness:
    - is-complete
    - is-active
 backTop: "#vistand-overview"
-visualURL: http://www.netgear.com/images/Orbi/Banner.jpg
 works-with-any-computer:
   title: Works with Any Computer
   desc: Spicy jalapeno bacon ipsum dolor amet meatloaf kielbasa bacon, capicola shank salami ball tip t-bone. T-bone andouille pig beef ribs landjaeger drumstick venison tongue
