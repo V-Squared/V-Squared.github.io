@@ -160,10 +160,6 @@ enhance-comfort:
     desc: A 24" display is simply 400% larger than a 12" display. In this case larger is simply better. It is easier on the eyes. At the end of your work you will have more energy left!
 ---
 
-{% include feature-sections/jumbotron %}
-
-{% include feature-sections/vertical-tabs-section id="works-with-any-computer" %}
-
 <!--    [Art Brief > Note: Title Images](https://github.com/V-Squared/V-Squared.github.io/blob/master/art/visMaterial Themetand/titles/artbrief.md) -->
 
 <div class="feature-section article-feature">
