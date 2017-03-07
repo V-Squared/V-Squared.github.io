@@ -176,6 +176,182 @@ enhance-comfort:
 
 <p>A clean desk looks great and simply makes you feel more productive and creative. But in real life it is just so hard to keep it that way! ViStand clears the path to your creative nirvana: It reclaims desk space! Hides your computer! Cable clutter be gone! And, when not needed, it gets your keyboard out of the way, too!</p>
 
+<div id='product-component-2aa30e784e2'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'lukasteststore.myshopify.com',
+      apiKey: 'f3ae435f029ac1bf25a0c9a1cf3ae67e',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9258368013],
+        node: document.getElementById('product-component-2aa30e784e2'),
+        moneyFormat: '%C2%A5%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#2196f3",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#1e87db"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#1e87db"
+        },
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#2196f3",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#1e87db"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#1e87db"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#2196f3",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#1e87db"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#1e87db"
+        },
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto, sans-serif",
+        "background-color": "#2196f3",
+        ":hover": {
+          "background-color": "#1e87db"
+        },
+        ":focus": {
+          "background-color": "#1e87db"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
 </div>
 
 </div>

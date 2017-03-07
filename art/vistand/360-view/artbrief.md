@@ -1,0 +1,59 @@
+- __Product Line:__ ViStand
+- __Binder Path:__ /art/vistand/
+- __Type:__ Slideshow
+- __Story:__ 360 product view. Will later be replaced with dedicated 360 view app.
+- __Group Path:__ /art/vistand/360-view/
+- __Slides:__ 
+   - Slide 1 Title: __Front__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* 
+         - Table, ViStand, 34 curved, ViMount, Alienware, Headset, WebCam, Black Keyboard on table, Black Mouse on table, all cable black, one cable running off the table
+         - *Camera Angle:* Front view
+         - 8 images, all taken with 45 angles.
+         - full cabling, but all cables black, they will not show much features
+         - Camera angle high enough to see the curve of the display
+      - *File Name:* 360-1-raw.png
+      - Image Processing* 540p
+   - Slide 2 Title: __Front Right__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-2-raw.png
+      - Image Processing* 540p
+   - Slide 3 Title: __Right__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-3-raw.png
+      - Image Processing* 540p
+   - Slide 4 Title: __Rear Right__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-4-raw.png
+      - Image Processing* 540p
+   - Slide 5 Title: __Rear__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-5-raw.png
+      - Image Processing* 540p
+   - Slide 6 Title: __Rear Left__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-6-raw.png
+      - Image Processing* 540p
+   - Slide 7 Title: __Left__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-7-raw.png
+      - Image Processing* ???
+   - Slide 8 Title: __Front Left__ 
+      - *Slide Copy:* -
+      - *Image* {optional inserted image if available}
+      - *Image Description:* Same as above, but 45 rotated (see Slide Title)
+      - *File Name:* 360-8-raw.png
+      - Image Processing* 540p
