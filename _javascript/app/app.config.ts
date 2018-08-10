@@ -2,7 +2,7 @@ import { ISlideshowSettings } from "./components/slideshow/slideshow.provider.ts
 
 export function appConfig($interpolateProvider: ng.IInterpolateProvider, $mdThemingProvider: angular.material.IThemingProvider,
                           v2SlideshowSettingProvider: ISlideshowSettings): void {
-  // Change from {{}} to [[]] so it dosen't conflict with jekyll
+  // Change from {{}} to [[]] so it doesn't conflict with jekyll
 
   $interpolateProvider.startSymbol("[[");
   $interpolateProvider.endSymbol("]]");

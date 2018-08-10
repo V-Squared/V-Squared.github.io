@@ -5,3 +5,8 @@
       url:  /vistand/intro/
     - menu: Features
       url: /vistand/features/
+- menu: ViZdom
+  url: /vizdom/
+  subitems:
+    - menu: intro
+      url: /vizdom/intro

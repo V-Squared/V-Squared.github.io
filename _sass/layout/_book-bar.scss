@@ -3,8 +3,9 @@ $bookbar-height: 51px;
 .v2-bookbar {
   background:$brand-color;
   height: $bookbar-height;
+  z-index: 999;
 
-  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 3px 4px -4px rgba(0, 0, 0, 0.28);
   position: relative;
 
   &.uk-active {
