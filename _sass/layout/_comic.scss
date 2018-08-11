@@ -11,6 +11,7 @@
     font-family: Anton, "Impact", "Comic Sans MS", Roboto, Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0,.9);
     font-weight: bold;
+    font-size: 60px;
   }
 
   h2, h3 {
@@ -19,8 +20,18 @@
   }
 
   h2 {
-    font-size: 28px !important;
+    font-size: 48px !important;
+    margin-bottom: 30px;
   }
+
+  h3 {
+    font-size: 34px !important;
+    margin-bottom: 10px;
+  }
+
+  // p, ul, ol {
+  //   margin-top: 10px;
+  // }
 
   img {
     margin-left: auto;
