@@ -41,6 +41,8 @@ Almost every problem has a solution, but it may be difficult to envision. It oft
 
 These are the suspects of improving your life: Lukas the Apprentice with Black-Cat, Hubert the Master, Violet the Mother, Bobby the Illustrator, Tom the Editor, White-Cat, Larry the Internal-Pig-Dog, Mikey the Brave, Police the Society
 
+![]({{site.baseurl}}/images/comics/intro/cartoon-cast.png)
+
 ![]({{site.baseurl}}/images/comics/intro/cartoon-cast.jpg)
 
 ## Inspirations R Us
