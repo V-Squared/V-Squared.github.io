@@ -57,15 +57,7 @@ And this is how we look in real life.
 
 ## Why?
 
-Family takes care of each other.<br>
-Family can brings out the best (and worst) in each other.<br>
-Police society, every time we do against expectation we get in trouble.<br>
-Characters with typical traits.<br>
-Character development,<br>
-Story-arcs.<br>
-Comics are fun. Characters are actually succinct as in shortening the writing, as in speeding up your reading.<br>
-Visuals help you to memorize the stories.<br>
-Empathy and caring, identifying with characters is going to help to imprint the stories
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # Complete & Practical
 
