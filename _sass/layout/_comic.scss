@@ -1,14 +1,15 @@
 #comic {
-  font-family: Jua, "Comic Sans MS", Roboto, Helvetica, Arial, sans-serif;
+  font-family: $base-comic-family;
+  font-size: $base-font-size + 2px;
 
   h1, h2, h3 {
     border: 0;
     text-align: center;
-    font-family: Jua, "Comic Sans MS", Roboto, Helvetica, Arial, sans-serif;
+    font-family: $base-comic-family;
   }
 
   h1 {
-    font-family: Anton, "Impact", "Comic Sans MS", Roboto, Helvetica, Arial, sans-serif;
+    font-family: $base-comic-heading-family;
     color: rgba(0, 0, 0,.9);
     font-weight: bold;
     font-size: 60px;
