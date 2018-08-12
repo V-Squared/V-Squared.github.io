@@ -60,34 +60,34 @@ And this is how we look in real life.
 
 ## Why?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.LOREM IPSUM
 
 # Complete & Practical
 
 ## We aim to give you:
 
--  A book that is fun to read (mobile???), inspiring, and affordable.
--  Effective tools to help you change into the person you want to be.
--  Illustrations that make hard content seem easy.
--  Quick drills to practice solutions, so they come to you when you need them.
--  The ability to easily create custom solutions for your personal problems.
--  A life hacking kit, that speeds up the process of improving yourself.
-- Characters that are easy to relate to, so memorizing anecdotes just happens.
+-   A book that is fun to read (mobile???), inspiring, and affordable.
+-   Effective tools to help you change into the person you want to be.
+-   Illustrations that make hard content seem easy.
+-   Quick drills to practice solutions, so they come to you when you need them.
+-   The ability to easily create custom solutions for your personal problems.
+-   A life hacking kit, that speeds up the process of improving yourself.
+-   Characters that are easy to relate to, so memorizing anecdotes just happens.
 
 ## We hope this can help you to:
 
-- Accept yourself. Love yourself.
-- Calm down in an instant.
-- Grow your self-worth.
-- Improve your discipline, finish projects with ease.
-- Train yourself to respond as you want to, especially in your crises situations!
-- Always be respectful and courteous.
-- Think faster, deeper, and more creatively.
-- Change persistent bad habits.
-- Stop hurting people and being hurt by them.
-- Learn faster and teach more effectively.
-- The speed of trust and how to get it.
-- Identify and harvest your low hanging fruits.
+-   Accept yourself. Love yourself.
+-   Calm down in an instant.
+-   Grow your self-worth.
+-   Improve your discipline, finish projects with ease.
+-   Train yourself to respond as you want to, especially in your crises situations!
+-   Always be respectful and courteous.
+-   Think faster, deeper, and more creatively.
+-   Change persistent bad habits.
+-   Stop hurting people and being hurt by them.
+-   Learn faster and teach more effectively.
+-   The speed of trust and how to get it.
+-   Identify and harvest your low hanging fruits.
 Make it quick and easy to find what you are looking for.
 
 ## Improve Yourself: A la carte!
