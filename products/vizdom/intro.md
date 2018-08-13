@@ -1,8 +1,8 @@
 ---
 layout: comic
-title: "Introduction"
-subtitle: "This is comic"
-abstract: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "ViZdom Introduction"
+subtitle: "Hack Your Life with Wisdom"
+abstract: "For People with a Maker/Hacker Spirit. New insights delivered via illustrated anecdotes. We set ourselves the challenge: Write a self-help book that is not only fun to read, but actually improves us at the end of the day. It changed us! Can it change you?."
 ---
 
 ![]({{site.baseurl}}/images/comics/ViZdom-Title.png)
