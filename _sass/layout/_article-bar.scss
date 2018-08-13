@@ -13,7 +13,7 @@
   }
 }
 
-.article-nav {    
+.article-nav {
 
   // consider the sticky navbar and margin-top
   max-height: calc(100vh - 89px);
@@ -52,6 +52,7 @@
      border-bottom: 1px solid $gray-400;
      user-select: none;
      color: $gray-color;
+     position: relative;
 
      &:hover {
        text-decoration: none;

@@ -18,8 +18,8 @@
 
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
 
-      <li class="{% if navurl == itemUrl %}uk-active{% endif %}"> 
-        <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
+      <li class="{% if navurl == itemUrl %}uk-active{% endif %}">
+        <a md-ink-ripple href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
       </li>
 
       {% for subitem in my_page.subitems %}
@@ -29,7 +29,8 @@
       <li {% if subitem.group %}v2-accordian-group{% endif %}
           {% if navurl contains subitemUrl and subitem.group %}is-opened{% endif %}
           class="{% if navurl == subitemUrl %}uk-active{% endif %} {% if subitem.group %}article-group-header{% endif %}">
-        <a {% if subitem.group %}v2-accordian-heading{% else %}
+        <a {% if subitem.group %}v2-accordian-heading md-ink-ripple{% else %}
+           md-ink-ripple
            href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}
         >
           {% if subitem.group %}
@@ -44,14 +45,14 @@
           <div uib-collapse="!$group.isOpen">
             <ul>
               <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
-                <a href="{{site.baseurl}}{{subitemUrl}}">Index</a>
+                <a md-ink-ripple href="{{site.baseurl}}{{subitemUrl}}">Index</a>
               </li>
 
               {% for group in subitem.group %}
                 {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
 
                 <li class="{% if navurl == groupUrl %}uk-active{% endif %}">
-                  <a href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
+                  <a md-ink-ripple href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
                 </li>
               {% endfor %}
 
