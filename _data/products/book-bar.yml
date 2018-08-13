@@ -8,5 +8,5 @@
 - menu: ViZdom
   url: /vizdom/
   subitems:
-    - menu: intro
-      url: /vizdom/intro
+    - menu: Intro
+      url: /vizdom/intro/
