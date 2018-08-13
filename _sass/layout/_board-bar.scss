@@ -63,7 +63,7 @@ $board-nav-breakpoint: 774px;
 
   > .v2-navbar-nav-xs {
     @include remove-typo-margin;
-    
+
     display: none;
 
     @include media-query ($board-nav-breakpoint) {
@@ -72,7 +72,7 @@ $board-nav-breakpoint: 774px;
 
     > .v2-navbar-toggle-header, .v2-navbar-toggle{
       color: #FFF;
-      line-height: 60px;
+      line-height: 66px;
     }
 
   }
