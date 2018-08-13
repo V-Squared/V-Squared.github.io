@@ -9,6 +9,16 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
+// heading font size
+$fontSize-title: 60px;
+$fontSize-h1: 48px;
+$fontSize-h2: 34px;
+$fontSize-h3: 24px;
+$fontSize-h4: 20px;
+
+$heading-lineHeight : 1.4;
+
+// Layout
 $spacing-unit:     30px;
 
 // Width of the content area
@@ -51,8 +61,8 @@ $gray-color: #9E9E9E;
 $gray-600:  #757575;
 $gray-700:   #616161;
 
-$heading-color: rgba(0,0,0,0.54);
-$text-color:    rgba(0,0,0,0.87);
+$heading-color: rgba(0,0,0,0.87);
+$text-color:    rgba(0,0,0,0.75);
 
 $gray-color-light: #D4D4D4;
 $gray-color-dark:  darken($gray-color, 25%);

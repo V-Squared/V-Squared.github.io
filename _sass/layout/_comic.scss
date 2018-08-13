@@ -1,6 +1,6 @@
 #comic {
   font-family: $base-comic-family;
-  font-size: $base-font-size + 2px;
+  font-size: 1.125em;
 
   h1, h2, h3 {
     border: 0;
@@ -12,22 +12,25 @@
     font-family: $base-comic-heading-family;
     color: rgba(0, 0, 0,.9);
     font-weight: bold;
-    font-size: 60px;
-    line-height: 1em;
+    font-size: $fontSize-title;
+    line-height: $fontSize-title * $heading-lineHeight;
+    // Line height based out of base font size * 1.4 per material design guidelines
   }
 
   h2, h3 {
-    color: rgba(0, 0, 0, .85);
+    color: $heading-color;
     font-weight: bold;
   }
 
   h2 {
-    font-size: 48px !important;
+    font-size: $fontSize-h1 !important;
+    line-height: $fontSize-h1 * $heading-lineHeight;
     margin-bottom: 30px;
   }
 
   h3 {
-    font-size: 34px !important;
+    font-size: $fontSize-h2 !important;
+    line-height: $fontSize-h2 * $heading-lineHeight;
     margin-bottom: 10px;
   }
 
