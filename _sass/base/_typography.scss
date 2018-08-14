@@ -46,6 +46,11 @@ md-content {
     margin-bottom: 4px;
   }
 
+  hr {
+    margin-right: -$spacing-unit;
+    margin-left: -$spacing-unit;
+  }
+
   img {
     border: 3px solid $gray-700;
     margin-bottom: $spacing-unit;
