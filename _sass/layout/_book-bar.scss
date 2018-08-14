@@ -4,6 +4,7 @@ $bookbar-height: 51px;
   background:$brand-color;
   height: $bookbar-height;
   z-index: 999;
+  width: 100% !important;
 
   box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.28);
   position: relative;
