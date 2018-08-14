@@ -58,7 +58,7 @@
   }
 
   p {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit / 2;
   }
 
   .poem {
@@ -70,9 +70,8 @@
 
   .v2-note-warn {
     padding: $spacing-unit;
-    border: 2px solid $brand-accent-700;
     background: $brand-accent;
-    color: #FFF;
+    color: $heading-color;
   }
 
 }

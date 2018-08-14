@@ -21,46 +21,59 @@ You want to know …
 
 ## Why?
 
-**Remember Solutions When Needed:** Ever read a great self-help book that made sense, yet later you could not remember nor apply the life-changing fixes when you needed them the most? It's because your brain has evolved to remember stories and pictures. Traditional textbooks are not written in that way.
+**Remember Solutions When Needed:** Ever read a great self-help book that made sense, yet later you could not remember nor apply the life changing fixes when you needed them the most? It's because your brain has evolved to remember stories and pictures. Traditional textbooks are not written in that way.
 
-That's why we wrote our **life-hacks with the secret sauce of humorous illustrated anecdotes.** The anecdotes are designed in many details so to trigger your brain's memorization process. Such as a consistent cast of characters who experience similar problems that you want to solve. And they do so with humor and a punch line.
+That's why we wrote our **life-hacks with the secret sauce of humorous illustrated anecdotes.** The anecdotes are designed with many details to trigger your brain's memorization process. Such as a consistent cast of characters who experience problems similar to those that you want to solve. And they do so with humor and a punch line.
 
-This is a good moment to introduce the central character, the Phoenix:
+This is a good moment to introduce our central character, the Phoenix:
 
-![]({{site.baseurl}}/images/comics/intro/phoenix-crash.png)
+![]({{site.baseurl}}/images/comics/intro/phoenix-rising.jpg)
 **Crash:** Ever feel as if your life is going down in flames? It happens to all of us!
-![]({{site.baseurl}}/images/comics/intro/phoenix-recovery.png)
+![]({{site.baseurl}}/images/comics/intro/phoenix-recovery.jpg)
 
-**Recovery:** You will already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
+**Recovery:** You may already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
 
-When you are reading a self-help book you want be inspired to create new custom solutions to solve your specific problems. When doing so you both want to memorize these solutions and you want to install a trigger, so that when you are in actual trouble the solution will automatically come to you, just when you need it. **That's why and how ViZdom\* is more powerful than mere knowledge!**  \*(rhymes with wisdom)
+When you are reading a self-help book you want be inspired to create new solutions that solve your specific problems. When doing so you want to both memorize these solutions and to install a trigger, so that when you are in actual trouble the solution will automatically come to you, just when you need it. ViZdom will show you how to do that. **That's why and how ViZdom\* is more powerful than mere knowledge!**  \*(rhymes with wisdom)
 
-This is a bold statement. You may not be able to confirm this now. But when you read on you may find quite quickly, that reading this book is more fun. Fun will make you read more, and come back more often. So you already know that you will have a better memorization.
+This is a bold statement. You may not be able to confirm this now. But when you read on you may find quite quickly, that reading this book is more fun. Fun will make you read more, and come back more often. So you already know that you will have better retention.
 
 ## Why Very Structured?
 
 There are four strong reasons: 1) Memorization 2) Understanding 3) Speed Reading 4) Navigation. Let's look at them one at a time:
 
-**Memorization:** This is a lot of content. To really make it useful for you, you will have to remember it. You will learn later in Brain OS 4.0 that forgetting is not a bug, but a filtering feature of your Brain Operating System. So to convince your brain to memorize, you need to repeat. Reading the entire book many times is completely impractical. Instead, the clear structure allows you to quickly identify passages you care about and subsequently speed-read them. There is more to say about this topic, but for the sake of introduction we hope you get the gist of it.
+**Memorization:** This is a lot of content. To really make it useful for you, you will have to remember it. You will learn later (in Brain OS 4.0) that forgetting is not a bug, but a filtering feature of your Brain Operating System. So, to convince your brain to memorize, you need to repeat. Reading the entire book many times is completely impractical. Instead, the clear structure allows you to quickly identify passages that you care about and subsequently speed-read them. There is more to say about this topic, but for the sake of introduction we hope you get the gist of it.
 
-**Understanding:** Structured writing slices the information into smaller, easier to digest pieces. When struggling with comprehension, you only need to re-read the slice causing you trouble.
+**Understanding:** Structured writing slices the information into smaller, easier to digest pieces. When struggling with comprehension, you only need to re-read the slice that is causing you trouble.
 
 **Speed Reading:** We have highlighted the most salient point of each paragraph, making it easy to identify them when skimming.
 
-**Navigation & Reference:** This is a lot of content. You may want to refer to it. The clear structure in conjunction with lots of visual elements makes it easier to find quickly what you are looking for.
+**Navigation & Reference:** This is a lot of content. You may want to refer to it. The clear structure, in conjunction with lots of visual elements, makes it easier to quickly find what you are looking for.
 
-## How Anecdotes work:
-Before we look at two anecdotes, please keep in mind that in life-hack they do not work stand alone, but are part in a much larger frame-work, designed to efficiently help you to improve yourself. That said, from the standalone anecdote you still should be able to glean, that they are illuminating one aspect, and they do so being fun, insightful and memorable.
+## The Secret Sauce
+Let's have a look at ViZdom-style anecdotes. We are starting off with a simple one. Simple as in this anecdote works stand alone. We use it in the life-hack of increasing discipline. It illuminates the aspect that not all your attempts will work instantly. Hence, it is important that you develop persistence and keep on trying. Without further ado, here goes:
 
-Before you jump into experiencing the first one, I am inviting you to a little mind experiment. Kind of to make you compare what you usually hear versus our ViZdom.
+![]({{site.baseurl}}/images/comics/intro/never-give-up.png)
 
-Please try to remember the last time you botched up a project due to lack of self-discipline. ??? It is very likely that in turn, you received a sermon. Can you hear it? Go through it from beginning to end. How did it made you feel? Was it helpful and inspiring? Close your eyes and really experience it.
+Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
 
-Now let's do this again with ViZdom:
+Moving on to a more complex example:{:.text-center}
 
 ![]({{site.baseurl}}/images/comics/intro/premature-discipline.png)
 
-We all have our internal-pig-dog, who always tries to seduce us. Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work. But if you commit to a project which requires more self-discipline than you currently possess, your internal-pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, learn to judge your self-discipline correctly so you don't bite off more than you can chew. Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time. You may also find more peace if you stop fighting your internal-pig-dog. It is a part of you. Instead, see it as a resource. E.g. consult with your internal-pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
+**We all have our internal pig-dog, who always tries to seduce us.** Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
+
+But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, **learn to judge your self-discipline correctly so you don't bite off more than you can chew.** Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
+
+**You may also find more peace if you stop fighting your internal pig-dog.** It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
+
+---
+
+As you may have guessed, this anecdote alone won't cure your problem of lack of self-discipline (in case you have one). But it will serve to foster a deeper understanding of the ramifications of a lack of self-discipline. Hence, this anecdote is used in conjunction with other anecdotes, short stories, diagrams and tools to address the issue completely.
+
+**At the end of this introduction we will show you how it is done in one complete life-hack.** For now, I hope you can glean that illustrated anecdotes are able to illuminate one aspect at a time, and they do so by being fun, insightful and memorable.
+
+The strategy of addressing larger issues, by combining several anecdotes, has the dramatic benefit of being more fun and memorable than traditional large monolithic textbook style.
+{: .v2-note-warn}
 
 # Real Characters
 
@@ -121,7 +134,7 @@ In case you think this is a bit much, then think of it like the menu in a nice r
 # Gifted by ViZdom
 
 ## A True story
-My son composed, arranged, played all instruments, audio engineered, and produced a film score only 3 months into beginning to learn about music and how to play instruments. When playing his composition for others, we heard comments like: "Lukas has so much talent!", "He is a genius!", or "He is gifted!". I truly believe that he is gifted. But not in the way you may think, as in gifted with amazing genes. In fact, I think my genes are quite average. Which is a good thing! I also believe (and history has proven) that genius can stem from average heritage. In the words of Goethe – "Every child is born a genius". And one way to produce a genius is by being gifted with ViZdom.
+My son composed, arranged, played all instruments, audio engineered, and produced a film score only 3 months after he began to learn about music and how to play instruments. When playing his composition for others, we heard comments like: "Lukas has so much talent!", "He is a genius!", or "He is gifted!". I truly believe that he is gifted. But not in the way you may think, as in gifted with amazing genes. In fact, I think my genes are quite average. Which is a good thing! I also believe (and history has proven) that genius can stem from average heritage. In the words of Goethe – "Every child is born a genius". And one way to produce a genius is by being gifted with ViZdom.
 
 ## You can be Gifted Too!
 Being educated in ViZdom has prepared Lukas to learn the essence of making music much faster. The same way ViZdom helped him to become a 3D designer, a web programmer, or a musician. All my life I have helped people who were stuck in average jobs producing unnoticeable work to go on and deliver stunning art. It is our dream to give you the hope that you can do the same. We are aiming to write ViZdom clearly enough to inspire you to realize your potential and how to unlock it!
