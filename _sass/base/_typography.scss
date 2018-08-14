@@ -68,8 +68,20 @@ md-content {
     margin-left: 15px;
   }
 
-  .footnote {
+  .desktop-img {
+    display:block;
 
+    @include media-query ($on-mobile) {
+      display: none;
+    }
+  }
+
+  .mobile-img {
+    display: none;
+
+    @include media-query ($on-mobile) {
+      display: block;
+    }
   }
 }
 

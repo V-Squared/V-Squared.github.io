@@ -1,12 +1,12 @@
 .v2-note {
   padding: $spacing-unit;
   color: $heading-color;
-  box-shadow: 0px 5px 15px 0px rgba(0,0,0,.24);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.26);
 }
 
 .v2-note-primary {
-  background: $brand-color;
-  color: #FFF;
+  background: $brand-secondary;
+  color: $heading-color;
 }
 
 .v2-note-warn {

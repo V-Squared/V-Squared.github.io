@@ -53,6 +53,10 @@ There are four strong reasons: 1) Memorization 2) Understanding 3) Speed Reading
 Let's have a look at ViZdom-style anecdotes. We are starting off with a simple one. Simple as in this anecdote works stand alone. We use it in the life-hack of increasing discipline. It illuminates the aspect that not all your attempts will work instantly. Hence, it is important that you develop persistence and keep on trying. Without further ado, here goes:
 
 ![]({{site.baseurl}}/images/comics/intro/never-give-up.png)
+{:.desktop-img}
+
+![]({{site.baseurl}}/images/comics/intro/mobile/never-give-up-m.png)
+{:.mobile-img}
 
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
 {:.v2-note.v2-note-primary}
@@ -61,6 +65,10 @@ Moving on to a more complex example:
 {:.text-center}
 
 ![]({{site.baseurl}}/images/comics/intro/premature-discipline.png)
+{:.desktop-img}
+
+![]({{site.baseurl}}/images/comics/intro/mobile/premature-discipline-m.png)
+{:.mobile-img}
 
 *We all have our internal pig-dog, who always tries to seduce us.* Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
 
