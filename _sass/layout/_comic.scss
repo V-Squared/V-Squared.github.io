@@ -32,6 +32,7 @@
     font-size: $fontSize-h1 !important;
     line-height: 1;
     margin-bottom: 30px;
+    color: $brand-secondary;
     margin-top: $fontSize-h1 * 2;
     margin-bottom: $fontSize-h1;
     @include media-query ($on-mobile) {
