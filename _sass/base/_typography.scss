@@ -4,6 +4,22 @@ ul.uk-nav-sub {
 md-content {
   background: transparent;
 
+  @media screen and (device-aspect-ratio: 40/71) {
+    .article-content {
+      padding-left: $spacing-unit / 3;
+      padding-right: $spacing-unit / 3;
+    }
+
+    p {
+      font-size: 0.875em;
+    }
+
+    md-card {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   h1 {
     color: $heading-color;
     font-size: 45px;

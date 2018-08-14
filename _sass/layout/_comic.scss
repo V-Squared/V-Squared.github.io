@@ -21,6 +21,10 @@
     @include media-query ($on-mobile) {
       font-size: $fontSize-h1;
     }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      font-size: $fontSize-h1 - 5px;
+    }
   }
 
   h2, h3 {
@@ -38,6 +42,10 @@
     @include media-query ($on-mobile) {
       font-size: $fontSize-h2;
     }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      font-size: $fontSize-h2 - 5px !important;
+    }
   }
 
   h3 {
@@ -47,6 +55,10 @@
     margin-bottom: $fontSize-h2;
     @include media-query ($on-mobile) {
       font-size: $fontSize-h3;
+    }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      font-size: $fontSize-h3 - 5px !important;
     }
   }
 
