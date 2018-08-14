@@ -56,7 +56,8 @@ Let's have a look at ViZdom-style anecdotes. We are starting off with a simple o
 
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
 
-Moving on to a more complex example:{:.text-center}
+Moving on to a more complex example:
+{:.text-center}
 
 ![]({{site.baseurl}}/images/comics/intro/premature-discipline.png)
 
