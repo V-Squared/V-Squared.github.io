@@ -55,6 +55,7 @@ Let's have a look at ViZdom-style anecdotes. We are starting off with a simple o
 ![]({{site.baseurl}}/images/comics/intro/never-give-up.png)
 
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
+{:.v2-note.v2-note-primary}
 
 Moving on to a more complex example:
 {:.text-center}
@@ -74,7 +75,7 @@ As you may have guessed, this anecdote alone won't cure your problem of lack of 
 **At the end of this introduction we will show you how it is done in one complete life-hack.** For now, I hope you can glean that illustrated anecdotes are able to illuminate one aspect at a time, and they do so by being fun, insightful and memorable.
 
 The strategy of addressing larger issues, by combining several anecdotes, has the dramatic benefit of being more fun and memorable than traditional large monolithic textbook style.
-{: .v2-note-warn}
+{: .v2-note.v2-note-warn}
 
 # Real Characters
 
@@ -97,7 +98,7 @@ Meaning, we compiled and developed all these life hacks to fix our own lives. We
 This project is really not the first time we tried to fix ourselves. In each previous attempt we read and applied a new self-help book with passion. Sadly with limited success. This time we dared to develop our own approach. And it worked. We were extremely surprised by just how effective our new approach was! Being blessed with such a success, we felt an urge not to keep it for ourselves. This is our attempt of sharing our stories as we lived them(\*), hoping they will work for you, too. We even made it an Open Source community project on GitHub. More about it below.
 
 (\*) Not all ideas in our stories are our creations. Like everybody else we live on shoulders of giants, being blessed with inspirations of those who came before us and who were kind enough to share their insights. We are particularly grateful to all self-help book authors. They had great ideas on what to change. Please see → ViZdom.Inspiration. However, we needed to find a way on how to apply these changes.
-{:.v2-note-warn}
+{:.v2-note.v2-note-warn}
 
 # Complete & Practical
 
