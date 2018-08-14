@@ -55,9 +55,23 @@ $card-padding: 20px;
 	margin-bottom: 0;
 }
 
+md-content {
+  md-card {
+    margin-bottom: $spacing-unit;
+  }
+}
+
 md-card {
 	md-card-actions {
 		padding: 8px;
 		margin: 0;
 	}
+
+  &.v2-card-brown {
+    background: #B29E6B;
+  }
+
+  &.v2-card-green {
+    background: #cefac2;
+  }
 }

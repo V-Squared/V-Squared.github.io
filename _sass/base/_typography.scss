@@ -69,18 +69,18 @@ md-content {
   }
 
   .desktop-img {
-    display:block;
+    display:block !important;
 
     @include media-query ($on-mobile) {
-      display: none;
+      display: none !important;
     }
   }
 
   .mobile-img {
-    display: none;
+    display: none !important;
 
     @include media-query ($on-mobile) {
-      display: block;
+      display: block !important;
     }
   }
 }

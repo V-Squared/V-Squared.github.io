@@ -52,29 +52,27 @@ There are four strong reasons: 1) Memorization 2) Understanding 3) Speed Reading
 ## The Secret Sauce
 Let's have a look at ViZdom-style anecdotes. We are starting off with a simple one. Simple as in this anecdote works stand alone. We use it in the life-hack of increasing discipline. It illuminates the aspect that not all your attempts will work instantly. Hence, it is important that you develop persistence and keep on trying. Without further ado, here goes:
 
-![]({{site.baseurl}}/images/comics/intro/never-give-up.png)
-{:.desktop-img}
-
-![]({{site.baseurl}}/images/comics/intro/mobile/never-give-up-m.png)
-{:.mobile-img}
-
+<md-card class="v2-card-brown">
+<img class="desktop-img" src="{{site.baseurl}}/images/comics/intro/never-give-up.png">
+<img class="mobile-img" src="{{site.baseurl}}/images/comics/intro/mobile/never-give-up-m.png">
+<md-card-content>
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
-{:.v2-note.v2-note-primary}
+</md-card-content>
+</md-card>
 
 Moving on to a more complex example:
 {:.text-center}
 
-![]({{site.baseurl}}/images/comics/intro/premature-discipline.png)
-{:.desktop-img}
+<md-card class="v2-card-green">
+<img class="desktop-img" src="{{site.baseurl}}/images/comics/intro/premature-discipline.png">
+<img class="mobile-img" src="{{site.baseurl}}/images/comics/intro/mobile/premature-discipline-m.png">
 
-![]({{site.baseurl}}/images/comics/intro/mobile/premature-discipline-m.png)
-{:.mobile-img}
+<md-card-content><em>We all have our internal pig-dog, who always tries to seduce us.</em> Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
 
-*We all have our internal pig-dog, who always tries to seduce us.* Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
+  But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, <em>learn to judge your self-discipline correctly so you don't bite off more than you can chew.</em> Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
 
-But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, *learn to judge your self-discipline correctly so you don't bite off more than you can chew.* Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
-
-*You may also find more peace if you stop fighting your internal pig-dog.* It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
+  <em>You may also find more peace if you stop fighting your internal pig-dog.</em> It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!</md-card-content>
+</md-card>
 
 ---
 
