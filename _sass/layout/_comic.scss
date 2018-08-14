@@ -2,19 +2,25 @@
   font-family: $base-comic-family;
   font-size: 1.125em;
 
+  // Headings
   h1, h2, h3 {
     border: 0;
+    padding: 0;
     text-align: center;
     font-family: $base-comic-family;
   }
 
   h1 {
     font-family: $base-comic-heading-family;
-    color: rgba(0, 0, 0,.9);
+    color: $brand-color;
     font-weight: bold;
     font-size: $fontSize-title;
-    line-height: $fontSize-title * $heading-lineHeight;
-    // Line height based out of base font size * 1.4 per material design guidelines
+    line-height: $heading-lineHeight;
+    margin-top: $fontSize-title * 2;
+    margin-bottom: $fontSize-title;
+    @include media-query ($on-mobile) {
+      font-size: $fontSize-h1;
+    }
   }
 
   h2, h3 {
@@ -24,19 +30,24 @@
 
   h2 {
     font-size: $fontSize-h1 !important;
-    line-height: $fontSize-h1 * $heading-lineHeight;
+    line-height: 1;
     margin-bottom: 30px;
+    margin-top: $fontSize-h1 * 2;
+    margin-bottom: $fontSize-h1;
+    @include media-query ($on-mobile) {
+      font-size: $fontSize-h2;
+    }
   }
 
   h3 {
     font-size: $fontSize-h2 !important;
-    line-height: $fontSize-h2 * $heading-lineHeight;
-    margin-bottom: 10px;
+    line-height: 1;
+    margin-top: $fontSize-h2 * 2;
+    margin-bottom: $fontSize-h2;
+    @include media-query ($on-mobile) {
+      font-size: $fontSize-h3;
+    }
   }
-
-  // p, ul, ol {
-  //   margin-top: 10px;
-  // }
 
   img {
     margin-left: auto;
@@ -44,6 +55,24 @@
     display: block;
     border: 0;
     margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: $spacing-unit;
+  }
+
+  .poem {
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+
+  .v2-note-warn {
+    padding: $spacing-unit;
+    border: 2px solid $brand-accent-700;
+    background: $brand-accent;
+    color: #FFF;
   }
 
 }
