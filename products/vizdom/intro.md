@@ -128,7 +128,7 @@ Characters that are easy to relate to, so memorizing anecdotes just happens.
 -   Identify and harvest your low hanging fruits.
 Make it quick and easy to find what you are looking for.
 
-## Improve Yourself: A la carte!
+## Improve Yourself: A&nbsp;&nbsp;la carte!
 
 In case you think this is a bit much, then think of it like the menu in a nice restaurant. Isn't it wonderful that there are so many choices? Just pick what you want or what you hunger for on that particular day! When it tastes good, come back for more!  {Weave life-hacking / efficiency}
 
