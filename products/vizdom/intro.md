@@ -21,19 +21,19 @@ You want to know …
 
 ## Why?
 
-**Remember Solutions When Needed:** Ever read a great self-help book that made sense, yet later you could not remember nor apply the life changing fixes when you needed them the most? It's because your brain has evolved to remember stories and pictures. Traditional textbooks are not written in that way.
+*Remember Solutions When Needed:* Ever read a great self-help book that made sense, yet later you could not remember nor apply the life changing fixes when you needed them the most? It's because your brain has evolved to remember stories and pictures. Traditional textbooks are not written in that way.
 
-That's why we wrote our **life-hacks with the secret sauce of humorous illustrated anecdotes.** The anecdotes are designed with many details to trigger your brain's memorization process. Such as a consistent cast of characters who experience problems similar to those that you want to solve. And they do so with humor and a punch line.
+That's why we wrote our *life-hacks with the secret sauce of humorous illustrated anecdotes.* The anecdotes are designed with many details to trigger your brain's memorization process. Such as a consistent cast of characters who experience problems similar to those that you want to solve. And they do so with humor and a punch line.
 
 This is a good moment to introduce our central character, the Phoenix:
 
 ![]({{site.baseurl}}/images/comics/intro/phoenix-rising.jpg)
-**Crash:** Ever feel as if your life is going down in flames? It happens to all of us!
+*Crash:* Ever feel as if your life is going down in flames? It happens to all of us!
 ![]({{site.baseurl}}/images/comics/intro/phoenix-recovery.jpg)
 
-**Recovery:** You may already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
+*Recovery:* You may already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
 
-When you are reading a self-help book you want be inspired to create new solutions that solve your specific problems. When doing so you want to both memorize these solutions and to install a trigger, so that when you are in actual trouble the solution will automatically come to you, just when you need it. ViZdom will show you how to do that. **That's why and how ViZdom\* is more powerful than mere knowledge!**  \*(rhymes with wisdom)
+When you are reading a self-help book you want be inspired to create new solutions that solve your specific problems. When doing so you want to both memorize these solutions and to install a trigger, so that when you are in actual trouble the solution will automatically come to you, just when you need it. ViZdom will show you how to do that. *That's why and how ViZdom \* is more powerful than mere knowledge!*  \*(rhymes with wisdom)
 
 This is a bold statement. You may not be able to confirm this now. But when you read on you may find quite quickly, that reading this book is more fun. Fun will make you read more, and come back more often. So you already know that you will have better retention.
 
@@ -62,24 +62,24 @@ Moving on to a more complex example:
 
 ![]({{site.baseurl}}/images/comics/intro/premature-discipline.png)
 
-**We all have our internal pig-dog, who always tries to seduce us.** Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
+*We all have our internal pig-dog, who always tries to seduce us.* Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
 
-But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, **learn to judge your self-discipline correctly so you don't bite off more than you can chew.** Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
+But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, *learn to judge your self-discipline correctly so you don't bite off more than you can chew.* Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
 
-**You may also find more peace if you stop fighting your internal pig-dog.** It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
+*You may also find more peace if you stop fighting your internal pig-dog.* It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
 
 ---
 
 As you may have guessed, this anecdote alone won't cure your problem of lack of self-discipline (in case you have one). But it will serve to foster a deeper understanding of the ramifications of a lack of self-discipline. Hence, this anecdote is used in conjunction with other anecdotes, short stories, diagrams and tools to address the issue completely.
 
-**At the end of this introduction we will show you how it is done in one complete life-hack.** For now, I hope you can glean that illustrated anecdotes are able to illuminate one aspect at a time, and they do so by being fun, insightful and memorable.
+*At the end of this introduction we will show you how it is done in one complete life-hack.* For now, I hope you can glean that illustrated anecdotes are able to illuminate one aspect at a time, and they do so by being fun, insightful and memorable.
 
 The strategy of addressing larger issues, by combining several anecdotes, has the dramatic benefit of being more fun and memorable than traditional large monolithic textbook style.
 {: .v2-note.v2-note-warn}
 
 # Real Characters
 
-The one thing that is even more memorable than life-hacks in illustrated anecdotes, are illustrated anecdotes made up of a **consistent cast of characters.** And how better to visualize your own character improvements than by following along the **characters' development in story arcs.** With no further ado, we introduce you to …
+The one thing that is even more memorable than life-hacks in illustrated anecdotes, are illustrated anecdotes made up of a *consistent cast of characters.* And how better to visualize your own character improvements than by following along the *characters' development in story arcs.* With no further ado, we introduce you to …
 
 ![]({{site.baseurl}}/images/comics/intro/cartoon-cast.png)
 
