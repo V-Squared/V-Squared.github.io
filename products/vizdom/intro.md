@@ -85,7 +85,7 @@ The strategy of addressing larger issues, by combining several anecdotes, has th
 
 The one thing that is even more memorable than life-hacks in illustrated anecdotes, are illustrated anecdotes made up of a *consistent cast of characters.* And how better to visualize your own character improvements than by following along the *characters' development in story arcs.* With no further ado, we introduce you to …
 
-![]({{site.baseurl}}/images/comics/intro/cartoon-cast.png)
+![]({{site.baseurl}}/images/comics/intro/cartoon-cast.jpg)
 
 ## Inspirations R Us
 
