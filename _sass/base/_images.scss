@@ -1,0 +1,15 @@
+.mobile-crop {
+  width: 100%;
+
+  > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (min-width: $on-tablet) {
+      max-width: 100%;
+      width: auto;
+      height: auto !important;
+    }
+  }
+}

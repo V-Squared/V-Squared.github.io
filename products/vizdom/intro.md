@@ -21,6 +21,7 @@ You want to know …
 
 ## Why?
 
+
 *Remember Solutions When Needed:* Ever read a great self-help book that made sense, yet later you could not remember nor apply the life changing fixes when you needed them the most? It's because your brain has evolved to remember stories and pictures. Traditional textbooks are not written in that way.
 
 That's why we wrote our *life-hacks with the secret sauce of humorous illustrated anecdotes.* The anecdotes are designed with many details to trigger your brain's memorization process. Such as a consistent cast of characters who experience problems similar to those that you want to solve. And they do so with humor and a punch line.
@@ -53,8 +54,7 @@ There are four strong reasons: 1) Memorization 2) Understanding 3) Speed Reading
 Let's have a look at ViZdom-style anecdotes. We are starting off with a simple one. Simple as in this anecdote works stand alone. We use it in the life-hack of increasing discipline. It illuminates the aspect that not all your attempts will work instantly. Hence, it is important that you develop persistence and keep on trying. Without further ado, here goes:
 
 <md-card class="v2-card-brown">
-<img class="desktop-img" src="{{site.baseurl}}/images/comics/intro/never-give-up.png">
-<img class="mobile-img" src="{{site.baseurl}}/images/comics/intro/mobile/never-give-up-m.png">
+{% include mobile-crop image="/images/comics/intro/never-give-up.png" contain-height="420px" %}
 <md-card-content>
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
 </md-card-content>
@@ -64,9 +64,7 @@ Moving on to a more complex example:
 {:.text-center}
 
 <md-card class="v2-card-green">
-<img class="desktop-img" src="{{site.baseurl}}/images/comics/intro/premature-discipline.png">
-<img class="mobile-img" src="{{site.baseurl}}/images/comics/intro/mobile/premature-discipline-m.png">
-
+{% include mobile-crop image="/images/comics/intro/premature-discipline.png" contain-height="420px" %}
 <md-card-content><em>We all have our internal pig-dog, who always tries to seduce us.</em> Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work.
 
   But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, <em>learn to judge your self-discipline correctly so you don't bite off more than you can chew.</em> Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
@@ -133,11 +131,11 @@ Characters that are easy to relate to, so memorizing anecdotes just happens.
 -   Learn faster and teach more effectively.
 -   The speed of trust and how to get it.
 -   Identify and harvest your low hanging fruits.
-Make it quick and easy to find what you are looking for.
+-   Make it quick and easy to find what you are looking for.
 
 ## Improve Yourself: A&nbsp;&nbsp;la carte!
 
-In case you think this is a bit much, then think of it like the menu in a nice restaurant. Isn't it wonderful that there are so many choices? Just pick what you want or what you hunger for on that particular day! When it tastes good, come back for more!  {Weave life-hacking / efficiency}
+In case you think this is a bit much, then think of it like the menu in a nice restaurant. Isn't it wonderful that there are so many choices? Just pick what you want or what you hunger for on that particular day! When it tastes good, come back for more!
 
 # Gifted by ViZdom
 
