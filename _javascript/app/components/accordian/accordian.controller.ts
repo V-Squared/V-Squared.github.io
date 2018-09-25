@@ -1,4 +1,4 @@
-import { IAccordianGroup } from "./accordianGroup/accordianGroup.controller.ts";
+import { IAccordianGroup } from "./accordianGroup/accordianGroup.controller";
 
 export interface IAccordianController extends ng.IController {
   groups: IAccordianGroup[];

@@ -1,4 +1,4 @@
-import { ISwitcherController } from "../switcher.controller.ts";
+import { ISwitcherController } from "../switcher.controller";
 
 export interface ISwitcherItem extends ng.IScope {
   active: boolean;

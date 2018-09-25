@@ -10,15 +10,15 @@ import * as duScroll from "angular-scroll";
 import "../vendor/ui-bootstrap-collapse.js";
 import "../vendor/ui-bootstrap-tab.js";
 
-import { commonModule } from "./common/common.module.ts";
-import { componentsModule } from "./components/components.module.ts";
+//import { commonModule } from "./common/common.module";
+//import { componentsModule } from "./components/components.module";
 
-import { appConfig } from "./app.config.ts";
+import { appConfig } from "./app.config";
 
 angular
   .module("app", [
-    commonModule,
-    componentsModule,
+    //commonModule,
+    //componentsModule,
     ngSanitize,
     ngAnimate,
     ngAria,

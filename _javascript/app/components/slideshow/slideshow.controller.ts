@@ -1,5 +1,5 @@
-import { ISlideshowConfig } from "./slideshow.provider.ts";
-import { ISlide } from "./slide/slide.directive.ts";
+import { ISlideshowConfig } from "./slideshow.provider";
+import { ISlide } from "./slide/slide.directive";
 
 export interface ISlideshowController extends ng.IController {
   slides: ISlide[];

@@ -1,6 +1,6 @@
-import { v2AccordianGroup } from "./accordianGroup/accordianGroup.module.ts";
+import { v2AccordianGroup } from "./accordianGroup/accordianGroup.module";
 
-import { accordianDirective } from "./accordian.directive.ts";
+import { accordianDirective } from "./accordian.directive";
 
 export const v2Accordian = angular
   .module("v2.accordian", [

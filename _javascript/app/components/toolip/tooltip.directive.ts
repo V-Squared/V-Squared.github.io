@@ -1,13 +1,15 @@
-import { IPositionService } from "../../common/position/position.service.ts";
+import * as angular from "angular";
 
-import { ITooltipOptions } from "./tooltip.provider.ts";
+import { IPositionService } from "../../common/position/position.service";
+
+import { ITooltipOptions } from "./tooltip.provider";
 
 interface ITtScope extends ng.IScope {
   ttLeft: number;
   ttTop: number;
-  placement: string;
-  onMouseover(): void;
-  onMouseLeave(): void;
+  placement?: string;
+  onMouseover?(): void;
+  onMouseLeave?(): void;
 }
 
 interface ITooltipScope extends ng.IScope {
@@ -119,10 +121,9 @@ export const tooltipDirective = ($compile: ng.ICompileService, $timeout: ng.ITim
         return;
       }
 
-      ttScope = scope.$new(true);
-
-      ttScope.ttLeft = 0;
-      ttScope.ttTop = 0;
+      ttScope = Object.assign({
+         ttLeft: 0, ttTop: 0
+      }, scope.$new(true));
 
       // append tooltip to the body
       tooltip = tooltipLinker(ttScope, (tooltip) => $document.find("body").append(tooltip) );

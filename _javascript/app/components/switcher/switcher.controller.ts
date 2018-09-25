@@ -1,5 +1,5 @@
-import { ISwitcherItem } from "./switchItem/switchItem.directive.ts";
-import { ISwitcherContent } from "./switchContent/switchContent.directive.ts";
+import { ISwitcherItem } from "./switchItem/switchItem.directive";
+import { ISwitcherContent } from "./switchContent/switchContent.directive";
 
 export interface ISwitcherController {
   contents: ISwitcherContent[];

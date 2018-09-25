@@ -2,6 +2,7 @@ var webpack = require("webpack");
 var path = require("path");
 
 module.exports = {
+  mode: "development",
   entry: "./_javascript/app/app.module.ts",
 
   output: {
@@ -10,15 +11,19 @@ module.exports = {
     filename: "app.js"
   },
 
+  resolve: {
+    extensions: [".js",".ts"]
+  },
+
   // source map
   devtool: "source-map",
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.ts$/,
         // Exclude node modules and jekyll stuff
-        exclude: [/node_modules/,/_includes/,/_layouts/,/_posts/,/_sass/,/_site/,/css/],
+        include: [/_javascript/],
         loader: 'ts-loader'
       },
       {
@@ -31,6 +36,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({minimize: true})
+    //new webpack.optimize.UglifyJsPlugin({minimize: true})
   ]
 };

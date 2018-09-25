@@ -1,4 +1,4 @@
-import { switchContentDirective } from "./switchContent.directive.ts";
+import { switchContentDirective } from "./switchContent.directive";
 
 export const switchContent = angular
   .module("v2.switcher.switchContent", [])

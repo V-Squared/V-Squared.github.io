@@ -1,4 +1,4 @@
-import { AccordianController } from "./accordian.controller.ts";
+import { AccordianController } from "./accordian.controller";
 
 export const accordianDirective = (): ng.IDirective => ({
   restrict: "EA",

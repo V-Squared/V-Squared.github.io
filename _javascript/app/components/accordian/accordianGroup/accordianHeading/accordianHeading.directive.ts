@@ -1,4 +1,4 @@
-import { IAccordianGroup } from "../accordianGroup.controller.ts";
+import { IAccordianGroup } from "../accordianGroup.controller";
 
 export const accordianHeadingDirective = (): ng.IDirective => ({
   restrict: "EA",

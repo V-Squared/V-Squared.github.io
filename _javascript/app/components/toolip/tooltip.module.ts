@@ -1,7 +1,7 @@
-import { v2Position } from "../../common/position/position.module.ts";
+import { v2Position } from "../../common/position/position.module";
 
-import { TooltipConfig } from "./tooltip.provider.ts";
-import { tooltipDirective } from "./tooltip.directive.ts";
+import { TooltipConfig } from "./tooltip.provider";
+import { tooltipDirective } from "./tooltip.directive";
 
 export const v2Tooltip = angular
   .module("v2.tooltip", [
@@ -44,7 +44,7 @@ export const v2Tooltip = angular
         if (targetElemPos.left < 0) {
           targetElemPos.left = 0;
         }
-        
+
         if(targetElemPos.left + 216 >= $document[0].documentElement.clientWidth) {
           targetElemPos.left = $document[0].documentElement.clientWidth - 216;
         }
@@ -109,19 +109,19 @@ export const v2Tooltip = angular
       scope.placement = 'top';
 
       if (mouseoverTooltip) {
-        template = '<div class="v2-tooltip" ' + 
+        template = '<div class="v2-tooltip" ' +
         'ng-mouseover="onMouseover()" '+
         'ng-mouseleave="onMouseLeave()" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}" style="z-index:999999" ' +
-        'ng-class="placement">' +  
+        'ng-class="placement">' +
            content +
-        '</div>'; 
+        '</div>';
       } else {
-        template = '<div class="v2-tooltip" ' + 
+        template = '<div class="v2-tooltip" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}" style="z-index:999999"' +
         'ng-class="placement">' +
            content +
-        '</div>'; 
+        '</div>';
       }
 
       /!*tooltip.css({
@@ -151,7 +151,7 @@ export const v2Tooltip = angular
           createTooltip();
           positionTooltip();
         }
-        
+
       }
 
       function positionTooltip () {
@@ -213,7 +213,7 @@ export const v2Tooltip = angular
         console.log(ttScope.placement);
 
 
-        // tooltip event for mouseoverTooltip 
+        // tooltip event for mouseoverTooltip
 
         ttScope.onMouseover = function onMouseover () {
           $timeout.cancel(hideTimeout);
@@ -232,7 +232,7 @@ export const v2Tooltip = angular
         element.bind('mouseenter');
         element.bind('mouseleave');
         ttScope.$destroy();
-      }); 
+      });
 
     }
   }

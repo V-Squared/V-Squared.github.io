@@ -2,10 +2,10 @@ import * as ngSanitize from "angular-sanitize";
 import * as ngAnimate from "angular-animate";
 import * as ngMaterial from "angular-material";
 
-import { v2Slide } from "./slide/slide.module.ts";
+import { v2Slide } from "./slide/slide.module";
 
-import { SlideshowSetting } from "./slideshow.provider.ts";
-import { slideshowComponent } from "./slideshow.component.ts";
+import { SlideshowSetting } from "./slideshow.provider";
+import { slideshowComponent } from "./slideshow.component";
 
 export const v2Slideshow = angular
   .module("v2.slideshow", [

@@ -1,4 +1,4 @@
-import { switchItemDirective } from "./switchItem.directive.ts";
+import { switchItemDirective } from "./switchItem.directive";
 
 export const switchItem = angular
   .module("v2.switcher.switchItem", [])

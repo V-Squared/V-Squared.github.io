@@ -1,7 +1,7 @@
-import { switchItem } from "./switchItem/switchItem.module.ts";
-import { switchContent } from "./switchContent/switchContent.module.ts";
+import { switchItem } from "./switchItem/switchItem.module";
+import { switchContent } from "./switchContent/switchContent.module";
 
-import { switcherDirective } from "./switcher.directive.ts";
+import { switcherDirective } from "./switcher.directive";
 
 export const v2Switcher = angular
   .module("v2.switcher", [

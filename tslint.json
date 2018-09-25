@@ -9,6 +9,11 @@
       "static-before-instance",
       "variables-before-functions"
     ],
+    "linterOptions": {
+      "exclude": [
+          "note_modules"
+      ]
+    },
     "no-arg": true,
     "no-construct": true,
     "no-duplicate-key": true,

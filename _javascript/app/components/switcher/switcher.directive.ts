@@ -1,4 +1,4 @@
-import { ISwitcherController, SwitcherController } from "./switcher.controller.ts";
+import { ISwitcherController, SwitcherController } from "./switcher.controller";
 
 export const switcherDirective = (): ng.IDirective => ({
   restrict: "EA",

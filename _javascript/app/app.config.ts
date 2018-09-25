@@ -1,4 +1,4 @@
-import { ISlideshowSettings } from "./components/slideshow/slideshow.provider.ts";
+import { ISlideshowSettings } from "./components/slideshow/slideshow.provider";
 
 export function appConfig($interpolateProvider: ng.IInterpolateProvider, $mdThemingProvider: angular.material.IThemingProvider,
                           v2SlideshowSettingProvider: ISlideshowSettings): void {
