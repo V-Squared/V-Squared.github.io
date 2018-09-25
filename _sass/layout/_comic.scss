@@ -11,7 +11,7 @@
   }
 
   h1 {
-    font-family: $base-comic-heading-family;
+    font-family: $base-comic-title-family;
     color: $brand-color;
     font-weight: bold;
     font-size: $fontSize-title;
@@ -29,7 +29,7 @@
 
   h2, h3 {
     color: $heading-color;
-    font-weight: bold;
+    font-family: $base-comic-heading-family;
   }
 
   h2 {
@@ -79,6 +79,29 @@
     font-size: 1.6em;
     line-height: 1.4;
     margin-bottom: 0;
+  }
+  
+  .note {
+    font-family: $base-comic-anec-family;
+    background-color: $brand-accent;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    padding: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+
+    &.note-proveit {
+      background-color: $brand-accent;
+    }
+
+    &.note-nerd {
+      background-color: #9C27B0;
+      color: #FFF;
+    }
+
+    .note-content {
+      padding-left: $spacing-unit / 2;
+      font-size: 1.1em;
+    }
   }
 
 }

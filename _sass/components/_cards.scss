@@ -68,10 +68,22 @@ md-card {
 	}
 
   &.v2-card-brown {
+		font-family: $base-comic-note-family;
     background: #B29E6B;
   }
 
   &.v2-card-green {
+		font-family: $base-comic-note-family;
     background: #cefac2;
-  }
+	}
+	
+	&.v2-card-darkblue {
+		font-family: $base-comic-note-family;
+		background: #a0b3ba;
+	}
+
+	&.v2-card-blue {
+		font-family: $base-comic-note-family;
+		background: #a9d3eb;
+	}
 }
