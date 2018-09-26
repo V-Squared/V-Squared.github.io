@@ -21,7 +21,7 @@
     {% for board in site.data.board-bar %}
     {% if page.url contains board.url %}
     {% assign boardName = board.url | remove: "/" %}
-    {% assign bookbar = site.data.[boardName].book-bar %}
+    {% assign bookbar = site.data[boardName].book-bar %}
     {% endif %}
     {% endfor %}
     

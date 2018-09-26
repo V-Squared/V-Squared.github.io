@@ -23,5 +23,5 @@ permalink: pretty
 markdown: kramdown
 encoding: utf-8
 
-gems:
+plugins:
   - octopress-autoprefixer
