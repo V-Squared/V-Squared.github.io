@@ -1,6 +1,6 @@
 $bookbar-height: 51px;
 
-.v2-bookbar {
+#v2-bookbar {
   background:$brand-color;
   height: $bookbar-height;
   z-index: 999;
@@ -9,12 +9,12 @@ $bookbar-height: 51px;
   box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.28);
   position: relative;
 
-  &.uk-active {
+  &.active {
     z-index: 1000;
   }
 }
 .v2-bookbar-nav {
-  > .v2-bookbar-nav-md {
+  //> .v2-bookbar-nav-md {
     // To left align the text with the container border with underline
     margin-left: -15px;
 
@@ -27,6 +27,8 @@ $bookbar-height: 51px;
         line-height: $bookbar-height;
         height:inherit;
         text-transform: none;
+        padding-top: 0;
+        padding-bottom: 0;
       }
 
       // Underline
@@ -42,19 +44,19 @@ $bookbar-height: 51px;
         background: transparent;
       }
 
-      &:hover > a,  &.uk-active > a{
+      &:hover > a,  &.active > a{
         background: transparent;
         color: #FFF;
       }
 
-      &.uk-active:after, &:hover:after {
+      &.active:after, &:hover:after {
         background: $brand-accent;
       }
 
     }
-  }
+  //}
 
-  > .v2-bookbar-nav-xs {
+  .v2-bookbar-nav-xs {
     @include remove-typo-margin;
     height: $bookbar-height;
     margin-left: -17px;

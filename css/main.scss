@@ -13,8 +13,10 @@
   "utils/functions";
 
 @import
-  "vendor/angular-material",
-  "vendor/uikit.min",
+  "vendor/bootstrap/bootstrap",
+  //"vendor/vue-material",
+  //"vendor/material-default",
+  "vendor/material-kit",
   "vendor/progress-bar",
   "vendor/slideshow";
 
@@ -25,6 +27,8 @@
   "base/typography",
   "base/images",
   "base/syntax-highlighting";
+
+//@import "vendor/bootstrap/bootstrap";
 
 @import
   "layout/board-bar",

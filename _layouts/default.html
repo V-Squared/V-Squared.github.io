@@ -3,12 +3,12 @@
 
   {% include head.html %}
 
-  <body ng-controller="mainController as vm">
+  <body id="app">
 
     {% include board-bar.html %}
 
     <div class="jumbotron">
-      <div class="uk-container uk-container-center">
+      <div class="container">
         {% for board in site.data.board-bar %}
         {% if page.url contains board.url %}
         <h1>{{board.title}}</h1>

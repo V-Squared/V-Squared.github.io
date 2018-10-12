@@ -73,6 +73,14 @@ $background-gray:  #EBEFF2;
 $background-black: #2D384A;
 
 
+$theme-colors: (
+  "primary": $brand-color,
+  "info": $brand-secondary,
+  "warning": $brand-accent,
+  "danger": #F44336
+);
+
+
 /********/
 // Material design class colors
 /*********/

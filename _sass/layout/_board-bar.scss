@@ -3,10 +3,13 @@ $board-nav-margin: 15px;
 $board-nav-breakpoint: 774px;
 $board-nav-border: 6px;
 
-.v2-navbar {
+#v2-navbar {
   min-height: $board-nav-height;
   z-index: 9999;
-  background:$brand-700;
+  background-color:$brand-700 !important;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
 }
 .v2-navbar-brand {
   padding-left:0;
@@ -35,7 +38,7 @@ $board-nav-border: 6px;
       margin-left:0;
     }
 
-    &.uk-active {
+    &.active {
       border-color:#FFF;
     }
 

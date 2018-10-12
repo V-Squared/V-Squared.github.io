@@ -13,6 +13,12 @@ gulp.task("build", function(done) {
   // Webpack Config
   webpack(webpackConfig, onBuild(done));
 
+  gulp.src("node_modules/bootstrap/scss/**/**")
+  .pipe(gulp.dest("_sass/vendor/bootstrap"));
+
+  gulp.src("node_modules/vue-material/dist/**/**")
+  .pipe(gulp.dest("_sass/vendor/vue-material"));
+
 });
 
 function onBuild(done) {

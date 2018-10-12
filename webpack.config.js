@@ -3,7 +3,7 @@ var path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./_javascript/app/app.module.ts",
+  entry: "./_javascript/app/app.ts",
 
   output: {
     publicPath: "/lib/",

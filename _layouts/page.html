@@ -17,16 +17,16 @@ layout: default
 {% endfor %}
 
 <div class="page-content" style="background:#f5f5f5">
-  <div class="uk-container content-body uk-container-center">
+  <div class="container content-body">
 <div class="page">
 
-  <div layout="row" layout-sm="column" no-gap>
+  <div class="row no-gutters">
     {% if articleBar == 'yes' %}
 
     {% include article-bar.html nav=bookbar board=boardUrl %}
 
     {% endif %}
-    <div flex class="article md-whiteframe-5dp"  {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
+    <div class="article col order-md-2"  {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
       {% include article-jumbo/article-jumbo.html %}
 
       <div layout="row" no-gap>
