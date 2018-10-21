@@ -1,9 +1,9 @@
-import Vue from "vue";
-import VueMaterial from "vue-material";
+import * as $ from "jquery";
 
-Vue.use(VueMaterial);
-
-const app = new Vue({
-  el: "#app",
-  delimiters: ["((", "))"]
+$(function DocumentReady() {
+  $(document).on("click", ".v2-accordion-heading" , function() {
+    $(this).next().collapse("toggle");
+    $(".v2-accordion-heading").not(this).children().removeClass("rotate-90");
+    $(this).children().toggleClass("rotate-90");
+  });
 });

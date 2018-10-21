@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body id="app">
+  <body>
 
     {% include board-bar.html %}
 
@@ -26,7 +26,7 @@
     {% endfor %}
     
     {% include book-bar.html nav=bookbar board=boardName %}
-
+    
     {{ content }}
 
     {% include footer.html %}

@@ -12,8 +12,16 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [".js",".ts"]
+    extensions: [".js",".ts"],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
+
+  externals: {
+    jquery: "jQuery"
+  },
+
 
   // source map
   devtool: "source-map",
@@ -24,6 +32,7 @@ module.exports = {
         test: /\.ts$/,
         // Exclude node modules and jekyll stuff
         include: [/_javascript/],
+        exclude: [/_js_old/,/node_modules/],
         loader: 'ts-loader'
       },
       {
@@ -33,6 +42,10 @@ module.exports = {
         loader: 'raw-loader'
       }
     ]
+  },
+
+  optimization: {
+    minimize: true
   },
 
   plugins: [

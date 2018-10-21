@@ -14,45 +14,48 @@
   </div>
 
     <ul data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'  }" style="z-index:10"
-        class="article-nav uk-nav" v2-accordian>
+        class="article-nav nav flex-column v2-accordion" v2-accordion>
 
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
 
-      <li class="{% if navurl == itemUrl %}uk-active{% endif %}">
-        <a md-ink-ripple href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
+      <li class="{% if navurl == itemUrl %}active{% endif %} nav-item">
+        <a md-ink-ripple class="nav-link" href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}">Index</a>
       </li>
 
       {% for subitem in my_page.subitems %}
 
       {% capture subitemUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
-      <li {% if subitem.group %}v2-accordian-group{% endif %}
-          {% if navurl contains subitemUrl and subitem.group %}is-opened{% endif %}
-          class="{% if navurl == subitemUrl %}uk-active{% endif %} {% if subitem.group %}article-group-header{% endif %}">
-        <a {% if subitem.group %}v2-accordian-heading md-ink-ripple{% else %}
-           md-ink-ripple
-           href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endif %}
+      <li class="{% if navurl == subitemUrl %}active{% endif %} 
+                 {% if subitem.group %}v2-accordion-group article-group-header{% endif %}
+                 nav-item">
+        <a class="nav-link {% if subitem.group %}v2-accordion-heading{% endif %}"
+           {% unless subitem.group %}
+           href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endunless %}
         >
           {% if subitem.group %}
-          <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
+          <!-- <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
                   class="article-group-foldicon"
-                  md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon>
+                  md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon> -->
+          <div class="article-group-foldicon {% if navurl contains subitemUrl and subitem.group %}rotate-90{% endif %}">
+            {% include icons/ic_play_arrow_black_24px.svg %}
+          </div>
           {% endif %}
           {{ subitem.menu }}
           </a>
 
-        {% if subitem.group %}
-          <div uib-collapse="!$group.isOpen">
-            <ul>
-              <li class="{% if navurl == subitemUrl %}uk-active{% endif %}">
-                <a md-ink-ripple href="{{site.baseurl}}{{subitemUrl}}">Index</a>
+        {% if subitem.group %}  
+          <div class="v2-accordion-collapse collapse {% if navurl contains subitemUrl and subitem.group %}show{% endif %}" data-parent=".v2-accordion">
+            <ul class="nav flex-column">
+              <li class="nav-item{% if navurl == subitemUrl %}active{% endif %}">
+                <a class="nav-link" href="{{site.baseurl}}{{subitemUrl}}">Index</a>
               </li>
 
               {% for group in subitem.group %}
                 {% capture groupUrl %}/{{include.board}}{{group.url}}{% endcapture %}
 
-                <li class="{% if navurl == groupUrl %}uk-active{% endif %}">
-                  <a md-ink-ripple href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
+                <li class="nav-item {% if navurl == groupUrl %}active{% endif %}">
+                  <a class="nav-link" href="{{site.baseurl}}{{groupUrl}}">{{group.menu}}</a>
                 </li>
               {% endfor %}
 
