@@ -26,7 +26,7 @@ layout: default
     {% include article-bar.html nav=bookbar board=boardUrl %}
 
     {% endif %}
-    <div class="article col order-md-2" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
+    <div class="article col hide-sm" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
       {% include article-jumbo/article-jumbo.html %}
 
       <div layout="row" no-gap>

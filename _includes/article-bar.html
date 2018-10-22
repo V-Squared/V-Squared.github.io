@@ -13,8 +13,8 @@
     <p>{{ my_page.desc }}</p>
   </div>
 
-    <ul data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'  }" style="z-index:10"
-        class="article-nav nav flex-column v2-accordion" v2-accordion>
+    <ul style="z-index:10"
+        class="article-nav nav flex-column sticky-top v2-accordion" v2-accordion>
 
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
 

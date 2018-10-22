@@ -1,6 +1,6 @@
 #article-bar {
   //border-right: 1px solid #BBB;
-  width: 230px;
+  max-width: 230px;
 
   > .v2-bookinfo {
     padding: 0 $spacing-unit / 2;
@@ -16,9 +16,10 @@
 .article-nav {
 
   // consider the sticky navbar and margin-top
-  max-height: calc(100vh - 89px);
+  //max-height: calc(100vh - 89px);
   overflow-y:auto;
   margin-left:0;
+  top: $spacing-unit * 2;
 
   ul {
     margin-left: 0;

@@ -5,9 +5,9 @@ $bookbar-height: 51px;
   height: $bookbar-height;
   z-index: 999;
   width: 100% !important;
+  margin-bottom: 0;
 
   box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.28);
-  position: relative;
 
   &.active {
     z-index: 1000;

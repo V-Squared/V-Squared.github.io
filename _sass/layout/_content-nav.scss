@@ -1,12 +1,17 @@
 $toc-borderwidth: 5;
 
 #article-toc {
-  width:210px;
+  max-width:210px;
 
-  > .v2-content-heading {
-    margin: 0;
-    padding-bottom: $spacing-unit / 2;
-    padding-left: ($spacing-unit / 2) - $toc-borderwidth;
-    border-left: ($toc-borderwidth * 1px) solid $brand-color;
+  .article-toc-nav {
+    margin-top: $spacing-unit / 2;
+    top: $spacing-unit * 2;
+
+    .v2-content-heading {
+      margin: 0;
+      padding-bottom: $spacing-unit / 2;
+      padding-left: ($spacing-unit / 2) - $toc-borderwidth;
+      border-left: ($toc-borderwidth * 1px) solid $brand-color;
+    } 
   }
 }
