@@ -1,6 +1,11 @@
 {% assign navurl = page.url | remove: 'index.html'%}
 {% capture baseurl %}{{ site.baseurl }}/{% endcapture %}
 
+{% assign urlHierarchy = navurl | split: "/" %}
+{% comment %}In jekyll the beginning of an array starts with 1 instead of 0{% endcomment %}
+
+{% capture currentBookbaritem %}/{{urlHierarchy[2] | downcase }}/{% endcapture %}
+
 <nav id="v2-bookbar" class="navbar navbar-dark navbar-expand-md sticky-top bg-primary">
   <div class="container">
     <!--<div class="row no-gutters v2-bookbar-nav-xs">
@@ -16,7 +21,7 @@
           <a href="{{site.baseurl}}/{{include.board}}/" class="md-tab nav-link">Index</a>
         </li>
         {% for my_page in include.nav %}
-        <li md-ink-ripple class="nav-item {% if navurl contains my_page.url %}active{% endif %}">
+        <li md-ink-ripple class="nav-item {% if currentBookbaritem == my_page.url %}active{% endif %}">
           <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab nav-link">{{ my_page.menu }}</a>
         </li>
         {% endfor %}
