@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 
 });
-
+/*
 $(document).on('click', '.navbar-toggler', function() {
   $toggle = $(this);
 
@@ -93,7 +93,7 @@ $(document).on('click', '.navbar-toggler', function() {
     materialKit.misc.navbar_menu_visible = 1;
   }
 });
-
+*/
 materialKit = {
   misc: {
     navbar_menu_visible: 0,

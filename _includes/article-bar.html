@@ -4,7 +4,7 @@
 {% if navurl contains my_page.url %}
 {% if my_page.subitems or my_page.groups %}
 
-<collapse-bar id="article-bar">
+<collapse-bar id="article-bar" class="d-none d-md-block">
 
   <div style="margin-top: 38px;"></div>
 
@@ -37,11 +37,11 @@
           <!-- <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
                   class="article-group-foldicon"
                   md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon> -->
-          <div class="article-group-foldicon {% if navurl contains subitemUrl and subitem.group %}rotate-90{% endif %}">
-            {% include icons/ic_play_arrow_black_24px.svg %}
-          </div>
           {% endif %}
-          {{ subitem.menu }}
+          <span>{{ subitem.menu }}</span>
+          <div class="article-group-foldicon ml-auto {% if navurl contains subitemUrl and subitem.group %} rotate-180 {% endif %}">
+            {% include icons/expand_more.svg %}
+          </div>
           </a>
 
         {% if subitem.group %}  

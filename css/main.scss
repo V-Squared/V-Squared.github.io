@@ -19,7 +19,7 @@
   "vendor/slideshow";
 
 @import
-  "base/animation",
+  //"base/animation",
   "base/base",
   "base/reset",
   "base/typography",
@@ -29,6 +29,7 @@
 //@import "vendor/bootstrap/bootstrap";
 
 @import
+  "layout/offcanvas",
   "layout/board-bar",
   "layout/jumbo",
   "layout/book-bar",

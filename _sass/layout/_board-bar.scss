@@ -5,7 +5,7 @@ $board-nav-border: 6px;
 
 #v2-navbar {
   min-height: $board-nav-height;
-  z-index: 9999;
+  //z-index: 9999;
   background-color:$brand-700 !important;
   padding: 0;
   margin: 0;
@@ -18,6 +18,26 @@ $board-nav-border: 6px;
   padding-bottom: $spacing-unit / 3;
 }
 .v2-navbar-nav {
+  position: relative;
+  top: initial;
+  left: initial;
+  bottom: initial;
+  right: initial;
+  transform: none;
+  height: auto;
+  overflow: auto;
+  background: $brand-700;
+
+  @include media-query($on-mobile) {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  >.v2-navbar-nav-md {
+    flex-direction: row;
+  }
+
 
   > .v2-navbar-nav-md > li {
 
@@ -25,10 +45,7 @@ $board-nav-border: 6px;
     margin-left: $board-nav-margin;
     position: relative;
     transition: all .3s ease;
-
-    @include media-query ($board-nav-breakpoint) {
-      display:none;
-    }
+    margin-top: $board-nav-border;
 
     @include media-query(875px) {
       margin-left: 2px;
@@ -53,12 +70,16 @@ $board-nav-border: 6px;
 
     a {
       height:auto;
-      padding: 0 $spacing-unit / 3;
       line-height: $board-nav-height - $board-nav-border;
       background: transparent;
       cursor:pointer !important;
       color:white;
       transition: all .3s ease;
+
+      @include media-query($on-mobile) {
+        padding-left: $spacing-unit / 3 !important;
+        padding-right: $spacing-unit / 3 !important;
+      }
 
       &:focus {
         border-color: white;
@@ -71,11 +92,11 @@ $board-nav-border: 6px;
   > .v2-navbar-nav-xs {
     @include remove-typo-margin;
 
-    display: none;
+    // display: none;
 
-    @include media-query ($board-nav-breakpoint) {
-      display: flex;
-    }
+    // @include media-query ($board-nav-breakpoint) {
+    //   display: flex;
+    // }
 
     > .v2-navbar-toggle-header, .v2-navbar-toggle{
       color: #FFF;

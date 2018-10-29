@@ -1,0 +1,14 @@
+@include media-query($on-mobile) {
+  .offcanvas-collapse {
+    position: fixed;
+    display: block !important;
+    transform: none;
+    right: -100%;
+    left: auto;
+    transition: right 0.5s linear;
+  }
+  
+  .navbar-collapse.open {
+    right: 0; 
+  }
+}

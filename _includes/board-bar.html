@@ -4,8 +4,10 @@
       <a class="navbar-brand v2-navbar-brand" href="/">
         <img style="height: 100%;" v2-tooltip="V²Homepage" src="{{site.baseurl}}/images/logo/logo.png" class="uk-margin uk-margin-remove">
       </a>
-
-      <div class="v2-navbar-nav navbar-collapse collapse">
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#boardBarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        {% comment %}{% include icons/menu.svg %}{% endcomment %}
+      </button> -->
+      <div class="v2-navbar-nav" id="boardBarNav">
         <ul class="navbar-nav ml-auto v2-navbar-nav-md">
           <li class="nav-item {% if page.url == '/standards/' %}active{% endif %}" md-ink-ripple>
             <a class="nav-link" href="#" v2-tooltip="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC">Standards</a>
@@ -37,10 +39,10 @@
           </li>
         </ul>
 
-        <div layout="row" class="v2-navbar-nav-xs">
+        <!-- <div layout="row" class="v2-navbar-nav-xs">
           <h3 class="v2-navbar-toggle-header">Boards</h3>
           <a href="#moble-site-nav" class="uk-navbar-toggle v2-navbar-toggle" data-uk-offcanvas></a>
-        </div>
+        </div> -->
       </div>
       <!--</nav>-->
     </div>

@@ -20,6 +20,8 @@
   overflow-y:auto;
   margin-left:0;
   top: $spacing-unit * 2;
+  display: block;
+  max-height: calc(100vh - #{$bookbar-height});
 
   ul {
     margin-left: 0;
@@ -53,6 +55,12 @@
 
 
    > a {
+     display: flex;
+     -webkit-box-align: start;
+     -webkit-align-items: flex-start;
+     align-items: flex-start;
+     -webkit-align-content: flex-start;
+     align-content: flex-start;
      padding: 5px $spacing-unit / 2;
      font-size: 14px;
      cursor: pointer;
