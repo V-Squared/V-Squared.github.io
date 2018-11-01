@@ -5,6 +5,8 @@
 {% comment %}In jekyll the beginning of an array starts with 1 instead of 0{% endcomment %}
 
 {% capture currentBookbaritem %}/{{urlHierarchy[2] | downcase }}/{% endcapture %}
+{% capture currentGroupitem %}/{{urlHierarchy[2] | downcase }}/{{urlHierarchy[3] | downcase }}/{% endcapture %}
+{% capture currentArticleitem %}/{{urlHierarchy[2] | downcase }}/{{urlHierarchy[3] | downcase }}/{{urlHierarchy[4] | downcase }}/{% endcapture %}
 
 <nav id="v2-bookbar" class="navbar navbar-dark navbar-expand-md sticky-top bg-primary">
   <div class="container">
@@ -19,21 +21,66 @@
       <h3 class="col v2-bookbar-title">Books & Articles</h3>
     </div>-->
     <div class="navbar-collapse offcanvas-collapse" id="navbarNav">
-      <ul class="navbar-nav v2-bookbar-nav">
+      <ul class="navbar-nav v2-bookbar-nav v2-accordion">
         {% capture introUrl %}/{{include.board}}/{% endcapture %}
         <li md-ink-ripple class="nav-item {% if navurl == introUrl %}active{% endif %}">
           <a href="{{site.baseurl}}/{{include.board}}/" class="md-tab nav-link">Index</a>
         </li>
         {% for my_page in include.nav %}
-        <li md-ink-ripple class="nav-item {% if currentBookbaritem == my_page.url %}active{% endif %}">
-          <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}" class="md-tab nav-link">{{ my_page.menu }}</a>
+        <li class="nav-item 
+            {% if currentBookbaritem == my_page.url %}active{% endif %}
+            {% if my_page.subitems %}v2-accordion-group{% endif %}">
+          <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}"
+             class="{% if my_page.subitems %}v2-accordion-heading{% endif %} nav-link">
+             <span>{{ my_page.menu }}</span>
+             {% if my_page.subitems %}
+              <div class="article-group-foldicon {% if currentBookbaritem == my_page.url %}rotate-180{% endif %} d-lg-none d-xl-none">
+                {% include icons/expand_more.svg %}
+              </div>
+            {% endif %}
+          </a>
+          {% if my_page.subitems %}
+          <div class="v2-accordion-collapse collapse bookbar-group {% if currentBookbaritem == my_page.url %}show{% endif %} d-lg-none d-xl-none" data-parent=".v2-accordion">
+            <ul class="nav flex-column v2-accordion">
+              {% for subitem in my_page.subitems %}
+
+                <li class="nav-item 
+                {% if currentGroupitem == subitem.url %}active{% endif %}
+                {% if subitem.group %}v2-accordion-group{% endif %}">
+                  <a class="{% if subitem.group %}v2-accordion-heading{% endif %} nav-link"
+                     href="{{site.baseurl}}/{{include.board}}{{subitem.url}}">
+                    <span>{{subitem.menu}}</span>
+                    {% if subitem.group %}
+                    <div class="article-group-foldicon {% if currentGroupitem == subitem.url %}rotate-180{% endif %} d-lg-none d-xl-none">
+                      {% include icons/expand_more.svg %}
+                    </div>
+                    {% endif %}
+                  </a>
+                  {% if subitem.group %}
+                  <div class="v2-accordion-collapse collapse {% if currentGroupitem == subitem.url %}show{% endif %} d-lg-none d-xl-none" data-parent=".v2-accordion">
+                    <ul class="nav flex-column">
+                      {% for group in subitem.group %}
+                      <li class="nav-item {% if currentArticleitem == group.url %}active{% endif %}">
+                        <a class="nav-link" href="{{site.baseurl}}/{{include.board}}{{group.url}}">{{group.menu}}</a>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
     </div>
-    <button class="navbar-toggler ml-auto p-0 border-0 d-block d-lg-none d-xl-none" type="button" data-toggle="offcanvas" data-target="#contentNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    {% if page.contents %}
+    <button class="navbar-toggler ml-auto p-0 border-0 d-block d-lg-none d-xl-none" type="button" data-toggle="offcanvas" data-target="#article-toc" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         {% include  icons/table-of-contents.svg   %}
     </button>
+    {% endif %}
   </div>
 </nav>
 <!--

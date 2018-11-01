@@ -33,15 +33,16 @@
            {% unless subitem.group %}
            href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endunless %}
         >
-          {% if subitem.group %}
+          
           <!-- <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
                   class="article-group-foldicon"
                   md-svg-src="{{site.baseurl}}/icons/ic_play_arrow_black_24px.svg"></md-icon> -->
-          {% endif %}
           <span>{{ subitem.menu }}</span>
+          {% if subitem.group %}
           <div class="article-group-foldicon ml-auto {% if navurl contains subitemUrl and subitem.group %} rotate-180 {% endif %}">
             {% include icons/expand_more.svg %}
           </div>
+          {% endif %}
           </a>
 
         {% if subitem.group %}  

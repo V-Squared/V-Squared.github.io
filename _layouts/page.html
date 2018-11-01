@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% if page.articleBar %}
-  {% assign articleBar = page.articleBar %}
+{% assign articleBar = page.articleBar %}
 {% else %}
-  {% assign articleBar = 'yes' %}
+{% assign articleBar = 'yes' %}
 {% endif %}
 
 {% for board in site.data.board-bar %}
@@ -18,41 +18,37 @@ layout: default
 
 <div class="page-content" style="background:#f5f5f5">
   <div class="container content-body">
-<div class="page">
-
-  <button clas="btn btn-large" data-toggle="offcanvas" data-target="#fake">fake offcanvas</button>
-  <div id="fake"></div>
-
-  <div class="row no-gutters">
-    {% if articleBar == 'yes' %}
-
-    {% include article-bar.html nav=bookbar board=boardUrl %}
-
-    {% endif %}
-    <div class="article col hide-sm" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
-      {% include article-jumbo/article-jumbo.html %}
-
-      <div layout="row" no-gap>
-
-        <!--Article-->
-
-        <div flex class="post-content">
-
-          {% include embed-toc.html %}
-
-          <div id="article-content">
-            {{content}}
+    <div class="page">
+      <div class="row no-gutters">
+        {% if articleBar == 'yes' %}
+        
+        {% include article-bar.html nav=bookbar board=boardUrl %}
+        
+        {% endif %}
+        <div class="article col hide-sm" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
+          {% include article-jumbo/article-jumbo.html %}
+          
+          <div layout="row" no-gap>
+            
+            <!--Article-->
+            
+            <div flex class="post-content">
+              
+              {% include embed-toc.html %}
+              
+              <div id="article-content">
+                {{content}}
+              </div>
+            </div>
+            
           </div>
         </div>
-
+        
+        
+        {% include contents-bar.html %}
+        
       </div>
+      
     </div>
-
-
-    {% include contents-bar.html %}
-
+    
   </div>
-
-</div>
-
-</div>

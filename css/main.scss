@@ -29,7 +29,6 @@
 //@import "vendor/bootstrap/bootstrap";
 
 @import
-  "layout/offcanvas",
   "layout/board-bar",
   "layout/jumbo",
   "layout/book-bar",
@@ -38,7 +37,8 @@
   "layout/comic",
   "layout/content-nav",
   "layout/footer",
-  "layout/grid";
+  "layout/grid",
+  "layout/offcanvas";
 
 @import
   "components/button",

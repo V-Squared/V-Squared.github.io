@@ -2,18 +2,25 @@ $toc-borderwidth: 5;
 
 #article-toc {
   max-width:210px;
+}
 
-  .article-toc-nav {
-    margin-top: $spacing-unit / 2;
-    top: $spacing-unit * 2;
-    overflow-y: auto;
-    max-height: calc(100vh - #{$bookbar-height});
+.article-toc-nav {
+  margin-top: $spacing-unit / 2;
+  top: $spacing-unit * 2;
+  overflow-y: auto;
+  max-height: calc(100vh - #{$bookbar-height});
+  position: sticky;
+  z-index: 1020;
+  @include media-query($on-mobile) {
+    position: relative;
+    top:0;
+    max-height: 100vh;
+  }
 
-    .v2-content-heading {
-      margin: 0;
-      padding-bottom: $spacing-unit / 2;
-      padding-left: ($spacing-unit / 2) - $toc-borderwidth;
-      border-left: ($toc-borderwidth * 1px) solid $brand-color;
-    }
+  .v2-content-heading {
+    margin: 0;
+    padding-bottom: $spacing-unit / 2;
+    padding-left: ($spacing-unit / 2) - $toc-borderwidth;
+    border-left: ($toc-borderwidth * 1px) solid $brand-color;
   }
 }

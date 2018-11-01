@@ -6,9 +6,12 @@ $(function DocumentReady() {
   //  Init stuff
   Stickyfill.add($(".sticky-top"));
   $("[data-toggle='offcanvas']").data("isOpen", false);
+  console.log($(".v2-accordion-heading"));
 
   // Accordion
   $(document).on("click", ".v2-accordion-heading" , function() {
+    console.log("Collapse");
+    console.log($(this));
     let $collapse = $(this).next();
     const $collapseIcon = $(this).children(".article-group-foldicon");
     const $otherCollapseIcons = $(this).closest(".v2-accordion").find(".v2-accordion-heading").not(this).children(".article-group-foldicon");
@@ -19,7 +22,7 @@ $(function DocumentReady() {
 
   // off canvas
   let lastActiveCanvas = null;
-  $("[data-toggle='offcanvas']").on("click", function () {
+  $(document).on("click", "[data-toggle='offcanvas']", function () {
     let offCanvasTarget = $(this).data("target");
     console.log({
       "offCanvasTarget": offCanvasTarget,

@@ -1,14 +1,37 @@
 @include media-query($on-mobile) {
   .offcanvas-collapse {
     position: fixed;
+    top: 0;
+    margin: 0;
+    background: #fff;
+    height: 100vh;
+    z-index: 2000;
     display: block !important;
     transform: none;
-    right: -100%;
-    left: auto;
-    transition: right 0.5s linear;
+    left: 0;
+    right: auto;
+    //transition: left 0.5s ease-in-out;
+    transform: translate3d(-100%,0,0);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+
+    &.open {
+      transform: translate3d(0,0,0);
+      box-shadow: 10px 0px 35px -1px rgba(0, 0, 0, 0.4);
+    }
+
+     &.offcanvas-right {
+      left: auto;
+      right: 0;
+      transform: translate3d(100%,0,0);
+    }
+
+    &.offcanvas-right.open {
+      transform: translate3d(0,0,0);
+      box-shadow: -10px 0px 35px -1px rgba(0, 0, 0, 0.4);
+    }
   }
-  
-  .navbar-collapse.open {
-    right: 0; 
-  }
+}
+#bodyClick {
+  right: auto;
+  z-index: 1000;
 }
