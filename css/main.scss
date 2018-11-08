@@ -1,6 +1,6 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
 @charset "utf-8";
 
 
@@ -12,15 +12,32 @@
   "utils/mixins",
   "utils/functions";
 
+@import 
+  "~bootstrap-material-design/scss/variables.scss",
+  "~bootstrap-material-design/scss/mixins.scss";
+
 @import
-  "vendor/bootstrap/bootstrap",
-  "vendor/material-kit",
+  "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap-material-design/scss/ripples";
+
+@import 
+  "~bootstrap-material-design/scss/buttons",
+  "~bootstrap-material-design/scss/tooltip",
+  "~bootstrap-material-design/scss/nav",
+  "~bootstrap-material-design/scss/navbar";
+
+//@import "~bootstrap-material-design/scss/bootstrap-material-design";
+
+@import 
+  "~bootstrap-material-design/scss/extensions/snackbarjs",
   "vendor/progress-bar",
   "vendor/slideshow";
 
 @import
   //"base/animation",
   "base/base",
+  "base/icons",
   "base/reset",
   "base/typography",
   "base/images",

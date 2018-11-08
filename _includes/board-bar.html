@@ -9,33 +9,60 @@
       </button> -->
       <div class="v2-navbar-nav" id="boardBarNav">
         <ul class="navbar-nav ml-auto v2-navbar-nav-md">
-          <li class="nav-item {% if page.url == '/standards/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC">Standards</a>
+          <li class="nav-item {% if page.url == '/standards/' %}active{% endif %}">
+            <a class="nav-link" href="#" data-toggle="tooltip" title="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-standards.png">
+              Standards
+            </a>
           </li>
-          <li class="nav-item {% if page.url contains '/products/' %}active{% endif %}" md-ink-ripple>
+          <li class="nav-item {% if page.url contains '/products/' %}active{% endif %}">
             <a class="nav-link" href="/products/"
-              v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow">Products</a>
+              v2-tooltip="Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-product.png">
+              Products
+            </a>
           </li> 
-          <li class="nav-item {% if page.url == '/makers/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost">Makers</a>
+          <li class="nav-item {% if page.url == '/makers/' %}active{% endif %}">
+            <a class="nav-link" href="#" v2-tooltip="Everything you need to develop your new products faster at lower cost">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-maker.png">
+              Makers
+            </a>
           </li>
-          <li class="nav-item {% if page.url contains '/diy/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="/diy/" v2-tooltip="PC Know How & Tools">DIY</a>
+          <li class="nav-item {% if page.url contains '/diy/' %}active{% endif %}">
+            <a class="nav-link" href="/diy/" v2-tooltip="PC Know How & Tools">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-diy.png">
+              DIY
+            </a>
           </li>
-          <li class="nav-item {% if page.url == '/organization/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="Lower your cost and increase computer sales">Retail</a>
+          <li class="nav-item {% if page.url == '/organization/' %}active{% endif %}">
+            <a class="nav-link" href="#" v2-tooltip="Lower your cost and increase computer sales">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-retail.png">
+              Retail
+            </a>
           </li>
-          <li class="nav-item {% if page.url == '/spreading/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user">Spreading</a>
+          <li class="nav-item {% if page.url == '/spreading/' %}active{% endif %}">
+            <a class="nav-link" href="#" v2-tooltip="How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-spreading.png">
+              Spreading
+            </a>
           </li>
-          <li class="nav-item {% if page.url == '/app/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="V² Open Source Web Apps simplify experiencing or building V² PCs">Apps</a>
+          <li class="nav-item {% if page.url == '/app/' %}active{% endif %}">
+            <a class="nav-link" href="#" v2-tooltip="V² Open Source Web Apps simplify experiencing or building V² PCs">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-apps.png">
+              Apps
+            </a>
           </li>
-          <li class="nav-item {% if page.url contains '/plan/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="/plan/" v2-tooltip="Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help">Plan</a>
+          <li class="nav-item {% if page.url contains '/plan/' %}active{% endif %}">
+            <a class="nav-link" href="/plan/" v2-tooltip="Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-plan.png">
+              Plan
+            </a>
           </li>
-          <li class="nav-item {% if page.url == '/organization/' %}active{% endif %}" md-ink-ripple>
-            <a class="nav-link" href="#" v2-tooltip="About the people, process and legal stuff creating the V² Open Standards">Organization</a>
+          <li class="nav-item {% if page.url == '/organization/' %}active{% endif %}">
+            <a class="nav-link" href="#" v2-tooltip="About the people, process and legal stuff creating the V² Open Standards">
+              <img class="img-icon" src="{{site.baseurl}}/images/icons/webicon-organization.png">
+              Organization
+            </a>
           </li>
         </ul>
 
@@ -47,37 +74,3 @@
       <!--</nav>-->
     </div>
   </nav>
-
-  <!--<div id="moble-site-nav" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-      <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="">
-        <li>
-          <a href="#" class="{% if page.url == '/product' %}uk-active{% endif %}">Standard</a>
-        </li>
-        <li class="{% if page.url contains '/products/' %}uk-active{% endif %}">
-          <a href="/products/">Products</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/makers' %}uk-active{% endif %}">Makers</a>
-        </li>
-        <li class="{% if page.url == '/diy/' %}uk-active{% endif %}">
-          <a href="/diy/">DIY</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/organization' %}uk-active{% endif %}">Retail</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Spreading</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Apps</a>
-        </li>
-        <li class="{% if page.url == '/plan/' %}uk-active{% endif %}">
-          <a href="/plan/">Plan</a>
-        </li>
-        <li>
-          <a href="#" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
-        </li>
-      </ul>
-    </div>
-  </div>-->

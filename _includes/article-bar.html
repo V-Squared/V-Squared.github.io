@@ -14,7 +14,7 @@
   </div>
 
     <ul style="z-index:10"
-        class="article-nav nav flex-column sticky-top v2-accordion" v2-accordion>
+        class="article-nav nav flex-column sticky-top" v2-accordion>
 
       {% capture itemUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
 
@@ -46,9 +46,9 @@
           </a>
 
         {% if subitem.group %}  
-          <div class="v2-accordion-collapse collapse {% if navurl contains subitemUrl and subitem.group %}show{% endif %}" data-parent=".v2-accordion">
+          <div class="v2-accordion-collapse collapse {% if navurl contains subitemUrl and subitem.group %}show{% endif %}" data-parent=".article-nav">
             <ul class="nav flex-column">
-              <li class="nav-item{% if navurl == subitemUrl %}active{% endif %}">
+              <li class="nav-item {% if navurl == subitemUrl %}active{% endif %}">
                 <a class="nav-link" href="{{site.baseurl}}{{subitemUrl}}">Index</a>
               </li>
 

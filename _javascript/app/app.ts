@@ -1,12 +1,16 @@
 import * as $ from "jquery";
 import * as Stickyfill from "stickyfilljs";
+import "bootstrap-material-design";
+import * as ClipboardJS from "clipboard";
 
 $(function DocumentReady() {
 
   //  Init stuff
+  $("body").bootstrapMaterialDesign();
+  $("[data-toggle='tooltip']").tooltip();
   Stickyfill.add($(".sticky-top"));
   $("[data-toggle='offcanvas']").data("isOpen", false);
-  console.log($(".v2-accordion-heading"));
+  const clipboard = new ClipboardJS("[clipboard]");
 
   // Accordion
   $(document).on("click", ".v2-accordion-heading" , function() {

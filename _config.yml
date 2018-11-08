@@ -16,12 +16,25 @@ twitter_username: villagevidock
 github_username:  v-squared
 repository: "V-Squared/V-Squared.github.io"
 include: ["_pages", "_javascript"]
-exclude: ["node_modules",".idea",".jshintrc"]
+exclude: 
+  - "node_modules"
+  - ".idea"
+  - ".jshintrc"
+  - "gulpfile.js"
+  - "package.json"
+  - "package-lock.json"
+  - "css/main.scss"
+  - "_sass"
+  - "webpack.config.js"
 permalink: pretty
 
 # Build settings
 markdown: kramdown
 encoding: utf-8
+# sass:
+#   load_paths:
+#     - _sass
+#     - node_modules
 
 plugins:
   - octopress-autoprefixer

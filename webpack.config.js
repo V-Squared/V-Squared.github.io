@@ -2,7 +2,7 @@ var webpack = require("webpack");
 var path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./_javascript/app/app.ts",
 
   output: {

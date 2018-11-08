@@ -10,6 +10,7 @@ $board-nav-border: 6px;
   padding: 0;
   margin: 0;
   border-radius: 0;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 150, 243, 0.46);
 }
 .v2-navbar-brand {
   padding-left:0;
@@ -70,7 +71,7 @@ $board-nav-border: 6px;
 
     a {
       height:auto;
-      line-height: $board-nav-height - $board-nav-border;
+      line-height: 42px;
       background: transparent;
       cursor:pointer !important;
       color:white;

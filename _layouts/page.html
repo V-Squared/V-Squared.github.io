@@ -36,7 +36,7 @@ layout: default
               
               {% include embed-toc.html %}
               
-              <div id="article-content">
+              <div id="article-content" {% if page.index %}style="padding:0;"{% endif %}>
                 {{content}}
               </div>
             </div>

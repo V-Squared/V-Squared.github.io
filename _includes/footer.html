@@ -18,8 +18,8 @@
       <ul class="social-media-list">
         {% if site.github_username %}
         <li>
-          <a href="https://github.com/{{ site.github_username }}">
-            <md-icon aria-label="GitHub">{% include icons/icon-github.svg %}</md-icon>
+          <a class="btn btn-primary bmd-btn-icon" href="https://github.com/{{ site.github_username }}">
+            {% include icons/icon-github.svg %}
             {{ site.github_username }}
           </a>
         </li>
@@ -27,8 +27,8 @@
 
         {% if site.twitter_username %}
         <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <md-icon>{% include icons/icon-twitter.svg %}</md-icon>
+          <a class="btn btn-primary bmd-btn-icon" href="https://twitter.com/{{ site.twitter_username }}">
+            {% include icons/icon-twitter.svg %}
             {{ site.twitter_username }}
           </a>
         </li>

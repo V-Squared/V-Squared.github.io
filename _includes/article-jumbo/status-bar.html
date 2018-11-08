@@ -1,66 +1,72 @@
 <div class="status-bar">
-{% if page.layout == "feature" %}
-<div class="uk-container uk-container-center">
-{% endif %}
-<div layout="row" layout-align="space-between none" no-gap>
-  <div>
-    {% for my_page in bookbar %}
-    {% if navurl contains my_page.url %}
-    {% if my_page.subitems or my_page.groups %}
-    <md-button toggle-collapse-bar="article-bar" hide show-gt-sm v2-tooltip="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
-      <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
-      <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-    </md-button>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-  </div>
-  <div layout="row" layout-align="none center">
-
-    {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-    {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-    {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-
-    {% for i in (1..forLoopMaxInt) %}
-    {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-    {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-    {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-    {% endfor %}
-
-    {% capture next_prepender %}{% endcapture %}
-
-    <md-button hide show-gt-xs v2-tooltip="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing" class="md-icon-button" aria-label="Toggle Copy Article Path"
-               clipboard text="'{{pagePath}}'">
-      <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon>
-    </md-button>
-    <md-button hide show-gt-xs v2-tooltip="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing
-" class="md-icon-button flipped" aria-label="Copy Link to Artcile Path">
-      <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon>
-    </md-button>
-    <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;z-index:99;">
-      <div flex mouseover-tooltip="true" v2-tooltip="<h3>Create</h3>Creating concepts and specs while getting community feedback. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to contribute. Or post ideas / bugs in Article-Issue. (Orange = work ongoing | Blue = done)" class="{{page.readiness[0]}}"></div>
-      <div flex mouseover-tooltip="true" v2-tooltip="<h3>Develop</h3>Develop to the point that the team of author and editors believe it is done. (Orange = work ongoing | Blue = done). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to get involved" class="{{page.readiness[1]}}"></div>
-      <div flex mouseover-tooltip="true" v2-tooltip="<h3>Beta</h3>Beta testing. (Orange = by Core Team | Blue = by Community). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to report an Issue or create a Pull Request" class="{{page.readiness[2]}}"></div>
-      <div flex mouseover-tooltip="true" v2-tooltip="<h3>Make</h3>In Production. (Blue = One time production effort like publishing Article | Orange = Ongoing production effort like manufacturing products. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to give feedback or get involved in development of next version)" class="{{page.readiness[3]}}"></div>
-    </div>
-    <md-button mouseover-tooltip="true" v2-tooltip="<h3>Article License</h3>This article is licensed under → <a href='https://creativecommons.org/licenses/by/4.0/'>Creative-Commons-By</a>"
-               id="article-license" class="md-icon-button"
-               aria-label="License For This Article"
-               href="https://creativecommons.org/licenses/by/4.0/" target="_blank" >
-      <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon>
-    </md-button>
-  </div>
-
-  <div>
-    {% if page.contents %}
-    <md-button hide show-gt-sm toggle-collapse-bar="article-toc" v2-tooltip="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
-      <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
-      <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
-    </md-button>
-    {% endif %}
-  </div>
-  </div>
   {% if page.layout == "feature" %}
-</div>
-{% endif %}
+  <div class="uk-container uk-container-center">
+    {% endif %}
+    <div class="row" no-gap>
+      <div class="col">
+        {% for my_page in bookbar %}
+        {% if navurl contains my_page.url %}
+        {% if my_page.subitems or my_page.groups %}
+        <button class="btn btn-round btn-simple btn-just-icon" toggle-collapse-bar="article-bar" hide show-gt-sm data-toggle="tooltip" title="<h3>Toggle Article-Bar</h3>Fold to reduce clutter. Unfold to select Article" class="md-icon-button" ng-click="vm.toggleSideBar()" aria-label="Toggle Article Bar">
+          <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+          <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
+        </button class="btn btn-round btn-simple btn-just-icon">
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="row col-sm-8 justify-content-sm-center">
+        
+        {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+        {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+        {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+        
+        {% for i in (1..forLoopMaxInt) %}
+        {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+        {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+        {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+        {% endfor %}
+        
+        {% capture next_prepender %}{% endcapture %}
+        
+        <button class="btn btn-warning bmd-btn-icon" data-toggle="snackbar" data-content="Copied page link '{{page.url}}'." aria-label="Toggle Copy Article Path"
+          clipboard data-clipboard-text="{{page.url}}">
+          <span data-toggle="tooltip" data-html="true" title="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing">
+            {% include icons/clipboard-text.svg %}
+          </span>
+          <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon> -->
+        </button>
+        <button class="btn btn-warning bmd-btn-icon" data-toggle="snackbar" data-content="Copied markdown link '{{page.url}}'." aria-label="Copy Link to Artcile Path" clipboard data-clipboard-text="![]({{page.url}})">
+          <span data-html="true" data-toggle="tooltip" title="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing">
+            {% include icons/clipboard-arrow-left.svg %}
+          </span>
+          <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon> -->
+        </button>
+        <div class="progess-bar md-whiteframe-3dp row no-gutters" style="width:240px;z-index:99;">
+          <div data-toggle="tooltip" data-html="true" title="<h3>Create</h3>Creating concepts and specs while getting community feedback. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to contribute. Or post ideas / bugs in Article-Issue. (Orange = work ongoing | Blue = done)" class="col {{page.readiness[0]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="<h3>Develop</h3>Develop to the point that the team of author and editors believe it is done. (Orange = work ongoing | Blue = done). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to get involved" class="col {{page.readiness[1]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="<h3>Beta</h3>Beta testing. (Orange = by Core Team | Blue = by Community). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to report an Issue or create a Pull Request" class="col {{page.readiness[2]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="<h3>Make</h3>In Production. (Blue = One time production effort like publishing Article | Orange = Ongoing production effort like manufacturing products. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to give feedback or get involved in development of next version)" class="col {{page.readiness[3]}}"></div>
+        </div>
+        <a class="btn btn-warning bmd-btn-icon" mouseover-tooltip="true" data-html="true" data-toggle="tooltip" title="<h3>Article License</h3>This article is licensed under → <a href='https://creativecommons.org/licenses/by/4.0/'>Creative-Commons-By</a>"
+          id="article-license"
+          aria-label="License For This Article"
+          href="https://creativecommons.org/licenses/by/4.0/" target="_blank" >
+          {% include icons/icon-license-cc-by.svg %}
+          <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon> -->
+      </a>
+      </div>
+      
+      <div class="col">
+        {% if page.contents %}
+        <button class="btn btn-warning bmd-btn-icon" hide show-gt-sm toggle-collapse-bar="article-toc" data-html="true" data-toggle="tooltip" title="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
+          <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
+          <md-icon ng-show="!toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-right.svg"></md-icon>
+        </button>
+        {% endif %}
+      </div>
+    </div>
+    {% if page.layout == "feature" %}
+  </div>
+  {% endif %}
 </div>
