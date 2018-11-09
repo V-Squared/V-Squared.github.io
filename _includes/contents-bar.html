@@ -1,10 +1,10 @@
 {% if page.contents %}
 <collapse-bar class="col hide-sm offcanvas-collapse offcanvas-right" type="Mid" id="article-toc">
 
-  <div class="article-toc-nav"id="contentNav">
+  <div class="article-toc-nav sticky-top"id="contentNav">
     <h4 class="v2-content-heading">Contents</h4>
 
-    <div data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'}">
+    <div>
       {% include table-of-contents.html %}
     </div>
   </div>
