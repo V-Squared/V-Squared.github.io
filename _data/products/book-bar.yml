@@ -10,3 +10,5 @@
   subitems:
     - menu: Intro
       url: /vizdom/intro/
+- menu: ViCook
+  url: /vicook/
