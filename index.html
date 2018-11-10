@@ -28,7 +28,7 @@ cta:
 <div class="home" load-repository="repository.json">
 
   <div class="jumbotron" id="home-introduction">
-    <div class="uk-container uk-container-center">
+    <div class="container">
       <div class="jumbotron-title">
         <div class="title-logo">
           <img src="/images/logo-v-squared.png">
@@ -38,29 +38,29 @@ cta:
           <h2 class="tagline">Upgradable Mini and All-In-One PC</h2>
         </div>
       </div>
-      <p class="uk-text-center"><i>V-Squared</i> is an Open Source Standard Initiative and Community on <a href="https://github.com/V-Squared">GitHub.com/V-Squared</a>. We develop and publish standards, blueprints, know how articles, white papers and apps to make Mini and All-In-One Computer modular, ugradable and easy to repair. For the benefit of the individual user as well as the DIY Community and PC Industry as a whole.</p>
+      <p class="text-center"><i>V-Squared</i> is an Open Source Standard Initiative and Community on <a href="https://github.com/V-Squared">GitHub.com/V-Squared</a>. We develop and publish standards, blueprints, know how articles, white papers and apps to make Mini and All-In-One Computer modular, ugradable and easy to repair. For the benefit of the individual user as well as the DIY Community and PC Industry as a whole.</p>
     </div>
   </div>
 
   <div class="compliances">
 
-    <div class="uk-container uk-container-center">
+    <div class="container">
 
-      <div class="uk-grid uk-grid-width-medium-1-5 uk-grid-width-1-2 compliances-row">
-        <div id="github-compliances">
-          <h3 v2-tooltip="We host all projects, web sites and know how on the leading Project Hosting Web Site. Project management is done with its ticketing system &#34;GitHub Issues&#34; .">GitHub</h3>
+      <div class="row compliances-row">
+        <div class="col" id="github-compliances">
+          <h3 data-toggle="tooltip" title="We host all projects, web sites and know how on the leading Project Hosting Web Site. Project management is done with its ticketing system &#34;GitHub Issues&#34; .">GitHub</h3>
         </div>
-        <div id="open-source-compliances">
-          <h3 v2-tooltip="V² Initiative is compliant with all Guidelines of the Open Source Initiative. Use V² or contribute to it with confidence.">Open Source Initiative</h3>
+        <div class="col" id="open-source-compliances">
+          <h3 data-toggle="tooltip" title="V² Initiative is compliant with all Guidelines of the Open Source Initiative. Use V² or contribute to it with confidence.">Open Source Initiative</h3>
         </div>
-        <div id="open-hardware-compliances">
-          <h3 v2-tooltip="All our open source hardware projects are compliant to the guidelines of the Open Source Hardware Association and thus earned the Open Source Hardware Logo.">Open Hardware</h3>
+        <div class="col" id="open-hardware-compliances">
+          <h3 data-toggle="tooltip" title="All our open source hardware projects are compliant to the guidelines of the Open Source Hardware Association and thus earned the Open Source Hardware Logo.">Open Hardware</h3>
         </div>
-        <div id="cc-compliances">
-          <h3 v2-tooltip="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">CC</h3>
+        <div class="col" id="cc-compliances">
+          <h3 data-toggle="tooltip" title="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">CC</h3>
         </div>
-        <div id="arduino-compliances">
-          <h3 v2-tooltip="The leading Open Source Micro Controller Platform. We use it for advanced embedded functions. Easy to develop and document. Low cost in mass production.">Arduino</h3>
+        <div class="col" id="arduino-compliances">
+          <h3 data-toggle="tooltip" title="The leading Open Source Micro Controller Platform. We use it for advanced embedded functions. Easy to develop and document. Low cost in mass production.">Arduino</h3>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ cta:
 
 
   <div class="feature-section">
-    <div class="uk-container uk-container-center">
+    <div class="container">
           <h1>The Missing Standard</h1>
           <p>Desktop Computer were the best selling PC form factor, because the ATX standard made them to be lowest cost,
             easy to build and upgrade. But this de facto standard is 30 years old and was not updated to fit the needs of Mini and All-In-One Form Factor.
@@ -80,7 +80,7 @@ cta:
   </div>
 
   <div id="open-source" class="feature-section feature-gray">
-    <div class="uk-container uk-container-center">
+    <div class="container">
           <h1>Open Source Accelerator</h1>
           <p>Establishing a new standard was time consuming in the past.
           V² speeds up the process by fully embracing the best of Open Source and Rapid Development workflows.
@@ -97,7 +97,7 @@ cta:
   {% include feature-sections/feature-row id="progress" %}
 
   <div class="feature-section" id="puzzle-svg">
-    <div class="uk-container uk-container-center">
+    <div class="container">
       <div layout="row" layout-feature>
         <div flex>
           <h1>Delivering all pieces of the Puzzle</h1>
@@ -277,7 +277,7 @@ cta:
   <uib-tabset id="big-picture" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
 
-      <div class="uk-container uk-container-center">
+      <div class="container">
         <p><em>[[repositorySection.description]] → <a ng-href="[[repositorySection.link]]">More</a></em></p>
 
         <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">

@@ -8,7 +8,7 @@ readiness:
    - is-active
 ---
 
-![]({{site.baseurl}}/images/comics/ViZdom-Title.png)
+![]({{site.baseurl}}/images/comics/ViZdom-Title.jpg)
 
 # Fun, Inspiring, Memorable
 
@@ -28,19 +28,19 @@ That's why we wrote our *life-hacks with the secret sauce of humorous, illustrat
 
 This is a good moment to introduce our central character, the Phoenix:
 
-<md-card class="v2-card-darkblue">
-{% include mobile-crop image="/images/comics/intro/phoenix-rising.jpg" contain-height="420px" %}
-<md-card-content>
-<strong>Crash:</strong> Ever feel as if your life is going down in flames? It happens to all of us!
-</md-card-content>
-</md-card>
+<div class="v2-card-darkblue card mb-4 shadow-sm">
+<img class="card-img-top" src="{{site.baseurl}}/images/comics/intro/phoenix-rising.jpg">
+<div class="card-body">
+  <strong>Crash:</strong> Ever feel as if your life is going down in flames? It happens to all of us!
+</div>
+</div>
 
-<md-card class="v2-card-blue">
-{% include mobile-crop image="/images/comics/intro/phoenix-recovery.jpg" contain-height="420px" %}
-<md-card-content>
-<strong>Recovery:</strong> You may already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
-</md-card-content>
-</md-card>
+<div class="v2-card-blue card mb-4 shadow-sm">
+<img class="card-image-top" src="{{site.baseurl}}/images/comics/intro/phoenix-recovery.jpg">
+<div class="card-body">
+  <strong>Recovery:</strong> You may already have guessed why we picked the Phoenix. It is a symbol of what matters most in life: How you get back onto your feet. Find inspiration in the adventures of the Phoenix. A kindred soul, who always rises from the ashes and goes on to build a better life.
+</div>
+</div>
 
 If you are reading a self-help book, chances are good that you are open to new solutions that can solve your specific problems. To effectively do so, you must memorize these solutions *and* install a trigger that will automatically recall the appropriate solutions when you need them. ViZdom* will show you how to do that. *That's why and how ViZdom is more powerful than mere knowledge!*  \*(rhymes with wisdom)
 
@@ -95,24 +95,26 @@ Long time ago, yet fresh in our memories, we loved reading articles in magazines
 ## The Secret Sauce
 Let's have a look at ViZdom-style anecdotes. We are starting off with a simple one — simple as in: this anecdote works as a standalone tale. We use it in the life-hack of Increasing Discipline. It illuminates the fact that not all of your attempts will work instantly. Hence, it is important that you develop persistence and keep on trying. Without further ado, here goes:
 
-<md-card class="v2-card-brown">
-{% include mobile-crop image="/images/comics/intro/never-give-up.png" contain-height="420px" %}
-<md-card-content>
+<div class="v2-card-brown card mb-4">
+{% include mobile-crop image="/images/comics/intro/never-give-up.png" contain-height="310px" %}
+<div class="card-body">
 Almost every problem has a solution, but it may be difficult to envision. It often takes persistence, creativity, observational skills, and a willingness to think outside of the box to find your path to success.
-</md-card-content>
-</md-card>
+</div>
+</div>
 
 Moving on to a more complex example:
 {:.text-center}
 
-<md-card class="v2-card-green">
-{% include mobile-crop image="/images/comics/intro/premature-discipline.png" contain-height="420px" %}
-<md-card-content><em>We all have our internal pig-dog, who always tries to seduce us.</em> Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work. 
+<div class="v2-card-green card mb-4">
+{% include mobile-crop image="/images/comics/intro/premature-discipline.png" contain-height="255px" %}
+<div class="card-body">
+<em>We all have our internal pig-dog, who always tries to seduce us.</em> Who overpromises, who wants to cut corners, to party, to slack. When we give in, work does not get done, quality goes down. Self-discipline provides the counterforce in our struggle for a healthy balance of fun vs. work. 
 
   But if you commit to a project which requires more self-discipline than you currently possess, your internal pig-dog will win and you won't deliver as you promised. Trouble and disappointment will ensue, followed by lost trust. Instead, <em>learn to judge your self-discipline correctly so you don't bite off more than you can chew.</em> Or learn how to increase your self-discipline so you can complete bigger projects successfully in less time.
 
-  <em>You may also find more peace if you stop fighting your internal pig-dog.</em> It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!</md-card-content>
-</md-card>
+  <em>You may also find more peace if you stop fighting your internal pig-dog.</em> It is a part of you. Instead, see it as a resource. E.g., consult with your internal pig-dog when planning your next party. Try to love and respect it for its continuous capacity for fun, and  simply counter its influence with self-discipline!
+  </div>
+</div>
 
 As you may have guessed, this anecdote alone won't cure your problem of lack of self-discipline (in case you have one). But it will serve to foster a deeper understanding of the ramifications of a lack of self-discipline. Hence, this anecdote is used in conjunction with other anecdotes, short stories, diagrams and tools to address the issue completely. 
 

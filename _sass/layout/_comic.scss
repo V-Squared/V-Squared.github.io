@@ -33,7 +33,7 @@
   }
 
   h2 {
-    font-size: $fontSize-h1 !important;
+    font-size: $fontSize-h1;
     line-height: 1;
     margin-bottom: 30px;
     color: $brand-secondary;
@@ -49,7 +49,7 @@
   }
 
   h3 {
-    font-size: $fontSize-h2 !important;
+    font-size: $fontSize-h2;
     line-height: 1;
     margin-top: $fontSize-h2 * 2;
     margin-bottom: $fontSize-h2;

@@ -1,6 +1,6 @@
-<div class="note note-nerd" layout="row">
-  <div flex="15" class="note-icon">
+<div class="note note-nerd row">
+  <div class="note-icon col-sm-3 col-md-2">
     <img src="{{site.baseurl}}/images/notes/vizdom-icon-nerd.png" alt="">
   </div>
-  <div flex="85" class="note-content">{{include.text | | markdownify }}</div>
+  <div class="note-content col-sm-9 col-md-10">{{include.text | | markdownify }}</div>
 </div>

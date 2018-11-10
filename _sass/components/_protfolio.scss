@@ -190,6 +190,7 @@
 .compliances {
   padding:20px 0 !important;
   background-color: #2196F3 !important;
+  box-shadow: 0 4px 4px -1px rgba(0,0,0,0.28);
 
   * {
     color:#FFF;
@@ -201,9 +202,10 @@
 }
 .compliances-row {
   padding-bottom: 5px;
+  
   h3 {
     color:#FFF;
-    cursor:pointer;
+    cursor: pointer;
     text-align:center;
   }
 
