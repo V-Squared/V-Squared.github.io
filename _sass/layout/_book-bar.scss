@@ -1,32 +1,74 @@
 $bookbar-height: 51px;
 
-.v2-bookbar {
+#v2-bookbar {
   background:$brand-color;
   height: $bookbar-height;
-  z-index: 999;
+  z-index: 2000;
   width: 100% !important;
+  margin-bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  //display: block;
 
   box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.28);
-  position: relative;
 
-  &.uk-active {
+  @include  media-query($on-mobile) {
+    z-index: 1020;
+  }
+
+  > .container {
+    justify-content: flex-start;
+  }
+
+  .navbar-brand {
+    padding-left: $spacing-unit / 2;
+  }
+
+  &.active {
     z-index: 1000;
   }
 }
 .v2-bookbar-nav {
-  > .v2-bookbar-nav-md {
+
+  @include media-query($on-mobile) {
+    overflow: auto;
+    height: 100%;
+    margin-left: 0;
+  }
+  //> .v2-bookbar-nav-md {
     // To left align the text with the container border with underline
     margin-left: -15px;
+    //z-index: 9999;
 
-    > li {
+    > .nav-item {
       // for the ripple
       position: relative;
 
-      > a {
+      .bookbar-group {
+        background: #f5f5f5;
+      }
+
+      > .nav-link {
         color:rgba(255,255,255,.87);
+        @include media-breakpoint-up(sm) {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
         line-height: $bookbar-height;
         height:inherit;
         text-transform: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        @include media-query($on-mobile) {
+          margin-right: 0;
+          margin-top: 0 ;
+          margin-bottom: 0;
+          margin-left: 0;
+          text-transform: uppercase;
+          color: rgba(0,0,0,.87);
+          padding-top: $spacing-unit / 2;
+          padding-bottom: $spacing-unit / 2;
+        }
       }
 
       // Underline
@@ -42,30 +84,44 @@ $bookbar-height: 51px;
         background: transparent;
       }
 
-      &:hover > a,  &.uk-active > a{
+      @include media-query($on-mobile) {
+        &:hover > a,  &.active > a{
+          color: $brand-color !important;
+        }
+        &.v2-accordion-group.active > a {
+          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.28) !important;
+        }
+
+        &.v2-accordion-group  {
+          ul {
+            margin-left: $spacing-unit / 2;
+          }
+
+          li {
+            a {
+              color: #3C4858 !important;
+              margin-right: 0 !important;
+              margin-left: 0 !important;
+              padding-top: 10px !important;
+              padding-bottom: 10px !important;
+              text-transform: none !important;
+            }
+
+            &.active > a {
+              color: $brand-color !important;
+            }
+          }
+        }
+      }
+
+      &:hover > a,  &.active > a{
         background: transparent;
         color: #FFF;
       }
 
-      &.uk-active:after, &:hover:after {
+      &.active:after, &:hover:after {
         background: $brand-accent;
       }
 
     }
-  }
-
-  > .v2-bookbar-nav-xs {
-    @include remove-typo-margin;
-    height: $bookbar-height;
-    margin-left: -17px;
-
-    > .v2-bookbar-title {
-      color: #FFF;
-    }
-    // Set the icon to white
-    > .v2-bookbar-toggle {
-      color:#FFF;
-    }
-
-  }
 }

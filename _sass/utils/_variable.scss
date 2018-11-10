@@ -29,9 +29,9 @@ $spacing-unit:     30px;
 // Width of the content area
 $content-width:    1400px;
 
-$on-mobile:        600px;
-$on-tablet:        960px;
-$on-laptop:        1280px;
+$on-mobile:        576px;
+$on-tablet:        768px;
+$on-laptop:        992px;
 
 /*
  * Colors
@@ -76,6 +76,14 @@ $gray-color-dark:  darken($gray-color, 25%);
 $background-color: #f5f5f5;
 $background-gray:  #EBEFF2;
 $background-black: #2D384A;
+
+
+$theme-colors: (
+  "primary": $brand-color,
+  "info": $brand-secondary,
+  "warning": $brand-accent,
+  "danger": #F44336
+);
 
 
 /********/

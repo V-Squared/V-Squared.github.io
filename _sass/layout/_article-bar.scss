@@ -1,6 +1,6 @@
 #article-bar {
   //border-right: 1px solid #BBB;
-  width: 230px;
+  max-width: 230px;
 
   > .v2-bookinfo {
     padding: 0 $spacing-unit / 2;
@@ -16,11 +16,20 @@
 .article-nav {
 
   // consider the sticky navbar and margin-top
-  max-height: calc(100vh - 89px);
+  //max-height: calc(100vh - 89px);
   overflow-y:auto;
+  margin-left:0;
+  top: $spacing-unit * 2;
+  display: block;
+  max-height: calc(100vh - #{$bookbar-height});
 
   ul {
-    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .nav-link {
+    text-transform: none;
+    font-size:  1.2em;
   }
 
   li:not(.article-group-header) {
@@ -32,7 +41,7 @@
       color: $gray-700;
     }
 
-    &:hover,&.uk-active {
+    &:hover,&.active {
 
       > a {
         background: $gray-200;
@@ -46,6 +55,12 @@
 
 
    > a {
+     display: flex;
+     -webkit-box-align: start;
+     -webkit-align-items: flex-start;
+     align-items: flex-start;
+     -webkit-align-content: flex-start;
+     align-content: flex-start;
      padding: 5px $spacing-unit / 2;
      font-size: 14px;
      cursor: pointer;
@@ -53,6 +68,7 @@
      user-select: none;
      color: $gray-color;
      position: relative;
+     text-transform: none;
 
      &:hover {
        text-decoration: none;
@@ -61,6 +77,9 @@
 
      > .article-group-foldicon {
       color: $gray-color;
+      display: inline-block;
+      transition: all 150ms ease-in-out;
+      line-height: 0;
      }
    }
 }

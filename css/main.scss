@@ -1,6 +1,6 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
 @charset "utf-8";
 
 
@@ -12,19 +12,38 @@
   "utils/mixins",
   "utils/functions";
 
+@import 
+  "~bootstrap-material-design/scss/variables.scss",
+  "~bootstrap-material-design/scss/mixins.scss";
+
 @import
-  "vendor/angular-material",
-  "vendor/uikit.min",
+  "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap-material-design/scss/ripples";
+
+@import 
+  "~bootstrap-material-design/scss/buttons",
+  "~bootstrap-material-design/scss/tooltip",
+  "~bootstrap-material-design/scss/nav",
+  "~bootstrap-material-design/scss/navbar";
+
+//@import "~bootstrap-material-design/scss/bootstrap-material-design";
+
+@import 
+  "~bootstrap-material-design/scss/extensions/snackbarjs",
   "vendor/progress-bar",
   "vendor/slideshow";
 
 @import
-  "base/animation",
+  //"base/animation",
   "base/base",
+  "base/icons",
   "base/reset",
   "base/typography",
   "base/images",
   "base/syntax-highlighting";
+
+//@import "vendor/bootstrap/bootstrap";
 
 @import
   "layout/board-bar",
@@ -35,7 +54,8 @@
   "layout/comic",
   "layout/content-nav",
   "layout/footer",
-  "layout/grid";
+  "layout/grid",
+  "layout/offcanvas";
 
 @import
   "components/button",

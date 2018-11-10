@@ -8,15 +8,22 @@
 {% endif %}
 {% endfor %}
 
-{% if include.type %}
-  {% assign type = include.type %}
-{% else %}
-  {% assign type = 'article-group' %}
-{% endif %}
+{% assign navurl = page.url | remove: 'index.html'%}
+
+{% assign urlHierarchy = navurl | split: "/" %}
+
+{% case urlHierarchy.size %}
+  {% when 2 %}
+    {% assign type = 'book' %}
+  {% when 3 %}
+    {% assign type = 'article' %}
+  {% when 4 %}
+    {% assign type = 'article-group' %}
+{% endcase %}
 
 {% if type == 'article-group' %}
 
-<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
+<div class="row no-gutters content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -30,14 +37,13 @@
 
   {% if page.url == groupUrl %}
 
-  <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if page.color %} {{page.color}}-300{% endif %}">
-    <a flex href="{{site.baseurl}}{{groupUrl}}">
-      <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
-        <div flex class="{{page.readiness[0]}}"></div>
-        <div flex class="{{page.readiness[1]}}"></div>
-        <div flex class="{{page.readiness[2]}}"></div>
-        <div flex class="{{page.readiness[3]}}"></div>
+  <div class="col-md-4 col-sm-6 metro-card{% if page.color %} {{page.color}}-300{% endif %}">
+    <a href="{{site.baseurl}}{{groupUrl}}">
+      <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+        <div class="col {{page.readiness[0]}}"></div>
+        <div class="col {{page.readiness[1]}}"></div>
+        <div class="col {{page.readiness[2]}}"></div>
+        <div class="col {{page.readiness[3]}}"></div>
       </div>
       {% if page.visualURL %}
       <div class="card-image">
@@ -65,7 +71,7 @@
 {% endif %}
 
 {% if type == "article" %}
-<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
+<div class="row no-gutters content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -77,14 +83,13 @@
 
   {% if sitePage.url == subitemUrl %}
 
-  <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
+  <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
     <a flex href="{{site.baseurl}}{{subitemUrl}}">
-      <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
-        <div flex class="{{sitePage.readiness[0]}}"></div>
-        <div flex class="{{sitePage.readiness[1]}}"></div>
-        <div flex class="{{sitePage.readiness[2]}}"></div>
-        <div flex class="{{sitePage.readiness[3]}}"></div>
+      <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+        <div class="col {{sitePage.readiness[0]}}"></div>
+        <div class="col {{sitePage.readiness[1]}}"></div>
+        <div class="col {{sitePage.readiness[2]}}"></div>
+        <div class="col {{sitePage.readiness[3]}}"></div>
       </div>
       {% if sitePage.visualURL %}
       <div class="card-image">
@@ -110,7 +115,7 @@
 {% endif %}
 
 {% if type == "book" %}
-<div layout-xs="column" layout="row" layout-wrap class="content-navigation">
+<div class="row no-gutters content-navigation">
 
   {% for my_page in bookbar %}
   {% capture bookUrl %}/{{boardUrl}}{{my_page.url}}{% endcapture %}
@@ -119,14 +124,13 @@
 
   {% if sitePage.url == bookUrl %}
 
-  <div md-ink-ripple layout="column" flex-xs="100" flex-sm="50" flex-gt-sm="33"
-       class="metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
-    <a flex href="{{site.baseurl}}{{bookUrl}}">
-      <div layout="row" no-gap class="progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
-        <div flex class="{{sitePage.readiness[0]}}"></div>
-        <div flex class="{{sitePage.readiness[1]}}"></div>
-        <div flex class="{{sitePage.readiness[2]}}"></div>
-        <div flex class="{{sitePage.readiness[3]}}"></div>
+  <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
+    <a href="{{site.baseurl}}{{bookUrl}}">
+      <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+        <div class="col {{sitePage.readiness[0]}}"></div>
+        <div class="col {{sitePage.readiness[1]}}"></div>
+        <div class="col {{sitePage.readiness[2]}}"></div>
+        <div class="col {{sitePage.readiness[3]}}"></div>
       </div>
     {% if sitePage.visualURL %}
     <div class="card-image">
@@ -134,7 +138,7 @@
     </div>
     {% endif %}
     <div class="card-heading">
-      <h1>{{sitePage.title}}</h1>
+      <h1>{{sitePage.title}} {{urlHierarchy[2]}}</h1>
       {% if sitePage.subtitle %}
         <p>{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
@@ -147,7 +151,3 @@
   {% endfor %}
 </div>
 {% endif %}
-
-<script>
-  document.getElementById("article-content").style.padding = "0";
-</script>

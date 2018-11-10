@@ -1,12 +1,12 @@
 {% if page.contents %}
-<collapse-bar type="Mid" id="article-toc">
+<collapse-bar class="col hide-sm offcanvas-collapse offcanvas-right" type="Mid" id="article-toc">
 
-  <div style="margin-top: 38px;"></div>
+  <div class="article-toc-nav sticky-top"id="contentNav">
+    <h4 class="v2-content-heading">Contents</h4>
 
-  <h2 class="v2-content-heading">Contents</h2>
-
-  <div data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'}">
-    {% include table-of-contents.html %}
+    <div>
+      {% include table-of-contents.html %}
+    </div>
   </div>
 </collapse-bar>
 {% endif %}

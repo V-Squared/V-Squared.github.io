@@ -2,7 +2,8 @@ var webpack = require("webpack");
 var path = require("path");
 
 module.exports = {
-  entry: "./_javascript/app/app.module.ts",
+  mode: "production",
+  entry: "./_javascript/app/app.ts",
 
   output: {
     publicPath: "/lib/",
@@ -10,15 +11,28 @@ module.exports = {
     filename: "app.js"
   },
 
+  resolve: {
+    extensions: [".js",".ts"],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
+  },
+
+  externals: {
+    jquery: "jQuery"
+  },
+
+
   // source map
   devtool: "source-map",
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.ts$/,
         // Exclude node modules and jekyll stuff
-        exclude: [/node_modules/,/_includes/,/_layouts/,/_posts/,/_sass/,/_site/,/css/],
+        include: [/_javascript/],
+        exclude: [/_js_old/,/node_modules/],
         loader: 'ts-loader'
       },
       {
@@ -30,7 +44,11 @@ module.exports = {
     ]
   },
 
+  optimization: {
+    minimize: true
+  },
+
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({minimize: true})
+    //new webpack.optimize.UglifyJsPlugin({minimize: true})
   ]
 };

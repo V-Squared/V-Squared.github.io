@@ -8,6 +8,11 @@
   src: url('../fonts/Roboto-Thin.ttf');
 }
 
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf')
+}
+
 /**
 * Reset some basic elements
 */
@@ -171,7 +176,7 @@ p {
 /**
 * Container
 */
-.uk-container {
+.container {
   max-width: $content-width;
   padding: 0 $spacing-unit;
 }
@@ -196,14 +201,6 @@ p {
   }
 }
 
-
-
-/**
-* Icons
-*/
-svg {
-  fill: currentColor;
-}
 
 /**
 * Buttons

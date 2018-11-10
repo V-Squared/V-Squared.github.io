@@ -3,53 +3,52 @@ layout: default
 ---
 
 {% if page.articleBar %}
-  {% assign articleBar = page.articleBar %}
+{% assign articleBar = page.articleBar %}
 {% else %}
-  {% assign articleBar = 'yes' %}
+{% assign articleBar = 'yes' %}
 {% endif %}
 
 {% for board in site.data.board-bar %}
 {% if page.url contains board.url %}
 {% assign boardName = board.menu %}
 {% assign boardUrl = board.url | remove: "/" %}
-{% assign bookbar = site.data.[boardUrl].book-bar %}
+{% assign bookbar = site.data[boardUrl].book-bar %}
 {% endif %}
 {% endfor %}
 
 <div class="page-content" style="background:#f5f5f5">
-  <div class="uk-container content-body uk-container-center">
-<div class="page">
-
-  <div layout="row" layout-sm="column" no-gap>
-    {% if articleBar == 'yes' %}
-
-    {% include article-bar.html nav=bookbar board=boardUrl %}
-
-    {% endif %}
-    <div flex class="article md-whiteframe-5dp"  {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
-      {% include article-jumbo/article-jumbo.html %}
-
-      <div layout="row" no-gap>
-
-        <!--Article-->
-
-        <md-content flex class="post-content">
-
-          {% include embed-toc.html %}
-
-          <div id="article-content">
-            {{content}}
+  <div class="container content-body">
+    <div class="page">
+      <div class="row no-gutters">
+        {% if articleBar == 'yes' %}
+        
+        {% include article-bar.html nav=bookbar board=boardUrl %}
+        
+        {% endif %}
+        <div class="article col hide-sm" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
+          {% include article-jumbo/article-jumbo.html %}
+          
+          <div layout="row" no-gap>
+            
+            <!--Article-->
+            
+            <div flex class="post-content">
+              
+              {% include embed-toc.html %}
+              
+              <div id="article-content" {% if page.index %}style="padding:0;"{% endif %}>
+                {{content}}
+              </div>
+            </div>
+            
           </div>
-        </md-content>
-
+        </div>
+        
+        
+        {% include contents-bar.html %}
+        
       </div>
+      
     </div>
-
-
-    {% include contents-bar.html %}
-
+    
   </div>
-
-</div>
-
-</div>

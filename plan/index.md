@@ -14,4 +14,3 @@ readiness:
 
 {% include content-navigation.html type="book" %}
 
-

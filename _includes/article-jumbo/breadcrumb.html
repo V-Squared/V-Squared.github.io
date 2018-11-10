@@ -1,4 +1,4 @@
-<ol class="uk-breadcrumb sub-breadcrumb">
+<ol class="breadcrumb sub-breadcrumb">
   <li><a href="/">V²</a></li>
 
   <li><a href="{{ site.baseurl }}/{{boardUrl}}/">{{boardName}}</a></li>
@@ -19,7 +19,7 @@
   {% assign j = forLoopMaxInt | plus: 0 %}
 
   <li {% if i == j %}class="active"{% endif %}>
-    <a href="{{ site.baseurl }}{{breadcrumb_pageUrl}}">{{breadcrumb_page.menu}}</a>
+    {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_pageUrl}}">{% endunless %}{{breadcrumb_page.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
   {% endif %}
@@ -31,7 +31,7 @@
   {% if current_breadcrumb_url == breadcrumb_subUrl or
   current_breadcrumb_md_url == breadcrumb_subUrl %}
   <li {% if i == j %}class="active"{% endif %}>
-    <a href="{{ site.baseurl }}{{breadcrumb_subUrl}}">{{breadcrumb_sub.menu}}</a>
+      {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_subUrl}}">{% endunless %}{{breadcrumb_sub.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
   {% endif %}
@@ -44,7 +44,7 @@
   current_breadcrumb_md_url == breadcrumb_groupUrl %}
 
   <li {% if i == j %}class="active"{% endif %}>
-    <a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{{breadcrumb_group.menu}}</a>
+      {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{% endunless %}{{breadcrumb_group.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
   {% endif %}

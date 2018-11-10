@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
-  <body ng-controller="mainController as vm">
+  <body>
 
     {% include board-bar.html %}
 
     <div class="jumbotron">
-      <div class="uk-container uk-container-center">
+      <div class="container">
         {% for board in site.data.board-bar %}
         {% if page.url contains board.url %}
         <h1>{{board.title}}</h1>
@@ -21,12 +21,12 @@
     {% for board in site.data.board-bar %}
     {% if page.url contains board.url %}
     {% assign boardName = board.url | remove: "/" %}
-    {% assign bookbar = site.data.[boardName].book-bar %}
+    {% assign bookbar = site.data[boardName].book-bar %}
     {% endif %}
     {% endfor %}
     
     {% include book-bar.html nav=bookbar board=boardName %}
-
+    
     {{ content }}
 
     {% include footer.html %}

@@ -3,10 +3,15 @@ $board-nav-margin: 15px;
 $board-nav-breakpoint: 774px;
 $board-nav-border: 6px;
 
-.v2-navbar {
+#v2-navbar {
   min-height: $board-nav-height;
-  z-index: 9999;
-  background:$brand-700;
+  //z-index: 9999;
+  background-color:$brand-700 !important;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 150, 243, 0.46);
+  display: block;
 }
 .v2-navbar-brand {
   padding-left:0;
@@ -15,6 +20,26 @@ $board-nav-border: 6px;
   padding-bottom: $spacing-unit / 3;
 }
 .v2-navbar-nav {
+  position: relative;
+  top: initial;
+  left: initial;
+  bottom: initial;
+  right: initial;
+  transform: none;
+  height: auto;
+  overflow: auto;
+  background: $brand-700;
+
+  @include media-query($on-mobile) {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  >.v2-navbar-nav-md {
+    flex-direction: row;
+  }
+
 
   > .v2-navbar-nav-md > li {
 
@@ -22,10 +47,7 @@ $board-nav-border: 6px;
     margin-left: $board-nav-margin;
     position: relative;
     transition: all .3s ease;
-
-    @include media-query ($board-nav-breakpoint) {
-      display:none;
-    }
+    margin-top: $board-nav-border;
 
     @include media-query(875px) {
       margin-left: 2px;
@@ -35,7 +57,7 @@ $board-nav-border: 6px;
       margin-left:0;
     }
 
-    &.uk-active {
+    &.active {
       border-color:#FFF;
     }
 
@@ -50,12 +72,16 @@ $board-nav-border: 6px;
 
     a {
       height:auto;
-      padding: 0 $spacing-unit / 3;
-      line-height: $board-nav-height - $board-nav-border;
+      line-height: 42px;
       background: transparent;
       cursor:pointer !important;
       color:white;
       transition: all .3s ease;
+
+      @include media-query($on-mobile) {
+        padding-left: $spacing-unit / 3 !important;
+        padding-right: $spacing-unit / 3 !important;
+      }
 
       &:focus {
         border-color: white;
@@ -68,11 +94,11 @@ $board-nav-border: 6px;
   > .v2-navbar-nav-xs {
     @include remove-typo-margin;
 
-    display: none;
+    // display: none;
 
-    @include media-query ($board-nav-breakpoint) {
-      display: flex;
-    }
+    // @include media-query ($board-nav-breakpoint) {
+    //   display: flex;
+    // }
 
     > .v2-navbar-toggle-header, .v2-navbar-toggle{
       color: #FFF;

@@ -6,7 +6,7 @@ layout: default
   {% if page.url contains board.url %}
     {% assign boardName = board.menu %}
     {% assign boardUrl = board.url | remove: "/" %}
-    {% assign bookbar = site.data.[boardUrl].book-bar %}
+    {% assign bookbar = site.data[boardUrl].book-bar %}
   {% endif %}
 {% endfor %}
 
