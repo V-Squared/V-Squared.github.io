@@ -1,9 +1,9 @@
 <div class="status-bar">
   {% if page.layout == "feature" %}
-  <div class="uk-container uk-container-center">
+  <div class="container">
     {% endif %}
-    <div class="row" no-gap>
-      <div class="col">
+    <div class="row no-gutters justify-content-center" no-gap>
+      <div class="d-none d-md-block">
         {% for my_page in bookbar %}
         {% if navurl contains my_page.url %}
         {% if my_page.subitems or my_page.groups %}
@@ -15,7 +15,7 @@
         {% endif %}
         {% endfor %}
       </div>
-      <div class="row col-sm-8 justify-content-sm-center">
+      <div class="row col-sm-8 justify-content-center">
         
         {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
         {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
@@ -29,14 +29,14 @@
         
         {% capture next_prepender %}{% endcapture %}
         
-        <button class="btn btn-warning bmd-btn-icon" data-toggle="snackbar" data-content="Copied page link '{{page.url}}'." aria-label="Toggle Copy Article Path"
+        <button class="btn btn-warning bmd-btn-icon d-none d-sm-block" data-toggle="snackbar" data-content="Copied page link '{{page.url}}'." aria-label="Toggle Copy Article Path"
           clipboard data-clipboard-text="{{page.url}}">
           <span data-toggle="tooltip" data-html="true" title="<h3>Copy Article Path</h3>Press button and then paste Article-Path into your writing">
             {% include icons/clipboard-text.svg %}
           </span>
           <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-text.svg"></md-icon> -->
         </button>
-        <button class="btn btn-warning bmd-btn-icon" data-toggle="snackbar" data-content="Copied markdown link '{{page.url}}'." aria-label="Copy Link to Artcile Path" clipboard data-clipboard-text="![]({{page.url}})">
+        <button class="btn btn-warning bmd-btn-icon d-none d-sm-block" data-toggle="snackbar" data-content="Copied markdown link '{{page.url}}'." aria-label="Copy Link to Artcile Path" clipboard data-clipboard-text="![]({{page.url}})">
           <span data-html="true" data-toggle="tooltip" title="<h3>Link to Article</h3>Press button and then paste the markdown link into your writing">
             {% include icons/clipboard-arrow-left.svg %}
           </span>
@@ -57,7 +57,7 @@
       </a>
       </div>
       
-      <div class="col">
+      <div class="d-none d-md-block">
         {% if page.contents %}
         <button class="btn btn-warning bmd-btn-icon" hide show-gt-sm toggle-collapse-bar="article-toc" data-html="true" data-toggle="tooltip" title="<h3>Toggle Contents-Bar</h3>Fold to reduce clutter. Unfold it to navigate Table of Contents" class="md-icon-button" aria-label="Toggle Contents Bar">
           <md-icon ng-show="toggleCollapse.isCollapse" md-svg-src="{{site.baseurl}}/icons/format-horizontal-align-left.svg"></md-icon>
