@@ -1,8 +1,10 @@
 ---
 layout: feature
-title: ViCook
+title: ViCook Concept Development
 subtitle: >
-  Comming Soon
+  A Delicious Way to Sink Your Teeth into ViZdom
+abstract: >
+  At this stage ViCook is a concept study with immediate practical applications: • It is a team building exercise. • It is practical therapy. • Training of discipline and process management. • And of course it tastes good and boosts our morale. A way to make team building palatable. And for our Guangzhou friends, a good reason to visit us on our Sunday Open House of ViZdom events. See below what's cooking in our development. Enjoy our food and share ideas and recipes.
 readiness:
    - is-complete
 ---
