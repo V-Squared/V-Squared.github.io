@@ -1,5 +1,5 @@
 $indiego-color: #3F51B5;
-$card-height: 360px;
+$card-height: 240px;
 $card-padding: 20px;
 
 .shadow-sm {
@@ -13,6 +13,7 @@ $card-padding: 20px;
 
 	background-color: $indiego-color;
 	min-height: $card-height;
+	display: flex;
 
 	// for ripple
 	position: relative;
@@ -22,34 +23,34 @@ $card-padding: 20px;
 		z-index:99999;
 	}
 
-	> a {
+	&__image {
+		margin: $card-padding $card-padding 0 $card-padding;
+		border-radius: 10px;
+
+		> img {
+			border-radius: 10px;
+			border:0;
+		}
+	}
+
+	&__content {
+		@include make-typo-white;
+		padding: $card-padding;
+	}
+
+	.metro-card__title {
+		font-family: $base-font-family;
+		font-size: 24px;
+		margin:0;
+		padding:0;
+		border:0;
+		color:#FFF;
+	}
+
+	&__href {
 
 		&:hover {
 			text-decoration: none;
-		}
-
-		> .card-image {
-			margin: $card-padding $card-padding 0 $card-padding;
-			border-radius: 10px;
-
-			> img {
-				border-radius: 10px;
-				border:0;
-			}
-		}
-
-		> .card-heading {
-			@include make-typo-white;
-			padding: $card-padding;
-
-			h1 {
-				font-family: $base-font-family;
-				font-size: 24px;
-				margin:0;
-				padding:0;
-				border:0;
-				color:#FFF;
-			}
 		}
 	}
 }

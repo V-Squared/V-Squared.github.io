@@ -38,7 +38,7 @@
   {% if page.url == groupUrl %}
 
   <div class="col-md-4 col-sm-6 metro-card{% if page.color %} {{page.color}}-300{% endif %}">
-    <a href="{{site.baseurl}}{{groupUrl}}">
+    <a class="metro-card__href" href="{{site.baseurl}}{{groupUrl}}">
       <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div class="col {{page.readiness[0]}}"></div>
         <div class="col {{page.readiness[1]}}"></div>
@@ -46,14 +46,14 @@
         <div class="col {{page.readiness[3]}}"></div>
       </div>
       {% if page.visualURL %}
-      <div class="card-image">
+      <div class="metro-card__image">
         <img src="{{page.visualURL}}-index.png" />
       </div>
       {% endif %}
-      <div class="card-heading">
-        <h1>{{page.title}}</h1>
+      <div class="metro-card__content">
+        <h1 class="metro-card__title">{{page.title}}</h1>
         {% if page.subtitle %}
-        <p>{{page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="metro-card__desc">{{page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
       </div>
     </a>
@@ -84,7 +84,7 @@
   {% if sitePage.url == subitemUrl %}
 
   <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
-    <a flex href="{{site.baseurl}}{{subitemUrl}}">
+    <a class="metro-card__href" href="{{site.baseurl}}{{subitemUrl}}">
       <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div class="col {{sitePage.readiness[0]}}"></div>
         <div class="col {{sitePage.readiness[1]}}"></div>
@@ -92,14 +92,14 @@
         <div class="col {{sitePage.readiness[3]}}"></div>
       </div>
       {% if sitePage.visualURL %}
-      <div class="card-image">
+      <div class="metro-card__image">
         <img src="{{sitePage.visualURL}}-index.png" />
       </div>
       {% endif %}
-      <div class="card-heading">
-        <h1>{{sitePage.title}}</h1>
+      <div class="metro-card__content">
+        <h1 class="metro-card__title">{{sitePage.title}}</h1>
         {% if sitePage.subtitle %}
-        <p>{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="metro-card__desc">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
       </div>
     </a>
@@ -125,7 +125,7 @@
   {% if sitePage.url == bookUrl %}
 
   <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
-    <a href="{{site.baseurl}}{{bookUrl}}">
+    <a class="metro-card__href" href="{{site.baseurl}}{{bookUrl}}">
       <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div class="col {{sitePage.readiness[0]}}"></div>
         <div class="col {{sitePage.readiness[1]}}"></div>
@@ -133,14 +133,14 @@
         <div class="col {{sitePage.readiness[3]}}"></div>
       </div>
     {% if sitePage.visualURL %}
-    <div class="card-image">
+    <div class="metro-card__image">
       <img src="{{sitePage.visualURL}}-index.png" />
     </div>
     {% endif %}
-    <div class="card-heading">
-      <h1>{{sitePage.title}} {{urlHierarchy[2]}}</h1>
+    <div class="metro-card__content">
+      <h1 class="metro-card__title">{{sitePage.title}} {{urlHierarchy[2]}}</h1>
       {% if sitePage.subtitle %}
-        <p>{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      <p class="metro-card__desc">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
     </div>
     </a>

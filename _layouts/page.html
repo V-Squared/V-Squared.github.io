@@ -3,17 +3,17 @@ layout: default
 ---
 
 {% if page.articleBar %}
-{% assign articleBar = page.articleBar %}
+  {% assign articleBar = page.articleBar %}
 {% else %}
-{% assign articleBar = 'yes' %}
+  {% assign articleBar = 'yes' %}
 {% endif %}
 
 {% for board in site.data.board-bar %}
-{% if page.url contains board.url %}
-{% assign boardName = board.menu %}
-{% assign boardUrl = board.url | remove: "/" %}
-{% assign bookbar = site.data[boardUrl].book-bar %}
-{% endif %}
+  {% if page.url contains board.url %}
+    {% assign boardName = board.menu %}
+    {% assign boardUrl = board.url | remove: "/" %}
+    {% assign bookbar = site.data[boardUrl].book-bar %}
+  {% endif %}
 {% endfor %}
 
 <div class="page-content" style="background:#f5f5f5">
@@ -28,15 +28,15 @@ layout: default
         <div class="article col hide-sm" {% if articleBar == 'no' %}style="max-width:inherit"{% endif %} >
           {% include article-jumbo/article-jumbo.html %}
           
-          <div layout="row" no-gap>
+          <div>
             
             <!--Article-->
             
-            <div flex class="post-content">
+            <div class="post-content">
               
               {% include embed-toc.html %}
               
-              <div id="article-content" {% if page.index %}style="padding:0;"{% endif %}>
+              <div class="article-content" {% if page.index %}style="padding:0;"{% endif %}>
                 {{content}}
               </div>
             </div>

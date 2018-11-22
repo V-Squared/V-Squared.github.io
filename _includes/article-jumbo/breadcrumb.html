@@ -1,7 +1,7 @@
 <ol class="breadcrumb sub-breadcrumb">
-  <li><a href="/">V²</a></li>
+  <li class="breadcrumb-item"><a href="/">V²</a></li>
 
-  <li><a href="{{ site.baseurl }}/{{boardUrl}}/">{{boardName}}</a></li>
+  <li class="breadcrumb-item"><a href="{{ site.baseurl }}/{{boardUrl}}/">{{boardName}}</a></li>
   {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
   {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
   {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
@@ -18,7 +18,7 @@
   current_breadcrumb_md_url == breadcrumb_pageUrl %}
   {% assign j = forLoopMaxInt | plus: 0 %}
 
-  <li {% if i == j %}class="active"{% endif %}>
+  <li class="breadcrumb-item {% if i == j %}active{% endif %}">
     {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_pageUrl}}">{% endunless %}{{breadcrumb_page.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
@@ -30,7 +30,7 @@
 
   {% if current_breadcrumb_url == breadcrumb_subUrl or
   current_breadcrumb_md_url == breadcrumb_subUrl %}
-  <li {% if i == j %}class="active"{% endif %}>
+  <li class="breadcrumb-item {% if i == j %}active{% endif %}">
       {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_subUrl}}">{% endunless %}{{breadcrumb_sub.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
@@ -43,7 +43,7 @@
   {% if current_breadcrumb_url == breadcrumb_groupUrl or
   current_breadcrumb_md_url == breadcrumb_groupUrl %}
 
-  <li {% if i == j %}class="active"{% endif %}>
+  <li class="breadcrumb-item {% if i == j %}active{% endif %}">
       {% unless i == j %}<a href="{{ site.baseurl }}{{breadcrumb_groupUrl}}">{% endunless %}{{breadcrumb_group.menu}}{% unless i == j %}</a>{% endunless %}
   </li>
 
