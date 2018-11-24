@@ -25,7 +25,8 @@
   "~bootstrap-material-design/scss/buttons",
   "~bootstrap-material-design/scss/tooltip",
   "~bootstrap-material-design/scss/nav",
-  "~bootstrap-material-design/scss/navbar";
+  "~bootstrap-material-design/scss/navbar",
+  "~bootstrap-material-design/scss/dropdown";
 
 //@import "~bootstrap-material-design/scss/bootstrap-material-design";
 
@@ -82,6 +83,7 @@
   "components/callout",
   "components/protfolio",
   "components/v2-note",
-  "components/back-to-top";
+  "components/back-to-top",
+  "components/menu";
 
 @import "pages/home";

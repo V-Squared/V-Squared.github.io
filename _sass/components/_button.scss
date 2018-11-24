@@ -1,3 +1,10 @@
 .md-button:visited {
   color:inherit;
 }
+.bmd-btn-fab {
+  background: $brand-accent;
+
+  &:active {
+    background: $brand-accent-400;
+  }
+}

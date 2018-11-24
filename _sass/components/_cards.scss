@@ -45,6 +45,10 @@ $card-padding: 20px;
 		padding:0;
 		border:0;
 		color:#FFF;
+
+		&::before {
+			content: none;
+		}
 	}
 
 	&__href {

@@ -1,4 +1,56 @@
-<md-menu>
+<div class="btn-group edit-fab"
+     style="{% if page.visualURL %}top: -75px;right:40px;{% else %}bottom: -35px;{% endif %}">
+  <button class="btn bmd-btn-fab btn-warning dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% include icons/ic_mode_edit_white_24px.svg %}
+  </button>
+  <div class="dropdown-menu dropdown-menu-left article-dropdown" aria-labelledby="edit-fab">
+    <div class="row article-dropdown-row">
+      <div class="col-6">
+        <a class="dropdown-item" href="https://github.com/V-Squared/V-Squared.github.io/edit/master/{{page.path}}">
+          <div class="menu-svg">
+            {% include icons/ic_mode_edit_white_24px.svg %}
+          </div>
+          Edit Article
+        </a>
+        <a class="dropdown-item" href="https://github.com/V-Squared/v-squared.github.io/issues/{{page.issueNo}}">
+          <div class="menu-svg">
+          {% include icons/Github/issue.svg %}
+        </div>
+          Article Issue
+        </a>
+        <p class="fab-help">Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href="https://github.com/V-Squared/V-Squared.github.io/issues/147">More</a></p>
+      </div>
+      <div class="col-6">
+        <a class="dropdown-item" href="https://github.com/V-Squared/V-Squared.github.io/edit/master/{{page.path}}">
+          <div class="menu-svg">
+            {% include icons/Github/repo.svg %}
+          </div>
+          Repo
+        </a>
+        <a class="dropdown-item" href="https://github.com/V-Squared/v-squared.github.io/graphs">
+          <div class="menu-svg">
+            {% include icons/Github/graph.svg %}
+          </div>
+          Graphs
+        </a>
+        <a class="dropdown-item" href="https://github.com/V-Squared/v-squared.github.io/pulse">
+          <div class="menu-svg">
+            {% include icons/Github/pulse.svg %}
+          </div>
+          Pulse
+        </a>
+        <a class="dropdown-item" href="https://github.com/V-Squared/v-squared.github.io/labels/m.board.plan">
+          <div class="menu-svg">
+            {% include icons/Github/issue.svg %}
+          </div>
+          Issues
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <md-menu>
 
   <md-button mouseover-tooltip="true"
              v2-tooltip="<h3>V²-Flow-Button</h3>Get involved: edit Article, report issues and ideas, see what we are working on in GitHub. Read → <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>More</a>"
@@ -59,4 +111,4 @@
     </div>
   </md-menu-content>
 
-</md-menu>
+</md-menu> -->

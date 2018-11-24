@@ -16,6 +16,22 @@ readiness:
   - is-complete
 ---
 
+<div class="btn-group">
+  <button class="btn dropdown-toggle" type="button" id="buttonMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
+  <div class="dropdown-menu" aria-labelledby="buttonMenu1">
+    <a class="dropdown-item" href="#">
+      {% include icons/Github/issue.svg %}
+      Action
+    </a>
+    <a class="dropdown-item" href="#">
+    {% include icons/Github/issue.svg %}Another action</a>
+    <a class="dropdown-item" href="#">
+    {% include icons/Github/issue.svg %}Something else here</a>
+  </div>
+</div>
+
 {% include content-navigation.html type="article" %}
 
 <br>

@@ -50,16 +50,12 @@
     font-size:15px;
   }
 
-  * {
-    color:#F3F0F0;
-  }
-
   a {
     color: $brand-700;
     font-weight: bold;
   }
 }
-#edit-fab {
+.edit-fab {
   position: absolute;
   right: 15px;
   z-index:9999999 !important;
@@ -68,4 +64,19 @@
   padding-left: 16px;
   width:192px;
   box-sizing: border-box;
+  color: $text-color  !important;
+  font-size: 0.8em !important;
+}
+
+.article-dropdown {
+  min-width: 350px;
+}
+
+.article-dropdown-row {
+  margin-left: -$spacing-unit / 5;
+  margin-right: $spacing-unit / 5;
+  > [class*="col-"] {
+    padding-left:  $spacing-unit / 5;
+    padding-right:  $spacing-unit / 5;
+  }
 }

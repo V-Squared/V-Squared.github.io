@@ -8,3 +8,14 @@ svg {
   height: 24px;
   margin-right: 5px;
 }
+
+.menu-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: $spacing-unit / 2;
+
+  > svg {
+    width: 24px;
+    height: 24px;
+  }
+}
