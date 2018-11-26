@@ -1,3 +1,6 @@
 .dropdown-menu .dropdown-item {
   flex-wrap: nowrap;
 }
+.show .dropdown-toggle.btn-warning.btn {
+  background-color: $brand-accent-400;
+}

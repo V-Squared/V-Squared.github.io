@@ -7,7 +7,27 @@ $(function DocumentReady() {
 
   //  Init stuff
   $("body").bootstrapMaterialDesign();
-  $("[data-toggle='tooltip']").tooltip();
+  $("[data-toggle*='popover']").popover({
+    trigger: "manual",
+    placement:  "top",
+    html: true
+  })
+  .on("mouseenter", function () {
+    $(this).popover("show");
+    $(".popover").on("mouseleave", () => {
+        $(this).popover("hide");
+    });
+  }).on("mouseleave", function () {
+    setTimeout( () => {
+      if (!$(".popover:hover").length) {
+          $(this).popover("hide");
+      }
+    }, 300);
+  });
+
+  $("[data-toggle*='tooltip']").tooltip({
+    placement: "bottom"
+  });
   Stickyfill.add($(".sticky-top"));
   $("[data-toggle='offcanvas']").data("isOpen", false);
   const clipboard = new ClipboardJS("[clipboard]");
