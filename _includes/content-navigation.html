@@ -23,7 +23,7 @@
 
 {% if type == 'article-group' %}
 
-<div class="row no-gutters content-navigation">
+<div class="row content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -37,27 +37,29 @@
 
   {% if page.url == groupUrl %}
 
-  <div class="col-md-4 col-sm-6 metro-card{% if page.color %} {{page.color}}-300{% endif %}">
+  <div class="col-md-4 col-sm-6 mb-4">
+    <div class="card mb-4 text-white bg-primary {% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
     <a class="metro-card__href" href="{{site.baseurl}}{{groupUrl}}">
+      <div class="card-header">
       <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div class="col {{page.readiness[0]}}"></div>
         <div class="col {{page.readiness[1]}}"></div>
         <div class="col {{page.readiness[2]}}"></div>
         <div class="col {{page.readiness[3]}}"></div>
       </div>
-      {% if page.visualURL %}
-      <div class="metro-card__image">
-        <img src="{{page.visualURL}}-index.png" />
-      </div>
+      </div>  
+      {% if sitePage.visualURL %}
+      <img class="card-img-top" src="{{sitePage.visualURL}}-index.png" />
       {% endif %}
-      <div class="metro-card__content">
-        <h1 class="metro-card__title">{{page.title}}</h1>
+      <div class="card-body">
+        <h1 class="card-title">{{page.title}}</h1>
         {% if page.subtitle %}
-        <p class="metro-card__desc">{{page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="card-subtitle">{{page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
       </div>
     </a>
-  </div>
+    </div>
+    </div>
 
   {% endif %}
   {% endfor %}
@@ -71,7 +73,7 @@
 {% endif %}
 
 {% if type == "article" %}
-<div class="row no-gutters content-navigation">
+<div class="row content-navigation">
 
   {% for my_page in bookbar %}
   {% if my_page.subitems and navurl contains my_page.url %}
@@ -83,26 +85,37 @@
 
   {% if sitePage.url == subitemUrl %}
 
-  <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
-    <a class="metro-card__href" href="{{site.baseurl}}{{subitemUrl}}">
-      <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
-        <div class="col {{sitePage.readiness[0]}}"></div>
-        <div class="col {{sitePage.readiness[1]}}"></div>
-        <div class="col {{sitePage.readiness[2]}}"></div>
-        <div class="col {{sitePage.readiness[3]}}"></div>
+  <!-- <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Primary card title</h5>
+        <h6 class="card-subtitle mb-2">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      {% if sitePage.visualURL %}
-      <div class="metro-card__image">
-        <img src="{{sitePage.visualURL}}-index.png" />
-      </div>
-      {% endif %}
-      <div class="metro-card__content">
-        <h1 class="metro-card__title">{{sitePage.title}}</h1>
-        {% if sitePage.subtitle %}
-        <p class="metro-card__desc">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    </div> -->
+
+  <div class="col-md-4 col-sm-6 mb-4">
+    <div class="card metro-card text-white bg-primary {% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
+      <a class="metro-card__href" href="{{site.baseurl}}{{subitemUrl}}">
+        <div class="card-header">
+          <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
+            <div class="col {{sitePage.readiness[0]}}"></div>
+            <div class="col {{sitePage.readiness[1]}}"></div>
+            <div class="col {{sitePage.readiness[2]}}"></div>
+            <div class="col {{sitePage.readiness[3]}}"></div>
+          </div>
+        </div>
+        {% if sitePage.visualURL %}
+        <img class="card-img-top" src="{{sitePage.visualURL}}-index.png" />
         {% endif %}
-      </div>
-    </a>
+        <div class="card-body">
+          <h5 class="card-title">{{sitePage.title}}</h5>
+          {% if sitePage.subtitle %}
+          <p class="card-subtitle">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% endif %}
+        </div>
+      </a>
+    </div>
   </div>
 
   {% endif %}
@@ -115,7 +128,7 @@
 {% endif %}
 
 {% if type == "book" %}
-<div class="row no-gutters content-navigation">
+<div class="row content-navigation mb-4">
 
   {% for my_page in bookbar %}
   {% capture bookUrl %}/{{boardUrl}}{{my_page.url}}{% endcapture %}
@@ -124,26 +137,28 @@
 
   {% if sitePage.url == bookUrl %}
 
-  <div class="col-md-4 col-sm-6 metro-card{% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
+  <div class="col-md-4 col-sm-6">
+    <div class="card mb-4 text-white bg-primary {% if sitePage.color %} {{sitePage.color}}-300{% endif %}">
     <a class="metro-card__href" href="{{site.baseurl}}{{bookUrl}}">
+      <div class="card-header">
       <div class="row no-gutters progess-bar card-progress-bar md-whiteframe-3dp" style="z-index:99;">
         <div class="col {{sitePage.readiness[0]}}"></div>
         <div class="col {{sitePage.readiness[1]}}"></div>
         <div class="col {{sitePage.readiness[2]}}"></div>
         <div class="col {{sitePage.readiness[3]}}"></div>
       </div>
-    {% if sitePage.visualURL %}
-    <div class="metro-card__image">
-      <img src="{{sitePage.visualURL}}-index.png" />
-    </div>
-    {% endif %}
-    <div class="metro-card__content">
-      <h1 class="metro-card__title">{{sitePage.title}} {{urlHierarchy[2]}}</h1>
+      </div>
+      {% if sitePage.visualURL %}
+      <img class="card-img-top" src="{{sitePage.visualURL}}-index.png" />
+      {% endif %}
+    <div class="card-body">
+      <h1 class="card-title">{{sitePage.title}} {{urlHierarchy[2]}}</h1>
       {% if sitePage.subtitle %}
-      <p class="metro-card__desc">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      <p class="card-subtitle">{{sitePage.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
     </div>
     </a>
+    </div>
   </div>
 
   {% endif %}
@@ -151,3 +166,4 @@
   {% endfor %}
 </div>
 {% endif %}
+

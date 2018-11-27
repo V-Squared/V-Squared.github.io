@@ -11,9 +11,9 @@ $card-padding: 20px;
 } */
 .metro-card {
 
-	background-color: $indiego-color;
-	min-height: $card-height;
-	display: flex;
+	//background-color: $indiego-color;
+	height: 100%;
+	//display: flex;
 
 	// for ripple
 	position: relative;
@@ -52,9 +52,14 @@ $card-padding: 20px;
 	}
 
 	&__href {
-
+		color: #FFF;
 		&:hover {
 			text-decoration: none;
+			color: #FFF;
+		}
+
+		&:visited {
+			color: #FFF;
 		}
 	}
 }

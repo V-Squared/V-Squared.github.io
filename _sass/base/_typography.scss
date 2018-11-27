@@ -3,7 +3,7 @@ ul.uk-nav-sub {
 }
 
 .article-content {
-  h1,h2,h3,h4 {
+  > h1,> h2,> h3,> h4 {
     margin-bottom: .5rem;
 
     &::before {
@@ -20,7 +20,7 @@ ul.uk-nav-sub {
     font-family: Roboto-Regular, $base-font-family;
   }
 
-  h1 {
+  > h1 {
     border-bottom: 1px solid #e0e0e0;
     margin-left: -$spacing-unit;
     margin-right: -$spacing-unit;
