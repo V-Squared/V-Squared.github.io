@@ -3,7 +3,7 @@ $bookbar-height: 51px;
 #v2-bookbar {
   background:$brand-color;
   height: $bookbar-height;
-  z-index: 2000;
+  z-index: $zindex-sticky;
   width: 100% !important;
   margin-bottom: 0;
   border-top-left-radius: 0;

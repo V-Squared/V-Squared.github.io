@@ -44,13 +44,13 @@ $board-nav-border: 6px;
   > .v2-navbar-nav-md > li {
 
     border-bottom: $board-nav-border solid transparent;
-    margin-left: $board-nav-margin;
+    //margin-left: $board-nav-margin;
     position: relative;
     transition: all .3s ease;
     margin-top: $board-nav-border;
 
     @include media-query(875px) {
-      margin-left: 2px;
+      //margin-left: 2px;
     }
 
     &:first-child {

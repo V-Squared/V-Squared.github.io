@@ -26,7 +26,8 @@ $(function DocumentReady() {
   });
 
   $("[data-toggle*='tooltip']").tooltip({
-    placement: "bottom"
+    placement: "top",
+    html: true
   });
   Stickyfill.add($(".sticky-top"));
   $("[data-toggle='offcanvas']").data("isOpen", false);

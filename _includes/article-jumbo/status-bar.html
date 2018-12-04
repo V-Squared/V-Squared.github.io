@@ -43,10 +43,10 @@
           <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon> -->
         </button>
         <div class="progess-bar md-whiteframe-3dp row no-gutters" style="width:240px;z-index:99;">
-          <div data-toggle="popover" title="Create" data-html="true" data-content="Creating concepts and specs while getting community feedback. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to contribute. Or post ideas / bugs in Article-Issue. (Orange = work ongoing | Blue = done)" class="col {{page.readiness[0]}}"></div>
-          <div data-toggle="popover" data-html="true" title="Develop" data-content="Develop to the point that the team of author and editors believe it is done. (Orange = work ongoing | Blue = done). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to get involved" class="col {{page.readiness[1]}}"></div>
-          <div data-toggle="popover" data-html="true" title="Beta" data-content="Beta testing. (Orange = by Core Team | Blue = by Community). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to report an Issue or create a Pull Request" class="col {{page.readiness[2]}}"></div>
-          <div data-toggle="popover" data-html="true" title="Make" data-content="In Production. (Blue = One time production effort like publishing Article | Orange = Ongoing production effort like manufacturing products. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to give feedback or get involved in development of next version)" class="col {{page.readiness[3]}}"></div>
+          <div data-toggle="tooltip" title="Create" data-html="true" data-content="Creating concepts and specs while getting community feedback. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to contribute. Or post ideas / bugs in Article-Issue. (Orange = work ongoing | Blue = done)" class="col {{page.readiness[0]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="Develop" data-content="Develop to the point that the team of author and editors believe it is done. (Orange = work ongoing | Blue = done). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to get involved" class="col {{page.readiness[1]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="Beta" data-content="Beta testing. (Orange = by Core Team | Blue = by Community). Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to report an Issue or create a Pull Request" class="col {{page.readiness[2]}}"></div>
+          <div data-toggle="tooltip" data-html="true" title="Make" data-content="In Production. (Blue = One time production effort like publishing Article | Orange = Ongoing production effort like manufacturing products. Use the <a href='https://github.com/V-Squared/V-Squared.github.io/issues/147'>V²-Flow-Button</a> to give feedback or get involved in development of next version)" class="col {{page.readiness[3]}}"></div>
         </div>
         <a class="btn btn-warning bmd-btn-icon" mouseover-tooltip="true" data-html="true" data-toggle="tooltip" title="<h3>Article License</h3>This article is licensed under → <a href='https://creativecommons.org/licenses/by/4.0/'>Creative-Commons-By</a>"
           id="article-license"
@@ -54,7 +54,11 @@
           href="https://creativecommons.org/licenses/by/4.0/" target="_blank" >
           {% include icons/icon-license-cc-by.svg %}
           <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/icon-license-cc-by.svg"></md-icon> -->
-      </a>
+        </a>
+        <button class="btn btn-warning bmd-btn-icon" data-toggle="modal" data-target="#helpModal">
+          {% include icons/help-circle.svg %}
+          <!-- <md-icon md-svg-src="{{site.baseurl}}/icons/clipboard-arrow-left.svg"></md-icon> -->
+        </button>
       </div>
       
       <div class="d-none d-md-block">
