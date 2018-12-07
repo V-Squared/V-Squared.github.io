@@ -12,6 +12,11 @@ $board-nav-border: 6px;
   border-radius: 0;
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 150, 243, 0.46);
   display: block;
+  z-index: inherit;
+
+  > .container {
+    flex-wrap: nowrap;
+  }
 }
 .v2-navbar-brand {
   padding-left:0;
@@ -21,23 +26,15 @@ $board-nav-border: 6px;
 }
 .v2-navbar-nav {
   position: relative;
-  top: initial;
-  left: initial;
-  bottom: initial;
-  right: initial;
   transform: none;
   height: auto;
   overflow: auto;
-  background: $brand-700;
 
   @include media-query($on-mobile) {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
-  }
-
-  >.v2-navbar-nav-md {
-    flex-direction: row;
+    background-color: $brand-700 !important;
   }
 
 
@@ -71,6 +68,10 @@ $board-nav-border: 6px;
     }
 
     a {
+      display: flex;
+      //justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
       height:auto;
       line-height: 42px;
       background: transparent;
@@ -81,6 +82,7 @@ $board-nav-border: 6px;
       @include media-query($on-mobile) {
         padding-left: $spacing-unit / 3 !important;
         padding-right: $spacing-unit / 3 !important;
+        line-height: 30px;
       }
 
       &:focus {
@@ -110,4 +112,8 @@ $board-nav-border: 6px;
 .v2-navbar-md-nav
 .v2-navbar-brand {
   padding-left:0;
+}
+
+.navbar-toggler {
+  line-height: 0;
 }

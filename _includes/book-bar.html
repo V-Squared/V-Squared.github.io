@@ -13,7 +13,7 @@
       <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           {% include  icons/menu.svg   %}
       </button>
-      <a class="navbar-brand d-block d-md-none d-lg-none d-xl-none" href="#">Books & Articles</a>
+      <a class="navbar-brand d-block d-md-none d-lg-none d-xl-none" href="#">Articles</a>
     <!--<div class="row no-gutters v2-bookbar-nav-xs">
       <md-button href="#book-bar-nav" data-uk-offcanvas class="md-icon-button col v2-bookbar-toggle" aria-label="Toggle Navigation Bar" hide-gt-md>
         <md-icon md-svg-src="{{site.baseurl}}/icons/ic_menu_24px.svg"></md-icon>
@@ -77,9 +77,12 @@
       </ul>
     </div>
     {% if page.contents %}
-    <button class="navbar-toggler ml-auto p-0 border-0 d-block d-lg-none d-xl-none" type="button" data-toggle="offcanvas" data-target="#article-toc" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="form-inline ml-auto">
+    <a class="navbar-brand d-block d-md-none d-lg-none d-xl-none" href="#">ToC</a>
+    <button class="navbar-toggler p-0 border-0 d-block d-lg-none d-xl-none" type="button" data-toggle="offcanvas" data-target="#article-toc" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         {% include  icons/table-of-contents.svg   %}
     </button>
+    </div>
     {% endif %}
   </div>
 </nav>
