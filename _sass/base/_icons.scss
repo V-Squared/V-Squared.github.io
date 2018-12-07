@@ -8,7 +8,8 @@ svg {
   height: 24px;
   //margin-right: auto;
   //margin-left: auto;
-  display: block;
+  display: inline-block;
+  z-index: 1000;
   margin-right: 5px;
 }
 
