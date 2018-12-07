@@ -8,6 +8,8 @@
 {% capture currentGroupitem %}/{{urlHierarchy[2] | downcase }}/{{urlHierarchy[3] | downcase }}/{% endcapture %}
 {% capture currentArticleitem %}/{{urlHierarchy[2] | downcase }}/{{urlHierarchy[3] | downcase }}/{{urlHierarchy[4] | downcase }}/{% endcapture %}
 
+{% capture lastHierarchy %}{{urlHierarchy.last | downcase }}{% endcapture %}
+
 <nav id="v2-bookbar" class="navbar navbar-dark navbar-expand-md sticky-top bg-primary">
   <div class="container">
       <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +23,17 @@
       <h3 class="col v2-bookbar-title">Books & Articles</h3>
     </div>-->
     <div class="navbar-collapse offcanvas-collapse" id="navbarNav">
+      <h4 class="m-2 d-block d-md-none d-lg-none d-xl-none">Books</h4>
       <ul class="navbar-nav v2-bookbar-nav v2-accordion">
         {% capture introUrl %}/{{include.board}}/{% endcapture %}
         <li md-ink-ripple class="nav-item {% if navurl == introUrl %}active{% endif %}">
           <a href="{{site.baseurl}}/{{include.board}}/" class="md-tab nav-link">Index</a>
         </li>
         {% for my_page in include.nav %}
+        {% capture BookItemFullUrl %}/{{include.board}}{{my_page.url}}{% endcapture %}
         <li class="nav-item 
             {% if currentBookbaritem == my_page.url %}active{% endif %}
+            {% if page.url == BookItemFullUrl %}last-active{% endif %}
             {% if my_page.subitems %}v2-accordion-group{% endif %}">
           <a href="{{site.baseurl}}/{{include.board}}{{ my_page.url }}"
              class="{% if my_page.subitems %}v2-accordion-heading{% endif %} nav-link">
@@ -43,9 +48,11 @@
           <div class="v2-accordion-collapse collapse bookbar-group {% if currentBookbaritem == my_page.url %}show{% endif %} d-md-none d-lg-none d-xl-none" data-parent=".v2-accordion">
             <ul class="nav flex-column v2-accordion">
               {% for subitem in my_page.subitems %}
+              {% capture subItemFullUrl %}/{{include.board}}{{subitem.url}}{% endcapture %}
 
                 <li class="nav-item 
                 {% if currentGroupitem == subitem.url %}active{% endif %}
+                {% if page.url == subItemFullUrl %}last-active{% endif %}
                 {% if subitem.group %}v2-accordion-group{% endif %}">
                   <a class="{% if subitem.group %}v2-accordion-heading{% endif %} nav-link"
                      href="{{site.baseurl}}/{{include.board}}{{subitem.url}}">
@@ -60,7 +67,8 @@
                   <div class="v2-accordion-collapse collapse {% if currentGroupitem == subitem.url %}show{% endif %} d-lg-none d-xl-none" data-parent=".v2-accordion">
                     <ul class="nav flex-column">
                       {% for group in subitem.group %}
-                      <li class="nav-item {% if currentArticleitem == group.url %}active{% endif %}">
+                      {% capture GroupItemFullUrl %}/{{include.board}}{{group.url}}{% endcapture %}
+                      <li class="nav-item {% if currentArticleitem == group.url %}active{% endif %} {% if page.url == GroupItemFullUrl %}last-active{% endif %}">
                         <a class="nav-link" href="{{site.baseurl}}/{{include.board}}{{group.url}}">{{group.menu}}</a>
                       </li>
                       {% endfor %}

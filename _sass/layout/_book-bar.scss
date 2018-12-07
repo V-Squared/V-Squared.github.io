@@ -68,7 +68,7 @@ $bookbar-height: 51px;
           color: rgba(0,0,0,.87);
           padding-top: $spacing-unit / 2;
           padding-bottom: $spacing-unit / 2;
-          line-height: $spacing-unit / 2;
+          line-height: $spacing-unit;
         }
       }
 
@@ -91,6 +91,8 @@ $bookbar-height: 51px;
         }
         &.v2-accordion-group.active > a {
           box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.28) !important;
+          z-index: 1050;
+          position: relative;
         }
 
         &.v2-accordion-group  {
@@ -122,7 +124,15 @@ $bookbar-height: 51px;
 
       &.active:after, &:hover:after {
         background: $brand-accent;
+
+        @include media-query($on-mobile) {
+          background: #ccc;
+        }
       }
 
+    }
+
+    .nav-item.last-active {
+      background: #f5f5f5;
     }
 }

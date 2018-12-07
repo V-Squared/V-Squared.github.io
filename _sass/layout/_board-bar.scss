@@ -82,7 +82,7 @@ $board-nav-border: 6px;
       @include media-query($on-mobile) {
         padding-left: $spacing-unit / 3 !important;
         padding-right: $spacing-unit / 3 !important;
-        line-height: 30px;
+        line-height: 25px;
       }
 
       &:focus {

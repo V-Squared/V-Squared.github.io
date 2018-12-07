@@ -4,10 +4,12 @@
       <a class="navbar-brand v2-navbar-brand" href="/">
         <img style="height: 100%;max-width:none;" v2-tooltip="V²Homepage" src="{{site.baseurl}}/images/logo/logo.png" class="uk-margin uk-margin-remove">
       </a>
+      <a class="navbar-brand ml-auto d-block d-md-none d-lg-none d-xl-none" href="#">Shelfs</a>
       <button class="navbar-toggler" type="button" data-toggle="offcanvas" data-target="#boardBarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         {% include icons/menu.svg %}
       </button> 
       <div class="v2-navbar-nav offcanvas-collapse offcanvas-right" id="boardBarNav">
+        <h4 class="m-2 d-block d-md-none d-lg-none d-xl-none">Shelves</h4>
         <ul class="navbar-nav ml-auto v2-navbar-nav-md">
           <li class="nav-item {% if page.url == '/standards/' %}active{% endif %}">
             <a class="nav-link" href="#" title="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC">
