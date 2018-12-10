@@ -133,6 +133,8 @@ $bookbar-height: 51px;
     }
 
     .nav-item.last-active {
-      background: #f5f5f5;
+      @include media-query($on-mobile) {
+        background: #f5f5f5;
+      }
     }
 }

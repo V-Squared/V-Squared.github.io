@@ -46,8 +46,11 @@ $board-nav-border: 6px;
     transition: all .3s ease;
     margin-top: $board-nav-border;
 
-    @include media-query(875px) {
-      //margin-left: 2px;
+    @include media-query($on-mobile) {
+      border-bottom: 0;
+      &.active {
+        background-color: $brand-accent-400;
+      }
     }
 
     &:first-child {
