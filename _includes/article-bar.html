@@ -31,8 +31,7 @@
                  nav-item">
         <a class="nav-link {% if subitem.group %}v2-accordion-heading{% endif %}"
            {% unless subitem.group %}
-           href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endunless %}
-        >
+           href="{{site.baseurl}}/{{include.board}}{{ subitem.url }}"{% endunless %}>
           
           <!-- <md-icon ng-class="{ 'rotate-90': $group.isOpen }"
                   class="article-group-foldicon"
