@@ -44,10 +44,6 @@ $bookbar-height: 51px;
       // for the ripple
       position: relative;
 
-      .bookbar-group {
-        //background: #f5f5f5;
-      }
-
       > .nav-link {
         color:rgba(255,255,255,.87);
         @include media-breakpoint-up(sm) {

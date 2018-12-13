@@ -8,7 +8,7 @@
 - menu: ViZdom
   url: /vizdom/
   subitems:
-    - menu: Intro
-      url: /vizdom/intro/
+    - menu: Content
+      url: /vizdom/content/
 - menu: ViCook
   url: /vicook/

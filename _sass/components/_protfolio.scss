@@ -189,12 +189,8 @@
 }
 .compliances {
   padding:20px 0 !important;
-  background-color: #2196F3 !important;
+  background-color: $brand-100;
   box-shadow: 0 4px 4px -1px rgba(0,0,0,0.28);
-
-  * {
-    color:#FFF;
-  }
 
   h1 {
     font-size:18px;
