@@ -8,7 +8,7 @@ readiness:
    - is-active
 ---
 
-![]({{site.baseurl}}/images/comics/ViZdom-Title.png)
+![]({{site.baseurl}}/images/comics/ViZdom-Title.jpg)
 
 # Fun, Inspiring, Memorable
 
