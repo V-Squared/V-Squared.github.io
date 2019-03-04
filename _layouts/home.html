@@ -14,8 +14,7 @@
   {% include footer.html %}
   
   <script>
-    
-    $(function(){
+  
       $.getJSON("./_data/repository.json",function(repos) {
         $.each(repos,function(i, repo) {
           
@@ -73,7 +72,6 @@
                           allContent.removeClass("active");
                           content.addClass("active");
                         });
-                      });
                     </script>
                     
                   </body>
