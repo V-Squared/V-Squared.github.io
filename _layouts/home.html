@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body ng-controller="mainController as vm">
-
-    {% include board-bar.html %}
-
-    <div class="home-content">
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<body ng-controller="mainController as vm">
+  
+  {% include board-bar.html %}
+  
+  <div class="home-content">
+    {{ content }}
+  </div>
+  
+  {% include footer.html %}
+  
+  <script>
+    
+    $(function(){
+      $.getJSON("./_data/repository.json",function(repos) {
+        $.each(repos,function(i, repo) {
+          
+          var tabContentItemHTML = '';
+          
+          $.each(repo.items,function(i, data) {
+            console.log("goodmorning");
+            tabContentItemHTML += 
+            '<div class="col-sm-4">' + 
+              '<figure class="card portfolio-card mb-5 overlay-hover" ' + (data.borderColor ? 'style="border: 1px solid ' + data.borderColor + '"' : '') + '>' + 
+                '<img class="card-img-top img-fluid" src="' + data.img + '">' +
+                '<div class="row no-gutters progess-bar profolio-progress">' +
+                  '<div data-toggle="tooltip" title="<h3 class=\'mb-0\'>Create</h3>Creating the Concept and Specs while getting Community\'s feedback. Cast your Vote or propose a Feature." class="col ' + data.progress[0] + '"></div>' +
+                  '<div data-toggle="tooltip" title="<h3 class=\'mb-0\'>Develop</h3>Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." class="col ' + data.progress[1] + '"></div>' +
+                  '<div data-toggle="tooltip" title="<h3 class=\'mb-0\'>Beta</h3>Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests." class="col ' + data.progress[2] + '"></div>' +
+                  '<div data-toggle="tooltip" title="<h3 class=\'mb-0\'>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="col ' + data.progress[3] + '"></div>' +
+                  '</div>' +
+                  '<figcaption class="card-body overlay-bottom">' + 
+                    '<h5 class="card-title">' + data.name + '</h5>' +
+                    '<p class="card-text">' + data.description + '</p>' +  
+                    (data.webLink ? '<br><a href="' + data.webLink + '">Read More</a>': '') +
+                    '</figcaption>' +
+                    '</figure>' +
+                    '</div>';
+                  });
+                  
+                  var tabHeadingHTML = '<li class="nav-item">' + 
+                    '<a class="nav-link '+ (i == 0 ? 'active show' : '') + '" data-toggle="tab" href="#' + repo.id +'">'
+                      + repo.shortName + 
+                      '</a></li>';
+                      
+                      var tabContentHTML = 
+                      '<div class="tab-pane fade ' + (i == 0 ? 'active show' : '') +  '" id="' + repo.id + '" role="tabpanel">' + 
+                        '<div class="container">' + 
+                          '<p><em>' + repo.description + '</em> → <a href="' + repo.link + '">More</a></p>' +
+                          '<div class="row">' +
+                            tabContentItemHTML +
+                            '</div>' +
+                            '</div>' +
+                            '</div>';
+                            
+                            $("#repo-tabs").append(tabHeadingHTML);
+                            
+                            $("#repo-content").append(tabContentHTML);
+                          });
+                        });
+                        
+                        $("[v2-switch-item]").on("click",function() {
+                          var allTabs = $(this).parent().children();
+                          allTabs.removeClass("active");
+                          $(this).addClass("active");
+                          var index = $(this).attr("v2-switch-item");
+                          var allContent = $(this).closest("[v2-switcher]").children("[v2-switch-pane]").children();
+                          var content = $(this).closest("[v2-switcher]").children("[v2-switch-pane]").children().eq(index);
+                          allContent.removeClass("active");
+                          content.addClass("active");
+                        });
+                      });
+                    </script>
+                    
+                  </body>
+                  
+                  </html>

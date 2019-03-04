@@ -1,3 +1,11 @@
+.profolio-progress {
+  position: absolute;
+  top:0;
+  width:100%;
+  left: 0;
+  margin: 0;
+}
+
 .table-of-content {
   background:#039be5;
   z-index:9999 !important;
@@ -88,9 +96,9 @@
 .tab-content>.uk-active {
   display: block !important;
 }
-.tab-content>.tab-pane {
-  display: none;
-}
+// .tab-content>.tab-pane {
+//   display: none;
+// }
 .uib-tab {
   flex: 1 0 0;
   -webkit-flex: 1 0 0;
@@ -199,26 +207,16 @@
 .compliances-row {
   padding-bottom: 5px;
   
-  h3 {
-    color:#FFF;
+  svg {
+    max-width: 100%;
+    max-height: 125px;
+    filter: grayscale(100%);
     cursor: pointer;
-    text-align:center;
-  }
+    transition: all 0.3s ease-in-out;
 
-  #github-compliances h3:hover {
-    color:#6CC644;
-  }
-  #open-source-compliances h3:hover {
-    color:#3DA639;
-  }
-  #open-hardware-compliances h3:hover {
-    color:#0099B0;
-  }
-  #cc-compliances h3:hover {
-    color:#000;
-  }
-  #arduino-compliances h3:hover {
-    color:#00929F;
+    &:hover {
+      filter: grayscale(0%);
+    }
   }
 }
 

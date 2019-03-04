@@ -1,0 +1,17 @@
+.overlay-hover {
+  overflow: hidden;
+
+  &:hover {
+    .overlay-bottom {
+      transform: translateY(0);
+    }
+  }
+}
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  background: rgba(238,238,238,0.7);
+}

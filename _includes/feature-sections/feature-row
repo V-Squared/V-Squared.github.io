@@ -20,7 +20,7 @@
 <div class="feature-section{% if include.class %} {{include.class}}{% endif %}"
      id="{{include.id}}"
      {% if include.background %}style="background: {{include.background}}"{% endif %}>
-  <div class="uk-container uk-container-center">
+  <div class="container">
     <div layout="row" class="uk-text-{{align}}">
       {% for feature in feature_row %}
       <div flex>
@@ -53,7 +53,7 @@
 <div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
      id="{{include.id}}"
      {% if include.background %}style="background: {{include.background}}"{% endif %}>
-  <div class="uk-container uk-container-center">
+  <div class="container">
     {% for feature in feature_row %}
     <div layout="row" layout-xs="column" layout-align="none center" class="uk-text-{{align}}">
       {% if feature.image %}
@@ -86,7 +86,7 @@
 <div class="feature-section {% if include.class %}{{include.class}}{% endif %}"
      id="{{include.id}}"
      {% if include.background %}style="background: {{include.background}}"{% endif %}>
-  <div class="uk-container uk-container-center">
+  <div class="container">
     {% for feature in feature_row %}
     <div layout="row" layout-xs="column" layout-align="none center" class="uk-text-{{align}}">
       <div flex>

@@ -25,7 +25,8 @@ $(function DocumentReady() {
     }, 300);
   });
 
-  $("[data-toggle*='tooltip']").tooltip({
+  $("body").tooltip({
+    selector: "[data-toggle*='tooltip']",
     placement: "top",
     html: true
   });

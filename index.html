@@ -15,7 +15,7 @@ zero-cost:
 timeline:
 - title: Timeline
   desc: 'We began research of V² Modular PC in 2011 and started prototyping in 2013. Now in 2016 we are ready to go to production. Please hover / tab on the timeline for more details.'
-products: 
+trailblazer-products: 
 - title: Trailblazer Products
   desc: 'Specifications of a new standard on the web is one thing. Having a finished product in hand for testing is quite another. This is where Trailblazer Products come in: **1)** Proof of concept of the V² Standard **2)** Demo the value of V² Standard with real products **3)** Early adopters can buy Trailblazer Products for testing / reviewing or simply personal use before mass production becomes available. **4)** Funding of V² Standard development.'
 progress:
@@ -46,26 +46,26 @@ cta:
 
     <div class="container">
 
-      <div class="row compliances-row">
-        <div class="col" id="github-compliances">
+      <div class="row compliances-row align-items-center">
+        <div class="col" id="github-compliances" data-toggle="tooltip" title="We host all projects, web sites and know how on the leading Project Hosting Web Site. Project management is done with its ticketing system &#34;GitHub Issues&#34; .">
           <!-- <h3 data-toggle="tooltip" title="We host all projects, web sites and know how on the leading Project Hosting Web Site. Project management is done with its ticketing system &#34;GitHub Issues&#34; .">GitHub</h3> -->
-          {% comment %}{% include icons/compliances/Octicons-logo-github.svg %}{% endcomment  %}
+          {% include icons/compliances/Octicons-logo-github.svg %}
         </div>
-        <div class="col" id="open-source-compliances">
+        <div class="col" id="open-source-compliances" data-toggle="tooltip" title="V² Initiative is compliant with all Guidelines of the Open Source Initiative. Use V² or contribute to it with confidence.">
           <!-- <h3 data-toggle="tooltip" title="V² Initiative is compliant with all Guidelines of the Open Source Initiative. Use V² or contribute to it with confidence.">Open Source Initiative</h3> -->
-          {% comment %}{% include icons/compliances/Open_source.svg %}{% endcomment  %}
+          {% include icons/compliances/Open_source.svg %}
         </div>
-        <div class="col" id="open-hardware-compliances">
+        <div class="col" id="open-hardware-compliances" data-toggle="tooltip" title="All our open source hardware projects are compliant to the guidelines of the Open Source Hardware Association and thus earned the Open Source Hardware Logo.">
           <!-- <h3 data-toggle="tooltip" title="All our open source hardware projects are compliant to the guidelines of the Open Source Hardware Association and thus earned the Open Source Hardware Logo.">Open Hardware</h3> -->
-          {% comment %}{% include icons/compliances/Open-source-hardware-logo.svg %}{% endcomment  %}
+          {% include icons/compliances/Open-source-hardware-logo.svg %}
         </div>
-        <div class="col" id="cc-compliances">
-          <!-- <h3 data-toggle="tooltip" title="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">CC</h3> -->
-          {% comment %}{% include icons/compliances/Cc-logo-circle.svg %}{% endcomment %}
-        </div>
-        <div class="col" id="arduino-compliances">
+        <!-- <div class="col" id="cc-compliances" data-toggle="tooltip" title="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">
+          <h3 data-toggle="tooltip" title="Creative Commons License is the most free to copy license in the Open Source Hardware world. Copy our designs with confidence for any intended use.">CC</h3>
+          {% comment %}{% include icons/compliances/cc.logo.svg %}{% endcomment %}
+        </div> -->
+        <div class="col" id="arduino-compliances" data-toggle="tooltip" title="The leading Open Source Micro Controller Platform. We use it for advanced embedded functions. Easy to develop and document. Low cost in mass production.">
           <!-- <h3 data-toggle="tooltip" title="The leading Open Source Micro Controller Platform. We use it for advanced embedded functions. Easy to develop and document. Low cost in mass production.">Arduino</h3> -->
-          {% comment %}{% include icons/compliances/ArduinoLogo.svg %}{% endcomment %}
+          {% include icons/compliances/ArduinoLogo.svg %}
         </div>
       </div>
 
@@ -97,20 +97,20 @@ cta:
 
   {% include feature-sections/feature-row id="timeline" %}
 
-  {% include feature-sections/feature-row id="products" %}
+  {% include feature-sections/feature-row id="trailblazer-products" %}
 
   {% include feature-sections/feature-row id="progress" %}
 
   <div class="feature-section" id="puzzle-svg">
     <div class="container">
-      <div layout="row" layout-feature>
-        <div flex>
+      <div class="row" layout-feature>
+        <div class="col-sm-6">
           <h1>Delivering all pieces of the Puzzle</h1>
           <p>V² mission is to make Modular Mini and All-In-One Computer mainstream. To speed up the process we are not only delivering the V² Standard. Hover (or tab on mobile) over each piece of the puzzle to see how it contributes to the whole.</p>
         </div>
-        <div flex>
-          <div class="svg">
-            <v2-switcher>
+        <div class="col-sm-6">
+          <div>
+            <div id="puzzle-piece" v2-switcher>
               <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" style="max-width: 450px" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 807.43203 804.63209" xmlns:dc="http://purl.org/dc/elements/1.1/">
                 <style>
                   .overlay-path > g {
@@ -122,11 +122,14 @@ cta:
                   .overlay-path > g:hover > path:last-of-type {
                     fill-opacity: 0;
                   }
-                  .svg v2-switch-text {
+                  .overlay-path > g.active > path:last-of-type {
+                    fill-opacity: 0;
+                  }
+                  .svg div {
                     max-width: 450px;
                     margin-top:20px;
                   }
-                  .svg v2-switch-text > p {
+                  .svg div > p {
                     text-align: justify;
                   }
                   .md-button {
@@ -236,34 +239,36 @@ cta:
                   </g>
                 </g>
               </svg>
-              <v2-switch-text>
-                <p>Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow. <br> <md-button href="#tab1-2" class="md-primary">Trailblazer Products</md-button></p>
-              </v2-switch-text>
-              <v2-switch-text>
-                <p>PC Know How & Tools.<br><md-button href="#" class="md-primary">For DIY</md-button></p>
-              </v2-switch-text>
-              <v2-switch-text>
-                <p>Lower your cost and increase computer sales.<br><md-button href="#" class="md-primary">For Retail</md-button></a></p>
-              </v2-switch-text>
-              <v2-switch-text>
-                How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user.<br><md-button href="#" class="md-primary">Spreading V²</md-button>
-              </v2-switch-text>
-              <v2-switch-text>
-                All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC.<br><md-button href="#" class="md-primary">The Missing Standard</md-button></a>
-              </v2-switch-text>
-              <v2-switch-text>
-                Everything you need to develop your new products faster at lower cost.<br><md- href="#" class="md-primary">For Maker</md-button>
-              </v2-switch-text>
-              <v2-switch-text>
-                Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help.<br><md-button class="md-primary" href="#">Plan</md-button>
-              </v2-switch-text>
-              <v2-switch-text>
-                About the people, process and legal stuff creating the V² Open Standards.<br><md-button class="md-primary" href="#">Organization</md-button>
-              </v2-switch-text>
-              <v2-switch-text>
-                V² Open Source Web Apps simplify experiencing or building V² PCs.<br><md-button class="md-primary" href="#">Apps</md-button>
-              </v2-switch-text>
-            </v2-switcher>
+              <div class="tab-content" v2-switch-pane>
+                <div class="tab-pane" v2-switch-text>
+                  <p>Real products available early on, showing what you can build with V² Standards. Buy today what is to become mainstream tomorrow. <br> <md-button href="#tab1-2" class="md-primary">Trailblazer Products</md-button></p>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  <p>PC Know How & Tools.<br><md-button href="#" class="md-primary">For DIY</md-button></p>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  <p>Lower your cost and increase computer sales.<br><md-button href="#" class="md-primary">For Retail</md-button></a></p>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user.<br><md-button href="#" class="md-primary">Spreading V²</md-button>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC.<br><md-button href="#" class="md-primary">The Missing Standard</md-button></a>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  Everything you need to develop your new products faster at lower cost.<br><md- href="#" class="md-primary">For Maker</md-button>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help.<br><md-button class="md-primary" href="#">Plan</md-button>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  About the people, process and legal stuff creating the V² Open Standards.<br><md-button class="md-primary" href="#">Organization</md-button>
+                </div>
+                <div class="tab-pane" v2-switch-text>
+                  V² Open Source Web Apps simplify experiencing or building V² PCs.<br><md-button class="md-primary" href="#">Apps</md-button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -278,6 +283,16 @@ cta:
   <!--          Portfolio         -->
   <!-- ************************** -->
 
+  <div class="bg-primary">
+    <div class="container">
+      <ul class="nav nav-tabs bg-primary mx-0" role="tablist" id="repo-tabs"></ul>
+    </div>
+  </div>
+
+  <div class="tab-content" id="repo-content"></div>
+
+
+<!--
 
   <uib-tabset id="big-picture" class="portfolio" justified>
     <uib-tab heading="[[repositorySection.shortName]]" ng-repeat="repositorySection in json.repositories" id="[[repositorySection.id]]">
@@ -287,8 +302,8 @@ cta:
 
         <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
           <div ng-repeat="repository in repositorySection.items">
-            <!--<a ng-href="[[repository.gitLink]]">GitHub</a>
-            <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>-->
+            <a ng-href="[[repository.gitLink]]">GitHub</a>
+            <a ng-if="repository.webLink" ng-href="[[repository.webLink]]">Website</a>
             <figure ng-style="repository.borderColor ? {border: '0.7pt solid ' + repository.borderColor} : {}" class="uk-overlay uk-overlay-hover">
               <img ng-src="[[repository.img]]">
               <h2>[[repository.name]]</h2>
@@ -313,3 +328,4 @@ cta:
     </uib-tab>
   </uib-tabset>
 </div>
+-->

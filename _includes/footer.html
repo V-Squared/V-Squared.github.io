@@ -2,7 +2,7 @@
 
   <h2 class="footer-heading">{{ site.title }}</h2>
 
-  <div class="uk-grid">
+  <div class="row">
     <!--<div class="footer-col footer-col-1">
       <ul class="contact-list">
         <li>{{ site.title }}</li>
@@ -10,12 +10,12 @@
       </ul>
     </div>-->
     
-    <div class="uk-width-small-2-3">
+    <div class="col-sm-8">
       <p>{{ site.description }}</p>
     </div>
 
-    <div class="uk-width-small-1-3">
-      <ul class="social-media-list">
+    <div class="col-sm-4">
+      <ul class="social-media-list d-flex">
         {% if site.github_username %}
         <li>
           <a class="btn btn-primary bmd-btn-icon" href="https://github.com/{{ site.github_username }}">
@@ -37,14 +37,20 @@
     </div>
   </div>
   
-  <!-- <div class="uk-grid footer-column" load-repository="{{site.baseurl}}/repository.json">
-    <div ng-repeat="repositorySection in json.repositories">
-      <h6>[[repositorySection.name]]</h6>
+  <div class="row footer-column">
+    {% for repositorySection in site.data.repository %}
+    <div class="col-md">
+      <h6>{{repositorySection.name}}</h6>
       <ul class="footer-list">
-        <li ng-repeat="repository in repositorySection.items"><a ng-if="repository.webLink"><span style="color:#2a7ae2">[[repository.name]]</span></a><span ng-if="!repository.webLink">[[repository.name]]</span></li>
+        {% for repository in repositorySection.items %}
+        <li>{% if repository.webLink %}<a><span style="color:#2a7ae2">{{repository.name}}</span></a>
+          {% else %}<span>{{repository.name}}</span></li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
-  </div> -->
+    {% endfor %}
+  </div>
   
 </footer>
 
