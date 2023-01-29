@@ -177,7 +177,7 @@ We started our journey in summer 2011. When looking back all that we already hav
 
 ## Overview
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/illustrations/v2-road-map/v2-road-map-2016-next.png)
+![]({{site.baseurl}}/images/illustrations/v2-road-map/v2-road-map-2016-next.png)
 
 {:.uk-table.uk-table-hover.table-header-row-column}
 

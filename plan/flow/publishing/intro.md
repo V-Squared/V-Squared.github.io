@@ -249,22 +249,22 @@ If you are managing a team of writers and publishers in a workplace without docu
 |     [Markup Styling][14] | Specs for CSS programmers.                               |
 |     [Business Model][15] | Return of Investment of writing for V²Core and V²Shop.  |
 
-[0]: https://v-squared.github.io/plan/flow/publishing/intro/
-[1]: https://v-squared.github.io/plan/flow/publishing/workflow/
-[2]: https://v-squared.github.io/plan/flow/publishing/teamwork/
-[3]: https://v-squared.github.io/plan/flow/publishing/structured/
-[4]: https://v-squared.github.io/plan/flow/publishing/markdown-markup/
-[5]: https://v-squared.github.io/plan/flow/publishing/markdown-tools/
-[6]: https://v-squared.github.io/plan/flow/publishing/appetizing/
-[7]: https://v-squared.github.io/plan/flow/publishing/adding-articles/
-[8]: https://v-squared.github.io/plan/flow/publishing/publishing/
-[9]: https://v-squared.github.io/plan/flow/publishing/producing/
-[10]: https://v-squared.github.io/plan/flow/publishing/template-article/
-[11]: https://v-squared.github.io/plan/flow/publishing/template-issue/
-[12]: https://v-squared.github.io/plan/flow/publishing/preflight/
-[13]: https://v-squared.github.io/plan/flow/publishing/art-for-writing/
-[14]: https://v-squared.github.io/plan/flow/publishing/styling/
-[15]: https://v-squared.github.io/plan/flow/publishing/business/
+[0]: {{site.baseurl}}/plan/flow/publishing/intro/
+[1]: {{site.baseurl}}/plan/flow/publishing/workflow/
+[2]: {{site.baseurl}}/plan/flow/publishing/teamwork/
+[3]: {{site.baseurl}}/plan/flow/publishing/structured/
+[4]: {{site.baseurl}}/plan/flow/publishing/markdown-markup/
+[5]: {{site.baseurl}}/plan/flow/publishing/markdown-tools/
+[6]: {{site.baseurl}}/plan/flow/publishing/appetizing/
+[7]: {{site.baseurl}}/plan/flow/publishing/adding-articles/
+[8]: {{site.baseurl}}/plan/flow/publishing/publishing/
+[9]: {{site.baseurl}}/plan/flow/publishing/producing/
+[10]: {{site.baseurl}}/plan/flow/publishing/template-article/
+[11]: {{site.baseurl}}/plan/flow/publishing/template-issue/
+[12]: {{site.baseurl}}/plan/flow/publishing/preflight/
+[13]: {{site.baseurl}}/plan/flow/publishing/art-for-writing/
+[14]: {{site.baseurl}}/plan/flow/publishing/styling/
+[15]: {{site.baseurl}}/plan/flow/publishing/business/
 
 
 

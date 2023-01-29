@@ -4,7 +4,7 @@ title: Truly Portable DIY AiO
 subtitle: DIY Project to build a portable All-in-One from scratch.
 abstract: This is an in-house project to build a fully functional truly portable All-in-One PCs by our various teams. The goal is to completely experience the truly portable All-in-One form factor before our golden sample becomes available. Using this new form factor for real in different teams will inform us on fine tuning details on our ViCase-Stand design befor taping it out to production. This is a fully functionl All-in-One PC design with the unique feature of being truly portable. We shared it here in case someone finds it useful. You can give feedback or request features by pressing the flow button and open the Article Issue, then simply post us a comment.
 issueNo: 217
-visualURL: https://v-squared.github.io/diy/aio/portable-diy-aio/Title-v2-DiY-AiO.jpg
+visualURL: /diy/aio/portable-diy-aio/Title-v2-DiY-AiO.jpg
 contents:
   - name: Introduction
     url: introduction
@@ -84,7 +84,7 @@ readiness:
 
 __Quick To Change Location:__ We wanted to be able to quickly change where we work. Once you have the freedom to do so you will be surprised how often you actually want to: Be it to quickly switch who to work with, or to work on the balcony on a sunny day, and more ...
 
-__Full Desktop:__ We could have used a Laptop. But we wanted a full desktop with all its benefits, such as higher value for money, easier upgradeability, longer service life, higher performance.
+__Full Desktop:__ We could have used a Laptop. But we wanted a full desktop with all its benefits, such as higher value for money, easier upgradeability, longer service life, higher performance. 
 
 __Big Screen:__ The big 28" screen of an All-in-One is simply a more productive tool than the small 13" screen of a laptop.
 
@@ -136,86 +136,86 @@ __Note:__ This setup is not light. Depending on screen size and wood type you en
 
 __Simple & Elegant__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-diy-aio-front-view.jpg)
+![](/diy/aio/portable-diy-aio/v2-diy-aio-front-view.jpg)
 
 This is front view of the DIY All-in-One with the keyboard placed in the shelf.
 
 __Grip__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/headset-hook-2.jpg)
+![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 I used the very first Mac which came with a carry grip. I have missed the grip ever since on all my subsequent computers. This one is placed in the center of gravity with a nice smooth shape to not cut into your fingers.
 
 __Carrying via Hand Grip__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/carry-via-grip.jpg)
+![](/diy/aio/portable-diy-aio/carry-via-grip.jpg)
 
 The carry grip is sufficient for short distances, say from your work room to the living room. For reference, this is a 1.8 m tall person carrying an All-in-One with 28" display.
 
 
 __Carrying via Shoulder Strap__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/carry-via-strap.jpg)
+![](/diy/aio/portable-diy-aio/carry-via-strap.jpg)
 
 You can use a shoulder strap for longer walks.
 
 __Single Cable Connection__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/only-one-cable.jpg)
+![](/diy/aio/portable-diy-aio/only-one-cable.jpg)
 
 Changing your location is so fast, because you only need to handle this one power cable.
 
 __Microphone & Speaker__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/speaker-and-microphone.jpg)
+![](/diy/aio/portable-diy-aio/speaker-and-microphone.jpg)
 
 Placement of your speaker and microphone behind your display. They are connected with cables through the cable break outs as shown below.
 
 __Shelf for Mouse & Utensils__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/shelf-with-utensils.jpg)
+![](/diy/aio/portable-diy-aio/shelf-with-utensils.jpg)
 
 The integrated shelf can carry your mouse, pens, eraser, and so forth.
 
 __Keyboard in Shelf__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/shelf-with-keyboard.jpg)
+![](/diy/aio/portable-diy-aio/shelf-with-keyboard.jpg)
 
 It also fits a full size keyboard, keeping your desk free for other tasks or stores your keyboard when carrying your workstation. And cat owners will find their PC still sleeping in the morning :-).
 
 __Quiet Airflow__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/airflow.jpg)
+![](/diy/aio/portable-diy-aio/airflow.jpg)
 
 The CPU cooler sucks in cold air (blue arrow), leading to very efficient and quiet cooling. The hot air exhausts through the two grills on the side (red arrow). This is a simple airflow, yet more efficient and quiet than that of common desktop cases.
 
 __Power On, Status LED & USB__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/power-status-usb.jpg)
+![](/diy/aio/portable-diy-aio/power-status-usb.jpg)
 
 The round thing is where you power on / off your PC, check its status LEDs or plug in other temporary USB devices.
 
 __Headset Hook__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/headset-hook-2.jpg)
+![](/diy/aio/portable-diy-aio/headset-hook-2.jpg)
 
 When not in use this hook keeps your headset of your desk.
 
 __Display Tilt__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/titl-display.jpg)
+![](/diy/aio/portable-diy-aio/titl-display.jpg)
 
 You can adjust the display tilt at the time when you mount your display.
 
 __Easy Access to IO__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/easy-access.jpg)
+![](/diy/aio/portable-diy-aio/easy-access.jpg)
 
 We placed the IO panel facing upwards. This gives you easy access to it. Yet cable mess is reduced to a minimum as all cables can enter into the two holes left and right to the IO panel.
 
 __Hidden Cables__
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/hidden-cables-b.jpg)
+![](/diy/aio/portable-diy-aio/hidden-cables-b.jpg)
 
 All cables are inside the cover and hidden from sight. This gets cables out of the way when carrying your workstation and also keeps the cosmetic appearance clean.
 
@@ -227,7 +227,7 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 
 ### Schematics
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
+![](/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
 
 
 {:.uk-table.col-head.col-blue}
@@ -236,15 +236,15 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | [Schematic][1] | [Schematic][2] | [Schematic][3] | [Schematic][4] | 
 
-[1]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.pdf
-[2]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.svg
-[3]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png
-[4]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.dxf
+[1]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.pdf
+[2]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.svg
+[3]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png
+[4]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.dxf
 
 
 ### Mobo & Disk Drill Template
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png)
+![](/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png)
 
 {:.uk-table.col-head.col-blue}
 
@@ -252,12 +252,12 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 |:-------------------:|:-------------------:|
 | [Drill Template][5] | [Drill Template][6] |
 
-[5]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.svg
-[6]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png
+[5]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.svg
+[6]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Drill-Template.png
 
 ### Laser Cut Cover
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover-540p.png)
+![](/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover-540p.png)
 
 {:.uk-table.col-head.col-blue}
 
@@ -265,15 +265,15 @@ All cables are inside the cover and hidden from sight. This gets cables out of t
 |:----------:|:----------:|:----------:|:-----------:|
 | [Cover][7] | [Cover][8] | [Cover][9] | [Cover][10] | 
 
-[7]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.pdf
-[8]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.svg
-[9]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.png
-[10]: https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.dxf
+[7]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.pdf
+[8]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.svg
+[9]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.png
+[10]: /diy/aio/portable-diy-aio/v2-DIY-AiO-Cover.dxf
 
 
 ## Call Outs
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
+![](/diy/aio/portable-diy-aio/v2-DIY-AiO-Schematic.png)
 
 {:.uk-table.col-head.col-blue}
 
@@ -349,7 +349,7 @@ This is the joy of DIY. Express yourself. Like to have a natural Oak computer. T
 
 ### Mounting Side Board
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-brackets-boards.jpg)
+![](/diy/aio/portable-diy-aio/assy-brackets-boards.jpg)
 
 1. Place first Side Board on Base Board. Fix it with 2 L-brackets. Each L-brackets use 4 pcs of 4 mm Ø wood screws, pan head, 15 mm long.
 2. Repeat process for second Side Board.
@@ -359,19 +359,19 @@ This is the joy of DIY. Express yourself. Like to have a natural Oak computer. T
 
 ### Mounting AC Cable Socket
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-conduit-strap.jpg)
+![](/diy/aio/portable-diy-aio/assy-conduit-strap.jpg)
 
 Our solution to mount the AC Y-Cable is unconventional, yet effective and safe. Use a conduit strap like in the picture above. If you can not find one of the right size you can easily cut one from a used soda can (Coke can).
 
 ### Overview Placement Electronics
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-electronics-placement.jpg)
+![](/diy/aio/portable-diy-aio/assy-electronics-placement.jpg)
  
  You parts and arrangement may vary. But the idea is always the same. Place the parts where is place and so that the wiring is convenient. Fix the parts with wood screws Ø 4 mm and length of 15 mm. Pre drilling is not needed.
 
 ### Detail Placement Electronics
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-electronics-details.jpg)
+![](/diy/aio/portable-diy-aio/assy-electronics-details.jpg)
 
 A more detailed view.
 
@@ -393,7 +393,7 @@ __How DC GND is Connected to AC Earth__
 
 ## Cover
 
-![](https://v-squared.github.io/diy/aio/portable-diy-aio/assy-lasercut-cover.jpg)
+![](/diy/aio/portable-diy-aio/assy-lasercut-cover.jpg)
 
 
 # Shopping

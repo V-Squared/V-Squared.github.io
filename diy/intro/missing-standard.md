@@ -126,25 +126,25 @@ List of current problems of Desktop PCs and how V² Modular PC Standards solve t
 
 ### Problem 1: Missing Standards
 
-The table → [PC Core Standards](https://v-squared.github.io/diy/compare/missing-standard/#modular-pc-standards) makes it obvious just how many standards are missing. Whereas the ATX Desktop PC provides all essential standards, the Mini and All-In-One PCs however are basically not standardized. This leads to a lot of problems described in the table below:
+The table → [PC Core Standards]({{site.baseurl}}/diy/compare/missing-standard/#modular-pc-standards) makes it obvious just how many standards are missing. Whereas the ATX Desktop PC provides all essential standards, the Mini and All-In-One PCs however are basically not standardized. This leads to a lot of problems described in the table below:
 
 {% include table id="table-symptoms-missing-standards" %}
 
 
 ### Solution 1: Providing Missing Standards
 
-The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards](https://v-squared.github.io/diy/compare/missing-standard/#mission-v-squared) further down of this document.
+The solution is obvious: Develop, publish and market the missing standards. This is exactly what V² Modular PC standards is all about. It is spelled out in → [Mission of V² Modular PC Standards]({{site.baseurl}}/diy/compare/missing-standard/#mission-v-squared) further down of this document.
 
 ## Active Development {#active-development}
 
 ### Problem 2: ATX has no Active Development
 
-The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening, at the very least a visitor would not know how and where to contribute to. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards](https://v-squared.github.io/diy/compare/missing-standard/#missing-standards).
+The set of ATX standards was developed by Intel and then published in 1995. It resides as a passive download repository of PDF files on [www.formfactors.org](//www.formfactors.org). It has no True North, no forum, no bylaws, no contribution workflow. As a consequence no active development is happening, at the very least a visitor would not know how and where to contribute to. In over two decades the ATX Desktop PC has not adapted to the changing user demands of smaller and quieter PCs. This is the root cause that the form factors Mini PC and All-In-One PC have never been standardized. Leading to the problem of the → [Missing Standards]({{site.baseurl}}/diy/compare/missing-standard/#missing-standards).
 
 
 ### Solution 2: V² Community Development Platform
 
-V² Modular PC is actively developed by its community. It resides on [https://v-squared.github.io/](https://v-squared.github.io/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow](https://v-squared.github.io/diy/compare/missing-standard/#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. How we do this exactly is described in more details → [V² Community Development Platform](community-development) further down in this white paper.
+V² Modular PC is actively developed by its community. It resides on [{{site.baseurl}}/]({{site.baseurl}}/). When finished it not only hosts the standard documents, but a lot of additional infrastructure to assist makers, retailer and users. All documents are hosted on GitHub as *Open Source* under *Creative Commons License*. Development and contribution is documented as a → [Standardized Contribution Workflow]({{site.baseurl}}/diy/compare/missing-standard/#standardized-workflow). Anyone with a *GitHub* account can easily contribute. It works exactly like *Wikipedia* where a large community constantly updates its content. How we do this exactly is described in more details → [V² Community Development Platform](community-development) further down in this white paper.
 
 
 
@@ -224,7 +224,7 @@ At V² we are a global community of architects, thinkers, engineers and marketee
 Desktop ATX computers were the best selling PC form factor, because the ATX standard made them to be lowest cost, fastest to develop, easiest to build and upgrade. But this de facto standard is 30 years old and was never updated to fit the needs of mini and all-in-one form factor. The V² Standard fills this vacuum. By using the exact same principles that the ATX standard used on desktop PCs, the V² Standard is lowering the cost, increasing development speed and performance, and simplifying upgrades for Mini and All-In-One PCs. In doing so, V² is breathing new life into mini and All-In-One PCs.
 
 ## More ...
-For more information on benefits, Life after V² and Principles of V² → [True North of V²](https://v-squared.github.io/plan/true-north/)
+For more information on benefits, Life after V² and Principles of V² → [True North of V²]({{site.baseurl}}/plan/true-north/)
 
 
 # Community Development Platform {#community-development}
@@ -238,17 +238,17 @@ For more information on benefits, Life after V² and Principles of V² → [True
 
 ## Leading Contribution {#leading-contribution}
 
-Developing standards means to coordinate a lot of work by many contributors over a very long period of time. We have dedicated a complete board (section) of our web site by the name [V²Plan](https://v-squared.github.io/plan/) to do just that. Below is a list of the key documents to get you started:
+Developing standards means to coordinate a lot of work by many contributors over a very long period of time. We have dedicated a complete board (section) of our web site by the name [V²Plan]({{site.baseurl}}/plan/) to do just that. Below is a list of the key documents to get you started:
 
 {:.uk-table.twin-head-desc.twin-blue}
 
 |              Workflows | Description |
 |-----------------------:|:-------------|
-|          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guide for us to reach our targets. Read more → [V² True North](https://v-squared.github.io/plan/true-north/)|
-|            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map](https://v-squared.github.io/plan/road-map/)|
-|              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard](https://v-squared.github.io/plan/dashboard/) |
+|          V² True North | V² Mission, Targets, Benefits, Life after V² and Principles of V². The guide for us to reach our targets. Read more → [V² True North]({{site.baseurl}}/plan/true-north/)|
+|            V² Road Map | The *V²Road Map* shows the way to reach our *V² True North* via consecutive *Campaigns*. A campaign is a group of *Milestones* and lasts about 3 months while focusing all our efforts. Read more → [V² Road Map]({{site.baseurl}}/plan/road-map/)|
+|              Dashboard | Complete overview of our current development convenient in one place. Read more → [V² Dashboard]({{site.baseurl}}/plan/dashboard/) |
 
-For a complete overview → [V²Plan](https://v-squared.github.io/plan/).
+For a complete overview → [V²Plan]({{site.baseurl}}/plan/).
 
 
 
@@ -260,10 +260,10 @@ Standardized and published workflow on creating, publishing, improving and maint
 
 |              Workflows | Description |
 |-----------------------:|:-------------|
-|          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute](https://v-squared.github.io/plan/contribute/)|
-|               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile](https://v-squared.github.io/plan/agile/)|
-|    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles](https://v-squared.github.io/plan/flow/writing/)|
-|             V²CAM.Flow | V²Case Trailblazer Product Cases are manufactured via CNC cut. We found that there is no standard on how to go effectively from CAD → CAM → CNC. As such handing over a CNC project to the CNC shop is inefficient. V²CAM.Flow is an attempt to solve this problem for us and possibly also for the CNC industry. Read more → [V²CAM.Flow](https://v-squared.github.io/plan/flow/mechanical/cad-cam-cnc/)|
+|          V² Contribute | Found a bug, need a feature or simply want to help? V²Flow makes contributing as easy as Wikipedia. Read more → [V² Contribute]({{site.baseurl}}/plan/contribute/)|
+|               V² Agile | Consistent documentation of the implementation of the Agile Development and Toyota Production System for V². Including custom developed tools and mashup to expand the capabilities of GitHub as Agile Project Management System.  Read more → [V² Agile]({{site.baseurl}}/plan/agile/)|
+|    V² Writing Articles | *Style Guides*, *Tutorials* and *Workflow-Templates* on writing articles in high quality ready to be published on V². Read more → [Introduction on Writing Articles]({{site.baseurl}}/plan/flow/writing/)|
+|             V²CAM.Flow | V²Case Trailblazer Product Cases are manufactured via CNC cut. We found that there is no standard on how to go effectively from CAD → CAM → CNC. As such handing over a CNC project to the CNC shop is inefficient. V²CAM.Flow is an attempt to solve this problem for us and possibly also for the CNC industry. Read more → [V²CAM.Flow]({{site.baseurl}}/plan/flow/mechanical/cad-cam-cnc/)|
 |      Standard Creation | Workflow on creating a V² Standard Document with all supporting technical files.|
 |     Release Management | Workflow on publishing a new release of a V²Standard including promotion.|
 |     Version Management | Workflow, specs, tutorials and tools on version management of V² Standards.|
@@ -281,9 +281,9 @@ The standards below ensure that the V² Standard documents are presented in a co
 |-----------------------:|:-------------|
 |      V² Software Stack | List of all Software used to create all document types published on V² Site. All software we use is part of FOSS (Free and Open Source Software) to remove entry barriers to contributors and users of V² Standards.|
 |        V² File Formats | List of file formats, when to use them and which application is best to open them. Discussion on why we selected one file format over another. Until today every file that we publish can be opened in a FOSS application (Free and Open Source Software)|
-|         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide](https://v-squared.github.io/plan/flow/writing/style-guide/) |
+|         V² Style Guide | Set of standards on writing and designing articles for V². Read more → [Style Guide]({{site.baseurl}}/plan/flow/writing/style-guide/) |
 |                 V² Art | Visual Style Guides for Illustrations. Workflows on creating Photos, Snapshots, Pixel, Vector and Interactive Illustrations. |
-|          V² Formatting | Tutorials and references on styling and formatting articles on V². Read more → [Basic Article Formatting](https://v-squared.github.io/plan/flow/writing/basic-formatting/) and [Advanced Article Formatting](https://v-squared.github.io/plan/flow/writing/advanced-formatting/) |
+|          V² Formatting | Tutorials and references on styling and formatting articles on V². Read more → [Basic Article Formatting]({{site.baseurl}}/plan/flow/writing/basic-formatting/) and [Advanced Article Formatting]({{site.baseurl}}/plan/flow/writing/advanced-formatting/) |
 |  V² Layout Style Guide | Consistent use of colors and text styles |
 
 
@@ -298,7 +298,7 @@ Developing, publishing and making a standard mainstream is no small feat. When l
 
 ## Detailed Plan {#detailed-plan}
 
-Development of V² is a coordinated community effort. Development happens on GitHub. Our Mission, Targets, Road Map and Milestones as well as our Contribution Workflow is spelled out in → [V² Plan](https://v-squared.github.io/plan/).
+Development of V² is a coordinated community effort. Development happens on GitHub. Our Mission, Targets, Road Map and Milestones as well as our Contribution Workflow is spelled out in → [V² Plan]({{site.baseurl}}/plan/).
 
 
 

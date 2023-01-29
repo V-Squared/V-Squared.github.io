@@ -108,7 +108,7 @@ To our knowledge Classeur is the first Markdown IDE which deliver you a complete
 
 ### Markdown WYSIWYG
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/intro-classeur.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/intro-classeur.png)
 
 Many authors find writing in markdown more productive than using other authoring tools. In the past it came at the loss of WYSIWYG. Classeur now offers the best of both worlds: The zen style focus and speed of writing in markdown and the intuitive review power of WYSIWYG. 
 
@@ -120,7 +120,7 @@ The snapshot above was taken when I wrote this Classeur Manual in Classeur:
 
 ### Single Click Publish
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-single-click.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-single-click.png)
 
 With a single click you can publish your writing. Provided you linked your blog / server accordingly.
 
@@ -154,7 +154,7 @@ It promises interesting collaboration features. I will document them after I hav
 | Export | ✔ | Exceptional Export functionality: Markdown, Plain & styled HTML, PDF, RTF, OpenOffice, Word, EPUB, LaTex, and many more through PanDoc. |
 | Cross Platform | ✔ | Runs in browser! |
 | Offline Editing | ✔ | Firefox Version available. Windows coming soon |
-| User Manual | ⚠ |  This [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) is a community project. It is not complete yet.
+| User Manual | ⚠ |  This [Classeur > Manual]({{site.baseurl}}/plan/flow/publishing/classeur-manual/) is a community project. It is not complete yet.
 | Zen Mode | ⚠ | Nice to use. But complex to turn on. Only works without Preview & ToC. Scheduled to be fixed soon. |
 | Table of Contents | ⚠ | Usable, but with bugs requiring workaround.  |
 | GitHub Push / Pull | ⚠ | Push is implemented, Pull is not. |
@@ -174,7 +174,7 @@ __Bottom Line:__  We work much faster and have more fun at work with Classeur th
 - [Classeur > Home](http://classeur.io/) Home Page of Markdown IDE
 - [Classeur > App](https://app.classeur.io/) Classeur in browser app
 - [Classeur > Support](https://github.com/classeur/classeur/issues) GitHub Issues of Classeur
-- [Classeur > Manual](https://v-squared.github.io/plan/flow/publishing/classeur-manual/) Community Manual of Classeur
+- [Classeur > Manual]({{site.baseurl}}/plan/flow/publishing/classeur-manual/) Community Manual of Classeur
 
 {:.v2-chapter}
 
@@ -204,13 +204,13 @@ Classeur organizes your documents in just the same way as you would file them in
 
 ### Folders
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/folders.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/folders.png)
 
 (??? I need to make a new snap shot after I reorganized my folders and binders)
 
 ### Binders
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/binders.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/binders.png)
 
 
 ## 3 Screens for 3 Modes
@@ -230,7 +230,7 @@ __Classeur Navigation:__ This is the heart of Classeur navigation. From here you
 
 __Article Management:__ You can do all the things that a file explorer offers in your OS: Finding, moving, deleting, renaming of articles aka documents aka files. 
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-exploring.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/screen-exploring.png)
 
 
 1. Current Binder.
@@ -256,7 +256,7 @@ __Tip:__ These screenshots are made of a configured Classeur app in order to sho
 
 This is the place where you configure Classeur so it will work for you:
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-settings.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/screen-settings.png)
 
 1. Title of *Settings Screen*
 2. Close *Settings Screen* and return to *Explorer Screen*
@@ -276,7 +276,7 @@ This is the place where you configure Classeur so it will work for you:
 
 Finally this is the screen where you get all your writing done.
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/screen-writing.png)
 
 1. Tab Name. On first load it shows you the document name. On reload it shows "Classeur". We hope in the future it always shows you the document name → [Document Name lost in tab on reload #150](https://github.com/classeur/classeur/issues/150)
 2. Your document's URL. You can bookmark the link to this article.
@@ -296,7 +296,7 @@ Finally this is the screen where you get all your writing done.
 
 This sub-screen of the *Writing Screen* contains all editor's menu functions. This screen is revealed when you click on the vertical menu button. This is Classeur's clever way to save vertical space, which is always a good thing for an editor.
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-writing-menu.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/screen-writing-menu.png)
 
 1. Press __Menu__ button to unfold the *Writing-Menu Screen*. Press again to return to writing.
 2. The __Writing-Menu Screen__ containing below adjustment buttons, requester and screens:
@@ -324,7 +324,7 @@ This sub-screen of the *Writing Screen* contains all editor's menu functions. Th
 1. Open [Writing-Menu Screen](#writing-menu-screen)
 2. Adjust the *Writing Screen Preferences*. See below table for more details:
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/set-up-top-level.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/set-up-top-level.png)
 
 All changes are instant (except for Zen Mode). See below for more details:
 
@@ -345,9 +345,9 @@ All changes are instant (except for Zen Mode). See below for more details:
 This setting adjusts how many levels are shown in the Inline ToC (Table of Contents):
 
 1. Open Menu > Properties
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/menu-properties.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/menu-properties.png)
 2. Enter Key: ext:markdown:tocdepth and set value: 2
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/file-properties.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/file-properties.png)
 3. Click OK
 
 __Note:__ You can choose values from 1 ... 6. Tests have shown that most online readers find one level too coarse and 3 levels too detailed. This is different than in print media where 3 ... 4 levels are standard.
@@ -356,7 +356,7 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
 
 1. Go to *Explorer Screen*, e.g. by clicking  →  [https://app.classeur.io/](https://app.classeur.io/)
 2. Click "SIGN I WITH GOOGLE"
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/account-sign-in.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/account-sign-in.png)
 3. Follow the instructions
 
 ## Tutorial Link Host
@@ -365,18 +365,18 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
    - If you are on the *Explorer Screen* click the gear icon ⚙
 2. Click the Blog Tab:
 3. Click the *LINK BLOG* button
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/account-link-blog.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/account-link-blog.png)
 4. Select the platform. In our case GitHub.
 5. Fill out the *Link Blog Requester*
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-settings-blog-link-blog-2.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-settings-blog-link-blog-2.png)
 6. Click OK
 7. Authorize Application via GitHub
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-authorization.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-authorization.png)
    - For safety reasons compare 1 ... 4 for authenticity.
 8. Confirm GitHub password:
-   - ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-confirm-pw.png)
+   - ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-confirm-pw.png)
 9. Your Linked Host is now listed in Setting > Blogs
-   -  ![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-linked-blog.png)
+   -  ![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-linked-blog.png)
 
 
 {:.v2-chapter}
@@ -396,7 +396,7 @@ __Note:__ You can choose values from 1 ... 6. Tests have shown that most online 
 
 To reach the *Explorer Screen* close the *Writing Screen* or *Settings Screen*. Or simply click →  [https://app.classeur.io/](https://app.classeur.io/) or type it into your browser's URL field.
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/screen-exploring.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/screen-exploring.png)
 
 
 1. Current Binder.
@@ -513,7 +513,7 @@ __Note:__ We created the issue → [Zen Mode: Trigger as soon as user begins typ
 
 ### Inline ToC
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/ToC-inline.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/ToC-inline.png)
 
 You can insert a Table of Contents (ToC) anywhere within your document with the ```[TOC]``` command.
 
@@ -640,11 +640,11 @@ You only can export your ToC (Table of Contents) if you have inserted an → [In
 
 ### Open Publishing Preferences
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/publish-menu-publish.png)
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/publish-menu-publish.png)
 
 
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/plan/flow/publishing/classeur-manual/
+![]({{site.baseurl}}/plan/flow/publishing/classeur-manual/
 
 
 

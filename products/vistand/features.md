@@ -13,7 +13,7 @@ feature: true
 vistand-modular-all-in-One:
   title: ViStand™ Modular All-in-One
   desc: This All-in-One looks so cool that no one will ever guess that you built it from your computer components.
-  img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png
+  img: /art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png
   callouts:
     - content: '**VESA Displays 22" … 34"** ViStand is compatible with any display ranging in size from 22" … 34" and having a 75 mm or 100 mm VESA mount.'
       x: 49
@@ -36,16 +36,16 @@ any-vesa-computer-mount:
   direction: right
   vertical-tabs:
     - title: HideIt Alienware
-      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png
+      img: /art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png
       desc: Designed specifically for the Alienware Alpha or Steam
     - title: HideIt MacMini
-      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png
+      img: /art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png
       desc: Designed specifically for one Mac mini model.
     - title: Intel NUC
-      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png
+      img: /art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png
       desc: Intel® NUC Kits include a VESA mount bracket.
     - title: ViCase Bracket
-      img: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png
+      img: /art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png
       desc: VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.
 ---
 
@@ -60,7 +60,7 @@ This All-in-One looks so cool that no one will ever guess that you built it from
 
 <v2-switcher>
 	<div class="callout-container">
-  <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png">
+  <img src="{{site.baseurl}}/art/vistand/vistand-modular-all-in-one/vistand-modular-all-in-one-raw.png">
   <div v2-switch-item="0" class="callout" style="top: 32%;left: 49%;"></div>
   <div v2-switch-item="1" class="callout" style="top: 2%;left: 52%;"></div>
   <div v2-switch-item="2" class="callout" style="top: 7%;left: 41%;"></div>
@@ -94,7 +94,7 @@ Going vertical is the secret! Elevate all your computer parts off the desktop an
 
 <v2-switcher>
   <div class="callout-container">
-    <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-elevating-parts/vistand-modular-all-in-one-raw.png">
+    <img src="{{site.baseurl}}/art/vistand/vistand-elevating-parts/vistand-modular-all-in-one-raw.png">
     <div class="callout" style="top: 84%; left: 52%" v2-switch-item="0"></div>
     <div class="callout" style="top: 91%; left: 43%" v2-switch-item="1"></div>
     <div class="callout" style="top: 63%; left: 66%" v2-switch-item="2"></div>
@@ -139,7 +139,7 @@ Real world solution to hide and secure all your cables, extensions, and adapters
 
 <v2-switcher>
 <div class="callout-container">
-  <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png">
+  <img src="{{site.baseurl}}/art/vistand/vistand-organizes-cables/vistand-organizes-cables-raw.png">
   <div class="callout" style="top: 90%;left: 63%;" v2-switch-item="0"></div>
   <div class="callout" style="top: 30%;left: 84%;" v2-switch-item="1"></div>
   <div class="callout" style="top: 61%;left: 42%;" v2-switch-item="2"></div>
@@ -185,7 +185,7 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
 
 <v2-switcher>
 <div class="callout-container">
-  <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
+  <img src="{{site.baseurl}}/art/vistand/vimount-mobile-docking/vimount-mobile-docking-raw.png">
   <div class="callout" style="top: 16%;left: 57%;" v2-switch-item="0"></div>
   <div class="callout" style="top: 42%;left: 40%;" v2-switch-item="1"></div>
   <div class="callout" style="top: 37%;left: 47%;" v2-switch-item="2"></div>
@@ -216,9 +216,9 @@ ViStand with ViMount used as a Mobile Docking Station is designed to streamline 
 
 A view of ViStand with all included parts assembled. You will never use ViStand without third party components, but for the first time here you actually can see the product. We designed ViStand so well, that in use it actually disappears. A real marketing problem!
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-front-raw.png)
+![]({{site.baseurl}}/art/vistand/vistand-naked/vistand-naked-front-raw.png)
 
-![](https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/vistand-naked/vistand-naked-rear-raw.png)
+![]({{site.baseurl}}/art/vistand/vistand-naked/vistand-naked-rear-raw.png)
 
 {% include feature-sections/vertical-tabs-section id="any-vesa-computer-mount" %}
 
@@ -227,19 +227,19 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png">
+        <img src="{{site.baseurl}}/art/vistand/any-vesa-mount/any-vesa-mount-alienware-raw.png">
         <p class="caption-text">Designed specifically for the Alienware Alpha or Steam</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png">
+        <img src="{{site.baseurl}}/art/vistand/any-vesa-mount/any-vesa-mount-macmini-raw.png">
         <p class="caption-text">Designed specifically for one Mac mini model.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png">
+        <img src="{{site.baseurl}}/art/vistand/any-vesa-mount/any-vesa-mount-nuc-raw.png">
         <p class="caption-text">Intel® NUC Kits include a VESA mount bracket.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png">
+        <img src="{{site.baseurl}}/art/vistand/any-vesa-mount/any-vesa-mount-vicase-raw.png">
         <p class="caption-text">VESA mount for ViCase. The upcoming companion product to ViStand, which is a Mini computer, built completely from desktop parts.</p>
       </v2-switch-text>
     </div>
@@ -271,35 +271,35 @@ A view of ViStand with all included parts assembled. You will never use ViStand 
   <div layout="column" layout-gt-sm="row" class="feature-row">
     <div flex-gt-sm="50" flex-order="2" flex-order-gt-sm="0">
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-optimized-cooling-raw.png">
         <p class="caption-text">ViMount is designed to maximize airflow around all six sides of your device. This is why we lovingly call this the ViMount 6-Way Airflow™. The arrows illustrate that your computer is cooled from all six sides.This is distinctly different than holders made of sheet metal, which act as thermal insulators.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-secure-notebook-raw.png">
         <p class="caption-text">Adjustable elastic cord secures your valuable device gently but firmly.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-match-vistand-raw.png">
         <p class="caption-text">… in both styling and materials.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-macmini-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-macmini-raw.png">
         <p class="caption-text">ViMount is compatible with any version. Even better, if Apple comes out with a new shape it still will work with your old ViMount.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-notebook-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-notebook-raw.png">
         <p class="caption-text">Whatever your laptop size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several notebooks (or tablets), of varying sizes, which all will work when using this as a shared mobile workstation.</p>
       </v2-switch-text>
       <v2-switch-text>
-        <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-tablet-raw.png">
+        <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-tablet-raw.png">
         <p class="caption-text">Whatever your tablet size, the ViMount holds it securely. And when you upgrade it, you will not be forced to replace your VESA notebook holder. Also, you may have several tablets (or notebooks), of varying sizes, which all will work when using this as a shared mobile workstation.</p>
       </v2-switch-text>
       <v2-switch-text>
-         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
+         <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-alienware-raw.png">
          <p class="caption-text">Turn the Alpha into a slightly sinister, but seriously sexy All-in-One! Be confident that this configuration will not throttle your Alienware’s performance, thanks to the ViMount 6-Way Airflow™ described in the tab "Optimized for Cooling".</p>
       </v2-switch-text>
       <v2-switch-text>
-         <img src="https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
+         <img src="{{site.baseurl}}/art/vimount/uni-vesa-comp-mount/vimount-nuc-raw.png">
          <p class="caption-text">Even the NUC’s ultra small package is held securely in ViMount, when using with 75 mm VESA spacing. You may want to secure it with the elastic cord.</p>
       </v2-switch-text>
     </div>

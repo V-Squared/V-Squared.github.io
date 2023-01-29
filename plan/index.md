@@ -4,7 +4,7 @@ title: V² Plan
 issueNo: 91
 articleBar: 'no'
 index: true
-visualURL: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/titles/plan/plan
+visualURL: /images/titles/plan/plan
 readiness:
    - is-complete
    - is-complete

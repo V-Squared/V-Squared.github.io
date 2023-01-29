@@ -154,22 +154,22 @@ In order to provide the reader a wonderful experience the structured writing is 
 |     [Markup Styling][14] | Specs for CSS programmer.                               |
 |     [Business Model][15] | Return of Investment of writing for V²Core and V²Shop.  |
 
-[0]: https://v-squared.github.io/plan/flow/writing/solve-problems/
-[1]: https://v-squared.github.io/plan/flow/writing/workflow/
-[2]: https://v-squared.github.io/plan/flow/writing/teamwork/
-[3]: https://v-squared.github.io/plan/flow/writing/structured/
-[4]: https://v-squared.github.io/plan/flow/writing/markdown-markup/
-[5]: https://v-squared.github.io/plan/flow/writing/markdown-tools/
-[6]: https://v-squared.github.io/plan/flow/writing/appetizing/
-[7]: https://v-squared.github.io/plan/flow/writing/adding-articles/
-[8]: https://v-squared.github.io/plan/flow/writing/publishing/
-[9]: https://v-squared.github.io/plan/flow/writing/producing/
-[10]: https://v-squared.github.io/plan/flow/writing/template-article/
-[11]: https://v-squared.github.io/plan/flow/writing/template-issue/
-[12]: https://v-squared.github.io/plan/flow/writing/preflight/
-[13]: https://v-squared.github.io/plan/flow/writing/art-for-writing/
-[14]: https://v-squared.github.io/plan/flow/writing/styling/
-[15]: https://v-squared.github.io/plan/flow/writing/business/
+[0]: {{site.baseurl}}/plan/flow/writing/solve-problems/
+[1]: {{site.baseurl}}/plan/flow/writing/workflow/
+[2]: {{site.baseurl}}/plan/flow/writing/teamwork/
+[3]: {{site.baseurl}}/plan/flow/writing/structured/
+[4]: {{site.baseurl}}/plan/flow/writing/markdown-markup/
+[5]: {{site.baseurl}}/plan/flow/writing/markdown-tools/
+[6]: {{site.baseurl}}/plan/flow/writing/appetizing/
+[7]: {{site.baseurl}}/plan/flow/writing/adding-articles/
+[8]: {{site.baseurl}}/plan/flow/writing/publishing/
+[9]: {{site.baseurl}}/plan/flow/writing/producing/
+[10]: {{site.baseurl}}/plan/flow/writing/template-article/
+[11]: {{site.baseurl}}/plan/flow/writing/template-issue/
+[12]: {{site.baseurl}}/plan/flow/writing/preflight/
+[13]: {{site.baseurl}}/plan/flow/writing/art-for-writing/
+[14]: {{site.baseurl}}/plan/flow/writing/styling/
+[15]: {{site.baseurl}}/plan/flow/writing/business/
 
 ## But one link in a chain
 

@@ -91,7 +91,7 @@ FreeCAD will also be needed as constant reference to extract the 3D information.
 
 ## Why we choose Cambam
 
-Please see → [Choosing CAM Softare](https://v-squared.github.io/plan/flow/mechanical/pick-cam-app/)
+Please see → [Choosing CAM Softare]({{site.baseurl}}/plan/flow/mechanical/pick-cam-app/)
 
 ## Understanding 2.5D
 
@@ -259,7 +259,7 @@ FreeCAD is **the** CAD application used in the community. That is why we build o
 
 ## CAM: Cambam & Cutviewer
 
-These are defacto standards in the CNC community. They cost a few hundred USD but in turn they work very well for our purpose. There are Free and Open Source apps available for this job. We tried them and found that they are not ready yet to be used in production. For more details → [Choosing CAM Software](https://v-squared.github.io/plan/flow/mechanical/pick-cam-app/)
+These are defacto standards in the CNC community. They cost a few hundred USD but in turn they work very well for our purpose. There are Free and Open Source apps available for this job. We tried them and found that they are not ready yet to be used in production. For more details → [Choosing CAM Software]({{site.baseurl}}/plan/flow/mechanical/pick-cam-app/)
 
 
 

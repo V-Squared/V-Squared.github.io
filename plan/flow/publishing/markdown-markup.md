@@ -102,7 +102,7 @@ In turn headings guide readers with three functions:
  1. A heading must always be preceded by a blank line except at the beginning of the document.
  2. A heading must always be followed by blank line (not required in markdown).
  3. The higher the heading hierarchy the shorter it should be written!
- 4. How to automatically generate the table of contents is explained in → [Appetizing Articles / Automatic ToC](https://v-squared.github.io/plan/flow/publishing/appetizing/#automatic-toc).
+ 4. How to automatically generate the table of contents is explained in → [Appetizing Articles / Automatic ToC]({{site.baseurl}}/plan/flow/publishing/appetizing/#automatic-toc).
 
 ### Example Code
 

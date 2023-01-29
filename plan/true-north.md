@@ -5,7 +5,7 @@ title: True North
 subtitle: V² Mission, Benefits, Life after V², and Principles
 abstract: >
    *V² Mission* is a succinct description of our targets, while *V² Benefits* is a list of advantages introduced by V² Open Modular Mini PC. *Life after V²* draws a picture of how life will look after V² has become mainstream from three distinct points of view:  those of computer users, retailers, and manufacturers. Finally, *V² Principles* will give anyone evaluating V² an clear idea about our ethics and working methods. *V² Principles* are also constantly used as references in the decision making processes of the V² team and community. As always you can provide feedback and contributions via *V²Flow Button*.
-visualURL: https://raw.githubusercontent.com/V-Squared/V-Squared.github.io/master/images/titles/true-north/true-north
+visualURL: /images/titles/true-north/true-north
 issueNo: 100
 color: deep-orange
 contents:

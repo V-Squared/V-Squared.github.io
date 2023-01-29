@@ -429,7 +429,7 @@ Jekyll is a web site compiler. The output is a static website. During compilatio
 ## Two Types of Repositories
 
 ### Web Site Repository
-Each *GitHub Organization* can create one special repository with the name: {organization-name}.github.io. Our *Organization Name* is *V-Squared* so our web site repository name is: ```V-Squared.github.io```. The content in the ```master``` branch will be interpreted by GitHub as the *GitHub Web Site* for your *Organization*. It creates automatically the URL: https://{organization-name}.github.io which in our case is: [https://v-squared.github.io/](https://v-squared.github.io/). Thanks to HTTPS in combination with the Jekyll pre-compiler concept this site is very fast.
+Each *GitHub Organization* can create one special repository with the name: {organization-name}.github.io. Our *Organization Name* is *V-Squared* so our web site repository name is: ```V-Squared.github.io```. The content in the ```master``` branch will be interpreted by GitHub as the *GitHub Web Site* for your *Organization*. It creates automatically the URL: https://{organization-name}.github.io which in our case is: [{{site.baseurl}}/](/). Thanks to HTTPS in combination with the Jekyll pre-compiler concept this site is very fast.
 
 Each *Project Repository* has its own gh-pages web site. For consistency and simplicity reason we have opted for now to host all web pages in this repository. This means all web pages in regards to other *Project Repositories* are also hosted here. 
 
